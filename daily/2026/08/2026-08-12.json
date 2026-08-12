@@ -1,13 +1,13 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T23:20:00.314Z",
+  "generatedAt": "2026-08-12T23:54:02.892Z",
   "window": {
-    "from": "2026-08-11T23:20:00.314Z",
-    "to": "2026-08-12T23:20:00.314Z"
+    "from": "2026-08-11T23:54:02.892Z",
+    "to": "2026-08-12T23:54:02.892Z"
   },
   "stats": {
-    "fetched": 24,
-    "shown": 24,
+    "fetched": 27,
+    "shown": 27,
     "folded": 0
   },
   "sources": [
@@ -33,7 +33,7 @@
       "id": "hn",
       "name": "Hacker News",
       "ok": true,
-      "count": 14
+      "count": 13
     },
     {
       "id": "platformer",
@@ -124,328 +124,129 @@
       "name": "caolan.uk",
       "ok": true,
       "count": 0
+    },
+    {
+      "id": "notboring",
+      "name": "Not Boring",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "lennys",
+      "name": "Lenny's Newsletter",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "slowboring",
+      "name": "Slow Boring",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "noahpinion",
+      "name": "Noahpinion",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "ruanyifeng",
+      "name": "阮一峰的网络日志",
+      "ok": true,
+      "count": 0
     }
   ],
   "articles": [
     {
-      "id": "828e7944bf14cb4b1f6a3d69680825fc615fa3da",
-      "sourceId": "westenberg",
-      "category": "culture",
-      "title": "I Deleted My Calendar Link. And I’m Never Going Back",
-      "url": "https://www.joanwestenberg.com/p/i-deleted-my-calendar-link-and-im",
-      "author": "JA Westenberg",
-      "publishedAt": "2026-08-12T22:11:24.000Z",
-      "image": "https://images.unsplash.com/photo-1622799622659-25906a2cf2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMjl8fGNhbGVuZGFyJTIwYXBwfGVufDB8fHx8MTc4NjU3MjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "readingMinutes": 3,
-      "score": 0,
-      "rank": 1,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "e9d76bcff40284cb88620ce18c3b9861e58be304",
-      "sourceId": "marginal",
-      "category": "culture",
-      "title": "Mistakes in financial economics",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/mistakes-in-financial-economics.html",
-      "author": "Tyler Cowen",
-      "publishedAt": "2026-08-12T18:46:44.000Z",
-      "image": null,
-      "readingMinutes": 2,
-      "score": 0,
-      "rank": 2,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "d2535f0238128c31f1476749c756e97490cf0c71",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "Delta",
-      "url": "https://zed.dev/blog/introducing-delta",
-      "author": "khy",
-      "publishedAt": "2026-08-12T18:19:59.000Z",
-      "image": null,
-      "readingMinutes": 5,
-      "score": 0,
-      "rank": 3,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "adafd8deace0a86bf2064fdd8ff4083aa29a941c",
-      "sourceId": "xda-ai-tools",
-      "category": "culture",
-      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
-      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
-      "author": "Rich Edmonds",
-      "publishedAt": "2026-08-12T18:00:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
-      "readingMinutes": 6,
-      "score": 0,
-      "rank": 4,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "32cdb4e18a7ec1e9ef2673a3359ad7870728dc48",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
-      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-      "author": "wertyk",
-      "publishedAt": "2026-08-12T16:54:25.000Z",
-      "image": null,
-      "readingMinutes": 4,
-      "score": 0,
-      "rank": 5,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "7d7111d3426c018bf85be26fcc844f1a952bb5ef",
-      "sourceId": "marginal",
-      "category": "culture",
-      "title": "Wednesday assorted links",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-566.html",
-      "author": "Tyler Cowen",
-      "publishedAt": "2026-08-12T16:12:03.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 0,
-      "rank": 6,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "fbdfaa10f2aa8cf25060a89506238197bec9738d",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "DeepSeek V4 Pro 0813",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "author": "explosion-s",
-      "publishedAt": "2026-08-12T16:04:50.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 0,
-      "rank": 7,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "abadfb45f943fcd5c50b47d2f18462ba3144cbba",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "Grok 4.6",
-      "url": "https://x.ai/news/grok-4-6",
-      "author": "iLuddite",
-      "publishedAt": "2026-08-12T15:32:50.000Z",
-      "image": null,
-      "readingMinutes": 4,
-      "score": 0,
-      "rank": 8,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "f9e1ef66ab3da5c60dafd5b54edf0f328df3b39e",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "Qwen3.8-2.4T",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "author": "Philpax",
-      "publishedAt": "2026-08-12T15:01:17.000Z",
-      "image": null,
-      "readingMinutes": 38,
-      "score": 0,
-      "rank": 9,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "d8d84c04601d267495ffcc933e62f0c80ebc0d85",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "License plate reader searches should require a warrant",
-      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
-      "author": "apwheele",
-      "publishedAt": "2026-08-12T14:43:39.000Z",
-      "image": null,
-      "readingMinutes": 15,
-      "score": 0,
-      "rank": 10,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
       "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
       "sourceId": "hn",
-      "category": "culture",
+      "category": "tech",
       "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
       "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
       "author": "ropbear",
       "publishedAt": "2026-08-12T14:22:30.000Z",
       "image": null,
       "readingMinutes": 13,
-      "score": 0,
-      "rank": 11,
+      "score": 90,
+      "rank": 1,
       "summary": {
         "zh": {
-          "thesis": "",
-          "points": []
+          "thesis": "Tailscale追踪到SQLite中一个16年历史的罕见数据竞争错误。",
+          "points": [
+            "手动控制检查点导致更频繁触发错误。",
+            "错误导致写入事务在检查点期间丢失页面。",
+            "修复已发布，但需谨慎部署以避免其他回归问题。"
+          ]
         },
         "en": {
-          "thesis": "",
-          "points": []
+          "thesis": "Tailscale traces a database corruption to a 16-year-old rare data race bug in SQLite.",
+          "points": [
+            "Manual checkpoint control triggers the bug more frequently.",
+            "The bug loses write transactions during checkpointing.",
+            "A fix is released, but deployment requires caution to avoid regressions."
+          ]
         }
       }
     },
     {
-      "id": "db17db76e2acea7cf8e8aa788dec1db1458bd90f",
+      "id": "d8d84c04601d267495ffcc933e62f0c80ebc0d85",
       "sourceId": "hn",
-      "category": "culture",
-      "title": "Tim King, AmigaDOS developer, has died",
-      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
-      "author": "doener",
-      "publishedAt": "2026-08-12T14:09:11.000Z",
+      "category": "tech",
+      "title": "License plate reader searches should require a warrant",
+      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+      "author": "apwheele",
+      "publishedAt": "2026-08-12T14:43:39.000Z",
       "image": null,
-      "readingMinutes": 1,
-      "score": 0,
-      "rank": 12,
+      "readingMinutes": 16,
+      "score": 85,
+      "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "",
-          "points": []
+          "thesis": "车牌识别历史数据搜索应需搜查令，而非删除数据。",
+          "points": [
+            "删除数据并不能防止滥用，反而妨碍合法侦查。",
+            "未来摄像头将无处不在，法律迟早要求搜查令。",
+            "建议设立明确惩罚和第三方审计，而非依赖数据留存。"
+          ]
         },
         "en": {
-          "thesis": "",
-          "points": []
+          "thesis": "License plate reader historical searches should require warrants, not data deletion.",
+          "points": [
+            "Deleting data doesn't prevent abuse and hinders legitimate investigations.",
+            "Future cameras will be everywhere, and warrants will be legally required.",
+            "Proposes clear penalties and third-party audits rather than data retention."
+          ]
         }
       }
     },
     {
-      "id": "6a35fe7f03ed472b5678fb255c8c0cfdbb810e68",
-      "sourceId": "hn",
+      "id": "9bb49da5b9486be43e7b7d78af3283b3a93f4397",
+      "sourceId": "noahpinion",
       "category": "culture",
-      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-      "url": "https://knownagents.com/insights",
-      "author": "gavinhking",
-      "publishedAt": "2026-08-12T14:02:46.000Z",
-      "image": null,
-      "readingMinutes": 21,
-      "score": 0,
-      "rank": 13,
+      "title": "Roundup #86: Unintended consequences",
+      "url": "https://www.noahpinion.blog/p/roundup-86-unintended-consequences",
+      "author": "Noah Smith",
+      "publishedAt": "2026-08-12T08:27:04.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!1LQu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a890f5e-762d-4e90-b9cd-9b76d5271ecf_960x721.jpeg",
+      "readingMinutes": 19,
+      "score": 85,
+      "rank": 3,
       "summary": {
         "zh": {
-          "thesis": "",
-          "points": []
+          "thesis": "本周合集揭示政策与技术的意外后果，从MAGA衰退到AI促进外包。",
+          "points": [
+            "MAGA影响力下降，因未建立持久机构。",
+            "劳动份额下降部分源于税收分类和股票薪酬，未必真实。",
+            "AI尚未提升生产率，但投资本身带来宏观增长。"
+          ]
         },
         "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "44f52ae79f9df1afdc3b8388b92b23cebce5201e",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "Why tiny JPEGs look different in Chrome",
-      "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
-      "author": "gutechh",
-      "publishedAt": "2026-08-12T14:00:54.000Z",
-      "image": null,
-      "readingMinutes": 4,
-      "score": 0,
-      "rank": 14,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
+          "thesis": "This week's roundup reveals unintended consequences of policy and tech, from MAGA decline to AI promoting outsourcing.",
+          "points": [
+            "MAGA influence wanes due to lack of lasting institutions.",
+            "Declining labor share partly stems from tax classification and stock compensation, possibly not real.",
+            "AI hasn't boosted productivity yet, but investment itself yields macro growth."
+          ]
         }
       }
     },
@@ -459,154 +260,117 @@
       "publishedAt": "2026-08-12T13:20:05.000Z",
       "image": null,
       "readingMinutes": 6,
-      "score": 0,
-      "rank": 15,
+      "score": 80,
+      "rank": 4,
       "summary": {
         "zh": {
-          "thesis": "",
-          "points": []
+          "thesis": "AI让平庸工程师能制造大量技术债，正在淘汰中间层。",
+          "points": [
+            "AI提高了代码产出速度，但审阅和理解能力没有跟上。",
+            "糟糕的工程师现在能更快地积累复杂性和债务。",
+            "判断力成为最稀缺的技能，优秀工程师更值钱。"
+          ]
         },
         "en": {
-          "thesis": "",
-          "points": []
+          "thesis": "AI lets mediocre engineers generate massive technical debt, eroding the middle class of software engineering.",
+          "points": [
+            "AI boosts code output speed, but review and comprehension lag behind.",
+            "Poor engineers now accumulate complexity and debt faster.",
+            "Judgment becomes the scarcest skill, making good engineers more valuable."
+          ]
         }
       }
     },
     {
-      "id": "ae9af6d8bb877bded07fcdbf1de158d81ebe00ea",
+      "id": "05de32c56e427a128ec37a6788d9aa35da7feb65",
+      "sourceId": "neciudan",
+      "category": "ai",
+      "title": "AI Agents: Architecture",
+      "url": "https://neciudan.dev/ai-agents-architecture",
+      "author": null,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "image": null,
+      "readingMinutes": 11,
+      "score": 80,
+      "rank": 5,
+      "summary": {
+        "zh": {
+          "thesis": "AI代理架构需拆分为多个步骤，而非依赖单一强大模型。",
+          "points": [
+            "单一模型调用在成本、可见性和优化上不如拆分。",
+            "分类、提取等简单任务用小型模型可降低成本。",
+            "工具循环中使用前沿模型驱动，但预算检查用代码确保准确性。"
+          ]
+        },
+        "en": {
+          "thesis": "AI agent architecture should split into multiple steps rather than rely on a single powerful model.",
+          "points": [
+            "Single model calls are less cost-effective, less observable, and harder to optimize than splitting.",
+            "Use small models for simple tasks like classification and extraction to cut costs.",
+            "Use frontier models for the tool loop, but code-based budget checks ensure accuracy."
+          ]
+        }
+      }
+    },
+    {
+      "id": "c0af7738fc6318ff81d2747a8cd2911585f9b0df",
+      "sourceId": "slowboring",
+      "category": "culture",
+      "title": "Abdul El-Sayed can win moderate voters",
+      "url": "https://www.slowboring.com/p/abdul-el-sayed-can-win-moderate-voters",
+      "author": "Matthew Yglesias",
+      "publishedAt": "2026-08-12T10:03:50.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!nmR4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6efdb440-f21d-46a8-b6bd-9be8d50efdc7_3925x2617.jpeg",
+      "readingMinutes": 12,
+      "score": 78,
+      "rank": 6,
+      "summary": {
+        "zh": {
+          "thesis": "El-Sayed能以温和派身份赢得密歇根州参议院选举。",
+          "points": [
+            "左翼身份可通过聚焦国内问题赢得温和选民。",
+            "在以色列和医保上采取务实现实路径。",
+            "避免成为派系工具，与党内团结合作至关重要。"
+          ]
+        },
+        "en": {
+          "thesis": "El-Sayed can win Michigan's Senate race by positioning as a moderate.",
+          "points": [
+            "Leftist identity can win moderates by focusing on domestic issues.",
+            "He takes pragmatic paths on Israel and healthcare.",
+            "Avoiding being a factional tool and cooperating with party unity is crucial."
+          ]
+        }
+      }
+    },
+    {
+      "id": "e9d76bcff40284cb88620ce18c3b9861e58be304",
       "sourceId": "marginal",
-      "category": "culture",
-      "title": "Fast Company covers New Aesthetics",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/fast-company-covers-new-aesthetics.html",
+      "category": "investing",
+      "title": "Mistakes in financial economics",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/mistakes-in-financial-economics.html",
       "author": "Tyler Cowen",
-      "publishedAt": "2026-08-12T13:19:06.000Z",
+      "publishedAt": "2026-08-12T18:46:44.000Z",
       "image": null,
-      "readingMinutes": 1,
-      "score": 0,
-      "rank": 16,
+      "readingMinutes": 2,
+      "score": 75,
+      "rank": 7,
       "summary": {
         "zh": {
-          "thesis": "",
-          "points": []
+          "thesis": "声称AI将毁灭世界的人应买入看跌期权，否则暴露其真实信念。",
+          "points": [
+            "买深度价外看跌期权成本低，可对冲末日风险。",
+            "拒绝下单暴露了内心其实不认为AI会那么糟。",
+            "长期持仓容易，做空或对冲才真正暴露信念。"
+          ]
         },
         "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "ab198bd7e06c22c59140b7f452a1d47b2ef27e38",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "2026 Eclipse Webcams",
-      "url": "https://jonty.github.io/2026_eclipse_webcams/",
-      "author": "zoenolan",
-      "publishedAt": "2026-08-12T11:53:01.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 0,
-      "rank": 17,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "471385e451e96088f1af8c9c9b772073d3919eb4",
-      "sourceId": "xda-ai-tools",
-      "category": "culture",
-      "title": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
-      "url": "https://www.xda-developers.com/cant-believe-how-good-ai-coding-model-is-it-isnt-from-openai-or-anthropic/",
-      "author": "Parth Shah",
-      "publishedAt": "2026-08-12T11:30:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/grok-is-top-ai-coding-tool.jpeg",
-      "readingMinutes": 5,
-      "score": 0,
-      "rank": 18,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "9f388ba4fa3a5d1b415b07954670d67998b2d6aa",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
-      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
-      "author": "Markoff",
-      "publishedAt": "2026-08-12T11:28:27.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 0,
-      "rank": 19,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "e4d1ae4cabdd8e7c2d47c5cb168efa20b92a6c4e",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-      "url": "https://woxi.ad-si.com/",
-      "author": "adius",
-      "publishedAt": "2026-08-12T10:06:29.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 0,
-      "rank": 20,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "e223f696d7de00f4753ff0a19dc1fab47d30612d",
-      "sourceId": "heavybit",
-      "category": "culture",
-      "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
-      "url": "https://www.heavybit.com/library/podcasts/ep-10-the-system-is-more-than-the-code-with-charity-majors",
-      "author": "Heavybit",
-      "publishedAt": "2026-08-12T07:10:00.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 0,
-      "rank": 21,
-      "summary": {
-        "zh": {
-          "thesis": "",
-          "points": []
-        },
-        "en": {
-          "thesis": "",
-          "points": []
+          "thesis": "Those claiming AI will destroy the world should buy put options, or their true beliefs are exposed.",
+          "points": [
+            "Deep out-of-the-money puts are cheap and hedge against doomsday risk.",
+            "Refusing to place the order reveals they don't actually think AI is that bad.",
+            "Holding long is easy; shorting or hedging truly reveals conviction."
+          ]
         }
       }
     },
@@ -620,16 +384,55 @@
       "publishedAt": "2026-08-12T06:51:30.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 0,
-      "rank": 22,
+      "score": 75,
+      "rank": 8,
       "summary": {
         "zh": {
-          "thesis": "",
-          "points": []
+          "thesis": "俄罗斯人生活满意度在入侵乌克兰后上升，表明战时民族融合。",
+          "points": [
+            "幸福感增加在军事工业区更大，靠近前线更小。",
+            "这种差异模式难以用社会期望偏差解释。",
+            "到2024年，数据缺失增加，指标信息价值下降。"
+          ]
         },
         "en": {
-          "thesis": "",
-          "points": []
+          "thesis": "Russians' life satisfaction rose after invading Ukraine, indicating wartime national cohesion.",
+          "points": [
+            "Happiness gains are larger in military-industrial zones and smaller near the front.",
+            "This pattern is hard to explain away by social desirability bias.",
+            "By 2024, missing data increases, reducing the indicator's informational value."
+          ]
+        }
+      }
+    },
+    {
+      "id": "44f52ae79f9df1afdc3b8388b92b23cebce5201e",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "Why tiny JPEGs look different in Chrome",
+      "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+      "author": "gutechh",
+      "publishedAt": "2026-08-12T14:00:54.000Z",
+      "image": null,
+      "readingMinutes": 4,
+      "score": 70,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "Chrome对小型JPEG的优化导致渲染差异，源于部分解码。",
+          "points": [
+            "Chrome使用部分IDCT缩放，跳过高频数据。",
+            "在1/8缩放以下，只保留恒定分量，导致图像更粗。",
+            "JPEG格式不适合图标，建议使用SVG或PNG。"
+          ]
+        },
+        "en": {
+          "thesis": "Chrome's optimization for small JPEGs causes rendering differences due to partial decoding.",
+          "points": [
+            "Chrome uses partial IDCT scaling, skipping high-frequency data.",
+            "Below 1/8 scaling, it keeps only constant components, making images coarser.",
+            "JPEG isn't suited for icons; use SVG or PNG instead."
+          ]
         }
       }
     },
@@ -643,39 +446,541 @@
       "publishedAt": "2026-08-12T04:42:23.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 0,
-      "rank": 23,
+      "score": 70,
+      "rank": 10,
       "summary": {
         "zh": {
-          "thesis": "",
-          "points": []
+          "thesis": "美国移民收入同化加速，但回流移民表现较差。",
+          "points": [
+            "20%-33%的移民在10年内回流。",
+            "1990年代中期后的永久移民收入在10年内与本地人趋同。",
+            "回流移民起始收入类似但增长缓慢。"
+          ]
         },
         "en": {
-          "thesis": "",
-          "points": []
+          "thesis": "U.S. immigrant earnings assimilation has accelerated, but return migrants perform worse.",
+          "points": [
+            "20-33% of immigrants return within 10 years.",
+            "Permanent immigrants post-mid-1990s converge to native earnings within 10 years.",
+            "Return migrants start similarly but grow more slowly."
+          ]
         }
       }
     },
     {
-      "id": "05de32c56e427a128ec37a6788d9aa35da7feb65",
-      "sourceId": "neciudan",
+      "id": "828e7944bf14cb4b1f6a3d69680825fc615fa3da",
+      "sourceId": "westenberg",
       "category": "culture",
-      "title": "AI Agents: Architecture",
-      "url": "https://neciudan.dev/ai-agents-architecture",
-      "author": null,
-      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "title": "I Deleted My Calendar Link. And I’m Never Going Back",
+      "url": "https://www.joanwestenberg.com/p/i-deleted-my-calendar-link-and-im",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-12T22:11:24.000Z",
+      "image": "https://images.unsplash.com/photo-1622799622659-25906a2cf2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMjl8fGNhbGVuZGFyJTIwYXBwfGVufDB8fHx8MTc4NjU3MjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "readingMinutes": 3,
+      "score": 68,
+      "rank": 11,
+      "summary": {
+        "zh": {
+          "thesis": "删除日历链接，主动拥抱摩擦，以夺回对时间的掌控。",
+          "points": [
+            "日历链接把稀缺时间变成无限自助购物，鼓励自私占用。",
+            "大多数会议本身低效，链接只是让更多无意义会议发生。",
+            "拒绝摩擦是一种筛选，让真正重要的会面自然浮现。"
+          ]
+        },
+        "en": {
+          "thesis": "Deleting my calendar link, I embrace friction to take back control of my time.",
+          "points": [
+            "Calendar links turn scarce time into endless self-service shopping, encouraging selfish occupancy.",
+            "Most meetings are ineffective anyway; links just enable more meaningless ones.",
+            "Friction is a filter that lets truly important meetings emerge naturally."
+          ]
+        }
+      }
+    },
+    {
+      "id": "adafd8deace0a86bf2064fdd8ff4083aa29a941c",
+      "sourceId": "xda-ai-tools",
+      "category": "ai",
+      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
+      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
+      "author": "Rich Edmonds",
+      "publishedAt": "2026-08-12T18:00:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
+      "readingMinutes": 6,
+      "score": 65,
+      "rank": 12,
+      "summary": {
+        "zh": {
+          "thesis": "Google用AI修复Chrome漏洞效率大增，但引出补丁分发与攻防新问题。",
+          "points": [
+            "AI修补的漏洞数超过前23个版本总和，共1072个。",
+            "AI找到在Chrome中潜藏13年的旧漏洞，速度在加快。",
+            "漏洞公开到修复推送存在窗口期，攻击者可趁机利用。"
+          ]
+        },
+        "en": {
+          "thesis": "Google uses AI to fix Chrome vulnerabilities far faster, but it raises new issues in patch distribution and attacks.",
+          "points": [
+            "AI fixed more bugs than the previous 23 versions combined, totaling 1,072.",
+            "AI found a 13-year-old Chrome bug, and its speed is increasing.",
+            "There's a window between public disclosure and patch rollout that attackers can exploit."
+          ]
+        }
+      }
+    },
+    {
+      "id": "76ad5947a86724455549f508ca5a6b6ab5ed48ea",
+      "sourceId": "notboring",
+      "category": "business",
+      "title": "Base Power Company: Chapter 3",
+      "url": "https://www.notboring.co/p/base-power-company-chapter-3",
+      "author": "Packy McCormick",
+      "publishedAt": "2026-08-12T13:53:37.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!OnPt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d9329d8-9ba0-4fc3-b41b-01bb2239f875_1200x666.png",
+      "readingMinutes": 65,
+      "score": 65,
+      "rank": 13,
+      "summary": {
+        "zh": {
+          "thesis": "Base Power估值达130亿美元，目标是成为世界最大能源公司。",
+          "points": [
+            "公司不到三年，成为第二有价值的能源初创。",
+            "取消Gen 2，加速自研制造Gen 3电池。",
+            "战略是抓住电网瓶颈，垂直整合，并扩展到AI基础设施。"
+          ]
+        },
+        "en": {
+          "thesis": "Base Power is valued at $13B, aiming to become the world's largest energy company.",
+          "points": [
+            "Under three years, it's the second most valuable energy startup.",
+            "Cancels Gen 2 to accelerate in-house Gen 3 battery manufacturing.",
+            "Strategy targets grid bottlenecks, vertical integration, and expansion into AI infrastructure."
+          ]
+        }
+      }
+    },
+    {
+      "id": "abadfb45f943fcd5c50b47d2f18462ba3144cbba",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "author": "iLuddite",
+      "publishedAt": "2026-08-12T15:32:50.000Z",
       "image": null,
-      "readingMinutes": 11,
-      "score": 0,
+      "readingMinutes": 4,
+      "score": 60,
+      "rank": 14,
+      "summary": {
+        "zh": {
+          "thesis": "Grok 4.6发布，聚焦长时运行代理与交互视觉工作。",
+          "points": [
+            "在多个代理编码与知识工作基准上达到前沿水平。",
+            "匹配GPT-5.6 Sol的智能指数，部分基准超过。",
+            "定价不变，每百万输入2美元、输出6美元。"
+          ]
+        },
+        "en": {
+          "thesis": "Grok 4.6 launches, focusing on long-running agents and interactive visual work.",
+          "points": [
+            "It reaches frontier performance on several agentic coding and knowledge benchmarks.",
+            "Matches GPT-5.6 Sol's intelligence index, and beats it on some benchmarks.",
+            "Pricing unchanged at $2/M input and $6/M output."
+          ]
+        }
+      }
+    },
+    {
+      "id": "d2535f0238128c31f1476749c756e97490cf0c71",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "Delta",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "author": "khy",
+      "publishedAt": "2026-08-12T18:19:59.000Z",
+      "image": null,
+      "readingMinutes": 5,
+      "score": 55,
+      "rank": 15,
+      "summary": {
+        "zh": {
+          "thesis": "Zed推出Delta，一个以对话为中心的多人协作编码环境。",
+          "points": [
+            "Delta将代码与对话实时同步，评论锚定在代码行。",
+            "通过DeltaDB实现工作树级协作，支持云端运行。",
+            "重点服务AI代理开发，界面针对长文本和高频输出优化。"
+          ]
+        },
+        "en": {
+          "thesis": "Zed launches Delta, a collaborative coding environment centered on conversation.",
+          "points": [
+            "Delta syncs code and chat in real time, anchoring comments to code lines.",
+            "It uses DeltaDB for workspace-level collaboration and cloud execution.",
+            "It targets AI agent development, with UI optimized for long text and high-frequency output."
+          ]
+        }
+      }
+    },
+    {
+      "id": "e223f696d7de00f4753ff0a19dc1fab47d30612d",
+      "sourceId": "heavybit",
+      "category": "tech",
+      "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
+      "url": "https://www.heavybit.com/library/podcasts/ep-10-the-system-is-more-than-the-code-with-charity-majors",
+      "author": "Heavybit",
+      "publishedAt": "2026-08-12T07:10:00.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 50,
+      "rank": 16,
+      "summary": {
+        "zh": {
+          "thesis": "Charity Majors认为代码变得可抛弃，但系统架构和运行行为才是持久资产。",
+          "points": [
+            "可观测性使生产成为最终真相来源。",
+            "AI改变软件经济学，但系统复杂性仍需要人类判断。",
+            "负责任使用AI意味着理解其在不可预测系统中的角色。"
+          ]
+        },
+        "en": {
+          "thesis": "Charity Majors argues code becomes disposable, but system architecture and runtime behavior are the durable assets.",
+          "points": [
+            "Observability makes production the ultimate source of truth.",
+            "AI changes software economics, but system complexity still needs human judgment.",
+            "Responsible AI use means understanding its role in unpredictable systems."
+          ]
+        }
+      }
+    },
+    {
+      "id": "471385e451e96088f1af8c9c9b772073d3919eb4",
+      "sourceId": "xda-ai-tools",
+      "category": "ai",
+      "title": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
+      "url": "https://www.xda-developers.com/cant-believe-how-good-ai-coding-model-is-it-isnt-from-openai-or-anthropic/",
+      "author": "Parth Shah",
+      "publishedAt": "2026-08-12T11:30:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/grok-is-top-ai-coding-tool.jpeg",
+      "readingMinutes": 5,
+      "score": 45,
+      "rank": 17,
+      "summary": {
+        "zh": {
+          "thesis": "Grok 4.5在编码中效率出众，但复杂任务仍依赖其他模型。",
+          "points": [
+            "Grok 4.5用约40k tokens完成网站构建，效率惊人。",
+            "对简单修改响应直接，不浪费上下文。",
+            "复杂问题仍切换至Claude Code，可能是Grok 4.6的改进方向。"
+          ]
+        },
+        "en": {
+          "thesis": "Grok 4.5 is impressively efficient in coding, but complex tasks still rely on other models.",
+          "points": [
+            "Grok 4.5 builds a website with about 40k tokens, showing surprising efficiency.",
+            "It responds directly to simple changes without wasting context.",
+            "For complex problems, it switches to Claude Code, likely a focus for Grok 4.6 improvements."
+          ]
+        }
+      }
+    },
+    {
+      "id": "6a35fe7f03ed472b5678fb255c8c0cfdbb810e68",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "url": "https://knownagents.com/insights",
+      "author": "gavinhking",
+      "publishedAt": "2026-08-12T14:02:46.000Z",
+      "image": null,
+      "readingMinutes": 21,
+      "score": 40,
+      "rank": 18,
+      "summary": {
+        "zh": {
+          "thesis": "网络流量中，AI代理和爬虫占比上升，但有人冒名进行漏洞扫描。",
+          "points": [
+            "AI相关流量占机器人流量的28%，比上季度增长11%。",
+            "ClaudeBot是最大的AI数据抓取代理，占27%。",
+            "robots.txt遵守率高达98.5%，但部分机器人违反。"
+          ]
+        },
+        "en": {
+          "thesis": "AI agents and crawlers are a growing share of web traffic, but some are spoofed for vulnerability scanning.",
+          "points": [
+            "AI-related traffic is 28% of bot traffic, up 11% from last quarter.",
+            "ClaudeBot is the largest AI data scraper at 27%.",
+            "robots.txt compliance is high at 98.5%, but some bots violate it."
+          ]
+        }
+      }
+    },
+    {
+      "id": "32cdb4e18a7ec1e9ef2673a3359ad7870728dc48",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "author": "wertyk",
+      "publishedAt": "2026-08-12T16:54:25.000Z",
+      "image": null,
+      "readingMinutes": 4,
+      "score": 35,
+      "rank": 19,
+      "summary": {
+        "zh": {
+          "thesis": "Grok 4.6在智能指数登顶，性能与成本兼优。",
+          "points": [
+            "Grok 4.6得分61，与GPT-5.6 Sol持平，落后于Claude Opus 5。",
+            "代理任务表现突出，尤其在银行客服和终端任务上。",
+            "定价低于竞争模型，任务成本仅0.84美元。"
+          ]
+        },
+        "en": {
+          "thesis": "Grok 4.6 tops the intelligence index, excelling in performance and cost.",
+          "points": [
+            "Grok 4.6 scores 61, tied with GPT-5.6 Sol but behind Claude Opus 5.",
+            "It excels in agentic tasks, especially banking support and terminal tasks.",
+            "Priced lower than rivals, with task cost only $0.84."
+          ]
+        }
+      }
+    },
+    {
+      "id": "db17db76e2acea7cf8e8aa788dec1db1458bd90f",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Tim King, AmigaDOS developer, has died",
+      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+      "author": "doener",
+      "publishedAt": "2026-08-12T14:09:11.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 30,
+      "rank": 20,
+      "summary": {
+        "zh": {
+          "thesis": "AmigaDOS开发者蒂姆·金去世。",
+          "points": [
+            "金是Tripos操作系统的主要作者，后成为AmigaDOS。",
+            "他后来创立了Perihelion和UK Online。",
+            "对Amiga软件历史有重要贡献。"
+          ]
+        },
+        "en": {
+          "thesis": "Tim King, developer of AmigaDOS, has passed away.",
+          "points": [
+            "King was the primary author of Tripos, which became AmigaDOS.",
+            "He later founded Perihelion and UK Online.",
+            "He made significant contributions to Amiga software history."
+          ]
+        }
+      }
+    },
+    {
+      "id": "9f388ba4fa3a5d1b415b07954670d67998b2d6aa",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+      "author": "Markoff",
+      "publishedAt": "2026-08-12T11:28:27.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 30,
+      "rank": 21,
+      "summary": {
+        "zh": {
+          "thesis": "uBlock Origin停止尝试屏蔽Facebook广告。",
+          "points": [
+            "Facebook广告越来越难屏蔽。",
+            "该决定是社区讨论后做出的。"
+          ]
+        },
+        "en": {
+          "thesis": "uBlock Origin stops attempting to block ads on Facebook.",
+          "points": [
+            "Facebook ads have become increasingly difficult to block.",
+            "The decision came after community discussions."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fe39abeed556f4f0ad1ae604ce5bb23661bde743",
+      "sourceId": "slowboring",
+      "category": "business",
+      "title": "New York is building. But where?",
+      "url": "https://www.slowboring.com/p/new-york-is-building-but-where",
+      "author": "Halina Bennet",
+      "publishedAt": "2026-08-12T22:02:07.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!wYee!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7249557-8b63-4eec-8620-73f92666213d_3414x2259.jpeg",
+      "readingMinutes": 1,
+      "score": 25,
+      "rank": 22,
+      "summary": {
+        "zh": {
+          "thesis": "纽约豪宅税被法院叫停，报道事件本身。",
+          "points": [
+            "史坦顿岛法官暂停了豪宅税的实施。",
+            "该税针对高价值第二套住宅的房主。",
+            "文章大部分内容被付费墙遮挡，细节有限。"
+          ]
+        },
+        "en": {
+          "thesis": "A Staten Island judge paused New York's luxury tax, halting its implementation.",
+          "points": [
+            "The judge temporarily halted the tax's enforcement.",
+            "The tax targets owners of high-value second homes.",
+            "Most of the article is behind a paywall, so details are limited."
+          ]
+        }
+      }
+    },
+    {
+      "id": "7d7111d3426c018bf85be26fcc844f1a952bb5ef",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "Wednesday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-566.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T16:12:03.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 20,
+      "rank": 23,
+      "summary": {
+        "zh": {
+          "thesis": "一系列互不相关的链接合集，缺乏深入论证。",
+          "points": [
+            "意大利银行的奶酪抵押品正在融化。",
+            "丹麦一半的经济增长来自一家公司。",
+            "美国消费者在外国旅行上的支出占比低于中国进口商品。"
+          ]
+        },
+        "en": {
+          "thesis": "A collection of unrelated links lacking deep argumentation.",
+          "points": [
+            "Italian banks' cheese collateral is melting.",
+            "Denmark's half of economic growth comes from one company.",
+            "U.S. consumer spending on foreign travel is lower than on Chinese imports."
+          ]
+        }
+      }
+    },
+    {
+      "id": "f9e1ef66ab3da5c60dafd5b54edf0f328df3b39e",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "Qwen3.8-2.4T",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "author": "Philpax",
+      "publishedAt": "2026-08-12T15:01:17.000Z",
+      "image": null,
+      "readingMinutes": 38,
+      "score": 15,
       "rank": 24,
       "summary": {
         "zh": {
-          "thesis": "",
-          "points": []
+          "thesis": "开源模型Qwen3.8-2.4T发布，参数规模巨大。",
+          "points": [
+            "总参数2.4万亿，激活950亿。",
+            "在SWE Bench Pro上得分67.7，GPQA Diamond 92.6。",
+            "支持工具调用，提供多种推理强度控制。"
+          ]
         },
         "en": {
-          "thesis": "",
-          "points": []
+          "thesis": "Open-source model Qwen3.8-2.4T launches with massive parameter scale.",
+          "points": [
+            "Total parameters at 2.4T with 95B active.",
+            "Scores 67.7 on SWE Bench Pro and 92.6 on GPQA Diamond.",
+            "Supports tool calling and offers multiple reasoning intensity controls."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ae9af6d8bb877bded07fcdbf1de158d81ebe00ea",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "Fast Company covers New Aesthetics",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/fast-company-covers-new-aesthetics.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T13:19:06.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 15,
+      "rank": 25,
+      "summary": {
+        "zh": {
+          "thesis": "《Fast Company》报道了新美学，作者称赞该报道。",
+          "points": [
+            "文章提到艺术家成为故事的核心。",
+            "内容仅此而已，缺乏深入分析。"
+          ]
+        },
+        "en": {
+          "thesis": "Fast Company covers New Aesthetics, and the author praises the report.",
+          "points": [
+            "The article highlights artists at the core of the story.",
+            "That's all; it lacks deep analysis."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fbdfaa10f2aa8cf25060a89506238197bec9738d",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "author": "explosion-s",
+      "publishedAt": "2026-08-12T16:04:50.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 10,
+      "rank": 26,
+      "summary": {
+        "zh": {
+          "thesis": "仅标题，无法总结内容。",
+          "points": [
+            "标题提到DeepSeek V4 Pro 0813。",
+            "没有正文可供分析。"
+          ]
+        },
+        "en": {
+          "thesis": "Title only; content cannot be summarized.",
+          "points": [
+            "The title mentions DeepSeek V4 Pro 0813.",
+            "No body text to analyze."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ab198bd7e06c22c59140b7f452a1d47b2ef27e38",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "2026 Eclipse Webcams",
+      "url": "https://jonty.github.io/2026_eclipse_webcams/",
+      "author": "zoenolan",
+      "publishedAt": "2026-08-12T11:53:01.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 10,
+      "rank": 27,
+      "summary": {
+        "zh": {
+          "thesis": "标题提及2026年日食网络摄像头。",
+          "points": [
+            "仅标题，无法总结。"
+          ]
+        },
+        "en": {
+          "thesis": "Title mentions 2026 eclipse webcams.",
+          "points": [
+            "Title only; cannot summarize."
+          ]
         }
       }
     }
