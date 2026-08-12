@@ -1,14 +1,14 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T20:53:18.714Z",
+  "generatedAt": "2026-08-12T22:31:45.306Z",
   "window": {
-    "from": "2026-08-11T20:53:18.714Z",
-    "to": "2026-08-12T20:53:18.714Z"
+    "from": "2026-08-11T22:31:45.306Z",
+    "to": "2026-08-12T22:31:45.306Z"
   },
   "stats": {
-    "fetched": 14,
-    "shown": 10,
-    "folded": 4
+    "fetched": 25,
+    "shown": 5,
+    "folded": 20
   },
   "sources": [
     {
@@ -33,13 +33,55 @@
       "id": "hn",
       "name": "Hacker News",
       "ok": true,
-      "count": 10
+      "count": 15
+    },
+    {
+      "id": "platformer",
+      "name": "Platformer",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "acx",
+      "name": "Astral Codex Ten",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "marginal",
+      "name": "Marginal Revolution",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "id": "construction-physics",
+      "name": "Construction Physics",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "nngroup",
+      "name": "Nielsen Norman Group",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "kleon",
+      "name": "Austin Kleon",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "benedict-evans",
+      "name": "Benedict Evans",
+      "ok": true,
+      "count": 0
     },
     {
       "id": "westenberg",
       "name": "WESTENBERG",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "id": "bytecode",
@@ -86,310 +128,201 @@
   ],
   "articles": [
     {
-      "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
-      "sourceId": "hn",
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "author": "ropbear",
-      "publishedAt": "2026-08-12T14:22:30.000Z",
+      "id": "ae9af6d8bb877bded07fcdbf1de158d81ebe00ea",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "Fast Company covers New Aesthetics",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/fast-company-covers-new-aesthetics.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T13:19:06.000Z",
       "image": null,
-      "readingMinutes": 13,
-      "score": 92,
+      "readingMinutes": 1,
+      "score": 33,
       "rank": 1,
       "summary": {
         "zh": {
-          "thesis": "Tailscale追查出SQLite潜伏16年的WAL-Reset数据竞争缺陷",
-          "points": [
-            "半年19次数据库损坏，手动激进checkpoint是诱因",
-            "SQLite 3.52含修复但有表达式索引假阳性，被撤回改发3.51.3",
-            "部署tmstmpvfs shim定位竞争，2026年证实条件真实发生"
-          ]
+          "thesis": "媒体正面报道了名为「新美学」的艺术运动。",
+          "points": []
         },
         "en": {
-          "thesis": "Tailscale traced repeated database corruption to a 16-year-old SQLite WAL-Reset race condition.",
-          "points": [
-            "19 corruption events over six months, provoked by aggressive manual checkpointing.",
-            "SQLite 3.52 carries a fix but had an expression-index false positive, withdrawn for 3.51.3.",
-            "Deployed a tmstmpvfs shim to localize the race; 2026 confirmed the condition really fires."
-          ]
+          "thesis": "Media outlets are giving favorable coverage to the art movement dubbed 'New Aesthetics.'",
+          "points": []
         }
       }
     },
     {
-      "id": "a0f3dc1efe58b059727196088a4418eb2f16aa63",
+      "id": "ab198bd7e06c22c59140b7f452a1d47b2ef27e38",
       "sourceId": "hn",
-      "title": "What sort of maths are LLMs good at?",
-      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-      "author": "ColinWright",
-      "publishedAt": "2026-08-12T10:04:25.000Z",
+      "category": "culture",
+      "title": "2026 Eclipse Webcams",
+      "url": "https://jonty.github.io/2026_eclipse_webcams/",
+      "author": "zoenolan",
+      "publishedAt": "2026-08-12T11:53:01.000Z",
       "image": null,
-      "readingMinutes": 34,
-      "score": 90,
+      "readingMinutes": 1,
+      "score": 25,
       "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "LLM擅长构造反例而非概念性证明，源于海量试错",
-          "points": [
-            "非sofic群、Jacobian猜想等均为反例类成果",
-            "Skolem化使全称与存在命题可互换，逻辑形式难定类",
-            "LLM风格倾向试错碰运气，人类胜在概念性深度论证"
-          ]
+          "thesis": "2026年日食网络摄像直播相关内容的标题。",
+          "points": []
         },
         "en": {
-          "thesis": "LLMs excel at counterexamples rather than conceptual proofs, a product of mass trial and error.",
-          "points": [
-            "Non-sofic groups, the Jacobian conjecture, and similar results are counterexample-class achievements.",
-            "Skolemization swaps universal and existential propositions, so logical form is hard to pigeonhole.",
-            "LLMs lean on luck-driven trial and error where humans win on deep conceptual argument.",
-            "LLM style favors heuristic luck-chasing; humans excel at deep conceptual argumentation."
-          ]
+          "thesis": "A headline about webcam livestreams of the 2026 eclipse.",
+          "points": []
         }
       }
     },
     {
-      "id": "d8d84c04601d267495ffcc933e62f0c80ebc0d85",
+      "id": "fbdfaa10f2aa8cf25060a89506238197bec9738d",
       "sourceId": "hn",
-      "title": "License plate reader searches should require a warrant",
-      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
-      "author": "apwheele",
-      "publishedAt": "2026-08-12T14:43:39.000Z",
+      "category": "ai",
+      "title": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "author": "explosion-s",
+      "publishedAt": "2026-08-12T16:04:50.000Z",
       "image": null,
-      "readingMinutes": 15,
-      "score": 88,
+      "readingMinutes": 1,
+      "score": 20,
       "rank": 3,
       "summary": {
         "zh": {
-          "thesis": "历史ALPR数据检索应需法院搜查令，为何是当非若",
-          "points": [
-            "保留数据不能防滥用，删除反害合法侦查与辩护",
-            "引用Carpenter、Chatrie判例，推断未来ALPR必需令状",
-            "建议第三方机构审计，设备低于3000美元成本"
-          ]
+          "thesis": "DeepSeek发布V4 Pro 0813新模型，细节待补充。",
+          "points": []
         },
         "en": {
-          "thesis": "Searching historical ALPR data should require a warrant, and deleting it instead invites abuse.",
-          "points": [
-            "Retaining data doesn't prevent misuse; deleting it undercuts legitimate investigations and defense.",
-            "Carpenter and Chatrie point to warrants becoming mandatory for ALPR searches.",
-            "Recommends third-party audits; readers cost under $3,000."
-          ]
+          "thesis": "DeepSeek has released its V4 Pro 0813 model, though details remain scarce.",
+          "points": []
         }
       }
     },
     {
-      "id": "52fa033e5f1f88fe1fbecaafd4a117291bb0cbc2",
-      "sourceId": "hn",
-      "title": "AI is removing the middle class of software engineering?",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "author": "florianherrengt",
-      "publishedAt": "2026-08-12T13:20:05.000Z",
-      "image": null,
-      "readingMinutes": 6,
-      "score": 80,
+      "id": "828e7944bf14cb4b1f6a3d69680825fc615fa3da",
+      "sourceId": "westenberg",
+      "category": "culture",
+      "title": "I Deleted My Calendar Link. And I’m Never Going Back",
+      "url": "https://www.joanwestenberg.com/p/i-deleted-my-calendar-link-and-im",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-12T22:11:24.000Z",
+      "image": "https://images.unsplash.com/photo-1622799622659-25906a2cf2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMjl8fGNhbGVuZGFyJTIwYXBwfGVufDB8fHx8MTc4NjU3MjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "readingMinutes": 3,
+      "score": 0,
       "rank": 4,
       "summary": {
         "zh": {
-          "thesis": "AI让低质量工程师产出激增，拉大软件工程师薪资差距",
-          "points": [
-            "一人下午生成2万行代码，但审查理解仍需人类",
-            "链式错误复合：5步各95%成功率，整体约77%",
-            "实现成本趋零，判断力成为六位数薪资的凭据"
-          ]
+          "thesis": "",
+          "points": []
         },
         "en": {
-          "thesis": "AI amplifies output of low-quality engineers and widens the salary gap among software developers.",
-          "points": [
-            "One person generated 20k lines in an afternoon, yet review and understanding still need humans.",
-            "Chain errors compound: five steps at 95% success each lands at roughly 77% overall.",
-            "With implementation cost near zero, judgment becomes the credential for six-figure pay."
-          ]
+          "thesis": "",
+          "points": []
         }
       }
     },
     {
-      "id": "05de32c56e427a128ec37a6788d9aa35da7feb65",
-      "sourceId": "neciudan",
-      "title": "AI Agents: Architecture",
-      "url": "https://neciudan.dev/ai-agents-architecture",
-      "author": null,
-      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "id": "e9d76bcff40284cb88620ce18c3b9861e58be304",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "Mistakes in financial economics",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/mistakes-in-financial-economics.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T18:46:44.000Z",
       "image": null,
-      "readingMinutes": 11,
-      "score": 78,
+      "readingMinutes": 2,
+      "score": 0,
       "rank": 5,
       "summary": {
         "zh": {
-          "thesis": "AI agent由十种可复用架构模式组合而成，非单一调用",
-          "points": [
-            "驱动循环用前沿模型，分类抽取路由用最便宜模型",
-            "链式5步各95%成功率整体约77%，错误沿链复合",
-            "拆分各层的钱、接缝、可见性与优化胜过单一大模型"
-          ]
+          "thesis": "",
+          "points": []
         },
         "en": {
-          "thesis": "AI agents arise from composing ten reusable architecture patterns, not a single call.",
-          "points": [
-            "The driving loop uses frontier models, while classification, extraction, and routing lean on the cheapest.",
-            "Five chained steps at 95% success each land near 77% overall as errors compound.",
-            "Splitting money, seams, observability, and optimization per layer beats one monolithic model."
-          ]
-        }
-      }
-    },
-    {
-      "id": "32cdb4e18a7ec1e9ef2673a3359ad7870728dc48",
-      "sourceId": "hn",
-      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
-      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-      "author": "wertyk",
-      "publishedAt": "2026-08-12T16:54:25.000Z",
-      "image": null,
-      "readingMinutes": 4,
-      "score": 70,
-      "rank": 6,
-      "summary": {
-        "zh": {
-          "thesis": "Grok 4.6在AA智能指数得61分，追平GPT-5.6 Sol",
-          "points": [
-            "GDPval-AA Elo 1753，仅次Claude Opus 5，与Fable 5重叠置信区间",
-            "定价$2/$6每百万token，比Claude Opus 5便宜60%以上",
-            "AA-Briefcase每任务约53轮0.5B输入token，远低于Opus 5的103轮"
-          ]
-        },
-        "en": {
-          "thesis": "Grok 4.6 scored 61 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Sol.",
-          "points": [
-            "GDPval-AA Elo of 1753 trails only Claude Opus 5, with confidence intervals overlapping Fable 5.",
-            "Priced at $2/$6 per million tokens, over 60% cheaper than Claude Opus 5.",
-            "AA-Briefcase averages about 53 rounds and 0.5B input tokens per task, far below Opus 5's 103 rounds."
-          ]
-        }
-      }
-    },
-    {
-      "id": "abadfb45f943fcd5c50b47d2f18462ba3144cbba",
-      "sourceId": "hn",
-      "title": "Grok 4.6",
-      "url": "https://x.ai/news/grok-4-6",
-      "author": "iLuddite",
-      "publishedAt": "2026-08-12T15:32:50.000Z",
-      "image": null,
-      "readingMinutes": 4,
-      "score": 68,
-      "rank": 7,
-      "summary": {
-        "zh": {
-          "thesis": "Grok 4.6专注长时agent与视觉交互，定价不变",
-          "points": [
-            "AA智能指数61追平GPT-5.6 Sol，Fable 5 Max为62",
-            "DeepSWE 1.1达65.9%超GPT-5.6，但Terminal-Bench v3.0仅26%落后",
-            "$2/$6每百万token不变，快变体价格翻倍"
-          ]
-        },
-        "en": {
-          "thesis": "Grok 4.6 targets long-horizon agents and visual interaction while holding its price steady.",
-          "points": [
-            "AA Intelligence Index of 61 ties GPT-5.6 Sol; Fable 5 Max sits at 62.",
-            "DeepSWE 1.1 hits 65.9% trailing GPT-5.6, but Terminal-Bench v3.0 lags at 26%.",
-            "The $2/$6 per-million-token pricing is unchanged; the fast variant doubles in price."
-          ]
-        }
-      }
-    },
-    {
-      "id": "f9e1ef66ab3da5c60dafd5b54edf0f328df3b39e",
-      "sourceId": "hn",
-      "title": "Qwen3.8-2.4T",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "author": "Philpax",
-      "publishedAt": "2026-08-12T15:01:17.000Z",
-      "image": null,
-      "readingMinutes": 38,
-      "score": 62,
-      "rank": 8,
-      "summary": {
-        "zh": {
-          "thesis": "Qwen开源首个Max级模型，2.4T参数95B激活的MoE",
-          "points": [
-            "总参数2.4T，激活95B，512专家激活10个路由加1共享",
-            "上下文262144原生，可扩展至101万token",
-            "SWE-bench Pro 67.7%超GPT-5.6 Sol，DeepSWE 1.1仅56.6%"
-          ]
-        },
-        "en": {
-          "thesis": "Qwen open-sourced its first Max-class model: a 2.4T-parameter MoE with 95B active.",
-          "points": [
-            "Total 2.4T params, 95B active, routing across 512 experts with 10 routed plus 1 shared.",
-            "Native 262,144-token context, expandable to 1M tokens.",
-            "SWE-bench Pro at 67.7% beats GPT-5.6 Sol, but DeepSWE 1.1 reaches only 56.6%."
-          ]
-        }
-      }
-    },
-    {
-      "id": "e4d1ae4cabdd8e7c2d47c5cb168efa20b92a6c4e",
-      "sourceId": "hn",
-      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-      "url": "https://woxi.ad-si.com/",
-      "author": "adius",
-      "publishedAt": "2026-08-12T10:06:29.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 55,
-      "rank": 9,
-      "summary": {
-        "zh": {
-          "thesis": "Woxi开源复刻Mathematica，以Jupyter内核形态交付",
-          "points": [
-            "woxi install-kernel可本地安装为Jupyter内核",
-            "捆绑JupyterLite浏览器版，免安装即可运行"
-          ]
-        },
-        "en": {
-          "thesis": "Woxi is an open-source Mathematica reimplementation that ships as a Jupyter kernel.",
-          "points": [
-            "woxi install-kernel sets it up locally as a Jupyter kernel.",
-            "A bundled browser-based JupyterLite lets you run it with no install."
-          ]
-        }
-      }
-    },
-    {
-      "id": "adafd8deace0a86bf2064fdd8ff4083aa29a941c",
-      "sourceId": "xda-ai-tools",
-      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
-      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
-      "author": "Rich Edmonds",
-      "publishedAt": "2026-08-12T18:00:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
-      "readingMinutes": 6,
-      "score": 48,
-      "rank": 10,
-      "summary": {
-        "zh": {
-          "thesis": "Google用AI代理捕获潜伏13年的Chrome漏洞并加速补丁流程",
-          "points": [
-            "Chrome 149和150共修复1072个安全漏洞，超过此前23个里程碑总和",
-            "AI集成DeepMind与Project Zero工具，5月单月阻止超20个漏洞上线",
-            "计划两周大版本+每周安全补丁，试验免重启动态补丁"
-          ]
-        },
-        "en": {
-          "thesis": "Google's AI agent caught a 13-year-old Chrome bug and is reshaping how quickly vulnerabilities get patched.",
-          "points": [
-            "Chrome 149 and 150 fixed 1,072 security bugs, more than the prior 23 milestones combined.",
-            "AI hooked into DeepMind and Project Zero tools blocked over 20 vulnerabilities from shipping in May alone.",
-            "Moving to a two-week major cadence plus weekly security patches, testing restart-free dynamic patching."
-          ]
+          "thesis": "",
+          "points": []
         }
       }
     }
   ],
   "folded": [
     {
+      "title": "Delta",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "sourceId": "hn"
+    },
+    {
+      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
+      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
+      "sourceId": "xda-ai-tools"
+    },
+    {
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "sourceId": "hn"
+    },
+    {
+      "title": "Wednesday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-566.html",
+      "sourceId": "marginal"
+    },
+    {
+      "title": "Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "sourceId": "hn"
+    },
+    {
+      "title": "Qwen3.8-2.4T",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "sourceId": "hn"
+    },
+    {
+      "title": "License plate reader searches should require a warrant",
+      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+      "sourceId": "hn"
+    },
+    {
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "sourceId": "hn"
+    },
+    {
+      "title": "Tim King, AmigaDOS developer, has died",
+      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+      "sourceId": "hn"
+    },
+    {
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "url": "https://knownagents.com/insights",
+      "sourceId": "hn"
+    },
+    {
+      "title": "Why tiny JPEGs look different in Chrome",
+      "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+      "sourceId": "hn"
+    },
+    {
+      "title": "AI is removing the middle class of software engineering?",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "sourceId": "hn"
+    },
+    {
       "title": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
       "url": "https://www.xda-developers.com/cant-believe-how-good-ai-coding-model-is-it-isnt-from-openai-or-anthropic/",
       "sourceId": "xda-ai-tools"
+    },
+    {
+      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+      "sourceId": "hn"
+    },
+    {
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "url": "https://woxi.ad-si.com/",
+      "sourceId": "hn"
+    },
+    {
+      "title": "What sort of maths are LLMs good at?",
+      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+      "sourceId": "hn"
     },
     {
       "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
@@ -397,14 +330,19 @@
       "sourceId": "heavybit"
     },
     {
-      "title": "2026 Eclipse Webcams",
-      "url": "https://jonty.github.io/2026_eclipse_webcams/",
-      "sourceId": "hn"
+      "title": "What makes people happy?",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/what-makes-people-happy.html",
+      "sourceId": "marginal"
     },
     {
-      "title": "DeepSeek V4 Pro 0813",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "sourceId": "hn"
+      "title": "Immigrant Earnings Assimilation, 1981–2021",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/immigrant-earnings-assimilation-1981-2021.html",
+      "sourceId": "marginal"
+    },
+    {
+      "title": "AI Agents: Architecture",
+      "url": "https://neciudan.dev/ai-agents-architecture",
+      "sourceId": "neciudan"
     }
   ]
 }
