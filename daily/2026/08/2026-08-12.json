@@ -1,14 +1,14 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T22:31:45.306Z",
+  "generatedAt": "2026-08-12T23:20:00.314Z",
   "window": {
-    "from": "2026-08-11T22:31:45.306Z",
-    "to": "2026-08-12T22:31:45.306Z"
+    "from": "2026-08-11T23:20:00.314Z",
+    "to": "2026-08-12T23:20:00.314Z"
   },
   "stats": {
-    "fetched": 25,
-    "shown": 5,
-    "folded": 20
+    "fetched": 24,
+    "shown": 24,
+    "folded": 0
   },
   "sources": [
     {
@@ -33,7 +33,7 @@
       "id": "hn",
       "name": "Hacker News",
       "ok": true,
-      "count": 15
+      "count": 14
     },
     {
       "id": "platformer",
@@ -128,75 +128,6 @@
   ],
   "articles": [
     {
-      "id": "ae9af6d8bb877bded07fcdbf1de158d81ebe00ea",
-      "sourceId": "marginal",
-      "category": "culture",
-      "title": "Fast Company covers New Aesthetics",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/fast-company-covers-new-aesthetics.html",
-      "author": "Tyler Cowen",
-      "publishedAt": "2026-08-12T13:19:06.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 33,
-      "rank": 1,
-      "summary": {
-        "zh": {
-          "thesis": "媒体正面报道了名为「新美学」的艺术运动。",
-          "points": []
-        },
-        "en": {
-          "thesis": "Media outlets are giving favorable coverage to the art movement dubbed 'New Aesthetics.'",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "ab198bd7e06c22c59140b7f452a1d47b2ef27e38",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "2026 Eclipse Webcams",
-      "url": "https://jonty.github.io/2026_eclipse_webcams/",
-      "author": "zoenolan",
-      "publishedAt": "2026-08-12T11:53:01.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 25,
-      "rank": 2,
-      "summary": {
-        "zh": {
-          "thesis": "2026年日食网络摄像直播相关内容的标题。",
-          "points": []
-        },
-        "en": {
-          "thesis": "A headline about webcam livestreams of the 2026 eclipse.",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "fbdfaa10f2aa8cf25060a89506238197bec9738d",
-      "sourceId": "hn",
-      "category": "ai",
-      "title": "DeepSeek V4 Pro 0813",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "author": "explosion-s",
-      "publishedAt": "2026-08-12T16:04:50.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 20,
-      "rank": 3,
-      "summary": {
-        "zh": {
-          "thesis": "DeepSeek发布V4 Pro 0813新模型，细节待补充。",
-          "points": []
-        },
-        "en": {
-          "thesis": "DeepSeek has released its V4 Pro 0813 model, though details remain scarce.",
-          "points": []
-        }
-      }
-    },
-    {
       "id": "828e7944bf14cb4b1f6a3d69680825fc615fa3da",
       "sourceId": "westenberg",
       "category": "culture",
@@ -207,7 +138,7 @@
       "image": "https://images.unsplash.com/photo-1622799622659-25906a2cf2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMjl8fGNhbGVuZGFyJTIwYXBwfGVufDB8fHx8MTc4NjU3MjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "readingMinutes": 3,
       "score": 0,
-      "rank": 4,
+      "rank": 1,
       "summary": {
         "zh": {
           "thesis": "",
@@ -230,7 +161,513 @@
       "image": null,
       "readingMinutes": 2,
       "score": 0,
+      "rank": 2,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "d2535f0238128c31f1476749c756e97490cf0c71",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Delta",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "author": "khy",
+      "publishedAt": "2026-08-12T18:19:59.000Z",
+      "image": null,
+      "readingMinutes": 5,
+      "score": 0,
+      "rank": 3,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "adafd8deace0a86bf2064fdd8ff4083aa29a941c",
+      "sourceId": "xda-ai-tools",
+      "category": "culture",
+      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
+      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
+      "author": "Rich Edmonds",
+      "publishedAt": "2026-08-12T18:00:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
+      "readingMinutes": 6,
+      "score": 0,
+      "rank": 4,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "32cdb4e18a7ec1e9ef2673a3359ad7870728dc48",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "author": "wertyk",
+      "publishedAt": "2026-08-12T16:54:25.000Z",
+      "image": null,
+      "readingMinutes": 4,
+      "score": 0,
       "rank": 5,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "7d7111d3426c018bf85be26fcc844f1a952bb5ef",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "Wednesday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-566.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T16:12:03.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 6,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "fbdfaa10f2aa8cf25060a89506238197bec9738d",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "author": "explosion-s",
+      "publishedAt": "2026-08-12T16:04:50.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 7,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "abadfb45f943fcd5c50b47d2f18462ba3144cbba",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "author": "iLuddite",
+      "publishedAt": "2026-08-12T15:32:50.000Z",
+      "image": null,
+      "readingMinutes": 4,
+      "score": 0,
+      "rank": 8,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "f9e1ef66ab3da5c60dafd5b54edf0f328df3b39e",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Qwen3.8-2.4T",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "author": "Philpax",
+      "publishedAt": "2026-08-12T15:01:17.000Z",
+      "image": null,
+      "readingMinutes": 38,
+      "score": 0,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "d8d84c04601d267495ffcc933e62f0c80ebc0d85",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "License plate reader searches should require a warrant",
+      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+      "author": "apwheele",
+      "publishedAt": "2026-08-12T14:43:39.000Z",
+      "image": null,
+      "readingMinutes": 15,
+      "score": 0,
+      "rank": 10,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "author": "ropbear",
+      "publishedAt": "2026-08-12T14:22:30.000Z",
+      "image": null,
+      "readingMinutes": 13,
+      "score": 0,
+      "rank": 11,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "db17db76e2acea7cf8e8aa788dec1db1458bd90f",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Tim King, AmigaDOS developer, has died",
+      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+      "author": "doener",
+      "publishedAt": "2026-08-12T14:09:11.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 12,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "6a35fe7f03ed472b5678fb255c8c0cfdbb810e68",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "url": "https://knownagents.com/insights",
+      "author": "gavinhking",
+      "publishedAt": "2026-08-12T14:02:46.000Z",
+      "image": null,
+      "readingMinutes": 21,
+      "score": 0,
+      "rank": 13,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "44f52ae79f9df1afdc3b8388b92b23cebce5201e",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Why tiny JPEGs look different in Chrome",
+      "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+      "author": "gutechh",
+      "publishedAt": "2026-08-12T14:00:54.000Z",
+      "image": null,
+      "readingMinutes": 4,
+      "score": 0,
+      "rank": 14,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "52fa033e5f1f88fe1fbecaafd4a117291bb0cbc2",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "AI is removing the middle class of software engineering?",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "author": "florianherrengt",
+      "publishedAt": "2026-08-12T13:20:05.000Z",
+      "image": null,
+      "readingMinutes": 6,
+      "score": 0,
+      "rank": 15,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "ae9af6d8bb877bded07fcdbf1de158d81ebe00ea",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "Fast Company covers New Aesthetics",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/fast-company-covers-new-aesthetics.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T13:19:06.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 16,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "ab198bd7e06c22c59140b7f452a1d47b2ef27e38",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "2026 Eclipse Webcams",
+      "url": "https://jonty.github.io/2026_eclipse_webcams/",
+      "author": "zoenolan",
+      "publishedAt": "2026-08-12T11:53:01.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 17,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "471385e451e96088f1af8c9c9b772073d3919eb4",
+      "sourceId": "xda-ai-tools",
+      "category": "culture",
+      "title": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
+      "url": "https://www.xda-developers.com/cant-believe-how-good-ai-coding-model-is-it-isnt-from-openai-or-anthropic/",
+      "author": "Parth Shah",
+      "publishedAt": "2026-08-12T11:30:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/grok-is-top-ai-coding-tool.jpeg",
+      "readingMinutes": 5,
+      "score": 0,
+      "rank": 18,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "9f388ba4fa3a5d1b415b07954670d67998b2d6aa",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+      "author": "Markoff",
+      "publishedAt": "2026-08-12T11:28:27.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 19,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "e4d1ae4cabdd8e7c2d47c5cb168efa20b92a6c4e",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "url": "https://woxi.ad-si.com/",
+      "author": "adius",
+      "publishedAt": "2026-08-12T10:06:29.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 20,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "e223f696d7de00f4753ff0a19dc1fab47d30612d",
+      "sourceId": "heavybit",
+      "category": "culture",
+      "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
+      "url": "https://www.heavybit.com/library/podcasts/ep-10-the-system-is-more-than-the-code-with-charity-majors",
+      "author": "Heavybit",
+      "publishedAt": "2026-08-12T07:10:00.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 21,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "e1414f2068c130e80ac51a65b769e637764b06cc",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "What makes people happy?",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/what-makes-people-happy.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T06:51:30.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 22,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "96dc73b489f908fee0a446d3264448cfdfe6d5a0",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "Immigrant Earnings Assimilation, 1981–2021",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/immigrant-earnings-assimilation-1981-2021.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T04:42:23.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 23,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "points": []
+        },
+        "en": {
+          "thesis": "",
+          "points": []
+        }
+      }
+    },
+    {
+      "id": "05de32c56e427a128ec37a6788d9aa35da7feb65",
+      "sourceId": "neciudan",
+      "category": "culture",
+      "title": "AI Agents: Architecture",
+      "url": "https://neciudan.dev/ai-agents-architecture",
+      "author": null,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "image": null,
+      "readingMinutes": 11,
+      "score": 0,
+      "rank": 24,
       "summary": {
         "zh": {
           "thesis": "",
@@ -243,106 +680,5 @@
       }
     }
   ],
-  "folded": [
-    {
-      "title": "Delta",
-      "url": "https://zed.dev/blog/introducing-delta",
-      "sourceId": "hn"
-    },
-    {
-      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
-      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
-      "sourceId": "xda-ai-tools"
-    },
-    {
-      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
-      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-      "sourceId": "hn"
-    },
-    {
-      "title": "Wednesday assorted links",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-566.html",
-      "sourceId": "marginal"
-    },
-    {
-      "title": "Grok 4.6",
-      "url": "https://x.ai/news/grok-4-6",
-      "sourceId": "hn"
-    },
-    {
-      "title": "Qwen3.8-2.4T",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "sourceId": "hn"
-    },
-    {
-      "title": "License plate reader searches should require a warrant",
-      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
-      "sourceId": "hn"
-    },
-    {
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "sourceId": "hn"
-    },
-    {
-      "title": "Tim King, AmigaDOS developer, has died",
-      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
-      "sourceId": "hn"
-    },
-    {
-      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-      "url": "https://knownagents.com/insights",
-      "sourceId": "hn"
-    },
-    {
-      "title": "Why tiny JPEGs look different in Chrome",
-      "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
-      "sourceId": "hn"
-    },
-    {
-      "title": "AI is removing the middle class of software engineering?",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "sourceId": "hn"
-    },
-    {
-      "title": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
-      "url": "https://www.xda-developers.com/cant-believe-how-good-ai-coding-model-is-it-isnt-from-openai-or-anthropic/",
-      "sourceId": "xda-ai-tools"
-    },
-    {
-      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
-      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
-      "sourceId": "hn"
-    },
-    {
-      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-      "url": "https://woxi.ad-si.com/",
-      "sourceId": "hn"
-    },
-    {
-      "title": "What sort of maths are LLMs good at?",
-      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-      "sourceId": "hn"
-    },
-    {
-      "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
-      "url": "https://www.heavybit.com/library/podcasts/ep-10-the-system-is-more-than-the-code-with-charity-majors",
-      "sourceId": "heavybit"
-    },
-    {
-      "title": "What makes people happy?",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/what-makes-people-happy.html",
-      "sourceId": "marginal"
-    },
-    {
-      "title": "Immigrant Earnings Assimilation, 1981–2021",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/immigrant-earnings-assimilation-1981-2021.html",
-      "sourceId": "marginal"
-    },
-    {
-      "title": "AI Agents: Architecture",
-      "url": "https://neciudan.dev/ai-agents-architecture",
-      "sourceId": "neciudan"
-    }
-  ]
+  "folded": []
 }
