@@ -1,14 +1,14 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T17:36:45.898Z",
+  "generatedAt": "2026-08-12T19:44:25.201Z",
   "window": {
-    "from": "2026-08-11T17:36:45.898Z",
-    "to": "2026-08-12T17:36:45.898Z"
+    "from": "2026-08-11T19:44:25.201Z",
+    "to": "2026-08-12T19:44:25.201Z"
   },
   "stats": {
-    "fetched": 11,
+    "fetched": 15,
     "shown": 10,
-    "folded": 1
+    "folded": 5
   },
   "sources": [
     {
@@ -33,7 +33,7 @@
       "id": "hn",
       "name": "Hacker News",
       "ok": true,
-      "count": 5
+      "count": 9
     },
     {
       "id": "westenberg",
@@ -86,54 +86,62 @@
   ],
   "articles": [
     {
-      "id": "05de32c56e427a128ec37a6788d9aa35da7feb65",
-      "sourceId": "neciudan",
-      "title": "AI Agents: Architecture",
-      "url": "https://neciudan.dev/ai-agents-architecture",
-      "author": null,
-      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
+      "sourceId": "hn",
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "author": "ropbear",
+      "publishedAt": "2026-08-12T14:22:30.000Z",
       "image": null,
-      "readingMinutes": 11,
-      "score": 92,
+      "readingMinutes": 13,
+      "score": 90,
       "rank": 1,
       "summary": {
         "zh": {
-          "thesis": "AI智能体应该由可组合的架构模式（单调用、链、路由器、扇出/投票、生成+审查等）构建，而非靠一个大提示塞给前沿模型搞定一切。",
+          "thesis": "Tailscale定位SQLite 16年WAL重置竞态bug，印证非标准用法是可靠性的真正风险。",
           "points": [
-            "按任务智能匹配模型：驱动循环用前沿模型，分类/提取/路由用最便宜模型；评审必须用最强模型，否则只是橡皮图章。",
-            "链式错误会累积（5步×95%成功率≈77%）；大提示单一模型方案的四个劣势为成本（前沿token贵5-10倍）、接缝缺失、不可见性、无法分步优化。",
-            "给出具体旅行预订示例，13条消息仅约40k tokens；并引用Anthropic关于prompt caching在长程agent任务中41-80%节省的测量。"
+            "6个月19次库损坏，单一writer+手动激进checkpoint触发罕见竞态",
+            "SQLite 3.52.0修复后又被撤回，因生成列浮点舍入引起13库误报",
+            "tmstmpvfs shim包装VFS层记录WAL，2个月后捕获真实触发证据"
           ]
         },
         "en": {
-          "thesis": "AI Agents: Architecture",
-          "points": []
+          "thesis": "Tailscale traced 19 database corruptions to a 16-year-old SQLite WAL-reset race, showing nonstandard use is the real reliability risk.",
+          "points": [
+            "19 corruptions in six months, triggered by a rare race from single-writer use plus aggressive manual checkpoints",
+            "The fix in SQLite 3.52.0 was reverted after generated-column float rounding falsely flagged 13 databases",
+            "A tmstmpvfs shim wrapping the VFS layer logged WAL activity and captured real trigger evidence two months later"
+          ]
         }
       }
     },
     {
-      "id": "52fa033e5f1f88fe1fbecaafd4a117291bb0cbc2",
+      "id": "a0f3dc1efe58b059727196088a4418eb2f16aa63",
       "sourceId": "hn",
-      "title": "AI is removing the middle class of software engineering",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "author": "florianherrengt",
-      "publishedAt": "2026-08-12T13:20:05.000Z",
+      "title": "What sort of maths are LLMs good at?",
+      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+      "author": "ColinWright",
+      "publishedAt": "2026-08-12T10:04:25.000Z",
       "image": null,
-      "readingMinutes": 6,
+      "readingMinutes": 34,
       "score": 88,
       "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "AI消除了软件工程的中间阶层：好的工程师更值钱，坏的工程师几乎无法再被雇用。",
+          "thesis": "LLM擅长沙取/反例而非洞见式证明，源于其海量知识加快速试错风格而非逻辑优势。",
           "points": [
-            "核心论点：实现变便宜后，判断力（评判LLM建议的能力）成为稀缺且最高价值的能力；没有判断力的工程师会被更廉价者替代。",
-            "20000行/天的产出让审查成为瓶颈；错误的迁移、冗余抽象等一旦进入生产（SQL表格、Kafka）便极难回滚，技术债仍要由人理解。",
-            "作者判断薪酬差距会扩大——雇佣好工程师的价值因AI加速而上升，坏工程师的雇佣成本则变得负担不起。"
+            "OpenAI所解10大难题多为构造反例，如非sofic群与多彩Ramsey超指数下界",
+            "Vinogradov三素数定理逻辑同为存在形式却算定理，说明反例界定依赖语境",
+            "LLM适合作坊式穷试，人类仍擅概念性与出人意料的证明思路"
           ]
         },
         "en": {
-          "thesis": "AI is removing the middle class of software engineering",
-          "points": []
+          "thesis": "LLMs excel at extraction and counterexamples rather than insight-driven proofs, thanks to vast knowledge plus fast trial-and-error rather than logical superiority.",
+          "points": [
+            "Most of OpenAI's ten solved problems are constructive counterexamples, like non-sofic groups and super-exponential Ramsey lower bounds",
+            "Vinogradov's three-primes theorem is likewise existential in form yet counts as a theorem, showing counterexample status is context-dependent",
+            "LLMs suit workshop-style exhaustive trying, while humans still lead on conceptual and surprising proof ideas"
+          ]
         }
       }
     },
@@ -150,117 +158,110 @@
       "rank": 3,
       "summary": {
         "zh": {
-          "thesis": "车牌识别器的历史检索应强制要求搜查令，数据删除并不能防止滥用。",
+          "thesis": "车牌识别历史数据检索应需搜查令，现行保留与审计制度既防不了滥用也限制合法侦查。",
           "points": [
-            "作者主张各州立法要求历史ALPR检索需搜查令，实时检索（数小时）可因紧急情况豁免；新罕布什尔3分钟保留期过短，而长期保留并不等于滥用。",
-            "引用Carpenter（CSLI）、Chatrie（geofence）和Beautiful Struggle（无人机）判例，论证摄像头密度足够时，ALPR历史检索必然被认定为搜查，问题只是何时。",
-            "删除数据防止不了滥用（虐待者会反复搜索同一车牌数百次），反而阻碍正当长期调查和辩护取证；审计应由州检察长或DCJS等外部第三方执行，而非警方自查。"
+            "新罕布什尔3分钟保留过短，弗吉尼亚21天，多数州约30天",
+            "删除数据不防滥用：滥用者周期性搜索并记录，反会损调查与辩护",
+            "保留数据而非删除+强制令状+第三方独立审计（州检察长办）为最优解"
           ]
         },
         "en": {
-          "thesis": "License plate reader searches should require a warrant",
-          "points": []
+          "thesis": "Searches of historical license-plate-reader data should require a warrant; current retention and audit practices neither stop abuse nor help legitimate investigation.",
+          "points": [
+            "Retention is too short at three minutes in New Hampshire and 21 days in Virginia, with most states at about 30 days",
+            "Deleting data does not stop abuse - abusers search periodically and log results, damaging investigations and defense",
+            "Keeping data instead of erasing it, plus a warrant mandate and independent third-party audits by the state AG, is the best path"
+          ]
         }
       }
     },
     {
-      "id": "e4d1ae4cabdd8e7c2d47c5cb168efa20b92a6c4e",
-      "sourceId": "hn",
-      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-      "url": "https://woxi.ad-si.com/",
-      "author": "adius",
-      "publishedAt": "2026-08-12T10:06:29.000Z",
+      "id": "05de32c56e427a128ec37a6788d9aa35da7feb65",
+      "sourceId": "neciudan",
+      "title": "AI Agents: Architecture",
+      "url": "https://neciudan.dev/ai-agents-architecture",
+      "author": null,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
       "image": null,
-      "readingMinutes": 1,
-      "score": 75,
+      "readingMinutes": 11,
+      "score": 82,
       "rank": 4,
       "summary": {
         "zh": {
-          "thesis": "Woxi是一个开源的对Mathematica/Wolfram语言的重实现，以Jupyter内核形式分发。",
+          "thesis": "AI代理应用应拆分为十种架构模式，用不同模型分工而非单一强模型兜底。",
           "points": [
-            "支持本地安装（woxi install-kernel）以及免安装浏览器运行的JupyterLite体验。",
-            "开源重实现对专有数学计算工具的替代具有实际价值，但无正文细节可进一步评估。"
+            "链式5步各95%成功率整体仅约77%，误差随步骤累积",
+            "frontier模型每token贵5-10倍，transcript重发使单一大模型更贵",
+            "先全用最强model验证功能，再有evals后逐岗降级换便宜模型"
           ]
         },
         "en": {
-          "thesis": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-          "points": []
+          "thesis": "AI agent apps should split into ten architectural patterns and divide work across different models rather than lean on one strong model.",
+          "points": [
+            "A five-step chain at 95% per step lands at only ~77% overall, with error accumulating per step",
+            "Frontier models cost 5-10x more per token, and transcript resending makes a single big model pricier",
+            "Validate features with the strongest model first, then downgrade per role to cheaper models once evals exist"
+          ]
         }
       }
     },
     {
-      "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
+      "id": "52fa033e5f1f88fe1fbecaafd4a117291bb0cbc2",
       "sourceId": "hn",
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "author": "ropbear",
-      "publishedAt": "2026-08-12T14:22:30.000Z",
+      "title": "AI is removing the middle class of software engineering",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "author": "florianherrengt",
+      "publishedAt": "2026-08-12T13:20:05.000Z",
       "image": null,
-      "readingMinutes": 1,
-      "score": 70,
+      "readingMinutes": 6,
+      "score": 78,
       "rank": 5,
       "summary": {
         "zh": {
-          "thesis": "Tailscale将数据库损坏追溯到一个存在16年之久的SQLite WAL重置bug。",
+          "thesis": "AI让实现变廉价，削弱工程文化项目加速崩坏，两极化薪资挤压平庸工程师。",
           "points": [
-            "该bug与SQLite的write-ahead logging（WAL）重置机制相关，长期未被发现。",
-            "Tailscale通过对此类历史路径的公开披露，说明了即使成熟的SQLite也隐藏着深层一致性缺陷。"
+            "平庸者一天可产过去一年代码量，PR可超24506行难以审查",
+            "回滚坏决定极难：数据库加表10分钟，迁移修复需数周且五倍新PR涌入",
+            "可雇佣线=当前最强模型能力，好工程因AI增速更稀缺，差工程更难被雇"
           ]
         },
         "en": {
-          "thesis": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-          "points": []
+          "thesis": "AI makes implementation cheap, eroding engineering culture and accelerating project decay while compressing salaries at both ends.",
+          "points": [
+            "A middling engineer can now produce a year's worth of code in a day, with PRs exceeding 24,506 lines that are hard to review",
+            "Rolling back bad decisions is brutal: adding a DB column takes 10 minutes, but fixing the migration takes weeks and draws five times more new PRs",
+            "The hireable line now tracks the strongest model's ability - good engineering becomes rarer with AI, while poor engineering gets harder to employ"
+          ]
         }
       }
     },
     {
-      "id": "bfb7a090540d79dba924c5d42f3ed0b8c24c943e",
-      "sourceId": "westenberg",
-      "title": "5 Rules for a Second Brain You’ll Actually Use",
-      "url": "https://www.joanwestenberg.com/p/5-rules-for-a-second-brain-youll",
-      "author": "JA Westenberg",
-      "publishedAt": "2026-08-11T20:48:29.000Z",
-      "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw0fHxicmFpbnxlbnwwfHx8fDE3ODYzMTkzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "adafd8deace0a86bf2064fdd8ff4083aa29a941c",
+      "sourceId": "xda-ai-tools",
+      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
+      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
+      "author": "Rich Edmonds",
+      "publishedAt": "2026-08-12T18:00:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
       "readingMinutes": 6,
-      "score": 70,
+      "score": 62,
       "rank": 6,
       "summary": {
         "zh": {
-          "thesis": "知识库（第二大脑）应靠人工摄入、围绕问题组织、容纳异见、主动删除并以产出收尾，而非无限囤积。",
+          "thesis": "Google用专业AI智能体重写漏洞管理全流程，两周修复量超过去23个里程碑总和。",
           "points": [
-            "自动化摄入会产生无法驾驭的噪音（作者曾让自动化跑一个月后几乎崩溃）；每条笔记须能用一句话说明为何保存。",
-            "用问题式标签（如「为何人们放弃好习惯」）替代学科文件夹；每周修剪至少每小时，每加入5个对象至少处理或删除1个。",
-            "每次回顾必须以外部产出结束；规模（笔记数）是衡量知识库的最差指标。"
+            "Chrome 149/150共修复1072个安全漏洞，AI补丁量超以往23个里程碑之和",
+            "DeepMind与Project Zero工具每日扫描，5月单月拦住20+漏洞进入生产",
+            "推动两周一发布加动态热修补，缩短公开源码与补丁部署的patch gap"
           ]
         },
         "en": {
-          "thesis": "5 Rules for a Second Brain You’ll Actually Use",
-          "points": []
-        }
-      }
-    },
-    {
-      "id": "e223f696d7de00f4753ff0a19dc1fab47d30612d",
-      "sourceId": "heavybit",
-      "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
-      "url": "https://www.heavybit.com/library/podcasts/ep-10-the-system-is-more-than-the-code-with-charity-majors",
-      "author": "Heavybit",
-      "publishedAt": "2026-08-12T07:10:00.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 68,
-      "rank": 7,
-      "summary": {
-        "zh": {
-          "thesis": "Charity Majors认为在代码日益一次性化的世界里，架构、约束、生产行为和对用户的承诺才是持久产物，生产是最终真相来源。",
+          "thesis": "Google's specialist AI agents rebooted its entire vulnerability-management pipeline, fixing more in two weeks than across all prior milestones.",
           "points": [
-            "讨论AI时代软件经济学的转变：代码可弃置、可再生，而生产行为才是稳定的仲裁者。",
-            "聚焦可观测性、非确定性系统中的工程，以及负责任地采用AI。"
+            "Chrome 149/150 fixed 1,072 security bugs, with AI-authored patches exceeding the total from all 23 earlier milestones",
+            "DeepMind and Project Zero tools scan daily, blocking 20+ vulnerabilities from reaching production in May alone",
+            "A shift to biweekly releases plus dynamic hot-patching narrows the gap between public source and shipped patches"
           ]
-        },
-        "en": {
-          "thesis": "Ep. #10, The System Is More Than the Code with Charity Majors",
-          "points": []
         }
       }
     },
@@ -273,46 +274,84 @@
       "publishedAt": "2026-08-11T20:00:10.000Z",
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/opencode-go-feature-image-deepseek.jpg",
       "readingMinutes": 9,
-      "score": 65,
-      "rank": 8,
+      "score": 60,
+      "rank": 7,
       "summary": {
         "zh": {
-          "thesis": "OpenCode Go每月10美元套餐以近乎零成本提供DeepSeek V4 Flash处理日常编码，加上Kimi K3处理边缘难题，比Claude Code更划算。",
+          "thesis": "OpenCode Go月费10美元，DeepSeek V4 Flash近乎免费，使Claude Code定价显得昂贵。",
           "points": [
-            "V4 Flash一天重度使用约44次请求（18k-216k token上下文）成本3美分；SWE-bench 79%接近Claude Sonnet 4.6的79.6%。",
-            "混合用法成常态：80%廉价模型+20%高价模型；Kimi K3仅110次/5小时窗口，定价与Moonshot API相同，OpenCode无折扣。",
-            "16/18个模型来自中国公司；17个中美例外模型有30天数据保留而非零保留。"
+            "V4 Flash全日44次分析含大context仅耗3美分，SWE-bench 79%追平Sonnet 4.6",
+            "Kimi K3为2.8T参最大开源模型，被白宫指控蒸馏Fable但研究员质疑可行性",
+            "K3限110请求/5小时，V4 Flash可到63300次，适合80/20混合路由"
           ]
         },
         "en": {
-          "thesis": "Most people pay $20 for Claude Code, but OpenCode Go is $10 and I can barely spend a dollar of it",
-          "points": []
+          "thesis": "OpenCode Go at $10 a month plus near-free DeepSeek V4 Flash makes Claude Code's $20 look expensive.",
+          "points": [
+            "A full day of 44 analysis runs with large context cost only 3 cents on V4 Flash, which ties Sonnet 4.6 at 79% on SWE-bench",
+            "Kimi K3 is the largest open-source model at 2.8T parameters; the White House claims it distilled Fable, though researchers question feasibility",
+            "K3 is capped at 110 requests per 5 hours while V4 Flash reaches 63,300, suiting an 80/20 mixed routing"
+          ]
         }
       }
     },
     {
-      "id": "91e4f440ed957cda112e4854a8827266fd41bb73",
-      "sourceId": "xda-ai-tools",
-      "title": "I gave Claude Code, Antigravity, and my local LLM the same coding project, and only one of them understood the assignment",
-      "url": "https://www.xda-developers.com/gave-claude-code-antigravity-local-llm-same-coding-project-only-one-understood-the-assignment/",
-      "author": "Nolen Jonker",
-      "publishedAt": "2026-08-11T18:00:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/code-in-antigravity-on-desktop-pc-lego-and-lamp-in-view.jpeg",
-      "readingMinutes": 6,
-      "score": 65,
-      "rank": 9,
+      "id": "f9e1ef66ab3da5c60dafd5b54edf0f328df3b39e",
+      "sourceId": "hn",
+      "title": "Qwen3.8-2.4T",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "author": "Philpax",
+      "publishedAt": "2026-08-12T15:01:17.000Z",
+      "image": null,
+      "readingMinutes": 38,
+      "score": 55,
+      "rank": 8,
       "summary": {
         "zh": {
-          "thesis": "在同一个HTML线框项目上，Google Antigravity（Sonnet 4.6）胜过Claude Code（Opus 4.7）和本地Qwen，说明agent回路与模型智能同样重要。",
+          "thesis": "Qwen3.8-2.4T-A95B开源模型发布，2.4T参数激活95B，首次开源Qwen-Max级能力。",
           "points": [
-            "Antigravity产出带真实筛选、可排序列、6行真实事故数据的分页表格的设计师级线框，并展示「Skills Used」面板增加透明度。",
-            "Claude Code技术上符合要点但fidelity最低，需两轮迭代才有可用输出；本地Qwen 3.5 9B（8GB VRAM）完全忽略线框要求，产出全彩正式设计，因小模型在冲突时优先用户提示而非系统提示。",
-            "结论：线框这类结构性任务上模型并非全部，包裹它的agentic loop同样决定性。"
+            "总参2.4T、激活95B，MoE含512专家选10个路由+1共享",
+            "原生262K上下文，可扩展至101万tokens",
+            "SWE-bench Pro 67.7、DeepSWE 56.6，落后Claude Opus 4.8约12分"
           ]
         },
         "en": {
-          "thesis": "I gave Claude Code, Antigravity, and my local LLM the same coding project, and only one of them understood the assignment",
-          "points": []
+          "thesis": "Qwen3.8-2.4T-A95B is an open-source model bringing Qwen-Max-class capability to the public with 2.4T parameters.",
+          "points": [
+            "2.4T total parameters with 95B active via a MoE of 512 experts routing 10, plus one shared expert",
+            "Native 262K context, expandable to 1.01M tokens",
+            "SWE-bench Pro 67.7 and DeepSWE 56.6, roughly 12 points behind Claude Opus 4.8"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bfb7a090540d79dba924c5d42f3ed0b8c24c943e",
+      "sourceId": "westenberg",
+      "title": "5 Rules for a Second Brain You’ll Actually Use",
+      "url": "https://www.joanwestenberg.com/p/5-rules-for-a-second-brain-youll",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-11T20:48:29.000Z",
+      "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw0fHxicmFpbnxlbnwwfHx8fDE3ODYzMTkzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "readingMinutes": 6,
+      "score": 55,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "第二大脑应人工摄入、围绕问题组织、容异见并定期删除，而非自动囤积。",
+          "points": [
+            "自动化摄取一月即产出难处理的噪音，须判断后才保存",
+            "按主题归档是无效分类，改用问题或限时项目做tag更促思考",
+            "每周至少删1/5，审查必须以产出物收尾否则无意义"
+          ]
+        },
+        "en": {
+          "thesis": "A second brain should be fed manually, organized around problems, tolerate dissent, and get pruned regularly - not auto-hoarded.",
+          "points": [
+            "Automated ingestion produces unmanageable noise within a month; you must judge before saving",
+            "Archiving by topic is ineffective; using problem or time-boxed project tags better drives thinking",
+            "Delete at least 1/5 weekly, and any review must end in an output or it is pointless"
+          ]
         }
       }
     },
@@ -325,25 +364,49 @@
       "publishedAt": "2026-08-12T11:30:10.000Z",
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/grok-is-top-ai-coding-tool.jpeg",
       "readingMinutes": 5,
-      "score": 55,
+      "score": 45,
       "rank": 10,
       "summary": {
         "zh": {
-          "thesis": "Grok 4.5在Cursor中凭借token效率和直接性，成为作者除OpenAI/Anthropic之外的首选编码模型。",
+          "thesis": "作者推荐Grok 4.5在Cursor中的token效率，声称构建整站仅耗约40k tokens。",
           "points": [
-            "构建完整豪华音箱网站仅消耗约40k tokens，token效率是主要优势。",
-            "对简单改动不重复读无关文件、不产生冗长计划，适合快速迭代；但复杂推理任务作者仍切换到Fable 5或Claude Code。",
-            "作者认为token省用与原始智能同等重要，期待即将发布的Grok 4.6改进复杂任务处理。"
+            "整站前端仅耗约40k tokens，小改动不重读无关文件",
+            "作者仍会在复杂任务切回Fable 5与Claude Code",
+            "属于主观体验测评，未见可复现基准数据"
           ]
         },
         "en": {
-          "thesis": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
-          "points": []
+          "thesis": "The author recommends Grok 4.5 in Cursor for token efficiency, claiming an entire site build consumed only about 40k tokens.",
+          "points": [
+            "A full front-end site used only ~40k tokens, and small edits did not re-read unrelated files",
+            "The author still switches back to Fable 5 and Claude Code for complex tasks",
+            "This is subjective hands-on evaluation with no reproducible benchmark data"
+          ]
         }
       }
     }
   ],
   "folded": [
+    {
+      "title": "Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "sourceId": "hn"
+    },
+    {
+      "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
+      "url": "https://www.heavybit.com/library/podcasts/ep-10-the-system-is-more-than-the-code-with-charity-majors",
+      "sourceId": "heavybit"
+    },
+    {
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "url": "https://woxi.ad-si.com/",
+      "sourceId": "hn"
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "sourceId": "hn"
+    },
     {
       "title": "2026 Eclipse Webcams",
       "url": "https://jonty.github.io/2026_eclipse_webcams/",
