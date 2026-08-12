@@ -1,9 +1,9 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T19:44:25.201Z",
+  "generatedAt": "2026-08-12T19:52:37.425Z",
   "window": {
-    "from": "2026-08-11T19:44:25.201Z",
-    "to": "2026-08-12T19:44:25.201Z"
+    "from": "2026-08-11T19:52:37.425Z",
+    "to": "2026-08-12T19:52:37.425Z"
   },
   "stats": {
     "fetched": 15,
@@ -86,36 +86,6 @@
   ],
   "articles": [
     {
-      "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
-      "sourceId": "hn",
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "author": "ropbear",
-      "publishedAt": "2026-08-12T14:22:30.000Z",
-      "image": null,
-      "readingMinutes": 13,
-      "score": 90,
-      "rank": 1,
-      "summary": {
-        "zh": {
-          "thesis": "Tailscale定位SQLite 16年WAL重置竞态bug，印证非标准用法是可靠性的真正风险。",
-          "points": [
-            "6个月19次库损坏，单一writer+手动激进checkpoint触发罕见竞态",
-            "SQLite 3.52.0修复后又被撤回，因生成列浮点舍入引起13库误报",
-            "tmstmpvfs shim包装VFS层记录WAL，2个月后捕获真实触发证据"
-          ]
-        },
-        "en": {
-          "thesis": "Tailscale traced 19 database corruptions to a 16-year-old SQLite WAL-reset race, showing nonstandard use is the real reliability risk.",
-          "points": [
-            "19 corruptions in six months, triggered by a rare race from single-writer use plus aggressive manual checkpoints",
-            "The fix in SQLite 3.52.0 was reverted after generated-column float rounding falsely flagged 13 databases",
-            "A tmstmpvfs shim wrapping the VFS layer logged WAL activity and captured real trigger evidence two months later"
-          ]
-        }
-      }
-    },
-    {
       "id": "a0f3dc1efe58b059727196088a4418eb2f16aa63",
       "sourceId": "hn",
       "title": "What sort of maths are LLMs good at?",
@@ -124,53 +94,53 @@
       "publishedAt": "2026-08-12T10:04:25.000Z",
       "image": null,
       "readingMinutes": 34,
-      "score": 88,
-      "rank": 2,
+      "score": 85,
+      "rank": 1,
       "summary": {
         "zh": {
-          "thesis": "LLM擅长沙取/反例而非洞见式证明，源于其海量知识加快速试错风格而非逻辑优势。",
+          "thesis": "LLM强于构造反例，因擅长海量尝试而非深刻概念性论证。",
           "points": [
-            "OpenAI所解10大难题多为构造反例，如非sofic群与多彩Ramsey超指数下界",
-            "Vinogradov三素数定理逻辑同为存在形式却算定理，说明反例界定依赖语境",
-            "LLM适合作坊式穷试，人类仍擅概念性与出人意料的证明思路"
+            "OpenAI解决十大难题多为反例/构造而非定理证明",
+            "索菲群、多色Ramsey、Jacobian猜想等均为反例型",
+            "作者推测LLM风格是「大量尝试碰运气」，人类强在出奇概念论证"
           ]
         },
         "en": {
-          "thesis": "LLMs excel at extraction and counterexamples rather than insight-driven proofs, thanks to vast knowledge plus fast trial-and-error rather than logical superiority.",
+          "thesis": "LLMs excel at constructing counterexamples because they favor massive trial-and-error over deep conceptual arguments.",
           "points": [
-            "Most of OpenAI's ten solved problems are constructive counterexamples, like non-sofic groups and super-exponential Ramsey lower bounds",
-            "Vinogradov's three-primes theorem is likewise existential in form yet counts as a theorem, showing counterexample status is context-dependent",
-            "LLMs suit workshop-style exhaustive trying, while humans still lead on conceptual and surprising proof ideas"
+            "OpenAI's ten solved problems lean toward counterexamples and constructions rather than theorem proofs",
+            "Sophie groups, multicolor Ramsey, and the Jacobian conjecture are all counterexample-type results",
+            "Author bets LLM style is 'large-scale luck-seeking' while humans shine at surprising conceptual proofs"
           ]
         }
       }
     },
     {
-      "id": "d8d84c04601d267495ffcc933e62f0c80ebc0d85",
+      "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
       "sourceId": "hn",
-      "title": "License plate reader searches should require a warrant",
-      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
-      "author": "apwheele",
-      "publishedAt": "2026-08-12T14:43:39.000Z",
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "author": "ropbear",
+      "publishedAt": "2026-08-12T14:22:30.000Z",
       "image": null,
-      "readingMinutes": 15,
-      "score": 85,
-      "rank": 3,
+      "readingMinutes": 13,
+      "score": 84,
+      "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "车牌识别历史数据检索应需搜查令，现行保留与审计制度既防不了滥用也限制合法侦查。",
+          "thesis": "Tailscale历时半年定位16年历史的SQLite WAL-Reset竞态，并贡献修复。",
           "points": [
-            "新罕布什尔3分钟保留过短，弗吉尼亚21天，多数州约30天",
-            "删除数据不防滥用：滥用者周期性搜索并记录，反会损调查与辩护",
-            "保留数据而非删除+强制令状+第三方独立审计（州检察长办）为最优解"
+            "6个月19起损坏，均因手动+激进checkpoint触发",
+            "SQLite官方修复为3.51.3版，撤回含回归的3.52.0",
+            "部署tmstmpvfs shim排查，确认后4个月零事故"
           ]
         },
         "en": {
-          "thesis": "Searches of historical license-plate-reader data should require a warrant; current retention and audit practices neither stop abuse nor help legitimate investigation.",
+          "thesis": "Tailscale spent six months tracing data corruption to a 16-year-old SQLite WAL-Reset race and contributed the fix.",
           "points": [
-            "Retention is too short at three minutes in New Hampshire and 21 days in Virginia, with most states at about 30 days",
-            "Deleting data does not stop abuse - abusers search periodically and log results, damaging investigations and defense",
-            "Keeping data instead of erasing it, plus a warrant mandate and independent third-party audits by the state AG, is the best path"
+            "19 corruptions in 6 months, each triggered by manual plus aggressive checkpoints",
+            "SQLite's official fix landed in 3.51.3, rolling back the regression-laden 3.52.0",
+            "A tmstmpvfs shim confirmed the cause; four months post-fix, zero incidents"
           ]
         }
       }
@@ -185,22 +155,22 @@
       "image": null,
       "readingMinutes": 11,
       "score": 82,
-      "rank": 4,
+      "rank": 3,
       "summary": {
         "zh": {
-          "thesis": "AI代理应用应拆分为十种架构模式，用不同模型分工而非单一强模型兜底。",
+          "thesis": "AI代理由十种可复用架构模式组成，应按任务难易分层选模型。",
           "points": [
-            "链式5步各95%成功率整体仅约77%，误差随步骤累积",
-            "frontier模型每token贵5-10倍，transcript重发使单一大模型更贵",
-            "先全用最强model验证功能，再有evals后逐岗降级换便宜模型"
+            "5步链每步95%成功率，整体仅约77%",
+            "法官模型若弱于作者，审阅即成为橡皮图章",
+            "拆分独立任务可省5-10倍token成本，并可逐任务降级换便宜模型"
           ]
         },
         "en": {
-          "thesis": "AI agent apps should split into ten architectural patterns and divide work across different models rather than lean on one strong model.",
+          "thesis": "AI agents are built from ten reusable architectural patterns, and model choice should be tiered by task difficulty.",
           "points": [
-            "A five-step chain at 95% per step lands at only ~77% overall, with error accumulating per step",
-            "Frontier models cost 5-10x more per token, and transcript resending makes a single big model pricier",
-            "Validate features with the strongest model first, then downgrade per role to cheaper models once evals exist"
+            "A 5-step chain with 95% per-step success yields only about 77% overall",
+            "A judge model weaker than the author makes review a rubber stamp",
+            "Splitting independent tasks cuts 5-10x token cost and allows per-task downgrades to cheaper models"
           ]
         }
       }
@@ -214,53 +184,53 @@
       "publishedAt": "2026-08-12T13:20:05.000Z",
       "image": null,
       "readingMinutes": 6,
-      "score": 78,
-      "rank": 5,
+      "score": 80,
+      "rank": 4,
       "summary": {
         "zh": {
-          "thesis": "AI让实现变廉价，削弱工程文化项目加速崩坏，两极化薪资挤压平庸工程师。",
+          "thesis": "AI让实现变廉价，但弱工程文化团队会更快崩溃，好工程师更值钱。",
           "points": [
-            "平庸者一天可产过去一年代码量，PR可超24506行难以审查",
-            "回滚坏决定极难：数据库加表10分钟，迁移修复需数周且五倍新PR涌入",
-            "可雇佣线=当前最强模型能力，好工程因AI增速更稀缺，差工程更难被雇"
+            "代码量与生成速度远超审查能力，坏决策5倍速叠加",
+            "修复AI烂决策成本远高于生成，迁移与孤儿外键难回退",
+            "作者断言薪资两极分化：可用AI的强者增值，弱者无法雇佣"
           ]
         },
         "en": {
-          "thesis": "AI makes implementation cheap, eroding engineering culture and accelerating project decay while compressing salaries at both ends.",
+          "thesis": "AI makes implementation cheap, but teams with weak engineering culture fail faster while good engineers become more valuable.",
           "points": [
-            "A middling engineer can now produce a year's worth of code in a day, with PRs exceeding 24,506 lines that are hard to review",
-            "Rolling back bad decisions is brutal: adding a DB column takes 10 minutes, but fixing the migration takes weeks and draws five times more new PRs",
-            "The hireable line now tracks the strongest model's ability - good engineering becomes rarer with AI, while poor engineering gets harder to employ"
+            "Code volume and generation speed far outpace review capacity, compounding bad decisions 5x",
+            "Fixing AI's bad decisions costs far more than generating them; migrations and orphaned foreign keys are hard to revert",
+            "Author predicts wage polarization: AI-capable engineers get more valuable while weaker ones become unhireable"
           ]
         }
       }
     },
     {
-      "id": "adafd8deace0a86bf2064fdd8ff4083aa29a941c",
-      "sourceId": "xda-ai-tools",
-      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
-      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
-      "author": "Rich Edmonds",
-      "publishedAt": "2026-08-12T18:00:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
-      "readingMinutes": 6,
-      "score": 62,
-      "rank": 6,
+      "id": "d8d84c04601d267495ffcc933e62f0c80ebc0d85",
+      "sourceId": "hn",
+      "title": "License plate reader searches should require a warrant",
+      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+      "author": "apwheele",
+      "publishedAt": "2026-08-12T14:43:39.000Z",
+      "image": null,
+      "readingMinutes": 15,
+      "score": 78,
+      "rank": 5,
       "summary": {
         "zh": {
-          "thesis": "Google用专业AI智能体重写漏洞管理全流程，两周修复量超过去23个里程碑总和。",
+          "thesis": "历史ALPR数据搜索应由立法强制令拦截，删除数据并不能防滥用。",
           "points": [
-            "Chrome 149/150共修复1072个安全漏洞，AI补丁量超以往23个里程碑之和",
-            "DeepMind与Project Zero工具每日扫描，5月单月拦住20+漏洞进入生产",
-            "推动两周一发布加动态热修补，缩短公开源码与补丁部署的patch gap"
+            "Norfolk案后弗吉尼亚州统一保留21天，各州多在30天左右",
+            "删除数据不防滥用：滥用者每20天搜索一次即可",
+            "作者建议保留短时实况搜索，历史搜索需司法令 + 第三方审计"
           ]
         },
         "en": {
-          "thesis": "Google's specialist AI agents rebooted its entire vulnerability-management pipeline, fixing more in two weeks than across all prior milestones.",
+          "thesis": "Historical ALPR data searches should be gated by a legislative warrant; deleting data doesn't stop abuse.",
           "points": [
-            "Chrome 149/150 fixed 1,072 security bugs, with AI-authored patches exceeding the total from all 23 earlier milestones",
-            "DeepMind and Project Zero tools scan daily, blocking 20+ vulnerabilities from reaching production in May alone",
-            "A shift to biweekly releases plus dynamic hot-patching narrows the gap between public source and shipped patches"
+            "Virginia standardized 21-day retention after the Norfolk case; most states keep around 30 days",
+            "Deletion doesn't deter abuse: a bad actor just searches every 20 days",
+            "Author suggests keeping short-lived live searches legal but requiring a judicial warrant plus third-party audit for historical ones"
           ]
         }
       }
@@ -274,23 +244,53 @@
       "publishedAt": "2026-08-11T20:00:10.000Z",
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/opencode-go-feature-image-deepseek.jpg",
       "readingMinutes": 9,
-      "score": 60,
-      "rank": 7,
+      "score": 70,
+      "rank": 6,
       "summary": {
         "zh": {
-          "thesis": "OpenCode Go月费10美元，DeepSeek V4 Flash近乎免费，使Claude Code定价显得昂贵。",
+          "thesis": "OpenCode Go以10美元月费提供接近免费的主力模型与旗舰备用模型。",
           "points": [
-            "V4 Flash全日44次分析含大context仅耗3美分，SWE-bench 79%追平Sonnet 4.6",
-            "Kimi K3为2.8T参最大开源模型，被白宫指控蒸馏Fable但研究员质疑可行性",
-            "K3限110请求/5小时，V4 Flash可到63300次，适合80/20混合路由"
+            "DeepSeek V4 Flash一天重度使用实测仅花3美分",
+            "V4 Flash SWE-bench 79%，逼近Claude Sonnet 4.6的79.6%",
+            "Kimi K3为2.8T参数开源大模型，5小时窗口仅110次请求"
           ]
         },
         "en": {
-          "thesis": "OpenCode Go at $10 a month plus near-free DeepSeek V4 Flash makes Claude Code's $20 look expensive.",
+          "thesis": "OpenCode Go's $10 monthly plan offers a near-free primary model plus a flagship backup model.",
           "points": [
-            "A full day of 44 analysis runs with large context cost only 3 cents on V4 Flash, which ties Sonnet 4.6 at 79% on SWE-bench",
-            "Kimi K3 is the largest open-source model at 2.8T parameters; the White House claims it distilled Fable, though researchers question feasibility",
-            "K3 is capped at 110 requests per 5 hours while V4 Flash reaches 63,300, suiting an 80/20 mixed routing"
+            "A heavy day of DeepSeek V4 Flash usage cost just 3 cents",
+            "V4 Flash scores 79% on SWE-bench, close to Claude Sonnet 4.6's 79.6%",
+            "Kimi K3 is a 2.8T-parameter open model; the 5-hour window allows only 110 requests"
+          ]
+        }
+      }
+    },
+    {
+      "id": "abadfb45f943fcd5c50b47d2f18462ba3144cbba",
+      "sourceId": "hn",
+      "title": "Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "author": "iLuddite",
+      "publishedAt": "2026-08-12T15:32:50.000Z",
+      "image": null,
+      "readingMinutes": 4,
+      "score": 68,
+      "rank": 7,
+      "summary": {
+        "zh": {
+          "thesis": "Grok 4.6聚焦长时运行代理，评测追平GPT-5.6 Sol与Fable 5。",
+          "points": [
+            "AA Intelligence Index 61分，与GPT-5.6 Sol并列、略低于Fable 5的62",
+            "定价每百万输入2美元、输出6美元，快变体价格翻倍",
+            "API定价：$2/百万输入tokens，$6/百万输出tokens"
+          ]
+        },
+        "en": {
+          "thesis": "Grok 4.6 targets long-running agents and now matches GPT-5.6 Sol and Fable 5 in benchmarks.",
+          "points": [
+            "Scored 61 on the AA Intelligence Index, tying GPT-5.6 Sol and just below Fable 5's 62",
+            "Priced at $2 per million input tokens and $6 per million output tokens",
+            "The fast variant carries a doubled price"
           ]
         }
       }
@@ -304,53 +304,53 @@
       "publishedAt": "2026-08-12T15:01:17.000Z",
       "image": null,
       "readingMinutes": 38,
-      "score": 55,
+      "score": 62,
       "rank": 8,
       "summary": {
         "zh": {
-          "thesis": "Qwen3.8-2.4T-A95B开源模型发布，2.4T参数激活95B，首次开源Qwen-Max级能力。",
+          "thesis": "Qwen3.8开源2.4T参数MoE模型，首款开源版Qwen-Max级能力。",
           "points": [
-            "总参2.4T、激活95B，MoE含512专家选10个路由+1共享",
-            "原生262K上下文，可扩展至101万tokens",
-            "SWE-bench Pro 67.7、DeepSWE 56.6，落后Claude Opus 4.8约12分"
+            "共2.4T参数，激活95B，512专家路由10个",
+            "原生上下文262144，可扩至1010000 tokens",
+            "SWE-bench Pro 67.7、GPQA Diamond 92.6，终端41%"
           ]
         },
         "en": {
-          "thesis": "Qwen3.8-2.4T-A95B is an open-source model bringing Qwen-Max-class capability to the public with 2.4T parameters.",
+          "thesis": "Qwen3.8 is the first open-source model with Qwen-Max-level capability, a 2.4T-parameter MoE.",
           "points": [
-            "2.4T total parameters with 95B active via a MoE of 512 experts routing 10, plus one shared expert",
-            "Native 262K context, expandable to 1.01M tokens",
-            "SWE-bench Pro 67.7 and DeepSWE 56.6, roughly 12 points behind Claude Opus 4.8"
+            "2.4T total parameters, 95B active, with 512 experts routing to 10",
+            "Native 262,144-token context, expandable to 1.01M tokens",
+            "SWE-bench Pro 67.7, GPQA Diamond 92.6, terminal score 41%"
           ]
         }
       }
     },
     {
-      "id": "bfb7a090540d79dba924c5d42f3ed0b8c24c943e",
-      "sourceId": "westenberg",
-      "title": "5 Rules for a Second Brain You’ll Actually Use",
-      "url": "https://www.joanwestenberg.com/p/5-rules-for-a-second-brain-youll",
-      "author": "JA Westenberg",
-      "publishedAt": "2026-08-11T20:48:29.000Z",
-      "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw0fHxicmFpbnxlbnwwfHx8fDE3ODYzMTkzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "adafd8deace0a86bf2064fdd8ff4083aa29a941c",
+      "sourceId": "xda-ai-tools",
+      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
+      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
+      "author": "Rich Edmonds",
+      "publishedAt": "2026-08-12T18:00:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
       "readingMinutes": 6,
-      "score": 55,
+      "score": 58,
       "rank": 9,
       "summary": {
         "zh": {
-          "thesis": "第二大脑应人工摄入、围绕问题组织、容异见并定期删除，而非自动囤积。",
+          "thesis": "Google用专用AI代理全流程修Chrome漏洞，补丁量超此前23个里程碑总和。",
           "points": [
-            "自动化摄取一月即产出难处理的噪音，须判断后才保存",
-            "按主题归档是无效分类，改用问题或限时项目做tag更促思考",
-            "每周至少删1/5，审查必须以产出物收尾否则无意义"
+            "Chrome 149、150两版共修复1072个安全漏洞",
+            "「life of a bug」流程：发现、分诊、生成补丁、测试全自动化",
+            "5月工具拦截20余漏洞入生产，仍由开发者审查最终补丁"
           ]
         },
         "en": {
-          "thesis": "A second brain should be fed manually, organized around problems, tolerate dissent, and get pruned regularly - not auto-hoarded.",
+          "thesis": "Google's dedicated AI agents now fix Chrome bugs end-to-end, shipping more patches than all prior 23 milestones combined.",
           "points": [
-            "Automated ingestion produces unmanageable noise within a month; you must judge before saving",
-            "Archiving by topic is ineffective; using problem or time-boxed project tags better drives thinking",
-            "Delete at least 1/5 weekly, and any review must end in an output or it is pointless"
+            "Chrome 149 and 150 together fixed 1,072 security vulnerabilities",
+            "The 'life of a bug' pipeline automates discovery, triage, patch generation, and testing",
+            "In May the tool kept 20+ bugs out of production; developers still review every final patch"
           ]
         }
       }
@@ -364,23 +364,23 @@
       "publishedAt": "2026-08-12T11:30:10.000Z",
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/grok-is-top-ai-coding-tool.jpeg",
       "readingMinutes": 5,
-      "score": 45,
+      "score": 55,
       "rank": 10,
       "summary": {
         "zh": {
-          "thesis": "作者推荐Grok 4.5在Cursor中的token效率，声称构建整站仅耗约40k tokens。",
+          "thesis": "Grok 4.5在Cursor中token极省，40k构建整个网站，效率胜过顶尖模型。",
           "points": [
-            "整站前端仅耗约40k tokens，小改动不重读无关文件",
-            "作者仍会在复杂任务切回Fable 5与Claude Code",
-            "属于主观体验测评，未见可复现基准数据"
+            "完整网站仅耗约40k tokens，速度快且不铺张",
+            "小改动直接改相关文件，不重复扫描整个代码库",
+            "复杂任务仍切换Fable 5或Claude Code，非全场景默认"
           ]
         },
         "en": {
-          "thesis": "The author recommends Grok 4.5 in Cursor for token efficiency, claiming an entire site build consumed only about 40k tokens.",
+          "thesis": "Grok 4.5 in Cursor is remarkably token-efficient, building an entire site on 40k tokens and beating top models.",
           "points": [
-            "A full front-end site used only ~40k tokens, and small edits did not re-read unrelated files",
-            "The author still switches back to Fable 5 and Claude Code for complex tasks",
-            "This is subjective hands-on evaluation with no reproducible benchmark data"
+            "Built a complete website on roughly 40k tokens, fast and unextravagant",
+            "Small edits touch only relevant files without rescanning the whole codebase",
+            "Complex tasks still fall back to Fable 5 or Claude Code rather than defaulting everywhere"
           ]
         }
       }
@@ -388,9 +388,9 @@
   ],
   "folded": [
     {
-      "title": "Grok 4.6",
-      "url": "https://x.ai/news/grok-4-6",
-      "sourceId": "hn"
+      "title": "5 Rules for a Second Brain You’ll Actually Use",
+      "url": "https://www.joanwestenberg.com/p/5-rules-for-a-second-brain-youll",
+      "sourceId": "westenberg"
     },
     {
       "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
