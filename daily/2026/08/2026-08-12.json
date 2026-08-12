@@ -1,14 +1,14 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T19:52:37.425Z",
+  "generatedAt": "2026-08-12T20:53:18.714Z",
   "window": {
-    "from": "2026-08-11T19:52:37.425Z",
-    "to": "2026-08-12T19:52:37.425Z"
+    "from": "2026-08-11T20:53:18.714Z",
+    "to": "2026-08-12T20:53:18.714Z"
   },
   "stats": {
-    "fetched": 15,
+    "fetched": 14,
     "shown": 10,
-    "folded": 5
+    "folded": 4
   },
   "sources": [
     {
@@ -21,7 +21,7 @@
       "id": "xda-ai-tools",
       "name": "XDA · AI Tools",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "id": "neciudan",
@@ -33,13 +33,13 @@
       "id": "hn",
       "name": "Hacker News",
       "ok": true,
-      "count": 9
+      "count": 10
     },
     {
       "id": "westenberg",
       "name": "WESTENBERG",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "id": "bytecode",
@@ -86,36 +86,6 @@
   ],
   "articles": [
     {
-      "id": "a0f3dc1efe58b059727196088a4418eb2f16aa63",
-      "sourceId": "hn",
-      "title": "What sort of maths are LLMs good at?",
-      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-      "author": "ColinWright",
-      "publishedAt": "2026-08-12T10:04:25.000Z",
-      "image": null,
-      "readingMinutes": 34,
-      "score": 85,
-      "rank": 1,
-      "summary": {
-        "zh": {
-          "thesis": "LLM强于构造反例，因擅长海量尝试而非深刻概念性论证。",
-          "points": [
-            "OpenAI解决十大难题多为反例/构造而非定理证明",
-            "索菲群、多色Ramsey、Jacobian猜想等均为反例型",
-            "作者推测LLM风格是「大量尝试碰运气」，人类强在出奇概念论证"
-          ]
-        },
-        "en": {
-          "thesis": "LLMs excel at constructing counterexamples because they favor massive trial-and-error over deep conceptual arguments.",
-          "points": [
-            "OpenAI's ten solved problems lean toward counterexamples and constructions rather than theorem proofs",
-            "Sophie groups, multicolor Ramsey, and the Jacobian conjecture are all counterexample-type results",
-            "Author bets LLM style is 'large-scale luck-seeking' while humans shine at surprising conceptual proofs"
-          ]
-        }
-      }
-    },
-    {
       "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
       "sourceId": "hn",
       "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
@@ -124,83 +94,54 @@
       "publishedAt": "2026-08-12T14:22:30.000Z",
       "image": null,
       "readingMinutes": 13,
-      "score": 84,
+      "score": 92,
+      "rank": 1,
+      "summary": {
+        "zh": {
+          "thesis": "Tailscale追查出SQLite潜伏16年的WAL-Reset数据竞争缺陷",
+          "points": [
+            "半年19次数据库损坏，手动激进checkpoint是诱因",
+            "SQLite 3.52含修复但有表达式索引假阳性，被撤回改发3.51.3",
+            "部署tmstmpvfs shim定位竞争，2026年证实条件真实发生"
+          ]
+        },
+        "en": {
+          "thesis": "Tailscale traced repeated database corruption to a 16-year-old SQLite WAL-Reset race condition.",
+          "points": [
+            "19 corruption events over six months, provoked by aggressive manual checkpointing.",
+            "SQLite 3.52 carries a fix but had an expression-index false positive, withdrawn for 3.51.3.",
+            "Deployed a tmstmpvfs shim to localize the race; 2026 confirmed the condition really fires."
+          ]
+        }
+      }
+    },
+    {
+      "id": "a0f3dc1efe58b059727196088a4418eb2f16aa63",
+      "sourceId": "hn",
+      "title": "What sort of maths are LLMs good at?",
+      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+      "author": "ColinWright",
+      "publishedAt": "2026-08-12T10:04:25.000Z",
+      "image": null,
+      "readingMinutes": 34,
+      "score": 90,
       "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "Tailscale历时半年定位16年历史的SQLite WAL-Reset竞态，并贡献修复。",
+          "thesis": "LLM擅长构造反例而非概念性证明，源于海量试错",
           "points": [
-            "6个月19起损坏，均因手动+激进checkpoint触发",
-            "SQLite官方修复为3.51.3版，撤回含回归的3.52.0",
-            "部署tmstmpvfs shim排查，确认后4个月零事故"
+            "非sofic群、Jacobian猜想等均为反例类成果",
+            "Skolem化使全称与存在命题可互换，逻辑形式难定类",
+            "LLM风格倾向试错碰运气，人类胜在概念性深度论证"
           ]
         },
         "en": {
-          "thesis": "Tailscale spent six months tracing data corruption to a 16-year-old SQLite WAL-Reset race and contributed the fix.",
+          "thesis": "LLMs excel at counterexamples rather than conceptual proofs, a product of mass trial and error.",
           "points": [
-            "19 corruptions in 6 months, each triggered by manual plus aggressive checkpoints",
-            "SQLite's official fix landed in 3.51.3, rolling back the regression-laden 3.52.0",
-            "A tmstmpvfs shim confirmed the cause; four months post-fix, zero incidents"
-          ]
-        }
-      }
-    },
-    {
-      "id": "05de32c56e427a128ec37a6788d9aa35da7feb65",
-      "sourceId": "neciudan",
-      "title": "AI Agents: Architecture",
-      "url": "https://neciudan.dev/ai-agents-architecture",
-      "author": null,
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "image": null,
-      "readingMinutes": 11,
-      "score": 82,
-      "rank": 3,
-      "summary": {
-        "zh": {
-          "thesis": "AI代理由十种可复用架构模式组成，应按任务难易分层选模型。",
-          "points": [
-            "5步链每步95%成功率，整体仅约77%",
-            "法官模型若弱于作者，审阅即成为橡皮图章",
-            "拆分独立任务可省5-10倍token成本，并可逐任务降级换便宜模型"
-          ]
-        },
-        "en": {
-          "thesis": "AI agents are built from ten reusable architectural patterns, and model choice should be tiered by task difficulty.",
-          "points": [
-            "A 5-step chain with 95% per-step success yields only about 77% overall",
-            "A judge model weaker than the author makes review a rubber stamp",
-            "Splitting independent tasks cuts 5-10x token cost and allows per-task downgrades to cheaper models"
-          ]
-        }
-      }
-    },
-    {
-      "id": "52fa033e5f1f88fe1fbecaafd4a117291bb0cbc2",
-      "sourceId": "hn",
-      "title": "AI is removing the middle class of software engineering",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "author": "florianherrengt",
-      "publishedAt": "2026-08-12T13:20:05.000Z",
-      "image": null,
-      "readingMinutes": 6,
-      "score": 80,
-      "rank": 4,
-      "summary": {
-        "zh": {
-          "thesis": "AI让实现变廉价，但弱工程文化团队会更快崩溃，好工程师更值钱。",
-          "points": [
-            "代码量与生成速度远超审查能力，坏决策5倍速叠加",
-            "修复AI烂决策成本远高于生成，迁移与孤儿外键难回退",
-            "作者断言薪资两极分化：可用AI的强者增值，弱者无法雇佣"
-          ]
-        },
-        "en": {
-          "thesis": "AI makes implementation cheap, but teams with weak engineering culture fail faster while good engineers become more valuable.",
-          "points": [
-            "Code volume and generation speed far outpace review capacity, compounding bad decisions 5x",
-            "Fixing AI's bad decisions costs far more than generating them; migrations and orphaned foreign keys are hard to revert",
-            "Author predicts wage polarization: AI-capable engineers get more valuable while weaker ones become unhireable"
+            "Non-sofic groups, the Jacobian conjecture, and similar results are counterexample-class achievements.",
+            "Skolemization swaps universal and existential propositions, so logical form is hard to pigeonhole.",
+            "LLMs lean on luck-driven trial and error where humans win on deep conceptual argument.",
+            "LLM style favors heuristic luck-chasing; humans excel at deep conceptual argumentation."
           ]
         }
       }
@@ -214,53 +155,113 @@
       "publishedAt": "2026-08-12T14:43:39.000Z",
       "image": null,
       "readingMinutes": 15,
-      "score": 78,
-      "rank": 5,
+      "score": 88,
+      "rank": 3,
       "summary": {
         "zh": {
-          "thesis": "历史ALPR数据搜索应由立法强制令拦截，删除数据并不能防滥用。",
+          "thesis": "历史ALPR数据检索应需法院搜查令，为何是当非若",
           "points": [
-            "Norfolk案后弗吉尼亚州统一保留21天，各州多在30天左右",
-            "删除数据不防滥用：滥用者每20天搜索一次即可",
-            "作者建议保留短时实况搜索，历史搜索需司法令 + 第三方审计"
+            "保留数据不能防滥用，删除反害合法侦查与辩护",
+            "引用Carpenter、Chatrie判例，推断未来ALPR必需令状",
+            "建议第三方机构审计，设备低于3000美元成本"
           ]
         },
         "en": {
-          "thesis": "Historical ALPR data searches should be gated by a legislative warrant; deleting data doesn't stop abuse.",
+          "thesis": "Searching historical ALPR data should require a warrant, and deleting it instead invites abuse.",
           "points": [
-            "Virginia standardized 21-day retention after the Norfolk case; most states keep around 30 days",
-            "Deletion doesn't deter abuse: a bad actor just searches every 20 days",
-            "Author suggests keeping short-lived live searches legal but requiring a judicial warrant plus third-party audit for historical ones"
+            "Retaining data doesn't prevent misuse; deleting it undercuts legitimate investigations and defense.",
+            "Carpenter and Chatrie point to warrants becoming mandatory for ALPR searches.",
+            "Recommends third-party audits; readers cost under $3,000."
           ]
         }
       }
     },
     {
-      "id": "5e564e26673239a2920319865766e00b40fb6e35",
-      "sourceId": "xda-ai-tools",
-      "title": "Most people pay $20 for Claude Code, but OpenCode Go is $10 and I can barely spend a dollar of it",
-      "url": "https://www.xda-developers.com/most-people-pay-claude-code-but-opencode-go-codebase-analysis/",
-      "author": "Adam Conway",
-      "publishedAt": "2026-08-11T20:00:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/opencode-go-feature-image-deepseek.jpg",
-      "readingMinutes": 9,
+      "id": "52fa033e5f1f88fe1fbecaafd4a117291bb0cbc2",
+      "sourceId": "hn",
+      "title": "AI is removing the middle class of software engineering?",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "author": "florianherrengt",
+      "publishedAt": "2026-08-12T13:20:05.000Z",
+      "image": null,
+      "readingMinutes": 6,
+      "score": 80,
+      "rank": 4,
+      "summary": {
+        "zh": {
+          "thesis": "AI让低质量工程师产出激增，拉大软件工程师薪资差距",
+          "points": [
+            "一人下午生成2万行代码，但审查理解仍需人类",
+            "链式错误复合：5步各95%成功率，整体约77%",
+            "实现成本趋零，判断力成为六位数薪资的凭据"
+          ]
+        },
+        "en": {
+          "thesis": "AI amplifies output of low-quality engineers and widens the salary gap among software developers.",
+          "points": [
+            "One person generated 20k lines in an afternoon, yet review and understanding still need humans.",
+            "Chain errors compound: five steps at 95% success each lands at roughly 77% overall.",
+            "With implementation cost near zero, judgment becomes the credential for six-figure pay."
+          ]
+        }
+      }
+    },
+    {
+      "id": "05de32c56e427a128ec37a6788d9aa35da7feb65",
+      "sourceId": "neciudan",
+      "title": "AI Agents: Architecture",
+      "url": "https://neciudan.dev/ai-agents-architecture",
+      "author": null,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "image": null,
+      "readingMinutes": 11,
+      "score": 78,
+      "rank": 5,
+      "summary": {
+        "zh": {
+          "thesis": "AI agent由十种可复用架构模式组合而成，非单一调用",
+          "points": [
+            "驱动循环用前沿模型，分类抽取路由用最便宜模型",
+            "链式5步各95%成功率整体约77%，错误沿链复合",
+            "拆分各层的钱、接缝、可见性与优化胜过单一大模型"
+          ]
+        },
+        "en": {
+          "thesis": "AI agents arise from composing ten reusable architecture patterns, not a single call.",
+          "points": [
+            "The driving loop uses frontier models, while classification, extraction, and routing lean on the cheapest.",
+            "Five chained steps at 95% success each land near 77% overall as errors compound.",
+            "Splitting money, seams, observability, and optimization per layer beats one monolithic model."
+          ]
+        }
+      }
+    },
+    {
+      "id": "32cdb4e18a7ec1e9ef2673a3359ad7870728dc48",
+      "sourceId": "hn",
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "author": "wertyk",
+      "publishedAt": "2026-08-12T16:54:25.000Z",
+      "image": null,
+      "readingMinutes": 4,
       "score": 70,
       "rank": 6,
       "summary": {
         "zh": {
-          "thesis": "OpenCode Go以10美元月费提供接近免费的主力模型与旗舰备用模型。",
+          "thesis": "Grok 4.6在AA智能指数得61分，追平GPT-5.6 Sol",
           "points": [
-            "DeepSeek V4 Flash一天重度使用实测仅花3美分",
-            "V4 Flash SWE-bench 79%，逼近Claude Sonnet 4.6的79.6%",
-            "Kimi K3为2.8T参数开源大模型，5小时窗口仅110次请求"
+            "GDPval-AA Elo 1753，仅次Claude Opus 5，与Fable 5重叠置信区间",
+            "定价$2/$6每百万token，比Claude Opus 5便宜60%以上",
+            "AA-Briefcase每任务约53轮0.5B输入token，远低于Opus 5的103轮"
           ]
         },
         "en": {
-          "thesis": "OpenCode Go's $10 monthly plan offers a near-free primary model plus a flagship backup model.",
+          "thesis": "Grok 4.6 scored 61 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Sol.",
           "points": [
-            "A heavy day of DeepSeek V4 Flash usage cost just 3 cents",
-            "V4 Flash scores 79% on SWE-bench, close to Claude Sonnet 4.6's 79.6%",
-            "Kimi K3 is a 2.8T-parameter open model; the 5-hour window allows only 110 requests"
+            "GDPval-AA Elo of 1753 trails only Claude Opus 5, with confidence intervals overlapping Fable 5.",
+            "Priced at $2/$6 per million tokens, over 60% cheaper than Claude Opus 5.",
+            "AA-Briefcase averages about 53 rounds and 0.5B input tokens per task, far below Opus 5's 103 rounds."
           ]
         }
       }
@@ -278,19 +279,19 @@
       "rank": 7,
       "summary": {
         "zh": {
-          "thesis": "Grok 4.6聚焦长时运行代理，评测追平GPT-5.6 Sol与Fable 5。",
+          "thesis": "Grok 4.6专注长时agent与视觉交互，定价不变",
           "points": [
-            "AA Intelligence Index 61分，与GPT-5.6 Sol并列、略低于Fable 5的62",
-            "定价每百万输入2美元、输出6美元，快变体价格翻倍",
-            "API定价：$2/百万输入tokens，$6/百万输出tokens"
+            "AA智能指数61追平GPT-5.6 Sol，Fable 5 Max为62",
+            "DeepSWE 1.1达65.9%超GPT-5.6，但Terminal-Bench v3.0仅26%落后",
+            "$2/$6每百万token不变，快变体价格翻倍"
           ]
         },
         "en": {
-          "thesis": "Grok 4.6 targets long-running agents and now matches GPT-5.6 Sol and Fable 5 in benchmarks.",
+          "thesis": "Grok 4.6 targets long-horizon agents and visual interaction while holding its price steady.",
           "points": [
-            "Scored 61 on the AA Intelligence Index, tying GPT-5.6 Sol and just below Fable 5's 62",
-            "Priced at $2 per million input tokens and $6 per million output tokens",
-            "The fast variant carries a doubled price"
+            "AA Intelligence Index of 61 ties GPT-5.6 Sol; Fable 5 Max sits at 62.",
+            "DeepSWE 1.1 hits 65.9% trailing GPT-5.6, but Terminal-Bench v3.0 lags at 26%.",
+            "The $2/$6 per-million-token pricing is unchanged; the fast variant doubles in price."
           ]
         }
       }
@@ -308,19 +309,47 @@
       "rank": 8,
       "summary": {
         "zh": {
-          "thesis": "Qwen3.8开源2.4T参数MoE模型，首款开源版Qwen-Max级能力。",
+          "thesis": "Qwen开源首个Max级模型，2.4T参数95B激活的MoE",
           "points": [
-            "共2.4T参数，激活95B，512专家路由10个",
-            "原生上下文262144，可扩至1010000 tokens",
-            "SWE-bench Pro 67.7、GPQA Diamond 92.6，终端41%"
+            "总参数2.4T，激活95B，512专家激活10个路由加1共享",
+            "上下文262144原生，可扩展至101万token",
+            "SWE-bench Pro 67.7%超GPT-5.6 Sol，DeepSWE 1.1仅56.6%"
           ]
         },
         "en": {
-          "thesis": "Qwen3.8 is the first open-source model with Qwen-Max-level capability, a 2.4T-parameter MoE.",
+          "thesis": "Qwen open-sourced its first Max-class model: a 2.4T-parameter MoE with 95B active.",
           "points": [
-            "2.4T total parameters, 95B active, with 512 experts routing to 10",
-            "Native 262,144-token context, expandable to 1.01M tokens",
-            "SWE-bench Pro 67.7, GPQA Diamond 92.6, terminal score 41%"
+            "Total 2.4T params, 95B active, routing across 512 experts with 10 routed plus 1 shared.",
+            "Native 262,144-token context, expandable to 1M tokens.",
+            "SWE-bench Pro at 67.7% beats GPT-5.6 Sol, but DeepSWE 1.1 reaches only 56.6%."
+          ]
+        }
+      }
+    },
+    {
+      "id": "e4d1ae4cabdd8e7c2d47c5cb168efa20b92a6c4e",
+      "sourceId": "hn",
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "url": "https://woxi.ad-si.com/",
+      "author": "adius",
+      "publishedAt": "2026-08-12T10:06:29.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 55,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "Woxi开源复刻Mathematica，以Jupyter内核形态交付",
+          "points": [
+            "woxi install-kernel可本地安装为Jupyter内核",
+            "捆绑JupyterLite浏览器版，免安装即可运行"
+          ]
+        },
+        "en": {
+          "thesis": "Woxi is an open-source Mathematica reimplementation that ships as a Jupyter kernel.",
+          "points": [
+            "woxi install-kernel sets it up locally as a Jupyter kernel.",
+            "A bundled browser-based JupyterLite lets you run it with no install."
           ]
         }
       }
@@ -334,53 +363,23 @@
       "publishedAt": "2026-08-12T18:00:10.000Z",
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
       "readingMinutes": 6,
-      "score": 58,
-      "rank": 9,
-      "summary": {
-        "zh": {
-          "thesis": "Google用专用AI代理全流程修Chrome漏洞，补丁量超此前23个里程碑总和。",
-          "points": [
-            "Chrome 149、150两版共修复1072个安全漏洞",
-            "「life of a bug」流程：发现、分诊、生成补丁、测试全自动化",
-            "5月工具拦截20余漏洞入生产，仍由开发者审查最终补丁"
-          ]
-        },
-        "en": {
-          "thesis": "Google's dedicated AI agents now fix Chrome bugs end-to-end, shipping more patches than all prior 23 milestones combined.",
-          "points": [
-            "Chrome 149 and 150 together fixed 1,072 security vulnerabilities",
-            "The 'life of a bug' pipeline automates discovery, triage, patch generation, and testing",
-            "In May the tool kept 20+ bugs out of production; developers still review every final patch"
-          ]
-        }
-      }
-    },
-    {
-      "id": "471385e451e96088f1af8c9c9b772073d3919eb4",
-      "sourceId": "xda-ai-tools",
-      "title": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
-      "url": "https://www.xda-developers.com/cant-believe-how-good-ai-coding-model-is-it-isnt-from-openai-or-anthropic/",
-      "author": "Parth Shah",
-      "publishedAt": "2026-08-12T11:30:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/grok-is-top-ai-coding-tool.jpeg",
-      "readingMinutes": 5,
-      "score": 55,
+      "score": 48,
       "rank": 10,
       "summary": {
         "zh": {
-          "thesis": "Grok 4.5在Cursor中token极省，40k构建整个网站，效率胜过顶尖模型。",
+          "thesis": "Google用AI代理捕获潜伏13年的Chrome漏洞并加速补丁流程",
           "points": [
-            "完整网站仅耗约40k tokens，速度快且不铺张",
-            "小改动直接改相关文件，不重复扫描整个代码库",
-            "复杂任务仍切换Fable 5或Claude Code，非全场景默认"
+            "Chrome 149和150共修复1072个安全漏洞，超过此前23个里程碑总和",
+            "AI集成DeepMind与Project Zero工具，5月单月阻止超20个漏洞上线",
+            "计划两周大版本+每周安全补丁，试验免重启动态补丁"
           ]
         },
         "en": {
-          "thesis": "Grok 4.5 in Cursor is remarkably token-efficient, building an entire site on 40k tokens and beating top models.",
+          "thesis": "Google's AI agent caught a 13-year-old Chrome bug and is reshaping how quickly vulnerabilities get patched.",
           "points": [
-            "Built a complete website on roughly 40k tokens, fast and unextravagant",
-            "Small edits touch only relevant files without rescanning the whole codebase",
-            "Complex tasks still fall back to Fable 5 or Claude Code rather than defaulting everywhere"
+            "Chrome 149 and 150 fixed 1,072 security bugs, more than the prior 23 milestones combined.",
+            "AI hooked into DeepMind and Project Zero tools blocked over 20 vulnerabilities from shipping in May alone.",
+            "Moving to a two-week major cadence plus weekly security patches, testing restart-free dynamic patching."
           ]
         }
       }
@@ -388,9 +387,9 @@
   ],
   "folded": [
     {
-      "title": "5 Rules for a Second Brain You’ll Actually Use",
-      "url": "https://www.joanwestenberg.com/p/5-rules-for-a-second-brain-youll",
-      "sourceId": "westenberg"
+      "title": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
+      "url": "https://www.xda-developers.com/cant-believe-how-good-ai-coding-model-is-it-isnt-from-openai-or-anthropic/",
+      "sourceId": "xda-ai-tools"
     },
     {
       "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
@@ -398,18 +397,13 @@
       "sourceId": "heavybit"
     },
     {
-      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-      "url": "https://woxi.ad-si.com/",
+      "title": "2026 Eclipse Webcams",
+      "url": "https://jonty.github.io/2026_eclipse_webcams/",
       "sourceId": "hn"
     },
     {
       "title": "DeepSeek V4 Pro 0813",
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "sourceId": "hn"
-    },
-    {
-      "title": "2026 Eclipse Webcams",
-      "url": "https://jonty.github.io/2026_eclipse_webcams/",
       "sourceId": "hn"
     }
   ]
