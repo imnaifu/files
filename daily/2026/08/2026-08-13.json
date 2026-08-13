@@ -1,9 +1,9 @@
 {
   "date": "2026-08-13",
-  "generatedAt": "2026-08-13T18:59:29.742Z",
+  "generatedAt": "2026-08-13T20:48:02.448Z",
   "window": {
-    "from": "2026-08-12T18:59:29.742Z",
-    "to": "2026-08-13T18:59:29.742Z"
+    "from": "2026-08-12T20:48:02.448Z",
+    "to": "2026-08-13T20:48:02.448Z"
   },
   "stats": {
     "fetched": 17,
@@ -165,85 +165,25 @@
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "author": "matt_d",
       "publishedAt": "2026-08-13T14:17:13.000Z",
-      "image": "https://opengraph.githubassets.com/2e9c9616450c6e877f3527f5158d09cbb822ace25388e00a24f85e2dcd4d6da4/xoreaxeaxeax/skitter-creek-bath-salts",
+      "image": "https://opengraph.githubassets.com/00f1e6a0bf37820d9e050b86bf5546815d6af03b5ee7d60e3a2e7c264ff38435/xoreaxeaxeax/skitter-creek-bath-salts",
       "readingMinutes": 8,
       "score": 85,
       "rank": 1,
       "summary": {
         "zh": {
-          "thesis": "通过逆向DRAM地址变换，可以访问被硬件隔离的受保护内存，瓦解依赖它的安全机制。",
+          "thesis": "DRAM 地址加扰（scrambling）可被逆向工程，从而突破所有基于内存隔离的 CPU 安全机制。",
           "paragraphs": [
-            "该研究利用AMD Family 16h数据手册中公开的DRAM控制器变换寄存器，通过别名映射重写物理地址翻译，从而访问平台安全处理器（PSP）、系统管理模式（SMM）等隐藏区域。这些区域原本对内核不可见，但如今可被任意读写。",
-            "方法基于对通道间、存储体间交错和XOR加扰的逆向，使用GF(2)伪逆恢复别名映射。测试中成功从SMM内存提取了SMI处理程序入口，并转储了CC6状态下各核心的架构上下文，证明隔离的有效性取决于对DRAM变换的保密。",
-            "该技术不仅限于AMD，Intel、ARM、RISC-V等架构均采用类似的内存控制器变换，意味着依赖DRAM隔离的SGX、TrustZone等安全技术都可能受影响。此研究开启了硬件安全新战场，但尚未公布所有细节。"
+            "通过逆向 AMD Family 16h 的 DRAM 控制器，研究者能重写物理地址转换，使任意地址映射到受保护内存。这包括 PSP、SMM、C6 状态存储和微码，连内核都看不到的区域也被暴露。",
+            "工具链 gather_aliases.py 和 unspaghettify.py 可恢复每个 dword 的别名映射，并用于读写受保护区。演示中成功提取了 PSP 的 RSA 引擎和 SMM 入口代码，甚至可修改它们。",
+            "现代 CPU 都有类似的 DRAM 加扰机制，AMD、Intel、ARM 等均受影响。这动摇了 SEV、SGX 等所有依赖内存隔离的安全功能，揭示其底层防护的脆弱性。"
           ]
         },
         "en": {
-          "thesis": "By reverse-engineering DRAM address translation, protected memory that is hardware-isolated can be accessed, undermining the security mechanisms that rely on it.",
+          "thesis": "DRAM address scrambling can be reverse-engineered, breaking all CPU security mechanisms that rely on memory isolation.",
           "paragraphs": [
-            "This research exploits publicly documented DRAM controller scrambling registers from AMD's Family 16h datasheet. By rewriting physical address translation through alias mapping, the researchers gain access to hidden regions such as the Platform Security Processor (PSP) and System Management Mode (SMM). These areas were previously invisible to the kernel but can now be read and written arbitrarily.",
-            "The method is based on reversing the interleaving between channels and banks as well as the XOR scrambling, using a GF(2) pseudo-inverse to recover the alias mapping. In testing, they successfully extracted the SMI handler entry from SMM memory and dumped the architectural context of each core in the CC6 state, proving that the effectiveness of isolation depends on the secrecy of the DRAM transformation.",
-            "This technique is not limited to AMD; architectures such as Intel, ARM, and RISC-V employ similar memory controller transformations, meaning security technologies like SGX and TrustZone that rely on DRAM isolation could be affected. This research opens a new battlefield in hardware security, though not all details have yet been released."
-          ]
-        }
-      }
-    },
-    {
-      "id": "83f54b96618146fb8a1f6966a24b4070305ec0e3",
-      "sourceId": "acx",
-      "category": "culture",
-      "title": "The Quest For Caffeine You Can Have At Night",
-      "url": "https://www.astralcodexten.com/p/the-quest-for-caffeine-you-can-have",
-      "author": "Scott Alexander",
-      "publishedAt": "2026-08-13T04:09:15.000Z",
-      "image": "https://substack-post-media.s3.amazonaws.com/public/images/bf624d8d-046a-4c76-ba40-0f6a66e49cc6_1536x1024.png",
-      "readingMinutes": 17,
-      "score": 75,
-      "rank": 2,
-      "summary": {
-        "zh": {
-          "thesis": "夜间咖啡因替代品中，帕拉黄嘌呤最安全有效，但效果因人而异。",
-          "paragraphs": [
-            "咖啡因经肝脏酶CYP1A2代谢，半衰期约5小时，产物帕拉黄嘌呤再代谢，实际刺激持续约15小时。想要晚间饮用不影响睡眠，可调节酶、代谢物或起始物。",
-            "吴茱萸碱（rutaecarpine）可诱导CYP1A2，加速分解，但可能伤肝。帕拉黄嘌呤直接服用半衰期3小时，安全性高，但反应不一。甲基金雀花碱（methylliberine）半衰期1.5小时，效果更不稳定。",
-            "结论：帕拉黄嘌呤是首选，推荐剂量50-200毫克，最大300-400毫克。甲基金雀花碱适合对帕拉黄嘌呤无效者，吴茱萸碱仅用于紧急情况，因肝损伤风险应避免。"
-          ]
-        },
-        "en": {
-          "thesis": "Among nighttime caffeine substitutes, paraxanthine is the safest and most effective, but individual responses vary.",
-          "paragraphs": [
-            "Caffeine is metabolized by the liver enzyme CYP1A2, with a half-life of about five hours, and its product paraxanthine is further metabolized, so the actual stimulant effect lasts around fifteen hours. To enjoy a drink in the evening without disrupting sleep, one can modulate the enzyme, the metabolite, or the starting compound.",
-            "Rutaecarpine can induce CYP1A2, accelerating caffeine breakdown, but it may harm the liver. Taking paraxanthine directly has a half-life of three hours, is quite safe, yet reactions vary among individuals. Methylliberine has a half-life of one and a half hours, making its effect even more inconsistent.",
-            "In conclusion, paraxanthine is the top choice, with recommended doses of 50 to 200 milligrams, and a maximum of 300 to 400 milligrams. Methylliberine suits those who do not respond to paraxanthine, while rutaecarpine should be reserved for emergencies and ideally avoided due to the risk of liver damage."
-          ]
-        }
-      }
-    },
-    {
-      "id": "23833efb4fca2358e623eea675968e046b87ca12",
-      "sourceId": "marginal",
-      "category": "culture",
-      "title": "My very interesting Conversation with Daron Acemoglu",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/my-very-interesting-conversation-with-daron-acemoglu.html",
-      "author": "Tyler Cowen",
-      "publishedAt": "2026-08-13T05:31:43.000Z",
-      "image": null,
-      "readingMinutes": 5,
-      "score": 65,
-      "rank": 3,
-      "summary": {
-        "zh": {
-          "thesis": "左翼自由主义因自身建制化失败而衰落，需以有意义自由为基础重建共识。",
-          "paragraphs": [
-            "在与库恩的对话中，阿西莫格鲁以古罗马类比，指左翼自由主义近八十年掌权未善用建制权力，致内部脆弱，难抗外部威权挑战，故今日思想争锋如十九世纪初。",
-            "他拒斥客观主义，认为真理与道德均渐进演化，尤重有意义自由——非仅免于干预，而是需社区保障机会，防止强者支配。其方案无统一标准，亦不采功利权衡，留下多元价值冲突之悬而未决。"
-          ]
-        },
-        "en": {
-          "thesis": "Left-wing liberalism has declined because it failed to institutionalize its power, and needs to rebuild consensus on the basis of meaningful freedom.",
-          "paragraphs": [
-            "In his conversation with Kuhn, Acemoglu draws an analogy with ancient Rome, arguing that left-wing liberalism, having held power for nearly eight decades without properly using institutional power, has become internally fragile and unable to withstand external authoritarian challenges. Hence, today's intellectual contest resembles that of the early nineteenth century.",
-            "He rejects objectivism, holding that truth and morality evolve gradually. He particularly emphasizes meaningful freedom—not merely freedom from interference, but freedom that requires community safeguards to ensure opportunities and prevent domination by the strong. His approach has no uniform standard and does not adopt utilitarian trade-offs, leaving unresolved the conflicts among plural values."
+            "By reverse-engineering the DRAM controller of AMD Family 16h, researchers were able to rewrite the physical address translation, mapping arbitrary addresses to protected memory. This includes regions such as PSP, SMM, C6 state storage, and microcode, exposing areas that even the kernel cannot see.",
+            "A toolchain consisting of gather_aliases.py and unspaghettify.py can recover the alias mapping for every dword and use it to read and write protected regions. In demonstrations, the team successfully extracted the RSA engine of the PSP and the entry code of SMM, and even modified them.",
+            "Modern CPUs from AMD, Intel, and ARM all feature similar DRAM scrambling mechanisms, and all are affected. This undermines every security function that relies on memory isolation, such as SEV and SGX, revealing the fragility of their underlying defenses."
           ]
         }
       }
@@ -258,21 +198,112 @@
       "publishedAt": "2026-08-13T10:01:20.000Z",
       "image": "https://substackcdn.com/image/fetch/$s_!8rBg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc146ab67-8fc2-49e1-b2d0-d758d3c38378_5700x3800.jpeg",
       "readingMinutes": 2,
-      "score": 55,
-      "rank": 4,
+      "score": 65,
+      "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "全民医保的口号不该照搬加拿大模式，而应更像现有美国联邦医保计划，才能赢得温和选民。",
+          "thesis": "「全民医保」口号虽吸引人，但应更贴近现有美国老年医保，而非加拿大模式。",
           "paragraphs": [
-            "「全民医保」的吸引力在于借用已有的、受欢迎的「联邦医保」之名，且公众在原则上反对医疗由市场决定。但具体政策不能止于口号，各国模式各异，美国左翼提案实为加拿大式单一支付体系。",
-            "作者主张，既然口号借力于现有联邦医保的声誉，那么方案应更贴近该计划的实际设计：覆盖范围有限、有自付额与共付，而非提供无限免费服务。这样既保留道德诉求，又具备可行性和政治吸引力。"
+            "「全民医保」吸引人，因「医保」是既存且受欢迎的项目，且大众在医疗原则上与进步派一致。但该口号未决定具体政策，现实中无法提供无限免费医疗，需在价值观与可行性间找平衡。",
+            "美国左翼的「全民医保」多参照加拿大模式，但更明智的是让方案贴近现有美国老年医保。这样既能利用民众对医保的好感，又能减少改革阻力，但需在细节上做出务实调整。"
           ]
         },
         "en": {
-          "thesis": "The 'Medicare for All' slogan should not copy the Canadian model but instead resemble the existing US federal Medicare program to win over moderate voters.",
+          "thesis": "The slogan 'Medicare for All' is appealing, but the policy should be modeled more closely on the existing U.S. Medicare program for seniors rather than the Canadian system.",
           "paragraphs": [
-            "The appeal of 'Medicare for All' lies in borrowing the name of the popular, existing 'Medicare' program, and the public opposes, in principle, having healthcare determined by the market. But specific policy cannot stop at a slogan; models vary across countries, and the US left-wing proposal is essentially a Canadian-style single-payer system.",
-            "The author argues that since the slogan draws on the reputation of the existing Medicare program, the proposal should be closer to that program's actual design: with limited coverage, deductibles, and copayments, rather than unlimited free services. This would retain its moral appeal while being feasible and politically attractive."
+            "The slogan 'Medicare for All' is attractive because 'Medicare' is an existing and popular program, and the public's views on healthcare principles align with those of progressives. However, the slogan does not determine specific policy, and in reality, unlimited free healthcare cannot be provided; a balance must be struck between values and feasibility.",
+            "The American left's 'Medicare for All' is often modeled on the Canadian system, but it would be wiser to make the proposal closer to the existing U.S. Medicare program. This way, it can leverage the public's fondness for Medicare and reduce resistance to reform, but pragmatic adjustments must be made in the details."
+          ]
+        }
+      }
+    },
+    {
+      "id": "23833efb4fca2358e623eea675968e046b87ca12",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "My very interesting Conversation with Daron Acemoglu",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/my-very-interesting-conversation-with-daron-acemoglu.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-13T05:31:43.000Z",
+      "image": null,
+      "readingMinutes": 5,
+      "score": 60,
+      "rank": 3,
+      "summary": {
+        "zh": {
+          "thesis": "自由民主的衰落源于左翼自由主义自身未能善用建制权力，而非仅由外部威胁造成。",
+          "paragraphs": [
+            "阿西莫格鲁在与考恩的对谈中提出，左翼自由主义在过去七八十年间虽具影响力，却因错误运用建制权力而自毁根基，变得易受攻击。他认为当前思想混乱堪比十九世纪初，各种理念争夺人心。",
+            "他批判社会契约论与卢梭的公意，主张以有意义的个人自由为起点，辅以社群层面的协商。他强调非支配（nondomination）而非单纯不干预（noninterference），并认为国家需提供保护以防强者压制弱者。",
+            "当被问及价值冲突时的标准，他坦承没有外部标准，也不认同功利主义或成本-收益分析。他寄望于渐进、不确定的共识演化，如同科学进步，但承认当前并非如此。"
+          ]
+        },
+        "en": {
+          "thesis": "The decline of liberal democracy stems from the left-liberal tradition's own failure to wield institutional power effectively, not merely from external threats.",
+          "paragraphs": [
+            "In a conversation with Tyler Cowen, Acemoglu argues that although left-liberalism has been influential over the past seventy or eighty years, it has undermined its own foundations through a misapplication of institutional power, leaving it vulnerable. He likens the current intellectual confusion to that of the early nineteenth century, when competing ideas vied for dominance.",
+            "He criticizes social contract theory and Rousseau's general will, advocating instead a meaningful individual freedom as a starting point, complemented by communal deliberation. He emphasizes nondomination over mere noninterference, asserting that the state must provide protection to prevent the strong from oppressing the weak.",
+            "When asked about the standard for resolving value conflicts, he admits there is no external standard, and he rejects utilitarianism and cost-benefit analysis. He places his hopes on a gradual, uncertain evolution of consensus, akin to scientific progress, but acknowledges that this is not currently the case."
+          ]
+        }
+      }
+    },
+    {
+      "id": "83f54b96618146fb8a1f6966a24b4070305ec0e3",
+      "sourceId": "acx",
+      "category": "culture",
+      "title": "The Quest For Caffeine You Can Have At Night",
+      "url": "https://www.astralcodexten.com/p/the-quest-for-caffeine-you-can-have",
+      "author": "Scott Alexander",
+      "publishedAt": "2026-08-13T04:09:15.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/bf624d8d-046a-4c76-ba40-0f6a66e49cc6_1536x1024.png",
+      "readingMinutes": 17,
+      "score": 60,
+      "rank": 4,
+      "summary": {
+        "zh": {
+          "thesis": "夜间咖啡因替代品中，paraxanthine 是相对最安全有效的选择。",
+          "paragraphs": [
+            "咖啡因在体内经 CYP1A2 酶转化，半衰期长达 10 小时，导致晚间饮用影响睡眠。作者探索三种思路：加速代谢的 rutaecarpine、直接服用代谢物 paraxanthine，以及短效类似物 methylliberine。",
+            "rutaecarpine 虽能缩短咖啡因作用时间，但可能引发肝损伤，亚马逊评论中有两例肝酶升高；methylliberine 效果因人而异且会抑制 CYP1A2，影响其他药物代谢。相比之下，paraxanthine 作为咖啡因的天然代谢物安全性高，用户评价约 66% 正面，且半衰期仅约 3 小时，是目前最佳选择。"
+          ]
+        },
+        "en": {
+          "thesis": "Among nighttime caffeine alternatives, paraxanthine stands out as the safest and most effective option.",
+          "paragraphs": [
+            "Caffeine is converted in the body by the enzyme CYP1A2 and has a half-life of up to 10 hours, which is why consuming it in the evening can disrupt sleep. The author explores three approaches: rutaecarpine to speed up metabolism, taking the metabolite paraxanthine directly, and using a short-acting analog called methylliberine.",
+            "While rutaecarpine can shorten the duration of caffeine's effects, it may cause liver damage, with two cases of elevated liver enzymes reported in Amazon reviews. Methylliberine's effects vary from person to person and it inhibits CYP1A2, potentially interfering with the metabolism of other drugs. In contrast, paraxanthine, being a natural metabolite of caffeine, has a strong safety profile, with about 66% positive user reviews, and its half-life is only about 3 hours, making it the best choice currently available."
+          ]
+        }
+      }
+    },
+    {
+      "id": "d985cd96654e7b0155a9980bcfea95bb0057f43c",
+      "sourceId": "xda-ai-tools",
+      "category": "ai",
+      "title": "Google recommends these 7 NotebookLM prompts, and they showed me what I was missing",
+      "url": "https://www.xda-developers.com/google-recommended-notebooklm-prompts/",
+      "author": "Mahnoor Faisal",
+      "publishedAt": "2026-08-13T11:30:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/06/notebooklm-and-youtube-side-by-side.jpeg",
+      "readingMinutes": 7,
+      "score": 55,
+      "rank": 5,
+      "summary": {
+        "zh": {
+          "thesis": "Google 官方推荐的七个 NotebookLM 提示词，展示了该工具从问答转向代理式执行的重要转变。",
+          "paragraphs": [
+            "作者长期使用 NotebookLM，试了 Google 官方推荐的七个提示词后发现，新版本已从仅基于来源回答，变为能直接产出成品。比如学生可一句指令生成五道难度递进的测验，或将零散笔记变成带练习的 PDF 学习指南，省去中间多个步骤。",
+            "商业提示词更能体现质变：让 NotebookLM 计算各产品线营收增长并绘图，或读营销简报后上网查竞品再给建议——它现在能在云端跑代码，并融合外部搜索与内部资料。个人场景如整理装修收据成表格，或分析房产购买并建模，也显示来源不再只是终点，而是加工原料。",
+            "作者虽对新版仍有保留，但承认官方提示词使其目标更清晰——工具正从研究辅助走向主动代理。文章核心是产品功能解读，而非分析或争议，故分数受限。"
+          ]
+        },
+        "en": {
+          "thesis": "Google's official seven NotebookLM prompts reveal the tool's shift from Q&A to agentic execution.",
+          "paragraphs": [
+            "After using NotebookLM for a while, the author tried the seven prompts officially recommended by Google and found that the new version has moved beyond just answering based on sources; it now produces finished outputs directly. For instance, a student can generate a quiz with five difficulty levels in one command, or turn scattered notes into a PDF study guide with exercises, saving many intermediate steps.",
+            "The commercial prompts better illustrate this qualitative change: NotebookLM can calculate revenue growth by product line and chart it, or read a marketing brief, search the web for competitors, and then give recommendations—it now runs code in the cloud and blends external search with internal materials. Personal scenarios, like organizing renovation receipts into a table or analyzing a property purchase with modeling, also show that sources are no longer just the end point but raw material to be processed.",
+            "The author still has reservations about the new version but admits that the official prompts clarify its direction—the tool is moving from a research aid to a proactive agent. The core of the article is a product feature interpretation, not analysis or controversy, so its score is limited."
           ]
         }
       }
@@ -288,51 +319,20 @@
       "image": "https://substack-video.s3.amazonaws.com/video_upload/post/210495051/ecdcac15-91c5-44d1-bd89-3babf863be78/transcoded-1786348970.png",
       "readingMinutes": 2,
       "score": 55,
-      "rank": 5,
-      "summary": {
-        "zh": {
-          "thesis": "重读《独自打保龄》发现其预言准确，但核心机制仍模糊，且电视的作用被低估。",
-          "paragraphs": [
-            "作者曾假装读过此书，却在作者任教的大学亲历其争论。如今重读，他惊讶于书中对教会衰败和互联网无法替代人际交往的预测竟被证实。",
-            "合著者耶路撒冷则批评其因果链混乱，认为这属于对自由主义的保守反弹。双方一致认为，电视造成社交资本近半下降，但书中着墨甚少，解决方案也回避此点。",
-            "这引发疑问：是社交减少本身，还是视频内容导致不良后果？播客中深入探讨了这些议题。"
-          ]
-        },
-        "en": {
-          "thesis": "Revisiting 'Bowling Alone' finds its predictions accurate, but the core mechanism remains vague, and the role of television is underappreciated.",
-          "paragraphs": [
-            "The author once pretended to have read the book, yet he experienced its controversies firsthand at a university where he teaches. Now, on a reread, he is struck by how its predictions about declining church attendance and the internet's failure to replace face-to-face interaction have come true.",
-            "Co-author Jerusalem criticizes its muddled causal chain, viewing it as a conservative backlash against liberalism. Both agree that television accounts for nearly half of the decline in social capital, yet the book gives it scant attention and its solutions sidestep this issue.",
-            "This raises the question: is it the reduction in socializing itself, or the content of video, that leads to adverse outcomes? These issues are explored in depth in the podcast."
-          ]
-        }
-      }
-    },
-    {
-      "id": "d985cd96654e7b0155a9980bcfea95bb0057f43c",
-      "sourceId": "xda-ai-tools",
-      "category": "ai",
-      "title": "Google recommends these 7 NotebookLM prompts, and they showed me what I was missing",
-      "url": "https://www.xda-developers.com/google-recommended-notebooklm-prompts/",
-      "author": "Mahnoor Faisal",
-      "publishedAt": "2026-08-13T11:30:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/06/notebooklm-and-youtube-side-by-side.jpeg",
-      "readingMinutes": 7,
-      "score": 45,
       "rank": 6,
       "summary": {
         "zh": {
-          "thesis": "Google 推荐的七个 NotebookLM 提示词显示其从阅读工具转向全能代理，但学生功能仍显不足。",
+          "thesis": "《独自打保龄》的核心论点——电视挤占了社交活动——在流媒体时代得到验证，但该书的解决方案回避了这一核心问题。",
           "paragraphs": [
-            "作者长期使用 NotebookLM，新提示词分学生、商务、个人三类。学生向的生成测验和 PDF 指南虽便捷，但局限于旧功能。",
-            "商务提示词要求计算营收趋势和搜索竞品，体现云端代码执行与联网代理的新能力。个人向则把收据变成表格、分析房产投资，但作者对部分更新仍失望。"
+            "作者承认年轻时假装读过此书，但重读后惊讶于保龄球隐喻所占篇幅之少，以及他对教会衰退和互联网无法替代线下社交的预言已成真。",
+            "年轻的黑泽尔质疑因果链不清晰，将其视为对个人主义的反动。但作者强调，书中明确指出电视是社交资本下降约一半的原因，却未花足够篇幅应对，仍与今日流媒体时代相关。"
           ]
         },
         "en": {
-          "thesis": "Google's seven recommended NotebookLM prompts reveal its shift from a reading tool to an all-purpose agent, but student features still fall short.",
+          "thesis": "The core argument of 'Bowling Alone'—that television crowded out social activities—holds up in the streaming era, but the book's solutions sidestep this central problem.",
           "paragraphs": [
-            "The author, a long-time NotebookLM user, found that the new prompts fall into three categories: student, business, and personal. The student-oriented prompts for generating quizzes and PDF guides are convenient, but they only scratch the surface of the old functionality.",
-            "Business prompts require calculating revenue trends and searching for competitors, showcasing the new capabilities of cloud-based code execution and web-connected agents. Personal prompts turn receipts into tables and analyze real estate investments, yet the author still feels disappointed with some of the updates."
+            "The author admits to having pretended to read the book in his youth, but on rereading was struck by how little space the bowling metaphor actually occupies, and by how prescient his predictions have proved: the decline of churches and the inability of the internet to replace in-person socializing have both come to pass.",
+            "The younger Huzel questioned the clarity of the causal chain, seeing the book as a reaction against individualism. But the author emphasizes that the book explicitly identifies television as responsible for about half of the decline in social capital, yet fails to devote enough space to addressing it, making it still relevant to today's streaming age."
           ]
         }
       }
@@ -347,112 +347,23 @@
       "publishedAt": "2026-08-12T22:11:24.000Z",
       "image": "https://images.unsplash.com/photo-1622799622659-25906a2cf2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMjl8fGNhbGVuZGFyJTIwYXBwfGVufDB8fHx8MTc4NjU3MjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "readingMinutes": 3,
-      "score": 45,
+      "score": 55,
       "rank": 7,
       "summary": {
         "zh": {
-          "thesis": "删除日历链接、恢复人工协调，是夺回时间自主权的必要反叛。",
+          "thesis": "预约链接看似高效，实则将注意力商品化，删除它才能重获对时间的掌控。",
           "paragraphs": [
-            "作者曾依赖Calendly等自动预约工具，但发现它把稀缺时间变成无限自选购物，任由他人自私占用，导致会议泛滥、效率低下。",
-            "于是删除链接，回归邮件往返协调。虽然费力，但迫使双方明确会议目的、必要性及优先级，过滤掉无意义会议，让时间回归自己的掌控。"
+            "作者曾是预约链接的拥趸，认为Calendly等工具减少了沟通摩擦。但后来发现，这让自己变成自助服务，他人可随意占用其稀缺的专注力。",
+            "大多数会议本就无意义，充斥着寒暄和协调，且低效者更爱开会。预约链接将时间变成无限加购的商品，抹杀了判断和协商的价值。",
+            "他决定删除链接，重拾日程安排的摩擦，只进行有明确目的和结果的会议。日历应是个人承诺的记录，而非任人挑选的市场。"
           ]
         },
         "en": {
-          "thesis": "Deleting the calendar link and returning to manual coordination is a necessary rebellion to reclaim autonomy over one's time.",
+          "thesis": "Calendly links may look efficient, but they turn attention into a commodity; deleting them restores control over your time.",
           "paragraphs": [
-            "The author once relied on automatic scheduling tools like Calendly, but discovered that they turned scarce time into an endless self-service buffet, allowing others to selfishly claim it, leading to a flood of meetings and inefficiency.",
-            "So they deleted the link and went back to coordinating via email back-and-forth. Though more laborious, it forces both parties to clarify the purpose, necessity, and priority of a meeting, filtering out meaningless ones and bringing time back under one's own control."
-          ]
-        }
-      }
-    },
-    {
-      "id": "fe39abeed556f4f0ad1ae604ce5bb23661bde743",
-      "sourceId": "slowboring",
-      "category": "business",
-      "title": "New York is building. But where?",
-      "url": "https://www.slowboring.com/p/new-york-is-building-but-where",
-      "author": "Halina Bennet",
-      "publishedAt": "2026-08-12T22:02:07.000Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!wYee!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7249557-8b63-4eec-8620-73f92666213d_3414x2259.jpeg",
-      "readingMinutes": 1,
-      "score": 45,
-      "rank": 8,
-      "summary": {
-        "zh": {
-          "thesis": "纽约市长 Mamdani 的 pied-à-terre 税遭法院叫停，显示高价值二套房征税的政治阻力。",
-          "paragraphs": [
-            "纽约市长 Mamdani 的 pied-à-terre 税（对高价值二套房征税）周一被 Staten Island 法官 Wayne Ozzi 暂停。这一裁决紧随该政策宣布之后，显示行政推动遭遇司法障碍。",
-            "此外，文章还提及圣地亚哥的 YIMBY 市长与 wildfire 流离失所后的恢复，但正文被付费墙截断，细节有限。整体信息密度低，但涉及城市住房政策博弈，归类为商业。"
-          ]
-        },
-        "en": {
-          "thesis": "A Staten Island judge has blocked Mayor Mamdani's pied-a-terre tax on high-value second homes, revealing the political resistance to taxing such properties.",
-          "paragraphs": [
-            "A Staten Island judge, Wayne Ozzi, on Monday halted Mayor Mamdani's pied-a-terre tax, which targets high-value second homes. The ruling comes hot on the heels of the policy's announcement, showing that executive momentum has hit a judicial roadblock.",
-            "The piece also touches on San Diego's YIMBY mayor and recovery after wildfire displacement, though the full text is paywalled and details are scant. Overall, the information density is low, but it touches on urban housing policy battles and is classified as business."
-          ]
-        }
-      }
-    },
-    {
-      "id": "6a4a0233db41331239182b00e444c624fcaffc99",
-      "sourceId": "westenberg",
-      "category": "culture",
-      "title": "The Heretic's Guide to Conviction",
-      "url": "https://www.joanwestenberg.com/p/the-heretics-guide-to-conviction",
-      "author": "JA Westenberg",
-      "publishedAt": "2026-08-13T01:58:00.000Z",
-      "image": "https://substack-video.s3.amazonaws.com/video_upload/post/210982365/7df18614-dc06-41da-adb0-7e7873d74a66/transcoded-00001.png",
-      "readingMinutes": 1,
-      "score": 42,
-      "rank": 9,
-      "summary": {
-        "zh": {
-          "thesis": "在科技界随大流是死路，坚守信念而非迎合共识才是真正的护城河。",
-          "paragraphs": [
-            "作者批判科技圈千篇一律的成功模板，主张个人应像异端一样坚持自己的判断。论点基于对行业同质化的观察，而非数据。",
-            "文中以星巴克等为例，说明反直觉决策的价值。但付费墙后内容有限，论证多靠煽动性口号，缺乏具体机制。",
-            "若成立，则个人品牌应重信念而非技能。但整体更像励志演讲，深度不足，对普通读者启发有限。"
-          ]
-        },
-        "en": {
-          "thesis": "In tech, following the crowd is a dead end; holding firm to your convictions rather than conforming to consensus is the true moat.",
-          "paragraphs": [
-            "The author criticizes the cookie-cutter success templates prevalent in the tech world, arguing that individuals should stick to their own judgments like heretics. The argument is based on observations of industry homogenization, not data.",
-            "Using examples like Starbucks, the piece illustrates the value of counterintuitive decisions. However, the content behind the paywall is limited, and the reasoning often relies on provocative slogans rather than concrete mechanisms.",
-            "If valid, it suggests that personal brands should prioritize conviction over skill. Yet overall, it reads more like a motivational speech than a deep analysis, offering limited inspiration for the average reader."
-          ]
-        }
-      }
-    },
-    {
-      "id": "ccebb06f6c320fb013a82a2d0d4c93d700c0d048",
-      "sourceId": "hn",
-      "category": "ai",
-      "title": "Gemini 3.7 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "author": "thisisauserid",
-      "publishedAt": "2026-08-13T17:23:22.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-1300.png",
-      "readingMinutes": 4,
-      "score": 35,
-      "rank": 10,
-      "summary": {
-        "zh": {
-          "thesis": "Gemini 3.7 Flash作为新型工作模型，在编码和智能体任务上性能大幅提升，且价格减半。",
-          "paragraphs": [
-            "谷歌发布Gemini 3.7 Flash，距3.6仅三周，针对开发者反馈优化。在编码调试、问题解决上显著进步，首遍代码准确率更高，FrontierCode 1.1 Main得分43.6%对34.4%。",
-            "知识密集型领域如金融、法律、生物科学推理增强，GDP.pdf基准34%对22%，AutomationBench 30.4%对17%。Web开发生成更实用布局，WebDev Arena Elo 1588对1538。",
-            "输入价格每百万token 0.75美元，输出3.75美元，为原3.6 Flash一半。同时更新Gemini Spark，提升工具使用效率。安全方面强化了CBRN和网络攻击防护。"
-          ]
-        },
-        "en": {
-          "thesis": "Gemini 3.7 Flash, a new working model, delivers major gains in coding and agentic tasks at half the price.",
-          "paragraphs": [
-            "Google has released Gemini 3.7 Flash, a mere three weeks after 3.6, with improvements aimed at developer feedback. It shows notable progress in coding, debugging, and problem-solving, with higher first-attempt code accuracy, scoring 43.6% on FrontierCode 1.1 Main versus 34.4% for its predecessor.",
-            "Reasoning in knowledge-intensive domains like finance, law, and biosciences is enhanced, with scores on GDP.pdf jumping from 22% to 34%, and on AutomationBench from 17% to 30.4%. Web development output also yields more practical layouts, lifting its WebDev Arena Elo from 1538 to 1588.",
-            "Pricing is set at $0.75 per million input tokens and $3.75 per million output tokens, half the cost of the original 3.6 Flash. At the same time, Gemini Spark has been updated for better tool-use efficiency, and safety measures have been reinforced against CBRN and cyberattack threats."
+            "The author was once a big advocate of scheduling links, believing that tools like Calendly cut down on friction in arranging meetings. Over time, though, they realized this turned them into a self-service operation, where anyone could help themselves to their scarce focus.",
+            "Most meetings are pointless to begin with, filled with pleasantries and logistics, and the people who love them tend to be the least productive. A scheduling link turns time into an infinite add-to-cart item, erasing the value of judgment and negotiation.",
+            "So the author deleted their link, bringing back the friction of arranging meetings by hand, and now only meets when there is a clear purpose and outcome. A calendar should be a record of personal commitments, not a marketplace where anyone can pick you off the shelf."
           ]
         }
       }
@@ -467,23 +378,110 @@
       "publishedAt": "2026-08-13T18:37:12.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 30,
-      "rank": 11,
+      "score": 45,
+      "rank": 8,
       "summary": {
         "zh": {
-          "thesis": "模仿长尾猴叫声正被印度人用作驱赶猕猴的职业，且需求上升。",
+          "thesis": "模仿长尾猴叫声驱赶猕猴，成了新德里一项奇特而有效的工作。",
           "paragraphs": [
-            "为迎接德里羽毛球世锦赛，印度人专职模仿长尾猴叫声来驱赶猕猴，因这种声音是唯一有效威慑。",
-            "这些专业人员受雇于害虫防治领域，反映服务业中非传统技能的价值。",
-            "伴随活动安保需求，此类声音模仿职业可能更普遍，显示创造力在就业中的作用。"
+            "在新德里，猕猴泛滥成灾，偷食滋扰，传统驱赶法效果有限。但长尾猴的叫声能有效震慑它们，于是有人以此为业，专门模仿其叫声。",
+            "世界羽毛球锦标赛将在此举办，安保升级，这些'人形驱猴器'变得抢手。这既是古老智慧的延续，也折射出人猴共存的现代难题。"
           ]
         },
         "en": {
-          "thesis": "The imitation of the long-tailed macaque's call is being used by Indians as a profession to scare away monkeys, and demand for this service is on the rise.",
+          "thesis": "Imitating the calls of langur monkeys to scare away rhesus macaques has become a quirky yet effective job in New Delhi.",
           "paragraphs": [
-            "In preparation for the Delhi Badminton World Championships, Indians are being hired specifically to mimic the calls of long-tailed macaques to deter the resident monkeys, as this sound is the only effective deterrent.",
-            "These specialists are employed within the pest control sector, reflecting the value of unconventional skills in the service industry.",
-            "With the security needs of such events, this kind of vocal mimicry profession may become more common, highlighting the role of creativity in employment."
+            "In New Delhi, rhesus macaques have become a rampant nuisance, stealing food and causing disturbance, while traditional methods of deterrence have proven limited. However, the calls of langur monkeys are highly effective at intimidating them, leading some people to make a living by mimicking these sounds.",
+            "With the World Badminton Championships set to be held here, security has been heightened, making these 'human macaque repellers' highly sought after. This is both a continuation of ancient wisdom and a reflection of the modern dilemma of human-monkey coexistence."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ccebb06f6c320fb013a82a2d0d4c93d700c0d048",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "author": "thisisauserid",
+      "publishedAt": "2026-08-13T17:23:22.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-1300.png",
+      "readingMinutes": 4,
+      "score": 45,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "Gemini 3.7 Flash 以半价提升编码与代理性能，巩固谷歌在高效能模型上的竞争力。",
+          "paragraphs": [
+            "谷歌发布 Gemini 3.7 Flash，距上代仅三周，主打编码与代理工作流。定价为输入每百万 token 0.75 美元，输出 3.75 美元，是 3.6 Flash 首发价的一半，意图以性价比吸引开发者。",
+            "基准测试显示显著进步：FrontierCode 1.1 从 34.4% 升至 43.6%，DeepSWE 从 49.0% 升至 65.3%，WebDev Arena Elo 从 1538 升至 1588。复杂文档处理（GDP.pdf）从 22% 跃至 34%，自动化业务流程（AutomationBench）从 17% 升至 30.4%。",
+            "该模型已集成至个人代理 Gemini Spark，并强调安全性更新。但发布本身属产品迭代，缺少独立分析，仅报告事实，故评分偏低。"
+          ]
+        },
+        "en": {
+          "thesis": "Gemini 3.7 Flash, priced at half the rate of its predecessor, boosts coding and agentic performance, strengthening Google's competitive position in efficient models.",
+          "paragraphs": [
+            "Google has released Gemini 3.7 Flash just three weeks after the previous version, focusing on coding and agentic workflows. Pricing is set at $0.75 per million input tokens and $3.75 per million output tokens, half the launch price of 3.6 Flash, aiming to attract developers with cost-effectiveness.",
+            "Benchmarks show significant gains: FrontierCode 1.1 rose from 34.4% to 43.6%, DeepSWE from 49.0% to 65.3%, and WebDev Arena Elo from 1538 to 1588. Complex document processing (GDP.pdf) jumped from 22% to 34%, and automated business processes (AutomationBench) increased from 17% to 30.4%.",
+            "The model is integrated into the personal agent Gemini Spark, with security enhancements emphasized. However, the release is a product iteration without independent analysis, reporting only facts, so it scores low."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fe39abeed556f4f0ad1ae604ce5bb23661bde743",
+      "sourceId": "slowboring",
+      "category": "culture",
+      "title": "New York is building. But where?",
+      "url": "https://www.slowboring.com/p/new-york-is-building-but-where",
+      "author": "Halina Bennet",
+      "publishedAt": "2026-08-12T22:02:07.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!wYee!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7249557-8b63-4eec-8620-73f92666213d_3414x2259.jpeg",
+      "readingMinutes": 1,
+      "score": 45,
+      "rank": 10,
+      "summary": {
+        "zh": {
+          "thesis": "纽约的住房建设热潮受制于地方政治与法律障碍，而不仅仅是土地供给。",
+          "paragraphs": [
+            "市长赞格兰·马姆达尼向高价值二套房征收的「皮埃德-à-terre」税被史泰登岛法官叫停，凸显地方司法对住房政策的制约。文章以纽约为例，探讨建设热潮为何难以转化为切实的住房供应。",
+            "具体而言，政治阻力与法律挑战往往使新政策难以落地，而旧有的区划法规又限制了开发密度。旧金山等城市的教训表明，仅靠增加建筑许可不足以解决可负担性问题，必须改革制度性障碍。"
+          ]
+        },
+        "en": {
+          "thesis": "New York's housing construction boom is hindered by local politics and legal barriers, not just land supply.",
+          "paragraphs": [
+            "Mayor Zanglan Mamdani's 'pied-à-terre' tax on high-value second homes was struck down by a Staten Island judge, highlighting the constraints that local judiciary can place on housing policy. The article uses New York as a case study to explore why a construction boom does not necessarily translate into tangible housing supply.",
+            "Specifically, political resistance and legal challenges often hinder the implementation of new policies, while outdated zoning regulations restrict development density. Lessons from cities like San Francisco show that merely increasing building permits is insufficient to solve affordability; institutional barriers must be reformed."
+          ]
+        }
+      }
+    },
+    {
+      "id": "50f9ffd70672de7265d6113e8fd806c8d5815f96",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "Accelerating GPT-5.6 Sol Ultrafast",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "author": "pr337h4m",
+      "publishedAt": "2026-08-13T18:10:02.000Z",
+      "image": "https://cdn.sanity.io/images/e4qjo92p/production/fdfac76baee0b174ea63df807f9d4f975341caea-1672x941.png?rect=0,32,1672,878&amp;w=1200&amp;h=630&amp;fit=max&amp;auto=format",
+      "readingMinutes": 4,
+      "score": 35,
+      "rank": 11,
+      "summary": {
+        "zh": {
+          "thesis": "GPT-5.6 Sol 的 Ultrafast 模式以 750 tokens/秒 的速度提供同等质量，将改写时间敏感型 AI 应用。",
+          "paragraphs": [
+            "Cerebras 与 OpenAI 合作推出 Ultrafast 模式，用晶圆级引擎将 44GB SRAM 置于芯片上，避免 GPU 的内存带宽瓶颈。该模式先向部分客户开放，声称速度比 Fable 5 快 11 倍。",
+            "在 HLE 测试中，Sol 以 11 小时答完 2500 道博士级问题，比 Claude 快 7 倍；在 GDP-Val 上提速 5.6 倍且质量无损。这引发推理速度竞争，可能使 AI 更快融入实时决策。"
+          ]
+        },
+        "en": {
+          "thesis": "GPT-5.6 Sol's Ultrafast mode delivers equal quality at 750 tokens per second, reshaping time-sensitive AI applications.",
+          "paragraphs": [
+            "Cerebras and OpenAI have teamed up to introduce Ultrafast mode, which uses a wafer-scale engine to place 44GB of SRAM directly on the chip, bypassing the memory bandwidth bottleneck typical of GPUs. The mode is initially being rolled out to select customers, with claims of being 11 times faster than Fable 5.",
+            "In the HLE benchmark, Sol completed 2,500 doctoral-level questions in 11 hours, seven times faster than Claude, and achieved a 5.6-times speedup on GDP-Val with no loss in quality. This sparks a race in inference speed, potentially accelerating AI's integration into real-time decision-making."
           ]
         }
       }
@@ -498,21 +496,21 @@
       "publishedAt": "2026-08-13T16:03:42.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 30,
+      "score": 35,
       "rank": 12,
       "summary": {
         "zh": {
-          "thesis": "一篇链接合集，论点薄弱，胜在覆盖面广。",
+          "thesis": "链接聚合的价值在于提示值得深挖的话题，而非本身提供分析。",
           "paragraphs": [
-            "这是典型的链接汇总，每条附带一句评论。从用AI六天写论文并记录过程，到医学未来「每个疾病都是政策失败」，再到中国监管AI伴侣，内容松散。",
-            "作为信息源，它提示了当下热点：AI辅助科研的元研究、政策失败论、以及AI伴侣监管的起步。但缺乏深入论证，价值在于索引而非分析。"
+            "此为精选链接列表，涵盖AI写论文、医学未来、社会科学可推广性等议题。每则链接仅一短语，缺乏展开论证。",
+            "例如首条链接建议用AI六天写论文并记录过程，但未述细节或效果。此类内容适合浏览发现，不适合深度阅读。"
           ]
         },
         "en": {
-          "thesis": "A link collection with thin argumentation, but broad coverage.",
+          "thesis": "The value of link roundups lies in highlighting topics worth exploring, not in providing analysis themselves.",
           "paragraphs": [
-            "This is a typical roundup of links, each with a one-line comment. From a six-day experiment in writing a thesis with AI, to the medical future where 'every disease is a policy failure', to China's regulation of AI companions, the items are loosely connected.",
-            "As a source of information, it highlights current hot topics: meta-research on AI-assisted scholarship, the policy-failure thesis, and the early stages of AI companion regulation. But it lacks deep argumentation, its value lying more as an index than as analysis."
+            "This is a curated list of links covering topics from AI-assisted thesis writing to the future of medicine and the generalizability of social science research. Each link is accompanied by only a brief phrase, lacking any developed argument.",
+            "For instance, the first link suggests using AI to write a thesis in six days while documenting the process, but it offers no details or outcomes. Such content is suitable for browsing and discovery, not for in-depth reading."
           ]
         }
       }
@@ -527,52 +525,54 @@
       "publishedAt": "2026-08-13T12:58:02.000Z",
       "image": null,
       "readingMinutes": 4,
-      "score": 30,
+      "score": 35,
       "rank": 13,
       "summary": {
         "zh": {
-          "thesis": "DeepSeek Harness 以「一切皆插件」架构开放开发者预览，强调可组合与可追溯。",
+          "thesis": "DeepSeek Harness 将代理的一切能力做成可替换插件，并记录完整轨迹，但本文只是发布公告。",
           "paragraphs": [
-            "DeepSeek 发布 Harness 开发者预览，宣称所有能力——模型、工具、技能、会话、沙箱、存储、循环、调度、UI——皆为可替换插件，基于 Cordis 插件系统。",
-            "架构让开发者无需改源码即可配置组合能力，且每次运行都有追加式会话日志，支持恢复、分叉、搜索和重放。运行模式分标准、代码、最小、创作者四种。",
-            "本质是产品发布公告，无数据论证或行业分析，信息含量低。"
+            "DeepSeek 发布 Harness 开发者预览版，宣称一切皆插件：模型、工具、技能、会话、沙箱、存储、循环、调度、UI 均可配置替换。其核心是 Cordis 内核负责插件的挂载与依赖管理。",
+            "设计强调可追溯性：模型所见全部记录在只增日志中，包括系统提示、推理、工具调用及结果，支持恢复、分叉、搜索与回放。运行模式分标准、代码、最小与创建者四种，灵活适配不同场景。",
+            "这属于产品发布公告，缺乏深度分析或对比，信息以功能列举为主。对开发者有参考价值，但一般读者获得的洞见有限。"
           ]
         },
         "en": {
-          "thesis": "DeepSeek Harness opens its developer preview with an 'everything is a plugin' architecture, emphasizing composability and traceability.",
+          "thesis": "DeepSeek Harness turns every capability of an agent into a replaceable plugin and logs the full trajectory, but this piece is just a release announcement.",
           "paragraphs": [
-            "DeepSeek has released the Harness developer preview, claiming that every capability—models, tools, skills, conversations, sandboxes, storage, loops, scheduling, and UI—can be swapped out as an interchangeable plugin, built on the Cordis plugin system.",
-            "The architecture lets developers configure and combine capabilities without altering source code, and every run generates append-only session logs that support resumption, forking, searching, and replay. There are four run modes: standard, code, minimal, and creator.",
-            "Essentially, this is a product launch announcement with no data-driven arguments or industry analysis, so its informational content is low."
+            "DeepSeek has released a developer preview of its Harness, claiming that everything is a plugin: models, tools, skills, sessions, sandboxes, storage, loops, scheduling, and UI can all be configured and swapped. At its core is the Cordis kernel, which handles plugin mounting and dependency management.",
+            "The design emphasizes traceability: everything the model sees is recorded in an append-only log, including system prompts, reasoning, tool calls, and their results, with support for resuming, forking, searching, and replaying. There are four runtime modes—standard, code, minimal, and creator—to flexibly suit different use cases.",
+            "This is a product release announcement, lacking deep analysis or comparison, and the information consists mainly of feature lists. It offers reference value for developers, but general readers will glean limited insight."
           ]
         }
       }
     },
     {
-      "id": "f4499451c6efa50425eb97e2505e72254b7ae9f4",
-      "sourceId": "hn",
-      "category": "tech",
-      "title": "Codex in ChatGPT desktop app for Linux is now in preview",
-      "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
-      "author": "allanrbo",
-      "publishedAt": "2026-08-13T04:53:41.000Z",
-      "image": "https://us1.discourse-cdn.com/openai1/original/4X/0/4/c/04c8546833f0824a49d21f50e2b08dd44bfd3d05.png",
+      "id": "6a4a0233db41331239182b00e444c624fcaffc99",
+      "sourceId": "westenberg",
+      "category": "culture",
+      "title": "The Heretic's Guide to Conviction",
+      "url": "https://www.joanwestenberg.com/p/the-heretics-guide-to-conviction",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-13T01:58:00.000Z",
+      "image": "https://substack-video.s3.amazonaws.com/video_upload/post/210982365/7df18614-dc06-41da-adb0-7e7873d74a66/transcoded-00001.png",
       "readingMinutes": 1,
-      "score": 28,
+      "score": 35,
       "rank": 14,
       "summary": {
         "zh": {
-          "thesis": "Linux 用户现在可以预览 ChatGPT 桌面应用及 Codex，这是平台扩展的重要一步。",
+          "thesis": "在科技界，坚持己见而非随大流，才是真正的护城河。",
           "paragraphs": [
-            "OpenAI 宣布 ChatGPT 桌面应用推出 Linux 预览版，支持 ChatGPT、ChatGPT Work 和 Codex。这标志着 OpenAI 首次正式支持 Linux 桌面。",
-            "对于依赖 Linux 的开发者而言，可以在熟悉的环境中直接使用 Codex 和浏览器工作流，无需再切换到其他操作系统。"
+            "文章批评科技界普遍遵循同一套成功模板，认为这导致同质化竞争。作者提出，真正的优势来自与众不同的信念和行动。",
+            "他以星巴克为例，说明其从咖啡公司转型为第三空间，靠的是对顾客体验的独特坚持，而非跟随行业标准。这种反叛精神被作者称为「异端指南」。",
+            "文章是付费播客的简介，内容简略，缺乏具体论证和数据支持，更像一个宣言而非深入分析。其核心观点虽有趣，但缺乏展开。"
           ]
         },
         "en": {
-          "thesis": "Linux users can now preview the ChatGPT desktop app and Codex, marking an important step in the platform's expansion.",
+          "thesis": "In the tech world, true moat lies in sticking to your own convictions rather than following the crowd.",
           "paragraphs": [
-            "OpenAI has announced that the ChatGPT desktop app is now available in preview for Linux, supporting ChatGPT, ChatGPT Work, and Codex. This marks the first official support for Linux desktops by OpenAI.",
-            "For developers who rely on Linux, this means they can now use Codex and browser workflows directly in their familiar environment, without needing to switch to another operating system."
+            "The article criticizes the tech industry for universally following the same success template, which leads to homogeneous competition. The author argues that real advantage comes from unconventional beliefs and actions.",
+            "Using Starbucks as an example, he illustrates how the company transformed from a coffee business into a 'third place' by stubbornly focusing on customer experience, not by following industry standards. This rebellious spirit is what the author calls a 'heretic's guide'.",
+            "The piece serves as a blurb for a paid podcast, so it is brief and lacks detailed argumentation or data; it reads more like a manifesto than deep analysis. Its core idea is interesting but remains underdeveloped."
           ]
         }
       }
@@ -587,50 +587,21 @@
       "publishedAt": "2026-08-13T13:52:32.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 25,
+      "score": 30,
       "rank": 15,
       "summary": {
         "zh": {
-          "thesis": "「Gloomberb」这一标题本身不包含明确论点或信息，仅为模糊命名。",
+          "thesis": "《Gloomberb》这个标题本身没有提供任何可争议的论点，只是一条新闻标题。",
           "paragraphs": [
-            "由于文章正文缺失，仅有标题「Gloomberb」可用。该词无确切含义，无法判断内容领域或核心观点。",
-            "作为摘要，只能基于模糊性给予低分，因为缺乏可总结的实质内容。"
+            "这篇文章仅提供了标题“Gloomberb”，没有正文内容可分析。因此无法提炼出具体的观点、证据或论证过程。",
+            "作为一篇无法获取内容的文章，它只能被归类为纯粹的新闻公告，缺乏深度分析。评分因此较低，仅为30分，因为它没有传达任何实质性的见解。"
           ]
         },
         "en": {
-          "thesis": "The title 'Gloomberb' carries no clear thesis or information, being merely an obscure label.",
+          "thesis": "The headline 'Gloomberb' offers no arguable thesis; it is merely a news headline.",
           "paragraphs": [
-            "Since the article's full text is missing, only the title 'Gloomberb' is available. The word has no definite meaning, making it impossible to determine the subject area or core argument.",
-            "As a summary, it can only receive a low score based on its vagueness, given the lack of substantive content to distill."
-          ]
-        }
-      }
-    },
-    {
-      "id": "7894f9f5a583f7af91499cb60a16e1d253b7c172",
-      "sourceId": "hn",
-      "category": "business",
-      "title": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
-      "url": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
-      "author": "Markoff",
-      "publishedAt": "2026-08-13T12:09:50.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 25,
-      "rank": 16,
-      "summary": {
-        "zh": {
-          "thesis": "德意志银行成为欧洲首家人民币清算行，标志着人民币国际化在欧洲的推进。",
-          "paragraphs": [
-            "这是德意志银行获得中国人民银行授权，在欧洲开展人民币清算业务。这有助于提升人民币在欧洲的使用，便利中欧贸易和投资。",
-            "但作为一则新闻简讯，缺乏深入分析和数据支持，对普通读者而言信息增量有限。因此评分较低。"
-          ]
-        },
-        "en": {
-          "thesis": "Deutsche Bank becomes Europe's first yuan clearing bank, advancing the internationalization of the yuan in Europe.",
-          "paragraphs": [
-            "This marks Deutsche Bank's authorization by the People's Bank of China to conduct yuan clearing business in Europe, which is expected to boost the use of the yuan in the region and facilitate trade and investment between China and Europe.",
-            "However, as a brief news item, it lacks in-depth analysis and supporting data, offering limited additional insight for the general reader, hence its low rating."
+            "This article provides only the headline 'Gloomberb' with no body content to analyze. Therefore, no specific viewpoint, evidence, or argumentation can be extracted.",
+            "As an article whose content cannot be accessed, it can only be classified as a pure news announcement, lacking in-depth analysis. Its score is consequently low, only 30 points, because it conveys no substantive insight."
           ]
         }
       }
@@ -645,21 +616,50 @@
       "publishedAt": "2026-08-13T10:40:20.000Z",
       "image": "https://pbs.twimg.com/media/HPb9I1RW0AASdpT?format=jpg&amp;name=900x900",
       "readingMinutes": 1,
-      "score": 20,
-      "rank": 17,
+      "score": 25,
+      "rank": 16,
       "summary": {
         "zh": {
-          "thesis": "美国的一个事实，但来源未明，内容未详。",
+          "thesis": "美国某些事实值得关注。",
           "paragraphs": [
-            "此文为链接分享，未提供实质内容，仅指出来源。",
-            "读者无法获取信息，仅知是一个事实，但具体如何无从得知。"
+            "本文仅是一条简短的事实播报，几乎没有展开论述。",
+            "内容缺乏具体数据和深入分析，难以提炼出有价值的主张。"
           ]
         },
         "en": {
-          "thesis": "A fact about the United States, though the source is unidentified and the content is unspecified.",
+          "thesis": "Certain facts about the United States merit attention.",
           "paragraphs": [
-            "This entry is a link share that provides no substantive content, merely pointing to a source.",
-            "Readers are left without information, knowing only that it is a fact, but with no way to learn what it actually is."
+            "This entry is simply a brief factual bulletin, with virtually no elaboration.",
+            "The content lacks specific data and in-depth analysis, making it difficult to distill any valuable claim."
+          ]
+        }
+      }
+    },
+    {
+      "id": "f4499451c6efa50425eb97e2505e72254b7ae9f4",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "Codex in ChatGPT desktop app for Linux is now in preview",
+      "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
+      "author": "allanrbo",
+      "publishedAt": "2026-08-13T04:53:41.000Z",
+      "image": "https://us1.discourse-cdn.com/openai1/original/4X/0/4/c/04c8546833f0824a49d21f50e2b08dd44bfd3d05.png",
+      "readingMinutes": 1,
+      "score": 22,
+      "rank": 17,
+      "summary": {
+        "zh": {
+          "thesis": "ChatGPT 桌面应用与 Codex 现已登陆 Linux 预览版，但此事本身并无新论点。",
+          "paragraphs": [
+            "OpenAI 在 X 上宣布，ChatGPT 桌面应用（含 ChatGPT Work 与 Codex）已推出 Linux 预览版，支持已有项目和浏览器工作流。",
+            "这只是一条产品发布消息，无分析或争议论点，对普通读者价值有限，且对 Linux 用户而言是便利，但并非重大事件。"
+          ]
+        },
+        "en": {
+          "thesis": "The ChatGPT desktop app and Codex are now available in a Linux preview, but this announcement carries no new argument.",
+          "paragraphs": [
+            "OpenAI announced on X that the ChatGPT desktop app, including ChatGPT Work and Codex, has launched in a Linux preview, supporting existing projects and browser workflows.",
+            "This is merely a product release announcement, with no analysis or contentious points, offering limited value to the general reader, and while it is convenient for Linux users, it is not a major event."
           ]
         }
       }
