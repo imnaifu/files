@@ -1,13 +1,13 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T23:54:02.892Z",
+  "generatedAt": "2026-08-13T00:01:04.729Z",
   "window": {
-    "from": "2026-08-11T23:54:02.892Z",
-    "to": "2026-08-12T23:54:02.892Z"
+    "from": "2026-08-12T00:01:04.729Z",
+    "to": "2026-08-13T00:01:04.729Z"
   },
   "stats": {
-    "fetched": 27,
-    "shown": 27,
+    "fetched": 23,
+    "shown": 23,
     "folded": 0
   },
   "sources": [
@@ -27,13 +27,13 @@
       "id": "neciudan",
       "name": "Neciu Dan’s Blog",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "id": "hn",
       "name": "Hacker News",
       "ok": true,
-      "count": 13
+      "count": 10
     },
     {
       "id": "platformer",
@@ -158,63 +158,32 @@
   ],
   "articles": [
     {
-      "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
-      "sourceId": "hn",
-      "category": "tech",
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "author": "ropbear",
-      "publishedAt": "2026-08-12T14:22:30.000Z",
-      "image": null,
-      "readingMinutes": 13,
-      "score": 90,
-      "rank": 1,
-      "summary": {
-        "zh": {
-          "thesis": "Tailscale追踪到SQLite中一个16年历史的罕见数据竞争错误。",
-          "points": [
-            "手动控制检查点导致更频繁触发错误。",
-            "错误导致写入事务在检查点期间丢失页面。",
-            "修复已发布，但需谨慎部署以避免其他回归问题。"
-          ]
-        },
-        "en": {
-          "thesis": "Tailscale traces a database corruption to a 16-year-old rare data race bug in SQLite.",
-          "points": [
-            "Manual checkpoint control triggers the bug more frequently.",
-            "The bug loses write transactions during checkpointing.",
-            "A fix is released, but deployment requires caution to avoid regressions."
-          ]
-        }
-      }
-    },
-    {
       "id": "d8d84c04601d267495ffcc933e62f0c80ebc0d85",
       "sourceId": "hn",
-      "category": "tech",
+      "category": "culture",
       "title": "License plate reader searches should require a warrant",
       "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
       "author": "apwheele",
       "publishedAt": "2026-08-12T14:43:39.000Z",
       "image": null,
       "readingMinutes": 16,
-      "score": 85,
-      "rank": 2,
+      "score": 88,
+      "rank": 1,
       "summary": {
         "zh": {
-          "thesis": "车牌识别历史数据搜索应需搜查令，而非删除数据。",
+          "thesis": "历史车牌识别数据搜索应须司法令状，删除数据反而助长滥用。",
           "points": [
-            "删除数据并不能防止滥用，反而妨碍合法侦查。",
-            "未来摄像头将无处不在，法律迟早要求搜查令。",
-            "建议设立明确惩罚和第三方审计，而非依赖数据留存。"
+            "摄像头密度增加后，历史数据搜索迟早会被判需令状。",
+            "删除数据无法阻止警官反复搜索，反而阻碍长期调查。",
+            "需由第三方机构审计搜索记录，并明确非法搜索的处罚。"
           ]
         },
         "en": {
-          "thesis": "License plate reader historical searches should require warrants, not data deletion.",
+          "thesis": "Searches of historical license plate data should require a warrant; deleting data would actually enable abuse.",
           "points": [
-            "Deleting data doesn't prevent abuse and hinders legitimate investigations.",
-            "Future cameras will be everywhere, and warrants will be legally required.",
-            "Proposes clear penalties and third-party audits rather than data retention."
+            "With more cameras, warrantless searches of historical data will inevitably be ruled unconstitutional.",
+            "Deleting data can't stop officers from repeatedly searching and would hinder long-term investigations.",
+            "An independent third party should audit search logs and penalties for illegal searches must be clear."
           ]
         }
       }
@@ -229,85 +198,23 @@
       "publishedAt": "2026-08-12T08:27:04.000Z",
       "image": "https://substackcdn.com/image/fetch/$s_!1LQu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a890f5e-762d-4e90-b9cd-9b76d5271ecf_960x721.jpeg",
       "readingMinutes": 19,
-      "score": 85,
-      "rank": 3,
+      "score": 82,
+      "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "本周合集揭示政策与技术的意外后果，从MAGA衰退到AI促进外包。",
+          "thesis": "多个经济与社会政策引发意想不到的后果，需重新审视其真正效果。",
           "points": [
-            "MAGA影响力下降，因未建立持久机构。",
-            "劳动份额下降部分源于税收分类和股票薪酬，未必真实。",
-            "AI尚未提升生产率，但投资本身带来宏观增长。"
+            "劳动份额下降部分源于税收政策导致的收入重新分类，并非全是真实现象。",
+            "OPT外国毕业生增加促使本地企业创立，反而提高美国本地人就业和工资。",
+            "AI目前更多是互补而非替代，印度外包服务业反而因AI繁荣而增长。"
           ]
         },
         "en": {
-          "thesis": "This week's roundup reveals unintended consequences of policy and tech, from MAGA decline to AI promoting outsourcing.",
+          "thesis": "Several economic and social policies have unintended consequences, requiring a re-examination of their true effects.",
           "points": [
-            "MAGA influence wanes due to lack of lasting institutions.",
-            "Declining labor share partly stems from tax classification and stock compensation, possibly not real.",
-            "AI hasn't boosted productivity yet, but investment itself yields macro growth."
-          ]
-        }
-      }
-    },
-    {
-      "id": "52fa033e5f1f88fe1fbecaafd4a117291bb0cbc2",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "AI is removing the middle class of software engineering?",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "author": "florianherrengt",
-      "publishedAt": "2026-08-12T13:20:05.000Z",
-      "image": null,
-      "readingMinutes": 6,
-      "score": 80,
-      "rank": 4,
-      "summary": {
-        "zh": {
-          "thesis": "AI让平庸工程师能制造大量技术债，正在淘汰中间层。",
-          "points": [
-            "AI提高了代码产出速度，但审阅和理解能力没有跟上。",
-            "糟糕的工程师现在能更快地积累复杂性和债务。",
-            "判断力成为最稀缺的技能，优秀工程师更值钱。"
-          ]
-        },
-        "en": {
-          "thesis": "AI lets mediocre engineers generate massive technical debt, eroding the middle class of software engineering.",
-          "points": [
-            "AI boosts code output speed, but review and comprehension lag behind.",
-            "Poor engineers now accumulate complexity and debt faster.",
-            "Judgment becomes the scarcest skill, making good engineers more valuable."
-          ]
-        }
-      }
-    },
-    {
-      "id": "05de32c56e427a128ec37a6788d9aa35da7feb65",
-      "sourceId": "neciudan",
-      "category": "ai",
-      "title": "AI Agents: Architecture",
-      "url": "https://neciudan.dev/ai-agents-architecture",
-      "author": null,
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "image": null,
-      "readingMinutes": 11,
-      "score": 80,
-      "rank": 5,
-      "summary": {
-        "zh": {
-          "thesis": "AI代理架构需拆分为多个步骤，而非依赖单一强大模型。",
-          "points": [
-            "单一模型调用在成本、可见性和优化上不如拆分。",
-            "分类、提取等简单任务用小型模型可降低成本。",
-            "工具循环中使用前沿模型驱动，但预算检查用代码确保准确性。"
-          ]
-        },
-        "en": {
-          "thesis": "AI agent architecture should split into multiple steps rather than rely on a single powerful model.",
-          "points": [
-            "Single model calls are less cost-effective, less observable, and harder to optimize than splitting.",
-            "Use small models for simple tasks like classification and extraction to cut costs.",
-            "Use frontier models for the tool loop, but code-based budget checks ensure accuracy."
+            "Part of the decline in the labor share stems from tax-induced reclassification of income, not all real.",
+            "More OPT foreign graduates spur local business creation, which raises native employment and wages.",
+            "AI is currently more complementary than substitutive; Indian outsourcing has boomed because of it."
           ]
         }
       }
@@ -322,23 +229,54 @@
       "publishedAt": "2026-08-12T10:03:50.000Z",
       "image": "https://substackcdn.com/image/fetch/$s_!nmR4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6efdb440-f21d-46a8-b6bd-9be8d50efdc7_3925x2617.jpeg",
       "readingMinutes": 12,
-      "score": 78,
-      "rank": 6,
+      "score": 80,
+      "rank": 3,
       "summary": {
         "zh": {
-          "thesis": "El-Sayed能以温和派身份赢得密歇根州参议院选举。",
+          "thesis": "左派候选人艾尔-萨耶德若走中间路线，可赢得温和选民并大胜。",
           "points": [
-            "左翼身份可通过聚焦国内问题赢得温和选民。",
-            "在以色列和医保上采取务实现实路径。",
-            "避免成为派系工具，与党内团结合作至关重要。"
+            "用「美国优先」框架谈以色列问题，比「武器禁运」更有说服力。",
+            "应在医保问题上创造渐进式改革的空间，而非教条化。",
+            "积极参与与温和派的团结活动，避免被党内派系工具化。"
           ]
         },
         "en": {
-          "thesis": "El-Sayed can win Michigan's Senate race by positioning as a moderate.",
+          "thesis": "Left-wing candidate Abdul El-Sayed can win moderate voters and secure a landslide by taking a centrist line.",
           "points": [
-            "Leftist identity can win moderates by focusing on domestic issues.",
-            "He takes pragmatic paths on Israel and healthcare.",
-            "Avoiding being a factional tool and cooperating with party unity is crucial."
+            "Framing Israel through an 'America First' lens is more persuasive than 'arms embargo.'",
+            "He should create space for incremental health care reform rather than being dogmatic.",
+            "Engage positively with moderates in unity events, avoiding being used by party factions."
+          ]
+        }
+      }
+    },
+    {
+      "id": "828e7944bf14cb4b1f6a3d69680825fc615fa3da",
+      "sourceId": "westenberg",
+      "category": "culture",
+      "title": "I Deleted My Calendar Link. And I’m Never Going Back",
+      "url": "https://www.joanwestenberg.com/p/i-deleted-my-calendar-link-and-im",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-12T22:11:24.000Z",
+      "image": "https://images.unsplash.com/photo-1622799622659-25906a2cf2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMjl8fGNhbGVuZGFyJTIwYXBwfGVufDB8fHx8MTc4NjU3MjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "readingMinutes": 3,
+      "score": 78,
+      "rank": 4,
+      "summary": {
+        "zh": {
+          "thesis": "删掉日历链接，主动拥抱摩擦，才能保住对时间的掌控。",
+          "points": [
+            "日历链接把时间变成了无限自助购物，削弱了主人的判断力。",
+            "无价值的人制造更多会议，会议数量与价值成反比。",
+            "接受来回协调的麻烦，会筛选出真正值得开的会。"
+          ]
+        },
+        "en": {
+          "thesis": "Deleting my calendar link and embracing friction is the only way to keep control of my time.",
+          "points": [
+            "Calendar links turn time into unlimited self-service shopping, eroding the owner's judgment.",
+            "People of low value generate more meetings; meeting count is inversely proportional to meeting value.",
+            "Accepting the hassle of back-and-forth scheduling filters for meetings that truly matter."
           ]
         }
       }
@@ -353,54 +291,54 @@
       "publishedAt": "2026-08-12T18:46:44.000Z",
       "image": null,
       "readingMinutes": 2,
-      "score": 75,
-      "rank": 7,
+      "score": 74,
+      "rank": 5,
       "summary": {
         "zh": {
-          "thesis": "声称AI将毁灭世界的人应买入看跌期权，否则暴露其真实信念。",
+          "thesis": "担心AI风险的人应该用真金白银买看跌期权来印证信念。",
           "points": [
-            "买深度价外看跌期权成本低，可对冲末日风险。",
-            "拒绝下单暴露了内心其实不认为AI会那么糟。",
-            "长期持仓容易，做空或对冲才真正暴露信念。"
+            "花5千到1万美元买虚值看跌期权是低成本的信念检验。",
+            "多数担忧者在做多上很积极，却从不做空，暴露了真实想法。",
+            "市场不善于定价长期特殊风险，这恰是买期权的理由。"
           ]
         },
         "en": {
-          "thesis": "Those claiming AI will destroy the world should buy put options, or their true beliefs are exposed.",
+          "thesis": "People worried about AI risk should put their money where their mouth is by buying put options.",
           "points": [
-            "Deep out-of-the-money puts are cheap and hedge against doomsday risk.",
-            "Refusing to place the order reveals they don't actually think AI is that bad.",
-            "Holding long is easy; shorting or hedging truly reveals conviction."
+            "Spending $5,000 to $10,000 on out-of-the-money puts is a low-cost test of conviction.",
+            "Most worriers are active in longs but never short, revealing their true beliefs.",
+            "Markets are bad at pricing long-tail risks, which is precisely the case for buying options."
           ]
         }
       }
     },
     {
-      "id": "e1414f2068c130e80ac51a65b769e637764b06cc",
-      "sourceId": "marginal",
-      "category": "culture",
-      "title": "What makes people happy?",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/what-makes-people-happy.html",
-      "author": "Tyler Cowen",
-      "publishedAt": "2026-08-12T06:51:30.000Z",
+      "id": "550006791bdd55579ec98d34ac6fbd9c6ddd0d79",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "author": "ropbear",
+      "publishedAt": "2026-08-12T14:22:30.000Z",
       "image": null,
-      "readingMinutes": 1,
-      "score": 75,
-      "rank": 8,
+      "readingMinutes": 13,
+      "score": 74,
+      "rank": 6,
       "summary": {
         "zh": {
-          "thesis": "俄罗斯人生活满意度在入侵乌克兰后上升，表明战时民族融合。",
+          "thesis": "Tailscale历经六个月排查，发现并修复了一个潜伏16年的SQLite写入数据竞争缺陷。",
           "points": [
-            "幸福感增加在军事工业区更大，靠近前线更小。",
-            "这种差异模式难以用社会期望偏差解释。",
-            "到2024年，数据缺失增加，指标信息价值下降。"
+            "缺陷发生在检查点与写入事务并发时，导致页面被误认为已拷贝而丢失。",
+            "Tailscale因手动控制检查点并激进运行，比普通用户更易触发。",
+            "修复后四个月无事故，且意外暴露了一个表达式索引的次级问题。"
           ]
         },
         "en": {
-          "thesis": "Russians' life satisfaction rose after invading Ukraine, indicating wartime national cohesion.",
+          "thesis": "After six months of investigation, Tailscale found and fixed a SQLite write-data-race bug that had lurked for 16 years.",
           "points": [
-            "Happiness gains are larger in military-industrial zones and smaller near the front.",
-            "This pattern is hard to explain away by social desirability bias.",
-            "By 2024, missing data increases, reducing the indicator's informational value."
+            "The bug occurred when a checkpoint ran concurrently with a write transaction, causing pages to be mistakenly considered copied and then lost.",
+            "Tailscale triggered it more easily than typical users because it manually controls checkpoints and runs aggressively.",
+            "Four months post-fix with no incidents, and the work uncovered a secondary issue with an expression index."
           ]
         }
       }
@@ -415,23 +353,54 @@
       "publishedAt": "2026-08-12T14:00:54.000Z",
       "image": null,
       "readingMinutes": 4,
-      "score": 70,
-      "rank": 9,
+      "score": 72,
+      "rank": 7,
       "summary": {
         "zh": {
-          "thesis": "Chrome对小型JPEG的优化导致渲染差异，源于部分解码。",
+          "thesis": "Chrome渲染微小JPEG时只解码低频数据，导致图标显得更粗。",
           "points": [
-            "Chrome使用部分IDCT缩放，跳过高频数据。",
-            "在1/8缩放以下，只保留恒定分量，导致图像更粗。",
-            "JPEG格式不适合图标，建议使用SVG或PNG。"
+            "Chrome利用部分IDCT缩放，按1/8比例只解码低频系数。",
+            "这节省内存和计算，但丢失高频细节，使边缘变粗。",
+            "图标类图片不适合用JPEG，应改用SVG或PNG。"
           ]
         },
         "en": {
-          "thesis": "Chrome's optimization for small JPEGs causes rendering differences due to partial decoding.",
+          "thesis": "Chrome decodes only low-frequency data when rendering tiny JPEGs, making icons look bolder.",
           "points": [
-            "Chrome uses partial IDCT scaling, skipping high-frequency data.",
-            "Below 1/8 scaling, it keeps only constant components, making images coarser.",
-            "JPEG isn't suited for icons; use SVG or PNG instead."
+            "Chrome uses partial IDCT scaling, decoding only low-frequency coefficients at 1/8 resolution.",
+            "This saves memory and compute but loses high-frequency detail, thickening edges.",
+            "Icons are a poor fit for JPEG and should be SVG or PNG instead."
+          ]
+        }
+      }
+    },
+    {
+      "id": "76ad5947a86724455549f508ca5a6b6ab5ed48ea",
+      "sourceId": "notboring",
+      "category": "business",
+      "title": "Base Power Company: Chapter 3",
+      "url": "https://www.notboring.co/p/base-power-company-chapter-3",
+      "author": "Packy McCormick",
+      "publishedAt": "2026-08-12T13:53:37.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!OnPt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d9329d8-9ba0-4fc3-b41b-01bb2239f875_1200x666.png",
+      "readingMinutes": 65,
+      "score": 70,
+      "rank": 8,
+      "summary": {
+        "zh": {
+          "thesis": "Base Power以130亿美元估值融资，计划通过垂直整合成为最大能源公司。",
+          "points": [
+            "公司估值从4亿涨至130亿美元，目标指向万亿市值。",
+            "取消Gen 2电池，自研Gen 3，以掌握核心技术。",
+            "通过「制造、移动、存储、销售」框架向AI基础设施扩张。"
+          ]
+        },
+        "en": {
+          "thesis": "Base Power is raising at a $13 billion valuation, with vertical integration aimed at becoming the largest energy company.",
+          "points": [
+            "The company jumped from a $400 million to a $13 billion valuation, targeting a trillion-dollar market cap.",
+            "It canceled Gen 2 batteries to develop Gen 3 in-house for core tech control.",
+            "Its 'make, move, store, sell' framework is expanding into AI infrastructure."
           ]
         }
       }
@@ -447,239 +416,53 @@
       "image": null,
       "readingMinutes": 1,
       "score": 70,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "1990年代中期后到达的移民收入在十年内接近本地人，早期移民则不然。",
+          "points": [
+            "五分之一到三分之一的移民在十年内离开美国，返回者收入增长更慢。",
+            "永久移民的收入在十年内与本地人趋同或接近。",
+            "移民群的劳动市场质量改善和选择性返回是趋同加速的主因。"
+          ]
+        },
+        "en": {
+          "thesis": "Immigrants arriving after the mid-1990s see their incomes approach natives within a decade, unlike earlier cohorts.",
+          "points": [
+            "One-fifth to one-third of immigrants leave the US within ten years, and returnees see slower earnings growth.",
+            "Permanent immigrants' incomes converge or approach natives' within a decade.",
+            "Better labor market quality and selective return migration are the main accelerators of convergence."
+          ]
+        }
+      }
+    },
+    {
+      "id": "e1414f2068c130e80ac51a65b769e637764b06cc",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "What makes people happy?",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/what-makes-people-happy.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T06:51:30.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 68,
       "rank": 10,
       "summary": {
         "zh": {
-          "thesis": "美国移民收入同化加速，但回流移民表现较差。",
+          "thesis": "俄罗斯人幸福感在入侵乌克兰后上升，反映了战时国家认同的吸纳。",
           "points": [
-            "20%-33%的移民在10年内回流。",
-            "1990年代中期后的永久移民收入在10年内与本地人趋同。",
-            "回流移民起始收入类似但增长缓慢。"
+            "幸福感上升在军工业地区更显著，在靠近前线地区则骤降。",
+            "这一模式难以用社会期望偏差解释，更像是真正的战时融入。",
+            "到2024年，数据缺失增加，幸福感指标的信息价值下降。"
           ]
         },
         "en": {
-          "thesis": "U.S. immigrant earnings assimilation has accelerated, but return migrants perform worse.",
+          "thesis": "Russian happiness rose after the invasion of Ukraine, reflecting wartime national identity absorption.",
           "points": [
-            "20-33% of immigrants return within 10 years.",
-            "Permanent immigrants post-mid-1990s converge to native earnings within 10 years.",
-            "Return migrants start similarly but grow more slowly."
-          ]
-        }
-      }
-    },
-    {
-      "id": "828e7944bf14cb4b1f6a3d69680825fc615fa3da",
-      "sourceId": "westenberg",
-      "category": "culture",
-      "title": "I Deleted My Calendar Link. And I’m Never Going Back",
-      "url": "https://www.joanwestenberg.com/p/i-deleted-my-calendar-link-and-im",
-      "author": "JA Westenberg",
-      "publishedAt": "2026-08-12T22:11:24.000Z",
-      "image": "https://images.unsplash.com/photo-1622799622659-25906a2cf2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMjl8fGNhbGVuZGFyJTIwYXBwfGVufDB8fHx8MTc4NjU3MjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "readingMinutes": 3,
-      "score": 68,
-      "rank": 11,
-      "summary": {
-        "zh": {
-          "thesis": "删除日历链接，主动拥抱摩擦，以夺回对时间的掌控。",
-          "points": [
-            "日历链接把稀缺时间变成无限自助购物，鼓励自私占用。",
-            "大多数会议本身低效，链接只是让更多无意义会议发生。",
-            "拒绝摩擦是一种筛选，让真正重要的会面自然浮现。"
-          ]
-        },
-        "en": {
-          "thesis": "Deleting my calendar link, I embrace friction to take back control of my time.",
-          "points": [
-            "Calendar links turn scarce time into endless self-service shopping, encouraging selfish occupancy.",
-            "Most meetings are ineffective anyway; links just enable more meaningless ones.",
-            "Friction is a filter that lets truly important meetings emerge naturally."
-          ]
-        }
-      }
-    },
-    {
-      "id": "adafd8deace0a86bf2064fdd8ff4083aa29a941c",
-      "sourceId": "xda-ai-tools",
-      "category": "ai",
-      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
-      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
-      "author": "Rich Edmonds",
-      "publishedAt": "2026-08-12T18:00:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
-      "readingMinutes": 6,
-      "score": 65,
-      "rank": 12,
-      "summary": {
-        "zh": {
-          "thesis": "Google用AI修复Chrome漏洞效率大增，但引出补丁分发与攻防新问题。",
-          "points": [
-            "AI修补的漏洞数超过前23个版本总和，共1072个。",
-            "AI找到在Chrome中潜藏13年的旧漏洞，速度在加快。",
-            "漏洞公开到修复推送存在窗口期，攻击者可趁机利用。"
-          ]
-        },
-        "en": {
-          "thesis": "Google uses AI to fix Chrome vulnerabilities far faster, but it raises new issues in patch distribution and attacks.",
-          "points": [
-            "AI fixed more bugs than the previous 23 versions combined, totaling 1,072.",
-            "AI found a 13-year-old Chrome bug, and its speed is increasing.",
-            "There's a window between public disclosure and patch rollout that attackers can exploit."
-          ]
-        }
-      }
-    },
-    {
-      "id": "76ad5947a86724455549f508ca5a6b6ab5ed48ea",
-      "sourceId": "notboring",
-      "category": "business",
-      "title": "Base Power Company: Chapter 3",
-      "url": "https://www.notboring.co/p/base-power-company-chapter-3",
-      "author": "Packy McCormick",
-      "publishedAt": "2026-08-12T13:53:37.000Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!OnPt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d9329d8-9ba0-4fc3-b41b-01bb2239f875_1200x666.png",
-      "readingMinutes": 65,
-      "score": 65,
-      "rank": 13,
-      "summary": {
-        "zh": {
-          "thesis": "Base Power估值达130亿美元，目标是成为世界最大能源公司。",
-          "points": [
-            "公司不到三年，成为第二有价值的能源初创。",
-            "取消Gen 2，加速自研制造Gen 3电池。",
-            "战略是抓住电网瓶颈，垂直整合，并扩展到AI基础设施。"
-          ]
-        },
-        "en": {
-          "thesis": "Base Power is valued at $13B, aiming to become the world's largest energy company.",
-          "points": [
-            "Under three years, it's the second most valuable energy startup.",
-            "Cancels Gen 2 to accelerate in-house Gen 3 battery manufacturing.",
-            "Strategy targets grid bottlenecks, vertical integration, and expansion into AI infrastructure."
-          ]
-        }
-      }
-    },
-    {
-      "id": "abadfb45f943fcd5c50b47d2f18462ba3144cbba",
-      "sourceId": "hn",
-      "category": "ai",
-      "title": "Grok 4.6",
-      "url": "https://x.ai/news/grok-4-6",
-      "author": "iLuddite",
-      "publishedAt": "2026-08-12T15:32:50.000Z",
-      "image": null,
-      "readingMinutes": 4,
-      "score": 60,
-      "rank": 14,
-      "summary": {
-        "zh": {
-          "thesis": "Grok 4.6发布，聚焦长时运行代理与交互视觉工作。",
-          "points": [
-            "在多个代理编码与知识工作基准上达到前沿水平。",
-            "匹配GPT-5.6 Sol的智能指数，部分基准超过。",
-            "定价不变，每百万输入2美元、输出6美元。"
-          ]
-        },
-        "en": {
-          "thesis": "Grok 4.6 launches, focusing on long-running agents and interactive visual work.",
-          "points": [
-            "It reaches frontier performance on several agentic coding and knowledge benchmarks.",
-            "Matches GPT-5.6 Sol's intelligence index, and beats it on some benchmarks.",
-            "Pricing unchanged at $2/M input and $6/M output."
-          ]
-        }
-      }
-    },
-    {
-      "id": "d2535f0238128c31f1476749c756e97490cf0c71",
-      "sourceId": "hn",
-      "category": "ai",
-      "title": "Delta",
-      "url": "https://zed.dev/blog/introducing-delta",
-      "author": "khy",
-      "publishedAt": "2026-08-12T18:19:59.000Z",
-      "image": null,
-      "readingMinutes": 5,
-      "score": 55,
-      "rank": 15,
-      "summary": {
-        "zh": {
-          "thesis": "Zed推出Delta，一个以对话为中心的多人协作编码环境。",
-          "points": [
-            "Delta将代码与对话实时同步，评论锚定在代码行。",
-            "通过DeltaDB实现工作树级协作，支持云端运行。",
-            "重点服务AI代理开发，界面针对长文本和高频输出优化。"
-          ]
-        },
-        "en": {
-          "thesis": "Zed launches Delta, a collaborative coding environment centered on conversation.",
-          "points": [
-            "Delta syncs code and chat in real time, anchoring comments to code lines.",
-            "It uses DeltaDB for workspace-level collaboration and cloud execution.",
-            "It targets AI agent development, with UI optimized for long text and high-frequency output."
-          ]
-        }
-      }
-    },
-    {
-      "id": "e223f696d7de00f4753ff0a19dc1fab47d30612d",
-      "sourceId": "heavybit",
-      "category": "tech",
-      "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
-      "url": "https://www.heavybit.com/library/podcasts/ep-10-the-system-is-more-than-the-code-with-charity-majors",
-      "author": "Heavybit",
-      "publishedAt": "2026-08-12T07:10:00.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 50,
-      "rank": 16,
-      "summary": {
-        "zh": {
-          "thesis": "Charity Majors认为代码变得可抛弃，但系统架构和运行行为才是持久资产。",
-          "points": [
-            "可观测性使生产成为最终真相来源。",
-            "AI改变软件经济学，但系统复杂性仍需要人类判断。",
-            "负责任使用AI意味着理解其在不可预测系统中的角色。"
-          ]
-        },
-        "en": {
-          "thesis": "Charity Majors argues code becomes disposable, but system architecture and runtime behavior are the durable assets.",
-          "points": [
-            "Observability makes production the ultimate source of truth.",
-            "AI changes software economics, but system complexity still needs human judgment.",
-            "Responsible AI use means understanding its role in unpredictable systems."
-          ]
-        }
-      }
-    },
-    {
-      "id": "471385e451e96088f1af8c9c9b772073d3919eb4",
-      "sourceId": "xda-ai-tools",
-      "category": "ai",
-      "title": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
-      "url": "https://www.xda-developers.com/cant-believe-how-good-ai-coding-model-is-it-isnt-from-openai-or-anthropic/",
-      "author": "Parth Shah",
-      "publishedAt": "2026-08-12T11:30:10.000Z",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/grok-is-top-ai-coding-tool.jpeg",
-      "readingMinutes": 5,
-      "score": 45,
-      "rank": 17,
-      "summary": {
-        "zh": {
-          "thesis": "Grok 4.5在编码中效率出众，但复杂任务仍依赖其他模型。",
-          "points": [
-            "Grok 4.5用约40k tokens完成网站构建，效率惊人。",
-            "对简单修改响应直接，不浪费上下文。",
-            "复杂问题仍切换至Claude Code，可能是Grok 4.6的改进方向。"
-          ]
-        },
-        "en": {
-          "thesis": "Grok 4.5 is impressively efficient in coding, but complex tasks still rely on other models.",
-          "points": [
-            "Grok 4.5 builds a website with about 40k tokens, showing surprising efficiency.",
-            "It responds directly to simple changes without wasting context.",
-            "For complex problems, it switches to Claude Code, likely a focus for Grok 4.6 improvements."
+            "The rise is sharper in military-industrial regions and plummets near the front lines.",
+            "This pattern is hard to dismiss as social desirability bias; it looks like real wartime integration.",
+            "By 2024, missing data increased, reducing the informational value of happiness measures."
           ]
         }
       }
@@ -694,23 +477,147 @@
       "publishedAt": "2026-08-12T14:02:46.000Z",
       "image": null,
       "readingMinutes": 21,
-      "score": 40,
-      "rank": 18,
+      "score": 65,
+      "rank": 11,
       "summary": {
         "zh": {
-          "thesis": "网络流量中，AI代理和爬虫占比上升，但有人冒名进行漏洞扫描。",
+          "thesis": "攻击者伪装成ClaudeBot等AI爬虫，进行大规模漏洞扫描。",
           "points": [
-            "AI相关流量占机器人流量的28%，比上季度增长11%。",
-            "ClaudeBot是最大的AI数据抓取代理，占27%。",
-            "robots.txt遵守率高达98.5%，但部分机器人违反。"
+            "AI相关流量占机器人流量的28%，同比增长11%。",
+            "ClaudeBot和GPTBot等AI爬虫成为伪装目标，用于隐蔽扫描。",
+            "机器人流量总体下降2%，但AI类流量却上升。"
           ]
         },
         "en": {
-          "thesis": "AI agents and crawlers are a growing share of web traffic, but some are spoofed for vulnerability scanning.",
+          "thesis": "Attackers are masquerading as AI crawlers like ClaudeBot to run large-scale vulnerability scans.",
           "points": [
-            "AI-related traffic is 28% of bot traffic, up 11% from last quarter.",
-            "ClaudeBot is the largest AI data scraper at 27%.",
-            "robots.txt compliance is high at 98.5%, but some bots violate it."
+            "AI traffic is 28% of bot traffic, up 11% year over year.",
+            "Bots like ClaudeBot and GPTBot are being impersonated to hide scanning activity.",
+            "Overall bot traffic dropped 2%, but AI-related bot traffic rose."
+          ]
+        }
+      }
+    },
+    {
+      "id": "adafd8deace0a86bf2064fdd8ff4083aa29a941c",
+      "sourceId": "xda-ai-tools",
+      "category": "ai",
+      "title": "Google's AI found a Chrome bug hiding for 13 years, and it's only getting faster",
+      "url": "https://www.xda-developers.com/ai-is-quietly-fixing-more-chrome-bugs-than-any-human-team-ever-could/",
+      "author": "Rich Edmonds",
+      "publishedAt": "2026-08-12T18:00:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/01/google-chrome.jpg",
+      "readingMinutes": 6,
+      "score": 60,
+      "rank": 12,
+      "summary": {
+        "zh": {
+          "thesis": "Google用专门AI智能体自动发现、修补Chrome漏洞，效率远超传统方法。",
+          "points": [
+            "Chrome 149和150修复了1072个安全漏洞，超过前23个版本的修复总数。",
+            "AI智能体找出了潜伏13年的漏洞，并能生成候选补丁。",
+            "AI也能被攻击者利用，Google需加快更新节奏来缩小补丁窗口。"
+          ]
+        },
+        "en": {
+          "thesis": "Google used a specialized AI agent to find and fix Chrome vulnerabilities far faster than traditional methods.",
+          "points": [
+            "Chrome 149 and 150 fixed 1,072 security bugs, more than the prior 23 versions combined.",
+            "The AI agent uncovered a 13-year-old bug and generated candidate patches.",
+            "Attackers can also use AI, so Google must accelerate updates to shrink the patch window."
+          ]
+        }
+      }
+    },
+    {
+      "id": "471385e451e96088f1af8c9c9b772073d3919eb4",
+      "sourceId": "xda-ai-tools",
+      "category": "ai",
+      "title": "I can't believe how good this AI coding model is, and it isn't from OpenAI or Anthropic",
+      "url": "https://www.xda-developers.com/cant-believe-how-good-ai-coding-model-is-it-isnt-from-openai-or-anthropic/",
+      "author": "Parth Shah",
+      "publishedAt": "2026-08-12T11:30:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/grok-is-top-ai-coding-tool.jpeg",
+      "readingMinutes": 5,
+      "score": 55,
+      "rank": 13,
+      "summary": {
+        "zh": {
+          "thesis": "Grok 4.5在编码效率上令人惊喜，虽非最强但token消耗极低。",
+          "points": [
+            "建站只用了约40k token，速度与成本优势明显。",
+            "简单改动时直接修改相关文件，不重复读取无关代码。",
+            "复杂任务仍不如Claude，但效率优势使其值得常驻。"
+          ]
+        },
+        "en": {
+          "thesis": "Grok 4.5 surprises with coding efficiency; not the strongest, but its token usage is extremely low.",
+          "points": [
+            "Building a site took only about 40k tokens, with clear speed and cost advantages.",
+            "For simple edits, it directly modifies relevant files without re-reading unrelated code.",
+            "Complex tasks still lose to Claude, but its efficiency earns it a permanent spot."
+          ]
+        }
+      }
+    },
+    {
+      "id": "e223f696d7de00f4753ff0a19dc1fab47d30612d",
+      "sourceId": "heavybit",
+      "category": "tech",
+      "title": "Ep. #10, The System Is More Than the Code with Charity Majors",
+      "url": "https://www.heavybit.com/library/podcasts/ep-10-the-system-is-more-than-the-code-with-charity-majors",
+      "author": "Heavybit",
+      "publishedAt": "2026-08-12T07:10:00.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 55,
+      "rank": 14,
+      "summary": {
+        "zh": {
+          "thesis": "在AI时代，代码变得可抛弃，系统架构与生产行为才是持久资产。",
+          "points": [
+            "观察力（可观测性）成为理解系统真实行为的核心。",
+            "生产环境是最终真相，胜过代码或文档。",
+            "AI使代码再生成本降低，但系统约束和用户承诺仍需维护。"
+          ]
+        },
+        "en": {
+          "thesis": "In the AI age, code becomes disposable; system architecture and production behavior are the lasting assets.",
+          "points": [
+            "Observability becomes the core of understanding how systems truly behave.",
+            "Production is the ultimate truth, more so than code or documentation.",
+            "AI lowers the cost of regenerating code, but maintenance of system constraints and user commitments remains."
+          ]
+        }
+      }
+    },
+    {
+      "id": "d2535f0238128c31f1476749c756e97490cf0c71",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "Delta",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "author": "khy",
+      "publishedAt": "2026-08-12T18:19:59.000Z",
+      "image": null,
+      "readingMinutes": 5,
+      "score": 45,
+      "rank": 15,
+      "summary": {
+        "zh": {
+          "thesis": "Zed团队发布Delta，一个面向AI智能体协作编程的多人在线环境。",
+          "points": [
+            "DeltaDB将对话与代码工作区实时同步，供多人协作。",
+            "界面以对话线程为中心，而非以编辑器为中心。",
+            "浏览器版通过WebAssembly和WebGL提供完整原生体验。"
+          ]
+        },
+        "en": {
+          "thesis": "The Zed team has released Delta, a multiplayer environment for coding with AI agents.",
+          "points": [
+            "DeltaDB syncs conversations and code workspaces in real time for collaborative work.",
+            "The interface centers on conversation threads, not on an editor.",
+            "The browser version delivers the full native experience via WebAssembly and WebGL."
           ]
         }
       }
@@ -726,82 +633,22 @@
       "image": null,
       "readingMinutes": 4,
       "score": 35,
-      "rank": 19,
+      "rank": 16,
       "summary": {
         "zh": {
-          "thesis": "Grok 4.6在智能指数登顶，性能与成本兼优。",
+          "thesis": "Grok 4.6在智能指数上达到前沿水平，且成本远低于同类模型。",
           "points": [
-            "Grok 4.6得分61，与GPT-5.6 Sol持平，落后于Claude Opus 5。",
-            "代理任务表现突出，尤其在银行客服和终端任务上。",
-            "定价低于竞争模型，任务成本仅0.84美元。"
+            "Grok 4.6智能指数61分，与GPT-5.6 Sol持平。",
+            "每任务成本0.84美元，是Claude Opus 5的三分之一以下。",
+            "长任务效率高，只需约53轮对话和0.5B输入token。"
           ]
         },
         "en": {
-          "thesis": "Grok 4.6 tops the intelligence index, excelling in performance and cost.",
+          "thesis": "Grok 4.6 hits the frontier on an intelligence index at a fraction of the cost of similar models.",
           "points": [
-            "Grok 4.6 scores 61, tied with GPT-5.6 Sol but behind Claude Opus 5.",
-            "It excels in agentic tasks, especially banking support and terminal tasks.",
-            "Priced lower than rivals, with task cost only $0.84."
-          ]
-        }
-      }
-    },
-    {
-      "id": "db17db76e2acea7cf8e8aa788dec1db1458bd90f",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "Tim King, AmigaDOS developer, has died",
-      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
-      "author": "doener",
-      "publishedAt": "2026-08-12T14:09:11.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 30,
-      "rank": 20,
-      "summary": {
-        "zh": {
-          "thesis": "AmigaDOS开发者蒂姆·金去世。",
-          "points": [
-            "金是Tripos操作系统的主要作者，后成为AmigaDOS。",
-            "他后来创立了Perihelion和UK Online。",
-            "对Amiga软件历史有重要贡献。"
-          ]
-        },
-        "en": {
-          "thesis": "Tim King, developer of AmigaDOS, has passed away.",
-          "points": [
-            "King was the primary author of Tripos, which became AmigaDOS.",
-            "He later founded Perihelion and UK Online.",
-            "He made significant contributions to Amiga software history."
-          ]
-        }
-      }
-    },
-    {
-      "id": "9f388ba4fa3a5d1b415b07954670d67998b2d6aa",
-      "sourceId": "hn",
-      "category": "tech",
-      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
-      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
-      "author": "Markoff",
-      "publishedAt": "2026-08-12T11:28:27.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 30,
-      "rank": 21,
-      "summary": {
-        "zh": {
-          "thesis": "uBlock Origin停止尝试屏蔽Facebook广告。",
-          "points": [
-            "Facebook广告越来越难屏蔽。",
-            "该决定是社区讨论后做出的。"
-          ]
-        },
-        "en": {
-          "thesis": "uBlock Origin stops attempting to block ads on Facebook.",
-          "points": [
-            "Facebook ads have become increasingly difficult to block.",
-            "The decision came after community discussions."
+            "Grok 4.6 scores 61 on the intelligence index, tying GPT-5.6 Sol.",
+            "Its cost per task is $0.84, under a third of Claude Opus 5's.",
+            "On long tasks, it needs about 53 conversation rounds and 0.5B input tokens."
           ]
         }
       }
@@ -809,61 +656,59 @@
     {
       "id": "fe39abeed556f4f0ad1ae604ce5bb23661bde743",
       "sourceId": "slowboring",
-      "category": "business",
+      "category": "culture",
       "title": "New York is building. But where?",
       "url": "https://www.slowboring.com/p/new-york-is-building-but-where",
       "author": "Halina Bennet",
       "publishedAt": "2026-08-12T22:02:07.000Z",
       "image": "https://substackcdn.com/image/fetch/$s_!wYee!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7249557-8b63-4eec-8620-73f92666213d_3414x2259.jpeg",
       "readingMinutes": 1,
-      "score": 25,
-      "rank": 22,
+      "score": 30,
+      "rank": 17,
       "summary": {
         "zh": {
-          "thesis": "纽约豪宅税被法院叫停，报道事件本身。",
+          "thesis": "纽约市长针对高价二套房的征税计划被法院暂停。",
           "points": [
-            "史坦顿岛法官暂停了豪宅税的实施。",
-            "该税针对高价值第二套住宅的房主。",
-            "文章大部分内容被付费墙遮挡，细节有限。"
+            "史泰登岛法官下令暂停「空置豪宅税」的推行。",
+            "税改方案在实施前几天遭遇法律障碍。"
           ]
         },
         "en": {
-          "thesis": "A Staten Island judge paused New York's luxury tax, halting its implementation.",
+          "thesis": "A court has paused New York City's tax plan on expensive second homes.",
           "points": [
-            "The judge temporarily halted the tax's enforcement.",
-            "The tax targets owners of high-value second homes.",
-            "Most of the article is behind a paywall, so details are limited."
+            "A Staten Island judge ordered a halt to the vacant luxury tax.",
+            "The tax reform hit a legal hurdle days before it was set to go live."
           ]
         }
       }
     },
     {
-      "id": "7d7111d3426c018bf85be26fcc844f1a952bb5ef",
-      "sourceId": "marginal",
-      "category": "culture",
-      "title": "Wednesday assorted links",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-566.html",
-      "author": "Tyler Cowen",
-      "publishedAt": "2026-08-12T16:12:03.000Z",
+      "id": "abadfb45f943fcd5c50b47d2f18462ba3144cbba",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "author": "iLuddite",
+      "publishedAt": "2026-08-12T15:32:50.000Z",
       "image": null,
-      "readingMinutes": 1,
-      "score": 20,
-      "rank": 23,
+      "readingMinutes": 4,
+      "score": 30,
+      "rank": 18,
       "summary": {
         "zh": {
-          "thesis": "一系列互不相关的链接合集，缺乏深入论证。",
+          "thesis": "SpaceXAI发布Grok 4.6，主打长时运行智能体与视觉交互能力。",
           "points": [
-            "意大利银行的奶酪抵押品正在融化。",
-            "丹麦一半的经济增长来自一家公司。",
-            "美国消费者在外国旅行上的支出占比低于中国进口商品。"
+            "Grok 4.6在AA智能指数上追平GPT-5.6 Sol，达61分。",
+            "训练中使用了Grok 4.5重新生成SFT轨迹，并用模型检查过滤。",
+            "定价保持每百万输入2美元、输出6美元不变。"
           ]
         },
         "en": {
-          "thesis": "A collection of unrelated links lacking deep argumentation.",
+          "thesis": "SpaceXAI unveiled Grok 4.6, focusing on long-running agents and visual interaction.",
           "points": [
-            "Italian banks' cheese collateral is melting.",
-            "Denmark's half of economic growth comes from one company.",
-            "U.S. consumer spending on foreign travel is lower than on Chinese imports."
+            "Grok 4.6 matches GPT-5.6 Sol at 61 on the AA intelligence index.",
+            "Training used Grok 4.5 to regenerate SFT trajectories, filtered by a model-based check.",
+            "Pricing stays at $2 per million input and $6 per million output tokens."
           ]
         }
       }
@@ -878,23 +723,23 @@
       "publishedAt": "2026-08-12T15:01:17.000Z",
       "image": null,
       "readingMinutes": 38,
-      "score": 15,
-      "rank": 24,
+      "score": 25,
+      "rank": 19,
       "summary": {
         "zh": {
-          "thesis": "开源模型Qwen3.8-2.4T发布，参数规模巨大。",
+          "thesis": "阿里发布Qwen3.8-2.4T，一个2.4万亿参数的开源MoE模型。",
           "points": [
-            "总参数2.4万亿，激活950亿。",
-            "在SWE Bench Pro上得分67.7，GPQA Diamond 92.6。",
-            "支持工具调用，提供多种推理强度控制。"
+            "模型总参数2.4T，激活参数95B，采用混合线性注意力架构。",
+            "在Deep Swe和SWE Bench Pro上分别得分56.6和67.7。",
+            "这是首次将Qwen-Max级模型开源，支持vLLM、SGLang等工具。"
           ]
         },
         "en": {
-          "thesis": "Open-source model Qwen3.8-2.4T launches with massive parameter scale.",
+          "thesis": "Alibaba released Qwen3.8-2.4T, an open-source MoE model with 2.4 trillion parameters.",
           "points": [
-            "Total parameters at 2.4T with 95B active.",
-            "Scores 67.7 on SWE Bench Pro and 92.6 on GPQA Diamond.",
-            "Supports tool calling and offers multiple reasoning intensity controls."
+            "The model has 2.4T total parameters, 95B active, using a hybrid linear attention architecture.",
+            "It scores 56.6 and 67.7 on Deep Swe and SWE Bench Pro, respectively.",
+            "This is the first Qwen-Max-class open source, supporting vLLM and SGLang."
           ]
         }
       }
@@ -909,21 +754,21 @@
       "publishedAt": "2026-08-12T13:19:06.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 15,
-      "rank": 25,
+      "score": 25,
+      "rank": 20,
       "summary": {
         "zh": {
-          "thesis": "《Fast Company》报道了新美学，作者称赞该报道。",
+          "thesis": "Fast Company报道了「新美学」运动，艺术家成为故事焦点。",
           "points": [
-            "文章提到艺术家成为故事的核心。",
-            "内容仅此而已，缺乏深入分析。"
+            "文章将艺术家置于叙事中心，而非技术或策展人。",
+            "这一报道被经济学博客推荐，显示其文化影响力。"
           ]
         },
         "en": {
-          "thesis": "Fast Company covers New Aesthetics, and the author praises the report.",
+          "thesis": "Fast Company profiled the 'New Aesthetics' movement, putting artists at the center of the story.",
           "points": [
-            "The article highlights artists at the core of the story.",
-            "That's all; it lacks deep analysis."
+            "The article centers on artists rather than technology or curators.",
+            "This coverage was recommended by an economics blog, underlining its cultural impact."
           ]
         }
       }
@@ -938,48 +783,79 @@
       "publishedAt": "2026-08-12T16:04:50.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 10,
-      "rank": 26,
+      "score": 20,
+      "rank": 21,
       "summary": {
         "zh": {
-          "thesis": "仅标题，无法总结内容。",
+          "thesis": "无内容可评，仅从标题看是DeepSeek新模型的发布。",
           "points": [
-            "标题提到DeepSeek V4 Pro 0813。",
-            "没有正文可供分析。"
+            "标题显示为DeepSeek V4 Pro 0813的发布信息，但正文缺失。"
           ]
         },
         "en": {
-          "thesis": "Title only; content cannot be summarized.",
+          "thesis": "No content to review—the title alone indicates a new DeepSeek model release.",
           "points": [
-            "The title mentions DeepSeek V4 Pro 0813.",
-            "No body text to analyze."
+            "The headline points to a DeepSeek V4 Pro 0813 release, but the body is missing."
           ]
         }
       }
     },
     {
-      "id": "ab198bd7e06c22c59140b7f452a1d47b2ef27e38",
-      "sourceId": "hn",
+      "id": "7d7111d3426c018bf85be26fcc844f1a952bb5ef",
+      "sourceId": "marginal",
       "category": "culture",
-      "title": "2026 Eclipse Webcams",
-      "url": "https://jonty.github.io/2026_eclipse_webcams/",
-      "author": "zoenolan",
-      "publishedAt": "2026-08-12T11:53:01.000Z",
+      "title": "Wednesday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-566.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-12T16:12:03.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 10,
-      "rank": 27,
+      "score": 15,
+      "rank": 22,
       "summary": {
         "zh": {
-          "thesis": "标题提及2026年日食网络摄像头。",
+          "thesis": "经济学博客的链接汇总，涵盖意大利奶酪抵押品、丹麦增长等话题。",
           "points": [
-            "仅标题，无法总结。"
+            "意大利银行奶酪抵押品正在减值。",
+            "丹麦一半的增长来自一家公司。",
+            "外国旅游占美国消费支出1.4%，而中国进口商品占3%。"
           ]
         },
         "en": {
-          "thesis": "Title mentions 2026 eclipse webcams.",
+          "thesis": "An economics blog's link roundup covers Italian cheese collateral, Danish growth, and more.",
           "points": [
-            "Title only; cannot summarize."
+            "Italian banks are facing losses on cheese used as loan collateral.",
+            "Half of Denmark's growth comes from a single company.",
+            "Foreign tourism accounts for 1.4% of US consumer spending, while Chinese imports make up 3%."
+          ]
+        }
+      }
+    },
+    {
+      "id": "db17db76e2acea7cf8e8aa788dec1db1458bd90f",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "Tim King, AmigaDOS developer, has died",
+      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+      "author": "doener",
+      "publishedAt": "2026-08-12T14:09:11.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 15,
+      "rank": 23,
+      "summary": {
+        "zh": {
+          "thesis": "AmigaDOS开发者Tim King逝世，他曾参与开发多任务操作系统Tripos。",
+          "points": [
+            "King在剑桥大学开发Tripos系统，后被移植为AmigaDOS。",
+            "他后来创立Perihelion和ISP UK Online，对Amiga历史有重要贡献。"
+          ]
+        },
+        "en": {
+          "thesis": "AmigaDOS developer Tim King has passed away; he worked on the Tripos multitasking OS.",
+          "points": [
+            "King developed Tripos at Cambridge, later ported to become AmigaDOS.",
+            "He went on to found Perihelion and ISP UK Online, leaving a significant mark on Amiga's history."
           ]
         }
       }
