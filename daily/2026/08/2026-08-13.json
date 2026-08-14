@@ -1,13 +1,13 @@
 {
   "date": "2026-08-13",
-  "generatedAt": "2026-08-14T00:26:31.605Z",
+  "generatedAt": "2026-08-14T00:27:12.620Z",
   "window": {
-    "from": "2026-08-13T00:26:31.605Z",
-    "to": "2026-08-14T00:26:31.605Z"
+    "from": "2026-08-13T00:27:12.620Z",
+    "to": "2026-08-14T00:27:12.620Z"
   },
   "stats": {
-    "fetched": 19,
-    "shown": 14,
+    "fetched": 14,
+    "shown": 9,
     "folded": 0
   },
   "sources": [
@@ -32,8 +32,9 @@
     {
       "id": "hn",
       "name": "Hacker News",
-      "ok": true,
-      "count": 5
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "id": "platformer",
@@ -158,37 +159,6 @@
   ],
   "articles": [
     {
-      "id": "83f54b96618146fb8a1f6966a24b4070305ec0e3",
-      "sourceId": "acx",
-      "category": "science",
-      "title": "The Quest For Caffeine You Can Have At Night",
-      "url": "https://www.astralcodexten.com/p/the-quest-for-caffeine-you-can-have",
-      "author": "Scott Alexander",
-      "publishedAt": "2026-08-13T04:09:15.000Z",
-      "image": "https://substack-post-media.s3.amazonaws.com/public/images/bf624d8d-046a-4c76-ba40-0f6a66e49cc6_1536x1024.png",
-      "readingMinutes": 17,
-      "score": 78,
-      "rank": 1,
-      "summary": {
-        "zh": {
-          "thesis": "夜间咖啡因替代品中，paraxanthine 因安全性最高而成为最佳选择，尽管它对部分人无效。",
-          "paragraphs": [
-            "追求 5 点喝咖啡 10 点入睡，有三种思路：增强代谢酶 CYP1A2、直接使用代谢物 paraxanthine、或用短效类似物 methylliberine。rutaecarpine 虽能三倍提升酶活性，但可能伤肝。",
-            "paraxanthine 是咖啡因 80% 的代谢产物，人体已有暴露，安全性最强。用户报告约 2/3 有效，半衰期约 3 小时，但约 1/3 无效，可能与个体代谢差异有关。",
-            "methylliberine 半衰期仅 1.5 小时，但评价五五开，且抑制 CYP1A2 会延长后续咖啡因作用。作者最终推荐 paraxanthine，剂量 50-200mg，而 rutaecarpine 因肝损伤风险仅建议紧急使用。"
-          ]
-        },
-        "en": {
-          "thesis": "Among nighttime caffeine alternatives, paraxanthine stands out as the best choice due to its highest safety profile, despite being ineffective for some users.",
-          "paragraphs": [
-            "For those seeking the impossible—coffee at 5 p.m. and sleep by 10 p.m.—there are three main strategies: boost the activity of the metabolic enzyme CYP1A2, directly use the caffeine metabolite paraxanthine, or opt for a short-acting analog like methylliberine. While rutaecarpine can triple enzyme activity, it carries a risk of liver damage.",
-            "Paraxanthine, which constitutes about 80% of caffeine's metabolites, is already present in the human body, making it the safest option. User reports indicate it works for roughly two-thirds of people, with a half-life of about three hours, but about a third find it ineffective, possibly due to individual metabolic differences.",
-            "Methylliberine has an even shorter half-life of just 1.5 hours, but user reviews are evenly split, and it inhibits CYP1A2, which could prolong the effects of subsequent caffeine. Ultimately, the author recommends paraxanthine at a dose of 50–200 mg, while rutaecarpine should be reserved only for emergencies given its liver toxicity risk."
-          ]
-        }
-      }
-    },
-    {
       "id": "ff36a72e43eef197b2a4effea4f0a13adcd2011d",
       "sourceId": "platformer",
       "category": "ai",
@@ -198,83 +168,23 @@
       "publishedAt": "2026-08-14T00:12:33.000Z",
       "image": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/07/Plaid-Mock--1100x100-.png",
       "readingMinutes": 29,
-      "score": 72,
-      "rank": 2,
+      "score": 75,
+      "rank": 1,
       "summary": {
         "zh": {
-          "thesis": "AI 智能体将自我组织的知识库带给小公司，但必须先解决隐私与信任问题才能普及。",
+          "thesis": "AI 代理将重塑公司组织方式，但取代人工尚需多年，且隐私与信任是最大障碍。",
           "paragraphs": [
-            "Town 公司推出名为 Townie 的 AI 助手，连接日历和邮件后，能在90秒内生成用户档案，并自动构建个人维基，成本每位用户约100美元。用户对此反应热烈，称其为「关系」而非产品。",
-            "公司计划推出团队版维基，自动汇总各成员的资料，但隐私风险极高，如不慎泄露薪资。CEO  Greze 认为，五年后可通过专门训练的模型执行隐私策略，但小公司会先采用，因信任度高且风险可控。",
-            "Greze 强调 AI 是「最接近生命的东西」，但拒绝将其视为独立经济主体。他预测 AI 目前只处理知识工作者10-20%的繁琐工作，要广泛改变工作还需多年，正如智能手机普及花了十年。"
+            "Town CEO 认为 AI 代理将取代传统软件，但当前仅能消除知识工作者 10-20% 的琐事，主要因为大多数人不了解 AI 能力，且习惯改变缓慢，如同 iPhone 普及耗时十年。",
+            "Town 通过构建个人档案和 wiki 提供个性化服务，成本约 100 美元/用户，但能快速赢得用户信任。公司计划推出团队版 wiki，自动整合员工信息，但隐私风险高，比如可能泄露薪资。",
+            "Greze 预测五年后 AI 将能执行隐私政策，小型高信任公司会先采纳，而大型企业因风险规避而滞后。他将 AI 视为生命体，但拒绝独立经济行为，强调人类控制，并禁止雇主查看员工对话。"
           ]
         },
         "en": {
-          "thesis": "AI agents will bring self-organizing knowledge bases to small businesses, but privacy and trust issues must be solved first before they become widespread.",
+          "thesis": "AI agents will reshape how companies organize, but replacing human workers will take years, with privacy and trust as the biggest hurdles.",
           "paragraphs": [
-            "Town's AI assistant, Townie, connects to calendars and email to generate a user profile in 90 seconds and automatically build a personal wiki, costing about $100 per user. Users have reacted enthusiastically, calling it a 'relationship' rather than a product.",
-            "The company plans to launch a team version of the wiki that automatically aggregates members' profiles, but privacy risks are high, such as accidental leaks of salary information. CEO Greze believes that in five years, specially trained models could enforce privacy policies, but small companies will adopt it first due to high trust and manageable risk.",
-            "Greze emphasizes that AI is 'the closest thing to life' but refuses to treat it as an independent economic agent. He predicts that AI currently handles only 10-20% of knowledge workers' tedious tasks, and widespread change in work will take years, just as smartphones took a decade to become ubiquitous."
-          ]
-        }
-      }
-    },
-    {
-      "id": "c3c4b8561186137a244fad0b0f87201c9f2b8ef1",
-      "sourceId": "hn",
-      "category": "tech",
-      "title": "Spaghettifying DRAM",
-      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-      "author": "matt_d",
-      "publishedAt": "2026-08-13T14:17:13.000Z",
-      "image": "https://opengraph.githubassets.com/9bffade6dba3769c3bef27486338d9f8967c05e79955eba65e672d72ccf490aa/xoreaxeaxeax/skitter-creek-bath-salts",
-      "readingMinutes": 8,
-      "score": 68,
-      "rank": 3,
-      "summary": {
-        "zh": {
-          "thesis": "内存控制器的地址变换层并不安全，能直接被打穿，进而解锁CPU最隐秘的固件区域。",
-          "paragraphs": [
-            "现代CPU的内存访问经过层层抽象，虚拟地址最终要经过内存控制器的DRAM重映射。安全机制如SMM、PSP都依赖这些映射来隔离内存。",
-            "研究者通过逆向AMD Family 16h的内存控制器，利用其可编程的地址混淆寄存器，制造别名使受保护的物理地址可被读写。结果成功提取了PSP的RSA代码和SMM入口，甚至能修改CPU微码。"
-          ]
-        },
-        "en": {
-          "thesis": "The address translation layer in the memory controller is not secure: it can be directly broken through, unlocking the CPU's most concealed firmware regions.",
-          "paragraphs": [
-            "Modern CPUs route memory access through layers of abstraction, with virtual addresses ultimately passing through the DRAM remapping logic in the memory controller. Security mechanisms like SMM and PSP rely on these mappings to isolate memory.",
-            "Researchers reverse-engineered the memory controller of AMD Family 16h, exploiting its programmable address scrambling registers to create aliases that make protected physical addresses readable and writable. As a result, they successfully extracted the PSP's RSA code and the SMM entry point, and could even modify CPU microcode."
-          ]
-        }
-      }
-    },
-    {
-      "id": "23833efb4fca2358e623eea675968e046b87ca12",
-      "sourceId": "marginal",
-      "category": "culture",
-      "title": "My very interesting Conversation with Daron Acemoglu",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/my-very-interesting-conversation-with-daron-acemoglu.html",
-      "author": "Tyler Cowen",
-      "publishedAt": "2026-08-13T05:31:43.000Z",
-      "image": null,
-      "readingMinutes": 5,
-      "score": 62,
-      "rank": 4,
-      "summary": {
-        "zh": {
-          "thesis": "左翼自由主义因自身掌权方式的失误而衰落，重振需从个体自由出发，而非预设更高价值。",
-          "paragraphs": [
-            "在与考恩的对话中，阿西莫格鲁为自由主义辩护，指出其衰落源于左翼精英未能善用体制权力，而非单纯外部威胁。他类比罗马衰亡，强调内部缺陷招致外部攻击，如同当下西方民主的困境。",
-            "他否认存在绝对真理或功利主义等外部标准，认为道德演进如科学，需逐步共识。他提出非支配概念，兼顾免于干涉与机会实现，以对抗强权，并警告自动化和AI若不受约束，难促普遍繁荣。",
-            "对话触及教育衰落、教师工会改革、社交媒体监管与生育率等问题，反映其将自由主义、经济学与技术关切交织的立场。他的立场开放，承认无完美答案，但坚持自由作为起点，为民主未来提供反思。"
-          ]
-        },
-        "en": {
-          "thesis": "Left-liberalism's decline stems from its own failures in wielding institutional power, and its revival must begin from individual freedom rather than presuming higher values.",
-          "paragraphs": [
-            "In his conversation with Cowen, Acemoglu defends liberalism, arguing that its decline is due to left-wing elites' failure to use institutional power wisely, not merely to external threats. He draws an analogy to the fall of Rome, suggesting that internal weaknesses invite external attacks, much like the current predicament of Western democracies.",
-            "He denies the existence of absolute truths or external standards like utilitarianism, viewing moral evolution as similar to science, requiring gradual consensus. He proposes the concept of non-domination, which balances freedom from interference with the realization of opportunities, as a counter to authoritarian power, and warns that automation and AI, if unconstrained, will not promote widespread prosperity.",
-            "The conversation touches on the decline of education, teacher union reform, social media regulation, and fertility rates, reflecting his intertwined stance on liberalism, economics, and technology. His position is open-ended, acknowledging no perfect answers, but insists on freedom as a starting point, offering reflection on the future of democracy."
+            "The CEO of Town argues that AI agents will eventually replace traditional software, but for now they can only eliminate 10-20% of the mundane tasks faced by knowledge workers. This is largely because most people are unaware of AI's capabilities and because habits change slowly—just as it took a decade for the iPhone to become ubiquitous.",
+            "Town builds personalized services by creating individual profiles and wikis, costing around $100 per user, yet it quickly earns user trust. The company plans to launch a team version of its wiki that automatically integrates employee information, but this carries high privacy risks, such as potentially leaking salaries.",
+            "Greze predicts that within five years AI will be able to enforce privacy policies, with small, high-trust companies adopting it first, while large enterprises lag due to risk aversion. He views AI as a living entity but rejects granting it independent economic agency, emphasizing human control and prohibiting employers from viewing employee conversations."
           ]
         }
       }
@@ -289,23 +199,83 @@
       "publishedAt": "2026-08-13T21:00:10.000Z",
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/image-main-ollama.jpg",
       "readingMinutes": 6,
-      "score": 60,
-      "rank": 5,
+      "score": 65,
+      "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "AI 编程的三大迷思——提升生产力、改善代码审查、仅是自动补全——各有偏差，真实影响比叙事更复杂。",
+          "thesis": "AI辅助编程的三大迷思——提升效率、可靠代码审查、只是自动补全——在实证面前都站不住脚。",
           "paragraphs": [
-            "奥克兰大学研究显示，82% 的开发者写代码时间减少，但工作转向验证和纠错，认知负荷加重，体验变差者从 14% 升至 27%。",
-            "多伦多都会大学测试发现，GitHub Copilot 常漏报 SQL 注入等关键漏洞，却关注风格问题，人工审计仍不可缺。",
-            "但现代 agentic 工具远超自动补全：Claude Opus 4.6 自主重写 1.6 万行生物信息工具，通过 2001 项测试，耗时或达人类数周。"
+            "奥克兰大学追踪研究发现，82%的工程师写码时间减少，但工作转向验证和纠错，认知负荷加重，体验变差者从14%升至27%。",
+            "多伦多都会大学测试GitHub Copilot的代码审查，它常漏掉SQL注入等关键漏洞，却执着于风格和拼写，手动审计仍不可缺。",
+            "但Claude Opus 4.6在无源码情况下重写1.6万行Go工具，通过2001项测试，证明智能体远超自动补全，能自主推理迭代。"
           ]
         },
         "en": {
-          "thesis": "Three myths about AI coding—boosting productivity, improving code review, and being mere autocomplete—are each misleading, and the real impact is more complex than the narrative suggests.",
+          "thesis": "Three myths about AI-assisted programming—boosting efficiency, reliable code review, and being just autocomplete—collapse under empirical evidence.",
           "paragraphs": [
-            "Research from the University of Auckland shows that 82% of developers spend less time writing code, but their work shifts to verification and error correction, increasing cognitive load; the proportion reporting a worse experience rose from 14% to 27%.",
-            "Tests at Toronto Metropolitan University found that GitHub Copilot often misses critical vulnerabilities like SQL injection while focusing on style issues, so human review remains indispensable.",
-            "However, modern agentic tools go far beyond autocomplete: Claude Opus 4.6 autonomously rewrote a 16,000-line bioinformatics tool, passing 2,001 tests, a task that could take humans weeks."
+            "A tracking study from the University of Auckland found that while 82% of engineers spent less time writing code, their work shifted to verification and error correction, increasing cognitive load and pushing the share of those reporting a worse experience from 14% to 27%.",
+            "Tests at Toronto Metropolitan University with GitHub Copilot's code review showed it often missed critical vulnerabilities like SQL injection, yet fixated on style and spelling, proving manual auditing remains indispensable.",
+            "However, Claude Opus 4.6 rewrote a 16,000-line Go tool without access to source code and passed 2,001 tests, demonstrating that agents go far beyond autocomplete, capable of autonomous reasoning and iteration."
+          ]
+        }
+      }
+    },
+    {
+      "id": "83f54b96618146fb8a1f6966a24b4070305ec0e3",
+      "sourceId": "acx",
+      "category": "living",
+      "title": "The Quest For Caffeine You Can Have At Night",
+      "url": "https://www.astralcodexten.com/p/the-quest-for-caffeine-you-can-have",
+      "author": "Scott Alexander",
+      "publishedAt": "2026-08-13T04:09:15.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/bf624d8d-046a-4c76-ba40-0f6a66e49cc6_1536x1024.png",
+      "readingMinutes": 17,
+      "score": 65,
+      "rank": 3,
+      "summary": {
+        "zh": {
+          "thesis": "夜间喝咖啡又安然入睡的追求，催生了三种替代物，其中paraxanthine最安全有效。",
+          "paragraphs": [
+            "咖啡因半衰期长达十小时，阻碍夜间睡眠。三种应对思路：增强代谢酶CYP1A2（rutaecarpine）、直接服用代谢产物paraxanthine、或使用短效类似物methylliberine。",
+            "rutaecarpine虽能三小时内将酶提升三倍，但可能伤肝，且效果持续两天扰乱后续咖啡代谢。paraxanthine是咖啡因必然代谢产物，安全性高，半衰期短，但约三分之一使用者无效。",
+            "methylliberine半衰期仅1.5小时，但效果不稳定且抑制CYP1A2，与药物交互风险大。综合权衡，paraxanthine安全性最高，推荐作为夜间咖啡替代，预期作用时间为咖啡因的一半。"
+          ]
+        },
+        "en": {
+          "thesis": "The desire to drink coffee at night and still sleep has spawned three alternatives, of which paraxanthine is the safest and most effective.",
+          "paragraphs": [
+            "Caffeine's half-life of ten hours interferes with nighttime sleep, prompting three approaches: boosting the metabolic enzyme CYP1A2 (with rutaecarpine), taking the metabolite paraxanthine directly, or using a short-acting analog called methylliberine.",
+            "Rutaecarpine can triple the enzyme within three hours but may harm the liver, and its effect lasts two days, disrupting later caffeine metabolism. Paraxanthine is an inevitable metabolite of caffeine, is highly safe, has a short half-life, but fails for about a third of users.",
+            "Methylliberine has a half-life of only 1.5 hours, but its effects are inconsistent and it inhibits CYP1A2, raising drug-interaction risks. Weighing everything, paraxanthine is the safest option and is recommended as a substitute for nighttime coffee, with an expected duration of action half that of caffeine."
+          ]
+        }
+      }
+    },
+    {
+      "id": "2e2314f2a3fb04fea44fe7cac53cf85c8d000a95",
+      "sourceId": "slowboring",
+      "category": "economy",
+      "title": "Medicare for All should be more like Medicare",
+      "url": "https://www.slowboring.com/p/medicare-for-all-should-be-more-like",
+      "author": "Matthew Yglesias",
+      "publishedAt": "2026-08-13T10:01:20.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!8rBg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc146ab67-8fc2-49e1-b2d0-d758d3c38378_5700x3800.jpeg",
+      "readingMinutes": 2,
+      "score": 58,
+      "rank": 4,
+      "summary": {
+        "zh": {
+          "thesis": "「全民医保」应更贴近现有联邦医保计划的设计，而非照搬加拿大模式。",
+          "paragraphs": [
+            "「医保全民化」口号的吸引力，在于利用了现有「医疗保险」的普及和声望，以及公众普遍认同医疗不应由市场决定。但原则之下，实际政策设计仍待细化。",
+            "该口号的具体方案更接近加拿大模式，但作者主张应基于美国现有老年医保计划来构建，因其更符合美国实际和公众认知。"
+          ]
+        },
+        "en": {
+          "thesis": "Medicare for All should be modeled on the existing Medicare program, not on the Canadian system.",
+          "paragraphs": [
+            "The appeal of the slogan 'Medicare for All' lies in its use of the widespread popularity and reputation of the current Medicare program, along with the general public's belief that health care should not be left to the whims of the market. But beneath the principle, the actual policy design still requires careful consideration.",
+            "The specific plan behind the slogan is closer to the Canadian model, but the author argues that it should be built on the foundation of the existing U.S. Medicare program for the elderly, because that would be more in line with American realities and public perceptions."
           ]
         }
       }
@@ -321,20 +291,20 @@
       "image": "https://cdn.beekka.com/blogimg/asset/202608/bg2026081308.webp",
       "readingMinutes": 12,
       "score": 55,
-      "rank": 6,
+      "rank": 5,
       "summary": {
         "zh": {
-          "thesis": "AI缓存命中可大幅降低输入成本，但需留意时效和激活费用。",
+          "thesis": "输入缓存命中价格远低于未命中，善用缓存可大幅降低大模型使用成本。",
           "paragraphs": [
-            "大模型按Token收费，但缓存命中的输入价格可低至未命中的五十分之一，如DeepSeek V4 Flash仅2分钱。原因是缓存直接复用已算结果，几乎不耗算力。",
-            "但缓存有时效，Anthropic为5分钟，DeepSeek和OpenAI约10分钟，Google一小时。超时未用则删除，重新计算恢复原价。AI工具为保缓存，常每30秒发请求，但费用不低，建议改4分钟。"
+            "大模型按 Token 计费，输入 Token 因需计算注意力而收费。多轮对话中，每次重复的前缀可缓存，避免重复计算，故缓存命中价可低至未命中的五十分之一，如 DeepSeek 仅收2分钱。",
+            "但缓存有有效期，各家不一，如 DeepSeek 10分钟、Anthropic 5分钟。为保持有效，AI Agent 常每30秒发送激活请求，但频次过高，最新建议改为每4分钟一次，以节省费用。"
           ]
         },
         "en": {
-          "thesis": "AI cache hits can drastically cut input costs, but you need to watch out for expiration times and activation fees.",
+          "thesis": "Input cache hits cost far less than misses, and using caching wisely can greatly reduce the cost of using large language models.",
           "paragraphs": [
-            "Large models charge by token, but the input price for a cache hit can be as low as one-fiftieth of the uncached price. For example, DeepSeek V4 Flash costs only 2 fen. The reason is that a cached result is reused directly, consuming almost no compute.",
-            "However, caches have an expiration time: Anthropic's is 5 minutes, DeepSeek and OpenAI's are around 10 minutes, and Google's is an hour. If not used within that time, the cache is deleted, and recomputing brings back the original price. To keep caches warm, AI tools often send requests every 30 seconds, but that's not cheap—it's better to set the interval to 4 minutes."
+            "Large models charge by token, and input tokens incur costs because they require computation for attention. In multi-turn conversations, repeated prefixes can be cached to avoid recomputation, so cache hit prices can be as low as one-fiftieth of miss prices—for example, DeepSeek charges only 0.02 yuan.",
+            "However, caches have expiration times, which vary by provider: DeepSeek lasts 10 minutes, Anthropic 5 minutes. To keep the cache valid, AI agents often send keep-alive requests every 30 seconds, but that frequency is too high. The latest recommendation is to change it to once every 4 minutes to save costs."
           ]
         }
       }
@@ -350,82 +320,20 @@
       "image": "https://substack-post-media.s3.amazonaws.com/public/images/e988ae18-b381-47d8-8e17-1bb924b59e50_1672x941.png",
       "readingMinutes": 15,
       "score": 55,
-      "rank": 7,
+      "rank": 6,
       "summary": {
         "zh": {
-          "thesis": "硅谷的怪诞被当成常态，但每条荒诞都藏着一个真实的趋势。",
+          "thesis": "湾区派对上的荒诞对话揭示了科技文化中的伦理麻木与自我欺骗，但讽刺的力度被冗长稀释。",
           "paragraphs": [
-            "文章以讽刺笔法描绘湾区派对：从“关键答案禁令”到“后识字”言论，映射AI时代的信息恐慌与社交异化。派对上各色人物皆成时代缩影。",
-            "Epstein名单招聘、PornHub的意识证明、AI腔调社交，这些桥段看似夸张，实则直指科技圈对伦理的实用主义态度。Tran模仿AI口吻后约会频繁，揭示人类偏好已被AI重塑。",
-            "最终“基准答案”触发群氓暴力，暗喻科技圈对真相的恐惧。玩笑背后，是对AI影响下人性与社会的冷峻观察，讽刺中带着真实忧虑。"
+            "派对开篇即以「禁止基准答案钥匙」的标牌切入，暗指AI伦理的崩塌。随后Epstart创始人公开招募爱泼斯坦档案中的人，辩称湾区无孩所以是“减害”，讽刺科技界的道德虚无。",
+            "接着是AI色情创业者的诡辩：用“伦理深度伪造”规避意识问题，或用“预生成虚拟明星”规避非自愿内容，结果却与直接伪造无异。还有“饱和功利主义”、“AI腔调社交”等梗，每个都点到即止，缺乏深入剖析。"
           ]
         },
         "en": {
-          "thesis": "Silicon Valley's absurdities are treated as normal, but behind each absurdity lies a real trend.",
+          "thesis": "Absurd conversations at a Bay Area party expose tech culture's ethical numbness and self-deception, but the satire's punch is diluted by its length.",
           "paragraphs": [
-            "The article paints a satirical portrait of a Bay Area party, from a 'key answer ban' to talk of a 'post-literate' era, mirroring the information panic and social alienation of the AI age. Every character at the party becomes a microcosm of the times.",
-            "The Epstein list recruiting, PornHub's proof of consciousness, and AI-flavored socializing may seem exaggerated, but they point directly to the tech world's pragmatic attitude toward ethics. Tran, after mimicking AI speech patterns, starts dating more frequently, revealing that human preferences have already been reshaped by AI.",
-            "The eventual 'benchmark answer' triggers mob violence, a metaphor for the tech circle's fear of truth. Beneath the jokes lies a cold-eyed observation of how AI is affecting humanity and society, with satire carrying genuine concern."
-          ]
-        }
-      }
-    },
-    {
-      "id": "979535eb01160942288d80752947d6b04bcd679d",
-      "sourceId": "hn",
-      "category": "ai",
-      "title": "DeepSeek Harness developer preview",
-      "url": "https://deepseek.com/harness/en/",
-      "author": "bjin",
-      "publishedAt": "2026-08-13T12:58:02.000Z",
-      "image": null,
-      "readingMinutes": 4,
-      "score": 55,
-      "rank": 8,
-      "summary": {
-        "zh": {
-          "thesis": "DeepSeek Harness 将智能体一切能力插件化，并以不可变日志追踪每次运行，展示AI基础设施的新方向。",
-          "paragraphs": [
-            "DeepSeek 发布 Harness 开发者预览，核心是「一切皆插件」：模型、工具、技能、会话、存储等全部可替换组合，基于 Cordis 插件系统。开发者无需改动源码即可定制，体现了灵活性与模块化。",
-            "每个运行都记录在追加式会话日志，包含系统提示、推理过程、工具调用等，支持查看、恢复、分支与重放。这提升了可追溯性与调试能力，对复杂智能体尤为重要。",
-            "提供标准、代码、最小和创建者四种模式，适应不同场景，如基准测试最小环境。开源 MIT 协议，但仍是预览，API 会演进。虽属发布公告，但设计思路值得注意。"
-          ]
-        },
-        "en": {
-          "thesis": "DeepSeek Harness turns every capability of an agent into a pluggable component and logs every run immutably, pointing to a new direction for AI infrastructure.",
-          "paragraphs": [
-            "DeepSeek has released a developer preview of Harness, built around the principle that everything is a plugin: models, tools, skills, sessions, storage, and more can be swapped and combined freely, powered by the Cordis plugin system. Developers can customize without touching the source code, highlighting flexibility and modularity.",
-            "Every run is recorded in an append-only session log, including system prompts, reasoning traces, tool calls, and more, with support for viewing, resuming, branching, and replaying. This enhances traceability and debugging, especially important for complex agents.",
-            "Four modes—standard, code, minimal, and creator—cater to different scenarios, such as a minimal environment for benchmarking. It is open-sourced under the MIT license, but still a preview, so the API will evolve. Although this is an announcement, the design philosophy is noteworthy."
-          ]
-        }
-      }
-    },
-    {
-      "id": "2e2314f2a3fb04fea44fe7cac53cf85c8d000a95",
-      "sourceId": "slowboring",
-      "category": "economy",
-      "title": "Medicare for All should be more like Medicare",
-      "url": "https://www.slowboring.com/p/medicare-for-all-should-be-more-like",
-      "author": "Matthew Yglesias",
-      "publishedAt": "2026-08-13T10:01:20.000Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!8rBg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc146ab67-8fc2-49e1-b2d0-d758d3c38378_5700x3800.jpeg",
-      "readingMinutes": 2,
-      "score": 55,
-      "rank": 9,
-      "summary": {
-        "zh": {
-          "thesis": "民主党的全民医保政策应模仿现有美国医保制度，而非加拿大模式，才能赢得选民。",
-          "paragraphs": [
-            "「全民医保」口号吸引人，因为医保项目广受好评，且公众在原则上支持医疗不应由市场决定。但口号不等于具体政策，需要设计可行方案。",
-            "作者指出，现行左翼提案多参照加拿大模式，但更明智的做法是让该政策更像美国现有制度，因为那正是选民熟知且支持的。具体细节待付费阅读。"
-          ]
-        },
-        "en": {
-          "thesis": "The Democratic Party's Medicare for All policy should mimic the existing American Medicare system rather than the Canadian model to win over voters.",
-          "paragraphs": [
-            "The slogan 'Medicare for All' is appealing because Medicare is widely well-regarded, and the public supports in principle the idea that healthcare should not be determined by the market. But a slogan is not a concrete policy; a feasible plan needs to be designed.",
-            "The author points out that current left-wing proposals often follow the Canadian model, but a wiser approach would be to make the policy more like the existing American system, since that is what voters know and support. Specific details await paid reading."
+            "The party opens with a sign banning 'benchmark answer keys,' a jab at the collapse of AI ethics. Then an Epstart founder publicly recruits people from the Epstein files, arguing that since the Bay Area has no kids, it's 'harm reduction' — a biting satire of tech's moral vacuum.",
+            "Next comes the sophistry of an AI-porn entrepreneur: using 'ethical deepfakes' to dodge consent issues, or 'pre-generated virtual celebrities' to avoid non-consensual content, yet the result is no different from outright forgery. There are also gags like 'saturated utilitarianism' and 'AI-tone socializing,' each touched on briefly but not deeply dissected."
           ]
         }
       }
@@ -441,49 +349,53 @@
       "image": "https://substack-video.s3.amazonaws.com/video_upload/post/210495051/ecdcac15-91c5-44d1-bd89-3babf863be78/transcoded-1786348970.png",
       "readingMinutes": 2,
       "score": 55,
-      "rank": 10,
+      "rank": 7,
       "summary": {
         "zh": {
-          "thesis": "《独自打保龄》的预言大多成真，但其对电视的归因被低估。",
+          "thesis": "《独自打保龄》的过时预言已被证实，但其因果链和解决方案仍显薄弱。",
           "paragraphs": [
-            "重读此书，作者发现当年争议性的预测——教会衰落、互联网无法替代线下社交——都已被证实。电视导致社交资本下降的说法，虽篇幅少却关键。",
-            "合作者质疑其因果链，并认为反自由主义思潮有害。两人都同意，书中对电视作用的分析不足，而这在流媒体时代尤为切题。"
+            "作者重读此书，惊讶于保龄球比喻只占少数篇幅，而当年争议性的预测——如教堂衰落、互联网无法替代线下社交——如今已然应验。",
+            "但共同主持人指出，该书将组织参与与美好结果相连的因果链含糊不清，且其论述属于对个人主义的反弹，或有害。",
+            "双方同意，电视造成约一半社会资本下降，而书中对此着墨甚少且未提出对策，此点对当今流媒体时代尤有共鸣。"
           ]
         },
         "en": {
-          "thesis": "Most of the predictions in 'Bowling Alone' have come true, but its attribution of decline to television was underestimated.",
+          "thesis": "The outdated predictions of 'Bowling Alone' have been confirmed, but its causal chain and proposed solutions remain weak.",
           "paragraphs": [
-            "Rereading the book, the author finds that its once-controversial predictions—the decline of churches and the inability of the internet to replace in-person socializing—have all been confirmed. The claim that television caused the drop in social capital, though brief, was crucial.",
-            "Co-authors question the causal chain and argue that anti-liberal thinking is harmful. Both agree that the book's analysis of television's role was insufficient, which is especially pertinent in the age of streaming media."
+            "Upon rereading the book, the author is struck by how little space the bowling metaphor actually occupies, while the once-controversial predictions—such as the decline of churches and the inability of the internet to replace face-to-face socializing—have since come true.",
+            "Yet the co-host points out that the book's causal chain linking organizational participation to positive outcomes is muddled, and its argument may be a harmful reaction against individualism.",
+            "Both agree that television accounts for roughly half of the decline in social capital, yet the book gives it scant attention and offers no remedies—a point that resonates strongly in today's streaming era."
           ]
         }
       }
     },
     {
-      "id": "3a002e080ba3a740302b9c185e11b6c203ec8565",
+      "id": "23833efb4fca2358e623eea675968e046b87ca12",
       "sourceId": "marginal",
-      "category": "living",
-      "title": "Those old (new?) service sector jobs",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/those-old-service-sector-jobs-2.html",
+      "category": "culture",
+      "title": "My very interesting Conversation with Daron Acemoglu",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/my-very-interesting-conversation-with-daron-acemoglu.html",
       "author": "Tyler Cowen",
-      "publishedAt": "2026-08-13T18:37:12.000Z",
+      "publishedAt": "2026-08-13T05:31:43.000Z",
       "image": null,
-      "readingMinutes": 1,
-      "score": 45,
-      "rank": 11,
+      "readingMinutes": 5,
+      "score": 55,
+      "rank": 8,
       "summary": {
         "zh": {
-          "thesis": "旧式服务业岗位不仅存在，还在以出人意料的方式复苏。",
+          "thesis": "左翼自由主义因自身建制权力滥用而衰落，需重拾有意义的自由与共同体协商。",
           "paragraphs": [
-            "在德里，有人靠模仿长尾叶猴的尖叫声来驱赶恒河猴，这份工作成了正式职业，因为猴群肆虐，而唯一有效的威慑就是这种声音。",
-            "为迎接羽毛球世锦赛，德里雇用这些口技专家，他们一边模仿猴叫一边巡逻，让猕猴不敢靠近。这反映出即使在高科技时代，传统技巧依然有市场。"
+            "Acemoglu新书批评左翼自由主义，认为其近八十年掌权未善用建制力量，致内部脆弱，难敌外部攻击，如罗马衰亡。",
+            "他反对纯粹客观标准，主张以个体有意义自由为基，结合社会共识。但承认价值冲突（如非支配与不干预）时无完美解法，仅靠个体自由不够，需社区保护。",
+            "对话还触及教育、AI、生育率等，强调自动化不会自动带来繁荣，需亲劳工政策。Acemoglu对民主的反思指向自由至上与干预的平衡。"
           ]
         },
         "en": {
-          "thesis": "Old-style service jobs are not only surviving; they are making an unexpected comeback.",
+          "thesis": "Left-liberalism's decline stems from its own abuse of institutional power, and it needs to reclaim meaningful freedom and communal deliberation.",
           "paragraphs": [
-            "In Delhi, a job that involves mimicking the shrill calls of the langur monkey to scare away rhesus macaques has become an official profession, because the monkeys are causing havoc and the only effective deterrent is this sound.",
-            "To prepare for the badminton world championships, Delhi hired these vocal mimicry experts, who patrol while imitating monkey calls to keep the macaques at bay. This reflects that even in the high-tech age, traditional skills still have a market."
+            "Acemoglu's new book criticizes left-liberalism, arguing that its nearly eight decades in power have failed to make good use of institutional strength, leaving it internally fragile and vulnerable to external attacks, much like the fall of Rome.",
+            "He rejects purely objective criteria, advocating instead for meaningful individual freedom as a foundation, combined with social consensus. Yet he acknowledges that when values conflict—such as non-domination versus non-interference—there is no perfect solution, and individual freedom alone is insufficient; communities need protection.",
+            "The conversation also touches on education, AI, and fertility rates, emphasizing that automation does not automatically bring prosperity and requires pro-labor policies. Acemoglu's reflections on democracy point toward a balance between libertarianism and intervention."
           ]
         }
       }
@@ -499,80 +411,22 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/06/notebooklm-and-youtube-side-by-side.jpeg",
       "readingMinutes": 7,
       "score": 45,
-      "rank": 12,
+      "rank": 9,
       "summary": {
         "zh": {
-          "thesis": "Google推荐的7个NotebookLM提示词，展示了它从资料整理工具向主动执行分析任务的转变。",
+          "thesis": "Google 推荐的七个 NotebookLM 提示词展示了该工具正从「忠于来源的问答」转向「主动执行任务的代理」，尽管学生功能令人失望，但商业模式已见雏形。",
           "paragraphs": [
-            "作者试用了Google官方推荐的NotebookLM提示词，发现其新能力可自动生成难度递增的测验、格式化PDF学习指南，并直接从课程大纲添加URL。这简化了学生创建学习材料的流程，但作者对更新方向仍有保留。",
-            "商业提示词如计算各产品线营收增长并绘图，或读取营销简报后联网搜索竞品并提出建议，标志着NotebookLM从被动问答转向主动分析，甚至能运行代码处理数据。个人场景则可将收据自动转为费用追踪表，或分析房产购买并建立预测模型。",
-            "这些示例表明NotebookLM的演变：上传的资料不再只是查询对象，而是生成最终产物的原料。作者虽不赞同所有新方向，但认为提示词揭示了Google的意图——让AI完成端到端的任务，而非仅提供信息。"
+            "作者长期使用 NotebookLM，但近期更新让她失望。然而 Google 官方推荐的提示词让她理解了新方向：工具不再局限于总结上传的资料，而是能执行计算、联网搜索并生成成品，如将收据转为费用表。",
+            "七个提示词分三类：学生用（生成难度递增的测验、PDF 学习指南、从课程大纲批量添加链接）、商业用（计算营收增长并绘图、对比竞品调整营销信息）、个人用（分析装修收据、房产投资建模）。",
+            "关键转变是 NotebookLM 获得云端执行代码能力，可自行处理数据、生成图表，并能结合用户文档与网页信息做推荐。这使工具从「信息整理器」升级为「任务执行者」，但作者对部分方向仍持保留态度。"
           ]
         },
         "en": {
-          "thesis": "Google's recommended NotebookLM prompts reveal its shift from a mere research organizer to an active task executor.",
+          "thesis": "Google's seven recommended NotebookLM prompts reveal the tool's shift from a source-faithful Q&A assistant to an active, task-executing agent, and while the student features disappoint, a business model is beginning to take shape.",
           "paragraphs": [
-            "The author tried Google's officially recommended NotebookLM prompts and discovered new capabilities that automatically generate quizzes of increasing difficulty, format PDF study guides, and add URLs directly from course syllabi. This simplifies the process of creating study materials for students, but the author still has reservations about the direction of the update.",
-            "Business prompts, such as calculating revenue growth for each product line and plotting it, or reading a marketing brief and then searching the web for competitor insights and suggesting actions, mark NotebookLM's transition from passive Q&A to proactive analysis, even running code to process data. In personal scenarios, it can turn receipts into an expense tracker automatically or analyze a property purchase and build a predictive model.",
-            "These examples indicate NotebookLM's evolution: uploaded materials are no longer just objects to query but raw ingredients for generating final outputs. The author doesn't agree with all new directions but believes the prompts reveal Google's intent—to have AI complete end-to-end tasks rather than just provide information."
-          ]
-        }
-      }
-    },
-    {
-      "id": "6a4a0233db41331239182b00e444c624fcaffc99",
-      "sourceId": "westenberg",
-      "category": "culture",
-      "title": "The Heretic's Guide to Conviction",
-      "url": "https://www.joanwestenberg.com/p/the-heretics-guide-to-conviction",
-      "author": "JA Westenberg",
-      "publishedAt": "2026-08-13T01:58:00.000Z",
-      "image": "https://substack-video.s3.amazonaws.com/video_upload/post/210982365/7df18614-dc06-41da-adb0-7e7873d74a66/transcoded-00001.png",
-      "readingMinutes": 1,
-      "score": 45,
-      "rank": 13,
-      "summary": {
-        "zh": {
-          "thesis": "在科技行业，坚持信念而非随大流，才是真正的竞争优势。",
-          "paragraphs": [
-            "文章批评科技圈千篇一律的策略，主张以个人信念为指引，而非追随共识。作者称这种人为「异端」，认为他们才能突围。",
-            "以星巴克为例，说明其成功源于对咖啡文化的坚持，而非模仿竞争对手。但内容多为付费订阅，具体论证不足，更像励志宣言。"
-          ]
-        },
-        "en": {
-          "thesis": "In the tech industry, staying true to your convictions rather than following the crowd is the real competitive advantage.",
-          "paragraphs": [
-            "The article criticizes the industry's tendency toward cookie-cutter strategies and argues for guiding decisions by personal conviction rather than group consensus. It calls such people 'heretics' and contends that they are the ones who break through.",
-            "Using Starbucks as an example, it shows how the company's success came from sticking to its coffee culture rather than imitating rivals. However, much of the content sits behind a paywall, and the specific arguments are thin, reading more like an inspirational manifesto."
-          ]
-        }
-      }
-    },
-    {
-      "id": "50f9ffd70672de7265d6113e8fd806c8d5815f96",
-      "sourceId": "hn",
-      "category": "ai",
-      "title": "Accelerating GPT-5.6 Sol Ultrafast",
-      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "author": "pr337h4m",
-      "publishedAt": "2026-08-13T18:10:02.000Z",
-      "image": "https://cdn.sanity.io/images/e4qjo92p/production/fdfac76baee0b174ea63df807f9d4f975341caea-1672x941.png?rect=0,32,1672,878&amp;w=1200&amp;h=630&amp;fit=max&amp;auto=format",
-      "readingMinutes": 4,
-      "score": 42,
-      "rank": 14,
-      "summary": {
-        "zh": {
-          "thesis": "超快推理将消除速度与智能的权衡，开启新的应用可能。",
-          "paragraphs": [
-            "Cerebras与OpenAI合作推出GPT-5.6 Sol的Ultrafast模式，每秒输出750个token，且无质量损失。其硬件采用晶圆级引擎，在芯片上集成44GB SRAM，减少数据搬运，突破了GPU的内存瓶颈。",
-            "基准测试显示，完成人类最后考试（HLE）全部2500题，Ultrafast仅用11小时，而Claude Fable 5耗时78小时，速度快约7倍。在GDP-Val经济价值任务上，端到端提速5.6倍，且质量不变。"
-          ]
-        },
-        "en": {
-          "thesis": "Ultrafast inference will eliminate the trade-off between speed and intelligence, opening up new application possibilities.",
-          "paragraphs": [
-            "Cerebras, in partnership with OpenAI, has launched an Ultrafast mode for GPT-5.6 Sol that delivers 750 tokens per second with no loss in quality. The underlying hardware uses a wafer-scale engine with 44GB of SRAM integrated on the chip, reducing data movement and overcoming the memory bottleneck typical of GPUs.",
-            "Benchmark results show that completing all 2,500 questions from the Humanity's Last Exam (HLE), Ultrafast takes only 11 hours, while Claude Fable 5 takes 78 hours — roughly seven times faster. On the GDP-Val economic value task, it achieves a 5.6x end-to-end speedup with unchanged quality."
+            "The author, a long-time NotebookLM user, was recently disappointed by updates to the tool. However, the official prompt suggestions from Google helped her understand its new direction: the tool is no longer limited to summarizing uploaded materials but can now perform calculations, search the web, and produce finished outputs, such as turning receipts into expense tables.",
+            "The seven prompts fall into three categories: student-focused (generating quizzes of increasing difficulty, creating PDF study guides, and batch-adding links from a course syllabus), business-focused (calculating revenue growth and plotting it, and comparing competitors to adjust marketing messaging), and personal use (analyzing renovation receipts and modeling real estate investments).",
+            "The key shift is NotebookLM's ability to execute code in the cloud, enabling it to process data, generate charts, and combine user documents with web information for recommendations. This upgrades the tool from an 'information organizer' to a 'task executor,' but the author remains skeptical about some of the directions taken."
           ]
         }
       }
