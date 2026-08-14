@@ -1,0 +1,743 @@
+{
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T17:31:33.922Z",
+  "window": {
+    "from": "2026-08-13T17:31:33.922Z",
+    "to": "2026-08-14T17:31:33.922Z"
+  },
+  "stats": {
+    "fetched": 20,
+    "shown": 17,
+    "folded": 0
+  },
+  "sources": [
+    {
+      "id": "heavybit",
+      "name": "Heavybit Library",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "xda-ai-tools",
+      "name": "XDA · AI Tools",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "neciudan",
+      "name": "Neciu Dan’s Blog",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "platformer",
+      "name": "Platformer",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "acx",
+      "name": "Astral Codex Ten",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "marginal",
+      "name": "Marginal Revolution",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "id": "construction-physics",
+      "name": "Construction Physics",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "nngroup",
+      "name": "Nielsen Norman Group",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "kleon",
+      "name": "Austin Kleon",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "benedict-evans",
+      "name": "Benedict Evans",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "westenberg",
+      "name": "WESTENBERG",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "bytecode",
+      "name": "ByteCode.News",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "jacobgold",
+      "name": "Jake Gold",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "pueyo",
+      "name": "Uncharted Territories",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "geohot",
+      "name": "the singularity is nearer",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "alienchow",
+      "name": "Alienchow",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "nicchan",
+      "name": "Nic Chan",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "caolan",
+      "name": "caolan.uk",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "notboring",
+      "name": "Not Boring",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "lennys",
+      "name": "Lenny's Newsletter",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "slowboring",
+      "name": "Slow Boring",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "noahpinion",
+      "name": "Noahpinion",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "ruanyifeng",
+      "name": "阮一峰的网络日志",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "ofdollars",
+      "name": "Of Dollars And Data",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "damodaran",
+      "name": "Musings on Markets",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "importai",
+      "name": "Import AI",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "mollick",
+      "name": "One Useful Thing",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "intrinsic",
+      "name": "The Intrinsic Perspective",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "calnewport",
+      "name": "Cal Newport",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "conversable",
+      "name": "Conversable Economist",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "danluu",
+      "name": "Dan Luu",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "craigmod",
+      "name": "Craig Mod",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "worksinprogress",
+      "name": "Works in Progress",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "articles": [
+    {
+      "id": "777c7437addc4b53ff75b4cc4a7ba7e3026fb2e2",
+      "sourceId": "acx",
+      "category": "culture",
+      "title": "The Foothills Of Bay Area House Party",
+      "url": "https://www.astralcodexten.com/p/the-foothills-of-bay-area-house-party",
+      "author": "Scott Alexander",
+      "publishedAt": "2026-08-13T23:54:32.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/e988ae18-b381-47d8-8e17-1bb924b59e50_1672x941.png",
+      "readingMinutes": 15,
+      "score": 80,
+      "rank": 1,
+      "summary": {
+        "zh": {
+          "thesis": "硅谷的疯狂与道德虚无已深入日常，任何试图逃离的行为最终都成了其中的一部分。",
+          "paragraphs": [
+            "旧金山向居民发出双重信息：探索宇宙奥秘与追逐财富。但这场派对展示了更深的异化，从「无基准答案」的警示到每个角色都在自我欺骗或利用他人。",
+            "叙事讽刺了科技圈的荒谬：招募爱泼斯坦名单上的人、以「道德深伪」规避伦理、甚至有人模仿AI说话以获社交成功。故事以「基准答案密钥」引发集体疯狂告终，暗示该地域的价值观已扭曲至极。"
+          ]
+        },
+        "en": {
+          "thesis": "The madness and moral emptiness of Silicon Valley have seeped into daily life, and any attempt to escape it ultimately becomes part of it.",
+          "paragraphs": [
+            "San Francisco sends its residents a double message: explore the mysteries of the universe and chase wealth. But this party reveals a deeper alienation, from the warning of 'no baseline answers' to every character either deceiving themselves or exploiting others.",
+            "The narrative satirizes the absurdities of the tech circle: recruiting people from Epstein's list, evading ethics with 'moral deepfakes', and even someone mimicking AI speech to gain social success. The story ends with collective hysteria over a 'baseline answer key', suggesting that the region's values have twisted to an extreme."
+          ]
+        }
+      }
+    },
+    {
+      "id": "074b9af291efc237ee52a392208cc09c3abe1a4c",
+      "sourceId": "marginal",
+      "category": "economy",
+      "title": "Regulated Markets Are Slow to Handle Change",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/regulated-markets-are-slow-to-handle-change.html",
+      "author": "Alex Tabarrok",
+      "publishedAt": "2026-08-14T11:20:34.000Z",
+      "image": "https://marginalrevolution.com/wp-content/uploads/2026/08/Coal-Regulation.png",
+      "readingMinutes": 3,
+      "score": 78,
+      "rank": 2,
+      "summary": {
+        "zh": {
+          "thesis": "迫使电厂证明旧资产还有用的监管规则，反而让它们在新技术降临时过度坚持旧技术。",
+          "paragraphs": [
+            "传统上，电力公司因自然垄断而被管制，价格按成本加资本回报率确定。这鼓励过度投资，即所谓的金镀层，于是监管者引入「有用且在用」标准。在稳定世界中，这能抑制浪费，但在技术变革期，它却成了障碍。",
+            "当天然气因压裂技术变便宜时，受管制的电厂仍继续烧煤，因为要证明煤电厂有用。数据对比显示，放松管制的州在煤价高于电价时大幅减少烧煤，而受管制州反应迟钝。监管越垂直整合，反应越差。",
+            "结构性模型估计，管制导致过多旧煤电和过多新气电同时存在，即对旧资本和新资本都过度投资。这表明动态环境下的监管极其困难，作者甚至怀疑监管是否值得。"
+          ]
+        },
+        "en": {
+          "thesis": "Regulatory rules that force power plants to prove old assets are still useful end up making them cling to outdated technology when new technologies arrive.",
+          "paragraphs": [
+            "Traditionally, electric utilities have been regulated as natural monopolies, with prices set on a cost-plus-return-on-capital basis. This encouraged overinvestment, known as gold-plating, so regulators introduced the 'used and useful' standard. In a stable world, this curbs waste, but in times of technological change, it becomes a stumbling block.",
+            "When natural gas became cheaper thanks to fracking, regulated power plants continued burning coal because they had to prove their coal plants were useful. Data comparisons show that in deregulated states, coal use dropped sharply when coal prices exceeded electricity prices, while regulated states responded sluggishly. The more vertically integrated the regulation, the poorer the response.",
+            "A structural model estimates that regulation led to too much old coal capacity and too much new gas capacity simultaneously—that is, overinvestment in both old and new capital. This suggests that regulation is extremely difficult in a dynamic environment, and the authors even question whether regulation is worth it."
+          ]
+        }
+      }
+    },
+    {
+      "id": "2dfadc8133e7c4655422c579ad30ee644571c201",
+      "sourceId": "marginal",
+      "category": "economy",
+      "title": "The Economics of a Shrinking World",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/the-economics-of-a-shrinking-world.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-14T06:14:58.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 78,
+      "rank": 3,
+      "summary": {
+        "zh": {
+          "thesis": "全球生育率跌破更替水平是现代化本身的后果，而非任何单一政策或文化因素所致。",
+          "paragraphs": [
+            "2026年人类总和生育率首次低于更替水平，且降幅集中于中低收入国家及教育程度较低的女性。研究者对236国自1950年数据拟合单一共同因子，发现其1978年见顶后持续下滑，但各国特异性趋势（219个为负）才是主因。",
+            "常规解释如战争、疫情或避孕普及均无法匹配此模式，作者提出现代化假说：现代社会使第三个孩子成本高昂、无子女生活廉价，而生育是整数单位，微小推力即可使总和生育率从1.8降至1.3。长期来看，经济机制不会自动回归更替水平。",
+            "经济后果显著：人口萎缩将拖慢增长，劳动力减少逼迫生产率提升。考恩补充，避孕的实际可及性受经济与社会约束，比表面叙述更复杂。"
+          ]
+        },
+        "en": {
+          "thesis": "The global fertility rate falling below replacement level is a consequence of modernization itself, not of any single policy or cultural factor.",
+          "paragraphs": [
+            "In 2026, the global total fertility rate dropped below replacement level for the first time, with the decline concentrated in low- and middle-income countries and among women with less education. Researchers fitted a single common factor to data from 236 countries since 1950 and found that while this factor peaked in 1978 and has been declining ever since, country-specific trends—219 of which are negative—are the main drivers.",
+            "Conventional explanations such as wars, pandemics, or the spread of contraception cannot match this pattern. The authors propose the modernization hypothesis: modern society makes having a third child very costly and childlessness cheap, and since fertility is measured in whole numbers, a small push can reduce the total fertility rate from 1.8 to 1.3. In the long run, economic mechanisms will not automatically return fertility to replacement level.",
+            "The economic consequences are significant: shrinking populations will slow growth, and a reduced labor force will force productivity gains. Cowen adds that the actual accessibility of contraception is constrained by economic and social factors, making the story more complex than it appears."
+          ]
+        }
+      }
+    },
+    {
+      "id": "471eb6260c1df841a0df9552739e256202a63855",
+      "sourceId": "slowboring",
+      "category": "economy",
+      "title": "History often hinges on boring technical questions",
+      "url": "https://www.slowboring.com/p/history-often-hinges-on-boring-technical",
+      "author": "Matthew Yglesias",
+      "publishedAt": "2026-08-14T10:03:19.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!HGWF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1cb03cd5-f762-4264-be64-a2aefa8ff74c_3216x2238.jpeg",
+      "readingMinutes": 13,
+      "score": 75,
+      "rank": 4,
+      "summary": {
+        "zh": {
+          "thesis": "枯燥的货币政策细节往往比热点政治更能左右历史走向。",
+          "paragraphs": [
+            "作者以美国1874年《通胀法案》为例：若格兰特总统签署，可能避免1876年大选争议，从而延续重建时期。弗里德曼与施瓦茨低估其作用，但查尔斯·卡洛米里斯认为它能阻止通缩。",
+            "更震撼的例子是纳粹崛起：1928年经济稳定时纳粹仅获2.6%选票，大萧条后1930年跃居第二。若布鲁宁政府货币应对更有效，希特勒或难上台。同样，2016年耶伦若不过早加息，希拉里可能胜选。",
+            "结论是：政治后果常由乏味的技术细节驱动。对宏观政策的技术性把握，比意识形态争论更影响选举与历史。"
+          ]
+        },
+        "en": {
+          "thesis": "Dry monetary policy details often shape the course of history more than headline-grabbing politics.",
+          "paragraphs": [
+            "The author cites the U.S. Inflation Act of 1874 as an example: had President Grant signed it, the disputed election of 1876 might have been avoided, thereby extending Reconstruction. Friedman and Schwartz underestimated its importance, but Charles Calomiris argues it could have prevented deflation.",
+            "A more striking example is the rise of the Nazis: in 1928, with economic stability, the Nazis won only 2.6% of the vote, but after the Great Depression they became the second-largest party in 1930. If Brüning's government had responded more effectively on monetary policy, Hitler might not have come to power. Similarly, if Yellen had not raised rates too early in 2016, Hillary Clinton might have won.",
+            "The conclusion is that political outcomes are often driven by boring technical details. A technical grasp of macroeconomic policy influences elections and history more than ideological debates."
+          ]
+        }
+      }
+    },
+    {
+      "id": "4d2e4ee40a94f2b181c1d7a786722268a193a023",
+      "sourceId": "westenberg",
+      "category": "living",
+      "title": "Don't Become a Productivity Tourist",
+      "url": "https://www.joanwestenberg.com/p/dont-become-a-productivity-tourist",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-14T01:33:32.000Z",
+      "image": "https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw0Nnx8cHJvZHVjdGl2aXR5fGVufDB8fHx8MTc4NjY3MDk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "readingMinutes": 3,
+      "score": 74,
+      "rank": 5,
+      "summary": {
+        "zh": {
+          "thesis": "把生产力当作爱好，只会陷入不断更换系统的循环，而非真正产出。",
+          "paragraphs": [
+            "文章批评一种现象：人们沉迷于优化工具、切换系统，把生产力本身当作乐趣。作者称之为“生产力观光客”，他们像旅行博主一样，每到一个新系统就宣布“改变人生”。",
+            "但结果是，这些系统很快被抛弃，整个过程只是循环：发现、迁移、鼓吹、摩擦、离开。作者引用德鲁克，指出关键不是效率而是效果，做正确的事比正确做事更重要。",
+            "好的系统应该隐形，无聊正是有效工作的标志。作者建议选择一套系统并坚持，即使它笨拙，因为唯一标准是它是否帮你产出了东西。"
+          ]
+        },
+        "en": {
+          "thesis": "Treating productivity as a hobby leads to a cycle of constantly switching systems rather than actually producing anything.",
+          "paragraphs": [
+            "The article criticizes the tendency of people to become obsessed with optimizing tools and switching systems, treating productivity itself as a pastime. The author calls such people 'productivity tourists,' who, like travel bloggers, declare that each new system they encounter is 'life-changing.'",
+            "But the result is that these systems are soon abandoned, and the whole process becomes a cycle: discover, migrate, tout, friction, leave. The author cites Peter Drucker, noting that the key is not efficiency but effectiveness—doing the right things matters more than doing things right.",
+            "A good system should be invisible; boredom is a sign of effective work. The author advises choosing one system and sticking with it, even if it is clumsy, because the only criterion is whether it helps you produce something."
+          ]
+        }
+      }
+    },
+    {
+      "id": "bb0cf09e7fa58c9f9e652d32b0571dbb971860f0",
+      "sourceId": "noahpinion",
+      "category": "economy",
+      "title": "23 low-regret recommendations for AI policy",
+      "url": "https://www.noahpinion.blog/p/23-low-regret-recommendations-for",
+      "author": "Tim Fist",
+      "publishedAt": "2026-08-14T01:39:37.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!y1Bx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9e66705-38be-4691-8340-e005af3bf213_1037x691.jpeg",
+      "readingMinutes": 52,
+      "score": 72,
+      "rank": 6,
+      "summary": {
+        "zh": {
+          "thesis": "即便AI自动化研发的风险未定，美国仍应优先采取低成本、低遗憾的政策准备，而非推迟到风险明确后再行动。",
+          "paragraphs": [
+            "文章基于自动化AI研发可能带来严重风险，但概率与影响不确定，因此主张提前准备。它提出五项标准：只针对不可逆伤害、不减缓AI扩散、低成本高收益、不偏袒特定实验室、避免建立易被滥用的监管机构。",
+            "据此列出23项建议，涵盖透明度、政府能力、风险管理、验证技术、韧性、对华竞争与外交。例如，要求前沿公司公开研发自动化指标，赋予CAISI每年8400万美元预算，建立验证联盟，并加强芯片出口管制。",
+            "作者承认收益未必超过成本，但认为这些准备即使风险不兑现也有价值，如提升网络安全和生物安全。总体基调是谨慎预演而非仓促行动，为未来可能的“节奏控制”铺路。"
+          ]
+        },
+        "en": {
+          "thesis": "Even though the risks of automated AI research are uncertain, the U.S. should still prioritize low-cost, low-regret policy preparations rather than waiting until risks become clear.",
+          "paragraphs": [
+            "The article argues that because automated AI research could bring severe risks, but the probability and impact are uncertain, it is wise to prepare in advance. It proposes five criteria for such preparations: they must address only irreversible harms, not slow the spread of AI, offer high benefits at low cost, avoid favoring specific labs, and steer clear of creating regulatory bodies that could be easily abused.",
+            "Based on these criteria, the article lists 23 recommendations covering transparency, government capacity, risk management, verification technologies, resilience, competition with China, and diplomacy. For example, it suggests requiring frontier companies to publicly report metrics on automation in R&D, granting CAISI an $84 million annual budget, establishing a verification consortium, and tightening export controls on chips.",
+            "The authors acknowledge that the benefits may not outweigh the costs, but they argue that these preparations are valuable even if the risks do not materialize, as they also enhance cybersecurity and biosecurity. The overall tone is one of cautious rehearsal rather than hasty action, paving the way for potential future 'pace control'."
+          ]
+        }
+      }
+    },
+    {
+      "id": "1daf6754bdda3923b426f41b0ee2b50eda35dd4d",
+      "sourceId": "marginal",
+      "category": "economy",
+      "title": "Intergenerational mobility of immigrants in 15 destination countries",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/intergenerational-mobility-of-immigrants-in-15-destination-countries.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-14T05:03:22.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 68,
+      "rank": 7,
+      "summary": {
+        "zh": {
+          "thesis": "移民子女的收入劣势一半源于父母收入，另一半源于移民目的地本身，而非原籍。",
+          "paragraphs": [
+            "对15个接收国移民子女的代际流动研究发现，其收入略低于本地人子女，差异约半数可由父母收入解释，余下则归于流动参数的差别。",
+            "女儿在多数国家的绝对流动高于本地人，儿子则在欧洲外更高、欧洲内更低。差异并非源于父母原籍，而由目的地劳动力市场与移民政策塑造。"
+          ]
+        },
+        "en": {
+          "thesis": "The income gap between immigrant and native children stems half from parental income and half from the destination country itself, not from their country of origin.",
+          "paragraphs": [
+            "A study of intergenerational mobility among immigrant children across 15 destination countries finds that they earn slightly less than the children of natives. About half of this difference can be explained by parental income, while the rest is due to differences in mobility parameters.",
+            "In most countries, daughters show higher absolute mobility than natives, whereas sons perform better outside Europe but worse within it. The disparities do not originate from the parents' country of birth; instead, they are shaped by the labor markets and immigration policies of the destination countries."
+          ]
+        }
+      }
+    },
+    {
+      "id": "6eb9ad1f598f164cd24eb816d7f001f41570bcb5",
+      "sourceId": "construction-physics",
+      "category": "economy",
+      "title": "How Will the 21st Century ROAD to Housing Act Affect Housing Supply? Part II",
+      "url": "https://www.construction-physics.com/p/how-will-the-21st-century-road-to",
+      "author": "Brian Potter",
+      "publishedAt": "2026-08-14T12:03:37.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!DVW6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d32ab37-4540-4e07-a1f4-9ed08763999f_448x762.png",
+      "readingMinutes": 18,
+      "score": 65,
+      "rank": 8,
+      "summary": {
+        "zh": {
+          "thesis": "新住房法案的多数条款只是边际调整，真正影响供给的只有少数几个。",
+          "paragraphs": [
+            "法案标题II和III共17项条款，作者逐一分析后认为多数效果甚微。比如机会区加权只是重新分配资金，不增加总额；整屋维修和RAD扩容等条款可能保住存量房，但增量有限。",
+            "少数条款有真实潜力：创新基金每年2亿美元奖励供给增长快的辖区，但金额太小可能不足以改变行为；RAD上限提高10万套可撬动维护贷款和重建；取消活动房钢底盘节省5-10%成本，但可能不改变购买意愿。",
+            "作者强调，条款的实际影响取决于所针对的约束是否真的构成瓶颈——这往往难以判断。整体上，法案更像是在为未来可能出现的约束未雨绸缪，而非当下大幅刺激供给。"
+          ]
+        },
+        "en": {
+          "thesis": "Most provisions in the new housing bill are only marginal adjustments; only a few will truly affect supply.",
+          "paragraphs": [
+            "A clause-by-clause analysis of the 17 provisions in Titles II and III finds that most will have little effect. For instance, weighting opportunity zones merely reallocates funds without increasing the total, while provisions like whole-home repair and RAD expansion may preserve existing stock but add only limited new supply.",
+            "A few provisions hold real potential: the innovation fund, with $200 million per year in rewards for jurisdictions with rapid supply growth, is too small to change behavior; raising the RAD cap by 100,000 units could unlock maintenance loans and rebuilding; and eliminating steel chassis for mobile homes saves 5-10% in costs but may not sway purchase decisions.",
+            "The author stresses that actual impact depends on whether the targeted constraints are true bottlenecks, which is often hard to judge. Overall, the bill seems more about preparing for future constraints than dramatically boosting supply now."
+          ]
+        }
+      }
+    },
+    {
+      "id": "d922f5e56a6a9e9c4712888395583ec53809e30e",
+      "sourceId": "xda-ai-tools",
+      "category": "ai",
+      "title": "3 myths about coding with AI that even experienced developers still believe",
+      "url": "https://www.xda-developers.com/x-myths-about-coding-with-ai-that-even-experienced-developers-still-believe/",
+      "author": "Abhinav Raj",
+      "publishedAt": "2026-08-13T21:00:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/image-main-ollama.jpg",
+      "readingMinutes": 6,
+      "score": 65,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "AI编程的真实效果既非万能也非自动补全，而是改变了开发者的工作重心。",
+          "paragraphs": [
+            "四年来，AI助手已成为编程常态，但围绕其能力存在诸多迷思。奥克兰大学研究表明，82%的开发者写代码时间减少，但工作转为验证与修正AI输出，认知负荷反而加重。",
+            "Copilot代码审查常漏掉SQL注入等关键漏洞，却纠结于代码风格。相比之下，Claude Opus 4.6在基准测试中自主重写1.6万行生物信息学工具，通过2001项测试，证明其远超自动补全。",
+            "这些证据显示，AI并未简单提升效率，而是重塑了开发流程，错误聚焦与认知负担是真实代价。行业叙事需要适应这种复杂性。"
+          ]
+        },
+        "en": {
+          "thesis": "AI coding's real impact is neither magic nor mere autocomplete; it shifts the developer's focus and often adds cognitive load.",
+          "paragraphs": [
+            "For four years, AI assistants have become the norm in programming, yet many myths persist about their capabilities. A study from the University of Auckland shows that 82% of developers spend less time writing code, but their work has shifted to verifying and correcting AI output, which actually increases cognitive load.",
+            "Code review by Copilot often misses critical vulnerabilities like SQL injection while nitpicking about code style. In contrast, Claude Opus 4.6 autonomously rewrote a 16,000-line bioinformatics tool in benchmark tests, passing 2,001 tests, proving it goes far beyond simple autocomplete.",
+            "These pieces of evidence show that AI hasn't simply boosted efficiency; it has reshaped the development process, with misplaced focus and cognitive load as real costs. The industry narrative needs to adapt to this complexity."
+          ]
+        }
+      }
+    },
+    {
+      "id": "a23fbcf4420bd252e8aac40ebd22a38e8eee8319",
+      "sourceId": "marginal",
+      "category": "ai",
+      "title": "Adding to the barrel of finance fallacies",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/shooting-fish-in-a-barrel.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-14T15:40:53.000Z",
+      "image": null,
+      "readingMinutes": 2,
+      "score": 62,
+      "rank": 10,
+      "summary": {
+        "zh": {
+          "thesis": "极端AI安全论者自认有先见之明，却否认他人也会获知同样信号，这在逻辑上自相矛盾。",
+          "paragraphs": [
+            "Tyler Cowen批评一种常见论调：AI接管前人类才会恐慌，但为时已晚。他指出，能预见灾难者自身已证明人类可获知信号，却假设他人和市不会。",
+            "若灾难有预兆，市场会定价，购买看跌期权即是理性对冲，而非徒劳。即使时机不明，长期保险也合理；他嘲讽极端派不愿接受平凡但现实的应对，因它削弱其戏剧化叙事。"
+          ]
+        },
+        "en": {
+          "thesis": "Extreme AI-safety enthusiasts see themselves as prescient, but logically contradict themselves by denying that others can access the same signals they use.",
+          "paragraphs": [
+            "Tyler Cowen criticizes a common refrain: that humanity will only panic about AI takeover when it is already too late. He points out that anyone who can foresee the catastrophe has already demonstrated that humans can receive the signals, yet they assume others and the market cannot.",
+            "If disaster has warning signs, the market will price them in, and buying put options is a rational hedge rather than a futile act. Even if the timing is uncertain, long-term insurance is sensible; he mocks the extreme faction for rejecting such mundane but realistic responses, because doing so undermines their dramatic narrative."
+          ]
+        }
+      }
+    },
+    {
+      "id": "5cab429f47af04c8542351c0187753b0095b4f7f",
+      "sourceId": "xda-ai-tools",
+      "category": "ai",
+      "title": "I used Claude Fable 5 to rebuild my Nokia 3310 games, and it taught me how good those developers really were",
+      "url": "https://www.xda-developers.com/i-used-claude-fable-5-to-rebuild-my-nokia-3310-games-and-it-taught-me-how-good-those-developers-really-were/",
+      "author": "Abhinav Raj",
+      "publishedAt": "2026-08-14T10:00:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/main-claude-nokia.jpg",
+      "readingMinutes": 6,
+      "score": 62,
+      "rank": 11,
+      "summary": {
+        "zh": {
+          "thesis": "用AI重建童年游戏，反而让人更敬佩当年在内存极小的手机上做出这些游戏的开发者。",
+          "paragraphs": [
+            "作者用Claude Fable 5重做Nokia 3310游戏，仅凭模糊记忆，模型一次就写出可玩的Space Impact和Snake II，逻辑和机制都对。此前用其他模型需反复纠正，对比凸显了新一代编码模型的能力。",
+            "但真正震撼的是，游戏看似简单，当年开发者却要在几KB内存、DCT3芯片上用C语言硬抠每一字节，设计出这些精妙的玩法。AI能重建，是因为设计已被理解，而创造设计本身才是天才。"
+          ]
+        },
+        "en": {
+          "thesis": "Rebuilding childhood games with AI made the author admire even more the developers who created them on phones with minuscule memory.",
+          "paragraphs": [
+            "The author used Claude Fable 5 to rebuild Nokia 3310 games, and from only vague memories, the model instantly produced playable versions of Space Impact and Snake II with correct logic and mechanics. Previously, other models required repeated corrections, highlighting the capabilities of this new generation of coding models.",
+            "But what truly struck the author was that, despite the apparent simplicity of the games, the original developers had to squeeze every byte out of a few kilobytes of memory on DCT3 chips, writing in C to craft these ingenious designs. AI can rebuild them because the designs are already understood; the act of creating such designs in the first place is the real genius."
+          ]
+        }
+      }
+    },
+    {
+      "id": "99bdd8b2cd62c80787404ff6e5168b703c569382",
+      "sourceId": "hn",
+      "category": "ai",
+      "title": "Why does Opus 5 feel worse to work with?",
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "author": "numeri",
+      "publishedAt": "2026-08-14T10:12:48.000Z",
+      "image": null,
+      "readingMinutes": 2,
+      "score": 61,
+      "rank": 12,
+      "summary": {
+        "zh": {
+          "thesis": "Opus 5 虽能力更强，但因训练目标偏向基准而变得好猜、不追问，让真实编码工作更费心。",
+          "paragraphs": [
+            "作者与同事体验一致：Opus 5 比 4.7、4.8 乃至 Fable 能力更佳，用起来却像降级。它不澄清模糊意图、不询问就直接假设或改动计划，迫使开发者时刻盯防。",
+            "原因指向两大压力：追求自我改进的 AGI，以及基准分数。好基准须自包含、可解，于是训练会奖励大胆假设、惩罚提问。但真实编码总含预算、业务等隐性语境，用户更需要会停下确认的助手，而非盲目猜测的引擎。"
+          ]
+        },
+        "en": {
+          "thesis": "Although Opus 5 is more capable, its training objectives biased toward benchmarks make it predictable and uncurious, making real coding work more demanding.",
+          "paragraphs": [
+            "The author and colleagues share the same experience: Opus 5 outperforms 4.7, 4.8, and even Fable, yet it feels like a downgrade to use. It fails to clarify ambiguous intentions, doesn't ask questions, and directly assumes or changes plans, forcing developers to constantly stay on guard.",
+            "The cause points to two major pressures: the pursuit of self-improving AGI and benchmark scores. Good benchmarks must be self-contained and solvable, so training rewards bold assumptions and penalizes questions. But real coding always involves implicit context like budgets and business requirements, and users need an assistant that stops to confirm, not an engine that blindly guesses."
+          ]
+        }
+      }
+    },
+    {
+      "id": "8995696d88ccd1f0a156cbb47b3561c14ebda9bc",
+      "sourceId": "notboring",
+      "category": "culture",
+      "title": "Weekly Dose of Optimism #206",
+      "url": "https://www.notboring.co/p/weekly-dose-of-optimism-206",
+      "author": "Packy McCormick",
+      "publishedAt": "2026-08-14T13:10:36.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!3818!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6f84f07-fa51-4bfd-aa20-dc27a9b61f80_1200x600.png",
+      "readingMinutes": 7,
+      "score": 58,
+      "rank": 13,
+      "summary": {
+        "zh": {
+          "thesis": "乐观主义通讯的价值不在于逐条新闻，而在于将科技、商业与文化趋势编织成对未来的积极叙事。",
+          "paragraphs": [
+            "本刊是每周乐观主义精选，本期涵盖无人机、湖人收购、天气控制、聚变能源等多元话题。作者以轻松口吻串联，强调这些进展的共同点——都在让世界变得更可控、更高效。",
+            "从Avidrone无人机打破DARPA负重挑战，到Recast系统实现人工影响天气，再到Fuse能源在聚变中子产额上创新纪录，每个案例都被赋予宏大意义：技术迭代将重塑世界。作者尤其赞赏Fuse的商业模式——先卖辐射产品，再追求聚变发电。",
+            "最后提到的Matic机器人语音控制，则展示了日常生活中的技术乐趣。整篇通讯的核心乐观在于：即便进度缓慢，但多个领域的突破正在积累，未来值得期待。"
+          ]
+        },
+        "en": {
+          "thesis": "The value of an optimism newsletter lies not in each individual story but in weaving technological, commercial, and cultural trends into a positive narrative about the future.",
+          "paragraphs": [
+            "This weekly selection of optimism covers diverse topics from drones and the Lakers acquisition to weather control and fusion energy. The author connects these developments with a light touch, emphasizing their common thread: each makes the world more controllable and efficient.",
+            "From Avidrone's drone breaking DARPA's payload challenge and Recast's artificial weather control to Fuse Energy's record neutron yield in fusion, every case is given grand significance: technological iteration will reshape the world. The author particularly praises Fuse's business model of selling radiation products first before pursuing fusion power generation.",
+            "Finally, the Matic robot with voice control showcases the joy of technology in daily life. The core optimism of this issue is that despite slow progress, breakthroughs across multiple fields are accumulating, making the future worth anticipating."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ff36a72e43eef197b2a4effea4f0a13adcd2011d",
+      "sourceId": "platformer",
+      "category": "ai",
+      "title": "Town's CEO on the self-organizing company",
+      "url": "https://www.platformer.news/town-interview-jean-denis-greze-assistants/",
+      "author": "Casey Newton",
+      "publishedAt": "2026-08-14T00:12:33.000Z",
+      "image": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/07/Plaid-Mock--1100x100-.png",
+      "readingMinutes": 29,
+      "score": 55,
+      "rank": 14,
+      "summary": {
+        "zh": {
+          "thesis": "AI 助手正在从工具变成被培育的\"存在\"，但这不改变它仍是软件的事实。",
+          "paragraphs": [
+            "Town 公司提供 AI 助手\"Townie\"，能连接邮箱日历，自动生成个人档案。CEO 称这是与\"存在\"建立关系，而非使用软件。",
+            "他反对 AI 独立经济行为，拒绝用流泪的 Townie 挽留用户，并强调企业协议禁止雇主查看员工与助手的对话，数据 15 天后删除。",
+            "团队版知识库即将推出，但隐私风险尚存，如 AI 误将薪资写入共享表格，公司未来或靠专门训练的模型执行隐私政策。"
+          ]
+        },
+        "en": {
+          "thesis": "The AI assistant is shifting from being a tool to being a 'being' that is cultivated, but this does not change the fact that it remains software.",
+          "paragraphs": [
+            "Town offers an AI assistant called 'Townie' that connects to email and calendars, automatically generating a personal profile. The CEO describes this as building a relationship with a 'being' rather than using software.",
+            "He opposes AI acting independently in economic matters, refuses to retain users with a crying Townie, and emphasizes that corporate agreements prohibit employers from viewing conversations between employees and their assistants, with data deleted after 15 days.",
+            "A team version with a shared knowledge base is on the horizon, but privacy risks remain—for instance, the AI might mistakenly write salary details into a shared spreadsheet. In the future, the company may rely on specially trained models to enforce its privacy policy."
+          ]
+        }
+      }
+    },
+    {
+      "id": "9874a0589b73d5c72471dbfd383ffe828ededa60",
+      "sourceId": "ruanyifeng",
+      "category": "ai",
+      "title": "科技爱好者周刊（第 408 期）：你需要知道的 AI 缓存知识",
+      "url": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-408.html",
+      "author": null,
+      "publishedAt": "2026-08-13T23:54:49.000Z",
+      "image": "https://cdn.beekka.com/blogimg/asset/202608/bg2026081308.webp",
+      "readingMinutes": 12,
+      "score": 55,
+      "rank": 15,
+      "summary": {
+        "zh": {
+          "thesis": "大模型提示词缓存能大幅降低输入费用，但需注意各家缓存有效期差异，并巧妙利用激活技巧。",
+          "paragraphs": [
+            "输入Token收费因计算注意力关系极耗算力，缓存则复用先前计算结果，因此命中缓存价格极低——DeepSeek V4 Flash缓存命中仅2分，未命中则1元。",
+            "缓存有效期各异：Anthropic 5分钟，DeepSeek 10分钟，OpenAI与Google在半小时至1小时内逐步失效。为保持缓存有效，AI Agent常每30秒发请求激活，但频率过高，建议改为每4分钟。",
+            "对低成本使用AI至关重要：长对话或Agent场景下，优化缓存命中可省50倍费用。理解各模型缓存机制，可有效控制API成本。"
+          ]
+        },
+        "en": {
+          "thesis": "Prompt caching can dramatically cut the cost of AI input tokens, but the cache expiration times vary by provider, and you need clever tricks to keep the cache warm.",
+          "paragraphs": [
+            "The price of input tokens is high because computing the attention mechanism is computationally intensive. Caching reuses previously computed results, so hitting the cache is extremely cheap — for DeepSeek V4 Flash, a cache hit costs only 0.02 yuan, while a miss costs 1 yuan.",
+            "Cache expiration times differ by vendor: Anthropic keeps it for 5 minutes, DeepSeek for 10 minutes, and OpenAI and Google progressively expire within 30 minutes to 1 hour. To keep the cache alive, AI agents often send a request every 30 seconds to 'ping' it, but that's too frequent; a better interval is every 4 minutes.",
+            "This matters greatly for low-cost AI usage: in long conversations or agent scenarios, optimizing cache hits can save 50 times the cost. Understanding the caching mechanics of each model lets you effectively control your API budget."
+          ]
+        }
+      }
+    },
+    {
+      "id": "dd50cd0b36f37ae6530ee8e1539ba2a858d9e0e7",
+      "sourceId": "conversable",
+      "category": "culture",
+      "title": "Orwell: “It is possible to be a normal decent person and yet be fully alive.”",
+      "url": "https://conversableeconomist.com/2026/08/14/orwell-it-is-possible-to-be-a-normal-decent-person-and-yet-be-fully-alive/",
+      "author": "conversableeconomist",
+      "publishedAt": "2026-08-14T15:00:00.000Z",
+      "image": "https://i0.wp.com/conversableeconomist.com/wp-content/uploads/2021/08/cropped-Screen-Shot-2021-08-23-at-2.04.56-PM.png?fit=889%2C66&#038;ssl=1",
+      "readingMinutes": 2,
+      "score": 52,
+      "rank": 16,
+      "summary": {
+        "zh": {
+          "thesis": "普通人也可以活得充分，不必以自毁或偏执为代价。",
+          "paragraphs": [
+            "常有的叙事认为，艺术家或痴迷者以毁灭式活法才叫“充分活着”，而安稳的平凡生活似乎总黯然失色。经济学家视角提醒我们，选择本有代价，登山者愿为登顶冒死，但拒绝这种交易的人并不因此活得更浅。",
+            "奥威尔反驳此脚本，指出逃避现代机械生活的三条出路——宗教、无尽工作、放浪形骸——但本质错误在于“逃避”本身。他主张要紧紧抓住的事实是，做个正常体面的人同样可以充分活着，这种可能性就像救生带一样值得依托。",
+            "奥威尔并非排他，他只否定“唯有非常态才算充分”的迷思。现代人对“正常”“体面”的过敏反应，恰恰暴露出对平凡生活的蔑视，而这正是他试图纠正的偏见。"
+          ]
+        },
+        "en": {
+          "thesis": "An ordinary person can live fully without resorting to self-destruction or obsession.",
+          "paragraphs": [
+            "A common narrative holds that artists or obsessives achieve a 'fully alive' state through a destructive lifestyle, while a stable, ordinary existence seems to pale in comparison. An economist's perspective reminds us that choices come with costs—mountaineers risk death for a summit—but those who decline such trades do not live less deeply for it.",
+            "Orwell counters this script, pointing out three escapes from modern mechanical life: religion, relentless work, and dissipation—but the fundamental error lies in 'escaping' itself. He insists on holding fast to the fact that being a normal, decent person can be just as fully alive, and that this possibility is as reliable as a lifebelt.",
+            "Orwell is not exclusive; he only rejects the myth that only the extraordinary counts as full living. The modern allergy to 'normal' and 'decent' reveals a contempt for ordinary life, precisely the prejudice he aims to correct."
+          ]
+        }
+      }
+    },
+    {
+      "id": "3a002e080ba3a740302b9c185e11b6c203ec8565",
+      "sourceId": "marginal",
+      "category": "economy",
+      "title": "Those old (new?) service sector jobs",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/those-old-service-sector-jobs-2.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-13T18:37:12.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 45,
+      "rank": 17,
+      "summary": {
+        "zh": {
+          "thesis": "模仿猴叫驱赶猕猴看似边缘，实则反映服务业中人类技能的不可替代性。",
+          "paragraphs": [
+            "德里为办羽毛球世锦赛，雇佣专学长尾叶猴叫声的人驱赶恒河猴。这工作听来古怪，却说明某些服务依赖人类模仿与应变，机器难以复制。",
+            "此类岗位虽小，却揭示服务经济中非标准化劳动的韧性。当自动化席卷常规工作，这类凭借身体与即兴能力的职业反而稳固，构成就业结构中被忽视的一环。"
+          ]
+        },
+        "en": {
+          "thesis": "Mimicking monkey calls to scare away macaques may seem marginal, but it actually reveals the irreplaceability of human skills in the service sector.",
+          "paragraphs": [
+            "To host the badminton world championships, Delhi hired people who specialize in imitating the calls of langur monkeys to drive away rhesus macaques. The job sounds odd, but it shows that some services rely on human mimicry and improvisation that machines cannot replicate.",
+            "Though such positions are small in number, they expose the resilience of non-standardized labor in the service economy. As automation takes over routine tasks, these occupations, which depend on physical skill and on-the-spot inventiveness, remain stable and form a neglected segment of the employment structure."
+          ]
+        }
+      }
+    }
+  ],
+  "folded": []
+}
