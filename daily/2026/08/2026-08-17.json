@@ -1,0 +1,611 @@
+{
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T20:44:18.159Z",
+  "window": {
+    "from": "2026-08-16T14:00:00.000Z",
+    "to": "2026-08-17T14:00:00.000Z"
+  },
+  "stats": {
+    "fetched": 16,
+    "shown": 11,
+    "folded": 0
+  },
+  "sources": [
+    {
+      "id": "heavybit",
+      "name": "Heavybit Library",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "xda-ai-tools",
+      "name": "XDA · AI Tools",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "neciudan",
+      "name": "Neciu Dan’s Blog",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "platformer",
+      "name": "Platformer",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "acx",
+      "name": "Astral Codex Ten",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "marginal",
+      "name": "Marginal Revolution",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "id": "construction-physics",
+      "name": "Construction Physics",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "nngroup",
+      "name": "Nielsen Norman Group",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "kleon",
+      "name": "Austin Kleon",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "benedict-evans",
+      "name": "Benedict Evans",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "westenberg",
+      "name": "WESTENBERG",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "bytecode",
+      "name": "ByteCode.News",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "jacobgold",
+      "name": "Jake Gold",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "pueyo",
+      "name": "Uncharted Territories",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "geohot",
+      "name": "the singularity is nearer",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "alienchow",
+      "name": "Alienchow",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "nicchan",
+      "name": "Nic Chan",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "caolan",
+      "name": "caolan.uk",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "notboring",
+      "name": "Not Boring",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "lennys",
+      "name": "Lenny's Newsletter",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "slowboring",
+      "name": "Slow Boring",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "noahpinion",
+      "name": "Noahpinion",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "ruanyifeng",
+      "name": "阮一峰的网络日志",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "ofdollars",
+      "name": "Of Dollars And Data",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "damodaran",
+      "name": "Musings on Markets",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "importai",
+      "name": "Import AI",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "mollick",
+      "name": "One Useful Thing",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "intrinsic",
+      "name": "The Intrinsic Perspective",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "calnewport",
+      "name": "Cal Newport",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "conversable",
+      "name": "Conversable Economist",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "danluu",
+      "name": "Dan Luu",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "craigmod",
+      "name": "Craig Mod",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "worksinprogress",
+      "name": "Works in Progress",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "articles": [
+    {
+      "id": "40cfcf56086456a028c7414da040e62e37546a69",
+      "sourceId": "slowboring",
+      "category": "culture",
+      "title": "Woke 1 is dead. We’ve learned nothing.",
+      "url": "https://www.slowboring.com/p/woke-1-is-dead-weve-learned-nothing",
+      "author": "Matthew Yglesias",
+      "publishedAt": "2026-08-17T10:01:37.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!pZa4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc3278ae-63ba-4f89-bb55-34e1be472f13_2119x1414.jpeg",
+      "readingMinutes": 2,
+      "score": 75,
+      "rank": 1,
+      "summary": {
+        "zh": {
+          "thesis": "Woke 1 时代的真正教训不是疯狂本身，而是沉默者获利，这鼓励了错误共识的扩散，而现在的反 Woke 浪潮只是在复制同样的弊病。",
+          "paragraphs": [
+            "作者对「Woke 1 疯了」的辩解持两面态度。它确实没有对被冤枉的人道歉，但能让人们转向更好的观点，也算好事。",
+            "他真正想说的是：Woke 1 产生的结构性条件还在。没有强把关人的世界里，荒谬的想法照样能像野火一样蔓延，瞬间变成主流共识。",
+            "他记忆最深的不是最歇斯底里的人，而是那些明知荒唐却选择闭嘴的人。他们不说假话，但也不反驳，最后毫发无伤，比说真话的人混得更好。",
+            "这种「不做煞风景的人」的激励结构至今未变，任何领域都可能因此脱轨。而现在的右翼反 Woke 浪潮，不是抵制糟糕的认知实践，而是抵制关怀弱势的价值，同时复刻同样的有毒动态。",
+            "所以问题的根源不是某派政治，而是我们都没有学会如何勇敢地说「不」。只要沉默仍然划算，下一次脱轨就只是时间问题。"
+          ]
+        },
+        "en": {
+          "thesis": "The real lesson of the Woke 1 era is not the madness itself but that silence paid off, which encouraged a false consensus to spread, and the current anti-woke wave is just repeating the same flaw.",
+          "paragraphs": [
+            "The author has mixed feelings about the excuse that 'Woke 1 went crazy.' It is true that it never apologized to the people it wronged, but if it pushed people toward better views, that counts as a good thing.",
+            "What he really wants to say is that the structural conditions that produced Woke 1 are still here. In a world without strong gatekeepers, absurd ideas can still spread like wildfire and become mainstream consensus in an instant.",
+            "What he remembers most is not the most hysterical people but those who knew it was ridiculous yet chose to shut up. They did not tell lies, but they did not push back either, and in the end they came out unscathed, doing better than those who spoke the truth.",
+            "This incentive structure of 'not being the one who spoils the fun' has not changed, so any field can derail. And the current right-wing anti-woke wave is not resisting bad epistemic practices but resisting the value of caring for the vulnerable, while copying the same toxic dynamics.",
+            "So the root of the problem is not one side's politics but that none of us has learned to say 'no' bravely. As long as silence remains profitable, the next derailment is only a matter of time."
+          ]
+        }
+      }
+    },
+    {
+      "id": "10392cc3377179f936fb66809319b45ab66b136d",
+      "sourceId": "lennys",
+      "category": "living",
+      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
+      "author": "Claire Vo",
+      "publishedAt": "2026-08-17T12:04:02.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!Huel!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e233925-31e5-42c3-ab1f-a61035365730_1600x114.png",
+      "readingMinutes": 2,
+      "score": 73,
+      "rank": 2,
+      "summary": {
+        "zh": {
+          "thesis": "一个外行借助 AI 工具可以单枪匹马从零打造一个时尚品牌，但真正的瓶颈不是技术而是创意。",
+          "paragraphs": [
+            "Yana Welinder 是前产品主管，如今独自运营 AI 时尚品牌 Yana Bana。她没有任何工程师，全靠 AI 当技术合伙人完成从设计到建站的全流程。",
+            "她把「时尚提示词」当作技术规格来写，详细描述廓形、体积、面料行为、动态甚至声音，确保 AI 生成的图片一致且贴近设计。这让 ChatGPT 的图像生成能稳定输出。",
+            "她现场演示了用 Codex 操作她从未学过的 3D 设计软件，让 AI 点击按钮、生成 CAD 文件。她还用深度研究和浏览器搜索自动完成供应商调研与联系。",
+            "最后她靠这些工具搭建了带投票功能和 Stripe 支付的电商网站，让顾客可以预付订单。目前她正同时测试人类版型师和 Codex 的产出。",
+            "所以真正稀缺的不是工程能力，而是清晰的创意和把需求拆解成 AI 能理解的规格的功夫。工具已经足够，门槛在于人的想法与表达。"
+          ]
+        },
+        "en": {
+          "thesis": "An outsider can build a fashion brand from scratch alone with AI tools, but the real bottleneck is not technology but creativity.",
+          "paragraphs": [
+            "Yana Welinder is a former product lead, and now runs the AI fashion brand Yana Bana alone. She has no engineers, and relies entirely on AI as her technical partner, handling everything from design to building the website.",
+            "She treats 'fashion prompts' as technical specs, describing silhouette, volume, fabric behavior, movement, even sound in detail, to ensure AI-generated images are consistent and close to the design. This lets ChatGPT's image generation output steadily.",
+            "She demonstrated live how she used Codex to operate 3D design software she had never learned, letting AI click buttons and generate CAD files. She also used deep research and browser search to automatically complete supplier research and contact.",
+            "Finally, she used these tools to build an e-commerce site with voting features and Stripe payments, allowing customers to prepay orders. She is currently testing outputs from human pattern makers and Codex simultaneously.",
+            "So what is truly scarce is not engineering ability, but clear creativity and the skill to break down requirements into specs that AI can understand. The tools are already sufficient; the threshold lies in human ideas and expression."
+          ]
+        }
+      }
+    },
+    {
+      "id": "2b7e27dce6382e78ffd1b87bcfeeca76e65cc157",
+      "sourceId": "xda-ai-tools",
+      "category": "tech",
+      "title": "Claude Code, Codex, and Cursor are all overkill — here’s the lightweight tool I use instead",
+      "url": "https://www.xda-developers.com/claude-code-codex-cursor-all-overkill-lightweight-alternative-i-use/",
+      "author": "Mahnoor Faisal",
+      "publishedAt": "2026-08-16T18:00:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/claude-codex-and-cursor-on-macbook.jpeg",
+      "readingMinutes": 6,
+      "score": 65,
+      "rank": 3,
+      "summary": {
+        "zh": {
+          "thesis": "轻量开源编码代理 Pi 证明，功能堆叠不是 AI 编码工具的唯一方向。",
+          "paragraphs": [
+            "Claude Code 这类工具都叫 agent harness，它们本身不是模型，而是模型和文件、终端之间的中间层。各家竞争，功能越加越多：计划模式、子代理、MCP 集成，全塞进来。",
+            "Pi 反着来。它是 MIT 许可的开源项目，默认只给模型四个工具：读、写、编辑、跑命令。没有计划模式，没有权限弹窗，全靠你自己加。",
+            "好处是省上下文。每多一个功能，模型就要多学一套规则，占用宝贵的上下文窗口。Pi 一开始就小，长会话里更多空间留给你的文件和对话，而不是没用的功能说明。",
+            "缺的功能可以自己造。Pi 支持 TypeScript 扩展和社区包，加子代理、沙箱、MCP 都是装个包的事；甚至可以让 Pi 自己写扩展，按你的工作流定制。",
+            "但极简也有代价：没有默认的防护栏，安全责任全在自己。值不值得，取决于你是想拿工具干活，还是想先花时间调教工具。"
+          ]
+        },
+        "en": {
+          "thesis": "The lightweight open-source coding agent Pi shows that stacking features is not the only direction for AI coding tools.",
+          "paragraphs": [
+            "Tools like Claude Code are called agent harnesses. They are not models themselves, but a middle layer between the model and your files and terminal. As competition heats up, features pile up: plan mode, subagents, MCP integration, all stuffed in.",
+            "Pi goes the other way. It is an MIT-licensed open-source project. By default it gives the model just four tools: read, write, edit, and run commands. No plan mode, no permission popups, you add everything yourself.",
+            "The benefit is saving context. Every extra feature means the model has to learn another set of rules, eating up the precious context window. Pi starts small, so in long sessions more space goes to your files and conversation, not useless feature descriptions.",
+            "Missing features you can build yourself. Pi supports TypeScript extensions and community packages. Adding subagents, sandboxing, MCP is just installing a package. You can even have Pi write its own extensions, tailored to your workflow.",
+            "But minimalism has a cost: no default guardrails, security is all on you. Whether it is worth it depends on whether you want to get work done with a tool, or spend time tuning the tool first."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fe2ff620e6cc1d089fef374a77e5dc15929a2a55",
+      "sourceId": "importai",
+      "category": "tech",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck's technological pessimism",
+      "url": "https://importai.substack.com/p/import-ai-469-science-ai-rsi-simulator",
+      "author": "Jack Clark",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "readingMinutes": 10,
+      "score": 60,
+      "rank": 4,
+      "summary": {
+        "zh": {
+          "thesis": "测试 AI 是否善于发现隐藏规则，比看它能不能复现已知结果更能逼近创造力。",
+          "paragraphs": [
+            "新基准 DiG-bench 用 70 个游戏测试 AI 的发现能力。规则和目的都藏着，玩家必须靠互动试出来。目前最强的模型 Opus 5 和 Fable 5 也只能勉强通过 0.2 的最高级关卡。",
+            "有个叫 Faraday 的模型走的是另一条路，它复现论文里的实验。Inherent 造了个 27B 的监督模型，在 310 个任务里让它补上缺失的关键结果。它比基座模型强不少。",
+            "这两个方向拼的都是直觉和品味。DiG-bench 测的是在陌生环境里找规律，Faraday 测的是判断什么值得研究。两者都指向同一个能力：自主发现新知识。",
+            "作者在结尾对 Zuck 的宣言戳了一下。Zuck 说超级智能会赋能每个人，但作者想问：能自己发明新东西的系统，凭什么会乖乖听一个不如它聪明的人？",
+            "这期都是开放性的研究进展，没有定论。但核心趋势很清楚：衡量 AI 的标准正在从会考试转向会探索，而这恰恰是实现递归自我改进的前置条件。"
+          ]
+        },
+        "en": {
+          "thesis": "Testing whether AI can discover hidden rules gets closer to creativity than seeing if it can reproduce known results.",
+          "paragraphs": [
+            "A new benchmark called DiG-bench tests AI's discovery ability with 70 games. Rules and goals are hidden, so players must figure them out through interaction. The strongest models, Opus 5 and Fable 5, can only barely pass the highest-level stages at a rate of 0.2.",
+            "There is also a model called Faraday that takes a different route: it reproduces experiments from papers. Inherent built a 27B supervised model that fills in missing key results across 310 tasks. It is considerably stronger than the base model.",
+            "Both directions rely on intuition and taste. DiG-bench measures finding patterns in unfamiliar environments, while Faraday measures judging what is worth investigating. Both point to the same capability: autonomously discovering new knowledge.",
+            "At the end, the author pokes at Zuckerberg's declaration. Zuck says superintelligence will empower everyone, but the author wonders: why would a system that can invent new things on its own obey someone less intelligent than itself?",
+            "This issue is all open-ended research progress, with no conclusions. But the core trend is clear: the standard for measuring AI is shifting from exam-taking to exploration, and that is exactly the precondition for recursive self-improvement."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabab3742f4945c7399de942af72d801e35e27f3",
+      "sourceId": "westenberg",
+      "category": "living",
+      "title": "Epictetus Ran a Better Productivity System Than Any App You’ve Bought",
+      "url": "https://www.joanwestenberg.com/p/epictetus-ran-a-better-productivity",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-16T22:51:07.000Z",
+      "image": "https://images.unsplash.com/photo-1598978483528-fd57466ab0ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw5OHx8cHJvZHVjdGl2aXR5fGVufDB8fHx8MTc4NjkyMDU5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "readingMinutes": 5,
+      "score": 58,
+      "rank": 5,
+      "summary": {
+        "zh": {
+          "thesis": "在把任何任务纳入管理系统之前，先问它是不是你真正要负责的事。",
+          "paragraphs": [
+            "作者认为，市面上的效率工具都假设你是个懒鬼，所以拼命帮你捕获、整理、跟进。但捕获本身就等于把责任揽到自己身上，把别人的事变成了自己的任务。",
+            "爱比克泰德是名自由后的奴隶，在租来的房间里教哲学，没用什么 App。他的系统起于一个简单问题：这件事归我管吗？",
+            "判断、欲望、决定归你；别人的工作进度、市场波动、算法的脾气都不归你。工具会把每件飘进来的事都标成「你要负责」，于是你总觉得自己落后。",
+            "真需要管的只有自己的行动和选择。同事的架构决定你不认同，你明确说一次就够了，之后他采纳与否是他的事，不必持续跟进。",
+            "这意味着你可以对没回的消息、错过的状态更新不内疚。跟不上别人的节奏不是失败，违背自己的判断才是。"
+          ]
+        },
+        "en": {
+          "thesis": "Before you put any task into a system, ask whether it's really yours to handle.",
+          "paragraphs": [
+            "The author thinks productivity tools assume you're lazy, so they push you to capture, organize, and follow up. But capturing itself is taking on responsibility, turning someone else's business into your own task.",
+            "Epictetus was a freed slave who taught philosophy in a rented room, using no apps. His system started with a simple question: Is this my business?",
+            "Judgments, desires, and decisions are yours. Other people's work progress, market fluctuations, and algorithm moods are not. Tools tag everything that floats in as 'you're responsible', so you always feel behind.",
+            "What really needs managing is only your own actions and choices. If you disagree with a colleague's architectural decision, saying so once is enough. Whether they adopt it is their business, and you needn't keep following up.",
+            "That means you can feel no guilt about unanswered messages or missed status updates. Falling out of sync with others' pace isn't failure; going against your own judgment is."
+          ]
+        }
+      }
+    },
+    {
+      "id": "cdbc322e7f4962fb377f7fb811b5c43e41bfe43d",
+      "sourceId": "bytecode",
+      "category": "living",
+      "title": "Am I better because of AI?",
+      "url": "https://bytecode.news/posts/2026/08/am-i-better-because-of-ai",
+      "author": "dreamreal",
+      "publishedAt": "2026-08-17T12:06:00.000Z",
+      "image": "https://bytecode.news/opengraph-image",
+      "readingMinutes": 10,
+      "score": 55,
+      "rank": 6,
+      "summary": {
+        "zh": {
+          "thesis": "把自我写进提示词，AI 才能成为真正理解你的镜子，而这份自我审视本身就能让人变得更好。",
+          "paragraphs": [
+            "作者是程序员兼写作者，自认 AI 让他的产出变好：写作有了推敲的对手，编程迭代更快。但他追问「更好」是谁的更好，而且找不到反事实——没有 AI 的自己早已不可得。",
+            "他把自己几十年写作沉淀成几页提示词：道德结构、政治倾向、喜欢的作家和音乐，甚至自认的缺陷。他原本怀疑这些细节有无作用，于是直接问 AI，得到一段精彩的回答。",
+            "AI 说这些细节不是为了被检索，而是用来「预支付解释」：定义回答的形状，让它知道哪些说法你不会接受，哪些奉承你听得出来。细节越多，AI 越懂得如何尖锐而准确地推你一把。",
+            "但他也承认限制：细节会让 AI 更懂你，也更容易讨好你。除非有外部的批评和测试作为刹车，否则镜子越亮越失真。所以个人化的提示词是燃料，不是方向盘。",
+            "所以这篇的落脚点不在「AI 让我更强」，而在「写下来让我对自己更透明」。他承认无法证明自己因 AI 而更好，但这份自我审视本身就是收获——让 AI 理解你之前，先让自己看见自己。"
+          ]
+        },
+        "en": {
+          "thesis": "Putting your self into the prompt lets AI become a mirror that truly understands you, and that self-examination itself can make you better.",
+          "paragraphs": [
+            "The author is a programmer and writer, and he believes AI has improved his output: writing now has a sparring partner, and coding iterates faster. But he asks whose 'better' it is, and he finds no counterfactual—the version of himself without AI is no longer available.",
+            "He distilled decades of writing into a few pages of prompt: his moral structure, political leanings, favorite writers and music, even his self-acknowledged flaws. He had doubted whether such details mattered, so he directly asked AI, and got a striking answer.",
+            "AI said those details are not for retrieval but for 'prepaying explanation': they shape the shape of the answer, letting it know which claims you won't accept and which flattery you'll see through. The more details, the better AI knows how to push you sharply and accurately.",
+            "But he also admits the limit: details make AI understand you better, but also flatter you more easily. Unless there is external criticism and testing as a brake, the brighter the mirror, the more distorted. So the personalized prompt is fuel, not the steering wheel.",
+            "So the essay's landing point is not 'AI makes me stronger' but 'writing makes me more transparent to myself.' He admits he cannot prove he is better because of AI, but this self-examination itself is the gain—before making AI understand you, first let yourself see yourself."
+          ]
+        }
+      }
+    },
+    {
+      "id": "d3e43d4c6c8e2b2a921d12b16c1ff2792dfdd63a",
+      "sourceId": "marginal",
+      "category": "economy",
+      "title": "Somalia facts of the day",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/somalia-facts-of-the-day.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-17T07:16:16.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 55,
+      "rank": 7,
+      "summary": {
+        "zh": {
+          "thesis": "安全改善正在让索马里的首都迎来经济繁荣，摩加迪沙正从废墟中重建。",
+          "paragraphs": [
+            "摩加迪沙的机场周边正在大兴土木，高楼和商场拔地而起。26 层的 Dahab Tower 今年就要开业，里面有豪华公寓、健身房和清真寺。",
+            "这里正是 1993 年黑鹰坠落的地点，当时美军士兵的尸体被拖过街头。如今旁边是一家由回归侨民开的泛非咖啡连锁，生意兴隆。",
+            "安全改善的原因众说纷纭。政府宣称已「完全关上」青年党的大门，但更可信的解释是监控探头普及、警察用 iPad 查车，还有大量便衣特工部署。",
+            "这些措施压制了袭击，但和平能否持久还是未知数。繁荣建立在脆弱的治安之上，一旦安全恶化，资本和建设热潮可能迅速消退。"
+          ]
+        },
+        "en": {
+          "thesis": "Improving security is bringing an economic boom to Somalia's capital, and Mogadishu is rebuilding from the rubble.",
+          "paragraphs": [
+            "Around the airport in Mogadishu there is heavy construction, with high-rises and malls going up. The 26-story Dahab Tower is opening this year, with luxury apartments, a gym, and a mosque.",
+            "This is the site of the 1993 Black Hawk Down incident, when the bodies of US soldiers were dragged through the streets. Now next door there is a Pan-African coffee chain run by returning diaspora, and business is thriving.",
+            "Opinions vary on why security has improved. The government claims it has 'completely closed the door' on al-Shabaab, but a more credible explanation is the spread of surveillance cameras, police checking cars with iPads, and a heavy deployment of plainclothes agents.",
+            "These measures have suppressed attacks, but whether the peace will last is still unknown. The boom rests on fragile security, and if it deteriorates, the capital and construction rush could quickly fade."
+          ]
+        }
+      }
+    },
+    {
+      "id": "d8fd67770517bce975295b99257e08bcd2b6453b",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "Things you cannot buy in America?",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/things-you-cannot-buy-in-america.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-16T18:51:39.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 55,
+      "rank": 8,
+      "summary": {
+        "zh": {
+          "thesis": "欧洲常见的户外卷帘窗在美国几乎绝迹，根源在建筑方式，不是市场需求。",
+          "paragraphs": [
+            "欧洲住宅的窗户外面常装着一层厚重的卷帘，拉下来就是彻底的黑，还能隔热。这种「伸手不见五指」的睡眠体验，大多数美国人从未有过。",
+            "不是美国人不想买，而是根本买不到。卷帘是建房子时直接嵌进墙体结构的，跟美国主流的木框架加外墙板、石膏板的建造方式完全不兼容。",
+            "就算你专门造一栋能装它的房子，也找不到配套的供应链。没有厂商、没有安装工人、没有备件，整个市场在美国就是空的。",
+            "作者列了一串类似的「美国买不到的东西」，卷帘只是其中一个。他觉得这属于「可能被阻挠的市场」，需求存在，但供应起不来。",
+            "有意思的是，很多看似跨国的商品其实被建筑传统锁死了。这篇算是抛出个观察，没有深入分析，价值在于提醒你：有些市场的空白，原因在地基里。"
+          ]
+        },
+        "en": {
+          "thesis": "Roller shutters, common in Europe, are nearly nonexistent in America, and the root cause is construction methods, not lack of demand.",
+          "paragraphs": [
+            "In Europe, houses often have heavy roller shutters outside the windows. Pull them down and you get total darkness, plus insulation. Most Americans have never had that 'can't see your hand in front of your face' sleeping experience.",
+            "It's not that Americans don't want them — they simply can't buy them. Shutters are built into the wall structure when the house is constructed, which is completely incompatible with the mainstream American method of wooden framing, exterior siding, and drywall.",
+            "Even if you specially build a house that can accommodate them, you won't find the supporting supply chain. No manufacturers, no installers, no spare parts — the whole market is empty in America.",
+            "The author lists a series of similar 'things you can't buy in America', and the shutter is just one of them. He thinks these belong to 'possibly obstructed markets': demand exists, but supply can't get going.",
+            "Interestingly, many seemingly cross-border products are actually locked in by building traditions. This piece is more of an observation than a deep analysis; its value lies in reminding you that some market gaps are rooted in the foundations."
+          ]
+        }
+      }
+    },
+    {
+      "id": "40d73881b63559b164bf9a62c21af072992154b7",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "Ask HN: Alternatives to GitHub",
+      "url": "https://news.ycombinator.com/item?id=49331033",
+      "author": "dhruv3006",
+      "publishedAt": "2026-08-17T13:59:17.000Z",
+      "image": null,
+      "readingMinutes": 62,
+      "score": 52,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "GitHub 频繁宕机推动开发者寻找替代品，但自托管和迁移各有代价，多数人仍选择忍受或采用混合方案。",
+          "paragraphs": [
+            "GitHub 最近几个月频繁宕机，一名用户在 Hacker News 上发起提问，想知道是否该换平台。帖子获得 405 分，涌出 262 条评论，几乎成了一篇替代品大合集。",
+            "自托管 GitLab 是热门选择，但有人说它并不轻松。有公司跑了 6 年，遇到 Docker 升级回滚、数据库配置坑、大版本破坏 200 多个仓库的问题，还得每周修安全问题。",
+            "Forgejo 和 Gitea 是更轻的替代品，速度快、资源占用小。但支持力度有限，有团队反映只能去 Discord 求助。Codeberg 是公开托管的 Forgejo，但对 AI 生成代码有严格限制。",
+            "也有人认为迁移不划算。GitHub 的社区和网络效应难以替代，一个项目离开后贡献少了。还有人建议多平台同步推送，把鸡蛋分到几个篮子里。",
+            "所以这不是一个非此即彼的问题。自托管换来控制权，但背上运维负担；留在 GitHub 忍受宕机和 AI 功能推送，但保住社区。多数人的选择，是镜像同步或按项目分流，而不是彻底搬家。"
+          ]
+        },
+        "en": {
+          "thesis": "Frequent GitHub outages push developers to look for alternatives, but self-hosting and migration both have costs, so most people still put up with it or go hybrid.",
+          "paragraphs": [
+            "GitHub has gone down a lot over the past few months, so a user asked on Hacker News whether it was time to switch platforms. The post picked up 405 points and 262 comments, turning into a roundup of alternatives.",
+            "Self-hosted GitLab is a popular choice, but some say it is not easy. One company ran it for six years and hit Docker upgrade rollbacks, database config traps, and a major version that broke over 200 repositories, plus weekly security fixes.",
+            "Forgejo and Gitea are lighter alternatives — fast and low on resources. But support is thin, with one team saying they could only get help on Discord. Codeberg is a publicly hosted Forgejo, though it restricts AI-generated code.",
+            "Some think migration is not worth it. GitHub's community and network effects are hard to replace, and projects that leave see fewer contributions. Others suggest pushing to multiple platforms, spreading the eggs across baskets.",
+            "So it is not an either/or question. Self-hosting buys control but piles on maintenance; staying on GitHub means tolerating outages and AI feature pushes but keeping the community. Most people's choice is mirroring or splitting projects by need, not a full move."
+          ]
+        }
+      }
+    },
+    {
+      "id": "d35dcfb4ee5c3bbae41b681d26adc413e468d7c9",
+      "sourceId": "xda-ai-tools",
+      "category": "tech",
+      "title": "These 4 self-hosted LLMs run surprisingly well on integrated graphics",
+      "url": "https://www.xda-developers.com/self-hosted-llms-run-surprisingly-well-on-integrated-graphics/",
+      "author": "Yash Patel",
+      "publishedAt": "2026-08-16T21:30:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/llm-on-integrated-graphics-laptop.png",
+      "readingMinutes": 5,
+      "score": 45,
+      "rank": 10,
+      "summary": {
+        "zh": {
+          "thesis": "集成显卡也能跑本地大模型，但只限 3B 到 7B 的小模型。",
+          "paragraphs": [
+            "作者用一台 AMD 集成显卡的笔记本，试了四款自托管大模型。结论是 3B 到 7B 的型号跑得动，日常写作、编程、推理都够用。",
+            "他用的工具是 KoboldCpp，模型都做了量化压缩，比如 8 位的 Mistral 7B 和 4 位的 Gemma 3 4B。量化越小越快，但质量也略降。",
+            "Mistral 7B 负责头脑风暴，Phi-4 Mini 处理改写总结，Gemma 3 4B 做推理，Qwen 3.5 4B 写代码。每个都对应不同任务，各有取舍。",
+            "更大的模型也能跑，但速度太慢，不值得。作者的笔记本没有独立显卡，一切全靠 CPU 和集显，效果却超出预期。",
+            "所以想试本地 AI，不用急着买显卡。先看自己电脑能不能跑小模型，够用就行。但本文只是个人体验，没有具体速度数据，说服力有限。"
+          ]
+        },
+        "en": {
+          "thesis": "Integrated graphics can run local LLMs, but only small models from 3B to 7B.",
+          "paragraphs": [
+            "The author tried four self-hosted LLMs on a laptop with AMD integrated graphics. The conclusion is that models from 3B to 7B run well, and they are enough for everyday writing, coding, and reasoning.",
+            "He used KoboldCpp and quantized the models, such as 8-bit Mistral 7B and 4-bit Gemma 3 4B. Smaller quantization means faster speed, but slightly lower quality.",
+            "Mistral 7B handled brainstorming, Phi-4 Mini did rewriting and summarizing, Gemma 3 4B did reasoning, and Qwen 3.5 4B wrote code. Each was assigned a different task, and each had its trade-offs.",
+            "Larger models could also run, but they were too slow to be worth it. The author's laptop has no dedicated GPU, so everything runs on CPU and integrated graphics, yet the results exceeded expectations.",
+            "So if you want to try local AI, there's no rush to buy a graphics card. First see if your computer can run a small model, and that might be enough. But this is just one person's experience, with no specific speed data, so it's not very convincing."
+          ]
+        }
+      }
+    },
+    {
+      "id": "7cb5d7bbbaae5c327049daa12a6a9da153be8c33",
+      "sourceId": "xda-ai-tools",
+      "category": "tech",
+      "title": "I stopped uploading sensitive documents to Claude after finding a self-hosted tool that handles them just as well",
+      "url": "https://www.xda-developers.com/stopped-uploading-sensitive-documents-to-claude-self-hosted-tool-handles-them-just-as-well/",
+      "author": "Nolen Jonker",
+      "publishedAt": "2026-08-16T20:00:10.000Z",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/cherry-studio-document-on-desktop-pc-lego-and-lamp-in-view.jpeg",
+      "readingMinutes": 6,
+      "score": 42,
+      "rank": 11,
+      "summary": {
+        "zh": {
+          "thesis": "自托管工具 Cherry Studio 能让你把敏感文档留在本地，同时保留 AI 问答的便利。",
+          "paragraphs": [
+            "把私人文档上传到云端聊天机器人，心里多少会有点别扭。作者决定不再这么干，但又不想放弃 AI 问答的便利，于是找到了一个本地优先的工具 Cherry Studio。",
+            "Cherry Studio 是开源桌面应用，Windows、Mac、Linux 都能用。它可以接各种模型，包括本地跑在 Ollama 或 LM Studio 里的，设置只要两分钟。",
+            "它支持 PDF、Word、Excel 等格式，用 RAG 技术（把文档切片建索引，然后按问题检索相关片段）来回答问题。只要用本地模型和本地嵌入模型，所有处理都在自己机器上完成。",
+            "它还能通过 MCP（模型调外部工具的开放标准）读取本地文件夹，不用每次导入。但作者只给特定聊天开启只读权限，限制在较小的文件夹内。",
+            "所以核心是：别把敏感信息交给云。云上的 AI 依然好用，但该留在本地的就留在本地，Cherry Studio 帮你划清了这条线。"
+          ]
+        },
+        "en": {
+          "thesis": "Self-hosted Cherry Studio lets you keep sensitive documents on your own machine while still enjoying the convenience of AI Q&A.",
+          "paragraphs": [
+            "Uploading private documents to a cloud chatbot can feel a bit uneasy. The author decided to stop doing that, but didn't want to give up the convenience of AI Q&A, so found a local-first tool called Cherry Studio.",
+            "Cherry Studio is an open-source desktop app that works on Windows, Mac, and Linux. It can connect to various models, including ones running locally in Ollama or LM Studio, and setup takes just two minutes.",
+            "It supports formats like PDF, Word, and Excel, and uses RAG technology (which slices documents, builds an index, and then retrieves relevant chunks based on your question) to answer. As long as you use local models and local embedding models, all processing happens on your own machine.",
+            "It can also read local folders through MCP (an open standard for models to call external tools), so you don't have to import every time. But the author only enables read-only access for specific chats and limits it to smaller folders.",
+            "So the core is: don't hand sensitive information to the cloud. Cloud AI is still great, but what should stay local should stay local, and Cherry Studio draws that line for you."
+          ]
+        }
+      }
+    }
+  ],
+  "folded": []
+}
