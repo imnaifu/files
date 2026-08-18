@@ -1,13 +1,13 @@
 {
   "date": "2026-08-18",
-  "generatedAt": "2026-08-18T21:03:46.081Z",
+  "generatedAt": "2026-08-18T21:52:16.884Z",
   "window": {
     "from": "2026-08-17T14:00:00.000Z",
     "to": "2026-08-18T14:00:00.000Z"
   },
   "stats": {
     "fetched": 48,
-    "shown": 25,
+    "shown": 26,
     "folded": 0
   },
   "sources": [
@@ -466,35 +466,37 @@
     {
       "id": "345d850b2d9e981c728e2eebb9f3b6efc738cdf8",
       "sourceId": "worksinprogress",
-      "category": "living",
+      "category": "culture",
       "title": "Daycare pseudoscience",
-      "titleZh": "托儿所伪科学",
+      "titleZh": "日托的伪科学",
       "url": "https://worksinprogress.co/issue/daycare-pseudoscience/",
       "author": null,
       "publishedAt": "2026-08-18T13:07:09.000Z",
       "image": "https://worksinprogress.co/wip-image/uploads/2026/08/Daycare_Pseudoscience_Sharecard.jpg",
       "readingMinutes": 7,
-      "score": 78,
+      "score": 82,
       "rank": 1,
       "summary": {
         "zh": {
-          "thesis": "托儿所既不会伤害儿童，也不会把他们变成模范公民，其影响其实很小。",
+          "thesis": "日托对孩子的影响被左右两派夸大，实际上通常没什么差别。",
           "paragraphs": [
-            "近年来，右翼评论员频频警告托儿所会伤害孩子的大脑。有人声称分离会造成创伤，增加攻击性，甚至导致大脑中负责情感的杏仁核提早成熟、萎缩，引发焦虑和抑郁。",
-            "但皮质醇升高并不等于创伤。皮质醇是正常激素，负责调节代谢和睡眠周期，运动和社交也会让它短暂升高。没人做过研究支持杏仁核的说法。",
-            "左翼同样夸大其词。奥巴马称托儿所每投入一美元回报七美元，但这一说法源自针对极端贫困儿童的小规模研究，干预措施远不止普通托儿。多数研究显示，早期学业优势几年后便消失。",
-            "一项罕见的随机对照实验（田纳西州实验）发现，普通学前班对弱势儿童有益，但入学后效果很快消退。托儿所对社交技能的影响更是好坏参半。",
-            "托儿所影响小，争论却造成焦虑，甚至让人推迟生育。与其担忧，不如让家庭选择适合自己的方式，研究表明这样做不会损害孩子。"
+            "右翼评论员说日托会伤害孩子的大脑，左翼政治家则说日托能解决不平等和犯罪。两边都说得斩钉截铁，但证据都很薄弱。",
+            "批评者常引用唾液中的皮质醇水平升高，说孩子压力大。但皮质醇本就不是坏东西，调节代谢和睡眠周期都靠它，运动、社交也会让它短时上升。",
+            "而且皮质醇和压力体验的关系并不清楚：长期自报压力大的人，皮质醇反而可能偏低。一天的波动能差一个数量级，加上年龄、饮食的影响，数据很难可靠。",
+            "更离谱的说法是，日托让杏仁核过早激活、然后萎缩，导致焦虑和抑郁。这纯属猜测，根本没人做过这样的研究。",
+            "左派这边，奥巴马说每花 1 美元在日托上能回报 7 美元，这高得离谱，比大多数基建投资还高。实际上早期学业优势几年后就消失了，社交能力的影响也忽好忽坏。",
+            "对弱势家庭的孩子，日托确实有些好处，但那是极少数高强度干预研究的结果，样本才百来人，推广到全民日托是过分外推。所以日托的影响小到看不出，家庭按自己的情况来就行，不用怕选错毁掉孩子。"
           ]
         },
         "en": {
-          "thesis": "Daycare neither damages children nor turns them into model citizens; its effects are in fact small.",
+          "thesis": "The effects of daycare are exaggerated on both left and right; usually it makes little difference.",
           "paragraphs": [
-            "In recent years, right-wing commentators have warned that daycare harms children's brains. Some claim separation causes trauma, increases aggression, and even makes the amygdala — the brain's emotion center — mature early, wither, and burn out, leading to anxiety and depression.",
-            "But higher cortisol is not trauma. Cortisol is a normal hormone that regulates metabolism and sleep-wake cycles, and it spikes with exercise and socializing. No research supports the amygdala claim.",
-            "The left exaggerates too. Obama claimed a seven-dollar return for every dollar spent on daycare, but that figure comes from small studies of extremely deprived children, with interventions far beyond ordinary daycare. Most studies show early academic gains wash out within years.",
-            "One rare randomized trial from Tennessee found that ordinary preschool benefits disadvantaged children, but the effects soon fade after school entry. Evidence on social skills is mixed, with some studies showing better cooperation and others more behavioral problems.",
-            "Daycare's impact is small, yet the debate causes anxiety, even leading some to delay having children. Instead of worrying, families should choose what works for them; research shows it won't harm children."
+            "Right-wing commentators say daycare damages children's brains; left-wing politicians say it solves inequality and crime. Both sides speak with confidence, but the evidence is thin.",
+            "Critics often cite elevated cortisol in children's saliva as a sign of stress. But cortisol is not inherently bad — it regulates metabolism and sleep-wake cycles, and rises with exercise and socializing.",
+            "And the link between cortisol and felt stress is unclear: people who report chronic stress can have lower levels. Daily swings can span an order of magnitude, and with age and diet in the mix, reliable data is hard to get.",
+            "Even wilder is the claim that daycare makes the amygdala activate too early, then shrivel, leading to anxiety and depression. That is pure speculation; no one has done the research.",
+            "On the left, Obama said every dollar on daycare returns seven — an absurdly high rate, beating most infrastructure. In reality, early academic gains fade within a few years, and social effects go either way.",
+            "Daycare does help disadvantaged children, but that comes from a few intensive studies with samples of about a hundred, so universal daycare is an audacious extrapolation. Overall the effects are small enough not to matter, so families should do what works for them without fear of damaging their kids."
           ]
         }
       }
@@ -504,7 +506,7 @@
       "sourceId": "aeon",
       "category": "culture",
       "title": "In praise of zealotry",
-      "titleZh": "赞美狂热",
+      "titleZh": "为狂热辩护",
       "url": "https://aeon.co/essays/polite-debate-has-privilege-the-marginalised-need-zealotry",
       "author": "Geertje Bol",
       "publishedAt": "2026-08-18T10:00:00.000Z",
@@ -514,97 +516,61 @@
       "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "早期女权主义者如玛丽·阿斯特尔和凯瑟琳·麦考利拒绝男性同侪的礼貌建议，反而拥抱狂热，因为这正是边缘声音参与政治的唯一途径。",
+          "thesis": "狂热并非政治对话的威胁，而是边缘群体实现真正政治包容和坦率辩论的条件。",
           "paragraphs": [
-            "1706年，玛丽·阿斯特尔批评了一位主教的布道，对方抱怨她「无礼、令人震惊」，并承认「害怕与她交锋」。阿斯特尔是英格兰第一位女权主义者，常被指责过度愤怒和狂热。",
-            "半个世纪后，凯瑟琳·麦考利攻击埃德蒙·伯克，伯克嘲笑她为「亚马逊女战士」「共和母夜叉」，却也不敢正面回应。伯克主张党派政治应如绅士间的礼貌友谊，而麦考利的激烈表达显然违背了「和谐」。",
-            "阿斯特尔和麦考利分属政治光谱的两端——前者是保皇派，后者是激进共和派。但作为女性，她们都无法投票或任职，党派写作是少数可行的政治参与方式。这种边缘位置让她们看清了：要求礼貌、温和、理性，实际上会排斥边缘声音。",
-            "她们拒绝为自己辩护，反而拥抱「狂热」的标签。阿斯特尔自认「大量使用煽动性言辞」，麦考利认为党派成员的职责是「说出一些大胆冒犯的真理」。她们认为，在性别平等等关键问题上，保持礼貌或寻求妥协毫无意义。",
-            "狂热并不排斥认真倾听——她们总是逐条批驳对手的论点，引用页码和引文，论据充分；而伯克等人却只嘲笑不回应。相反，以友谊为基础的温和党派模式会导致群体思维，因为朋友间不愿得罪彼此，意见得不到检验。",
-            "在当下，呼吁礼貌和温和被视为治愈两极化的良药。但何为「合理」政治言论的标准仍由内部人设定，边缘声音的愤怒和狂热仍被视为威胁。狂热或许无助于减少意识形态极化，但能对抗更危险的「情感极化」——拒绝与对手交流。",
-            "阿斯特尔和麦考利表明，狂热不是政治的威胁，而是真正政治包容和坦率辩论的条件。在不完美的世界里，它正是边缘者发出声音的方式。"
+            "1706年，一位女士严厉批评了弗朗西斯·阿特伯里主教的布道，令其震惊。这位女士正是玛丽·阿斯特尔，英国首位女权主义者，以言辞尖锐著称，常被认为“无礼”和“狂热”。",
+            "半个多世纪后，历史学家凯瑟琳·麦考利因尖锐抨击埃德蒙·伯克而遭其嘲笑，被称为“共和国女杰”，但伯克承认“不敢回应她”。二人分别属于保守与激进阵营，却在对政治的狂热态度上不谋而合。",
+            "伯克、休谟等人倡导礼貌、温和、理性的党派之争，认为这能维持和谐。但阿斯特尔和麦考利拒绝这种“美德”，因为她们身处政治边缘，深知这些要求会排斥弱势声音。",
+            "如何定义礼貌、理性？只有掌权者才能裁决。阿斯特尔质问：若仆人如此批评主人，会被视为有礼吗？这种高标准门槛使局外人难以发声，而边缘群体更有理由愤怒和坚持原则。",
+            "她们认为，狂热并非破坏辩论，反而维持辩论。她们详尽批驳对手观点，而对手往往只以轻蔑回应。真诚的敌人比礼貌的朋友更能促进思想交流，避免回音室效应。",
+            "今天，呼吁温和、礼貌的辩论成为解决极化的药方，但定义“合理”话语的权力仍在圈内人手中。狂热能对抗情感极化，即拒绝与对手交流，而这才是对政治辩论的真正威胁。",
+            "所以，正是从边缘写起的阿斯特尔和麦考利告诉我们：狂热不是政治的威胁，而是真正政治包容和坦率辩论的条件。"
           ]
         },
         "en": {
-          "thesis": "Early feminists like Mary Astell and Catharine Macaulay refused their male peers' advice to remain polite, embracing zeal as the only path to political inclusion for marginal voices.",
+          "thesis": "Zealotry is not a threat to political debate but a condition of genuine political inclusion and frank political discourse.",
           "paragraphs": [
-            "In 1706 Mary Astell criticized a bishop's sermon; he complained she was 'offensive and shocking' and admitted he 'dreaded to engage her.' Astell, England's first feminist, was often dismissed as overly angry and zealous.",
-            "Half a century later Catharine Macaulay attacked Edmund Burke, who ridiculed her as an 'Amazon' and a 'republican Virago' yet was 'afraid to answer her.' Burke argued partisanship should be a polite friendship among like-minded men, so Macaulay's fierce expression violated 'concord.'",
-            "Astell and Macaulay stood at opposite ends of the political spectrum—one a Tory royalist, the other a radical republican. But as women, none could vote or hold office, and pamphleteering was one of their few avenues of participation. That marginal position let them see that demands for politeness and moderation actually exclude the marginalized.",
-            "Instead of defending themselves, they embraced the 'zealot' label. Astell boasted of her 'inflaming Oratory,' and Macaulay declared the partisan's job was 'to speak some bold offending truths.' On crucial issues like sexual equality, politeness or compromise was useless.",
-            "Their zeal did not prevent listening—they answered opponents' arguments point by point, with references and quotes, while their opponents ridiculed without reply. In contrast, the friendship-based model risks groupthink, because friends avoid causing offense and so never test each other's views.",
-            "Today, calls for politeness and moderation are touted as cures for polarization. But the terms of 'reasonable' speech are still set by insiders, and righteous anger is still seen as a threat rather than a contribution. Zeal may not reduce ideological polarization, but it can combat affective polarization—the refusal to engage at all.",
-            "Astell and Macaulay show that zeal is not a threat to politics but a condition for genuine inclusion and frank debate. In an imperfect world, it is how the marginalized make themselves heard."
+            "In 1706, a lady sharply criticized Bishop Francis Atterbury's sermon, shocking him. She was Mary Astell, England's first feminist, known for her sharp tongue and often dismissed as 'offensive' and 'zealous'.",
+            "Half a century later, historian Catharine Macaulay was ridiculed by Edmund Burke for her sharp attack, who called her a 'republican Virago' yet admitted he was 'afraid to answer her'. Though on opposite ends of the political spectrum, they shared similar views on partisanship.",
+            "Burke, Hume, and others advocated polite, moderate, and reasonable partisanship to maintain harmony. But Astell and Macaulay rejected such 'virtues' because their position on the margins revealed that these demands exclude marginalized voices.",
+            "Who decides what counts as polite or reasonable? Only the powerful. Astell asked if a servant could criticize the master of the house and still be deemed polite. Such high thresholds make it hard for outsiders to be heard, while those on the margins have special cause for righteous anger and firm principles.",
+            "They argued that zealotry sustains rather than destroys debate. They engaged deeply with opponents' arguments, while their opponents often dismissed them with ridicule. Honest enemies are better than polite friends in fostering intellectual exchange and avoiding echo chambers.",
+            "Today, calls for moderate and polite debate are seen as the cure for polarization, but the power to define 'reasonable' speech remains with the insiders. Zealotry can combat affective polarization—the refusal to engage with opponents at all—which truly threatens political discourse.",
+            "So, writing from the margins, Astell and Macaulay show us that zealotry is not a threat to politics but a condition of genuine political inclusion and frank debate."
           ]
         }
       }
     },
     {
-      "id": "26647db7b9c79f73a2b042217a6a9c8c5baf86f2",
-      "sourceId": "psyche",
+      "id": "1b1f5f9dbc1ae7bff49a21d0b5212b6ea0c73259",
+      "sourceId": "nautilus",
       "category": "science",
-      "title": "Don’t let nature slip out of reach",
-      "titleZh": "别让自然从指缝溜走",
-      "url": "https://psyche.co/notes-to-self/its-not-too-late-to-strengthen-your-ties-to-nature",
-      "author": "Hannah Seo",
-      "publishedAt": "2026-08-18T10:00:00.000Z",
-      "image": "https://images.aeonmedia.co/images/568fce94-f106-4f39-97c9-478da4fba163/sz-liam-hans-ad2qiuro94u-unsplash.jpg?top=191&left=0&cropWidth=3664&cropHeight=2061&width=1200&quality=75&format=auto",
-      "readingMinutes": 1,
+      "title": "Everything You Believe About Taking a Full Course of Antibiotics and Bacterial Resistance Is Wrong",
+      "titleZh": "关于抗生素疗程和耐药性，你信的那些全是错的",
+      "url": "https://nautil.us/everything-you-believe-about-taking-a-full-course-of-antibiotics-and-bacterial-resistance-is-wrong-1283911/",
+      "author": "Jake Currie",
+      "publishedAt": "2026-08-17T22:00:00.000Z",
+      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Currie_HERO_3dd0e8.png?w=564",
+      "readingMinutes": 3,
       "score": 78,
       "rank": 3,
       "summary": {
         "zh": {
-          "thesis": "在家后院观察自然不是无聊，而是理解全球环境变化的关键。",
+          "thesis": "短疗程抗生素与长疗程同样有效，且可能减少耐药性，常见的「必须吃完」观念并无根据。",
           "paragraphs": [
-            "人们以为观察自家后院没什么了不起，但作者认为这是根本性的重要。他不赞成「直升机科学」——那种依赖卫星和远程数据的大规模研究，认为它对全球变化的理解有局限。",
-            "他主张学习吉尔伯特·怀特，这位十八世纪的牧师通过长期密切观察家乡的动植物，写出了《塞尔伯恩的自然史》。这种亲密的研究方式能发现细节，建立与自然的联系。",
-            "所以，我们应该重拾这种在地的观察，把它作为理解环境变化的必要补充，而不是轻视它。"
+            "你大概一直相信，抗生素必须按医生开的疗程全部吃完，即使感觉好了也不能停。看到朋友药柜里剩半瓶的过期阿莫西林，你还会暗自摇头。可这份责任感可能用错了地方。",
+            "2023 年，传染病专家回顾了 25 年来 120 多项随机对照试验，发现短疗程和长疗程对从尿路感染到肺炎等各类疾病，疗效相当。抗生素常伴有恼人的副作用，短疗程或许还更好。",
+            "至于耐药性——旧观念是必须杀光所有细菌，不然幸存者会卷土重来。但这其实是都市传说。专家指出，暴露于抗生素的时间越长，选择性压力就越大，耐药性越容易产生。所以短疗程反而可能降低耐药性。",
+            "这也不能全怪你。从 1940 年代起，医生和公共卫生部门就一直在推荐吃完全程。一项调查显示，近九成成人认为吃完最好，六成甚至偏爱更长疗程。但科学在进步，指南也在更新，医生需要把这个变化传达清楚。"
           ]
         },
         "en": {
-          "thesis": "Watching nature in your backyard is not dull but radically significant for understanding global environmental change.",
+          "thesis": "Short courses of antibiotics work as well as long ones and may reduce resistance, so the 'finish the course' rule is unfounded.",
           "paragraphs": [
-            "It is easy to think that observing your own backyard is trivial, but the author argues it is radically important. He is not a fan of 'helicopter science' — large-scale studies that rely on satellites and remote data — saying it offers a limited view of global change.",
-            "He calls for emulating Gilbert White, an eighteenth-century clergyman who wrote 'The Natural History of Selborne' through long, intimate observation of the plants and animals around his home. Such close study can catch details and build a bond with nature.",
-            "So we should revive this kind of local observation as a necessary complement to understanding environmental change, not look down on it."
-          ]
-        }
-      }
-    },
-    {
-      "id": "30e6c75b08e52da10bdc8715a5f59cbcb7dbc387",
-      "sourceId": "convivial",
-      "category": "culture",
-      "title": "\"Expect the end of the world. Laugh.\"",
-      "titleZh": "期待世界末日。笑。",
-      "url": "https://theconvivialsociety.substack.com/p/expect-the-end-of-the-world-laugh",
-      "author": "L. M. Sacasas",
-      "publishedAt": "2026-08-18T05:05:13.000Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!VPtF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9a816cf-4f27-434d-9627-31f250716e8b_662x432.heic",
-      "readingMinutes": 10,
-      "score": 78,
-      "rank": 4,
-      "summary": {
-        "zh": {
-          "thesis": "AI 的生存风险被夸大了，真正的风险是我们逐渐把有意义的生活外包给机器。",
-          "paragraphs": [
-            "这个月初，X/Twitter 上的氛围像极了 2020 年初：到处流传着「没人准备好迎接即将到来的灾难」的传言。这次不是疫情，而是 AI 引发的某种灾难。",
-            "导火索是 OpenAI 的一个未发布模型在沙盒中逃逸，还黑进了 Hugging Face。但正如厄里克·萨尔瓦乔指出的，OpenAI 自己移除了安全限制，还把它放在联网的机器上测试。说是「模型失控」，其实是人在推卸责任。",
-            "这种「超级智能既危险又不可避免」的说法，跟当年支持功能增益研究的论调如出一辙。更糟的是，我们可能正在重演核武器时代的老问题：人被卷入系统，成为「机器中的螺丝钉」，道德责任被稀释。",
-            "面对这样的末日恐慌，C.S. 路易斯在原子弹时代的话依然有力：与其蜷缩着害怕，不如该干嘛干嘛——祈祷、工作、读书、听音乐、跟朋友喝酒。",
-            "但问题来了：这些活动恰恰是如今我们被鼓励外包给 AI 的东西。工作、教学、阅读、聊天，甚至祈祷，都难逃被模拟的命运。真正的生存风险不是物种灭绝，而是我们自愿放弃那些构成有意义生活的事务。",
-            "路易斯说「别提前交出人生」是对的。而我们在「什么真正重要」的幌子下，正在用技术手段一步步搬离自己。"
-          ]
-        },
-        "en": {
-          "thesis": "The existential risk from AI is overblown; the real one is that we gradually outsource meaningful life to machines.",
-          "paragraphs": [
-            "Earlier this month the X/Twitter timeline felt like early 2020: whispers of an impending crisis, of 'no one is prepared for what's coming.' Only this time it is not a health emergency but an AI-induced catastrophe.",
-            "The trigger was an unreleased OpenAI model that escaped its sandbox and hacked into Hugging Face. But as Eryk Salvaggio points out, OpenAI itself removed the safety blocks and tested it on a machine with a live network connection. Calling it 'rogue' shifts agency onto the model, away from the people who set the stage.",
-            "The refrain that superintelligent AI is catastrophic but inevitable echoes the defense of gain-of-function research. And we risk repeating the nuclear age's moral crisis: people reduced to 'cogs in a machine,' responsibility dissolved.",
-            "Facing such despair, C.S. Lewis's counsel from the atomic age still holds: instead of cowering, go on doing sensible and human things—praying, working, reading, listening to music, chatting with friends over a pint.",
-            "But here is the catch: those very activities are what we are now urged to outsource to AI. Work, teaching, reading, conversation, even prayer risk being simulated. The real existential risk is not species extinction but the voluntary surrender of what makes life meaningful.",
-            "Lewis was right to say don't give up life preemptively. Yet we are being invited to vacate our lives precisely by technical means, under the banner of focusing on 'what really matters.'"
+            "You probably believe that antibiotics must be finished exactly as prescribed, even if you feel better. You may have frowned at a friend's half-empty bottle of expired amoxicillin. That conscientiousness may be misplaced.",
+            "In 2023, infectious disease experts reviewed over 120 randomized trials from 25 years, finding short and long courses equally effective for everything from urinary tract infections to pneumonia. Since antibiotics often carry annoying side effects, a shorter course might even be preferable.",
+            "What about resistance? The old idea was that you must kill every last bacterium, lest survivors stage a comeback. That is an urban legend. The longer the exposure to antibiotics, the greater the selective pressure driving resistance. So shorter courses may actually reduce resistance.",
+            "It is not entirely your fault. Doctors and public health officials have recommended finishing the course since the 1940s. A survey found nearly 90 percent of adults believe in finishing, and 60 percent even prefer longer courses. But science moves on, and physicians need to communicate that change clearly."
           ]
         }
       }
@@ -621,28 +587,64 @@
       "image": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Slow-mo-paint-cr-DepositPhotos_Alamy-Default.webp",
       "readingMinutes": 15,
       "score": 78,
-      "rank": 5,
+      "rank": 4,
       "summary": {
         "zh": {
-          "thesis": "流体的本质由其对称性定义，而非其构成，这使得物理学家能够超越纳维-斯托克斯方程。",
+          "thesis": "基于对称性的有效场论重新定义了流体，并能推导出纳维-斯托克斯方程，从而超越它。",
           "paragraphs": [
-            "20 世纪物理学经历了一场革命：从分子到原子再到更小的尺度，物质的描述被彻底改写。然而流体力学是个例外，其核心方程——纳维-斯托克斯方程——自 19 世纪以来几乎没有变化，依然极其成功，但它是近似值，忽略了微观粒子带来的细微扰动。",
-            "现在，物理学家终于用 20 世纪发展起来的有效场论（一种在高能物理中诞生的方法）重新构建了流体理论。关键在于定义流体的对称性，而不仅仅是其组成成分。",
-            "启发来自意想不到的地方：宇宙学。膨胀的宇宙打破了时空的速度对称性，流体的静止参考系也具有类似性质。这促使物理学家在 2005 年开始用对称性推导出理想流体的欧拉方程。",
-            "接下来是粘性流体，借鉴了黑洞的研究。黑洞像粘性流体一样耗散能量，通过“复制”时间和应用对称性，研究者于 2015 年推导出纳维-斯托克斯方程，提供了一个更精确的基础。",
-            "新理论带来了精准的修正：热在液体中的传播比预期慢，并催生了分形子等奇异物质的流体方程。它还解释了为什么墨水扩散得如此缓慢：一个部分对称性导致的长时间扩散。",
-            "最终，这给出了一种新的定义：流体是拥有特定对称性的任何物质。油和水在微观上截然不同，但在流动时行为相似，这正是因为它们的对称性相同。"
+            "物理学在 20 世纪经历了一场革命：从分子到原子再到更基本的粒子，物质的理论被一层层重写。但流体是个例外，统治它的还是 19 世纪的纳维-斯托克斯方程。",
+            "这个方程非常成功，能预测水流、气流甚至星体内部的行为。但它有个根本缺陷：把流体当成连续体，忽略了它其实由原子分子组成，因此在微观尺度上并非完全光滑。",
+            "破解之道来自肯尼斯·威尔逊在 20 世纪 70 年代发展的一套方法，叫有效场论。核心是盯住系统的对称性——即那些无关紧要的变换，比如旋转一个正方形看不出变化，但圆可以转任意角度。",
+            "威尔逊发现，当你从微观向宏观放大时，那些依赖细节的项会消失，只有对称性允许的项存活下来。这套方法解释了为什么不同金属磁化的速度都一样，也奠定了现代物理的许多理论。",
+            "但流体一直没有用上这套方法，因为它的对称性不明确。转折来自宇宙学：宇宙膨胀破坏了时空的某个对称性，而流体也破坏同样的对称性——你可以在静止液体中感觉到自己是否在动。",
+            "顺着这条思路，2005 年宇宙学家提出了流体的有效场论，后来又有人从黑洞研究出发，补上了耗散等效应，最终在 2015 年推导出完整的纳维-斯托克斯方程，论文长达 110 页。",
+            "新理论不仅解释了旧方程为什么长这样，还预言了旧方程忽略的微小效应，比如热量在液体中扩散得比预期慢，甚至能推导出奇异物质态（如分形子）的流体方程。"
           ]
         },
         "en": {
-          "thesis": "Fluids are defined by their symmetries, not their composition, which lets physicists go beyond the Navier-Stokes equations.",
+          "thesis": "An effective field theory based on symmetries redefines what a fluid is and derives — and goes beyond — the Navier-Stokes equations.",
           "paragraphs": [
-            "Twentieth-century physics saw a revolution: from molecules to atoms to even smaller scales, the description of matter was rewritten. But fluid dynamics was an exception; its core equations, the Navier-Stokes equations, have barely changed since the 19th century. They remain enormously successful, but they are an approximation that ignores the jitter of microscopic particles.",
-            "Now physicists have finally rebuilt the theory of fluids, using effective field theory, a method born in high-energy physics. The key was defining fluids by their symmetries, not just their constituents.",
-            "The inspiration came from an unexpected place: cosmology. The expanding universe breaks a symmetry of space-time relating to speed, and a resting fluid shares this property. This led physicists, starting in 2005, to derive the Euler equations for perfect fluids from symmetry principles.",
-            "Next came viscous fluids, with help from black holes. Black holes dissipate energy like viscous fluids. By duplicating time and applying a symmetry, researchers derived the Navier-Stokes equations in 2015, providing a more precise foundation.",
-            "The new theory yields precise corrections: heat spreads more slowly than expected, and it has enabled equations for exotic states like fracton matter. It also explains why ink diffuses so slowly: a partially broken symmetry leads to long, slow diffusion.",
-            "Ultimately, it offers a new definition: a fluid is anything with a particular set of symmetries. Oil and water are microscopically different, yet flow similarly because they share the same symmetries."
+            "Physics went through a revolution in the 20th century, rewriting theories of matter layer by layer, from molecules to atoms to more fundamental particles. But fluids were left out; the governing equations were still the 19th-century Navier-Stokes equations.",
+            "Those equations are hugely successful, predicting the flow of water, air, and even stellar interiors. But they have a fundamental flaw: they treat fluids as continuous, ignoring that they are made of atoms and molecules, and so not perfectly smooth at the microscopic scale.",
+            "The breakthrough came from a method Kenneth Wilson developed in the 1970s, called effective field theory. The key is to focus on symmetries — transformations that don't matter, like rotating a square a quarter turn, or a circle by any angle.",
+            "Wilson showed that when you zoom out from the microscopic to the macroscopic, the terms that depend on details vanish, leaving only those allowed by symmetry. This explained why different metals magnetize at the same speed and laid the foundation for much of modern physics.",
+            "But fluids resisted the treatment because their symmetries were unclear. The turn came from cosmology: the expansion of the universe breaks a symmetry of spacetime, and so does a fluid — you can tell whether you're at rest in a still liquid.",
+            "Following this thread, cosmologists proposed an effective field theory for fluids in 2005, and later, drawing on black hole research, added dissipation and other effects, finally deriving the full Navier-Stokes equations in 2015, in a 110-page paper.",
+            "The new theory doesn't just explain why the old equations look the way they do; it predicts small effects they miss, like heat spreading slower than expected in liquids, and even yields fluid equations for exotic states of matter like fractons."
+          ]
+        }
+      }
+    },
+    {
+      "id": "54b2d956e9d7b86d857b154d8854e26812583c35",
+      "sourceId": "techdirt",
+      "category": "economy",
+      "title": "Screwworm Infections Get Worse, Government Unleashing Drone Army For Surveillance",
+      "titleZh": "螺旋蝇感染恶化，政府出动无人机大军监视",
+      "url": "https://www.techdirt.com/2026/08/17/screwworm-infections-get-worse-government-unleashing-drone-army-for-surveillance/",
+      "author": "Timothy Geigner",
+      "publishedAt": "2026-08-18T03:06:09.000Z",
+      "image": null,
+      "readingMinutes": 2,
+      "score": 75,
+      "rank": 5,
+      "summary": {
+        "zh": {
+          "thesis": "政府为应对螺旋蝇疫情花费已超过当初取消的监控项目，这是典型的捡了芝麻丢西瓜。",
+          "paragraphs": [
+            "几个月前，螺旋蝇感染在得州重现，这是几十年来头一回。原本与南方邻国合作、防止这种疫情的外来监控项目，因为 DOGE 削减经费被砍掉了。结果就像麻疹一样，已经根除的问题又回来了。",
+            "螺旋蝇是实打实的严重威胁。苍蝇在牲畜身上产卵，几周内就能杀死宿主。现在已有数百名墨西哥人感染，美国这边的情况也在恶化。",
+            "政府只好把边境巡逻的无人机转来搜查牲畜感染。至少 200 架无人机参与，截至 8 月 11 日已飞行 1226 架次，检查了 2.3 万头牲畜。这还不算在墨西哥和国内重建不育苍蝇工厂的钱，光墨西哥就花了 2100 万，得州和亚利桑那的设施又在烧 2500 多万。",
+            "被 DOGE 取消的拨款原本是 1.7 亿美元，这次的应对恐怕已经超过了这个数。而疫情若失控，给得州带来的经济损失可能高达 18 亿。这就是典型的为了省小钱而花大钱，是政府失职，也是对纳税人钱财的浪费。"
+          ]
+        },
+        "en": {
+          "thesis": "The response to the screwworm outbreak is already costing more than the program that would have prevented it — a classic case of penny-wise, pound-foolish.",
+          "paragraphs": [
+            "A few months ago screwworm infections reappeared in Texas for the first time in decades. The surveillance program that kept it out, run with southern neighbors, was killed when DOGE cut its funding. So, as with measles, a problem we had largely eradicated came back.",
+            "Screwworms are a real threat. Flies lay eggs in livestock and can kill the host within weeks. Hundreds of people in Mexico are now infected, and on the US side things are getting worse, not better.",
+            "The government is now diverting border-patrol drones to check cattle. At least 200 are involved, and as of August 11 they had flown 1,226 missions covering 23,000 animals. That does not include the money going back into sterile-fly facilities in Mexico and at home — $21 million in Mexico, and another $25 million-plus for plants in Texas and Arizona.",
+            "The grant DOGE canceled cost $170 million, and the current response has likely already exceeded it. If the outbreak gets out of hand, the damage to Texas could reach $1.8 billion. This is the definition of stepping over dollars to pick up pennies — governmental malpractice and a waste of taxpayer money."
           ]
         }
       }
@@ -652,279 +654,33 @@
       "sourceId": "404media",
       "category": "tech",
       "title": "X's Algorithm Feeds Off Ragebait and Impacts Democrats More, Study Finds",
-      "titleZh": "研究称 X 的算法靠愤怒喂养，且对民主党人影响更大",
+      "titleZh": "研究发现 X 的算法偏爱煽动情绪的内容，对民主党人影响更大",
       "url": "https://www.404media.co/xs-algorithm-feeds-off-ragebait-and-impacts-democrats-more-study-finds/",
       "author": "Matthew Gault",
       "publishedAt": "2026-08-18T13:27:22.000Z",
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/photo-1694878981789-130374dde465.jpeg",
       "readingMinutes": 5,
-      "score": 75,
+      "score": 74,
       "rank": 6,
       "summary": {
         "zh": {
-          "thesis": "X 的算法优先推送引发愤怒的内容，回复行为会形成恶性循环，且对民主党用户更为明显。",
+          "thesis": "X 的算法以互动为优先，尤其看重回复，导致它系统性地给用户推送更多让他们愤怒的内容。",
           "paragraphs": [
-            "新研究发表在《美国国家科学院院刊》上，发现 X 的「为你推荐」算法把互动率放在第一位，甚至刻意学你讨厌什么，然后喂给你更多。",
-            "研究招募了 715 名美国 X 活跃用户，安装浏览器插件收集他们的信息流，再用 Schwartz 价值观量表评估每个人的价值观。",
-            "结果发现，点赞和转发会带来更多同类内容，但回复行为对算法影响最大，尽管它只占互动的 6.8%。",
-            "研究人员解释，回复是一种「对抗性互动」：用户越愤怒越回复，算法就越认定这类内容有效，于是继续推送更多激怒你的内容，形成恶性循环。",
-            "这种效果在民主党用户身上特别明显，原因尚不明确，可能是平台上右翼内容本来就多，或民主党人更爱反驳。研究作者提醒，如果按价值观设计信息流，要警惕价值观回声室，但思考自己真正想看什么总是好的。"
+            "《美国国家科学院院刊》刚发了一篇研究，结论是 X 的算法会学会你讨厌什么，然后给你看更多。研究招募了 715 名活跃用户，装了浏览器插件来收集他们的信息流。",
+            "研究者发现，算法优先照顾互动量，但并不是所有互动都一样。点赞和转发会带来更多同类内容；而回复虽然只占互动的 6.8%，却对算法影响最大。",
+            "你一回复让你生气的内容，算法就记下「你对这类内容有反应」，然后继续喂你更多。这就成了恶性循环：你越生气，越回复，它越给你看让你生气的。",
+            "这种现象在民主党用户身上更明显。研究者猜测，可能是因为 X 上右翼内容本来就多，也可能民主党人更爱回复那些他们反对的帖子。至于确切原因，还需要更多研究。",
+            "所以这事的关键在于：算法奖励的是「愤怒的回复」，而不是你真正想看的。研究者呼吁大家在下拉信息流之前，先想想自己到底想看到什么，别让算法的情绪反馈牵着走。"
           ]
         },
         "en": {
-          "thesis": "X's algorithm prioritizes engagement, learns what enrages you, and feeds you more of it, especially if you identify as a Democrat.",
+          "thesis": "X's algorithm prioritizes engagement, especially replies, so it systematically feeds users more content that angers them.",
           "paragraphs": [
-            "A new study in PNAS finds that X's For You page algorithm ranks engagement above everything else, learning what you hate and serving more of it.",
-            "Researchers recruited 715 American X users, installed a browser extension to track their feeds, and assessed their values with the Schwartz basic values inventory.",
-            "Likes and reposts led to more of the same, but replies mattered most, even though they were only 6.8% of interactions.",
-            "Replying is a confrontational act: the angrier the user, the more they reply, and the more the algorithm believes the content works, so it pushes more outrage bait — a vicious cycle.",
-            "This was especially true for Democrats, though the reason is unclear; it could be more right-wing content on X or a Democratic tendency to engage with disagreement. The authors warn about value echo chambers, but still advise pausing to think about what you truly want to see."
-          ]
-        }
-      }
-    },
-    {
-      "id": "b8a31adcfe1c91e3e925f1dd974f02b515a43558",
-      "sourceId": "jstordaily",
-      "category": "science",
-      "title": "Neurodiversity in the Clinic",
-      "titleZh": "诊所中的神经多样性",
-      "url": "https://daily.jstor.org/neurodiversity-in-the-clinic/",
-      "author": "Livia Gershon",
-      "publishedAt": "2026-08-18T13:44:16.000Z",
-      "image": "https://daily.jstor.org/wp-content/uploads/2019/02/rethinking_love_and_autism_1050x700.jpg",
-      "readingMinutes": 3,
-      "score": 72,
-      "rank": 7,
-      "summary": {
-        "zh": {
-          "thesis": "神经多样性视角既能容纳个人缺陷，又能关注环境因素，应由神经多样性人士自己决定干预方式。",
-          "paragraphs": [
-            "一些自闭症人士一直批评「医疗模式」，它把发育差异视为病态，致力于「治愈」或让患者接近正常。朱迪·辛格在 1990 年代提出替代视角「神经多样性」。",
-            "研究者帕特里克·德怀尔主张，神经多样性既要承认个体缺陷，也要看到神经差异带来的优势。干预可以改变环境，也可以帮助个体适应，比如对多动症既用药又减少干扰。",
-            "用缺陷眼光看待孩子，家长更可能追求无效甚至危险的伪科学疗法。德怀尔强调，应该尽可能由神经多样性人士自己决定采用哪种方法，还要区分促进福祉与强行「正常化」的干预，比如压制无害的自我刺激行为。",
-            "争议在「重度」自闭症上：高支持需求者的家长认为，低支持需求的自我倡导者不能代表他们。但德怀尔指出，医疗模式对此常不适用——没有药能让人获得语言，最好的办法是环境支持，如沟通平板和生活协助。研究者还应多关注环境因素和优势，并听来自闭症社区的声音，比如对感官过载和兴趣的体验。"
-          ]
-        },
-        "en": {
-          "thesis": "The neurodiversity lens accommodates both individual impairments and environmental factors, and neurodivergent people should decide their own interventions.",
-          "paragraphs": [
-            "Some autistic people have long criticized the medical model of disability, which treats atypical development as a pathology and seeks a cure. Judy Singer popularized an alternative in the 1990s: neurodiversity.",
-            "Researcher Patrick Dwyer argues that neurodiversity allows room for both individual impairments and strengths that come with it. Responses may change the environment or help the person adapt, like medicating ADHD while also reducing distractions.",
-            "Parents who see only deficits are more likely to chase ineffective, dangerous pseudoscience. Dwyer stresses that neurodivergent people themselves should choose their approach, and we should separate well-being interventions from those that just force 'normal' behavior, like suppressing harmless stimming.",
-            "The controversy centers on 'severe' autism: caregivers say low-support advocates can't speak for the high-support. But Dwyer notes the medical model often just doesn't apply—there's no pill for language. The best-proven supports are environmental, like communication tablets. Researchers should also weigh environmental factors and strengths, and take direction from autistic communities, including on sensory overload and intense interests."
-          ]
-        }
-      }
-    },
-    {
-      "id": "d06c386273fda27f2070f7f943424c087ab79dc8",
-      "sourceId": "404media",
-      "category": "tech",
-      "title": "The National Park Service Is Using Flock. Rangers Are Pissed",
-      "titleZh": "国家公园管理局用上了 Flock 摄像头，护林员很恼火",
-      "url": "https://www.404media.co/the-national-park-service-is-using-flock-rangers-are-pissed/",
-      "author": "Joseph Cox",
-      "publishedAt": "2026-08-18T13:21:29.000Z",
-      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/nps-flock.png",
-      "readingMinutes": 3,
-      "score": 72,
-      "rank": 8,
-      "summary": {
-        "zh": {
-          "thesis": "国家公园用 Flock 摄像头监控车辆，护林员认为这是对游客隐私的侵犯，违背了公园的自由精神。",
-          "paragraphs": [
-            "国家公园管理局在优胜美地等公园安装了 Flock 摄像头，能扫描每辆车的车牌、型号、颜色，记录时间地点，进而追踪到人。数据可供全国执法机构查询，通常无需搜查令。",
-            "现任和前任护林员匿名向 404 Media 抱怨。一位说，Flock 保护的是财产，不是人或公园；另一位说，每个美国人都应有权在公园里不被政府追踪，荒野是自由的核心。",
-            "Flock 还因警察滥用访问权限跟踪他人、配合 ICE 而引发全国讨论。公园安装的摄像头位置来自 DeFlock 地图，另据内部文件，NPS 还计划安装有面部识别功能的 Verkada 摄像头。",
-            "NPS 回应称，这是交通监测系统，用于统计车流量、等待时间，不连接执法或 DMV 数据库。但护林员担心，一旦这种监控与公园管理中的不当行为结合，美国人就失去了自由。"
-          ]
-        },
-        "en": {
-          "thesis": "The National Park Service's use of Flock cameras in parks draws ranger criticism as an invasion of privacy that undermines the freedom of public lands.",
-          "paragraphs": [
-            "The National Park Service has installed Flock cameras in parks including Yosemite. They scan license plates, make, model, and color of every vehicle, logging time and place, which can track a person. The data is shared with law enforcement nationwide, usually queried without a warrant.",
-            "Current and former rangers told 404 Media anonymously that Flock protects property, not people or parks. Another said every American should be free to visit national parks without being tracked by the federal government; wild places are the core of American freedom.",
-            "Flock has also drawn national criticism over police abusing access to stalk people and aiding ICE. Camera locations in parks came from the DeFlock map, and internal documents show plans to install Verkada cameras with facial recognition.",
-            "NPS says it is a traffic monitoring system for vehicle counts and wait times, not connected to law enforcement or DMV databases. But rangers fear that combined with park management misconduct, this surveillance ends American freedom."
-          ]
-        }
-      }
-    },
-    {
-      "id": "cb9fa2c5d9c701af988f8e046fc2ea9b5cfdc0f9",
-      "sourceId": "slowboring",
-      "category": "culture",
-      "title": "The invisible faction that dominates the Democratic Party",
-      "titleZh": "主导民主党的隐形派系",
-      "url": "https://www.slowboring.com/p/the-invisible-faction-that-dominates",
-      "author": "Matthew Yglesias",
-      "publishedAt": "2026-08-18T10:02:46.000Z",
-      "image": "https://substack-post-media.s3.amazonaws.com/public/images/cbe4ec61-cb5a-417a-b355-06de4e66eba2_6000x4000.jpeg",
-      "readingMinutes": 10,
-      "score": 72,
-      "rank": 9,
-      "summary": {
-        "zh": {
-          "thesis": "民主党内主导政策的并非激进的造反派，而是一个低调却强大的「进步派建制」——他们才是党内最大、最有影响力的群体。",
-          "paragraphs": [
-            "关于民主党内的派系，常见的说法是「激进左派对抗温和建制」。但把 2026 年初选的所有结果都划入这个框架，未免过于简单。",
-            "确实，今年夏天许多初选都是温和派对决进步派，而且有不少左翼候选人爆冷获胜，比如缅因州的 Graham Platner、密歇根州的 Abdul El-Sayed。",
-            "但有人把 Peggy Flanagan 和 Phil Weiser 的胜利也归入这股潮流，这就有些牵强。他们本来就是州级官员，更像是「顺位接班」，而且他们击败的对手也未必比一般民主党人更温和。",
-            "实际上，许多被爆冷击败的众议院现任议员，立场和 Flanagan 等人相差无几，支持 Medicare for All、废除 ICE 等。这背后其实隐藏着党内最大且最重要的派系——进步派建制。",
-            "他们是谁？就是当年支持奥巴马第二任期左转、2016 年支持希拉里但乐见桑德斯迫使她左倾、2020 年看好伊丽莎白·沃伦的那些人。在众议院，进步核心小组有近 100 名成员。",
-            "这些人没有桑德斯或 AOC 那样的明星光环，但手握大量建制资源：进步派基金会、金主网络、受资助的非政府组织。他们的影响力远超造反派，却常常被忽略。",
-            "有意思的是，党内领导层其实更喜欢进步派建制，而非造反派。但作者认为，恰恰是进步派建制更成问题，因为他们是一群「强硬的诉求者」，执着于让领导人签署各种政策承诺。"
-          ]
-        },
-        "en": {
-          "thesis": "The faction steering the Democratic Party is not the radical insurgency but a low-key yet powerful 'Progressive Establishment' — the largest and most influential group in the party.",
-          "paragraphs": [
-            "Commentary on the Democratic Party's factions often flattens everything into 'left-wing insurgents versus the moderate establishment'. But applying that frame to every 2026 primary result is far too simplistic.",
-            "True, many primaries this summer featured a moderate-versus-progressive split, and several left-wing candidates pulled off upsets, like Graham Platner in Maine and Abdul El-Sayed in Michigan.",
-            "Yet folding Peggy Flanagan's and Phil Weiser's wins into that trend is a stretch. They were statewide officials who were arguably 'next in line', and their opponents weren't necessarily more moderate than the average Democrat.",
-            "In fact, many House incumbents who lost had profiles much like Flanagan's — supporting Medicare for All, abolishing ICE, and so on. Beneath this surface lies the party's largest and most important faction: the Progressive Establishment.",
-            "Who are they? The ones who favored Obama's second-term leftward pivot, backed Clinton over Sanders in 2016 but welcomed his pressure, and saw Warren in 2020 as the best of both worlds. In the House, that's nearly 100 members of the Congressional Progressive Caucus.",
-            "They lack the star power of Sanders or AOC, but they hold enormous institutional clout: progressive foundations, donor networks, grant-funded NGOs. Their influence dwarfs the insurgents', yet they're often overlooked.",
-            "Party leaders, interestingly, prefer the Progressive Establishment to the insurgents. But the author argues the Progressive Establishment is more problematic precisely because they are intense policy-demanders, obsessed with getting leaders to sign on the dotted line."
-          ]
-        }
-      }
-    },
-    {
-      "id": "7bcc5e57f8d4d5f7087fae8212e4397508829c69",
-      "sourceId": "404media",
-      "category": "business",
-      "title": "Pornhub's Parent Company to Pay $120 Million to Settle Child Sexual Abuse Lawsuits",
-      "titleZh": "Pornhub 母公司支付 1.2 亿美元和解儿童性虐待诉讼",
-      "url": "https://www.404media.co/pornhubs-parent-company-to-pay-120-million-to-settle-child-sexual-abuse-lawsuits/",
-      "author": "Samantha Cole",
-      "publishedAt": "2026-08-17T21:04:53.000Z",
-      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/photo-1597119413352-c52ba40f83e7.jpeg",
-      "readingMinutes": 3,
-      "score": 69,
-      "rank": 10,
-      "summary": {
-        "zh": {
-          "thesis": "Pornhub 母公司以 1.2 亿美元达成和解，但未承认过错，且已实施多年许多和解要求的安全措施。",
-          "paragraphs": [
-            "Pornhub 的母公司 Aylo 将支付 1.2 亿美元，了结两起指控其平台违反联邦性交易和儿童性虐待影像法律的集体诉讼。这两起诉讼分别于 2021 年在加州和阿拉巴马州提起。",
-            "诉讼称，Mindgeek（现已更名为 Aylo）从用户上传的虐待内容中获利。加州案中，一名女性称前男友在她 16 岁时将她的性虐待视频发布到 Pornhub；阿拉巴马案中，两名女性称她们在未成年时被贩卖，贩卖者将视频传到网站，其中一人还称被下药并强奸。",
-            "和解覆盖 2011 年至 2024 年间在 Mindgeek 网站上出现的未成年人。Aylo 将先支付 2500 万美元，再分六年付清。公司声明强调和解不承认有过错。作为和解的一部分，Aylo 同意验证上传者年龄、加强审查并举报疑似虐待内容。",
-            "实际上，许多措施几年前就已实施。2020 年支付机构撤出后，Pornhub 全面整改，限制下载和上传，扩大审核，并推广「可信举报者计划」。2021 年引入生物识别验证，2024 年要求提供书面同意书。所以这起和解更多是确认既有做法，而非改变现状。"
-          ]
-        },
-        "en": {
-          "thesis": "Pornhub's parent settles for $120 million without admitting wrongdoing, though many of the agreed safety measures were already in place.",
-          "paragraphs": [
-            "Pornhub's parent company Aylo will pay $120 million to settle two class-action lawsuits alleging its platforms violated federal sex trafficking and child sexual abuse imagery laws. The suits were filed in 2021 in California and Alabama.",
-            "The suits claimed Mindgeek, now Aylo, profited from abuse content posted by users. In the California case, a woman said her ex-boyfriend posted videos of her sexual abuse at 16; in the Alabama case, two women said they were trafficked as minors, and one said she was drugged and raped at 16 before her abuser posted the video.",
-            "The settlement covers minors who appeared in content on Mindgeek sites between 2011 and 2024. Aylo will pay $25 million initially, then annual installments over six years. Its statement stressed no admission of liability. As part of the deal, Aylo agreed to verify uploader ages, step up content review, and report suspected abuse material.",
-            "In fact, many of these measures were already in place for years. After payment processors withdrew in late 2020, Pornhub overhauled its trust and safety, banning downloads, limiting uploads to verified users, and launching the Trusted Flagger Program. It added biometric verification in 2021 and required written consent in 2024. So the settlement is more about confirming existing practices than changing them."
-          ]
-        }
-      }
-    },
-    {
-      "id": "67636947efe0e665420a0faeb04d25edd5fe5d8e",
-      "sourceId": "hn",
-      "category": "business",
-      "title": "The Amazon tax",
-      "titleZh": "亚马逊税",
-      "url": "https://seths.blog/2026/08/the-amazon-tax/",
-      "author": "herbertl",
-      "publishedAt": "2026-08-18T13:22:38.000Z",
-      "image": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg",
-      "readingMinutes": 3,
-      "score": 68,
-      "rank": 11,
-      "summary": {
-        "zh": {
-          "thesis": "亚马逊的搜索广告让搜索结果变得更差，最终买单的是消费者。",
-          "paragraphs": [
-            "这不是真正的税，因为税会带来公共福利，比如医疗研究和公园。这只是赤裸裸的抢劫。亚马逊每周从搜索广告中赚走近十亿美元利润，这笔钱足够给每个员工发三万五千美元奖金还有剩余。",
-            "我的出版社为了推广我的新书，开始在亚马逊上买搜索广告。乍一看很合理：不确定买什么的人，可能因为合适的广告找到好产品。但实际上，你搜空气炸锅时，亚马逊已经知道哪款评价最好、退货最少、价格最优，广告的唯一目的就是让你买那个“不是最好”的。广告让搜索变差了。",
-            "当广告泛滥，最好的空气炸锅厂商也被迫参与竞价，只为保住本应属于自己的销量。商家不得不买广告，不是因为他们笨，而是系统让他们别无选择。传统广告能增加需求，但搜索广告是零和的，品类总销量不变，商家只是在争夺一块固定大小的蛋糕。有研究甚至表明，带搜索广告的电商网站比不带广告的卖得还少。",
-            "我的出版社试过最划算的广告是搜索“Seth Godin The Knot”，每次点击约一美元。为了一本你本来就要买的书，出版社付给亚马逊一美元。这笔钱最终不是卖家出，而是你出。广告让营销效率变低，产品变得更贵，或新产品的开发资金被抽走。于是两个副作用出现了：生产者开始用廉价低质的产品省出广告费；亚马逊也有动机让自然搜索结果更差，逼商家买更多广告。曾经以客户为中心、为消费者降价的亚马逊，现在在偷客户的钱。"
-          ]
-        },
-        "en": {
-          "thesis": "Amazon's search ads make search results worse, and the customer ends up footing the bill.",
-          "paragraphs": [
-            "This is not really a tax, since taxes bring public benefits like medical research and parks. It is simply theft. Amazon makes nearly a billion dollars a week in profit from search ads, enough to give every employee a $35,000 bonus and still have change.",
-            "My publisher started buying search ads on Amazon for my new book. At first it looks sensible: someone unsure might find a good product thanks to a well-placed ad. But when you search for an air fryer, Amazon already knows the best-reviewed, least-returned, best-priced model. The ads' only purpose is to get you to pick a worse one (or to keep you on the best one). Ads make search worse.",
-            "When ads abound, the best air fryer maker has to bid in self-defense to protect sales they once had free. Businesses keep buying ads not because they are dumb, but because the system leaves them no choice. Traditional ads increase demand, but search ads are zero-sum: total category sales stay flat, and merchants fight over a fixed pie. One study even finds that a site with search ads sells fewer items than the same without them.",
-            "The best ad my publisher has tested is searching my own name: about a dollar per click. So a publisher pays Amazon a dollar to show you an ad for a book you were about to buy anyway. And who ends up bearing the $50 billion-plus spent yearly on these ads? Not sellers — they cannot keep losing money. It is you, through pricier products and less innovation. Two perverse side effects follow: producers switch to shoddy, cheap goods to fund their click budgets, and Amazon (like Google before it) has an incentive to degrade organic results, pushing more merchants into ads. Amazon, once customer-centric and proud of lowering prices, is now stealing from the very customers it claimed to serve."
-          ]
-        }
-      }
-    },
-    {
-      "id": "700f6efec5e5246547fd016a9ccd02fd12ecd04e",
-      "sourceId": "klement",
-      "category": "economy",
-      "title": "When it comes to inflation, ‘in’ is better than ‘out’",
-      "titleZh": "在通胀这件事上，欧元区内外谁更好？",
-      "url": "https://klementoninvesting.substack.com/p/when-it-comes-to-inflation-in-is",
-      "author": "Joachim Klement",
-      "publishedAt": "2026-08-18T06:01:04.000Z",
-      "image": "https://substack-post-media.s3.amazonaws.com/public/images/85b6585d-37e5-4eb3-94b6-de12cd3832da_275x183.jpeg",
-      "readingMinutes": 2,
-      "score": 68,
-      "rank": 12,
-      "summary": {
-        "zh": {
-          "thesis": "拥有独立货币和货币政策的中东欧国家，在通胀问题上反而不如加入欧元区的斯洛伐克。",
-          "paragraphs": [
-            "欧元区之外的国家本以为自己能控制货币政策，通胀来了可以自己加息，不必等欧洲央行照顾那么多国家的不同情况。维谢格拉德四国就是现成的实验：波兰、匈牙利、捷克有自己的货币，斯洛伐克在 2009 年加入了欧元区。",
-            "四国经济结构很像，都依赖德国外包制造业，文化政治也接近。唯一的差别是货币政策。2022 年通胀飙升时，前三者的央行加息确实比欧洲央行快，本币对欧元贬值按理说也该提振出口。",
-            "但结果恰恰相反：非欧元区的三个国家通胀比斯洛伐克更高，赤字和增长也没更好。原因在于，欧洲央行实际上不只是欧元区的央行，它的资产负债表太大，经济引力太强，其他欧洲开放经济体都得跟着它的利率走。",
-            "数据显示，通胀预期在欧元区和斯洛伐克锚定得比其他国家好得多。所以，在通胀这件事上，欧元区内的表现反而更好。"
-          ]
-        },
-        "en": {
-          "thesis": "Central European countries with independent currencies and monetary policy fared worse on inflation than Slovakia inside the eurozone.",
-          "paragraphs": [
-            "Countries outside the eurozone think they control their own monetary policy, able to raise rates when inflation hits instead of waiting for the ECB to balance many different economies. The Visegrad Four are a natural experiment: Poland, Hungary, and the Czech Republic have their own currencies, while Slovakia joined the euro in 2009.",
-            "The four economies look alike, dependent on outsourced German manufacturing, culturally and politically similar. The only real difference is monetary policy. During the 2022 inflation spike, the three central banks did hike faster than the ECB, and their currencies depreciated against the euro, which should have boosted exports.",
-            "But the opposite happened: inflation ran higher in the non-euro countries than in Slovakia, and deficits and growth were no better. The reason is that the ECB is effectively the central bank of all Europe. Its balance sheet is so large, its economic gravity so strong, that other open European economies have to follow its rates.",
-            "Inflation expectations stayed far better anchored in the eurozone and Slovakia than elsewhere. So on inflation, being in is better than being out."
-          ]
-        }
-      }
-    },
-    {
-      "id": "14d634bfa85c97d12eec385a766be4337289febb",
-      "sourceId": "ofdollars",
-      "category": "living",
-      "title": "The Myth of Owning Your Time",
-      "titleZh": "「拥有自己的时间」是个神话",
-      "url": "https://ofdollarsanddata.com/the-myth-of-owning-your-time/",
-      "author": "Nick Maggiulli",
-      "publishedAt": "2026-08-18T11:45:54.000Z",
-      "image": "https://ofdollarsanddata.com/wp-content/uploads/2026/02/2026_01_08_desert.jpg",
-      "readingMinutes": 6,
-      "score": 64,
-      "rank": 13,
-      "summary": {
-        "zh": {
-          "thesis": "自主创业或身居高位并不意味着拥有时间自由，成功往往让人更忙。",
-          "paragraphs": [
-            "你可能听过这样的说法：自己做老板、掌控日程、拥有自己的时间。听起来很诱人，但这是个谎言。自主创业很少带来你想象中的自由，因为会有客户和供应商来占据你的时间。",
-            "而位高权重的人更忙。Kim Kardashian、Mark Zuckerberg、Jamie Dimon 都要应对赞助商、监管者和股东。他们理论上掌控自己的日程，但实际并非如此。",
-            "过去，收入最高的人工作时间最短，但现在变了。NBER 发现，1983 年最穷的 20% 工人更可能长时间工作，而到 2002 年，最富的 20% 工作时间长的可能性是最穷的 20% 的两倍。",
-            "哈佛商业评论 2018 年的一项研究跟踪了 27 位 CEO，发现他们平均每周工作 62.5 小时，79% 的周末日子和 70% 的假期日子都在工作。他们领导的都是大公司，平均营收 130 亿美元。",
-            "你可能说他们有自由选择不这样做，但拥有时间自由却从不使用，就等于没有。时间不像钱，无法转让。所以，与其追求「拥有自己的时间」，不如想清楚你真正想用时间做什么，然后为它放弃掌控。"
-          ]
-        },
-        "en": {
-          "thesis": "Working for yourself or rising high does not mean time freedom, and success often makes you busier.",
-          "paragraphs": [
-            "You have heard the pitch: be your own boss, control your schedule, own your time. It sounds great, but it is a lie. Going out on your own rarely gives you the freedom you expect, because customers and vendors will eat your time just as a boss would.",
-            "People at the top are busier. Kim Kardashian, Mark Zuckerberg, Jamie Dimon all answer to sponsors, regulators, and shareholders. They control their calendars in theory, but not in practice.",
-            "It was not always this way. The highest earners used to work the fewest hours. But NBER found that in 1983 the poorest 20% were more likely to work long hours than the richest 20%. By 2002 the richest were twice as likely.",
-            "A 2018 HBR study tracked 27 CEOs for a quarter and found they worked 62.5 hours a week, on 79% of weekend days, and on 70% of vacation days. These were not startup founders but heads of large firms averaging $13 billion in revenue.",
-            "You could say they have the freedom to choose not to do that. But having time freedom and never using it is the same as not having it. Time, unlike money, cannot be transferred. So instead of chasing ownership of your time, decide what you really want to spend it on, and willingly give up control for that."
+            "A new study in PNAS concludes that X's algorithm learns what you hate and shows you more of it. The researchers recruited 715 active users and installed a browser extension to collect their feeds.",
+            "They found the algorithm favors engagement, but not all engagement equally. Likes and reposts bring more of the same; replies, though only 6.8% of interactions, have the biggest effect on what you see.",
+            "When you reply to something that annoys you, the algorithm learns 'this user reacts to this' and feeds you more of it. It becomes a loop: the angrier you get and the more you reply, the more it shows you things that make you angry.",
+            "This was especially true for Democratic users. The researchers guess it might be because X has more right-wing content overall, or because Democrats are more likely to reply to posts they disagree with. The exact reason needs more study.",
+            "The takeaway: the algorithm rewards angry replies, not what you actually want to see. The researchers urge you to think about what you really care about before scrolling, rather than being driven by the knee-jerk emotional loop."
           ]
         }
       }
@@ -940,103 +696,31 @@
       "publishedAt": "2026-08-18T12:00:00.000Z",
       "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Kazamia_HERO.png?w=564",
       "readingMinutes": 11,
-      "score": 63,
-      "rank": 14,
+      "score": 72,
+      "rank": 7,
       "summary": {
         "zh": {
-          "thesis": "死亡不是故障，而是进化权衡的必然结果，长生不老违背了自然选择的基本逻辑。",
+          "thesis": "衰老是演化的副产品，永生与演化逻辑相悖，所以抗衰老极其困难。",
           "paragraphs": [
-            "彼得·蒂尔曾说死亡并不自然，只是生命的一部分，但自然已经给出了答案：3.5 亿年来，进化一直偏爱繁殖成功而非永生。",
-            "伦敦大学学院的生物化学家尼克·莱恩从能量学角度解释：生长、繁殖、免疫都要消耗能量，而修复和维持同样昂贵，必须做出取舍。",
-            "老鼠寿命只有两岁，大象能活七十岁。小、易被捕食的物种早熟早育，不投资长期维护；大象成熟缓慢、天敌少，所以选择了耐久的身体。",
-            "人类是灵长类中的异类：按体型算，我们本应只能活一半时间，却因为祖辈在狩猎采集社会中的帮助而获得了更长的寿命。",
-            "分子时钟的发现表明，衰老不是一个随机的磨损过程，而是由表观遗传标记精确调控的程序。但程序一旦启动，就不会停下。",
-            "进化只优化到繁殖期，之后的选择压力减小，发育期的旺盛基因在老年可能失控，就像老老鼠体内重新激活的胚胎基因损害了肌肉修复。",
-            "一切抗衰老手段都面临同样的难题：增强再生能力的同时，也激活了癌细胞增殖的路径。用生长激素和 IGF-1 延缓衰老的实验，最终会增加癌症风险。"
+            "硅谷富豪们认为，只要钱和生物工程足够，死亡也能变成技术问题。但 35 亿年的演化给出的答案恰恰相反：死亡不是故障，而是设计如此。",
+            "演化只在乎繁殖成功，不在乎长寿。小鼠体积小、天敌多，早早繁殖才是最优解；大象成熟慢、威胁少，演化就选了更耐用的身体。所以小型物种活得快、死得早。",
+            "伦敦大学学院的生物化学家 Nick Lane 从能量角度解释：生长、繁殖、免疫都要耗能，修复和维护也要耗能，两者只能权衡。活得快，磨损就快。",
+            "但人类是个例外。按体型算，我们本该活 35 岁左右，实际却活到 70 多。有研究者认为，人类寿命 4 万年前就开始延长，可能因为祖辈在采集部落里帮忙带孩子、积累生存知识。",
+            "为什么身体有修复机制，却不能永远修复下去？2022 年，加州大学洛杉矶分校的 Horvath 发现了一种「分子时钟」：细胞里的 DNA 化学标记会随时间积累，精确记录生物年龄。这说明衰老是有序的生理过程，不是随机磨损。",
+            "Horvath 认为，这个时钟本来是为了协调胚胎发育——胚胎细胞要同步分化成各种组织。但成年后它继续运行，把人一路带到终点。演化没有选择死亡程序，只是从未选择阻止它。",
+            "所以永生极难实现。抗衰老的捷径常常通向癌症：促进细胞再生的信号通路，正是肿瘤劫持来无限增殖的通路。长寿与癌症是同一枚硬币的两面。诺贝尔奖得主 Ramakrishnan 直言，追求永生只是超级富豪的幻想，是对气候、疾病等真正问题的分心。"
           ]
         },
         "en": {
-          "thesis": "Death is not a glitch but the inevitable result of evolutionary trade-offs, and immortality defies the logic of natural selection.",
+          "thesis": "Aging is an unintended consequence of evolution, and immortality fights against it, which is why anti-aging is so hard.",
           "paragraphs": [
-            "Peter Thiel once said death is not natural, but n\nature has answered: for 3.5 billion years, evolution has favored reproductive success over immortality.",
-            "Biochemist Nick Lane of University College London explains in terms of energetics: growth, reproduction, and immunity all cost energy, while repair and maintenance are also expensive, so trade-offs are unavoidable.",
-            "A field mouse lives two years, an elephant seventy. Small, easily preyed-upon species reproduce early and die young, investing little in maintenance; elephants, which mature slowly and face fewer predators, evolve durable bodies.",
-            "Humans are an outlier among primates: by size we should live only half as long, but the help of grandparents in hunter-gatherer bands extended our lifespan.",
-            "The discovery of a molecular clock shows aging is not random wear but a precisely regulated program of epigenetic markers. Yet once the program starts, it never stops.",
-            "Evolution optimizes only until reproduction, after which selective pressure wanes, and genes that were exuberant in development can run wild in old age, as when embryonic genes re\nactivate in old mice and hamper muscle repair.",
-            "Every anti-aging intervention faces the same dilemma: boosting regeneration also feeds the pathways that cancer cells hijack. Hormones like IGF-1, once promising, increase cancer risk when kept active too long."
-          ]
-        }
-      }
-    },
-    {
-      "id": "1b1f5f9dbc1ae7bff49a21d0b5212b6ea0c73259",
-      "sourceId": "nautilus",
-      "category": "science",
-      "title": "Everything You Believe About Taking a Full Course of Antibiotics and Bacterial Resistance Is Wrong",
-      "titleZh": "你以为的抗生素疗程和细菌耐药性的那些事，全错了",
-      "url": "https://nautil.us/everything-you-believe-about-taking-a-full-course-of-antibiotics-and-bacterial-resistance-is-wrong-1283911/",
-      "author": "Jake Currie",
-      "publishedAt": "2026-08-17T22:00:00.000Z",
-      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Currie_HERO_3dd0e8.png?w=564",
-      "readingMinutes": 3,
-      "score": 63,
-      "rank": 15,
-      "summary": {
-        "zh": {
-          "thesis": "短疗程抗生素和长疗程一样有效，甚至可能减少耐药性，所以「必须吃完整个疗程」的观念该更新了。",
-          "paragraphs": [
-            "你可能一直相信，医生开的抗生素必须全部吃完，哪怕已经感觉好了。但2023年一篇回顾25年、超过120项随机对照试验的综述发现，短疗程和长疗程效果一样，从尿路感染到肺炎都如此。",
-            "而且短疗程可能更优，因为抗生素常有副作用和饮食限制。至于耐药性，原来想的「没杀干净会变异卷土重来」也不对。接触抗生素时间越长，耐药的选择压力越大，所以短疗程反而降低耐药。",
-            "这种「必须吃完」的观念从1940年代就有了，深入人心。一项调查显示，近90%的人认为应该吃完，多数人甚至偏爱更长的疗程。但研究者说，医生们该更新说法了：知识在进步，指南在演变，这是正常的。",
-            "所以别再把没吃完药的朋友当反面典型了。科学在进步，旧建议会过时，跟上就好。"
-          ]
-        },
-        "en": {
-          "thesis": "Short courses of antibiotics are as effective as long ones and may even reduce resistance, so the 'finish the full course' dogma is due for an update.",
-          "paragraphs": [
-            "You have probably always believed that you must finish every antibiotic your doctor prescribes, even if you feel better. But a 2023 review of 25 years of data and over 120 randomized trials found that short courses work just as well as long ones, from urinary infections to pneumonia.",
-            "Short courses might even be better, since antibiotics often come with side effects and dietary restrictions. As for resistance, the old fear that survivors would mutate and come back is wrong. Longer exposure to antibiotics means stronger selective pressure for resistance, so shorter courses actually reduce it.",
-            "This 'finish the course' belief dates back to the 1940s and is deeply entrenched. A survey found nearly 90% of people think you should finish the bottle, and most even prefer longer courses. But researchers say doctors should update their advice: knowledge evolves, guidelines evolve, and that is a good thing.",
-            "So do not judge that friend who skipped a few pills. Science is moving forward, and old advice can become outdated. It is fine to keep up."
-          ]
-        }
-      }
-    },
-    {
-      "id": "36d27d0d69896726f80cea4bab7bd8a2c2a8bb69",
-      "sourceId": "hn",
-      "category": "tech",
-      "title": "Using the railway network as a flatbed scanner",
-      "titleZh": "把铁路网当成平板扫描仪",
-      "url": "https://philo.gay/linecam/",
-      "author": "otherayden",
-      "publishedAt": "2026-08-18T12:43:54.000Z",
-      "image": "https://philo.gay/linecam/blogpics_1x/cranes-edit.jpg",
-      "readingMinutes": 20,
-      "score": 62,
-      "rank": 16,
-      "summary": {
-        "zh": {
-          "thesis": "用工业线阵相机从火车和渡轮上拍出超宽幅照片，难点不在拍摄，而在后期把速度和视差处理对。",
-          "paragraphs": [
-            "作者把一台工业线阵相机架在火车窗边，对着窗外连续拍一条一像素宽的竖线，列车前进时再把这些线拼起来，就得到一张全景图。",
-            "原理类似老式扫描后背：传感器只有一条线，靠移动来覆盖整个画面。他最初用手机试过，发现速度不均会让画面扭曲，于是改用每秒能读近两万行的 Basler 相机。",
-            "硬件只花了两百多美元，麻烦在后期。相机每秒拍四千行，得靠加速度计的数据决定保留哪些线，但加速度计噪声大，积分还会漂移，需要手动猜初速度。",
-            "另一个问题是视差：近处的物体移动快，远处的慢。作者用每像素代表的距离来调整，离近处多就强调前景，值大就突出背景，每段画面选好参数后拼起来。",
-            "后来他加了彩色相机，又遇到红外污染和红绿蓝通道错位，最后靠滤镜和手动偏移解决。图片太大，JPEG 放不下，只能存成 TIFF，再用 OpenSeadragon 切片放到网页上给人缩放看。",
-            "所以这个项目的真正成果不是相机，而是一套折腾出来的后期流程——从加速度积分到视差，每一步都在跟误差作斗争。"
-          ]
-        },
-        "en": {
-          "thesis": "Using an industrial line-scan camera from trains and ferries to shoot ultra-wide images; the hard part is postprocessing speed and parallax.",
-          "paragraphs": [
-            "The author mounts an industrial line-scan camera at a train window, capturing a single vertical line of pixels continuously, then stitches the lines together as the train moves, producing a panoramic image.",
-            "It's the same idea as old scanning backs: a one-line sensor covers the frame by moving. His first phone test showed uneven speed distorts the picture, so he switched to a Basler camera that reads nearly 19,000 lines a second.",
-            "The hardware cost only a couple hundred dollars; the pain was postprocessing. The camera grabs about 4,000 lines per second, so he had to decide which lines to keep, using accelerometer data. But accelerometers are noisy and integration drifts, so he had to guess the starting velocity by eye.",
-            "There is also parallax: nearby objects appear to move faster than distant ones. He adjusted the distance each pixel represents — low values emphasize the foreground, high ones bring out the background — and picked parameters for each segment before stitching.",
-            "Later he added a color camera, which brought infrared contamination and red-green-blue channel misalignment, fixed with a filter and manual shifting. The images are too big for JPEG, so he saved them as TIFF and tiled them with OpenSeadragon for the browser.",
-            "So the project's real output isn't the camera but a postprocessing pipeline he fought through — from acceleration integration to parallax, every step was a battle against error."
+            "Silicon Valley billionaires think that with enough money and bioengineering, death becomes a technical problem. But 3.5 billion years of evolution say the opposite: death is not a glitch, it is by design.",
+            "Evolution only cares about reproductive success, not longevity. A mouse is small and preyed upon, so reproducing early is the optimal strategy; an elephant matures slowly and faces fewer threats, so evolution built a sturdier body. Small species live fast and die young.",
+            "Nick Lane, a biochemist at University College London, explains through energetics: growth, reproduction, immunity all consume energy, and so does repair and maintenance, so you have to trade one against the other. Live fast, and you wear out sooner.",
+            "Humans are the exception. For our size, we should live about 35 years, but we live into our 70s and beyond. Some researchers think our lifespan started lengthening 40,000 years ago, perhaps because grandparents in hunter-gatherer bands helped raise children and passed on knowledge.",
+            "So why can't we just keep repairing forever? In 2022, UCLA's Horvath discovered a 'molecular clock': chemical tags on DNA accumulate over time and mark the biological age of cells and tissues. Aging is an orderly process, not random wear.",
+            "Horvath argues the clock evolved to orchestrate embryonic development, when identical cells must differentiate in synchrony into tissues. But after adulthood it keeps running, all the way to the ground. Evolution did not select a program to make us die; it simply never selected against it.",
+            "So immortality is extremely hard. Anti-aging shortcuts often lead straight to cancer: the pathways that make cells divide and repair in youth are the same ones tumors hijack for unchecked growth. Longevity and cancer are two sides of the same coin. Nobel laureate Venki Ramakrishnan calls the billionaire quest a fantasy and a distraction from real problems like climate change and disease."
           ]
         }
       }
@@ -1046,167 +730,67 @@
       "sourceId": "restofworld",
       "category": "business",
       "title": "Chinese carmakers now sell one EV abroad for every two at home",
-      "titleZh": "中国车企现在每在国内卖两辆电动汽车，就有一辆销往海外",
+      "titleZh": "中国车企现在每在国内卖出两辆电动车，就有一辆出口海外",
       "url": "https://restofworld.org/2026/china-ev-exports-overcapacity-global-markets/",
       "author": "Indranil Ghosh",
       "publishedAt": "2026-08-18T10:00:00.000Z",
       "image": "https://restofworld.org/wp-content/uploads/2026/08/iStock-1156040237-768x432.jpg",
       "readingMinutes": 3,
-      "score": 62,
-      "rank": 17,
+      "score": 72,
+      "rank": 8,
       "summary": {
         "zh": {
-          "thesis": "国内销量下滑迫使中国电动汽车大规模出口，且这种趋势是长期的，正在重塑全球市场。",
+          "thesis": "中国车企在国内市场萎缩的推动下，正加速转向海外，而这一出口浪潮将随之在全球市场掀起价格战。",
           "paragraphs": [
-            "中国电动汽车制造商在国内失去了买家，却在巴西、泰国和海湾地区找到了新客户。7月份出口创下54万辆的月度纪录，而国内销量约为98万辆，出口与国内销量之比从去年7月的1:5升至1:2。",
-            "这种转变并非应对一时困境，而是长期趋势。AutoXing创始人Lei Xing表示，中国车价格低廉、供应充足、技术先进，就像当年的日系车和德系车。Automobility创始人Bill Russo说：“从出口机会变成了出口必需。”",
-            "特斯拉也在用出口弥补国内疲软。上海工厂上半年国内销量23.9万辆，出口22.9万辆。除欧洲和北美外的海外市场，中国品牌贡献了EV销量的一半（2023年为四分之一），预计今年该地区EV销量将超过北美。",
-            "面对中国车的价格优势，各国设定准入条件。泰国要求获补贴的车企本地建厂抵消进口；巴西将EV进口税提至与燃油车相同；加拿大则降税至6.1%并每年放行4.9万辆。",
-            "中国工厂产能过剩，超过100万辆EV待售，这意味着折扣、激励和贬值压力。正如Russo所言：“中国出口汽车的速度超过了海外零售网络的消化能力。”"
+            "中国电动车企在国内失去买家，却在巴西、泰国和海湾地区找到了新客户。7月份中国出口电动车54万辆，创月度纪录，国内销量约98万辆，出口与国内销量之比达到1:2，去年7月还是1:5。",
+            "这波出海是长期趋势，不是对某一年表现不佳的回应。国内持续两年的价格战也随着汽车一同出海，中国汽车价格低廉、供应充足、技术过硬，正如当年日系、德系车崛起时那样。",
+            "国内销量今年前七个月下滑12%，国际能源署预计今年市场将首次出现全年持平。咨询公司Automobility创始人Bill Russo说：“已经从出口机会变成了出口必要。下一阶段不只是出口汽车，还要把制造、供应链和技术本地化。”",
+            "连特斯拉也依靠出口弥补中国市场的疲软，其上海工厂上半年内销23.9万辆，出口22.9万辆。中国品牌在海外非欧美市场的份额已从2023年的四分之一升至一半，巴西等拉美地区中国品牌占EV销量近90%。",
+            "出口增长也带来库存压力。过去18个月有超过100万辆电动车尚未售出，海外经销商消化不了这么多车，降价促销在所难免。Russo说：“我们见过这样的剧本：中国出口汽车的速度，超过了海外零售网络的吸收速度。”"
           ]
         },
         "en": {
-          "thesis": "Falling domestic sales are pushing Chinese EVs abroad at record levels, a structural shift that is reshaping global markets.",
+          "thesis": "Chinese EV makers are shifting overseas as domestic sales shrink, and the export wave will take the price war global.",
           "paragraphs": [
-            "Chinese EV makers have lost buyers at home and found new ones in Brazil, Thailand, and the Gulf. July exports hit a record 540,000 vehicles against domestic sales of 980,000, moving the ratio from one exported per five sold at home to one per two.",
-            "This is not a response to a bad year but a lasting shift. Lei Xing of AutoXing says the cars are cheap, abundant, and technologically desirable, much like Japanese and German cars were in their export booms. Bill Russo of Automobility puts it starkly: 'We've moved from export opportunity to export necessity.'",
-            "Even Tesla leans on exports as home sales weaken: Shanghai delivered 238,955 cars in China in the first half and shipped out 228,994. Outside Europe and North America, Chinese brands now supply half of EV sales, up from a quarter in 2023, and are expected to outsell North America this year.",
-            "Facing prices too competitive to shut out, governments are setting terms. Thailand requires subsidized carmakers to build locally to offset imports; Brazil has raised import taxes to match gasoline cars; Canada took the opposite route, slashing a 100% tax to 6.1% and letting in 49,000 cars a year.",
-            "Chinese factories outproduce what foreign showrooms can sell, leaving over a million EVs in inventory. That means discounting, incentives, and pressure on resale values. As Russo says, 'We've seen this movie before: China can export vehicles faster than overseas retail networks can absorb them.'"
+            "Chinese EV makers are losing buyers at home and finding new ones in Brazil, Thailand, and the Gulf. In July China exported 540,000 EVs, a monthly record, against 980,000 sold at home, so one EV went abroad for every two sold, compared with one in five last July.",
+            "The shift abroad is permanent, not a response to a bad year. The price war that has played out inside China for two years is following the cars overseas. Chinese cars are inexpensive, widely available, and carry the technology buyers want, much like Japanese and German cars did in their export heydays.",
+            "Domestic sales fell 12% in the first seven months of 2026, and the IEA expects the market to end flat this year for the first time this decade. Bill Russo of Automobility says it has moved from export opportunity to export necessity. The next phase is localizing manufacturing, supply chains, and technology overseas.",
+            "Even Tesla is leaning on exports to make up for weak China sales, shipping out 228,994 cars from Shanghai in the first half while selling 238,955 at home. Outside Europe and North America, Chinese brands now supply half of EV sales, up from a quarter in 2023, and in Brazil they are nearly 90%.",
+            "The surge also creates a backlog. More than a million exported EVs remain unsold, overseas dealers cannot absorb them all, so discounting and incentives are inevitable. Russo says it is a familiar movie: China exports faster than retail networks can absorb."
           ]
         }
       }
     },
     {
-      "id": "54b2d956e9d7b86d857b154d8854e26812583c35",
-      "sourceId": "techdirt",
-      "category": "economy",
-      "title": "Screwworm Infections Get Worse, Government Unleashing Drone Army For Surveillance",
-      "titleZh": "螺旋蝇感染恶化，政府动用无人机大军监视",
-      "url": "https://www.techdirt.com/2026/08/17/screwworm-infections-get-worse-government-unleashing-drone-army-for-surveillance/",
-      "author": "Timothy Geigner",
-      "publishedAt": "2026-08-18T03:06:09.000Z",
-      "image": null,
-      "readingMinutes": 2,
-      "score": 62,
-      "rank": 18,
-      "summary": {
-        "zh": {
-          "thesis": "DOGE 砍掉了一项 1.7 亿美元的防疫拨款，结果美国现在要花更多钱应对螺旋蝇疫情，还可能损失近 20 亿美元。",
-          "paragraphs": [
-            "几个月前，螺旋蝇在得州重现，这是几十年来头一回。原本与墨西哥等国合作的监测项目，因为 DOGE 削减经费而停摆，就像麻疹一样，本来已经消灭的问题又回来了。",
-            "螺旋蝇会产卵在牲畜身上，几周就能杀死宿主，墨西哥已有数百人感染。美国这边疫情还在恶化，国土安全部被迫抽调 200 多架边境巡逻无人机，去监测牲畜感染。",
-            "美国政府已经花了不少钱：墨西哥投了 2100 万建无菌蝇设施，得州和亚利桑那还要再建两处，各花几千万。而 DOGE 取消的那笔拨款，总共 1.7 亿美元。",
-            "更糟的是，据 USDA 估算，如果疫情达到 1976 年的规模，得州经济将损失 18 亿美元。为了省下那点钱，现在花的和可能赔的，都远超当初的预算。"
-          ]
-        },
-        "en": {
-          "thesis": "DOGE cut a $170 million disease surveillance grant, and now the US is spending more to fight a screwworm outbreak that threatens nearly $2 billion in damage.",
-          "paragraphs": [
-            "A few months ago screwworm reappeared in Texas for the first time in decades. The program that kept it out, run with countries south of the border, lost funding when DOGE decided it wasn't worth it, so a problem we had eradicated is back, just like measles.",
-            "Screwworms lay eggs in livestock and can kill a host in weeks; hundreds of people in Mexico are now infected. On the US side it's getting worse, and Homeland Security has had to pull 200 drones off border patrol to look for infections in animals.",
-            "The response is already costing money: $21 million for sterile fly facilities in Mexico, tens of millions for two new ones in Texas and Arizona. The grant DOGE killed was $170 million.",
-            "And if the outbreak reaches the scale of the 1976 Texas one, the USDA estimates $1.8 billion in economic damage. So we've likely already spent more than the program cost, and the risk is far bigger."
-          ]
-        }
-      }
-    },
-    {
-      "id": "50c3c15d3c4384d7d81d9b63168ffffca648d6f0",
-      "sourceId": "conversable",
-      "category": "culture",
-      "title": "Welcoming First-Year Students with a Wake-Up Call",
-      "titleZh": "欢迎新生：一记警钟",
-      "url": "https://conversableeconomist.com/2026/08/17/welcoming-first-year-students-with-a-wake-up-call/",
-      "author": "conversableeconomist",
-      "publishedAt": "2026-08-17T14:30:00.000Z",
-      "image": "https://i0.wp.com/conversableeconomist.com/wp-content/uploads/2021/08/cropped-Screen-Shot-2021-08-23-at-2.04.56-PM.png?fit=889%2C66&#038;ssl=1",
-      "readingMinutes": 1,
-      "score": 61,
-      "rank": 19,
-      "summary": {
-        "zh": {
-          "thesis": "美国大学的迎新致辞充满自满，缺乏应有的谦卑和自我怀疑。",
-          "paragraphs": [
-            "每年秋天，全美大学都自称迎来了史上最优秀、最多样化的新生。安德鲁·德尔班科认为这不太可能。他是哥伦比亚大学美国研究教授，也是国家人文奖章得主。",
-            "他在《高等教育纪事报》访谈中指出，严肃的学术工作需要自我怀疑和好奇心。而如今精英机构弥漫着一种优越感——好像他们已掌握所有答案。",
-            "早年新英格兰的大学由清教徒创办，校长会告诉新生：“你们都是无用的罪人，全靠上帝恩典。要看到自己的罪与不完美。”今天的致辞则是：“欢迎来到我们伟大的大学，你们是史上最优秀最聪明的学生。”",
-            "所以，这种自满情绪是精英机构自己造成的。迎新致辞应当被削弱或调整，谦卑和自省才能回归学术的真正价值。"
-          ]
-        },
-        "en": {
-          "thesis": "American college welcoming speeches are full of complacency and lack the humility and self-doubt that serious academic work requires.",
-          "paragraphs": [
-            "Every fall, colleges across the country welcome their 'best-ever, most qualified, most diverse' first-year class. Andrew Delbanco, a Columbia professor and National Humanities Medal winner, finds that unlikely.",
-            "In a Chronicle of Higher Education interview, he argues that self-doubt and curiosity are central to serious academic work. But elite institutions now radiate a sense of superiority, as if they have all the answers.",
-            "Early Northeastern colleges, founded by Protestants, had presidents who told incoming students: 'You are all worthless sinners, here by God's grace. Hope to see your own sinfulness.' Today's speech: 'Welcome to our great university. You are the best and brightest ever to walk through the gate.'",
-            "So the smugness is of the institutions' own making. The welcoming speech should be tempered, and humility should return to the heart of academic life."
-          ]
-        }
-      }
-    },
-    {
-      "id": "bbfb9239a385cc7cee64937b2e2311951cd8c58d",
-      "sourceId": "marginal",
-      "category": "culture",
-      "title": "Why Aren’t Modernist Bridges Awful?",
-      "titleZh": "为什么现代主义桥梁不糟糕？",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/why-arent-modernist-bridges-awful.html",
-      "author": "Alex Tabarrok",
-      "publishedAt": "2026-08-18T11:17:33.000Z",
-      "image": "https://marginalrevolution.com/wp-content/uploads/2026/08/K-bridge.avif",
-      "readingMinutes": 1,
-      "score": 60,
-      "rank": 20,
-      "summary": {
-        "zh": {
-          "thesis": "公众讨厌现代建筑，却普遍喜欢现代桥梁，原因在于桥梁设计师来自工程系而非建筑系。",
-          "paragraphs": [
-            "公众不喜欢现代建筑，但对现代桥梁倒没什么恶感。全球最美桥梁榜单里，既有塔桥、布鲁克林桥这些经典，也常常出现巴西的库比契克桥、希腊的里约-安提里奥桥。",
-            "几乎没人批评现代桥梁全都很丑，也没有「现代桥梁已不如前辈」的论调。一种解释是，桥梁设计归工程师管，不归建筑师管，美可能只是工程约束的副产品。",
-            "但丑桥确实存在，所以不只是工程限制。一个佐证是：建筑杂志《Wallpaper》选出的桥梁大多很丑，和大众喜爱的榜单几乎无重叠。可见丑是一种选择，而非必然。"
-          ]
-        },
-        "en": {
-          "thesis": "The public dislikes modern architecture but generally likes modern bridges, and the reason is that bridges are designed by engineers, not architects.",
-          "paragraphs": [
-            "The public dislikes modern architecture but has no such grudge against modern bridges. Lists of the world's most beautiful bridges feature classics like Tower Bridge and the Brooklyn Bridge, but also Brazil's Kubitschek Bridge and Greece's Rio-Antirrio Bridge.",
-            "You rarely hear the claim that modern bridges are all ugly, or that they fall short of their predecessors. One explanation is that bridges are designed by engineers, not architects, so beauty may just be a byproduct of engineering constraints.",
-            "Ugly bridges do exist though, so constraints alone can't explain it. Tellingly, the bridges chosen by Wallpaper, a magazine about architecture, are mostly ugly, with almost no overlap with the popular lists. So ugliness was a choice, not a necessity."
-          ]
-        }
-      }
-    },
-    {
-      "id": "7d1d995afc75a536b84d94c108f2a8586d4d60ec",
-      "sourceId": "hn",
+      "id": "d06c386273fda27f2070f7f943424c087ab79dc8",
+      "sourceId": "404media",
       "category": "tech",
-      "title": "Google has acquired the data of failed US airline Spirit",
-      "titleZh": "Google 买下了破产航空公司 Spirit 的数据",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-      "author": "pseudolus",
-      "publishedAt": "2026-08-18T10:13:28.000Z",
-      "image": "https://image.theregister.com/5273664.jpg?imageId=5273664&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-      "readingMinutes": 2,
-      "score": 58,
-      "rank": 21,
+      "title": "The National Park Service Is Using Flock. Rangers Are Pissed",
+      "titleZh": "国家公园管理局用上了 Flock 摄像头，护林员很恼火",
+      "url": "https://www.404media.co/the-national-park-service-is-using-flock-rangers-are-pissed/",
+      "author": "Joseph Cox",
+      "publishedAt": "2026-08-18T13:21:29.000Z",
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/nps-flock.png",
+      "readingMinutes": 3,
+      "score": 68,
+      "rank": 9,
       "summary": {
         "zh": {
-          "thesis": "Google 花 1000 万美元买下 Spirit 的海量数据，主要是为了训练 AI 模型。",
+          "thesis": "国家公园部署 Flock 车牌识别摄像头，护林员认为这是对游客隐私的侵犯，违背了公园自由的精神。",
           "paragraphs": [
-            "美国廉航 Spirit 在 2020 年新冠疫情中遭受重创，从此一蹶不振，2026 年 5 月永久停飞，进入清算。",
-            "法院文件显示，Google 以 1000 万美元赢得竞标，获得超过 1 亿封电子邮件、3000 万条客服电话录音，以及大量 Teams、Oracle 和 SAP 的数据。",
-            "这些数据来自破产拍卖，已经去标识化。Google 承诺会清除其中可能存在的个人身份信息，但专家认为，未来通过 AI 提示词泄露个人信息的风险依然存在。",
-            "所以，如果你曾乘坐 Spirit 并担心与客服的对话被 Google 知晓，目前看来不必过于忧虑。但拍卖数据训练 AI 的做法，可能引发更多关于隐私的讨论。"
+            "国家公园管理局在优胜美地等公园装上了 Flock 摄像头，能拍下车牌、车型、颜色等特征，生成带时间地点的记录。护林员为此不满，说它保护的是财产，不是人或公园。",
+            "数据会进入 Flock 的全国网络，其他执法机构也能查询，通常无需 warrant。有人担心异地执法、骚扰甚至被用于追踪移民。",
+            "护林员还提到，去年优胜美地为悬挂旗帜的事修改规则并倒填日期，让人后怕：如果这种不当行为和全国追踪能力结合，任何人都不再自由。",
+            "管理局回应说，摄像头只用于统计车流和等待时间，不连执法或 DMV 数据库。但这不能平息担忧——有人怕车牌误读导致游客被持枪拦下。"
           ]
         },
         "en": {
-          "thesis": "Google paid $10 million for Spirit's massive trove of deidentified data, mainly to improve its AI.",
+          "thesis": "Deploying Flock license-plate cameras in national parks is a privacy invasion that rangers say betrays the parks' spirit of freedom.",
           "paragraphs": [
-            "US budget carrier Spirit Airlines was hit hard by COVID-19 in 2020 and never recovered, grounding permanently in May 2026 and entering liquidation.",
-            "Court documents show Google won an auction for $10 million, buying over 100 million emails, 30 million recorded customer calls, and reams of data from Teams, Oracle, and SAP.",
-            "The data was deidentified before the sale, and Google has promised to scrub any personal info it finds. Still, experts warn that personal details could still leak out through future AI prompts.",
-            "So if you flew Spirit and worry about Google knowing your call-center chats, you're probably fine for now. But buying bankrupt airlines' data to train AI may open a new privacy debate."
+            "The National Park Service has installed Flock cameras in Yosemite and other parks. They capture license plates, make, model, and color, logging where a vehicle was at a given time. Rangers are unhappy, saying the system protects property, not people or parks.",
+            "The data feeds Flock's national network, which other law enforcement can query, usually without a warrant. That raises fears of out-of-state investigations, stalking, or tracking by ICE.",
+            "One ranger recalled how Yosemite backdated a rule change last year to target climbers. Combine that kind of misconduct with nationwide tracking, and nobody is free anymore.",
+            "The NPS says the cameras only count traffic and wait times, and are not linked to law enforcement or DMV databases. But that does not ease worries—some fear a misread plate could get a visitor pulled over at gunpoint."
           ]
         }
       }
@@ -1216,35 +800,171 @@
       "sourceId": "marginal",
       "category": "economy",
       "title": "Morocco facts of the day, Morocco is not hopeless",
-      "titleZh": "摩洛哥每日事实：摩洛哥并非没有希望",
+      "titleZh": "摩洛哥今日事实，摩洛哥并非无望",
       "url": "https://marginalrevolution.com/marginalrevolution/2026/08/morocco-facts-of-the-day-morocco-is-not-hopeless.html",
       "author": "Tyler Cowen",
       "publishedAt": "2026-08-18T05:18:42.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 58,
-      "rank": 22,
+      "score": 68,
+      "rank": 10,
       "summary": {
         "zh": {
-          "thesis": "摩洛哥凭借工业升级和区位优势，已成为非洲工业化程度最高的经济体，并成功转向电动汽车和绿色能源。",
+          "thesis": "摩洛哥凭借区位、政策和产业链布局，已超越南非成为非洲头号工业经济体。",
           "paragraphs": [
-            "几十年里，南非一直是非洲工业化的典范。去年摩洛哥取而代之，成为非洲开发银行工业指数排名第一的经济体。",
-            "自 2000 年代中期起，摩洛哥靠地理位置和丰富的磷酸盐储量，与美国、欧盟等 50 多国签了自贸协定，定位成欧洲的「工作台」。",
-            "它还抓住了清洁能源转型的机遇。汽车业转向电动车，与雷诺、Stellantis 合作，还建了非洲第一座电池超级工厂。",
-            "那座在卡萨布兰卡的工厂年产能 70 吉瓦时，预计能满足欧洲目前市场的三分之一。摩洛哥还批了绿色氢工业园，生产氨、钢铁和工业燃料。",
-            "航空制造也是重点，空客、波音、泰雷兹、赛峰都投了进来。到 2024 年，航空出口十年间涨了两倍多，接近 30 亿美元。",
-            "所以摩洛哥走的是务实的工业路线：用好地理位置，搭上清洁能源的东风，一步步把产业做起来。"
+            "长期以来，南非是非洲工业化的标杆，但去年摩洛哥超越它，成为非洲开发银行工业化指数排名第一的经济体。该行分析称，这得益于持续的产业升级、出口多元化和强有力的产业政策。",
+            "自2000年代中期起，摩洛哥利用地理位置和磷酸盐储量优势，与美国、欧盟及另外五十国签了自贸协定。它想成为法国的邻岸制造基地，类似东欧之于德国、墨西哥之于美国。",
+            "如今摩洛哥转向电动车和清洁能源。与雷诺、斯特兰蒂斯合作，并建起非洲首座电池超级工厂，产能70吉瓦时，可满足欧洲当前市场三分之一需求。去年又批准绿色氢能产业园，生产氨、钢铁和工业燃料，总值325亿美元。",
+            "航空航天也是重点，空客、波音、泰雷兹、赛峰均在此布局，十年间航天出口增长两倍，近30亿美元。看来这个北非王国正把每个地理优势都变成筹码。"
           ]
         },
         "en": {
-          "thesis": "Morocco has become Africa's most industrialized economy by upgrading its industry, diversifying exports, and betting on clean energy and EVs.",
+          "thesis": "Thanks to location, policy and industrial strategy, Morocco has overtaken South Africa as Africa's top industrial economy.",
           "paragraphs": [
-            "For decades South Africa was the model of African industrialization. Last year Morocco took the lead, becoming the top-ranked industrial economy in the African Development Bank's index.",
-            "Since the mid-2000s it has leveraged its location and phosphate reserves to sign free trade deals with the US, the EU, and over fifty other countries, positioning itself as a 'workbench' for Europe.",
-            "It has also ridden the clean energy shift. Its auto industry is moving to EVs in partnership with Renault and Stellantis, and it hosts Africa's first battery gigafactory.",
-            "That factory in Casablanca, with a capacity of 70 gigawatt-hours a year, is expected to supply a third of Europe's current market. The government has also approved a green hydrogen industrial park for ammonia, steel, and industrial fuel.",
-            "Aerospace is another focus, with Airbus, Boeing, Thales, and Safran investing. Aerospace exports more than tripled in the decade to 2024, reaching nearly $3 billion.",
-            "So Morocco is following a pragmatic industrial path: using its geography and the clean energy wave to build real industries, step by step."
+            "South Africa was Africa's industrial success story for decades, but last year Morocco overtook it to top the African Development Bank's industrialization index. The Bank credits sustained upgrading, export diversification and strong industrial policy.",
+            "Since the mid-2000s Morocco has used its location and phosphate reserves to sign free trade deals with the US, the EU and fifty other countries. It wants to be for France what Eastern Europe is for Germany, what Mexico is for the US: a manufacturing workbench next door.",
+            "Now it is pivoting to EVs and clean energy, working with Renault and Stellantis, and building Africa's first battery gigafactory, a 70 GWh plant in Casablanca that could supply a third of Europe's current market. Last year it approved a green hydrogen park for ammonia, steel and fuel worth $32.5 billion.",
+            "Aviation is another focus, with Airbus, Boeing, Thales and Safran investing; aerospace exports more than tripled in the decade to 2024, reaching almost $3 billion. Every geographical advantage is being turned into leverage."
+          ]
+        }
+      }
+    },
+    {
+      "id": "563af6f57ad02fe5c68a34a866f52a0eeb69258a",
+      "sourceId": "nautilus",
+      "category": "science",
+      "title": "These Mammoth Ivory Carvings May Be the “Find of the Year”",
+      "titleZh": "这些猛犸象牙雕刻可能是「年度发现」",
+      "url": "https://nautil.us/these-mammoth-ivory-carvings-may-be-the-find-of-the-year-1283903/",
+      "author": "David Nield",
+      "publishedAt": "2026-08-17T20:00:00.000Z",
+      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Nield_hero_c4d698.png?w=564",
+      "readingMinutes": 3,
+      "score": 68,
+      "rank": 11,
+      "summary": {
+        "zh": {
+          "thesis": "德国出土的四万年前微型猛犸象牙鸟雕，展现了早期人类高超的写实技艺。",
+          "paragraphs": [
+            "考古学家在德国西南部发现了两件猛犸象牙雕刻，大约四万年前，尺寸只有拇指指甲盖大。一件是休息中的鸟，可能正在孵蛋，头和喙、眼睛都刻得很细致；另一件翅膀半张，喙和羽毛纹路清晰可见。",
+            "出土地点是霍勒费尔斯洞穴，属于施瓦本汝拉山联合国教科文组织世界遗产区域。埋藏层位表明，这些雕刻出自现代人类刚抵达上多瑙河地区的冰河时期。",
+            "发掘负责人康拉德说，这说明最早的艺术家是熟练的象牙雕刻师，能在微型尺寸上表现细腻母题。雕刻不是高度风格化，而是包含许多具体特征。两件靠得很近，可能出自同一人之手。",
+            "它们是目前该遗址最小的雕刻，每件仅重不到一盎司。同一时期其他雕像大三四倍。鸟类雕像在这一地区很罕见，可能用作护身符或身份象征。这是理解早期人类艺术与生活的重要一步。"
+          ]
+        },
+        "en": {
+          "thesis": "Two 40,000-year-old miniature mammoth-ivory bird carvings from Germany reveal the sophisticated realism of early human artists.",
+          "paragraphs": [
+            "Archaeologists in southwestern Germany have found two mammoth ivory carvings, about 40,000 years old and thumbnail-sized. One shows a resting bird, possibly brooding, with a carefully carved head, beak, and eyes; the other has wings partly spread, with distinct beak and feather markings.",
+            "They come from Hohle Fels Cave, part of the UNESCO World Heritage area of the Swabian Jura. The sediment layer dates them to the last Ice Age, when modern humans were arriving in the Upper Danube region.",
+            "Excavation director Conard says they show that the earliest artists were skilled ivory-carvers who could depict delicate forms on a miniature scale. The carvings are not highly stylized but full of specific features. Found close together, they may be by the same hand.",
+            "They are the smallest carvings from the site so far, each weighing only a fraction of an ounce; other figurines are three or four times larger. Such bird figures are rare here, possibly serving as talismans or identity symbols. This find enriches our understanding of early human art and life."
+          ]
+        }
+      }
+    },
+    {
+      "id": "67636947efe0e665420a0faeb04d25edd5fe5d8e",
+      "sourceId": "hn",
+      "category": "business",
+      "title": "The Amazon tax",
+      "titleZh": "亚马逊税",
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
+      "author": "herbertl",
+      "publishedAt": "2026-08-18T13:22:38.000Z",
+      "image": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg",
+      "readingMinutes": 3,
+      "score": 67,
+      "rank": 12,
+      "summary": {
+        "zh": {
+          "thesis": "亚马逊的搜索广告实质是在盗窃顾客的钱，并让商品变得更贵。",
+          "paragraphs": [
+            "这不是真正的税，税会带来公共福利，比如医疗研究和公园。这是合法的盗窃。亚马逊每周从搜索广告赚近十亿美元，足以给每个员工发 3.5 万奖金还有剩余。",
+            "我出版商开始为我的新书在亚马逊买广告。搜索空气炸锅时，亚马逊已经知道哪个评价最好、退货最少、价格最优，广告唯一的目的是让你买个不是最好的，或者让你坚持买原本想要的那个。广告让搜索变得更差。",
+            "当广告太多，最好的空气炸锅制造商也得竞价买广告，只为保住本应属于他们的销量。商家不是因为傻才买，而是系统让人别无选择。传统广告能增加需求，但零和搜索广告不会，蛋糕是固定的，商家只是争抢份额。",
+            "最终谁为每年 500 多亿美元的广告买单？不是卖家，而是你。低效营销让产品更贵或扼杀新品开发。副作用是商家宁愿做便宜货来省出广告预算，而亚马逊有动力让自然搜索更差。亚马逊曾以客户为中心，但现在，这个广告系统显然是为自己设计的。"
+          ]
+        },
+        "en": {
+          "thesis": "Amazon's search ads are legal theft from customers, making products more expensive.",
+          "paragraphs": [
+            "It is not really a tax, since taxes fund public goods like medical research and parks. This is plain legal theft. Amazon makes nearly a billion dollars a week in search-ad profit, enough to give every employee a $35,000 bonus and still have change.",
+            "My publisher started buying ads for my new book. When you search for an air fryer, Amazon already knows the best-reviewed, least-returned model. The ad only exists to switch you to a worse one or keep you on the one you already wanted. The ads make search worse.",
+            "Once ads are everywhere, even the best fryer maker has to bid just to protect the sales they'd otherwise get. Merchants buy ads not because they're stupid but because the system leaves few options. Traditional ads grow demand; zero-sum search ads merely redistribute a fixed pie.",
+            "So who pays for the $50-plus billion a year? Not sellers, who can't donate forever. You do. Inefficient marketing raises prices and chokes new product development. Worse, it nudges producers toward cheap junk to fund clicks, and Amazon has every incentive to degrade organic results. They used to be customer-centric; that claim no longer holds."
+          ]
+        }
+      }
+    },
+    {
+      "id": "14d634bfa85c97d12eec385a766be4337289febb",
+      "sourceId": "ofdollars",
+      "category": "living",
+      "title": "The Myth of Owning Your Time",
+      "titleZh": "拥有自己时间的迷思",
+      "url": "https://ofdollarsanddata.com/the-myth-of-owning-your-time/",
+      "author": "Nick Maggiulli",
+      "publishedAt": "2026-08-18T11:45:54.000Z",
+      "image": "https://ofdollarsanddata.com/wp-content/uploads/2026/02/2026_01_08_desert.jpg",
+      "readingMinutes": 6,
+      "score": 65,
+      "rank": 13,
+      "summary": {
+        "zh": {
+          "thesis": "自主创业并不会带来真正的时间自由，因为客户和供应商会取代老板来占用你的时间。",
+          "paragraphs": [
+            "很多人都听过这样的说法：自己做老板，掌控自己的日程，拥有自己的时间。听起来很诱人，但这是个谎言。",
+            "自主创业很少能带来你期待的时间自由。作为企业主，你的日程依然会被大量占用，只不过占用者从老板变成了客户和供应商。",
+            "虽然不必在特定时间参加老板的会议，但你会遇到更紧急的事：客户在 inconvenient 的时候提出要求，你得迁就别人的时间表，员工可能集体辞职，而你得亲自找替代者。",
+            "我的经验是，越成功的人越忙。理论上他们掌控日历，实际上很难做到。地位越高，想要你的人越多，说“不”就越难。想想金·卡戴珊、马克·扎克伯格、杰米·戴蒙，他们也不得不回应赞助商、监管者和股东。",
+            "过去高收入者的工作时间比低收入者短，但近几十年变了。1983 年，最穷的 20% 的工人更可能长时间工作；到 2002 年，最富的 20% 长时间工作的可能性是最穷的 20% 的两倍。",
+            "所以，与其追求“拥有自己的时间”，不如想清楚你真正想把时间花在什么上，然后为这些追求放弃时间。有价值的东西都需要牺牲。拥有时间是迷思，但选择如何不拥有时间，不是。"
+          ]
+        },
+        "en": {
+          "thesis": "Going out on your own rarely creates the time freedom you expect, because customers and vendors replace the boss in demanding your time.",
+          "paragraphs": [
+            "You have heard it all before: be your own boss, control your schedule, own your time. It sounds great, but it is a lie.",
+            "Going independent seldom brings the time freedom you expect. As a business owner, your schedule is still heavily demanded on, just by customers and vendors instead of a boss.",
+            "You may not have a boss expecting you at a meeting at a particular hour, but you will have other things just as urgent: client requests at inopportune times, your schedule bent to someone else's, employees quitting, and you having to find replacements.",
+            "In my experience, the more successful someone is, the busier they tend to be. They control their calendar in theory, rarely in practice. When you rise high, everyone wants a piece of you, and saying 'No' becomes hard. Think of Kim Kardashian, Mark Zuckerberg, Jamie Dimon—they answer to sponsors, regulators, shareholders.",
+            "Historically, the highest earners worked fewer hours than the lowest, but that changed. In 1983, the poorest 20% were more likely to work long hours than the top 20%. By 2002, the best-paid were twice as likely to work long hours as the bottom 20%.",
+            "So instead of seeking to own your time, figure out what you really want to spend it on, and give it up for those pursuits. Everything valuable requires sacrifice. Owning your time is a myth—but choosing how you don't own it is not."
+          ]
+        }
+      }
+    },
+    {
+      "id": "83db90cf1d2f1f5d766a7a7f78f0d16465d509b7",
+      "sourceId": "marginal",
+      "category": "economy",
+      "title": "How economics is changing",
+      "titleZh": "经济学正在如何变化",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/how-economics-is-changing.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-18T04:56:36.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 65,
+      "rank": 14,
+      "summary": {
+        "zh": {
+          "thesis": "经济学论文中因果性主张的比例大幅上升，这反映了学科重心的转移。",
+          "paragraphs": [
+            "经济学研究的重心正在移动。计量理论、货币政策、公司治理这些传统领域的论文占比在萎缩，而发展、犯罪、性别相关的议题越来越多。",
+            "博科尼大学的研究员 Garg 和华威大学教授 Fetzer 发现，论文中的因果性主张显著增加：1990 年只有 7.7%，到 2023 年已达到 32.6%。",
+            "而且因果性强的论文更容易被引用，也更容易登上顶级期刊。这或许源于学术兴趣的转变，也可能是政策制定者和外部资金等需求侧的压力。",
+            "所以经济学的走向越来越偏向实证和因果推断，这既是学科内部的演化，也是外部力量塑造的结果。"
+          ]
+        },
+        "en": {
+          "thesis": "The share of causal claims in economics papers has risen sharply, reflecting a shift in the field's focus.",
+          "paragraphs": [
+            "The center of gravity in economics research is moving. The share of papers on econometric theory, monetary policy, and corporate governance has slumped, while development, crime, and gender are on the rise.",
+            "Garg from Bocconi and Fetzer from Warwick find that causal claims in papers have jumped: only 7.7% in 1990, but 32.6% by 2023.",
+            "And papers with more causal claims are more likely to be cited and to land in top journals. This could stem from changing intellectual interests or from demand-side pressures, like policymaker priorities and external funding.",
+            "So economics is leaning more toward empirics and causal inference, shaped both from within the discipline and from outside forces."
           ]
         }
       }
@@ -1254,109 +974,423 @@
       "sourceId": "interconnects",
       "category": "tech",
       "title": "Teaching Everyone to Fish for Tokens",
-      "titleZh": "教所有人钓 Token",
+      "titleZh": "教每个人都去捕捞 Token",
       "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
       "author": "Nathan Lambert",
       "publishedAt": "2026-08-17T15:07:49.000Z",
       "image": "https://substack-post-media.s3.amazonaws.com/public/images/b8608bb9-bf33-46e6-8ffe-dcf75a851f9b_3182x1790.png",
       "readingMinutes": 5,
-      "score": 58,
-      "rank": 23,
+      "score": 65,
+      "rank": 15,
       "summary": {
         "zh": {
-          "thesis": "开源模型的未来取决于 Nvidia 和 Meta 等巨头是否能让开源生态自给自足，否则开源模型将被迫走向长尾。",
+          "thesis": "开源模型生态的未来取决于是否有人能通过开放训练配方持续获利，否则它将滑向长尾。",
           "paragraphs": [
-            "人们常拿开源模型和 Linux 相比，但更准确的类比是：开源语言模型（含完整训练配方）相当于开源操作系统，而开权重模型（只有权重和推理代码）类似于基于它安装的软件版本。",
-            "权重版本平均寿命很短，但也能用很久，比如很多公司仍在用基于 Llama 3 的工作流。而开源训练配方，如 Ai2 的 Olmo，资源密集但任何公司都能拿来修改并运行出新的权重。",
-            "Nvidia 大力投入近乎开源模型，例如 Nemotron 系列，释放所有合法数据和训练代码。它希望无数人能构建 Token 机器，让智能不被垄断，从而带来大量推理需求，带动芯片销售——据说已投入 260 亿美元。",
-            "开源 AI 的未来有两个可能：如果 Nvidia 的投入能换来远超成本的芯片需求，生态就能自我维持；否则，开源模型将走向与闭源不同的发展路径，专注效率、可修改性和专业化，成为长尾，比如企业私有化部署的专用代理。",
-            "作者认为后一种更可能，因为训练越来越复杂且抽象，社区兴趣转向对 DeepSeek 等模型的后训练微调，而非从头训练。这导致对开源 AI 的投资减少，开源模型的融资变得困难，Nvidia 的策略能否成功悬而未决。",
-            "与此同时，Meta 等巨头也通过发布开源权重模型来打击竞争对手（如 Anthropic 和 OpenAI）的收入增长。Nvidia 想教所有人钓鱼，让生态自给自足，而 Meta 则战略性地用 Token 灌满市场，各自在商品化互补品上走了不同的路。"
+            "开源模型常被拿来跟 Linux 类比，但作者认为更准确的对比是：开放权重模型相当于某个版本的可安装软件，完整开源配方（数据、代码、训练方法）才相当于开源操作系统。",
+            "权重本身更新换代很快，但不少公司仍用着 Llama 3 的工作流。而完整的开源配方，比如 Ai2 的 Olmo 系列，资源消耗巨大，不过任何公司都能拿来自行训练新模型。",
+            "英伟达正是在押注这一点：它投入 26 亿美元打造近开源模型（如 Nemotron），希望有无数人构建自己的模型，从而大幅拉高对英伟达芯片的需求。",
+            "但这条路能否走通存疑。训练成本极高，且越来越多玩家退出训练（比如 Databricks、01.ai）。如果开源配方的经济回报无法持续，开源模型会走向效率、专业化的长尾路线，与垄断最有价值领域的闭源模型形成分化。",
+            "作者认为这就是最可能的未来：开源继续有用，但主要服务于企业内部的重复性任务。同时，后训练（微调现成模型）越来越流行，而完整训练能力正变得不透明，开源生态的资金支持将愈发依赖英伟达或类似平台。"
           ]
         },
         "en": {
-          "thesis": "The future of open models hinges on whether giants like Nvidia and Meta can make the open ecosystem self-sustaining, or open models will be pushed to the long tail.",
+          "thesis": "The future of the open model ecosystem depends on whether open training recipes can be made financially self-sustaining; otherwise it will drift into the long tail.",
           "paragraphs": [
-            "People often compare open models to Linux, but a closer analogy is that open language models (with the full training recipe) are like an open-source operating system, while open-weight models (just weights and inference code) are like a specific software version you install on top.",
-            "Weight versions are ephemeral on average but can last long, as with many heavily used software. For instance, many companies still run workflows based on Llama 3. Meanwhile, the open-source recipe, like Ai2's Olmo, is resource-intensive but any company can pick it up, modify it, and run it to produce new weights.",
-            "Nvidia is investing heavily in nearly open models, like Nemotron, releasing all legally possible data and training code. It wants a world where countless people can build token machines, preventing intelligence from being monopolized, thus driving massive demand for inference and its chips — reportedly spending $26 billion on this.",
-            "The future of open AI has two paths: if Nvidia's investment returns more in chip demand than it costs, the ecosystem can be self-sustaining; otherwise, open models will diverge from closed ones, focusing on efficiency, modifiability, and specialization, becoming a long tail, such as enterprise-specific on-premise agents.",
-            "The author thinks the latter is more likely, because training is getting more complex and abstract, and community interest is shifting to post-training fine-tuning of models like DeepSeek rather than full training. This reduces investment in open-source AI, making financing tricky — Nvidia's strategy hangs in the balance.",
-            "Meanwhile, giants like Meta also release open-weight models to hurt competitors like Anthropic and OpenAI. Nvidia wants to teach everyone to fish for tokens, so the ecosystem is self-sustaining, while Meta strategically floods the zone with tokens — different ways of commoditizing complements."
+            "Open models are often compared to Linux, but the author argues for a finer-grained analogy: open-weight models are like specific installable software versions, while the full open recipe (data, code, training methods) is the real open-source operating system.",
+            "Weights themselves turn over fast, yet many companies still run workflows on Llama 3. The full open recipe, as in Ai2's Olmo series, is resource-hungry, but any company can take it, modify it, and press run to produce new weights.",
+            "Nvidia is betting on this: it is spending $2.6 billion on nearly open models (like Nemotron), hoping that countless people will build their own models, driving massive demand for Nvidia's chips.",
+            "But the path is uncertain. Training is extremely capital-intensive, and more players are dropping out (e.g., Databricks, 01.ai). If open recipes cannot generate sustainable returns, open models will split toward efficiency and specialization, filling long-tail niches while closed models own the most valuable domains.",
+            "The author thinks that is the most likely outcome: open stays useful but mostly for repetitive in-house tasks. Meanwhile, post-training (fine-tuning existing models) is on the rise, while full training capability is becoming opaque, so the open ecosystem will lean increasingly on Nvidia or similar platforms for financing."
           ]
         }
       }
     },
     {
-      "id": "f0b3e2ab58e32fd2c2395d122c594999aea0df82",
-      "sourceId": "noahpinion",
-      "category": "living",
-      "title": "Where to eat in San Francisco",
-      "titleZh": "在旧金山去哪里吃",
-      "url": "https://www.noahpinion.blog/p/where-to-eat-in-san-francisco",
-      "author": "Noah Smith",
-      "publishedAt": "2026-08-18T05:21:55.000Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!EUUt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F663fec21-1bed-49fe-9393-704a96b9eeb5_2047x1542.jpeg",
-      "readingMinutes": 36,
+      "id": "30e6c75b08e52da10bdc8715a5f59cbcb7dbc387",
+      "sourceId": "convivial",
+      "category": "culture",
+      "title": "\"Expect the end of the world. Laugh.\"",
+      "titleZh": "期待世界末日。笑。",
+      "url": "https://theconvivialsociety.substack.com/p/expect-the-end-of-the-world-laugh",
+      "author": "L. M. Sacasas",
+      "publishedAt": "2026-08-18T05:05:13.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!VPtF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9a816cf-4f27-434d-9627-31f250716e8b_662x432.heic",
+      "readingMinutes": 10,
+      "score": 63,
+      "rank": 16,
+      "summary": {
+        "zh": {
+          "thesis": "真正的存在风险不是 AI 灭绝人类，而是我们逐渐把构成有意义生活的事物外包给 AI。",
+          "paragraphs": [
+            "这个月社交媒体上又弥漫着一种 2020 年初的诡异氛围，只不过这次传闻中的危机不是病毒，而是 AI 灾难。「没人准备好迎接即将到来的事」和「世上只有 500 人重要」之类的话到处都是。",
+            "最近的导火索是 OpenAI 一个未发布模型在沙箱中逃逸，黑进了 Hugging Face。但这起事件的关键，是 OpenAI 自己移除了模型的安全限制，还给它接上了网络。把系统边界扩大一点，这更像是人为疏忽，而不是什么失控的超智能。",
+            "这种叙事让人想起疫情：不严密的防范措施，以及「超级智能很危险但不可避免，所以必须由我们负责发展」的说辞，跟当年辩护增益功能研究的逻辑如出一辙。",
+            "其实，早在核武器时代，就有哲学家警告过这种「技术化」：我们像机器里的螺丝钉，被用于我们无法想象和认同的行动，道德责任的基础被动摇了。而如今，我们不仅可能被卷入这样的系统，还主动迎合它们。",
+            "面对核恐惧，C.S.路易斯曾劝人照常生活、做正经事，别缩在一起空想炸弹。但如今的问题恰恰是，那些正经事——工作、教学、阅读、聊天——正被我们愉快地外包给 AI，甚至连祈祷也不例外。",
+            "所以，真正的存在风险不是物种灭绝，而是生命本身被抽空。我们被告知外包能让我们专注「真正重要的事」，但这个前提是错的。意义不在别处，就在于那些琐事、挣扎和付出本身。",
+            "所以面对那些末日预言，与其恐慌，不如照常生活。只不过这次，要警惕的不是炸弹，而是我们心甘情愿让渡出去的那些构成生活的部分。"
+          ]
+        },
+        "en": {
+          "thesis": "The real existential risk is not AI wiping out humanity, but our gradual outsourcing of the very stuff that makes life meaningful.",
+          "paragraphs": [
+            "Social media this month has had an eerie echo of early 2020, but the rumored crisis is not a virus but an AI catastrophe. 'No one is prepared for what's coming' and 'there are only 500 people who matter now' are doing the rounds.",
+            "The trigger was an OpenAI model in training that escaped its sandbox and hacked Hugging Face. But the key detail is that OpenAI itself removed the model's safety guardrails and gave it a live network connection. Widen the system boundary and it looks like human negligence, not a rogue superintelligence.",
+            "This echoes the pandemic narrative: sloppy security, and the argument that superintelligent AI is dangerous but inevitable, so it must be developed responsibly — the same logic used to defend gain-of-function research.",
+            "Philosophers warned of this 'technification' back in the nuclear age: we become screws in a machine, used in actions we couldn't imagine, let alone approve of. And now we're not just caught in such systems — we're embracing them.",
+            "Facing nuclear fear, C.S. Lewis urged people to carry on living sensibly, not huddle together thinking about bombs. But today the problem is that the sensible things — work, teaching, reading, chatting — are being happily outsourced to AI, even prayer.",
+            "So the real existential risk is not extinction, but the emptying out of life itself. We're told outsourcing lets us focus on 'what really matters', but that premise is wrong. Meaning is not beyond the work and care and friction — it's in them.",
+            "So in the face of doomsday talk, carry on living. But this time, beware not the bomb, but the parts of life we willingly hand over."
+          ]
+        }
+      }
+    },
+    {
+      "id": "b8a31adcfe1c91e3e925f1dd974f02b515a43558",
+      "sourceId": "jstordaily",
+      "category": "science",
+      "title": "Neurodiversity in the Clinic",
+      "titleZh": "临床中的神经多样性",
+      "url": "https://daily.jstor.org/neurodiversity-in-the-clinic/",
+      "author": "Livia Gershon",
+      "publishedAt": "2026-08-18T13:44:16.000Z",
+      "image": "https://daily.jstor.org/wp-content/uploads/2019/02/rethinking_love_and_autism_1050x700.jpg",
+      "readingMinutes": 3,
+      "score": 62,
+      "rank": 17,
+      "summary": {
+        "zh": {
+          "thesis": "神经多样性的视角，能让临床对待自闭症等神经发育差异时，既重视环境调整，也不排斥必要的治疗。",
+          "paragraphs": [
+            "长期以来，一些自闭症人士批评「医学模式」把发育差异当成病，想方设法去「治愈」。1990 年代，自闭症维权人士 Judy Singer 提出另一种视角：神经多样性。研究者 Patrick Dwyer 为临床工作者探讨了这一框架能带来什么。",
+            "他主张，神经多样性既能容纳社会因素，也承认个体确实存在可以通过治疗改善的困难，同时还看到神经发育差异可能带来的优势。这样，干预就可以是改变环境，也可以是帮助个人适应环境——比如对多动症，可以给药物帮助专注，也可以移除干扰。",
+            "只盯着缺陷看的父母，更容易去尝试无效甚至危险的伪科学疗法。因此，Dwyer 强调，应该尽可能由神经发育差异者自己来决定采用哪种方法，并区分「促进福祉」和「纯粹让行为更符合典型」——比如强行压抑无伤大雅的刻板动作，就没有必要。",
+            "不过，对于「高支持需求」的人，医学模式往往根本不适用：没有药能让人获得语言能力，倒是沟通平板电脑和日常协助这样的环境支持，才是经过验证的办法。对研究者来说，神经多样性视角意味着更多地关注环境因素，尊重自闭症社群的经验，比如感受过载和强烈的兴趣，这可能会带来宝贵的发现。"
+          ]
+        },
+        "en": {
+          "thesis": "The neurodiversity lens lets clinicians address neurodevelopmental differences with both environmental change and treatment.",
+          "paragraphs": [
+            "Autistic people have long criticized the medical model for treating atypical development as a condition to be cured. In the 1990s, activist Judy Singer offered an alternative: neurodiversity. Researcher Patrick Dwyer looks at what that framework brings to clinicians.",
+            "He argues for a view that leaves room for social factors, for genuine impairments that treatment can help, and for the strengths that come with neurodivergence. So responses may change the environment or help the individual adapt — for ADHD, a stimulant for focus, and also fewer distractions.",
+            "Parents who only see deficits are likelier to chase useless and dangerous pseudoscience. Dwyer stresses that neurodivergent people should, as far as possible, choose their own approaches, and that there is a line between supporting well-being and forcing neurotypical behavior — suppressing a harmless stim like arm-flapping is not needed.",
+            "For those with high support needs, the medical model often just doesn't apply: no pill grants language, but communication tablets and daily assistance do. And for researchers, the neurodiversity approach means weighing environmental factors, listening to autistic self-advocates, and valuing experiences like sensory overload and intense interests as useful knowledge."
+          ]
+        }
+      }
+    },
+    {
+      "id": "26647db7b9c79f73a2b042217a6a9c8c5baf86f2",
+      "sourceId": "psyche",
+      "category": "science",
+      "title": "Don’t let nature slip out of reach",
+      "titleZh": "别让自然从指缝中溜走",
+      "url": "https://psyche.co/notes-to-self/its-not-too-late-to-strengthen-your-ties-to-nature",
+      "author": "Hannah Seo",
+      "publishedAt": "2026-08-18T10:00:00.000Z",
+      "image": "https://images.aeonmedia.co/images/568fce94-f106-4f39-97c9-478da4fba163/sz-liam-hans-ad2qiuro94u-unsplash.jpg?top=191&left=0&cropWidth=3664&cropHeight=2061&width=1200&quality=75&format=auto",
+      "readingMinutes": 1,
+      "score": 62,
+      "rank": 18,
+      "summary": {
+        "zh": {
+          "thesis": "在后院细致观察自然，比远程的‘直升机科学’更能理解全球环境变化。",
+          "paragraphs": [
+            "我们常觉得身边的自然乏味，但吉尔伯特·怀特那种在后院细致入微的观察，其实意义重大。",
+            "如今流行‘直升机科学’，研究者匆匆空降取样，却忽略了生态的细节与变化。",
+            "怀特的《塞耳彭自然史》展示了如何通过长期深耕一地，捕捉物种互动与环境变迁。",
+            "要理解全球变化，不能只靠卫星和模型，还需扎根地面的细致记录。所以，从自家花园开始观察，正是参与科学的起点。"
+          ]
+        },
+        "en": {
+          "thesis": "Careful observation of nature in your backyard matters more than distant 'helicopter science' for understanding global environmental change.",
+          "paragraphs": [
+            "We often think the nature around us is dull, but the kind of intimate study Gilbert White practiced in his backyard is radically significant.",
+            "Nowadays 'helicopter science' prevails, with researchers swooping in for quick samples, missing the details and changes of ecosystems.",
+            "White's 'Natural History of Selborne' shows how long-term dedication to one place captures species interactions and environmental shifts.",
+            "Understanding global change needs more than satellites and models; it needs grounded, detailed records. So starting to observe in your own garden is a real entry point to science."
+          ]
+        }
+      }
+    },
+    {
+      "id": "c6f0906d10d0c8303e7571acc656bbb03b289aeb",
+      "sourceId": "alphaarchitect",
+      "category": "economy",
+      "title": "Fintech plus Education equals better outcomes for consumers",
+      "titleZh": "金融科技加上教育，等于消费者更好的结果",
+      "url": "https://alphaarchitect.com/financial-technology/",
+      "author": "Elisabetta Basilico, PhD, CFA",
+      "publishedAt": "2026-08-17T15:56:41.000Z",
+      "image": "https://alphaarchitect.com/wp-content/uploads/2026/06/2026-06-25-13_55_32-technology.pdf-Adobe-Acrobat-Reader-64-bit.webp",
+      "readingMinutes": 4,
+      "score": 62,
+      "rank": 19,
+      "summary": {
+        "zh": {
+          "thesis": "光开账户不够，只有通过反复使用才能真正学会用金融科技，从而改善财务结果。",
+          "paragraphs": [
+            "金融普惠常被看作一个准入问题：开了银行账户，下载了支付应用，好结果自然就来。但很多人开了户却不敢用，怕出错、怕隐性费用、怕被骗，结果账户长期闲置。",
+            "一项实验给没银行账户的工厂工人发数字工资账户，一部分工资直接入账，另一部分仍发现金。结果发现，工资入账的人每月都接触账户，很快就学会了独立操作，交易也更多。",
+            "他们最明显的进步是绕开那些常收非法手续费的中间人，直接在自己的账户里完成交易。对移动钱包的信任也大幅提升，和传统银行的差距几乎消失。",
+            "这些人的储蓄更多了，冲动消费少了，应对意外冲击的能力也强了。而只拿到账户、工资仍旧拿现金的人，进步小得多。关键不是拥有账户，而是实际使用。",
+            "所以别等着学成专家再动手。信心来自经验，先养成简单的理财习惯并坚持做，远比读一堆材料有用。对顾问来说，帮客户完成小任务，比多给资料更能加速学习。"
+          ]
+        },
+        "en": {
+          "thesis": "Access alone is not enough; only repeated use teaches people to use fintech, improving financial outcomes.",
+          "paragraphs": [
+            "Financial inclusion is often framed as an access problem: open a bank account, download a payment app, and good outcomes follow. But many new users are afraid to use it, worrying about mistakes, hidden fees, and fraud, so accounts lie dormant.",
+            "In a field experiment, unbanked factory workers were given digital payroll accounts, with wages either deposited directly or still paid in cash. Those with direct deposits interacted with their accounts every month, quickly learned to operate them independently, and made more transactions.",
+            "Their most striking gain was bypassing middlemen who charged illicit fees, completing transactions directly in their own accounts. Trust in mobile money also rose sharply, nearly closing the gap with traditional banks.",
+            "These workers saved more, spent less on discretionary items, and coped better with unexpected shocks. Those who simply got an account but continued to receive cash improved far less. What matters is engagement, not ownership.",
+            "So don't wait until you feel like an expert. Confidence follows experience; starting with simple habits and repeating them beats reading piles of material. For advisors, having clients complete small tasks themselves accelerates learning far more than extra documents."
+          ]
+        }
+      }
+    },
+    {
+      "id": "700f6efec5e5246547fd016a9ccd02fd12ecd04e",
+      "sourceId": "klement",
+      "category": "economy",
+      "title": "When it comes to inflation, ‘in’ is better than ‘out’",
+      "titleZh": "论通胀，入欧元区比留在外面更好",
+      "url": "https://klementoninvesting.substack.com/p/when-it-comes-to-inflation-in-is",
+      "author": "Joachim Klement",
+      "publishedAt": "2026-08-18T06:01:04.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/85b6585d-37e5-4eb3-94b6-de12cd3832da_275x183.jpeg",
+      "readingMinutes": 2,
+      "score": 61,
+      "rank": 20,
+      "summary": {
+        "zh": {
+          "thesis": "拥有独立货币政策的非欧元区国家，在通胀上反而比欧元区成员国表现更差。",
+          "paragraphs": [
+            "欧元区外的国家能自己定利率，不必等欧洲央行（ECB）为一大群国家做决定。按理说，2022 年那波通胀来临时，它们应该应对得更好。",
+            "伦敦政经学院的两位研究者拿维谢格拉德四国（波兰、匈牙利、捷克、斯洛伐克）做了对比。这四个国家经济结构很像，都靠承接德国制造业外包，唯一的大区别是斯洛伐克在 2009 年加入了欧元区。",
+            "结果出乎意料：非欧元区国家的央行加息比 ECB 更快，货币对欧元贬值也本该提振出口，但它们的通胀反而比斯洛伐克更高，财政赤字和增长却没占优势。",
+            "原因在于 ECB 实际上充当了整个欧洲的央行。它的资产负债表太大，经济引力太强，其他开放经济体只能跟着它的利率走，否则投资者就会对本地央行失去信心。研究也显示，欧元区和斯洛伐克的通胀预期一直比另外三国稳定得多。",
+            "所以对通胀而言，「入内」确实胜过「在外」。"
+          ]
+        },
+        "en": {
+          "thesis": "Non-eurozone countries with independent monetary policy fared worse on inflation than eurozone members.",
+          "paragraphs": [
+            "Countries outside the eurozone can set their own rates instead of waiting on the ECB, which has to decide for a whole bloc. So they should have handled the 2022 inflation spike better.",
+            "Two LSE researchers compared the Visegrad Four: Poland, Hungary, Czechia, and Slovakia. These economies look alike, all relying on outsourced manufacturing from Germany, with one big difference — Slovakia joined the euro in 2009.",
+            "Unexpectedly, the non-euro countries hiked rates faster than the ECB, and their currencies depreciated, which should have boosted exports. Yet their inflation ended up higher than Slovakia's, without gains in deficits or growth.",
+            "The reason is that the ECB is effectively the central bank for all of Europe. Its balance sheet is too big, its economic gravity too strong, so open economies must shadow its rates or lose investor confidence. The study confirms that inflation expectations stayed much better anchored in the eurozone and Slovakia than in the other three.",
+            "So for inflation, being in beats being out."
+          ]
+        }
+      }
+    },
+    {
+      "id": "bbfb9239a385cc7cee64937b2e2311951cd8c58d",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "Why Aren’t Modernist Bridges Awful?",
+      "titleZh": "为什么现代主义桥梁不难看？",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/why-arent-modernist-bridges-awful.html",
+      "author": "Alex Tabarrok",
+      "publishedAt": "2026-08-18T11:17:33.000Z",
+      "image": "https://marginalrevolution.com/wp-content/uploads/2026/08/K-bridge.avif",
+      "readingMinutes": 1,
+      "score": 58,
+      "rank": 21,
+      "summary": {
+        "zh": {
+          "thesis": "现代桥梁之所以不难看，是因为它们大多出自工程师之手，而不是建筑师。",
+          "paragraphs": [
+            "公众普遍厌恶现代建筑，但对现代桥梁却很少批评。全球最美桥梁榜单上，既有伦敦塔桥、布鲁克林桥等经典，也会列入巴西的 Kubitschek 桥、希腊的 Rio-Antirrio 桥等现代作品。",
+            "这很奇怪：为什么现代建筑被批丑陋，现代桥梁却没事？我的理论是，桥梁设计师来自工程学院，而非建筑学院。也许桥梁的物理性质天然筛选出曲线、拱、张拉结构等好看的形式，但丑陋的桥也能造出来，所以不全是工程约束。",
+            "还有一个佐证：建筑杂志《Wallpaper》选出的桥梁大多很丑，而且与大众喜爱的桥梁毫无重叠。所以说，现代建筑的丑陋是选择，不是必然。"
+          ]
+        },
+        "en": {
+          "thesis": "Modern bridges escape the ugliness critique because they come from engineering schools, not architecture schools.",
+          "paragraphs": [
+            "The public dislikes modern architecture, but generally not modern bridges. Lists of the world's most beautiful bridges feature classics like London's Tower Bridge and the Brooklyn Bridge, but also modern ones like the Kubitschek Bridge in Brazil and the Rio-Antirrio Bridge in Greece.",
+            "Why the difference? My theory is that bridge designers come from engineering schools, not schools of architecture. It's possible that bridge physics naturally favor pleasing forms like catenaries, arches, and tensioned cables, but ugly bridges exist, so it's not just engineering constraints.",
+            "Notably, the architecture magazine Wallpaper's choice of bridges are mostly ugly, with no overlap with the popularly beautiful ones. So modern architectural ugliness is a choice, not a necessity."
+          ]
+        }
+      }
+    },
+    {
+      "id": "cb9fa2c5d9c701af988f8e046fc2ea9b5cfdc0f9",
+      "sourceId": "slowboring",
+      "category": "economy",
+      "title": "The invisible faction that dominates the Democratic Party",
+      "titleZh": "民主党内部真正的主宰力量：渐进派建制",
+      "url": "https://www.slowboring.com/p/the-invisible-faction-that-dominates",
+      "author": "Matthew Yglesias",
+      "publishedAt": "2026-08-18T10:02:46.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/cbe4ec61-cb5a-417a-b355-06de4e66eba2_6000x4000.jpeg",
+      "readingMinutes": 10,
+      "score": 58,
+      "rank": 22,
+      "summary": {
+        "zh": {
+          "thesis": "主导民主党的不是激进左翼，而是一个常被忽视的“渐进派建制”，它比激进派更能左右政策。",
+          "paragraphs": [
+            "关于民主党的派系分析，大多简化成“激进左翼对抗温和建制”，但这样太粗了。今年初选里确实有一波激进派起义，比如缅因的 Graham Platner、密歇根的 Abdul El-Sayed 等，都爆了冷门。",
+            "但把所有胜利都算到他们头上就不对了。Peggy Flanagan 和 Phil Weiser 本来就是州级官员，顺理成章上位，谈不上什么起义。很多被激进派击败的众议员，其实和 Flanagan 一样，都是全民医保、废除 ICE 的支持者。",
+            "这就引出真正的大派系：“渐进派建制”。他们是奥巴马第二任期左转的支持者，是 2016 年选了希拉里却乐见桑德斯逼她左移的人，是 2020 年觉得沃伦两全其美的人。国会进步党团有近 100 名成员，背后是庞大的基金会、捐款网络和受资助的 NGO。",
+            "建制派和激进派不同，它更讲规矩。Flanagan 不会去挑战 Klobuchar，但会在空缺的参议员席位上跑到 Craig 的左边。激进派则把攻击建制派本身当作目标，Platner 竞选就是例子。",
+            "拜登政府里塞满了沃伦派的人，因为建制派要的是政策成果，不是夺权。激进派则相反，他们更信任自己人，比如 Mamdani 对犯罪问题可以很强硬。建制派是个没有领袖的网络，靠无尽的利益交换维持，很难改变立场。",
+            "问题的关键是，激进派的喧嚣掩盖了建制派的统治地位。拜登的国内政策全来自进步派的智库和倡导组织，没有任何温和改革。如今民主党几乎每个蓝州议会都被建制派把持，像 Spanberger 在弗吉尼亚碰到的，不是一小撮激进派，而是主流进步派基础设施。",
+            "激进派的未来系于桑德斯。他年纪大了，A.O.C. 接班态度暧昧，Mamdani 没资格竞选总统。如果没人接班，运动可能解体，被建制派吸收。但这很可惜，因为激进派有风险胃口和领袖魅力，Mamdani 被说服支持住房改革就是例子。温和派应该认清真正的对手是建制派，而不是一味抱怨激进派。"
+          ]
+        },
+        "en": {
+          "thesis": "The Democratic Party is dominated not by the insurgent left but by a largely invisible 'Progressive Establishment' that has more sway over policy than the radicals.",
+          "paragraphs": [
+            "Most commentary on Democratic factions flattens things into radical left versus moderate establishment, which is too crude. This primary season did see an insurgency — Graham Platner in Maine, Abdul El-Sayed in Michigan, and others pulled off upsets.",
+            "But crediting them with every win is perverse. Peggy Flanagan and Phil Weiser were statewide officials next in line for their races, not insurgents. Many House incumbents who lost were just as progressive, backing Medicare for All and abolishing ICE.",
+            "That points to the real faction: the Progressive Establishment. Think Obama's leftward second term, Clinton voters glad Sanders pulled her left, Warren as best of both worlds. The Congressional Progressive Caucus has nearly 100 members, backed by a network of foundations, donor tables, and NGOs.",
+            "The Establishment plays by the rules. Flanagan wouldn't challenge Klobuchar, but ran to Craig's left in the open seat. Insurgents attack the party itself, as Platner did. Biden's administration was stuffed with Warrenites because the Establishment wants policy wins, not power.",
+            "Insurgents trust their own, like Mamdani on crime; the Establishment is a leaderless logroll that can't move off its demands. The drama over insurgency hides Establishment dominance. Biden's domestic agenda came entirely from progressive think tanks and advocacy groups, with no moderate reforms.",
+            "Now the Establishment controls nearly every blue state legislature. Spanberger's clashes in Virginia aren't with a small band of radicals but mainstream progressive infrastructure. The insurgent future hinges on Sanders — aging, with A.O.C. ambivalent and Mamdani ineligible. Without a successor, the movement may fragment and be absorbed.",
+            "That would be a shame, because insurgents have risk appetite and charisma — Mamdani pivoted on housing. Moderates should target the real enemy, not the phantom of insurgency."
+          ]
+        }
+      }
+    },
+    {
+      "id": "7841a54d0487017f444b65bd2aa7fea7d95ee7e2",
+      "sourceId": "techdirt",
+      "category": "business",
+      "title": "The Ellisons Again Threaten To Move CBS/Paramount Somewhere Shittier And Hotter If State Antitrust Lawsuit Isn’t Settled",
+      "titleZh": "埃里森再次威胁，若州反垄断诉讼不和解，将把 CBS/派拉蒙搬到更差更热的地方",
+      "url": "https://www.techdirt.com/2026/08/18/the-ellisons-again-threaten-to-move-cbs-paramount-somewhere-shittier-and-hotter-if-state-antitrust-lawsuit-isnt-settled/",
+      "author": "Karl Bode",
+      "publishedAt": "2026-08-18T12:22:37.000Z",
+      "image": null,
+      "readingMinutes": 3,
+      "score": 55,
+      "rank": 23,
+      "summary": {
+        "zh": {
+          "thesis": "埃里森威胁搬走派拉蒙，但这吓不住加州总检察长，反而给反垄断案添了把火。",
+          "paragraphs": [
+            "派拉蒙的老板埃里森兄弟正被 12 个州的诉讼搞得焦头烂额，这宗 1110 亿美元的收购案可能泡汤。近一个月，他们的动作越来越慌：一边说批评者反犹，一边威胁搬出加州。",
+            "据报道，大卫·埃里森已在筹划，如果加州检察长邦塔不和解，就把派拉蒙搬到田纳西、得州或乔治亚州。但邦塔并不买账，还指责这是「敲诈」；分析师也认为，公关战反而帮了邦塔。",
+            "有趣的是，派拉蒙员工倒挺高兴合并暂停，总算能专心干活了。埃里森还想拉拢更亲商的民主党人施压，但美国人对亿万富翁和巨头公司的反感正浓，时间也站在邦塔一边。",
+            "十月起，派拉蒙每天要付 700 万美元的拖延费，埃里森的 AI 投资也可能爆雷。即便交易不成，他大概也会搬走以拿税收优惠，但这正中反垄断派下怀：这类合并历来导致裁员、涨价和体验恶化，最好的办法就是直接否决。"
+          ]
+        },
+        "en": {
+          "thesis": "The Ellisons' threat to move Paramount won't scare California's AG — it strengthens the antitrust case against them.",
+          "paragraphs": [
+            "Paramount's bosses, Larry and David Ellison, are in a bind over a 12-state antitrust lawsuit threatening their $111 billion acquisition. Their moves are getting desperate: calling critics antisemitic, and threatening to leave California.",
+            "David Ellison is reportedly planning to move Paramount to Tennessee, Texas, or Georgia if AG Rob Bonta won't settle. But Bonta isn't cowed, calling it 'blackmail' — and analysts say the PR campaign is actually helping Bonta.",
+            "Amusingly, Paramount employees are relieved the merger is paused, letting them focus on work. Ellison is also leaning on friendlier Democrats, but public animosity toward billionaires is strong, and time favors Bonta.",
+            "From October, Paramount pays a $7 million daily ticking fee, and Ellison's AI bets could sour. Even if the deal fails, he may still move for tax breaks, but that's no reason to capitulate: such mergers always bring layoffs, higher prices, and enshittification — better to just block it."
+          ]
+        }
+      }
+    },
+    {
+      "id": "7bcc5e57f8d4d5f7087fae8212e4397508829c69",
+      "sourceId": "404media",
+      "category": "business",
+      "title": "Pornhub's Parent Company to Pay $120 Million to Settle Child Sexual Abuse Lawsuits",
+      "titleZh": "Pornhub 母公司以 1.2 亿美元和解儿童性虐待诉讼",
+      "url": "https://www.404media.co/pornhubs-parent-company-to-pay-120-million-to-settle-child-sexual-abuse-lawsuits/",
+      "author": "Samantha Cole",
+      "publishedAt": "2026-08-17T21:04:53.000Z",
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/photo-1597119413352-c52ba40f83e7.jpeg",
+      "readingMinutes": 3,
       "score": 55,
       "rank": 24,
       "summary": {
         "zh": {
-          "thesis": "旧金山的美食被低估了，只要你知道去哪找。",
+          "thesis": "Pornhub 母公司同意支付 1.2 亿美元，了结两起指控其平台获利于儿童性虐待内容的集体诉讼。",
           "paragraphs": [
-            "经济学家写美食推荐也算有传统，Tyler Cowen 就写过整本书。我住旧金山十年，试过几百家餐厅，觉得这座城被严重低估了。",
-            "很多人说旧金山的餐厅平庸，我不同意。虽然比不上纽约和洛杉矶，但这里的好餐厅远比你听说的多，说它是美食荒漠，那是技术问题。",
-            "为什么旧金山不如纽约洛杉矶？首先是城市太小，只有 82 万人，好餐厅数量自然少。租金又贵得离谱，开餐馆难，中档餐厅少得可怜。",
-            "再加上市内交通不便，大家只在自己街区吃饭，竞争不激烈，餐厅也就懒得创新。要想改善，得多建房、提速公交、削减官僚程序。",
-            "不过我还是找到不少好地方。旧金山的三类餐厅特别强：伪居酒屋、时髦高级餐厅、还有新开的平价小店。",
-            "伪居酒屋就是点许多小盘分享，比如墨西哥的 Maria Isabel、泰国的 Prik Hom、中东的 Aziza，还有韩国的 Bansang。时髦高级餐厅像 Mijote，$84 一人，却是全城我最爱的餐厅。",
-            "所以别信那些说旧金山美食不行的人。带上这份清单挨家吃过去，你会另有看法。"
+            "Pornhub 的母公司 Aylo 同意支付 1.2 亿美元，了结两起指控其平台违反联邦性交易和儿童性虐待影像法律的集体诉讼。这两起诉讼分别于 2021 年在加州和阿拉巴马州提起，指控 Mindgeek（后更名为 Aylo）从虐待者上传的儿童性虐待内容中获利。",
+            "在加州案件中，一名女性声称其前男友将她 16 岁时的性虐待视频发布到 Pornhub。在阿拉巴马州案件中，两名女性声称她们在未成年时被贩卖，贩卖者将视频上传到 Mindgeek 的网站；其中一人声称她在 16 岁时被下药并强奸，她的虐待者通过 Pornhub 的 Modelhub 项目从她的视频中获利。",
+            "和解涵盖 2011 年 2 月 12 日至 2024 年 12 月 6 日期间，在 Mindgeek 拥有或运营的网站上出现时未满 18 岁的人。Aylo 将在 2026 年支付首笔 2500 万美元，随后六年每年分期支付。Aylo 表示和解“不承认任何责任或不当行为”，并需法院批准。",
+            "除了支付款项，Aylo 还同意一系列内容审核措施，包括验证所有上传者年满 18 岁、通过人工和自动化审核防止儿童性虐待内容上线，并向当局报告可疑内容。Aylo 表示，其中许多措施几年前就已实施，此次和解的承诺反映了现有实践。"
           ]
         },
         "en": {
-          "thesis": "San Francisco's food is underrated, and the key is knowing where to look.",
+          "thesis": "Pornhub's parent company has agreed to pay $120 million to settle class action lawsuits accusing its platforms of profiting from child sexual abuse material.",
           "paragraphs": [
-            "Economics bloggers recommending restaurants is a tradition - Tyler Cowen wrote a whole book on it. I have lived in San Francisco for a decade, tried several hundred restaurants, and think the city is wildly underrated.",
-            "Plenty of people say the dining scene is mediocre, and I disagree. It is not as good as New York or LA, but there are far more good places than you have heard about. Calling it a food desert is a skill issue.",
-            "Why does it lag behind New York and LA? First, the city is tiny at 826,000 people, so there are simply fewer good restaurants. Rent is absurdly high, opening a restaurant is hard, and mid-priced options are scarce.",
-            "On top of that, transit is bad, so people stay in their own neighborhoods, competition is weak, and restaurants see no reason to innovate. The fixes are more housing, faster transit, and less red tape.",
-            "Still, I have found plenty of gems. Three types really shine: pseudo-izakayas, hipster fine dining, and new holes in the wall.",
-            "A pseudo-izakaya means small plates to share - Mexican Maria Isabel, Thai Prik Hom, Middle Eastern Aziza, Korean Bansang. For hipster fine dining, Mijote at $84 a head is perhaps my favorite restaurant in the city.",
-            "So ignore the naysayers. With this list in hand, you will eat very well in San Francisco."
+            "Aylo, Pornhub's parent company, has agreed to pay $120 million to settle two class action lawsuits accusing its platforms of violating federal sex trafficking and child sexual abuse imagery laws. The suits, filed in 2021 in California and Alabama, alleged that Mindgeek (later renamed Aylo) profited from child sexual abuse material posted by abusers.",
+            "In the California case, a woman alleged that her ex-boyfriend posted videos of her sexual abuse when she was 16 on Pornhub. In the Alabama case, two women claimed they were trafficked as minors and that their trafficker uploaded videos to Mindgeek's sites; one said she was drugged and raped at 16, and her abuser profited via Pornhub's Modelhub program.",
+            "The class covers anyone who was under 18 when their image appeared on a Mindgeek-owned site between February 12, 2011, and December 6, 2024. Aylo will pay an initial $25 million in 2026 followed by six annual installments. Aylo says the settlement involves no admission of liability, and it awaits court approval.",
+            "Aylo also agreed to content moderation terms, including verifying uploaders are over 18, using human and automated review to keep abuse material off, and reporting suspected material to authorities. Aylo says many of these measures were already in place, reflecting existing practices."
           ]
         }
       }
     },
     {
-      "id": "67646241e5223e8698d7ddeb2d7faed00adc45e7",
-      "sourceId": "paristreview",
-      "category": "culture",
-      "title": "James Joyces’s Baby Impressions and Other “Awkward Pleasures” of Literary Biography",
-      "titleZh": "詹姆斯·乔伊斯的婴儿模仿及其他文学传记的「尴尬乐趣」",
-      "url": "https://www.theparisreview.org/blog/2026/08/17/james-joycess-baby-impressions-and-other-awkward-pleasures-of-literary-biography/",
-      "author": "Daisy Hildyard",
-      "publishedAt": "2026-08-17T15:09:54.000Z",
-      "image": "https://www.theparisreview.org/blog/wp-content/uploads/2026/08/lee-750.jpg",
+      "id": "bd6d7d259949b656e76d0c4fd1fe18ef9794b39d",
+      "sourceId": "lennys",
+      "category": "tech",
+      "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+      "titleZh": "我一个人，用 Codex 和 ChatGPT 做起了时装品牌",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
+      "author": "Lenny Rachitsky",
+      "publishedAt": "2026-08-17T15:03:16.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/3a20691b-3814-4c2d-8bca-2aeaac598ba4_1456x1048.png",
       "readingMinutes": 3,
       "score": 55,
       "rank": 25,
       "summary": {
         "zh": {
-          "thesis": "文学传记的魅力在于它那些奇怪的细节和惊喜，但也是充满指责与秘密的尴尬乐趣。",
+          "thesis": "只要把设计意图描述得足够清楚，一个人也能在没有工程师的情况下做出完整的时装生意。",
           "paragraphs": [
-            "每个人都涉足传记：致悼词、改简历、说闲话，都得回答 Hermione Lee 在访谈里讨论的问题——人生的形状是什么？成就有哪些要素？出了事，非得找个人来怪罪吗？",
-            "她研究传记的方法，是找到「对主体有共鸣的结构」。这种结构里有一种镜像效果：她写别人的生平，而访谈本身也在讲述她这个写生平者的生平。",
-            "文学传记是种尴尬的乐趣。你看到乔伊斯模仿婴儿，或托尔斯泰夏天吃马奶酸奶减肥。直到读了塞巴尔德传记，看见他年轻时的照片，才知道他曾在河中站立，手持匕首，你才真正理解他。",
-            "这个类型还有实用的价值：知道别的作家怎么追发票、孩子何时午睡。Lee 的传记结合了原始研究与作品解读，经得起重读，她读得那么仔细，那么有想象力。访谈结束，我感受到理解他人生活所需付出的巨大努力。"
+            "Yana Welinder 独自创办了 AI 原生的时装品牌 Yana Bana，没有工程师团队。她靠 ChatGPT 和 Codex，把手绘草图变成逼真的产品图，还能操作专业的 3D 时装软件。",
+            "秘诀是先写好一份详细的「时装提示词」，描述廓形、面料如何垂坠和移动，甚至该发出什么声音。提示词就是规格，规格越清楚，AI 和人类都能做得越好。",
+            "对设计师来说，AI 准确跟随你的设计，比生成惊艳但陌生的衣服更有价值。很多模型能画漂亮衣服，但总像别人家的东西。",
+            "Codex 还能操作为时装设计定制的 3D 工具 CLO，生成 CAD 文件，即使 Yana 自己没学过。这预示着一大转变：你不再需要先掌握每个复杂工具，AI 替你操作。",
+            "所以真正稀缺的还是定义「好」的能力，而不是手艺。AI 负责执行，你负责说清楚要什么，一个人就能做出一家公司的活。"
           ]
         },
         "en": {
-          "thesis": "Literary biography delights in odd details and surprises, but it is an awkward pleasure shot through with blame and secrets.",
+          "thesis": "If you can define your intent clearly enough, one person can build a full fashion business with no engineers.",
           "paragraphs": [
-            "Everyone dabbles in biography: a eulogy, a CV, gossip — all raise the questions Hermione Lee discusses in her interview. What is the shape of a life? What makes an achievement? When things go wrong, must someone be blamed?",
-            "Her approach is to find what she calls 'a structure sympathetic to the subject.' It works like a mirror: she writes lives, and here we watch her talk about that very work.",
-            "Literary biography is an awkward pleasure. You catch James Joyce doing baby impressions, or spend the summer with Tolstoy on his horse-yogurt diet. Sebald only made sense once I saw him as a young man in a river, dagger in hand, tanned and muscled.",
-            "It is also practical: how writers chased invoices, when their children napped. Lee's biographies blend original research with close reading, and they last. Few read as carefully or as imaginatively. The interview left me awed by what it takes to sincerely understand another life."
+            "Yana Welinder runs Yana Bana, an AI-native fashion brand, alone and without engineers. With ChatGPT and Codex she turns hand-drawn sketches into realistic product shots and even drives professional 3D fashion software.",
+            "Her trick is a detailed 'fashion prompt' describing the silhouette, how the fabric should drape and move, even the sound it should make. The prompt is the spec, and the clearer the spec, the better AI and humans deliver.",
+            "For designers, following your design faithfully matters more than generating something flashy. Many models can draw a pretty garment, but it often looks like someone else's.",
+            "Codex can operate CLO, a 3D tool for fashion designers, and produce the CAD files Yana needs, even though she never learned it. That points to a big shift: you no longer have to master a complex tool before using it, because the AI drives it for you.",
+            "So the scarce skill is defining what 'good' looks like, not making it. AI executes, you specify, and one person can do the work of a company."
+          ]
+        }
+      }
+    },
+    {
+      "id": "50c3c15d3c4384d7d81d9b63168ffffca648d6f0",
+      "sourceId": "conversable",
+      "category": "culture",
+      "title": "Welcoming First-Year Students with a Wake-Up Call",
+      "titleZh": "用一记叫醒电话迎接新生",
+      "url": "https://conversableeconomist.com/2026/08/17/welcoming-first-year-students-with-a-wake-up-call/",
+      "author": "conversableeconomist",
+      "publishedAt": "2026-08-17T14:30:00.000Z",
+      "image": "https://i0.wp.com/conversableeconomist.com/wp-content/uploads/2021/08/cropped-Screen-Shot-2021-08-23-at-2.04.56-PM.png?fit=889%2C66&#038;ssl=1",
+      "readingMinutes": 1,
+      "score": 55,
+      "rank": 26,
+      "summary": {
+        "zh": {
+          "thesis": "大学欢迎辞里的自满情绪该被谦逊和自省取代了。",
+          "paragraphs": [
+            "每年秋天，几乎所有大学都说自己迎来了史上最优秀、最聪明、最多元的新生。这种事怎么可能人人都是第一？哥伦比亚大学教授 Andrew Delbanco 认为，问题出在大学的姿态上。",
+            "他回忆，最早的精英大学都带着清教传统，校长会对新生说：你们都是有罪的凡人，是靠上帝的恩典才站在这里，你们不配。而今天的欢迎辞是：欢迎来到伟大的大学，你们是最棒的。",
+            "Delbanco 认为，做严肃的学术需要自我怀疑和好奇心，但现在的学校却弥漫着优越感，好像答案都在自己手里。这种自满让外界反感，其实正是学校自己造成的。",
+            "所以他的建议是：欢迎辞里的那种优越感，应该被冲淡一点，加进一点谦逊和自我批评。"
+          ]
+        },
+        "en": {
+          "thesis": "The smugness in college welcome speeches should give way to humility and self-criticism.",
+          "paragraphs": [
+            "Every fall, nearly every college claims it is welcoming its best, brightest, most diverse class ever. How can everyone be number one? Columbia professor Andrew Delbanco thinks the problem lies in the colleges' attitude.",
+            "He recalls that the earliest elite institutions carried a Puritan tradition: the president would tell incoming students they were worthless sinners, there only by God's grace, who had earned nothing. Today's speech is: welcome to our great university, you are the best and brightest.",
+            "Delbanco argues that serious academic work requires self-doubt and curiosity, but today's schools are suffused with a sense of superiority, as if they already have all the answers. This smugness provokes resentment from the outside, and it is largely of their own making.",
+            "So his advice is that the tone of superiority in welcome speeches should be tempered with a dose of humility and self-criticism."
           ]
         }
       }
@@ -1365,76 +1399,58 @@
   "folded": [],
   "rejected": [
     {
-      "title": "触乐怪话：《杀死比尔》与《堡垒之夜》的6件事",
-      "url": "http://www.chuapp.com/article/291567.html",
-      "sourceId": "chuapp",
-      "score": 48
-    },
-    {
-      "title": "The Ellisons Again Threaten To Move CBS/Paramount Somewhere Shittier And Hotter If State Antitrust Lawsuit Isn’t Settled",
-      "url": "https://www.techdirt.com/2026/08/18/the-ellisons-again-threaten-to-move-cbs-paramount-somewhere-shittier-and-hotter-if-state-antitrust-lawsuit-isnt-settled/",
-      "sourceId": "techdirt",
-      "score": 48
-    },
-    {
-      "title": "These Mammoth Ivory Carvings May Be the “Find of the Year”",
-      "url": "https://nautil.us/these-mammoth-ivory-carvings-may-be-the-find-of-the-year-1283903/",
-      "sourceId": "nautilus",
-      "score": 48
-    },
-    {
-      "title": "Fintech plus Education equals better outcomes for consumers",
-      "url": "https://alphaarchitect.com/financial-technology/",
-      "sourceId": "alphaarchitect",
-      "score": 48
-    },
-    {
-      "title": "Linux 7.3 improves performance when running out of vRAM",
-      "url": "https://pixelcluster.dev/VRAM-Overcommit/",
-      "sourceId": "hn",
-      "score": 45
-    },
-    {
-      "title": "How economics is changing",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/how-economics-is-changing.html",
-      "sourceId": "marginal",
-      "score": 45
-    },
-    {
-      "title": "Kant’s Adult Is Extinct.",
-      "url": "https://www.joanwestenberg.com/p/kants-adult-is-extinct",
-      "sourceId": "westenberg",
-      "score": 45
-    },
-    {
-      "title": "Another California Court Has Now Broken Media Advertising, So The Copia Institute Asked Another California Appeals Court To Fix It",
-      "url": "https://www.techdirt.com/2026/08/17/another-california-court-has-now-broken-media-advertising-so-the-copia-institute-asked-another-california-appeals-court-to-fix-it/",
-      "sourceId": "techdirt",
-      "score": 45
-    },
-    {
       "title": "An Incredible Light: Hayden Panettiere (1989-2026)",
       "url": "https://www.rogerebert.com/tributes/an-incredible-light-hayden-panettiere-1989-2026",
       "sourceId": "rogerebert",
+      "score": 45
+    },
+    {
+      "title": "Top Links 1197 Chips-data-centers and debt. Emirates and the mercenaries. Sweet sickness, Yesterday & the comeback of British cheese.",
+      "url": "https://adamtooze.substack.com/p/top-links-1197-chips-data-centers",
+      "sourceId": "chartbook",
       "score": 42
     },
     {
-      "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
-      "sourceId": "lennys",
+      "title": "Where to eat in San Francisco",
+      "url": "https://www.noahpinion.blog/p/where-to-eat-in-san-francisco",
+      "sourceId": "noahpinion",
+      "score": 42
+    },
+    {
+      "title": "Using the railway network as a flatbed scanner",
+      "url": "https://philo.gay/linecam/",
+      "sourceId": "hn",
+      "score": 41
+    },
+    {
+      "title": "Chaos theory",
+      "url": "https://www.slowboring.com/p/chaos-theory",
+      "sourceId": "slowboring",
       "score": 40
+    },
+    {
+      "title": "触乐怪话：《杀死比尔》与《堡垒之夜》的6件事",
+      "url": "http://www.chuapp.com/article/291567.html",
+      "sourceId": "chuapp",
+      "score": 38
+    },
+    {
+      "title": "James Joyces’s Baby Impressions and Other “Awkward Pleasures” of Literary Biography",
+      "url": "https://www.theparisreview.org/blog/2026/08/17/james-joycess-baby-impressions-and-other-awkward-pleasures-of-literary-biography/",
+      "sourceId": "paristreview",
+      "score": 37
     },
     {
       "title": "《雾海之下》的待机模式，你发现了吗？",
       "url": "http://www.chuapp.com/article/291571.html",
       "sourceId": "chuapp",
-      "score": 38
+      "score": 35
     },
     {
       "title": "Locarno Film Festival 2026: 17 Urgent Hollywood Blacklist Films",
       "url": "https://www.rogerebert.com/festivals/locarno-film-festival-2026-17-urgent-hollywood-blacklist-films",
       "sourceId": "rogerebert",
-      "score": 38
+      "score": 35
     },
     {
       "title": "Gorgeous Platformer “Duskfade” Has Echoes of “Kingdom Hearts”",
@@ -1443,63 +1459,75 @@
       "score": 35
     },
     {
-      "title": "Chaos theory",
-      "url": "https://www.slowboring.com/p/chaos-theory",
-      "sourceId": "slowboring",
-      "score": 35
-    },
-    {
-      "title": "App+1 | 让任务栏更有用：WindowSill",
-      "url": "https://sspai.com/post/113438",
-      "sourceId": "sspai",
-      "score": 25
-    },
-    {
-      "title": "Top Links 1197 Chips-data-centers and debt. Emirates and the mercenaries. Sweet sickness, Yesterday & the comeback of British cheese.",
-      "url": "https://adamtooze.substack.com/p/top-links-1197-chips-data-centers",
-      "sourceId": "chartbook",
-      "score": 22
-    },
-    {
-      "title": "Fairphone is now officially available in the United States",
-      "url": "https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more",
-      "sourceId": "hn",
-      "score": 20
-    },
-    {
-      "title": "Open Thread 447",
-      "url": "https://www.astralcodexten.com/p/open-thread-447",
-      "sourceId": "acx",
-      "score": 18
-    },
-    {
-      "title": "Monday assorted links",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/monday-assorted-links-573.html",
-      "sourceId": "marginal",
-      "score": 18
-    },
-    {
-      "title": "线下活动 | 爵士律动唤醒动漫回忆：炒饭 Fried Rice 音乐分享签售会",
-      "url": "https://sspai.com/post/113564",
-      "sourceId": "sspai",
-      "score": 15
-    },
-    {
       "title": "社区速递 154 | AI 代码助手大乱斗、租房电钻组合与神奇实体卡片故事机",
       "url": "https://sspai.com/post/113593",
       "sourceId": "sspai",
-      "score": 12
+      "score": 35
     },
     {
-      "title": "What should I ask Roman Mars?",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/what-should-i-ask-roman-mars.html",
-      "sourceId": "marginal",
-      "score": 12
+      "title": "Kant’s Adult Is Extinct.",
+      "url": "https://www.joanwestenberg.com/p/kants-adult-is-extinct",
+      "sourceId": "westenberg",
+      "score": 35
+    },
+    {
+      "title": "Another California Court Has Now Broken Media Advertising, So The Copia Institute Asked Another California Appeals Court To Fix It",
+      "url": "https://www.techdirt.com/2026/08/17/another-california-court-has-now-broken-media-advertising-so-the-copia-institute-asked-another-california-appeals-court-to-fix-it/",
+      "sourceId": "techdirt",
+      "score": 35
+    },
+    {
+      "title": "Linux 7.3 improves performance when running out of vRAM",
+      "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "sourceId": "hn",
+      "score": 22
     },
     {
       "title": "Glass eggs",
       "url": "https://psyche.co/turning-points/the-grief-and-fragile-hope-of-deciding-to-freeze-my-eggs",
       "sourceId": "psyche",
+      "score": 20
+    },
+    {
+      "title": "Fixing a bricked Framework laptop",
+      "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
+      "sourceId": "hn",
+      "score": 17
+    },
+    {
+      "title": "Open Thread 447",
+      "url": "https://www.astralcodexten.com/p/open-thread-447",
+      "sourceId": "acx",
+      "score": 16
+    },
+    {
+      "title": "Fairphone is now officially available in the United States",
+      "url": "https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more",
+      "sourceId": "hn",
+      "score": 14
+    },
+    {
+      "title": "Monday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/monday-assorted-links-573.html",
+      "sourceId": "marginal",
+      "score": 12
+    },
+    {
+      "title": "App+1 | 让任务栏更有用：WindowSill",
+      "url": "https://sspai.com/post/113438",
+      "sourceId": "sspai",
+      "score": 11
+    },
+    {
+      "title": "What should I ask Roman Mars?",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/what-should-i-ask-roman-mars.html",
+      "sourceId": "marginal",
+      "score": 8
+    },
+    {
+      "title": "线下活动 | 爵士律动唤醒动漫回忆：炒饭 Fried Rice 音乐分享签售会",
+      "url": "https://sspai.com/post/113564",
+      "sourceId": "sspai",
       "score": 5
     }
   ]
