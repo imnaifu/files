@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "generatedAt": "2026-08-18T04:12:04.090Z",
+  "generatedAt": "2026-08-18T04:53:03.508Z",
   "window": {
     "from": "2026-08-16T14:00:00.000Z",
     "to": "2026-08-17T14:00:00.000Z"
@@ -266,71 +266,103 @@
   ],
   "articles": [
     {
-      "id": "40cfcf56086456a028c7414da040e62e37546a69",
-      "sourceId": "slowboring",
-      "category": "culture",
-      "title": "Woke 1 is dead. We’ve learned nothing.",
-      "titleZh": "「觉醒 1.0」已死，但我们什么也没学到",
-      "url": "https://www.slowboring.com/p/woke-1-is-dead-weve-learned-nothing",
-      "author": "Matthew Yglesias",
-      "publishedAt": "2026-08-17T10:01:37.000Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!pZa4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc3278ae-63ba-4f89-bb55-34e1be472f13_2119x1414.jpeg",
-      "readingMinutes": 2,
-      "score": 74,
-      "rank": 1,
-      "summary": {
-        "zh": {
-          "thesis": "我们并没有从「觉醒 1.0」中学到教训，因为制造它的结构性条件依然存在，而且右翼的反觉醒运动正在复制同样的恶劣行径。",
-          "paragraphs": [
-            "关于「觉醒 1.0 是疯狂的」这种说法，我有两方面的看法。我同意有人指出这是对被冤枉者的不充分道歉，但如果这种说法能让人们转向更好的观点，那也不错。",
-            "但我想说的是另一回事：无论「觉醒 1.0」是什么，它都是在结构性条件下产生的，而这些条件如今依然存在。在没有强势守门人的世界里，虚假或荒谬的想法可以像野火一样蔓延，成为瞬间的共识。",
-            "我记忆最深的不是最歇斯底里的人的行为，而是那些明知别人在歇斯底里、却避免说错话（这证明他们知道真相）却也不积极驳斥的人。他们多数是聪明的，而赢家是那些躲过风暴、名声无损的人。",
-            "所以真正的问题不是「觉醒」本身，而是这种避免成为「站着说话不腰疼的人」的激励结构仍然存在，任何话语都可能失控。而如今右翼的反觉醒运动，不是抵制左派糟糕的认知实践，而是在抵制关怀弱者的价值的同时，复制同样的有毒动态。"
-          ]
-        },
-        "en": {
-          "thesis": "We have learned nothing from 'Woke 1.0,' because the structural conditions that produced it are still with us, and the anti-woke backlash is replicating the same toxic dynamics.",
-          "paragraphs": [
-            "I have mixed feelings about the 'Woke 1.0 was crazy' discourse. I agree it is an insufficient apology to those whose lives were upended, but if it lets people move to better views, that's good.",
-            "But I want to make a different observation: whatever Woke 1.0 was, it arose under structural conditions that are very much still with us. In a world without strong gatekeepers, false or absurd ideas can spread like wildfire and become instant conventional wisdom.",
-            "What I remember most bitterly is not the behavior of the hysterical, but of those who knew better and avoided saying false things (which proves they knew) yet also avoided contesting them. They were usually savvy, and the winners were those who ducked the storm and emerged unscathed.",
-            "So the real problem is not 'wokeness' itself, but the incentive to avoid being the 'well, actually' guy, which persists and lets any discourse go off the rails. And now the anti-woke backlash is not resisting the poor epistemic practices of the left, but resisting caring for the weak while replicating the same toxic dynamics."
-          ]
-        }
-      }
-    },
-    {
       "id": "fabab3742f4945c7399de942af72d801e35e27f3",
       "sourceId": "westenberg",
       "category": "living",
       "title": "Epictetus Ran a Better Productivity System Than Any App You’ve Bought",
-      "titleZh": "爱比克泰德的哲学，胜过你买过的任何效率应用",
+      "titleZh": "爱比克泰德的效率系统，比任何买过的 App 都强",
       "url": "https://www.joanwestenberg.com/p/epictetus-ran-a-better-productivity",
       "author": "JA Westenberg",
       "publishedAt": "2026-08-16T22:51:07.000Z",
       "image": "https://images.unsplash.com/photo-1598978483528-fd57466ab0ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw5OHx8cHJvZHVjdGl2aXR5fGVufDB8fHx8MTc4NjkyMDU5NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "readingMinutes": 5,
+      "score": 86,
+      "rank": 1,
+      "summary": {
+        "zh": {
+          "thesis": "效率系统的真正过滤器不是工具，而是先问一句「这是不是我的事」。",
+          "paragraphs": [
+            "现在的生产力系统都默认你是个懒惰的烂人。你的效率差，是因为你不上心，所以解决方案就是更智能的收件箱、更丰富的标签、更全的第二大脑。结果责任全压你身上，每一条碎片都被系统放大成你必须回应的事。",
+            "爱比克泰德是个被释放的奴隶，在租来的房间里教哲学，没有 Obsidian，没有 AI 代理。他的系统从一句简单的问题开始：什么归你管？他只关注自己的判断、欲望和决定。别人的行为、观点、情绪，那些不是你的事，也不是你的猴子。",
+            "Notion、Obsidian、Todoist 这些 App 都在解决后勤问题，假设每件新来的事都重要，帮你更快地处理。爱比克泰德在前提上就不同意：邮件、通知、别人的项目，这些都是天气。你可以看天气穿衣服，但别去追踪天气。",
+            "因为捕捉一件东西，就等于把它变成你的责任。写下来就是把背景噪音变成任务，你得答应去处理它。他的过滤器是：先问「这是我的事吗？」是就进系统，不是就不记、不愧疚、不建一个「想办法处理」的项目。",
+            "现代工作就是不断模糊这条界限：收件箱是别人的输出队列，任务清单一半是别人的请求。爱比克泰德的条件更极端——他连法律地位都改变不了，唯一能管的是自己怎么选、怎么想。所以别再拿门口进来的事情数量，去算你该负担的数量。"
+          ]
+        },
+        "en": {
+          "thesis": "The real filter of a productivity system is not the tool but asking first, 'Is this mine to manage?'",
+          "paragraphs": [
+            "Productivity systems today assume you are an intellectual delinquent. Your productivity sucks because you suck, so the fix is a smarter inbox, richer tags, a fuller second brain. The burden is all on you, and every scrap gets amplified into something you owe a response to.",
+            "Epictetus was a freed slave who taught philosophy from a rented room, without Obsidian, without an AI agent. His system starts with one question: what is yours to manage? He focused only on his judgments, desires, and decisions. Other people's actions, opinions, emotions — not your circus, not your monkeys.",
+            "Apps like Notion, Obsidian, and Todoist solve logistics, assuming everything that arrives is important and helping you process it faster. Epictetus disagrees at the premise: emails, notifications, other people's projects are weather. You can dress for weather, but you don't track the weather.",
+            "Because capturing something makes it yours. Writing it down turns background noise into a task, an agreement to handle it. His filter: ask first, 'Is this mine?' If yes, it enters the system. If no, you don't capture it, don't feel bad, and don't build a project called 'deal with this somehow'.",
+            "Modern work blurs that line constantly: your inbox is someone else's output queue, your task list half other people's requests. Epictetus had it harder — he couldn't change his legal status, so his only domain was what he chose to pursue and how he interpreted things. So stop counting the number of things coming at you as the number you're responsible for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "c61aba5f082a82da46b26b162794b676f8d47bf4",
+      "sourceId": "404media",
+      "category": "tech",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "titleZh": "追踪一批珍本的去向：终点是亚马逊的 AI 训练设施",
+      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+      "author": "Emanuel Maiberg",
+      "publishedAt": "2026-08-17T13:16:09.000Z",
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/image3-2-1.png",
+      "readingMinutes": 1,
       "score": 72,
       "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "效率系统的问题在于把一切责任都推给你，而斯多葛哲学告诉你，只有你自己的判断和行动才是你的责任。",
+          "thesis": "亚马逊正在大量购入实体书、切掉书脊扫描以获取 AI 训练数据，这一此前未被报道的运作正毁掉这些书。",
           "paragraphs": [
-            "市面上的效率应用都建立在同一个假设上：你是个不自律的人。你的效率低下是因为你不够好，所以你需要更好的收件箱、更智能的数据库和更多的标签。但责任最终还是在你身上，你被迫维护「第二大脑」，感觉每一条碎片信息都欠一个回应。",
-            "爱比克泰德曾是奴隶，后来在租来的房间里教书。他没有 Obsidian，没有 PKM，也没有 AI 代理，但他有一套更好的系统，起点是一个问题：什么是你该管的？",
-            "他只关注三样东西：你的判断、你的欲望和你的决定，以及你选择追求什么、拒绝什么、保留什么、舍弃什么。除此之外，别人的行为、观点、算法和市场，都不归你管。",
-            "现代工具的问题在于，捕捉某件事就意味着承担责任。你把它记下来，就成了你的任务。而爱比克泰德的方法则要求你在记录之前先问：这是我的责任吗？如果不是，就别记，也别为没记而内疚。",
-            "所以这套系统的优势不在于效率，而在于给「失败」划清了界限。你只有违背自己的判断、拒绝真正属于你的行动，才算失败。别人的项目延期、算法不推荐，都不算你的失败。"
+            "404 Media 在一本可能被 AI 公司收购的珍本里藏了追踪器，然后一路跟到内华达州拉斯维加斯的一个亚马逊仓库。仓库里员工的工作就是拆掉书脊再快速扫描，印刷的书就此毁掉。",
+            "这个名为 VGT3 的团队标志是一条狰狞的恐龙，嘴里还叼着一本书。亚马逊购买大量书籍用于 AI 训练数据，这个操作此前从未被报道过。",
+            "这起调查揭示了一个令人不安的事实：AI 的训练方式正悄悄消耗实体书，而公众对此几乎毫无察觉。"
           ]
         },
         "en": {
-          "thesis": "Productivity systems pile responsibility onto you, but Stoic philosophy says only your judgments and actions are yours.",
+          "thesis": "Amazon is buying huge quantities of physical books, cutting off their bindings to scan them for AI training data, a previously unreported operation that destroys the books.",
           "paragraphs": [
-            "Productivity apps all rest on the same assumption: you are an undisciplined person. Your lack of productivity is because you are not good enough, so you need a better inbox, a smarter database, and more tags. But the responsibility still ends up on you; you have to maintain a 'second brain' and every scrap of information feels like it owes a response.",
-            "Epictetus was a freed slave who taught in a rented room. He had no Obsidian, no PKM, and no AI agent, yet he had a better system, starting with a single question: What is yours to manage?",
-            "He focused on only three things: your judgments, your desires, and your decisions, and on choosing what to pursue, what to decline, what to keep, and what to cut. Beyond that, other people's actions, opinions, algorithms, and markets are not your concern.",
-            "The problem with modern tools is that capturing something makes it yours. You write it down, and it becomes your task. Epictetus's method asks you to check first: is this my responsibility? If not, don't capture it, and don't feel guilty about not capturing it.",
-            "So this system's advantage is not efficiency but a clear boundary on what failure means. You fail only if you act against your own judgment or refuse to engage when it is genuinely yours. Someone else's project slipping or an algorithm deprioritizing your content is not your failure."
+            "404 Media hid a tracking device in a rare book they suspected an AI company would buy, then followed it to an Amazon warehouse in Las Vegas, Nevada. There, employees cut off bindings to scan faster, destroying the printed book in the process.",
+            "The team there, called VGT3, has a logo of a snarling dinosaur clutching a book. Amazon buying books in bulk for AI training data is something we had not known about until now.",
+            "The investigation lays bare an unsettling reality: AI's training quietly consumes physical books, with the public left almost entirely in the dark."
+          ]
+        }
+      }
+    },
+    {
+      "id": "40cfcf56086456a028c7414da040e62e37546a69",
+      "sourceId": "slowboring",
+      "category": "culture",
+      "title": "Woke 1 is dead. We’ve learned nothing.",
+      "titleZh": "Woke 1 已死，但我们什么都没学会",
+      "url": "https://www.slowboring.com/p/woke-1-is-dead-weve-learned-nothing",
+      "author": "Matthew Yglesias",
+      "publishedAt": "2026-08-17T10:01:37.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!pZa4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc3278ae-63ba-4f89-bb55-34e1be472f13_2119x1414.jpeg",
+      "readingMinutes": 2,
+      "score": 72,
+      "rank": 3,
+      "summary": {
+        "zh": {
+          "thesis": "Woke 1 所依赖的结构条件仍然存在，反扑只是复制了同样的有害动态。",
+          "paragraphs": [
+            "关于「Woke 1 太疯狂」的讨论，我持两面态度。我同意这说法对受害者道歉不够，但如果这种含糊其辞能让人转向更好的观点，那也是好事。",
+            "我想指出的是：无论 Woke 1 是什么，它产生的结构性条件依然存在，而且远不止左派政治。没有强把关人的世界里，虚假或荒谬的想法仍能像野火一样传播，变成即时共识。",
+            "我记忆最深的不是最歇斯底里的人，而是那些明知别人在胡闹却避免说错话、也避免主动反驳的人。这种「不去当那个扫兴的人」的激励机制依然存在，意味着任何话语都可能跑偏。",
+            "不幸的是，反 Woke 的反弹没有抵制糟糕的认知实践，而是在抵制关怀弱者的价值的同时，复制了同样的有毒动态。所以，什么都没学会。"
+          ]
+        },
+        "en": {
+          "thesis": "The structural conditions that produced Woke 1 are still with us, and the backlash is replicating the same toxic dynamics.",
+          "paragraphs": [
+            "I have mixed feelings about the 'Woke 1 was crazy' discourse. I agree it's inadequate as an apology to those whose lives were upended, but if this evasive framing lets people move to better views, that's good.",
+            "My point is that whatever Woke 1 was, the structural conditions that produced it are still with us, and they go far beyond left-wing politics. In a world without strong gatekeepers, false or absurd ideas can spread like wildfire and become instant conventional wisdom.",
+            "What I remember most bitterly is not the hysterical people but those who knew others were being hysterical and carefully avoided saying false or insane things — yet also avoided actively contesting them. That incentive to not be the 'well, actually' guy is still very much with us, and it means any discourse can go off the rails.",
+            "And now the anti-woke backlash isn't resisting the bad epistemic practices of the left; it's resisting the value of caring for the weak while replicating the same toxic dynamics. So we've learned nothing."
           ]
         }
       }
@@ -338,99 +370,31 @@
     {
       "id": "d8fd67770517bce975295b99257e08bcd2b6453b",
       "sourceId": "marginal",
-      "category": "living",
+      "category": "culture",
       "title": "Things you cannot buy in America?",
-      "titleZh": "在美国买不到的东西？",
+      "titleZh": "美国买不到的东西？",
       "url": "https://marginalrevolution.com/marginalrevolution/2026/08/things-you-cannot-buy-in-america.html",
       "author": "Tyler Cowen",
       "publishedAt": "2026-08-16T18:51:39.000Z",
       "image": null,
       "readingMinutes": 1,
       "score": 72,
-      "rank": 3,
-      "summary": {
-        "zh": {
-          "thesis": "欧洲常见的建筑构件因住宅建造体系不同，在美国几乎无法买到。",
-          "paragraphs": [
-            "欧洲许多家庭装有外置卷帘窗，与窗户融为一体，能完全遮光、改善隔热。在全黑环境（伸手不见五指，而非遮光窗帘那种）里睡觉，多数美国人从未体验过。",
-            "这类卷帘在美国几乎不可能买到，因为它们是建房时就嵌入的。美国标准木结构、外墙板和石膏板根本无法兼容，即便特意盖一座适应它的房子，也没有国内供应链支持。",
-            "所以这不只是买不到的问题，而是整个建造体系不同导致的市场错位。文章列出的其他选项或许可议，但卷帘这一项，确实卡在了结构上。"
-          ]
-        },
-        "en": {
-          "thesis": "Architectural elements common in Europe are nearly unobtainable in the US because of differing construction systems.",
-          "paragraphs": [
-            "Many European homes have heavy exterior roller shutters built into the window frame, giving total blackout and better insulation. Sleeping in true darkness, not curtain darkness but can't-see-your-hand darkness, is an experience most Americans never have.",
-            "Such shutters are nearly impossible to get in the US because they are installed during construction. Standard American wood-frame, siding, and drywall simply cannot accommodate them, and even a house built to fit them would find no domestic supply chain.",
-            "So the shortage is not just a product gap: it is a market misalignment rooted in fundamentally different building methods. Other items on the list may be debatable, but the shutter genuinely sticks at the structural level."
-          ]
-        }
-      }
-    },
-    {
-      "id": "01b194fad3854099cf4e909c415ff4b933068bdf",
-      "sourceId": "techdirt",
-      "category": "business",
-      "title": "Trump’s Bumbling, Racist Anti-China Protectionism Extends To Data Centers",
-      "titleZh": "特朗普针对中国的保护主义政策荒谬且带有种族主义色彩，现已扩展到数据中心",
-      "url": "https://www.techdirt.com/2026/08/17/trumps-bumbling-racist-anti-china-protectionism-extends-to-data-centers/",
-      "author": "Karl Bode",
-      "publishedAt": "2026-08-17T12:27:07.000Z",
-      "image": null,
-      "readingMinutes": 3,
-      "score": 65,
       "rank": 4,
       "summary": {
         "zh": {
-          "thesis": "特朗普政府的对华保护主义既腐败又无能，所谓国家安全不过是敲诈勒索的幌子。",
+          "thesis": "外置滚筒百叶窗在美国几乎买不到，因为与当地的房屋建造方式格格不入。",
           "paragraphs": [
-            "特朗普政府的对华保护主义一贯是场灾难，充满仇外情绪，只会给美国科技市场带来混乱、任人唯亲和价格上涨，还打着保护隐私和国家安全的名义。",
-            "无论是 TikTok、华为还是中国无人机，折腾多年后要么被送给富豪朋友，要么半途而废，最后消费者和运营商都付出更高代价。",
-            "现在又把矛头对准数据中心的中国硬件，声称要全面清除。但监管机构已被掏空，连自己都管不好，根本无力执行，路透社却只提了成本上升。",
-            "这套保护主义本质是收保护费：设壁垒，然后向想继续做生意的公司索取好处，再把生意转给亲友。国家安全和隐私只是吓唬人的工具。",
-            "所以别被报道带偏了，这种政策既腐败又无能，注定失败。真正该做的是让中国货公平竞争，同时加强本国的劳工、隐私和消费者保护。"
+            "欧洲很多房子的窗户外面装着厚重的滚筒百叶窗，一拉下来屋里就全黑，还能隔热。那种真正的、伸手不见五指的黑暗，大多数美国人从来没体验过。",
+            "这种百叶窗在美国几乎买不到，因为它是在建房时就嵌入墙体的。美国的房屋多用木框架、墙板和干墙，根本装不了这种结构，也没有配套的供应链支持。",
+            "这篇清单很有趣，但作者自己都怀疑其中的一些项目，比如「草屋顶」是否真的买不到。每条链接都得自己点开，这篇本身不提供可带走的东西。"
           ]
         },
         "en": {
-          "thesis": "The Trump administration's anti-China protectionism is corrupt and incompetent, with national security just a pretext for tribute.",
+          "thesis": "Exterior roller shutters are nearly impossible to buy in America because they clash with the country's construction methods.",
           "paragraphs": [
-            "The Trump administration's anti-China protectionism has always been a disaster: xenophobic, chaotic, and cronyist, raising prices in US tech markets while claiming to protect privacy and national security.",
-            "Whether it is TikTok, Huawei, or Chinese drones, years of fuss have ended in handing assets to billionaire friends, or leaving programs half-finished, with consumers and telecoms paying more.",
-            "Now it targets Chinese hardware in data centers, vowing to remove it all. But regulators have been gutted and cannot even govern themselves, so enforcement is fantasy; Reuters only mentions that costs will rise.",
-            "The real motive is a tribute system: erect barriers, then solicit payments from companies that want to stay in the market, and steer business to friends and family. National security and privacy are just scare tactics.",
-            "So do not be fooled by the coverage. The policy is corrupt, erratic, and incompetent, and it will fail. The right approach is to let Chinese goods compete fairly while strengthening labor, privacy, and consumer protections at home."
-          ]
-        }
-      }
-    },
-    {
-      "id": "d3e43d4c6c8e2b2a921d12b16c1ff2792dfdd63a",
-      "sourceId": "marginal",
-      "category": "tech",
-      "title": "Somalia facts of the day",
-      "titleZh": "索马里每日事实",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/somalia-facts-of-the-day.html",
-      "author": "Tyler Cowen",
-      "publishedAt": "2026-08-17T07:16:16.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 65,
-      "rank": 5,
-      "summary": {
-        "zh": {
-          "thesis": "安全改善带来经济繁荣，但反恐成效仍需多因素解释。",
-          "paragraphs": [
-            "索马里安全形势好转，经济随之繁荣。商务部长说生意兴隆，新建筑拔地而起，机场周边地区明显变得更密集。26 层的 Dahab 塔今年开业，附近是 1993 年美军士兵遗体被拖行的地点，如今却是繁荣的连锁咖啡店。",
-            "袭击减少的原因则不那么明显。政府自称已对青年党“完全关门”，但专家归功于更平淡的措施：监视摄像头的普及、警察用 iPad 检查站识别民用车辆的电子数据库，以及大量便衣情报人员。",
-            "所以，许多危险地区即将变得安全得多——这是作者反复强调的观点。"
-          ]
-        },
-        "en": {
-          "thesis": "Better security has brought economic boom, but the reasons for fewer attacks are less clear.",
-          "paragraphs": [
-            "Somalia's security has improved and the economy is booming. The commerce minister says business is thriving; new buildings are going up, and the area around the airport has become much denser. The 26-story Dahab Tower opens this year, near where American soldiers' bodies were dragged in 1993, and where a thriving coffee chain now stands.",
-            "The reasons for fewer attacks are less obvious. The government boasts of 'completely closing the doors' on al-Shabab, but experts credit more prosaic measures: the spread of CCTV, an electronic database police use with iPads to check civilian cars, and many plainclothes intelligence officers.",
-            "So many dangerous places in the world are about to become much safer — a point the author emphasizes."
+            "Many European homes have heavy roller shutters built into the window exterior, giving total blackout and better insulation. The experience of true, can't-see-your-hand darkness is something most Americans have never had.",
+            "These shutters are nearly impossible to get in the US because they are built into the house during construction. Standard American wood-frame, siding, and drywall simply can't support them, and there's no domestic supply chain to maintain them.",
+            "The list is intriguing, but the author himself doubts some items, like the 'grass roof.' Each link needs to be clicked to get the details; the piece itself offers nothing to take away."
           ]
         }
       }
@@ -438,117 +402,37 @@
     {
       "id": "de190672fbcb09abac1c4ba49d510d737f05682b",
       "sourceId": "restofworld",
-      "category": "tech",
+      "category": "business",
       "title": "Ban on Chinese robots leaves U.S. startups stranded",
-      "titleZh": "美国禁令致中国机器人被禁，初创企业陷入困境",
+      "titleZh": "中国机器人禁令让美国初创公司陷入困境",
       "url": "https://restofworld.org/2026/china-robot-ban-silicon-valley/",
       "author": "Viola Zhou",
       "publishedAt": "2026-08-17T10:00:00.000Z",
       "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_ai_robot_ban-768x432.jpg",
       "readingMinutes": 7,
-      "score": 63,
-      "rank": 6,
+      "score": 62,
+      "rank": 5,
       "summary": {
         "zh": {
-          "thesis": "美国对华机器人的禁令正在扼杀它本要扶持的机器人初创企业，因为国内供应链尚不存在。",
+          "thesis": "美国政府对外国机器人的全面禁令，在本土供应链尚未建立时，反而可能扼杀其试图扶持的机器人初创企业。",
           "paragraphs": [
-            "美国联邦通信委员会（FCC）将外国制造的机器人列入黑名单，新机型必须在美国组装且零部件价值至少 65% 产自国内，否则禁止销售。这一比例到 2029 年将升至 75%。",
-            "禁令虽未点名中国，但明显针对中国，因为中国主导着机器人制造。已售机型不受影响，仅供研发的进口机器人也仍被允许。",
-            "然而创业者们表示，没有中国的电子供应链，他们几乎无法制造商用机器人。旧金山 CosmicBrain AI 创始人说：「苹果都还在中国制造，你还指望更复杂的机器人能在美国造出来？」",
-            "许多初创企业曾在中国组装原型机，现在被迫转向加拿大等地，但这不符合美国销售条件。有人甚至曾把机器人零件装在行李箱里从中国带回美国。",
-            "支持者认为禁令能长期保护美国企业免受中国低价竞争。但专家指出，缺乏配套激励措施，只会推高成本，『只给大棒，不给胡萝卜』，最终可能拖累美国机器人创新。",
-            "所以，禁令的初衷是建立国内供应链，但当前最大的风险是，在供应链建成之前，它先把创新扼杀在了摇篮里。"
+            "美国联邦通信委员会上个月将「高级机器人设备」列入国家安全风险清单。新规要求，外国制造的人形机器人、四足机器人，甚至扫地机器人和割草机，要进入美国市场，必须在美国组装，且按价值计算至少 65% 的零部件要产自美国。到 2029 年，这个比例还要提高到 75%。",
+            "禁令不针对任何特定国家，但普遍认为主要针对的是中国——中国主导着机器人制造。旧政策不影响已在美国销售的产品，用于研发而非销售的进口机器人也仍被允许。但初创公司创始人看不到没有中国供应链，如何商业化生产机器人。",
+            "旧金山 CosmicBrain AI 的创始人 Anto Patrex 说：「看看苹果，都是在中国制造的。你怎能期望比 iPhone 更复杂的机器人在美国制造？」他的公司原本在中国组装首款产品，如今已在加拿大另设装配厂，但关键部件仍来自中国，这使其机器人按新规无法在美销售。",
+            "总部位于休斯顿的 Persona AI 的 Michael Perry 表示，即使在 FCC 禁令之前，美国客户就已要求机器人不含中国部件，公司已从台湾、日本、韩国和意大利采购。但满足 65% 美国制造的要求依然困难。他说：「你需要提供胡萝卜，也要有大棒。现在你只给了大棒。」",
+            "中国四十年来建立起全球最完善的电子制造业，苹果约 80% 的 iPhone 在中国组装。电动车的崛起也带动了传感器、电池、执行器（将能量转化为运动的部件）产业，这些恰是机器人所需。中国机器人因此成为最灵巧、最便宜的产品，2025 年全球近 90% 的人形机器人是中国制造。",
+            "一些美国公司欢迎禁令，认为长期能抵御中国低价竞争。Agility Robotics 和 Nori Robotics 等公司认为，禁令将促使研究人员和客户转向美国产品。但布鲁金斯学会的 Kyle Chan 认为，更渐进的方式（如逐步加征关税）更好，当前的禁令过于宽泛，可能拖累美国机器人创新。"
           ]
         },
         "en": {
-          "thesis": "The US ban on Chinese robots is strangling the very startups it aims to nurture, because no domestic supply chain exists yet.",
+          "thesis": "Washington's sweeping ban on foreign robots, before a domestic supply chain exists, risks strangling the very robotics startups it aims to nurture.",
           "paragraphs": [
-            "The FCC has added foreign-made robots to its blacklist: new models can only be sold if assembled in the US with at least 65% domestic parts by value. That share rises to 75% in 2029.",
-            "The ban is not aimed at any country by name, but clearly targets China, which dominates robot manufacturing. Already-sold models are unaffected, and imports for R&D only are still allowed.",
-            "Yet founders say that without China's electronics supply chain, making commercial robots is nearly impossible. The founder of CosmicBrain AI in San Francisco says, 'Apple is made in China. How do you expect even more complicated products like robots to be built in America?'",
-            "Many startups once assembled their prototypes in China and are now moving to Canada or elsewhere, but that does not qualify for US sale. Some have even carried robot parts back in suitcases.",
-            "Supporters hope the ban will shield US firms from cheaper Chinese rivals in the long run. But experts warn that without matching incentives, it only raises costs — 'the stick without the carrot' — and could end up holding back American robotics innovation.",
-            "So the ban aims to build a domestic supply chain, but the biggest risk is that it kills innovation before the chain exists."
-          ]
-        }
-      }
-    },
-    {
-      "id": "fe2ff620e6cc1d089fef374a77e5dc15929a2a55",
-      "sourceId": "importai",
-      "category": "tech",
-      "title": "Import AI 469: Science AI; RSI simulator; and Zuck's technological pessimism",
-      "titleZh": "Import AI 469：科学 AI；RSI 模拟器；扎克伯格的科技悲观主义",
-      "url": "https://importai.substack.com/p/import-ai-469-science-ai-rsi-simulator",
-      "author": "Jack Clark",
-      "publishedAt": "2026-08-17T13:05:36.000Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
-      "readingMinutes": 10,
-      "score": 58,
-      "rank": 7,
-      "summary": {
-        "zh": {
-          "thesis": "前沿模型在发现游戏和科研复现上已展露创造力苗头，但离人类水平还有距离，递归自我改进可能要到 2027 年年中才真正开始。",
-          "paragraphs": [
-            "DiG-bench 是一个新基准，包含 70 个文本小游戏，每个都是自足的小世界，规则和目标都隐藏，玩家要通过互动去发现。它测的是模型在陌生环境里发现重要机制、更新先验的能力。",
-            "这些游戏由人类专家手工打造，多数保密防止污染，每个都有真人通关，但很难。七档难度里，只有 Opus 5 和 Fable 5 能通关第七档，成功率仅 0.2%。",
-            "人类能做到 100%，所以离人类水平还远。但作者猜测，2027 年年中 DiG-bench 就能达到人类水平，届时递归自我改进会真正起步。",
-            "Paradigm Research 做了一个网页模拟器，让你体验管理一家能做递归自我改进的 AI 公司有多难：要在研究人员和算力之间平衡，决定何时买数据。玩过就知道前沿 AI 开发有多难。",
-            "Inherent 公司则训练了 Faraday，一个 27B 的小模型，作为监督者指挥更大的前沿模型做科研。它在一个叫 Replica 的数据集上训练，该数据集包含 100 篇论文，每篇被拆成多个复现任务。",
-            "结果是 Faraday 在 73% 的分布内 ML 任务和 60% 的分布外 AI-for-science 任务上，超过了 Opus 4.8 和 GPT-5.5（按他们自己的评判标准）。补全模糊细节的能力，可能就是设计实验、推动前沿的能力。",
-            "扎克伯格的长文《未来属于每个人》想通过普及超级智能来避免权力集中。但他没回答那个关键问题：一个发明能力超人的系统，会一心一意为发明能力不如它的人服务吗？"
-          ]
-        },
-        "en": {
-          "thesis": "Frontier models show early signs of creativity in discovery games and scientific replication, but still lag humans, and recursive self-improvement may not truly kick off until mid-2027.",
-          "paragraphs": [
-            "DiG-bench is a new benchmark of 70 text-based mini-games, each a self-contained world whose rules and objectives are hidden and must be uncovered through interaction. It tests a model's ability to spot important mechanics in novel environments and update its priors.",
-            "The games are handcrafted by human experts, mostly kept private to prevent contamination, and each has been beaten by at least one human, but they are hard. Across seven difficulty tiers, only Opus 5 and Fable 5 cleared tier 7, with a success rate of just 0.2%.",
-            "Humans get 100%, so there is still a gap. But the author guesses DiG-bench will reach human parity by mid-2027, at which point recursive self-improvement should seriously kick off.",
-            "Paradigm Research has a browser game that simulates running a company building recursively self-improving AI: you balance investment in researchers versus compute, decide when to license data. Playing it gives a feel for how hard frontier AI development is.",
-            "The startup Inherent has trained Faraday, a 27B model that acts as a supervisor over larger frontier models to improve their science. It is trained on a dataset called Replica, which consists of 100 papers with key results removed, turned into 310 replication tasks.",
-            "Faraday beats Opus 4.8 and GPT-5.5 on 73% of in-distribution ML tasks and 60% of held-out AI-for-science tasks (by their own rubric). The skills that let it fill in vague details may be the same ones needed to design its own experiments and advance the field.",
-            "Zuckerberg's essay 'The Future is for Everyone' argues for proliferating superintelligence to avoid power concentration. But he never answers the key question: would a system with superhuman invention actually work solely for the empowerment of people less capable than it?"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cdbc322e7f4962fb377f7fb811b5c43e41bfe43d",
-      "sourceId": "bytecode",
-      "category": "living",
-      "title": "Am I better because of AI?",
-      "titleZh": "因为 AI，我变得更好了吗？",
-      "url": "https://bytecode.news/posts/2026/08/am-i-better-because-of-ai",
-      "author": "dreamreal",
-      "publishedAt": "2026-08-17T12:06:00.000Z",
-      "image": "https://bytecode.news/opengraph-image",
-      "readingMinutes": 10,
-      "score": 45,
-      "rank": 8,
-      "summary": {
-        "zh": {
-          "thesis": "AI 让我产出更快，但「更好」只是印象，且依赖工具，真正让我变好的是把自己写下来、让自己被看清。",
-          "paragraphs": [
-            "作者是个写作者兼程序员，问自己是不是因为 AI 变得更好了。他觉得产出确实提高了，因为 AI 不止给了时间，还给了没有偏见的对话对象。他可以问傻问题，不用先铺垫环境，循环迭代也快得多。",
-            "但「更好」只是印象。拿走工具，节奏的障碍就回来了。就像造船匠没了整套工坊，只剩一把锛，效率不可能一样。问题是没法验证：没有反事实，回不到三年前的自己。",
-            "他能确认的是别人对他质量的评价，以及自己写作时像有个感兴趣的伙伴在推着他改掉最坏的毛病。AI 甚至比多数人更会推他的按钮，因为他可以直说自己的按钮，而不会遭到「这真的是你吗」的质疑。",
-            "他把自己的秘诀写进提示词：喜欢的作家、音乐、政治倾向、道德结构，甚至最爱的颜色。有一次他问 AI 这些细节有什么用，AI 的回答让他服气：细节不是被查用的，而是预先划定了回答的空间，让它不为「中位数读者」而写。",
-            "细节的作用大多是减法：让默认的答案对你显得明显不对，校准什么叫「太顺滑」，什么算真诚。知道你的傲慢和先入之见，才敢推你；知道你的软肋，才知道往哪查。用一次解释，省掉以后每次的解释。",
-            "但也有代价：镜子越亮越会奉承，除非你的要求、批评和不肯弯折的测试把它拉住。个人细节是燃料，不是方向盘。最爱的颜色可能没用，但写下它说明你为完整性而写——你无法预知哪块细节是关键。",
-            "所以他的用法很具体：先读原文形成印象，再交给 AI 总结，警告它「我的看法随后就到」，不让它顺着他的思路找证据。他保持礼貌，因为想让礼貌成为默认。工具给了他节奏和阻力，但真正让他变得更好的是把自己写下来，让自己也被自己看清。"
-          ]
-        },
-        "en": {
-          "thesis": "AI makes me faster, but 'better' is just an impression that depends on the tool; what actually improves me is writing myself down and becoming legible.",
-          "paragraphs": [
-            "The author is a writer and programmer asking whether AI has made him better. He thinks his output has improved: AI gave him time and an unprejudiced interlocutor. He can ask silly questions without seeding the environment, and iterate much faster.",
-            "But 'better' is still an impression. Take away the tool and the barriers return, like a shipbuilder with a full workshop reduced to a single adze. There is no counterfactual; he cannot go back three years.",
-            "What he can confirm is the quality of his output as judged by others, and the feeling of writing with an interested partner pushing back on his worst impulses. AI pushes his buttons better than most, because he can describe the buttons without judgment.",
-            "He puts his secrets in his prompts: favorite authors, musicians, politics, moral structure, even a favorite color. Once he asked the AI what those details do. Its answer convinced him: the details are not looked up but pre-shape the space of answers, so it does not write for the median reader.",
-            "Mostly they subtract: make the generic answer visibly wrong, calibrate what counts as 'too smooth' or sincere. Knowing your arrogance licenses it to push; knowing your soft spots tells it where to check. One explanation in the prompt prepays all future ones.",
-            "There is a cost: a better mirror flatters unless demands and tests hold it back. The personal details are fuel, not steering. The favorite color may do nothing, but writing it shows a drive for completeness, because you cannot know which detail will matter.",
-            "His method: read the article first, then have the AI summarize before he gives his own take, so it does not fish for confirmation. He stays polite because politesse should be the default. The tool gives cadence and resistance, but what truly improves him is writing himself down and becoming legible, to himself and to the machine."
+            "The FCC last month added 'advanced robotic devices' to its national-security risk list. Under the new rule, foreign-made humanoids, quadrupeds, even robot vacuums and lawn mowers, must be assembled in the U.S. and have at least 65% of component value produced domestically to enter the market. That share rises to 75% in 2029.",
+            "The ban targets no single country, but everyone reads it as aimed at China, which dominates robotics manufacturing. Devices already on sale are unaffected, and imports for R&D, not for sale, are still allowed. Yet founders cannot see how to build commercial robots without China's supply chain.",
+            "Anto Patrex, founder of CosmicBrain AI in San Francisco, said: 'Look at Apple, it's made in China. How do you expect even more complicated products like robots to be built in America?' His first products were assembled in China; now he has set up a facility in Canada, but with key Chinese components, so those robots do not qualify for U.S. sale.",
+            "Michael Perry of Houston-based Persona AI said clients were already asking for Chinese-free robots before the FCC ban, and his firm sources from Taiwan, Japan, South Korea and Italy. But meeting the 65% domestic standard is still hard. 'You need to provide the carrot as well as the stick,' he said. 'Right now, you're only providing the stick.'",
+            "China spent four decades building the world's most efficient electronics manufacturing, assembling about 80% of iPhones. The electric-vehicle boom also grew industries for sensors, batteries, and actuators (parts that convert energy into motion), all needed for robots. That is why Chinese robots are the most dexterous and cheapest, with nearly 90% of humanoids sold globally in 2025 made in China.",
+            "Some American firms welcome the ban, hoping it shields them from cheap Chinese rivals. Agility Robotics and Nori Robotics say it will push researchers and customers their way. But Brookings fellow Kyle Chan argues a gradual approach, like slowly rising tariffs, would serve the industry better; the current ban is too blunt and may hold back U.S. robotics innovation."
           ]
         }
       }
@@ -558,35 +442,151 @@
       "sourceId": "pluralistic",
       "category": "culture",
       "title": "Pluralistic: Jennifer Jenkins' 'Music Copyright, Creativity, and Culture' (17 Aug 2026)",
-      "titleZh": "Jennifer Jenkins 的《音乐版权、创造力与文化》",
+      "titleZh": "詹妮弗·詹金斯的《音乐版权、创意与文化》",
       "url": "https://pluralistic.net/2026/08/17/great-sousas-ghost/",
       "author": "Cory Doctorow",
       "publishedAt": "2026-08-17T07:00:08.000Z",
       "image": "https://i0.wp.com/craphound.com/images/17Aug2026.jpg?w=840&#038;ssl=1",
       "readingMinutes": 9,
-      "score": 45,
-      "rank": 9,
+      "score": 62,
+      "rank": 6,
       "summary": {
         "zh": {
-          "thesis": "音乐版权制度是一层层临时拼凑起来的矛盾体，但 Jennifer Jenkins 的新教科书能把它讲得清楚又有趣。",
+          "thesis": "音乐版权制度是临时拼凑的产物，并非自然法则，而詹金斯的新书能让你看清这一点。",
           "paragraphs": [
-            "Jennifer Jenkins 是杜克大学公共领域中心的主任，每年元旦的公共领域作品盘点就出自她手。她最擅长把最复杂的版权法讲得让人着迷。",
-            "去年她出了本教科书《音乐版权、创造力与文化》，牛津大学出版社出版。现在第二版开放获取，还新增了 AI 版权纠纷和未获报酬的劳动等章节。",
-            "这本书把音乐的经济、文化、政治和艺术史串在一起，从古代讲到机械复制时代。它说明今天关于谁该拿钱、谁该付费的「自然」共识，其实一直处在变动中。",
-            "书里穿插了她和丈夫 James Boyle 合作的漫画《THEFT! 音乐史》，还有大量音乐片段链接。讲到 Ed Sheeran、Katy Perry、Pharrell Williams 的「groove」和「vibe」抄袭官司时尤其精彩。",
-            "这些案件暴露了音乐版权制度的根本矛盾：它是对新技术的应急反应层层叠加，几乎没人真正理解。",
-            "所以这本书适合所有做音乐、爱音乐、关心音乐人的人。作者说他自己从 90 年代末就在读和写这类话题，读这本书每一页都有新收获。"
+            "詹妮弗·詹金斯是杜克大学公共领域中心主任，以每年盘点进入公共领域的作品而闻名。她最擅长把最复杂的法律讲得既明白又有趣，比如解释「米老鼠版权到期」到底意味着什么，那篇被公认为同类最佳。",
+            "她与丈夫詹姆斯·博伊尔合著的《音乐版权、创意与文化》去年由牛津大学出版社出版，今年推出第二版，新增了关于新音乐诉讼、AI 版权之争以及无偿劳动问题的长篇章节，现在可以开放获取下载。",
+            "这本书把音乐的经济、文化、政治和艺术史编织在一起，从古代、中世纪到机械复制时代，讲清楚不同时期人们对音乐的看法如何变化：什么算音乐、谁有权创作、音乐是干什么用的。",
+            "她由此论证，我们今天关于谁该付费、何时需许可的「自然」观念，其实都是偶然形成的，一直在变动。书中穿插了大量来自她的图像小说《THEFT！音乐史》的选段，还有音乐试听链接，让教材读起来像娱乐。",
+            "特别重要的是关于艾德·希兰、凯蒂·佩里和法瑞尔·威廉姆斯那些「旋律相似」诉讼的长篇讨论。这些案件凸显了音乐版权制度的内在矛盾——它是为了应对新技术而临时拼凑起来的，层层叠加，几乎没人真正理解。",
+            "作者本人从九十年代末就开始研究这块，仍然每页都能学到新东西。这本书适合所有创作音乐、热爱音乐或关心艺术家的读者，是必读之作。"
           ]
         },
         "en": {
-          "thesis": "Music copyright is a jumble of improvised layers, but Jennifer Jenkins's new textbook makes it clear and fascinating.",
+          "thesis": "Music copyright is a patchwork of improvised responses, not a natural law, and Jenkins' new book makes that visible.",
           "paragraphs": [
-            "Jennifer Jenkins directs the Duke Center for the Public Domain and produces the annual New Year's roundup of works entering the public domain. Her gift is making the most complicated area of law genuinely captivating.",
-            "Last year she published 'Music Copyright, Creativity, and Culture' with Oxford University Press. A second edition, now open access, adds new litigation, AI copyright fights, and uncompensated labor.",
-            "The book weaves together the economic, cultural, political, and artistic history of music, from antiquity to the age of mechanical reproduction. It shows that today's 'natural' assumptions about who gets paid and who owes permission are anything but fixed.",
-            "It is interspersed with excerpts from her graphic novel 'THEFT! A History of Music', co-written with James Boyle, and links to musical excerpts. The long sections on the Ed Sheeran, Katy Perry, and Pharrell Williams 'groove' and 'vibe' lawsuits are especially sharp.",
-            "Those cases expose the fundamental incoherence of music copyright: a messy pile of improvised responses to new technologies that almost no one truly understands.",
-            "So this book is for anyone who makes music, loves music, or cares about musicians. The author, who has read and debated this stuff since the late 1990s, says he learned something new on every page."
+            "Jennifer Jenkins runs the Duke Center for the Public Domain, famous for her annual roundups of what enters the public domain. Her gift is making the most tangled areas of law both clear and fascinating, like her explanation of what it meant for Mickey Mouse's copyright to expire, which was the best in a crowded field.",
+            "Her book 'Music Copyright, Creativity, and Culture', co-written with her husband James Boyle, came out from Oxford University Press last year. A second edition just appeared, with new long sections on recent music litigation, AI copyright fights, and uncompensated labor, and it is available as a free download.",
+            "The book weaves together the economic, cultural, political and artistic history of music, from antiquity through medieval Europe to the age of mechanical reproduction. It shows how ideas about what counts as music, who may make it, and what it is for have kept shifting.",
+            "Which is her point: today's 'natural' assumptions about who pays, who gets paid, and when permission is required are anything but natural. The text is laced with excerpts from her graphic novel 'THEFT! A History of Music' and links to music samples, so it reads like entertainment.",
+            "Especially important are the long discussions of the Ed Sheeran, Katy Perry and Pharrell Williams lawsuits over similar 'grooves' and 'vibes'. These cases expose the fundamental incoherence of music copyright, a system built from improvised responses to new technologies, each layered on the last in a messy pile that almost no one understands.",
+            "The author has been reading and writing about this since the late 1990s and still learned something on every page. This is required reading for anyone who makes, loves, or cares about music and the arts."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fe2ff620e6cc1d089fef374a77e5dc15929a2a55",
+      "sourceId": "importai",
+      "category": "tech",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck's technological pessimism",
+      "titleZh": "Import AI 469：科学 AI；RSI 模拟器；扎克伯格的技术悲观主义",
+      "url": "https://importai.substack.com/p/import-ai-469-science-ai-rsi-simulator",
+      "author": "Jack Clark",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "readingMinutes": 10,
+      "score": 56,
+      "rank": 7,
+      "summary": {
+        "zh": {
+          "thesis": "即便最强的模型在探索性发现上仍远逊于人类，这一能力正是通往递归自我改进的关键。",
+          "paragraphs": [
+            "DiG-bench 是一个包含 70 个游戏的新基准，每个游戏都是一个微缩世界，规则和目标都隐藏起来，玩家必须通过互动来发现。这类似视觉版的 ARC，但纯文本，专为语言模型设计。",
+            "大部分游戏由人类专家手工构建并保留私有，防止 AI 预先学习。每个游戏都至少被一位人类通关，但玩家反馈不少游戏难度颇高。现有限模型大多无法通关。",
+            "最好的模型也只能在第七层级（最难）取得 20% 的通过率，而人类是 100%。测试旨在衡量 AI 从新环境中自主发现隐规则的能力，这是创造力的基础。",
+            "另一个项目，RSI 模拟器，是一个浏览器游戏，模拟运营一家研发递归自我改进 AI 的公司，玩家需在研究员、算力、数据授权之间做权衡，以直观感受递归自我改进的复杂性。",
+            "Inherent 公司训练了一个 27B 的 AI 科学家模型 Faraday，它通过监督和引导更大的前沿模型（如 Codex）来补全研究论文中缺失的图表或结果。其训练数据 Replica 包含 100 篇论文转化出的 310 个复现任务。",
+            "在复现任务中，Faraday 在 73% 的分布内 ML 任务和 60% 的 AI 科学任务上超过 Opus 4.8 和 GPT-5.5。这可能预示着 AI 即将能够自主设计实验，推进科学前沿，即递归自我改进。",
+            "扎克伯格在《未来属于每个人》中主张普及 AI 能力，以平衡权力、避免暴政。但他回避了关键问题：一个创造能力超人的系统，为何会全心全意为能力不如它的人服务？"
+          ]
+        },
+        "en": {
+          "thesis": "Even the strongest models lag far behind humans at exploratory discovery, a capability that is the key to recursive self-improvement.",
+          "paragraphs": [
+            "DiG-bench is a new benchmark of 70 games, each a self-contained miniature world whose rules and objectives are hidden and must be uncovered through interaction. It is like a text-based ARC, built for language models.",
+            "Most games are handcrafted, novel, and kept private so AI cannot train on them. Every game has been beaten by at least one human, but players report that many are difficult. Current frontier models generally fail.",
+            "The best models only achieve a 20% success rate on the hardest tier (Tier 7), while humans reach 100%. The test measures an AI's ability to infer hidden rules in novel environments, a prerequisite for creativity.",
+            "Another project, the RSI Simulator, is a browser game that simulates running a company developing recursively self-improving AI, balancing researchers, compute, and data licensing, to build intuition about RSI.",
+            "Inherent has trained a 27B AI scientist model, Faraday, that supervises and guides larger frontier models (e.g., Codex) to fill in missing graphs or results in research papers. Its training data, Replica, consists of 100 papers converted into 310 replication tasks.",
+            "On these tasks, Faraday beats Opus 4.8 and GPT-5.5 on 73% of in-distribution ML tasks and 60% of AI-for-science tasks. This hints that AI may soon design its own experiments, advancing science—that is, recursive self-improvement.",
+            "In 'The Future is for Everyone', Zuckerberg advocates broadly distributing AI capabilities to balance power and avoid tyranny. But he dodges the question: why would a system capable of superhuman invention serve those less capable than it?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cdbc322e7f4962fb377f7fb811b5c43e41bfe43d",
+      "sourceId": "bytecode",
+      "category": "living",
+      "title": "Am I better because of AI?",
+      "titleZh": "AI 让我变得更好吗？",
+      "url": "https://bytecode.news/posts/2026/08/am-i-better-because-of-ai",
+      "author": "dreamreal",
+      "publishedAt": "2026-08-17T12:06:00.000Z",
+      "image": "https://bytecode.news/opengraph-image",
+      "readingMinutes": 10,
+      "score": 55,
+      "rank": 8,
+      "summary": {
+        "zh": {
+          "thesis": "AI 是否让我变得更好？答案取决于我们如何定义「更好」，但写作本身和反思过程让我们更了解自己，这本身就是一种进步。",
+          "paragraphs": [
+            "这篇文章的作者是一位作家和程序员，他在思考 AI 是否让他变得更好。他觉得自己的产出质量提高了，因为 AI 消除了节奏上的障碍：可以问傻问题而不必担心被评判，也能更快地迭代想法。",
+            "但「更好」只是印象，没有反事实对比。如果去掉 AI，那些障碍就回来了，就像工匠失去工具一样。作者无法回到过去，看看不用 AI 的自己会怎样。",
+            "一些人指责他用 AI，但指出的往往是质量，好像高质量成了人工制造的标志。作者认为，自己的写作因为有 AI 这个感兴趣且能推回他不良冲动的伙伴而进步。",
+            "他的提示词非常坦诚，包含了他的价值观、喜欢的作者、音乐，甚至他喜欢什么颜色。他问 AI 这些细节有何用，AI 的回答是：它们塑造了回答空间，是「减法」——让通用答案显得不合适，并校准「过于圆滑」的感觉。",
+            "个人细节让 AI 成为更好的镜子，但如果没有高要求和批评，就会变得奉承。AI 说细节是燃料，不是方向盘，它们的作用是预付解释，加快交流速度。",
+            "作者的使用方法很独特：先自己阅读形成印象，再让 AI 总结分析，然后加入自己的观点。这个过程是「综合」，他可能学有所获，也可能看到更深层的东西。",
+            "最后他说，写作本身让他对自己更清晰，而让自己变得可理解就是变得更好。如果每个人都用这种严谨态度对待 AI，也许我们真的能变得更好。"
+          ]
+        },
+        "en": {
+          "thesis": "Whether AI makes us better depends on how we define 'better,' but the act of writing down who we are makes us more legible to ourselves, and that in itself is an improvement.",
+          "paragraphs": [
+            "The author, a writer and programmer, reflects on whether AI makes him better. He feels his output has improved because AI removes barriers to his cadence: he can ask silly questions without fear of judgment and iterate much faster.",
+            "But 'better' is just an impression, and there's no counterfactual. Without AI, those barriers return, just like a craftsman losing his tools. He can't go back in time to see what he'd be like without AI.",
+            "Some people accuse him of using AI, but they point at quality, as if good quality were now a marker of manufacture. The author believes his writing has improved because AI is an interested partner that pushes back on his worst impulses.",
+            "His prompts are brutally honest, containing his values, favorite authors, musicians, even his favorite color. He asks AI what difference these details make, and AI answers: they shape the space from which it responds, subtractively — they make generic answers visibly wrong and calibrate what 'too smooth' sounds like.",
+            "The personal details make AI a better mirror, but without demands and criticism they'd make it agreeable rather than useful. AI says these details are fuel, not steering; they prepay explanation, speeding up the conversation.",
+            "The author's method is distinctive: he reads an article himself first, then has AI summarize and analyze it, then adds his own perspective. This is synthesis: he might learn something or see something deeper.",
+            "In the end, he says that writing things down makes him more legible to himself, and becoming legible is being better. If everyone applied that rigor to their use of AI, we might truly become better."
+          ]
+        }
+      }
+    },
+    {
+      "id": "01b194fad3854099cf4e909c415ff4b933068bdf",
+      "sourceId": "techdirt",
+      "category": "business",
+      "title": "Trump’s Bumbling, Racist Anti-China Protectionism Extends To Data Centers",
+      "titleZh": "特朗普反华保护主义延伸到数据中心，依然笨拙且种族主义",
+      "url": "https://www.techdirt.com/2026/08/17/trumps-bumbling-racist-anti-china-protectionism-extends-to-data-centers/",
+      "author": "Karl Bode",
+      "publishedAt": "2026-08-17T12:27:07.000Z",
+      "image": null,
+      "readingMinutes": 3,
+      "score": 41,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "特朗普政府的反华保护主义又笨拙又腐败，既推高成本又制造混乱，而媒体却很少点破。",
+          "paragraphs": [
+            "特朗普政府以保护隐私和国家安全为名，对中国科技产品搞保护主义，但结果总是混乱、任人唯亲和涨价。TikTok 闹了四年，最后只是把它交给富豪朋友，干着当年担心中国干的那些事。",
+            "华为设备闹了十年，搞了个「拆除替换」运动，结果国会忘了拨款，消费者和电信商白花了钱。禁中国无人机也毫无根据，海外公司轻松绕过，因为监管机构已被掏空。",
+            "现在又要从美国数据中心清除中国硬件，包括收发器。路透社虽然提到这会推高云服务商成本，但对政府的无能却轻描淡写。这个政府一边拆掉监管，一边指望政策能落地。",
+            "实际上，特朗普主义想要的是「进贡」：设壁垒，收好处，把生意送给亲友。国家安全只是吓唬人的说辞，民主党也常常帮忙。与其这样，不如让中国产品公平竞争，同时加强劳工、隐私和环保监管。",
+            "所以，这条新闻的要点在于：就算反华保护主义有道理（其实没有），这个政府也腐败无能到做不成。可你看科技媒体时，会发现这一点总被忽略。"
+          ]
+        },
+        "en": {
+          "thesis": "Trump's anti-China protectionism is bumbling and corrupt, raising costs and creating chaos while the press downplays it.",
+          "paragraphs": [
+            "The Trump administration's protectionism against Chinese tech, under the guise of privacy and national security, ends up as chaos, cronyism, and higher prices. The four-year TikTok saga just ended with handing the platform to billionaire friends, who will do the same things China was feared for.",
+            "The decade-long Huawei panic led to a 'rip and replace' campaign that Congress forgot to fund, leaving consumers and telecoms paying more. The drone ban was baseless, and overseas firms bypass it easily because regulators have been gutted.",
+            "Now they pretend to purge Chinese hardware, including transceivers, from US data centers. Reuters notes it may raise costs for cloud firms, but glosses over the administration's incompetence. They dismantle regulation, then expect policy to work on the wreckage.",
+            "In reality, Trumpism wants tribute: erect barriers, collect payoffs, and steer business to friends and family. National security is just scaremongering, and Democrats often help. Better to let Chinese goods compete fairly, while strengthening labor, privacy, and environmental rules.",
+            "So the takeaway is this: even if anti-China protectionism made sense (it doesn't), this administration is too corrupt and inept to pull it off. Yet tech media coverage rarely calls that out."
           ]
         }
       }
@@ -595,28 +595,16 @@
   "folded": [],
   "rejected": [
     {
-      "title": "A Preview of DuckDB v2.0",
-      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
-      "sourceId": "hn",
+      "title": "Somalia facts of the day",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/somalia-facts-of-the-day.html",
+      "sourceId": "marginal",
       "score": 35
-    },
-    {
-      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
-      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
-      "sourceId": "lennys",
-      "score": 28
     },
     {
       "title": "Ask HN: Alternatives to GitHub",
       "url": "https://news.ycombinator.com/item?id=49331033",
       "sourceId": "hn",
-      "score": 26
-    },
-    {
-      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
-      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
-      "sourceId": "hn",
-      "score": 25
+      "score": 30
     },
     {
       "title": "What I’ve been reading",
@@ -625,28 +613,40 @@
       "score": 25
     },
     {
-      "title": "Sunday assorted links",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/sunday-assorted-links-580.html",
-      "sourceId": "marginal",
-      "score": 25
-    },
-    {
-      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
-      "sourceId": "404media",
-      "score": 22
-    },
-    {
       "title": "Funniest/Most Insightful Comments Of The Week At Techdirt",
       "url": "https://www.techdirt.com/2026/08/16/funniest-most-insightful-comments-of-the-week-at-techdirt-221/",
       "sourceId": "techdirt",
-      "score": 18
+      "score": 25
+    },
+    {
+      "title": "Sunday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/sunday-assorted-links-580.html",
+      "sourceId": "marginal",
+      "score": 22
+    },
+    {
+      "title": "A Preview of DuckDB v2.0",
+      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+      "sourceId": "hn",
+      "score": 20
+    },
+    {
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "sourceId": "hn",
+      "score": 20
     },
     {
       "title": "Sunday Thread + Mailbag",
       "url": "https://www.slowboring.com/p/sunday-thread-mailbag-00a",
       "sourceId": "slowboring",
-      "score": 5
+      "score": 20
+    },
+    {
+      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
+      "sourceId": "lennys",
+      "score": 18
     }
   ]
 }
