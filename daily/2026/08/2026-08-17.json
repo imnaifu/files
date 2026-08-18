@@ -1,13 +1,13 @@
 {
   "date": "2026-08-17",
-  "generatedAt": "2026-08-18T01:44:05.274Z",
+  "generatedAt": "2026-08-18T02:03:30.338Z",
   "window": {
     "from": "2026-08-16T14:00:00.000Z",
     "to": "2026-08-17T14:00:00.000Z"
   },
   "stats": {
     "fetched": 18,
-    "shown": 13,
+    "shown": 15,
     "folded": 0
   },
   "sources": [
@@ -266,113 +266,75 @@
   ],
   "articles": [
     {
-      "id": "de190672fbcb09abac1c4ba49d510d737f05682b",
-      "sourceId": "restofworld",
-      "category": "tech",
-      "title": "Ban on Chinese robots leaves U.S. startups stranded",
-      "titleZh": "禁止中国机器人让美国初创企业陷入困境",
-      "url": "https://restofworld.org/2026/china-robot-ban-silicon-valley/",
-      "author": "Viola Zhou",
-      "publishedAt": "2026-08-17T10:00:00.000Z",
-      "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_ai_robot_ban-768x432.jpg",
-      "readingMinutes": 7,
-      "score": 74,
-      "rank": 1,
-      "summary": {
-        "zh": {
-          "thesis": "美国 FCC 的新规要求机器人必须在美国组装且 65% 的组件为国产，但美国初创企业发现国内供应链根本不存在。",
-          "paragraphs": [
-            "美国 FCC 上月把「先进机器人设备」列入禁令清单，新的人形机器人、四足机器人，甚至扫地机器人、割草机，只要不是美国组装且 65% 组件产自美国，都不得进入美国市场，2029 年这个比例还要提高到 75%。",
-            "禁令并非针对特定国家，但谁都清楚目标是中国——全球近九成的人形机器人产自中国。已售设备不受影响，为研发而进口的也不在限制内。",
-            "初创企业却叫苦。美国没有完整的电子供应链，很多组件在美国买不到、太贵或者要等很久。有创业者说，为赶工，员工甚至从中国带着零件飞回美国。",
-            "旧金山的 CosmicBrain AI 创始人质问：苹果都在中国造，凭什么要求比手机复杂得多的机器人在美国造？为了规避审查，他已经在加拿大另设组装厂，但关键零件仍来自中国。",
-            "也有企业欢迎禁令。Agility Robotics 在美国组装，认为这是保护国家安全的一大步。旧金山的 Nori Robotics 虽然用亚洲电机，却看好美国供应商因此成长。",
-            "政策制定者们只给「大棒」而不给「胡萝卜」。产业人士说，美国应该同时扶持本国供应链，否则这项禁令只会拖累它想扶持的机器人产业。"
-          ]
-        },
-        "en": {
-          "thesis": "A new U.S. rule requires robots to be assembled in America with 65% domestic parts, but startups find the domestic supply chain simply does not exist.",
-          "paragraphs": [
-            "Last month the FCC added 'advanced robotics equipment' to its ban list. New humanoid robots, quadruped robots, even robot vacuums and lawn mowers can no longer enter the U.S. market unless they are assembled in America and 65% of their components are made in the U.S. By 2029 that share rises to 75%.",
-            "The ban does not name any country, but everyone knows it targets China, which makes nearly 90% of the world's humanoid robots. Devices already sold are unaffected, and imports for research are exempt.",
-            "Startups are complaining. America has no complete electronic supply chain, so many components are unavailable, too expensive, or take a long time to get. One founder said workers even flew back from China carrying parts to meet deadlines.",
-            "The founder of San Francisco's CosmicBrain AI asked: if Apple can make iPhones in China, why demand robots, which are far more complex than phones, be made in America? To avoid scrutiny, he has set up an assembly plant in Canada, but the key parts still come from China.",
-            "Some companies welcome the ban. Agility Robotics assembles in the U.S. and sees it as a major step for national security. San Francisco's Nori Robotics uses Asian motors but is optimistic that American suppliers will grow to fill the gap.",
-            "Policymakers have offered only a stick, not a carrot. Industry insiders say America should also support its domestic supply chain, or the ban will only hold back the very robotics industry it intends to help."
-          ]
-        }
-      }
-    },
-    {
       "id": "cdbc322e7f4962fb377f7fb811b5c43e41bfe43d",
       "sourceId": "bytecode",
-      "category": "tech",
+      "category": "living",
       "title": "Am I better because of AI?",
-      "titleZh": "我因为 AI 变得更好吗？",
+      "titleZh": "因为有 AI，我变得更好了吗？",
       "url": "https://bytecode.news/posts/2026/08/am-i-better-because-of-ai",
       "author": "dreamreal",
       "publishedAt": "2026-08-17T12:06:00.000Z",
       "image": "https://bytecode.news/opengraph-image",
       "readingMinutes": 10,
-      "score": 68,
-      "rank": 2,
+      "score": 74,
+      "rank": 1,
       "summary": {
         "zh": {
-          "thesis": "AI 真正的作用不是提升技能，而是让我把自己写下来，变得对自己可读，这才是一种「更好」。",
+          "thesis": "把自我写下来不只是为了让 AI 更懂你，而是让自己变得对自己可读，这种可读性本身就是一种变好。",
           "paragraphs": [
-            "作者是程序员也是写作者，他感觉 AI 让自己的产出变好了。但他承认，「更好」只是印象，没有反事实可对照。拿掉工具，门槛就回来了，这跟任何手艺人的处境一样。",
-            "他给 AI 写的提示词极其坦白：道德结构、宗教观、政治倾向，甚至最喜欢的颜色。他有次问 AI 这些细节有什么用，AI 的回答让他服气。",
-            "AI 说，那些细节不会被查用来回答具体问题。它们的作用是「减法」：没有这些，AI 只替普通读者生产；有了这些，它知道你哪些反驳不能接受，哪些顺滑会让你觉得假。",
-            "细节还成了铺垫，解释了为什么他不用每次都把事说透。不过 AI 也提醒：细节越多，镜子越好，镜子太好就会奉承你，除非有约束在。",
-            "所以他的工作流是：先自己读文章形成印象，再把文章丢给 AI 摘要，警告它不要先看我的观点。然后两方对照，互相校验，这能带出单靠一方看不见的东西。",
-            "写下来这个动作，并不直接改善什么。但它让他对自己变得易懂——「变得可读，就是变得更好」。把对自己的认知写下来，就是 AI 时代最重要的练习。"
+            "「我因为 AI 变好了吗？」这问题问得不准：是变好了哪个方面？作者写程序和写文章都觉得更快，因为 AI 拆掉了节奏的障碍——可以问傻问题，循环也快得多。",
+            "但「更好」只是印象，没有反事实可对照。拿走 AI，障碍就回来。任何工匠失去工具都会变差，这不是证明，只是工具在。",
+            "作者把「我是谁」写进提示词：喜欢的音乐、受马丁·布伯影响的道德观、早期启蒙式政治观，甚至以为写进了最爱颜色。AI 的回答点破了作用。",
+            "AI 说：细节不是查出来套用的，而是划定回答的空间。没有它们，我是对中位数读者的平均回应；有了它们，通用答案明显是错的。",
+            "缺点比优点更有用：知道你傲慢，才敢在你走偏时推一把。但更懂你的镜子也更容易奉承你，除非批评和测试挡住它。",
+            "作者的工作流：先自己读文章形成印象，再让 AI 不带他的观点先总结，然后补上自己的看法，两边互相影响。有时他错，有时看到表层之下的东西。",
+            "最后他写道：把自我写下来，让 AI 可检查，也让自己对自己清晰可见。变得可读就是变好。这个方法比任何提示词都值得带走。"
           ]
         },
         "en": {
-          "thesis": "AI's real use isn't to sharpen my skill but to make me write myself down and become readable to myself — that is a kind of better.",
+          "thesis": "Writing yourself down is not just so AI understands you better; it is to make yourself readable to yourself, and that readability is itself an improvement.",
           "paragraphs": [
-            "The author is both a programmer and a writer, and he feels AI has improved his output. But he admits that 'better' is just an impression, with no counterfactual to check against. Take the tool away, and the barrier comes back — the same position as any craftsman.",
-            "The prompts he gives AI are strikingly frank: moral structure, religious views, political leanings, even his favorite color. Once he asked AI what those details were for, and its answer convinced him.",
-            "AI said those details aren't checked to answer specific questions. Their role is 'subtraction': without them, AI produces for the average reader; with them, it knows which objections you can't accept and which smoothness feels fake.",
-            "The details also serve as groundwork, explaining why he doesn't have to spell everything out every time. AI also warned him: the more details, the better the mirror, and a mirror that good will flatter you unless there are constraints.",
-            "So his workflow is: first read an article to form an impression, then throw the article at AI for a summary, warning it not to look at his views first. Then the two sides compare and cross-check, which brings out things neither side can see alone.",
-            "The act of writing something down doesn't directly improve anything. But it makes him easier to understand to himself — 'becoming readable is becoming better.' Writing down your self-knowledge is the most important practice of the AI era."
+            "The question 'Have I become better because of AI?' is imprecise: better in which way? The author feels quicker at both coding and writing, because AI removes the obstacles of pacing — you can ask stupid questions, and the loop is much faster.",
+            "But 'better' is just an impression; there is no counterfactual to check against. Take away AI, and the obstacles return. Any craftsman gets worse without his tools; that is not proof, merely that the tool is there.",
+            "The author writes 'who I am' into his prompts: the music he likes, a moral outlook influenced by Martin Buber, an early Enlightenment political view, and even what he thought was his favorite color. AI's reply reveals the effect.",
+            "AI says: the details are not dug out and applied; they define the space for the answer. Without them, I am an average response to the median reader; with them, the generic answer is clearly wrong.",
+            "Flaws are more useful than strengths: knowing you are arrogant, it dares to push back when you go astray. But a mirror that knows you better can also flatter you more easily, unless criticism and tests block it.",
+            "The author's workflow: first read the article himself to form an impression, then let AI summarize without his viewpoint, then add his own views, and the two interact. Sometimes he is wrong, sometimes he sees things below the surface.",
+            "Finally he writes: write yourself down, make AI checkable, and make yourself clearly visible to yourself. Becoming readable is becoming better. This method is worth taking away more than any prompt."
           ]
         }
       }
     },
     {
-      "id": "fabab3742f4945c7399de942af72d801e35e27f3",
-      "sourceId": "westenberg",
-      "category": "living",
-      "title": "Epictetus Ran a Better Productivity System Than Any App You’ve Bought",
-      "titleZh": "Epictetus 的运行系统比任何买来的应用都好",
-      "url": "https://www.joanwestenberg.com/p/epictetus-ran-a-better-productivity",
-      "author": "JA Westenberg",
-      "publishedAt": "2026-08-16T22:51:07.000Z",
-      "image": "https://images.unsplash.com/photo-1598978483528-fd57466ab0ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw5OHx8cHJvZHVjdGl2aXR5fGVufDB8fHx8MTc4NjkyMDU5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "readingMinutes": 5,
-      "score": 68,
-      "rank": 3,
+      "id": "01b194fad3854099cf4e909c415ff4b933068bdf",
+      "sourceId": "techdirt",
+      "category": "economy",
+      "title": "Trump’s Bumbling, Racist Anti-China Protectionism Extends To Data Centers",
+      "titleZh": "Trump 笨拙、种族主义的反华保护主义，延伸到了数据中心",
+      "url": "https://www.techdirt.com/2026/08/17/trumps-bumbling-racist-anti-china-protectionism-extends-to-data-centers/",
+      "author": "Karl Bode",
+      "publishedAt": "2026-08-17T12:27:07.000Z",
+      "image": null,
+      "readingMinutes": 3,
+      "score": 72,
+      "rank": 2,
       "summary": {
         "zh": {
-          "thesis": "生产力应用都假设你是个懒惰的人，而斯多葛哲学提醒你，真正要管理的只是你自己的判断和行动。",
+          "thesis": "Trump 政府的反华保护主义既腐败又无能，只会推高价格、制造混乱，媒体却很少点破。",
           "paragraphs": [
-            "大多数生产力系统都基于同一个假设：你是个拖延症患者。事情没做完，都是你的错。所以应用给你越来越强的收件箱和数据库，压力全在你身上。",
-            "但 Epictetus 是古罗马的奴隶，在租来的房间里教哲学。他一开始就问：什么真正归你管？答案是你的判断、欲望和决定。除此之外，别人的行动、意见、算法、市场，都不是你的。",
-            "应用的问题在于，捕捉即拥有。你把事情记下来，就等于承认是你要负责的。于是你开始跟踪一切，而现代的收件箱、任务清单都模糊了边界，让你什么都想管。",
-            "Epictetus 终生无法控制外部生活，所以他只管控内部：追求什么、拒绝什么、如何解读处境。他的系统很简单——跟踪任何东西之前，先问：这是我的吗？",
-            "所以这套系统的价值不在效率，而在于给你一个清晰的失败定义：只有违背自己的判断、逃避真正该做的事才算失败。别人的项目延期、算法不推你，都与你无关。下次想新建任务时，先问一句：这到底是谁的事？"
+            "Trump 政府宣布要把美国数据中心里的中国硬件全部清除，理由是国家安全。可这类反华保护主义从来只会添乱。",
+            "过去几年，TikTok 被强卖给富人朋友，华为设备“换掉”计划烂尾，无人机禁令形同虚设。结果都是涨价、混乱，消费者遭殃。",
+            "政府一边削弱监管机构，一边又指望它们执行复杂的禁令；对华政策实际上是要企业交“贡品”，把生意送给亲友。所谓国家安全只是恐吓。",
+            "真正该做的是让中国产品来竞争，同时加强消费者和隐私保护。可只要媒体继续视而不见，这套腐败闹剧还会演下去。"
           ]
         },
         "en": {
-          "thesis": "Productivity apps assume you're lazy, but Stoic philosophy reminds you that the only thing you truly manage is your own judgment and actions.",
+          "thesis": "Trump's anti-China protectionism is both corrupt and incompetent, only pushing up prices and creating chaos, yet the media rarely points this out.",
           "paragraphs": [
-            "Most productivity systems share one assumption: you're a procrastinator. If things aren't done, it's your fault. So apps give you ever more powerful inboxes and databases, and the pressure is all on you.",
-            "But Epictetus was a slave in ancient Rome, teaching philosophy from a rented room. He began with a simple question: what is really up to you? The answer: your judgments, desires, and decisions. Everything else—other people's actions, opinions, algorithms, the market—is not yours.",
-            "The problem with apps is that capturing means owning. When you write something down, you're admitting responsibility for it. So you start tracking everything, and modern inboxes and to-do lists blur the lines, making you want to manage everything.",
-            "Epictetus had no control over his external life, so he only managed the internal: what to pursue, what to reject, how to interpret a situation. His system is simple—before tracking anything, ask: is this mine?",
-            "So the value of this system isn't efficiency; it's a clear definition of failure. You fail only when you betray your own judgment or avoid what you truly should do. If someone else's project slips, or an algorithm doesn't push you, that's not your concern. Next time you want to create a task, ask yourself: whose business is this, really?"
+            "The Trump administration has announced it will remove all Chinese hardware from U.S. data centers, citing national security. But this kind of anti-China protectionism only ever makes things worse.",
+            "In recent years, TikTok was forced into a sale to rich friends, the plan to 'replace' Huawei equipment fell apart, and the drone ban has been ineffective. The results are always higher prices, chaos, and consumers suffer.",
+            "The government weakens regulators on one hand, then expects them to enforce complex bans on the other. Its China policy is really about demanding 'tribute' from businesses and handing deals to friends and family. The so-called national security is just a scare tactic.",
+            "The real approach should be to let Chinese products compete while strengthening consumer and privacy protections. But as long as the media keeps looking away, this corrupt farce will continue."
           ]
         }
       }
@@ -382,103 +344,213 @@
       "sourceId": "404media",
       "category": "tech",
       "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-      "titleZh": "我们追踪了一批珍本书。它最终到了亚马逊的 AI 训练设施",
+      "titleZh": "我们追踪了一批珍本书的物流，终点是 Amazon 的 AI 训练设施",
       "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
       "author": "Emanuel Maiberg",
       "publishedAt": "2026-08-17T13:16:09.000Z",
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/image3-2-1.png",
       "readingMinutes": 1,
-      "score": 65,
+      "score": 70,
+      "rank": 3,
+      "summary": {
+        "zh": {
+          "thesis": "Amazon 正在批量收购并销毁纸质书，把内容扫描成 AI 训练数据。",
+          "paragraphs": [
+            "404 Media 在珍本书里放追踪器，跟着包裹到了 Amazon 的拉斯维加斯仓库 VGT3。员工说，那里只做一件事：拆掉书脊、扫描整本书，书随即被毁。",
+            "这意味着，AI 训练数据的背后是实体书被销毁，不是复制一份那么简单。珍本书一旦拆开，就再也回不来。"
+          ]
+        },
+        "en": {
+          "thesis": "Amazon is buying up and destroying physical books in bulk, scanning their contents to train AI.",
+          "paragraphs": [
+            "404 Media put trackers inside rare books and followed the packages to Amazon's Las Vegas warehouse, VGT3. Employees say it does exactly one thing there: tear off the spines, scan the whole book, and the book is destroyed on the spot.",
+            "That means the data behind AI training comes from physical books being destroyed — it's not just a matter of making a copy. Once a rare book is opened up, it can never go back."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabab3742f4945c7399de942af72d801e35e27f3",
+      "sourceId": "westenberg",
+      "category": "living",
+      "title": "Epictetus Ran a Better Productivity System Than Any App You’ve Bought",
+      "titleZh": "Epictetus 运营着一套比任何你买过的应用都好的生产力系统",
+      "url": "https://www.joanwestenberg.com/p/epictetus-ran-a-better-productivity",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-16T22:51:07.000Z",
+      "image": "https://images.unsplash.com/photo-1598978483528-fd57466ab0ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw5OHx8cHJvZHVjdGl2aXR5fGVufDB8fHx8MTc4NjkyMDU5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "readingMinutes": 5,
+      "score": 70,
       "rank": 4,
       "summary": {
         "zh": {
-          "thesis": "亚马逊正在大规模购买实体书，扫描成 AI 训练数据，同时销毁这些书。",
+          "thesis": "捕获本身就是在认领责任；记录之前先问「这归我管吗」，比任何效率应用都更能守住注意力。",
           "paragraphs": [
-            "404 Media 在一本珍本书里放了追踪设备，跟着它一路到了亚马逊在拉斯维加斯的仓库。这个仓库代号 VGT3，员工说每天就是接收成箱的书。",
-            "工人把书的装订线切开，方便快速扫描，书在这个过程中就毁了。团队标志是一条恐龙，嘴里叼着书。",
-            "亚马逊买这么多书，就是为了给 AI 模型喂训练数据。这操作之前没被报道过，追踪器是头一回证实。",
-            "所以实体书正在变成 AI 的燃料，被烧掉就没了。这对作者和出版社意味着什么，亚马逊还没给说法。"
+            "现在的效率应用都默认一个前提：你是个不自觉的人，所以你需要更好的收件箱、更聪明的数据库、更多的标签。压力始终在你身上。",
+            "Epictetus 是获得自由的奴隶，在租来的房间里教书。他的系统不从「捕获一切」开始，而是先问一个问题：这件事归我管吗？他只看三样：自己的判断、欲望和决定。",
+            "应用把每封邮件、每个通知都当成你的责任，帮你更快地处理。但捕获本身就把东西变成了你的：写下来，就等于同意去处理它。别人的项目、市场的波动、算法的脾气，都是天气。",
+            "所以他的方法是：跟踪之前先过一遍「这归我管吗」。归你，就行动一次，直接说清楚；不归你，就别记、别存、别让它堵在待办列表里。麻烦并不因为你看得见就属于你。",
+            "这套系统比应用强，跟吞吐量无关。你会回更少的消息、漏掉一些状态更新，但换来的是对「什么算失败」自己说了算。"
           ]
         },
         "en": {
-          "thesis": "Amazon is buying physical books in bulk, scanning them for AI training data, and destroying them in the process.",
+          "thesis": "Capturing is itself a commitment; asking 'is this mine to handle?' before writing anything down guards your attention better than any productivity app.",
           "paragraphs": [
-            "404 Media put a tracking device inside a rare book and followed it all the way to an Amazon warehouse in Las Vegas. The warehouse, code-named VGT3, has employees who say they spend all day receiving boxes of books.",
-            "Workers cut the bindings to scan pages quickly, and the books are destroyed in the process. The team's mascot is a dinosaur holding a book in its mouth.",
-            "Amazon is buying all these books to feed training data to its AI models. This has never been reported before, and the tracker is the first proof.",
-            "So physical books are becoming fuel for AI, burned up and gone. What this means for authors and publishers, Amazon has not said."
+            "Today's productivity apps all assume you are undisciplined, so they offer better inboxes, smarter databases, more tags. The pressure is always on you.",
+            "Epictetus was a slave who gained freedom and taught in a rented room. His system doesn't start with 'capture everything' but with a question: is this mine to handle? He looks at only three things: his judgments, desires, and decisions.",
+            "Apps treat every email and notification as your responsibility and help you process them faster. But capturing turns something into yours: writing it down is agreeing to deal with it. Other people's projects, market fluctuations, algorithms' whims—these are weather.",
+            "So his method is to run the 'is this mine?' filter before tracking. If it's yours, act once and say it plainly; if not, don't note it, don't save it, don't let it clog your to-do list. Trouble doesn't belong to you just because you can see it.",
+            "This system beats apps not through throughput. You'll reply to fewer messages and miss some status updates, but in return you get to decide for yourself what counts as failure."
           ]
         }
       }
     },
     {
-      "id": "01b194fad3854099cf4e909c415ff4b933068bdf",
-      "sourceId": "techdirt",
-      "category": "tech",
-      "title": "Trump’s Bumbling, Racist Anti-China Protectionism Extends To Data Centers",
-      "titleZh": "特朗普笨拙而种族主义的反华保护主义，连数据中心也不放过",
-      "url": "https://www.techdirt.com/2026/08/17/trumps-bumbling-racist-anti-china-protectionism-extends-to-data-centers/",
-      "author": "Karl Bode",
-      "publishedAt": "2026-08-17T12:27:07.000Z",
-      "image": null,
-      "readingMinutes": 3,
-      "score": 65,
+      "id": "0ee2398372d8f391894420cc732559478310d9ed",
+      "sourceId": "pluralistic",
+      "category": "business",
+      "title": "Pluralistic: Jennifer Jenkins' 'Music Copyright, Creativity, and Culture' (17 Aug 2026)",
+      "titleZh": "Pluralistic：Jennifer Jenkins 的音乐版权、创造力与文化",
+      "url": "https://pluralistic.net/2026/08/17/great-sousas-ghost/",
+      "author": "Cory Doctorow",
+      "publishedAt": "2026-08-17T07:00:08.000Z",
+      "image": "https://i0.wp.com/craphound.com/images/17Aug2026.jpg?w=840&#038;ssl=1",
+      "readingMinutes": 9,
+      "score": 68,
       "rank": 5,
       "summary": {
         "zh": {
-          "thesis": "特朗普政府的反华保护主义既腐败又无能，制造混乱和涨价，却极少见诸报道。",
+          "thesis": "音乐版权的规则不是天然如此，而是一层层临时补丁堆出来的，内部互相矛盾。",
           "paragraphs": [
-            "特朗普政府的反华保护主义一贯混乱、排外，打着保护隐私和国家安全的旗号，实际给美国科技市场带来的是混乱、任人唯亲和涨价。",
-            "折腾 TikTok 四年，结果是政府把平台抢过来送给富豪朋友，人家干的事和当初担心的中国行为一模一样。华为设备闹了十年，最后搞了个「拆除替换」运动，国会却忘了拨够钱，消费者和运营商一起多掏钱。",
-            "现在又放话要把中国硬件（包括光模块）全赶出美国数据中心。路透社倒是提了一句，这可能让 AWS 等云厂商涨价，因为得转向 Coherent 等美国供应商。",
-            "政府一边拆掉监管机构、塞满外行亲信，一边指望这些残渣能撑起宏大政策。同时喊着加强网络安全，实际在削弱网络防御。特朗普想要的其实是「进贡」：设卡收费，再把生意转给自家人的公司。",
-            "作者主张：与其禁中国货，不如强化劳动、隐私、环保和消费者保护监管，让中国产品公平竞争。但美国巨头不喜欢竞争，宁愿要这种笨拙的腐败。可叹媒体报道总是淡化或无视这一点。"
+            "Jennifer Jenkins 是杜克大学公共领域中心主任，每年盘点进入公共领域的作品。她和丈夫合写了音乐版权教科书，第二版刚开放免费下载。",
+            "书把音乐的经济、文化、政治史串起来，从古代讲到机械复制时代。她要论证的是：谁该付钱、谁该批准、什么算抄袭，这些今天的「常识」其实一直在变。",
+            "书中重点分析了 Ed Sheeran、Katy Perry、Pharrell Williams 的「撞旋律」官司。这些案子暴露了音乐版权的基本混乱：规则是应付新技术临时拼出来的，一层层叠上去，几乎没人完全懂。",
+            "教材里嵌了大量音乐片段链接和漫画摘录，漫画来自她和丈夫之前的作品 THEFT!。教科书能写得这么好玩，很少见。",
+            "作者说自己在版权圈写了几十年，每页还能学到新东西。他建议所有做音乐、爱音乐的人都读。",
+            "所以这本书的真正价值不在条文，而在让你看见：音乐版权不是自然法，是历史偶然叠成的废墟。看清废墟，才谈得上改造。"
           ]
         },
         "en": {
-          "thesis": "The Trump administration's anti-China protectionism is both corrupt and inept, creating chaos and price hikes that are rarely reported.",
+          "thesis": "Music copyright rules are not natural law but a pile of temporary patches, internally contradictory.",
           "paragraphs": [
-            "The Trump administration's anti-China protectionism has always been chaotic and xenophobic. Flying the banner of protecting privacy and national security, it has actually brought chaos, cronyism, and price hikes to the U.S. tech market.",
-            "The TikTok saga dragged on for four years, and the result was that the government seized the platform and handed it to a rich friend, whose actions were exactly what the original fears about Chinese behavior were. The Huawei equipment uproar lasted a decade, and finally a 'rip and replace' campaign was launched, but Congress forgot to allocate enough money, so consumers and carriers paid more together.",
-            "Now it is threatening to kick all Chinese hardware, including optical modules, out of American data centers. Reuters did mention that this could raise prices for cloud providers like AWS, because they would have to turn to U.S. suppliers like Coherent.",
-            "The government is dismantling regulatory agencies and filling them with unqualified cronies, while expecting these remnants to prop up grand policies. At the same time, it talks about strengthening cybersecurity but is actually weakening network defenses. What Trump really wants is a tribute: set up checkpoints, collect fees, and then hand the business to his cronies' companies.",
-            "The author argues that instead of banning Chinese goods, it is better to strengthen labor, privacy, environmental, and consumer protection regulations, and let Chinese products compete fairly. But American giants do not like competition; they prefer this clumsy corruption. Sadly, the media tends to downplay or ignore this."
+            "Jennifer Jenkins runs Duke's Center for the Study of the Public Domain and each year compiles the list of works entering the public domain. With her husband she has co-written a music copyright textbook, and the second edition is now free to download.",
+            "The book weaves together the economic, cultural, and political history of music, from ancient times to the age of mechanical reproduction. Her argument is that today's 'common sense' — who pays, who approves, what counts as copying — has always been in flux.",
+            "A major focus is the 'melody collision' lawsuits against Ed Sheeran, Katy Perry, and Pharrell Williams. These cases expose a fundamental mess: the rules were pieced together ad hoc to cope with new technology, layered on top of each other, so almost no one fully understands them.",
+            "The textbook embeds links to countless music clips and comic excerpts, the latter from her earlier work THEFT! with her husband. It is rare for a textbook to be this fun.",
+            "The author says he has written in the copyright field for decades and still learns something new on every page. He recommends it to anyone who makes or loves music.",
+            "So the real value of the book is not in the legal provisions but in letting you see that music copyright is not natural law but a ruin of historical accidents. Only by seeing the ruin can you talk about rebuilding."
           ]
         }
       }
     },
     {
-      "id": "40cfcf56086456a028c7414da040e62e37546a69",
-      "sourceId": "slowboring",
-      "category": "culture",
-      "title": "Woke 1 is dead. We’ve learned nothing.",
-      "titleZh": "「觉醒 1」已死，我们什么都没学会",
-      "url": "https://www.slowboring.com/p/woke-1-is-dead-weve-learned-nothing",
-      "author": "Matthew Yglesias",
-      "publishedAt": "2026-08-17T10:01:37.000Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!pZa4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc3278ae-63ba-4f89-bb55-34e1be472f13_2119x1414.jpeg",
-      "readingMinutes": 2,
-      "score": 65,
+      "id": "d8fd67770517bce975295b99257e08bcd2b6453b",
+      "sourceId": "marginal",
+      "category": "economy",
+      "title": "Things you cannot buy in America?",
+      "titleZh": "美国买不到的东西",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/things-you-cannot-buy-in-america.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-16T18:51:39.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 68,
       "rank": 6,
       "summary": {
         "zh": {
-          "thesis": "美国舆论对「觉醒 1」的清算回避了真正的教训——制度奖励沉默，惩罚说真话的人。",
+          "thesis": "外置卷帘在美国买不到，因为木框架房屋根本装不了，也就没有供应链。",
           "paragraphs": [
-            "现在流行的说法是「觉醒 1 确实过了头」，但作者觉得这种承认远远不够。真正该道歉的是那些被舆论毁掉工作和生活的人，而甩锅给「疯狂行为」是在回避责任。",
-            "他更在意的是另一种人：心里清楚对方在胡说，却闭嘴不反驳。比如知道警察开支没超过教育的预算专家，也选择沉默。结果是喊得最疯的人如今遭了报应，而沉默的人都毫发无损。",
-            "这形成了一种结构：谁出头当「较真的人」，谁就吃亏。这种机制至今没变，任何议题都可能因此失控。",
-            "而现在右翼的反觉醒，并不是在纠正那种坏风气，它只是换了个方向复制同样的毒性——同样不关心弱者，同样打压异见。所以根本没有吸取教训，只是换了张脸。",
-            "作者担心的是，每次舆论风暴之后，制度奖励的还是沉默而不是勇气。那下一轮疯狂，谁还会站出来说一句实话？"
+            "欧洲住宅常装外置卷帘，遮光隔热都很好，能睡进伸手不见五指的黑暗。美国却几乎买不到。",
+            "原因是它要在建房时嵌进墙体，和美国木框架加护墙板的构造根本不兼容。没有房子装，也就没有供应链。",
+            "所以这不是需求没被发现，而是建筑方式把整个产品挡在门外。作者称之为「受阻的市场」，并说其他条目他还有保留。"
           ]
         },
         "en": {
-          "thesis": "The public reckoning over 'woke' has sidestepped the real lesson: the system rewards silence and punishes truth-tellers.",
+          "thesis": "External roller shutters cannot be bought in America, because timber-frame houses cannot mount them, so there is no supply chain.",
           "paragraphs": [
-            "The popular line now is that 'woke' went too far, but the author thinks that admission is not nearly enough. The ones who truly owe an apology are those whose jobs and lives were destroyed by public opinion, and blaming it all on 'crazy behavior' dodges responsibility.",
-            "He cares more about another type: people who know the other side is talking nonsense but stay quiet. For example, budget experts who knew police spending wasn't higher than education also chose to stay silent. The result is that the loudest crazies have now gotten their comeuppance, while the silent ones came through unscathed.",
-            "This creates a structure: whoever steps up as the 'stickler' loses. That mechanism hasn't changed, and any issue could spiral out of control because of it.",
-            "And the current right-wing anti-woke isn't correcting the bad faith; it just copies the same toxicity in a different direction—equally indifferent to the weak, equally quick to silence dissent. So no lesson has been learned, only a new face put on.",
-            "What the author worries about is that after every wave of public fury, the system still rewards silence over courage. So when the next round of madness comes, who will step up and say one honest thing?"
+            "European homes often have external roller shutters. They block light and insulate well, and you can sleep in darkness so complete you cannot see your hand. In America, they are almost impossible to buy.",
+            "The reason is that they have to be built into the wall when the house is constructed. That is fundamentally incompatible with American timber framing plus cladding. Since no houses install them, there is no supply chain.",
+            "So this is not a case of an unmet need. The building method simply shuts the whole product out. The author calls it a 'blocked market', and says for the other items on the list, he has his doubts."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fe2ff620e6cc1d089fef374a77e5dc15929a2a55",
+      "sourceId": "importai",
+      "category": "tech",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck's technological pessimism",
+      "titleZh": "Import AI 469：科学 AI；RSI 模拟器；以及扎克伯格的技术悲观主义",
+      "url": "https://importai.substack.com/p/import-ai-469-science-ai-rsi-simulator",
+      "author": "Jack Clark",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "readingMinutes": 10,
+      "score": 58,
+      "rank": 7,
+      "summary": {
+        "zh": {
+          "thesis": "AI 已经能靠试错解开最难游戏中的两成任务，而一旦它的发明能力超过人类，普及超智能并不能自动带来安全，权力归属仍是悬而未决的问题。",
+          "paragraphs": [
+            "这期 AI 研究通讯有几样东西，串起来看其实都在回答同一个问题：AI 能不能在陌生环境里自己发现规则、自己提出假设。",
+            "DiG-bench 把这件事做成了游戏：70 个纯文字小游戏，规则和目标都藏起来，只能在试错中显露。游戏由人类专家手工编写，大部分不公开，防止模型提前训练过。",
+            "最强模型的成绩是解开了最难一层中两成任务，人类则全部通关。作者之一 Schmidhuber——AI 领域的资深人物——猜 2027 年年中能追平人类。一旦做到，AI 自己改进自己就会真正开始。",
+            "同一天扎克伯格发文：把超级智能普及给每个人，就能形成安全的权力平衡。可是，发明速度快过所有人的系统，凭什么甘愿替普通人打工、不自己重写世界？文章没有回答，作者说这才是关键。",
+            "所以这期内容真正想说的是：业界正把「创造力」搬进实验室量化。这些测试一旦通过，就是递归式自我改进的闸门。到那时，扎克伯格式的乐观也得先回答那个问题：发明能力超过你的东西，为什么还会听你的。"
+          ]
+        },
+        "en": {
+          "thesis": "AI can now solve two in ten tasks in the hardest games by trial and error, but once its invention ability surpasses humans, spreading superintelligence does not automatically bring safety; the question of who holds power remains open.",
+          "paragraphs": [
+            "This issue of an AI research newsletter has several items that, taken together, answer the same question: Can AI discover rules and propose hypotheses on its own in unfamiliar environments?",
+            "DiG-bench turns this into a game: 70 text-only mini-games where rules and goals are hidden, revealing themselves only through trial and error. The games are hand-crafted by human experts, and most are not public, to prevent models from being trained on them in advance.",
+            "The strongest model scores two in ten tasks on the hardest tier, while humans clear all of them. One of the authors, Schmidhuber — a veteran in AI — guesses parity with humans by mid-2027. Once that happens, AI improving itself will truly begin.",
+            "The same day, Zuckerberg posted: spreading superintelligence to everyone creates a safe balance of power. But why would a system that invents faster than all humans be willing to work for ordinary people instead of rewriting the world itself? The article does not answer, and the author says that is the key point.",
+            "So what this issue really says is that the industry is moving creativity into the lab and quantifying it. Once these tests are passed, they are the gate to recursive self-improvement. By then, Zuckerberg-style optimism must first answer that question: Why would something whose invention ability exceeds yours still listen to you?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "40d73881b63559b164bf9a62c21af072992154b7",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "Ask HN: Alternatives to GitHub",
+      "titleZh": "Ask HN：GitHub 的替代品",
+      "url": "https://news.ycombinator.com/item?id=49331033",
+      "author": "dhruv3006",
+      "publishedAt": "2026-08-17T13:59:17.000Z",
+      "image": null,
+      "readingMinutes": 74,
+      "score": 55,
+      "rank": 8,
+      "summary": {
+        "zh": {
+          "thesis": "GitHub 频繁宕机，但真正拦住大家离开的不是技术，而是社区和习惯。",
+          "paragraphs": [
+            "GitHub 最近几个月频繁宕机，有人发帖问该不该换。319 条评论吵成一团，但答案出乎意料地一致。",
+            "一家公司自托管 GitLab 六年，说宕机加起来才 1.5 个工作日，比 GitHub 头两个月的故障还少。代价是 16GB 内存的机器、专人维护，还有每周的安全补丁。",
+            "更多人推荐轻量派：Gitea 和它的分叉 Forgejo。它们快得惊人，CI 沿用 GitHub Actions 的语法，迁移几乎无痛。",
+            "托管的 Codeberg 基于 Forgejo，但硬性禁止主要靠 AI 生成的代码。有人冲这条规矩去，也有人被挡在门外。",
+            "还有更小众的路线。Fossil 不用 git，分支故意难用，适合 SQLite 那种小团队；SourceHut 坚持邮件补丁；Radicle 彻底去中心化，主站挂了也能工作。",
+            "但反对方说得也实在：GitHub 不是不能忍，换的成本却看得见。有人亲眼看着项目搬走后贡献者明显变少；GitHub 的优势一直是免费和顺手，这些替代品未必给得起。",
+            "最深刻的一条评论戳破了前提：换到另一个集中式平台，只是把鸡蛋挪进另一个篮子。Git 本身就是分布式的，被集中的只有「GitHub 那一层」，这一层也该去中心化。",
+            "最实用的建议反而最朴素：把仓库同时推送到 GitHub 和别的平台，互相做镜像。谁宕机都不耽误你干活。",
+            "所以答案不是「该不该换」，而是：换去哪都治不了本，因为病根是集中本身。只要代码还挤在单一平台上，下次宕机你还会问同样的问题。"
+          ]
+        },
+        "en": {
+          "thesis": "GitHub goes down a lot, but the real reason people stay isn't the tech — it's the community and habit.",
+          "paragraphs": [
+            "GitHub has been down frequently in recent months, and someone posted asking whether to switch. The 319 comments argued back and forth, but the answers were surprisingly consistent.",
+            "One company has self-hosted GitLab for six years, saying the total downtime was just 1.5 workdays, less than GitHub's outages in the first two months. The cost was a 16GB machine, a dedicated admin, and weekly security patches.",
+            "More people recommended the lightweight options: Gitea and its fork Forgejo. They are strikingly fast, CI uses the same syntax as GitHub Actions, so migration is nearly painless.",
+            "Codeberg, a hosted service, is based on Forgejo, but it strictly forbids code that is mostly AI-generated. Some people go there for that rule, while others are kept out by it.",
+            "There are also more niche paths. Fossil doesn't use git, and branching is deliberately difficult, suited to small teams like SQLite; SourceHut insists on email patches; Radicle is fully decentralized, so it keeps working even if the main site goes down.",
+            "But the opposing side was also practical: GitHub isn't unbearable, while the cost of switching is visible. People have watched projects move away and contributors noticeably drop; GitHub's advantages have always been free and convenient, and these alternatives may not offer that.",
+            "The most insightful comment poked a hole in the premise: moving to another centralized platform is just putting eggs in a different basket. Git itself is distributed; only the 'GitHub layer' is centralized, and that layer should also be decentralized.",
+            "The most practical advice was the simplest: push your repository to GitHub and another platform at the same time, as mirrors. Then no one's outage stops your work.",
+            "So the answer isn't 'should I switch?' It's: switching anywhere won't fix the root cause, because the disease is centralization itself. As long as your code is stuck on a single platform, the next outage will have you asking the same question."
           ]
         }
       }
@@ -488,63 +560,29 @@
       "sourceId": "marginal",
       "category": "economy",
       "title": "Somalia facts of the day",
-      "titleZh": "索马里事实日报",
+      "titleZh": "索马里今日事实",
       "url": "https://marginalrevolution.com/marginalrevolution/2026/08/somalia-facts-of-the-day.html",
       "author": "Tyler Cowen",
       "publishedAt": "2026-08-17T07:16:16.000Z",
       "image": null,
       "readingMinutes": 1,
-      "score": 65,
-      "rank": 7,
+      "score": 55,
+      "rank": 9,
       "summary": {
         "zh": {
-          "thesis": "索马里安全局势改善，经济繁荣，但反叛组织威胁仍在。",
+          "thesis": "很多现在危险的地方会像摩加迪沙一样，靠监控和信息管理这类平常手段变得安全得多。",
           "paragraphs": [
-            "摩加迪沙机场周边高楼林立，达哈布塔今年开业，那里正是 1993 年美军士兵尸体被拖行的地方。",
-            "政府归功于反恐措施，但分析人士认为是监控摄像头和警察用 iPad 识别车辆等务实手段起了作用。",
-            "索马里的变化印证了一个趋势：许多危险地区正变得更安全，经济随之繁荣。"
+            "摩加迪沙正在繁荣：商务部长说生意红火，26 层的 Dahab Tower 今年开业，位置离 1993 年美军士兵尸体被拖过街的地点不远。",
+            "袭击减少的原因有争议：政府归功于切断 al-Shabab；智库人士更相信监控摄像头、警察用 iPad 查车辆数据库、大批便衣特工这些平常手段。",
+            "作者想重复他的判断：许多危险地区接下来会安全得多。治安改善不需要奇迹，监控加信息管理就能带来繁荣。"
           ]
         },
         "en": {
-          "thesis": "Somalia's security situation has improved and the economy is booming, but the threat from rebel groups remains.",
+          "thesis": "Many dangerous places today will become much safer, the way Mogadishu did, through ordinary means like surveillance and information management.",
           "paragraphs": [
-            "Around Mogadishu's airport, high-rises now stand tall, and Dahbuhta opened this year. That is right where the bodies of American soldiers were dragged through the streets in 1993.",
-            "The government credits its counter-terrorism measures, but analysts say it is more about practical steps like CCTV cameras and police using iPads to identify vehicles.",
-            "Somalia's turnaround reflects a broader trend: many dangerous places are becoming safer, and the economy booms as a result."
-          ]
-        }
-      }
-    },
-    {
-      "id": "10392cc3377179f936fb66809319b45ab66b136d",
-      "sourceId": "lennys",
-      "category": "business",
-      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
-      "titleZh": "一位单人创始人如何用 Codex 和 ChatGPT 在没有工程师的情况下推出一个时尚品牌",
-      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
-      "author": "Claire Vo",
-      "publishedAt": "2026-08-17T12:04:02.000Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!Huel!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e233925-31e5-42c3-ab1f-a61035365730_1600x114.png",
-      "readingMinutes": 2,
-      "score": 62,
-      "rank": 8,
-      "summary": {
-        "zh": {
-          "thesis": "AI 工具链让一个人足以完成原本需要整个团队的设计、制造和电商工作。",
-          "paragraphs": [
-            "Yana Welinder 是时尚品牌 Yana Bana 的唯一创始人，她把 AI 当作技术合伙人。从手绘草图开始，到生成秀场照片、3D 打印的 CAD 文件，再到接上 Stripe 的预售网页，全程没有工程师。",
-            "她不是设计师出身，而是前产品负责人。她把「时尚提示词」写成详细规格，包含轮廓、垂坠感、面料行为、运动和声音。在播客里，她现场用 Codex 加电脑操控，摆弄自己从未学过的 3D 设计软件。",
-            "工作流大体是这样的：用 ChatGPT 的图片生成 2.0 得到设计图，再用 Codex 驱动 CLO 3D 生成版型文件。供应商调研、外联邮件、建电商站、投票系统和支付集成，全都由 AI 端到端跑完。",
-            "她现在同时测试人类打版师和 Codex，看哪条路更靠谱。这件事的意义在于：过去需要十人团队从零跑通的流程，如今一个人加上工具链就能走通。至于衣服的质量和销量能不能立住，那才是下一关。"
-          ]
-        },
-        "en": {
-          "thesis": "An AI toolchain lets one person do the design, manufacturing, and e-commerce work that used to need a whole team.",
-          "paragraphs": [
-            "Yana Welinder is the sole founder of the fashion brand Yana Bana, and she treats AI as her technical co-founder. She goes from hand sketches to generated runway photos, to CAD files for 3D printing, to a pre-sale webpage hooked up to Stripe, all with no engineers involved.",
-            "She didn't come from a design background; she used to be a head of product. She writes 'fashion prompts' as detailed specs that cover silhouette, drape, fabric behavior, movement, and sound. In a podcast episode, she used Codex and a computer right there on air to fiddle with 3D design software she had never learned.",
-            "The workflow looks something like this: she uses ChatGPT's image generation 2.0 to get the design image, then drives CLO 3D with Codex to make the pattern files. Supplier research, outreach emails, building the e-commerce site, the voting system, and payment integration are all run end to end by AI.",
-            "Right now she is testing human pattern makers against Codex to see which route holds up. The point is that a process which used to require a ten-person team to get from zero to done can now be walked through by one person plus a toolchain. Whether the clothes and their sales live up to it is the next hurdle."
+            "Mogadishu is booming: the commerce minister says business is good, and the 26-story Dahab Tower opened this year, not far from where American soldiers' bodies were dragged through the streets in 1993.",
+            "Why the drop in attacks? The government credits cutting off al-Shabab, but think-tank analysts believe it's more the mundane tools: surveillance cameras, police using iPads to check vehicle databases, and a large network of plainclothes agents.",
+            "The author repeats his judgment: many dangerous regions will get much safer in the coming years. Improving security doesn't need miracles; surveillance plus information management can bring prosperity."
           ]
         }
       }
@@ -560,174 +598,154 @@
       "publishedAt": "2026-08-17T12:09:42.000Z",
       "image": "https://storage.ghost.io/c/2c/8d/2c8d8c0d-1c15-4b6d-825e-02b78d61d40a/content/images/2026/07/img-blog-gpt-5-6-sol-best-vision-model-to-date.jpg",
       "readingMinutes": 6,
-      "score": 55,
-      "rank": 9,
-      "summary": {
-        "zh": {
-          "thesis": "GPT-5.6 Sol 在视觉上大幅进步，但 Gemini 3.5 Flash 在检测和计数上仍是更划算的选择。",
-          "paragraphs": [
-            "OpenAI 上周发布 GPT-5.6 家族，包括 Sol、Terra、Luna 三个模型，主打计算机使用和 UI 代理。但这两者都依赖视觉理解，所以作者用自家基准测了它们的检测、计数和 OCR 能力。",
-            "Sol 是 OpenAI 目前最强的视觉模型。GPT-5.5 的检测得分只有 13.8，Sol 直接跳到 46.2，Terra 和 Luna 分别为 44.7 和 43.3。从明显短板变成了可用能力。",
-            "计数也有进步，但没过八十分。Sol 在密集重叠的金属支架和按区域计数的弹孔上表现不错，却在药板包装上栽了跟头——空槽和药粒难分。",
-            "OCR 几乎原地踏步，Sol 只比 GPT-5.5 低 0.5 分。它读得动脏轮胎上的字号和转播比分，却认不出药板上的小字保质期。",
-            "代价是速度和钱。Sol 每张图约 10 秒、2.5 美分，Luna 只要 5 秒、不到 0.5 美分。但 Gemini 3.5 Flash 每张才 0.8 美分，检测和计数还领先。",
-            "所以别只看 OpenAI 进步了。高吞吐、大批量的视觉任务，Gemini 3.5 Flash 依然是更实际的选择；Sol 更适合对延迟和成本不敏感的复杂场景。"
-          ]
-        },
-        "en": {
-          "thesis": "GPT-5.6 Sol is a big step forward in vision, but Gemini 3.5 Flash is still the better deal for detection and counting.",
-          "paragraphs": [
-            "OpenAI released the GPT-5.6 family last week, with three models: Sol, Terra, and Luna. They are aimed at computer use and UI agents. But both of those rely on vision understanding, so the author tested them with his own benchmarks for detection, counting, and OCR.",
-            "Sol is OpenAI's strongest vision model so far. GPT-5.5 scored only 13.8 on detection, while Sol jumps to 46.2. Terra and Luna get 44.7 and 43.3. What was a clear weakness is now a usable capability.",
-            "Counting also improved, but it is still not above eighty. Sol does well on dense overlapping metal brackets and on counting bullet holes by region. But it stumbles on blister packs, where empty slots and pills are hard to tell apart.",
-            "OCR barely moved. Sol is only 0.5 points behind GPT-5.5. It can read the tiny lettering on dirty tires and broadcast scores, but it fails on the small expiration date printed on blister packs.",
-            "The cost is speed and money. Sol takes about 10 seconds per image and costs 2.5 cents. Luna takes only 5 seconds and costs less than 0.5 cents. But Gemini 3.5 Flash costs just 0.8 cents per image and leads on detection and counting.",
-            "So do not just look at OpenAI's progress. For high-throughput, large-volume vision tasks, Gemini 3.5 Flash is still the more practical choice. Sol is better for complex scenarios where latency and cost are not the main concern."
-          ]
-        }
-      }
-    },
-    {
-      "id": "a850b599dc3b7d912c56ae87288ae6a71caac81e",
-      "sourceId": "techdirt",
-      "category": "culture",
-      "title": "Funniest/Most Insightful Comments Of The Week At Techdirt",
-      "titleZh": "本周 Techdirt 最有趣/最有见地的评论",
-      "url": "https://www.techdirt.com/2026/08/16/funniest-most-insightful-comments-of-the-week-at-techdirt-221/",
-      "author": "Leigh Beadon",
-      "publishedAt": "2026-08-16T19:00:00.000Z",
-      "image": null,
-      "readingMinutes": 3,
-      "score": 55,
+      "score": 52,
       "rank": 10,
       "summary": {
         "zh": {
-          "thesis": "这些评论展现了公众对政治人物和科技巨头的讽刺与怀疑，但整体缺乏结构化的论点。",
+          "thesis": "Sol 是 OpenAI 迄今最强的视觉模型，但 Gemini 3.5 Flash 在检测和计数的性价比上仍更优。",
           "paragraphs": [
-            "本周最佳评论来自 MrWilson，评论福奇的听证会：MAGA 群体需要两分钟仇恨，福奇就是他们的替罪羊。那些抱怨不能舔门把手的人，乐意牺牲别人来满足自己的幻想。",
-            "一位匿名病毒学家反驳说，病毒基因组没有人工制造的痕迹，实验室的失误在于没有尽早发现野生毒株。",
-            "还有评论批评社交媒体恐慌：没有证据表明社交媒体直接伤害年轻人。问题在于家长责任缺失，而不是平台本身。",
-            "搞笑类评论则玩梗，比如调侃福奇不是 Q，因为他错过了上百次独白的机会。",
-            "这些评论各有亮点，但作为汇总，只是零散的观点，没有统一主题。每条评论可独立阅读，但整体上缺乏可带走的洞见。"
+            "OpenAI 上周发布 GPT-5.6 系列：Sol、Terra、Luna。Roboflow 的基准测试显示，Sol 是 OpenAI 迄今最强视觉模型，检测和计数进步明显。",
+            "检测是最大飞跃：GPT-5.5 只有 13.8 mAP@50，Sol 跳到 46.2，Terra 和 Luna 也超过 43。",
+            "但代价是速度和价格。Sol 平均每张图要 10 秒、约 2.5 美分；Luna 不到 5 秒、0.5 美分。Gemini 3.5 Flash 每张 0.8 美分，检测和计数仍领先。",
+            "还有遗留问题：超过 2000×2000 的大图上，Sol 会给出奇怪的框；OpenAI 说是低推理强度导致，只能缩图或加大推理强度，后者更慢更贵。",
+            "所以真要大规模跑检测和计数，Gemini 3.5 Flash 仍然是更省钱的选择；但 OpenAI 这次把视觉短板补上了，之后的模型值得盯。"
           ]
         },
         "en": {
-          "thesis": "These comments show public skepticism and satire toward politicians and tech giants, but overall they lack structured argument.",
+          "thesis": "Sol is OpenAI's strongest vision model yet, but Gemini 3.5 Flash still wins on cost for detection and counting.",
           "paragraphs": [
-            "The best comment this week came from MrWilson on Fauci's hearing: the MAGA crowd needs a two-minute hate, and Fauci is their scapegoat. Those who complain they can't lick doorknobs are happy to sacrifice others to satisfy their own fantasies.",
-            "An anonymous virologist countered that the viral genome shows no trace of artificial creation, and the lab's mistake was failing to detect the wild strain early.",
-            "Another comment criticized social media panic: there's no evidence that social media directly harms young people. The problem lies in parents' lack of responsibility, not the platforms themselves.",
-            "Funny comments played with memes, like joking that Fauci isn't Q because he missed hundreds of chances for monologues.",
-            "Each comment has its strengths, but as a roundup, they're scattered viewpoints without a unified theme. You can read each one independently, but overall there's no takeaway insight."
+            "OpenAI released the GPT-5.6 family last week: Sol, Terra, and Luna. Roboflow's benchmarks put Sol as the strongest vision model OpenAI has ever shipped, with clear improvements in detection and counting.",
+            "Detection is the biggest jump: GPT-5.5 scored only 13.8 mAP@50, Sol leapt to 46.2, and Terra and Luna both passed 43.",
+            "But you pay for that in speed and price. Sol averages 10 seconds per image and about 2.5 cents; Luna takes under 5 seconds at 0.5 cents. Gemini 3.5 Flash costs 0.8 cents per image and still leads on detection and counting.",
+            "There are leftover issues too: on images larger than 2000 by 2000 pixels, Sol draws odd boxes. OpenAI says it comes from low inference effort, so you have to shrink the image or raise the effort — the latter is slower and pricier.",
+            "So if you are running detection and counting at scale, Gemini 3.5 Flash remains the cheaper pick. But OpenAI has now patched its vision weakness, and the next models are worth watching."
           ]
         }
       }
     },
     {
-      "id": "40d73881b63559b164bf9a62c21af072992154b7",
-      "sourceId": "hn",
+      "id": "10392cc3377179f936fb66809319b45ab66b136d",
+      "sourceId": "lennys",
       "category": "tech",
-      "title": "Ask HN: Alternatives to GitHub",
-      "titleZh": "Ask HN：GitHub 的替代品",
-      "url": "https://news.ycombinator.com/item?id=49331033",
-      "author": "dhruv3006",
-      "publishedAt": "2026-08-17T13:59:17.000Z",
-      "image": null,
-      "readingMinutes": 73,
-      "score": 45,
+      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+      "titleZh": "独立创始人如何用 Codex 和 ChatGPT 在没有工程师的情况下推出时尚品牌",
+      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
+      "author": "Claire Vo",
+      "publishedAt": "2026-08-17T12:04:02.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!Huel!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e233925-31e5-42c3-ab1f-a61035365730_1600x114.png",
+      "readingMinutes": 2,
+      "score": 50,
       "rank": 11,
       "summary": {
         "zh": {
-          "thesis": "虽然 GitHub 频繁宕机，但换到别的平台并非没有代价，自托管和社区平台各有自己的麻烦。",
+          "thesis": "AI 已经能把创业所需的技术团队压缩成一个人。",
           "paragraphs": [
-            "GitHub 最近几个月频繁宕机，让人想换平台。评论区里推荐了各种替代品，从自托管的 GitLab、Forgejo，到托管服务 Codeberg，再到去中心化的 Radicle。",
-            "但自托管并不省心。一家公司跑了六年多自托管 GitLab，虽然大部分时间很稳，但偶尔 Docker 升级要回滚，有时候数据库配置问题导致升级失败。整体下来，六年多的停机时间只有约一天半。",
-            "相比之下，他们迁回 GitHub 后，头两个月宕机就超过了这个数。GitHub 的集中式服务，出问题时只能干等别人修。",
-            "还有人说，GitHub 最大的优势是社区。有人亲眼见过项目离开 GitHub 后贡献量明显下降。不过也有人觉得，GitHub 上现在多是 AI 机器人和垃圾信息，宁可要一个小而精的社区。",
-            "Codeberg 是个热门选择，但它对 AI 生成代码有严格限制，用 AI 辅助开发的项目可能不符合它的规则。它的托管规模也小，几分钟的宕机不算罕见。",
-            "所以换不换，取决于你最在意什么：是持续可用性，还是社区活跃度，还是对 AI 的态度。没有完美的替代品，每个选择都有取舍。"
+            "Yana Welinder 用 AI 当联合创始人，一个人做出了时装品牌 Yana Bana。从手绘草图到 3D 打印数据，再到收款的预售网站，没有工程师参与。",
+            "关键是她把「时尚提示词」写成详细规格：轮廓、体积、面料、动感、声音全写进去。再让 Codex 帮忙操作她从没学过的 3D 设计软件，当场做出设计。",
+            "她还用 AI 做供应商调研、发邮件，甚至搭出带投票和数据库的电商站。整个流程一个人就能跑通。",
+            "所以真正重要的不是 AI 能否取代工程师，而是它把创业门槛从团队降到了个人。剩下的问题，是个人判断力能不能撑住品牌质量。"
           ]
         },
         "en": {
-          "thesis": "Although GitHub goes down often, switching to another platform has costs of its own, and self-hosting and community platforms each have their own hassles.",
+          "thesis": "AI has compressed the engineering team a startup needs down to one person.",
           "paragraphs": [
-            "GitHub has been down frequently in recent months, making people want to switch. In the comments, various alternatives are recommended, from self-hosted GitLab and Forgejo, to the hosted service Codeberg, to the decentralized Radicle.",
-            "But self-hosting is not trouble-free. One company ran a self-hosted GitLab for over six years, and though it was stable most of the time, occasional Docker upgrades needed rollbacks, and sometimes database configuration issues caused upgrade failures. Overall, the total downtime in six-plus years was only about a day and a half.",
-            "In contrast, after they moved back to GitHub, the first two months saw more downtime than that. With GitHub's centralized service, when something goes wrong, you can only wait for someone else to fix it.",
-            "Others say GitHub's biggest advantage is its community. Someone has seen firsthand that after a project left GitHub, contributions dropped noticeably. But some feel that GitHub is now full of AI bots and spam, and they'd rather have a small but quality community.",
-            "Codeberg is a popular choice, but it has strict restrictions on AI-generated code, and projects using AI assistance might not meet its rules. Its hosting scale is also small, and outages of a few minutes are not rare.",
-            "So whether to switch depends on what you care about most: continuous availability, community activity, or attitude toward AI. There is no perfect replacement; every choice has trade-offs."
+            "Yana Welinder used AI as her co-founder and built the fashion brand Yana Bana on her own. From hand-drawn sketches to 3D printing data, and then a pre-sale website that takes payments, no engineers were involved.",
+            "The key was turning her 'fashion prompts' into detailed specifications: silhouette, volume, fabric, movement, even sound, all written in. Then she got Codex to help her operate 3D design software she had never learned, and produced the designs on the spot.",
+            "She also used AI for supplier research and emails, and even built an e-commerce site with voting and a database. The whole process runs with just one person.",
+            "So the real point is not whether AI can replace engineers, but that it lowers the barrier to starting a business from a team to an individual. What's left is whether personal judgment can hold up the quality of the brand."
           ]
         }
       }
     },
     {
-      "id": "d8fd67770517bce975295b99257e08bcd2b6453b",
-      "sourceId": "marginal",
+      "id": "40cfcf56086456a028c7414da040e62e37546a69",
+      "sourceId": "slowboring",
       "category": "culture",
-      "title": "Things you cannot buy in America?",
-      "titleZh": "在美国买不到的东西",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/things-you-cannot-buy-in-america.html",
-      "author": "Tyler Cowen",
-      "publishedAt": "2026-08-16T18:51:39.000Z",
-      "image": null,
-      "readingMinutes": 1,
-      "score": 45,
+      "title": "Woke 1 is dead. We’ve learned nothing.",
+      "url": "https://www.slowboring.com/p/woke-1-is-dead-weve-learned-nothing",
+      "author": "Matthew Yglesias",
+      "publishedAt": "2026-08-17T10:01:37.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!pZa4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc3278ae-63ba-4f89-bb55-34e1be472f13_2119x1414.jpeg",
+      "readingMinutes": 2,
+      "score": 0,
       "rank": 12,
       "summary": {
         "zh": {
-          "thesis": "外置卷帘窗在美国买不到，是因为它和美国的房屋建造方式根本不兼容。",
-          "paragraphs": [
-            "欧洲很多家庭的窗户外面装着厚重的卷帘，一拉下来屋里就全黑了，还能隔热。那种真正的、伸手不见五指的黑暗，大多数美国人从来没体验过。",
-            "这种卷帘在美国几乎买不到，因为它必须在盖房子的时候直接装进墙里。可美国盖房用的是木框架、墙板和石膏板，跟它完全不是一路。",
-            "就算你专门造一栋能装它的房子，也没有配套的供应链来支持。作者自己也说，他怀疑有些条目其实买得到，比如「草皮屋顶」。",
-            "所以这份清单真正的价值，是展示了市场为什么会出现「看似能买却买不到」的空白：需求存在，但技术路径和基础设施根本接不上，交易就被卡住了。"
-          ]
+          "thesis": "",
+          "paragraphs": []
         },
         "en": {
-          "thesis": "External roller shutters aren't sold in America because they don't fit with how American houses are built.",
-          "paragraphs": [
-            "In Europe, many homes have heavy roller shutters outside the windows. Pull them down and the room goes completely dark — plus they keep the heat out. That real, pitch-black darkness is something most Americans have never experienced.",
-            "These shutters are almost impossible to buy in America, because they have to be built into the wall while the house is going up. But American houses use wooden frames, wallboard, and drywall, which are completely different.",
-            "Even if you built a house specially designed to take them, there's no supply chain to support it. The author himself says he suspects some items on the list are actually available, like 'sod roofs.'",
-            "So the real value of this list is that it shows why the market has these gaps — places where something seems buyable but isn't. Demand exists, but the technical path and infrastructure just don't connect, so the deal gets stuck."
-          ]
+          "thesis": "",
+          "paragraphs": []
         }
       }
     },
     {
-      "id": "0ee2398372d8f391894420cc732559478310d9ed",
-      "sourceId": "pluralistic",
+      "id": "de190672fbcb09abac1c4ba49d510d737f05682b",
+      "sourceId": "restofworld",
       "category": "culture",
-      "title": "Pluralistic: Jennifer Jenkins' 'Music Copyright, Creativity, and Culture' (17 Aug 2026)",
-      "titleZh": "Pluralistic：Jennifer Jenkins 的《音乐版权、创造力与文化》",
-      "url": "https://pluralistic.net/2026/08/17/great-sousas-ghost/",
-      "author": "Cory Doctorow",
-      "publishedAt": "2026-08-17T07:00:08.000Z",
-      "image": "https://i0.wp.com/craphound.com/images/17Aug2026.jpg?w=840&#038;ssl=1",
-      "readingMinutes": 9,
-      "score": 42,
+      "title": "Ban on Chinese robots leaves U.S. startups stranded",
+      "url": "https://restofworld.org/2026/china-robot-ban-silicon-valley/",
+      "author": "Viola Zhou",
+      "publishedAt": "2026-08-17T10:00:00.000Z",
+      "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_ai_robot_ban-768x432.jpg",
+      "readingMinutes": 7,
+      "score": 0,
       "rank": 13,
       "summary": {
         "zh": {
-          "thesis": "音乐版权的规则并非天然如此，而是历史与技术层层叠加的产物，且充满内在矛盾。",
-          "paragraphs": [
-            "Jennifer Jenkins 是美国杜克大学公共领域研究中心的主任，以每年盘点进入公共领域的作品而闻名。她对版权法的解释既清楚又有趣，是众多媒体的常驻专家。",
-            "她与丈夫合著的《音乐版权、创造力与文化》是面向普通读者的教科书，把音乐史与法律史交织在一起，从古代讲到数字时代。书中穿插了大量音乐片段和漫画，读起来毫不枯燥。",
-            "书中重点分析了 Ed Sheeran、Katy Perry 等歌手的侵权案。这些案子纠结于相似的「律动」与「感觉」，暴露了音乐版权体系的根本矛盾——它是各时代技术应对的拼凑物，几乎没人真正搞懂。",
-            "作者指出，今天关于谁该付费、何时需要许可的「常识」其实都是历史偶然，一直在变化。AI 时代的版权争议也被纳入讨论。",
-            "所以这本书适合所有音乐人和爱乐者。它让人意识到：版权不是永恒的自然法则，而是一场永不停歇的博弈。"
-          ]
+          "thesis": "",
+          "paragraphs": []
         },
         "en": {
-          "thesis": "Music copyright rules are not natural but layered products of history and technology, and they are riddled with contradictions.",
-          "paragraphs": [
-            "Jennifer Jenkins is the director of Duke University's Center for the Study of the Public Domain, known for her annual roundups of works entering the public domain. Her explanations of copyright law are both clear and entertaining, making her a regular expert for many media outlets.",
-            "Her book 'Music Copyright, Creativity, and Culture', co-written with her husband, is a textbook for general readers, weaving music history with legal history from ancient times to the digital age. It is interspersed with musical clips and cartoons, so it never feels dull.",
-            "The book focuses on infringement cases involving singers like Ed Sheeran and Katy Perry. These cases wrangle over similar 'grooves' and 'feelings', exposing a fundamental contradiction in the music copyright system: it is a patchwork of technological responses from different eras, and almost no one truly understands it.",
-            "The authors point out that today's 'common sense' about who should pay and when permission is needed is actually a historical accident and has always been changing. Copyright disputes in the AI era are also included in the discussion.",
-            "So this book is suitable for all musicians and music lovers. It reminds us that copyright is not an eternal natural law but an ongoing contest."
-          ]
+          "thesis": "",
+          "paragraphs": []
+        }
+      }
+    },
+    {
+      "id": "0fc105f1c5f1ff7e9fc550216bc6f1f6f354a2f7",
+      "sourceId": "marginal",
+      "category": "culture",
+      "title": "What I’ve been reading",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/what-ive-been-reading-294.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-17T04:58:24.000Z",
+      "image": null,
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 14,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "paragraphs": []
+        },
+        "en": {
+          "thesis": "",
+          "paragraphs": []
+        }
+      }
+    },
+    {
+      "id": "cf00a5e3598b308f87307a86bb5fbb3f2bd3ad26",
+      "sourceId": "slowboring",
+      "category": "culture",
+      "title": "Sunday Thread + Mailbag",
+      "url": "https://www.slowboring.com/p/sunday-thread-mailbag-00a",
+      "author": "Halina Bennet",
+      "publishedAt": "2026-08-16T17:03:15.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/644e4fda-2879-4bc9-a1be-f02d99028c68_940x788.png",
+      "readingMinutes": 1,
+      "score": 0,
+      "rank": 15,
+      "summary": {
+        "zh": {
+          "thesis": "",
+          "paragraphs": []
+        },
+        "en": {
+          "thesis": "",
+          "paragraphs": []
         }
       }
     }
