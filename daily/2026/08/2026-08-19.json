@@ -1,13 +1,13 @@
 {
   "date": "2026-08-19",
-  "generatedAt": "2026-08-19T23:21:20.747Z",
+  "generatedAt": "2026-08-19T23:31:14.854Z",
   "window": {
     "from": "2026-08-18T14:00:00.000Z",
     "to": "2026-08-19T14:00:00.000Z"
   },
   "stats": {
-    "fetched": 17,
-    "shown": 14,
+    "fetched": 19,
+    "shown": 16,
     "folded": 0
   },
   "sources": [
@@ -20,9 +20,8 @@
     {
       "id": "hn",
       "name": "Hacker News",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 2
     },
     {
       "id": "platformer",
@@ -355,7 +354,7 @@
       "sourceId": "rogerebert",
       "category": "culture",
       "title": "I Was Compelled to Revisit: Rory Kennedy on “Freefall: A Reckoning For Boeing”",
-      "titleZh": "罗里·肯尼迪谈《自由落体：波音的清算》",
+      "titleZh": "我被逼着重新审视：罗里·肯尼迪谈《坠落：波音的清算》",
       "url": "https://www.rogerebert.com/interviews/downfall-case-against-boeing-rory-kennedy-interview",
       "author": "Nell Minow",
       "publishedAt": "2026-08-19T13:00:00.000Z",
@@ -364,32 +363,72 @@
       "score": 85,
       "rank": 1,
       "review": {
-        "argument": "Argument: it claims Boeing's shift to a profit-first model, rooted in the McDonnell Douglas merger and Jack Welch-style management, caused the 737 MAX crashes and ongoing safety failures, and that accountability has been avoided through legal and regulatory loopholes.",
-        "transfer": "Transfers — the mechanism is how corporate incentives and regulatory capture can override safety in any industry, and the reader sees a concrete example of how 'too big to fail' plays out in practice. No cap.",
+        "argument": "Argument: it claims Boeing's shift to a profit-first model, rooted in the McDonnell Douglas merger and Jack Welch-style management, caused the 737 MAX crashes and ongoing safety failures, and that accountability has been evaded through legal and regulatory loopholes.",
+        "transfer": "Transfers — the mechanism is how corporate incentives and regulatory capture can override safety in any industry, and the reader sees a concrete example of how 'too big to fail' plays out in aviation. No cap.",
         "claim": "A claim, and a contestable one; delete the writer and you lose the argument that Boeing's problems are systemic and that CEOs should face prison, not just fines.",
-        "appeal": "+10 — it is about a company people fly on, includes vivid scenes like the whistleblower's death and the Senate hearing, and has a hook: a CEO making $100 million while planes are unsafe."
+        "appeal": "+10 — it is about a company people fly on, includes vivid scenes like the whistleblower's death and the Senate hearing, and has a hook: Boeing's CEO made $100 million while the company was 'self-destructive.'"
       },
       "summary": {
         "zh": {
-          "thesis": "罗里·肯尼迪的新纪录片揭示，波音在空难后仍将利润置于安全之上，且未有人真正承担责任。",
+          "thesis": "波音在坠机后只做了法律上的认责，从未真正承担责任，利润优先的文化依旧，所以事故仍可能重演。",
           "paragraphs": [
-            "罗里·肯尼迪在《波音：坠落》之后推出续作《自由落体：波音的清算》。前作聚焦五个月内两起737坠机，346人遇难。波音当时承认是MCAS系统的问题，但没被追究刑事责任。",
-            "她说自己是「按时间顺序被激励」的：飞机复飞后事故不断，舱门空中脱落。吹哨人约翰·巴尼特在作证期间蹊跷死亡，内部人士纷纷向她爆料，她决定回到波音工厂深处。",
-            "新片展示了吹哨人的证词：波音为了奖金激励下的成本削减，抛弃了曾定义其声誉的质量控制。电影还对比了1985年日航高管挨家道歉，而波音至今未给家属一个电话。",
-            "导演剖析了转折点：麦道合并，总部从西雅图迁往芝加哥，以及杰克·韦尔奇模式——股东利益至上。后果是短期省钱、长期亏损，CEO们却拿着上亿薪酬。",
-            "片中鲍勃·巴尼特家族收到噩耗的镜头，是导演以信任换来的。她尽可能用档案，少用重演，且风格上区分二者，避免混淆。",
-            "所以谁该负责？导演呼吁：选一个工程师型CEO，重振安全文化；司法部应追究刑责，让杀人者坐牢；给FAA拨款并制止旋转门。她仍希望波音重回伟大，但这需要从上到下的改变。"
+            "罗里·肯尼迪拍过《坠落：波音的审判》，聚焦两起波音 737 坠机，346 人遇难。现在她又拍了续集《坠落：波音的清算》，因为她看到波音嘴上说改，实际上什么都没变。",
+            "第一支片子结尾，波音承认是 MCAS（飞机的防失速系统）的错，也认了责。但紧接着引擎掉、窗户爆、机舱冒烟，各种事故不断。吹哨人约翰·巴尼特在作证期间蹊跷死亡，其他人私下找她，说波音内部还是一团糟。",
+            "新片更多拍工厂内部的真相。她指出波音的转变始于与麦道的合并，总部从西雅图搬到芝加哥，还学通用电气的杰克·韦尔奇那一套，把股东利润凌驾于一切之上。结果就是短期省钱、长期亏钱，CEO 拿上亿薪水却把公司带进自由落体。",
+            "片中有一幕，巴尼特家人得知噩耗时她就在场。她靠上一部片子建立信任，才能拍下这些私密时刻。她尽量少用重演，用档案资料讲故事，必要时用视觉手法但会明确区分，不让观众混淆。",
+            "她希望观众明白，波音不是没法改，而是没人逼它改。参议员用了「可预防」和「系统性」两个词，但司法部换了届就撤销了认罪协议。她呼吁选民用选票监督监管机构，选一个真正会问责的政府。"
           ]
         },
         "en": {
-          "thesis": "Rory Kennedy's new documentary reveals that Boeing still prioritizes profit over safety and that no one has truly been held accountable.",
+          "thesis": "Boeing admitted legal fault but never truly took responsibility; its profit-first culture persists, so the same could happen again.",
           "paragraphs": [
-            "Rory Kennedy follows 'Downfall: The Case Against Boeing' with 'Freefall: A Reckoning for Boeing'. The first film covered two 737 crashes within five months that killed 346 people. Boeing admitted the MCAS system was at fault but faced no criminal charges.",
-            "She says she was 'chronologically incentivized': after the planes returned to service, incidents kept happening, including a door plug blowing out midair. Whistleblower John Barnett died suspiciously while testifying, and insiders urged her to look deeper, so she went back.",
-            "The new film features whistleblower testimonies: Boeing abandoned its once-vaunted quality control for bonus-driven cost-cutting. It also contrasts Japanese Airlines' president personally apologizing to families in 1985 with Boeing never calling those affected.",
-            "Kennedy identifies the turning points: the McDonnell Douglas merger, relocating headquarters from Seattle to Chicago, and adopting the Jack Welch model of shareholder primacy. The result is short-term savings but long-term losses, while CEOs pocket nine-figure pay.",
-            "The film captures intimate moments, like the Barnett family receiving painful news, made possible by trust built over time. She prefers archival footage and minimises reenactments, clearly distinguishing the two.",
-            "So who should act? She calls for an engineer as CEO to restore a safety culture, the Justice Department to prosecute and imprison those responsible, and adequate funding for the FAA with an end to its revolving door. She still hopes Boeing returns to greatness, but it needs top-down change."
+            "Rory Kennedy made 'Downfall: The Case Against Boeing' about two 737 crashes that killed 346 people. Now she has a sequel, 'Freefall: A Reckoning for Boeing', because she saw Boeing talking about change while nothing actually changed.",
+            "At the end of the first film, Boeing admitted the fault lay with MCAS (the plane's anti-stall system) and accepted responsibility. But then incidents kept coming: engines falling off, a window blowing out, smoke in cabins. Whistleblower John Barnett died under suspicious circumstances while testifying, and others reached out privately saying the inside was still a mess.",
+            "The new film goes deeper into the factories. She traces the shift to the McDonnell Douglas merger, the HQ move from Seattle to Chicago, and the adoption of Jack Welch's playbook at GE, putting shareholder profit above all else. The result is short-term savings and long-term losses, with CEOs making hundreds of millions while the company is in freefall.",
+            "One scene shows the Barnett family receiving painful news, with Kennedy in the room. She earned their trust through the previous film, which let her capture intimate moments. She minimizes re-enactments, preferring archive, and when she uses recreations she styles them distinctly so no one confuses them with real footage.",
+            "She wants viewers to see that Boeing could change if someone made it. Senators used the words 'preventable' and 'systemic', but the DOJ dropped the guilty plea under a new administration. She urges voters to check whether candidates support the agencies that regulate corporations."
+          ]
+        }
+      }
+    },
+    {
+      "id": "3d03f9d3b9edad1e41bc85bd964b49d820083aef",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "titleZh": "一个玩笑域名买成了地缘战争",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "author": "kareiva",
+      "publishedAt": "2026-08-19T11:21:50.000Z",
+      "image": "https://sprocketfox.io/xssfox/images/war.png",
+      "readingMinutes": 10,
+      "score": 85,
+      "rank": 2,
+      "review": {
+        "argument": "Argument: it claims that a hobbyist radiosonde tracking site accidentally became a geopolitical asset, and that its open data is now used for military targeting, with the writer's own ethical dilemmas as evidence. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a benign tool's data can be repurposed for harm, and the reader sees the same pattern in other open data projects. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the narrative of unintended consequences, not just a list of incidents.",
+        "appeal": "+10 — it is about a real-world conflict, has a hook (a $439,000 missile vs a party balloon), and is readable cold with no background needed."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "一个业余气球追踪网站，意外成了乌克兰战争中的军事工具。",
+          "paragraphs": [
+            "故事始于 2018 年，一个玩笑：有人注册了 sondehub.org，只为了重定向到另一个追踪气象气球的网站。没想到，后来它自己成了全球无线电探空仪数据的中枢。",
+            "他们用反向预测，根据已落地的探空仪数据推算发射点。结果意外画出了军事设施的位置。军方发来邮件，要求从地图上删除敏感地点。",
+            "2023 年「中国间谍气球」事件后，流量暴涨。他们收到的请求来自 .mil 和 .gov 域名。2024 年底，有人开始高频调用其 API，生成预测，疑似用于乌克兰的无人机打击。",
+            "他们努力不切断服务，担心断供会导致生命损失。还联系了 AWS，请求不要封锁那个账户。后来，美国战争部（情报与安全）索取数据，他们尝试收费，但没收到回音。",
+            "所以他们发现，自己一个民用项目，已经卷入了战争。这事没法置身事外，只能尽力确保数据不被滥用，同时继续对外开放。"
+          ]
+        },
+        "en": {
+          "thesis": "An amateur balloon tracking site accidentally became a military tool in the Ukraine war.",
+          "paragraphs": [
+            "The story starts in 2018 as a joke: someone registered sondehub.org just to redirect to another site tracking weather balloons. It ended up becoming the global hub for radiosonde data.",
+            "They built a system to reverse-predict launch sites from landed radiosonde data. It inadvertently mapped out military installations. The military asked them to remove sensitive sites from maps.",
+            "After the 2023 'China spy balloon' incident, traffic surged. They got requests from .mil and .gov addresses. In late 2024, someone started hitting their API heavily, generating predictions, seemingly for drone strikes in Ukraine.",
+            "They worked hard not to cut off the service, fearing loss of life. They even asked AWS not to block the account. Later, the US Office of the Secretary of War requested data; they tried to charge, but never got paid.",
+            "So a civilian project found itself in the middle of a war. There was no opting out, only trying to keep data safe and the service open."
           ]
         }
       }
@@ -399,261 +438,39 @@
       "sourceId": "pluralistic",
       "category": "tech",
       "title": "Pluralistic: The ordinariness of evil (19 Aug 2026)",
-      "titleZh": "平庸之恶：停止贩卖人工智能（坏的那种）",
+      "titleZh": "平庸之恶",
       "url": "https://pluralistic.net/2026/08/19/banaility/",
       "author": "Cory Doctorow",
       "publishedAt": "2026-08-19T07:36:27.000Z",
       "image": "https://i0.wp.com/craphound.com/images/19Aug2026.jpg?w=840&#038;ssl=1",
       "readingMinutes": 11,
       "score": 85,
-      "rank": 2,
-      "review": {
-        "argument": "Argument: it claims that AI's destructive potential is being hyped by its own bosses as a marketing tactic, and that critics amplify this by treating AI as exceptional rather than normal, which helps the AI bubble grow. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how hype, even critical hype, can serve the interests of the hyped, and the reader can apply this to any overhyped technology or trend. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that criti-hype is counterproductive, not just the examples.",
-        "appeal": "+10 — it is about a technology that affects jobs, climate, and the economy, it has a hook (the idea that critics are helping the hype), and it is readable cold."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "把 AI 描绘成非凡的邪恶，反而帮助了 AI 公司，正确的做法是把 AI 当作普通技术来批判。",
-          "paragraphs": [
-            "AI 老板们总爱公开哀叹自家产品的可怕潜力：抢走工作、觉醒后把我们变成回形针。这看起来奇怪，其实每次哀叹都是吹嘘——因为 AI 真正拥有的只有潜力。",
-            "现在的 AI 只在边缘有用：你得是熟练工，能分辨对错，还得小心整合，别让注意力被淹没。说白了，AI 多半是个新奇玩具，顶多算文字处理器的插件。",
-            "普通技术没什么不好，但普通技术不值得每年上万亿的投资，不值得把公务员大批解雇换掉。鼓吹 AI 的人会说它是万能机器，但追问之下，它只是即将成为万能机器，比如等 AI 能做 AI 研究，而它做不到。",
-            "所以我们要抓住的破坏性潜力，不是科幻式的，而是现实的：AI 正在消耗稀缺的水电、排放巨量碳、让轻信的官员放弃环保审查、强征土地盖数据中心。这才是真正毁掉经济、吞掉退休金的潜力。",
-            "同样要紧的是，别再用 AI 公司的叙事来批评他们。伯尼·桑德斯该谈政府不救助，而不是收购一半股份；该问 AI 公司为何沙盒那么烂，而不是说它的黑客工具多强大。",
-            "最后，别把 AI 当成非凡的邪恶。用 AI 不会让你变坏，它只是触发你已有的问题，就像游乐设施触发潜在的心脏病。AI 公司破产、服务器贱卖之后，用它们跑开源模型不会传染邪恶。",
-            "把 AI 当非凡邪恶，是抬举那些平庸的骗子和骗子手。萨姆·奥尔特曼是个骗子和股票诈骗犯，不是超级天才。我们越说他产品有持久邪恶，越帮他融到钱。",
-            "还有种批评叫「批评性炒作」：把鼓吹者的话翻个面，说「这会带来风险」。这实际上是在重复他们的营销。正确的批评是指出他们在撒谎，而不是把谎话当警告。"
-          ]
-        },
-        "en": {
-          "thesis": "Portraying AI as exceptionally evil actually helps AI companies; the right criticism treats AI as an ordinary technology.",
-          "paragraphs": [
-            "AI bosses love to publicly lament the terrible potential of their products: taking jobs, waking up and turning us into paperclips. It looks odd, but every lament is also a boast, because all AI really has is potential.",
-            "AI is only useful at the margins: you have to be a skilled practitioner who can tell correct from incorrect outputs, and integrate it carefully so it doesn't overwhelm your attention. It is mostly a novelty, at best a plug-in for your word processor.",
-            "Normal technologies are fine, but they don't warrant trillion-dollar investments or firing civil servants en masse. The people pushing AI will tell you it's an everything machine, but when pressed, it's about to become one, for example once AI does AI research, which it can't.",
-            "So the destructive potential we need to hammer is not sci-fi but real: AI eats scarce water and energy, emits gigatons of carbon, convinces credulous officials to skip environmental review and seize land for data centers. This is potential that destroys the economy and eats your retirement savings.",
-            "Just as importantly, stop using AI companies' chosen narratives to criticize them. Bernie Sanders should talk about no bailouts, not buying half the company; ask why AI sandboxes are so bad, not how powerful the hacking tools are.",
-            "Finally, stop treating AI as exceptionally evil. Using AI doesn't make you evil, it just triggers vulnerabilities you already have, like a carnival ride triggering a heart condition. When AI companies go bankrupt and their servers sell for pennies, running open models on them won't infect you with wickedness.",
-            "Treating AI as exceptionally evil elevates mediocre con-men to super-villain status. Sam Altman is a con-man and stock swindler, not a super-genius. The more we describe his products as durably evil, the more we help him raise money for his Ponzi scheme.",
-            "There's a term for criticism that helps hype: 'criti-hype,' taking boosters' sensational claims and flipping them into 'risks.' That repeats their marketing. The right criticism is to point out they're lying, not to repeat their lies as warnings."
-          ]
-        }
-      }
-    },
-    {
-      "id": "f70df54cf03f0bdfe123bcf075940a111de81a47",
-      "sourceId": "wheresyoured",
-      "category": "business",
-      "title": "What Happens If OpenAI Dies?",
-      "titleZh": "OpenAI 如果死了会怎样？",
-      "url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
-      "author": "Ed Zitron",
-      "publishedAt": "2026-08-18T15:23:40.000Z",
-      "image": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/08/data-src-image-f44da972-de07-4f16-903f-d899c85e3dc4.png",
-      "readingMinutes": 39,
-      "score": 85,
       "rank": 3,
       "review": {
-        "argument": "Argument: it claims OpenAI's economics are so ruinous that its collapse is a real possibility, and traces the specific obligations, funding gaps, and counterparty risks that would trigger it. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a company can make commitments so large that its survival depends on perpetual fundraising, and the reader sees the same pattern in any hype-driven industry. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the numbers.",
-        "appeal": "+10 — it is about money and jobs, it contradicts the prevailing narrative of AI inevitability, and it is readable cold despite the jargon."
+        "argument": "Argument: it claims that AI's destructive potential is being hyped by its own bosses as a marketing tactic, and that critics amplify this by treating AI as exceptional, when it should be treated as a normal technology. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how hype and criticism can feed each other, and the reader can apply this to any overhyped technology or trend. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the links and examples.",
+        "appeal": "+10 — it is about a topic people live with (AI's impact on jobs and economy), it has a hook (the idea that AI's evil is a marketing ploy), and it is readable cold."
       },
       "summary": {
         "zh": {
-          "thesis": "OpenAI 的财务模型不可持续，其大规模义务和不断放缓的增长意味着它可能在 2030 年前耗尽资金。",
+          "thesis": "把 AI 说得极其危险或极其神奇，都是在替 AI 公司抬轿子；把它当作普通技术才是正解。",
           "paragraphs": [
-            "作者认为 OpenAI 的生存前景堪忧，因为其收入增长正在放缓，而竞争对手 Anthropic 表现更佳。OpenAI 2025 年营收 130.7 亿美元，却亏损 209 亿美元，并且在八月才达到 400 亿美元的年化收入，而 Anthropic 在五月已达 650 亿美元。",
-            "OpenAI 的算力义务极其庞大，到 2030 年前需要超过 8000 亿美元，仅未来一年半的云支出就达 1470 亿美元。它每年需要融资 1000 亿至 2000 亿美元，但主要投资者如软银、亚马逊、英伟达已面临流动性压力。",
-            "OpenAI 的估值高达 8520 亿美元，使其难以进行首次公开募股。顾问曾建议以 1 万亿美元估值上市，但阿尔特曼拒绝降低估值。与此同时，风险投资资金有限，私人信贷也犹豫不决，因为数据中心融资已困难重重。",
-            "OpenAI 的生存依赖每年 1000 亿美元的融资，这几乎不可能持续。其成本随收入增长，且无法提高价格，而客户已经对成本敏感。潜在的结局包括被微软收购、倒闭或与 Anthropic 合并。",
-            "所以，关注 OpenAI 的下一步至关重要：它可能在年底前需要更多资金，而任何主要云厂商的收入下降都将是预警信号。无论结果如何，整个 AI 泡沫都可能面临严重冲击。"
+            "AI 大佬们总在公开哀叹自家产品的可怕潜力：抢走工作、觉醒后把人类变成回形针。听着怪异，其实每句对「坏潜力」的抱怨，都是对「潜力」的炫耀。",
+            "而 AI 实际只有潜力。现阶段的 AI 只是边缘有用，得靠熟练者分辨对错、小心整合。它更像插件，说不上没用，但也只是普通技术。",
+            "普通技术本无妨，但不值得万亿投资和把公务员换成 AI。人们吹它是万能机，逼急了又承认它连搞 AI 研究都做不到。这是「魔法内裤地精」似的文明级闹剧。",
+            "AI 确有破坏性：让老板辞掉你换聊天机器人；数据中心泡沫让官员强征土地、放弃环保审查；还耗水耗能、排放巨量碳。这些破坏不会变成未来的收益。",
+            "所以别再传播「AI 神奇」或「AI 邪恶」的叙事——那正是帮 Altman 们融资。正确做法是当它是普通技术：有取舍地使用，限制有害用途，这就是威廉·吉布森说的「街道自会找到它的用途」。"
           ]
         },
         "en": {
-          "thesis": "OpenAI's financial model is unsustainable, and its massive obligations and slowing growth mean it may run out of money before 2030.",
+          "thesis": "Casting AI as either wondrous or evil only helps the AI companies; treating it as an ordinary technology is the answer.",
           "paragraphs": [
-            "The author argues that OpenAI's survival is in question, as its revenue growth is decelerating while competitor Anthropic outpaces it. OpenAI lost $20.9 billion on $13.07 billion in revenue in 2025, and only reached $40 billion in annualized revenue in August, versus Anthropic's $65 billion in May.",
-            "OpenAI's compute obligations are enormous, exceeding $800 billion through 2030, with $147 billion in cloud spending due in the next 18 months alone. It needs to raise $100-200 billion annually, but key investors like SoftBank, Amazon, and Nvidia are already strained.",
-            "Its valuation of $852 billion makes an IPO difficult. Advisers suggested going public at a $1 trillion valuation, but Altman refused to lower it. Meanwhile, venture capital is limited, and private credit is hesitant as data center financing already struggles.",
-            "OpenAI's survival depends on raising $100 billion a year, which is nearly impossible to sustain. Its costs rise with revenue, and it cannot raise prices as customers are cost-conscious. Potential outcomes include a Microsoft acquisition, collapse, or merger with Anthropic.",
-            "So watch OpenAI closely: it may need tens of billions by year-end, and a drop in any major cloud provider's revenue is a warning sign. Whatever happens, the AI bubble faces severe consequences."
-          ]
-        }
-      }
-    },
-    {
-      "id": "f750bc8baa7294db44738713218ded9fa3056d1e",
-      "sourceId": "pluralistic",
-      "category": "economy",
-      "title": "Pluralistic: IP can't save you from AI (18 Aug 2026)",
-      "titleZh": "知识产权救不了你免受 AI 的侵害",
-      "url": "https://pluralistic.net/2026/08/18/enron-corpus/",
-      "author": "Cory Doctorow",
-      "publishedAt": "2026-08-18T14:48:19.000Z",
-      "image": "https://i0.wp.com/craphound.com/images/18Aug2026.jpg?w=840&#038;ssl=1",
-      "readingMinutes": 16,
-      "score": 85,
-      "rank": 4,
-      "review": {
-        "argument": "Argument: it claims copyright cannot protect creative workers from AI because it grants rights without leverage, and uses the Spirit Airlines data sale to show why labor and privacy rights are the real defenses. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how property rights fail when bargaining power is absent, and the reader sees it in their own workplace. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the news hook.",
-        "appeal": "+10 — it is about jobs, privacy, and a concrete bankruptcy sale, with a vivid example and a clear villain, readable cold."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "版权无法保护创意工作者免受 AI 侵蚀，劳工权利和隐私权才是根本。",
-          "paragraphs": [
-            "作者 Cory Doctorow 认为，资本涌入 AI 是因为他们相信可以用 AI 替代所有工人。作为艺术家和工人，他想保护自己的劳动利益，但很多同行认为扩大版权、禁止抓取就能解决问题。",
-            "他认为这是失败策略。禁止抓取会伤害许多有益活动，从 OED 到搜索引擎再到互联网档案馆，都依赖对版权作品的集体分析。而且制定一个只禁止 AI 训练的法律几乎不可能。",
-            "即使能，版权也保护不了生计。版权是伪财产权，需要谈判能力，但创意行业被高度垄断，工人议价能力弱。过去五十年，版权扩大，老板更富，艺术家更穷。",
-            "真正有效的是劳工权利。编剧工会通过罢工赢了 AI，靠的是部门谈判。但 Taft-Hartley 法案禁止了这种谈判，恢复很难，但难不代表该放弃。",
-            "老板们支持扩大版权，因为他们也想要，但 AI 版权诉讼是老板之间的争斗，不是保护工人。Spirit Airlines 破产出售员工数据给 Google 训练 AI，就是例子。",
-            "这些员工有版权，但属于公司。美国劳工法不保护这类数据，隐私法也几乎空白。Google 承诺去标识化，但这不可靠，隐私灾难如 Enron Corpus 已经发生。",
-            "消费和版权都替代不了法律保障。赢回劳工和隐私权利，才是真正反击 AI 的办法。"
-          ]
-        },
-        "en": {
-          "thesis": "Copyright cannot protect creative workers from AI; labor rights and privacy rights are the real answer.",
-          "paragraphs": [
-            "Author Cory Doctorow argues that capital pours into AI because it believes AI can replace every kind of worker. As an artist and worker, he wants to protect his labor interests, but many peers think expanding copyright and banning scraping is the way.",
-            "He calls this a losing strategy. Banning scraping would harm many beneficial activities, from the OED to search engines to the Internet Archive, all of which rely on collective analysis of copyrighted works. And a law that only stops AI training is nearly impossible to write.",
-            "Even if it worked, copyright would not protect livelihoods. Copyright is a pseudo-property right requiring bargaining power, but creative industries are highly monopolized, and workers lack leverage. Fifty years of more copyright, richer bosses, poorer artists.",
-            "What works is labor rights. The Writers Guild beat AI with a strike, using sectoral bargaining. But Taft-Hartley banned such bargaining, and restoring it is hard—yet hard does not mean we should settle for easy failures.",
-            "Bosses support more copyright because they want it too, but AI copyright lawsuits are fights between bosses, not protection for workers. Spirit Airlines' bankruptcy sale of employee data to Google for AI training is the proof.",
-            "Those employees had copyright, but it belonged to the company. US labor law does not protect such data, and privacy law is nearly dead. Google's promise of de-identification is a pipe dream, as Enron Corpus shows privacy catastrophes.",
-            "Shopping and copyright are no substitute for legal rights. Winning labor and privacy rights is the only way to actually fight back against AI."
-          ]
-        }
-      }
-    },
-    {
-      "id": "cd1063b70ffd779bf6be0a31d2a208eeab088760",
-      "sourceId": "psyche",
-      "category": "culture",
-      "title": "Arabic has four words for sadness. Philosophy explains why",
-      "titleZh": "阿拉伯语里有四个词表示悲伤，哲学解释了原因",
-      "url": "https://psyche.co/ideas/arabic-has-four-words-for-sadness-philosophy-explains-why",
-      "author": "Chereen Shurafa",
-      "publishedAt": "2026-08-19T10:00:00.000Z",
-      "image": "https://images.aeonmedia.co/images/ce4c734b-c715-4472-bfc2-5f14b0cd88f4/sz-mg199752.jpg?top=264&left=0&cropWidth=2576&cropHeight=1449&width=1200&quality=75&format=auto",
-      "readingMinutes": 1,
-      "score": 82,
-      "rank": 5,
-      "review": {
-        "argument": "Argument: it claims Arabic's four sadness words encode distinct philosophical stances on grief, and that the language itself shapes how suffering is understood. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a culture's vocabulary carves emotional experience into different kinds of endurance, and the reader can apply it to any language they speak. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that lexical distinctions are philosophical positions, not just a list of words.",
-        "appeal": "+10 — it is about a universal human experience, it contradicts the assumption that sadness is one thing, and it is readable cold with no background."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "阿拉伯语用多个词区分悲伤的不同种类，说明情感并非普世，而是由语言和文化塑造。",
-          "paragraphs": [
-            "阿拉伯语有四个词描述悲伤的不同状态，而英语只有一个 sadness。这不仅是词汇差异，更是认知差异。",
-            "哲学中的语言相对主义认为，语言结构影响思维。如果一种语言能区分悲伤的种类，说话者就会更细致地体验和认识自己的情绪。",
-            "例如，一个词可能指短暂的忧伤，另一个指持久的哀恸，还可能指带有怀旧的悲伤，以及因失去而带来的痛楚。",
-            "所以，情感不是人类共通的预制模块，而是每种语言各自打磨出来的棱镜。不同文化对悲伤的理解，也因此各不相同。"
-          ]
-        },
-        "en": {
-          "thesis": "Arabic's multiple words for sadness suggest emotions are not universal but shaped by language and culture.",
-          "paragraphs": [
-            "Arabic has four words for different kinds of sadness, where English makes do with one. This is not just a lexical gap but a cognitive one.",
-            "Philosophical relativism holds that language shapes thought. If a language distinguishes kinds of sadness, its speakers will experience and label their feelings more finely.",
-            "One word may mean a brief sorrow, another a lasting grief, yet another wistful nostalgia, and a fourth the ache of loss.",
-            "So emotion is not a prebuilt universal module but a prism ground by each language. Different cultures, in turn, understand sorrow differently."
-          ]
-        }
-      }
-    },
-    {
-      "id": "a8676fa54e90ee2a3f52559d8419b809165a9ed9",
-      "sourceId": "klement",
-      "category": "investing",
-      "title": "If this is true, the hyperscalers are toast",
-      "titleZh": "如果这是真的，超大规模数据中心就完了",
-      "url": "https://klementoninvesting.substack.com/p/if-this-is-true-the-hyperscalers",
-      "author": "Joachim Klement",
-      "publishedAt": "2026-08-19T06:00:54.000Z",
-      "image": "https://substack-post-media.s3.amazonaws.com/public/images/e4827262-1cea-49a3-ae80-6d2267663426_640x792.jpeg",
-      "readingMinutes": 5,
-      "score": 82,
-      "rank": 6,
-      "review": {
-        "argument": "Argument: it claims SLMs on local devices already match or beat cloud LLMs in most tasks, making hyperscaler data-centre capex a likely waste, and cites a Stanford study as evidence. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a cheaper, local alternative can undercut a centralized infrastructure bet, and the reader can apply it to any tech investment. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that data centres are the wrong bet, not just the study's numbers.",
-        "appeal": "+10 — it is about money and the future of AI, it contradicts the prevailing narrative, and it is readable cold with no background needed."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "小型语言模型在本地运行已经能匹敌云端大模型，数据中心可能成为AI领域最差投资。",
-          "paragraphs": [
-            "我在付费研究里一直说，AI的未来不是大语言模型，而是跑在桌面电脑甚至手机上的小型语言模型。斯坦福大学五月发表的研究，直接对比了这两类模型的表现。如果结论成立，未来几乎不需要数据中心，超大规模数据中心正在浪费数千亿美元。",
-            "他们拿QWEN 3、GEMMA 3、GPT-OSS、GRANITE 4.0这类可下载的SLM，去跟ChatGPT 5、Claude Sonnet 4.5这些云端LLM比。SLM跑在Nvidia或苹果M4芯片的个人电脑上，从2023年一直测到2025年10月。",
-            "对话任务里，SLM在90%以上的场景能给出相同或更好的答案，平均98.6%。推理任务差些，SLM也有62.5%的胜率。混合任务加权平均后，SLM在81.2%的情况下不输甚至更好，LLM只在工程、生命科学等少数领域占优。",
-            "而且SLM的成本和能耗比LLM低50%到85%。推理上SLM追赶很快：2023年成功率约50%，到2025年10月，最易任务已达到99%，最难的任务也有51.5%。这说明五分之四的使用场景可以脱离数据中心。",
-            "研究估计美国SLM市场约10万亿美元，占GDP三分之一。LLM的领地越来越窄，每年都在缩小。代理型AI仍是LLM占优，但可能只是暂时。SLM每瓦推理效率是LLM的七倍，能在本地解决的任务就没必要送云端。",
-            "所以对投资者来说，数据中心可能是现在AI领域最差的投资。对Nvidia，最乐观的情况是能用桌面芯片替代高价的数据中心GPU，那营收和利润怎么办？真正的赢家可能是Dell、苹果这类「无聊」的电脑制造商，而不是先进硬件和数据中心。"
-          ]
-        },
-        "en": {
-          "thesis": "Small language models running locally now match cloud LLMs, making data centers possibly the worst AI investment.",
-          "paragraphs": [
-            "In my paid research, I have long argued that the future of AI is not large language models but small ones running on desktops or even phones. A May Stanford study compared the two head-to-head. If the results hold, we will hardly need data centers, and the hyperscalers are wasting hundreds of billions of dollars.",
-            "They tested QWEN 3, GEMMA 3, GPT-OSS, and GRANITE 4.0 — SLMs you can download — against ChatGPT 5, Claude Sonnet 4.5, and Gemini 2.5 Pro in the cloud. The SLMs ran on Nvidia or Apple M4 desktops, tracked from 2023 to October 2025.",
-            "On chat tasks the SLM matched or beat the LLM in over 90% of cases, averaging 98.6%. On harder reasoning tasks they still won 62.5% of the time. Weighted across real workloads, the SLM was as good or better 81.2% of the time, with LLMs leading only in engineering, life sciences, and a few other areas.",
-            "What is more, the SLMs used 50% to 85% less energy and compute. Their reasoning improved fast: in 2023 they succeeded about half the time; by October 2025 they hit 99% on the easiest tasks and still 51.5% on the hardest. That means four out of five use cases no longer need a data center.",
-            "The report puts the US addressable market for SLMs at around $10 trillion, a third of GDP. The LLM's edge shrinks every year. Agentic AI still favors LLMs, but that may be a temporary lead. SLMs get about seven times more inference per watt, so whatever can be done locally should be.",
-            "For an investor, data centers may now be the worst AI bet. Even for Nvidia the best case is swapping expensive data-center GPUs for cheaper desktop chips — what does that do to margins or growth? The real winners could be boring PC makers like Dell and Apple, not the hardware or data center suppliers."
-          ]
-        }
-      }
-    },
-    {
-      "id": "3755894f311e5ed3befe091f7eeae3d24c3d98e1",
-      "sourceId": "acx",
-      "category": "culture",
-      "title": "Why I'm Staying Out Of The Substack Religion Debate",
-      "titleZh": "我为什么退出 Substack 上的宗教辩论",
-      "url": "https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack",
-      "author": "Scott Alexander",
-      "publishedAt": "2026-08-19T05:24:22.000Z",
-      "image": "https://substack-post-media.s3.amazonaws.com/public/images/c61a631a-1a1c-46b0-9474-7db4e4747c95_834x531.jpeg",
-      "readingMinutes": 15,
-      "score": 82,
-      "rank": 7,
-      "review": {
-        "argument": "Argument: it claims that theism's 'divine simplicity' defense is a sleight of hand that subtracts limits rather than complexity, and that theism must face the same preemptive penalty as alien-conspiracy explanations. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how 'subtracting limits' can make any complex thing seem simple, and the reader can apply this to other arguments that hide complexity behind vague infinities. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the citations.",
-        "appeal": "+8 — it has a vivid hook (the Napoleon-aliens analogy), a concrete target (Adelstein's argument), and a memorable reframing of simplicity, though it stays in the weeds of philosophy."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "宗教辩论中「强大的隐藏实体」型解释本质上与阴谋论一样过度拟合，应预先排除。",
-          "paragraphs": [
-            "最近 Substack 上又掀起了一轮无神论与有神论的辩论，这让我想起 2000 年代初的博客时代。但这次我提不起兴趣参与。",
-            "我对上帝的不信，感觉上先于所有精细的论证。就像社会不会认真考虑「外星人帮助拿破仑」的假说，因为常识直接将其排除，而不是靠贝叶斯计算。",
-            "这种排除是合理的，因为「强大的隐藏实体意在实现特定结果」的解释可以拟合任何异常现象，比真实解释更「好」，但这是过度拟合。",
-            "阴谋论因人类能力的局限而失败，但外星人或上帝没有这些局限，所以这种解释更难被驳倒。这就像古人用雷神、太阳神解释自然现象。",
-            "有人用「上帝是无限简单」来规避惩罚，但这其实是诡辩：通过「减去限制」来假装简单，实际上是在「增加能力」。如果这招有效，造星舰会比造双翼机更容易。",
-            "心灵二元论者认为意识需要奇异基底，但计算显然发生在物理大脑上——脑损伤、药物、基因都能改变它。因此，上帝假说无法借用无限计算能力，必须承受过度拟合的全部惩罚。"
-          ]
-        },
-        "en": {
-          "thesis": "Religious arguments hinge on 'powerful hidden entity' explanations, which overfit like conspiracy theories and should be ruled out preemptively.",
-          "paragraphs": [
-            "A fresh round of atheism-vs-theism debates on Substack reminds me of early-2000s blogs. But this time I have no appetite to join in.",
-            "My lack of belief in God feels prior to all fine-grained arguments. A society never seriously considers that aliens helped Napoleon, not because of Bayesian calculation, but because common sense rules it out.",
-            "That exclusion is right, because 'a powerful hidden entity intended this specific outcome' can fit any anomaly, making it strictly better than real explanations but overfit.",
-            "Conspiracy theories fail on human limitations, but aliens or gods have none, so the explanation is harder to dislodge. It is just how ancients explained thunder and the sun.",
-            "Some argue God is infinitely simple, but that is sleight of hand: 'subtracting limits' actually adds capabilities. If that worked, building a starship would be easier than a biplane.",
-            "Mind-body dualists say consciousness needs an exotic substrate, but computation clearly happens in the physical brain—lesions, drugs, and genes all alter it. So God cannot borrow infinite compute, and must face the full overfitting penalty."
+            "AI bosses keep publicly lamenting the terrible potential of their products: taking jobs, waking up and turning us into paperclips. It sounds odd, but every complaint about 'bad potential' is also a boast about potential, period.",
+            "And all AI has is potential. Current AI is only marginally useful, needing skilled people to tell correct outputs from wrong ones, and careful integration. It is more like a plugin: not useless, just normal.",
+            "Normal is fine, but it does not merit trillion-dollar bets or replacing civil servants with chatbots. Its boosters call it an everything machine, yet admit under pressure that it cannot even do AI research. This is civilizational Magic Underpants Gnomery.",
+            "AI does have destructive potential: bosses firing you for chatbots that cannot do your job; a data-center bubble that has officials seizing land and waiving environmental review; and it guzzles water and power and emits gigatons of carbon. None of that will turn into future value.",
+            "So stop amplifying the 'AI is amazing' or 'AI is evil' narratives — that is what helps the Altmans raise money. Treat it as normal: use it where it helps, block what harms, and let the street find its own use, as Gibson said."
           ]
         }
       }
@@ -663,43 +480,251 @@
       "sourceId": "platformer",
       "category": "tech",
       "title": "An LLM wiki changed how I work",
-      "titleZh": "LLM 维基如何改变了我的工作方式",
+      "titleZh": "LLM Wiki 如何改变我的工作方式",
       "url": "https://www.platformer.news/karpathy-llm-wiki-journalism-productivity/",
       "author": "Casey Newton",
       "publishedAt": "2026-08-19T00:28:38.000Z",
       "image": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/08/Screenshot-2026-08-18-at-5.15.46---PM.png",
       "readingMinutes": 13,
-      "score": 82,
-      "rank": 8,
+      "score": 85,
+      "rank": 4,
       "review": {
-        "argument": "Argument: it claims that an LLM wiki—a self-organizing knowledge base built from personal archives and daily clippings—is the most useful productivity tool the author has adopted, and it details the setup, maintenance costs, and payoff. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a personal knowledge base can automate the curation of one's own past work and current news, and the reader can imagine applying it to their own research or interests. No cap.",
+        "argument": "Argument: it claims that an LLM wiki—a self-organizing knowledge base built from personal archives and daily clippings—is the most useful productivity tool the author has adopted, and it details the setup, maintenance costs, and benefits. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a personal knowledge base can automate the synthesis of one's own past work and current news, which is a concept any knowledge worker can apply to their own field. No cap.",
         "claim": "A claim, and a contestable one; delete the writer and you lose the argument that this specific workflow is worth the maintenance, not just a list of apps.",
-        "appeal": "+10 — it is about a tool that promises to change how anyone manages information, it includes concrete scenes of the author using it, and it has a hook: the idea that AI can build a wiki of your own writing. Readable cold."
+        "appeal": "+10 — it is about a tool that promises to change how anyone manages information, it has a concrete scene (the author's morning routine, the wiki page for a breach), and it is readable cold with no background in AI."
       },
       "summary": {
         "zh": {
-          "thesis": "LLM 维基是最有用的生产力工具，但需要大量维护。",
+          "thesis": "用 LLM 自动整理个人知识库，虽然维护麻烦，但已经成为作者工作中最有用的生产力工具。",
           "paragraphs": [
-            "四月初，Karpathy 在推上提出一个想法：用 LLM 把本地资料整理成 Markdown 维基。几小时内，网上就冒出了各种教程。我明知这可能浪费时间，还是忍不住去试了。",
-            "结果它成了我今年最值得的工具。像一辆老爷跑车，需要经常保养，但如果你渴望有个研究助理，它可能正合适。",
-            "去年我还在用 Notion 的搜索代理和 Capacities 里的「blips」来记笔记。但它们要么太费劲，要么难以坚持，尤其是故事线一多就乱。",
-            "于是我用 Claude 写了个脚本，把整个 Platformer 档案喂进去，生成了 1440 多页的维基。每天早上我剪辑网页进去，脚本自动归类，还能生成时间线和概念页。",
-            "在处理 OpenAI 代理逃逸这类复杂新闻时，它省了我大量时间。我直接翻页面刷新记忆，再核对原始来源，几乎不用从头查起。",
-            "但它需要持续维护：页面太长要压缩，代码出错要修，还有 Claude 的风格太压缩，我用 GPT 重写了一遍。不过每天早上看它更新，已经成了我的期待。",
-            "虽然它还不够完善，但「自组织知识库」可能就是这类工具的终极形态。用前沿工具总得付出代价，但收获是，我比以前享受工作多了。"
+            "四月初，Andrej Karpathy 发推说，他用 LLM 把资料整理成个人知识库 wiki，随加随新。这个想法像信息病毒，几小时内网上全是教程，我也忍不住花了几周去搭。",
+            "我的 wiki 住在 Obsidian 里，先喂给它我写过的所有 Platformer 文章。Claude 把人物、公司、概念都抽出来，写成 Markdown 文件；光是 Meta 那一页就一万两千多字，一千三百多个链接。",
+            "每天记完日记，我把新闻链接剪藏进去，脚本自动归类、更新页面。现在 wiki 有一千四百多页，问它问题就行。追复杂故事特别省时，比如 OpenAI 那次 agent 逃逸事件，每天用前刷一眼，再开原文核对，不怕记错。",
+            "它还自动生成新概念页，比如「tokenmaxxing」「青少年社交媒体禁令」，每天早晨更新首页。上周我瞥见「AI and Congress」页，顺藤摸瓜发现几条新报道，还就此报了一个播客选题。",
+            "但维护是真麻烦：页面太长要压缩，脚本出错要修，Claude 的文风太压缩，我又用 GPT-5.6 重写了一遍。不过话说回来，「自我组织的知识库」就是我一直想要的东西。这工具太个人化，不敢随便推荐，但每天早上看它又建了什么，我确实乐在其中。"
           ]
         },
         "en": {
-          "thesis": "The LLM wiki has been the most useful productivity tool, but it demands constant maintenance.",
+          "thesis": "An LLM that auto-organizes a personal knowledge base is a pain to maintain, but has become the single most useful productivity tool its author uses.",
           "paragraphs": [
-            "In early April, Karpathy tweeted an idea: using an LLM to turn local research files into a Markdown wiki. Within hours, tutorials flooded the web. I knew it might waste my time, but I had to try it.",
-            "It turned out to be the most useful tool I've adopted this year. Like a vintage sports car, it needs a fair amount of upkeep, but if you've ever craved a research assistant, it might be for you.",
-            "Last year I was using Notion's search agent and Capacities 'blips' to track stories. But they were either effortful or hard to keep up with, especially as storylines multiplied.",
-            "So I had Claude write a script to ingest my entire Platformer archive, producing a 1,400+ page wiki. Every morning I clip web stories into it, and the script sorts them, generating timelines and concept pages.",
-            "For following the OpenAI/Hugging Face agentic breach, it saved me hours. I'd pull up the page, refresh my memory, and cross-check original sources, no need to dig from scratch.",
-            "But it needs constant upkeep: pages grow too long to compact, code breaks, and Claude's style is too compressed, so I had GPT rewrite much of it. Still, checking the wiki each morning has become a ritual.",
-            "It's too clunky to wholeheartedly recommend, but 'self-organizing knowledge base' feels like the endgame of this tool category. Using bleeding-edge tools costs time, but I'm enjoying my work more than ever."
+            "In early April, Andrej Karpathy tweeted that he was using LLMs to turn his research into a personal wiki that grows as he adds material. The idea spread like an infohazard; within hours the web was full of tutorials, and I spent weeks building one myself.",
+            "My wiki lives in Obsidian. I seeded it with my entire Platformer archive, and Claude pulled out every person, company, and concept into Markdown files. The Meta page alone runs to 12,000 words and links to 1,300 other pages.",
+            "Each morning I clip news links into it, and a script figures out where they fit. The wiki now has over 1,400 pages and answers questions directly. It has been a huge time-saver on fast-moving stories like the OpenAI agent breach: I refresh the page before writing, then check the original sources so nothing I say is hallucinated.",
+            "It also generates new pages for fresh concepts — 'tokenmaxxing', 'youth social media bans' — and updates a home page every morning. This week, spotting 'AI and Congress' led me to several recent stories and a podcast segment pitch.",
+            "Maintenance is constant: pages bloat and need compacting, scripts break, and Claude's style is so condensed I had GPT-5.6 rewrite it in AP style. Still, a self-organizing knowledge base is the end point of what I have wanted since 2008. It is too personal and clunky to recommend outright, but I genuinely look forward to seeing what it has built each morning."
+          ]
+        }
+      }
+    },
+    {
+      "id": "f750bc8baa7294db44738713218ded9fa3056d1e",
+      "sourceId": "pluralistic",
+      "category": "economy",
+      "title": "Pluralistic: IP can't save you from AI (18 Aug 2026)",
+      "titleZh": "IP 救不了你对抗 AI",
+      "url": "https://pluralistic.net/2026/08/18/enron-corpus/",
+      "author": "Cory Doctorow",
+      "publishedAt": "2026-08-18T14:48:19.000Z",
+      "image": "https://i0.wp.com/craphound.com/images/18Aug2026.jpg?w=840&#038;ssl=1",
+      "readingMinutes": 16,
+      "score": 85,
+      "rank": 5,
+      "review": {
+        "argument": "Argument: it claims copyright cannot protect creative workers from AI because it grants rights without leverage, and uses the Spirit Airlines data sale to show why labor and privacy rights are the real defenses. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how property rights fail when bargaining power is absent, and the reader sees it in their own workplace. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the news hook.",
+        "appeal": "+10 — it is about jobs, privacy, and a concrete bankruptcy sale, with a vivid example and a clear villain, readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "版权无法保护创意工作者的生计，真正需要的是劳动权利和隐私权。",
+          "paragraphs": [
+            "作者认为，市场投入巨资于 AI，是因为资本相信可以用 AI 取代各种工人。艺术家也是工人，理应保护自己的劳动利益。但许多同行想用扩大版权来阻止 AI 训练，这是失败的策略。",
+            "禁止抓取、分析、出版都会伤及大量有益活动，比如 OED、搜索引擎、互联网档案馆。设计一部只阻止“坏”用途的 AI 训练法，可能根本做不到。",
+            "版权作为“艺术家权利”的理论前提是，艺术家能凭版权与中介谈判。但谈判需要筹码和选择。现实中，艺术家供过于求，版权不断扩张，利润都被大公司拿走，艺术家分到的更少。",
+            "Spirit Airlines 破产后，员工的邮件、日程、个人数据被卖给 Google 用于训练 AI。这些作品都是“雇佣作品”，版权归公司，员工毫无控制权。类似 Enron 邮件的隐私灾难会重演。",
+            "所以，版权不是劳动者的武器。作家工会靠罢工赢得了 AI 斗争。要真正保护自己，必须争取部门谈判和隐私权。这不是为了愤怒的权利，而是为了有所作为的权利。"
+          ]
+        },
+        "en": {
+          "thesis": "Copyright cannot protect creative workers' livelihoods; what they need is labor rights and privacy rights.",
+          "paragraphs": [
+            "The author argues that the market is pouring trillions into AI because capital believes it can replace workers of all kinds. Artists are workers, too, and want to protect their labor interests. But many peers think expanding copyright to ban AI training is the way, which is a losing strategy.",
+            "Banning scraping, analysis, and publication would damage many beneficial activities like the OED, search engines, and the Internet Archive. Drafting a law that only stops the bad uses may be impossible.",
+            "Copyright as an 'artist's right' presumes artists can bargain with intermediaries. But bargaining requires leverage and options. In reality, artists are oversupplied, copyright has expanded, profits have gone to big companies, and artists get a smaller share.",
+            "When Spirit Airlines went bankrupt, its employees' emails, calendars, and personal data were sold to Google for AI training. These works were 'works made for hire,' so copyright belongs to the company, and workers have no control. A privacy catastrophe like the Enron Corpus will recur.",
+            "So copyright is not a worker's weapon. The Writers Guild won its AI fight with a strike. To truly protect themselves, workers need sectoral bargaining and privacy rights. This is not about the right to be angry about AI, but the right to do something about it."
+          ]
+        }
+      }
+    },
+    {
+      "id": "5f14b6e455a6bf7afe4094465700b458731660c3",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "Geolocating a random island using geometry and CUDA programming",
+      "titleZh": "用几何和 CUDA 给一座不知名小岛定位",
+      "url": "https://yassa9.github.io/osint/gralhix-004/",
+      "author": "yassa9",
+      "publishedAt": "2026-08-19T12:19:52.000Z",
+      "image": null,
+      "readingMinutes": 9,
+      "score": 82,
+      "rank": 6,
+      "review": {
+        "argument": "Argument: it claims a random island photo can be geolocated by pure geometry and GPU computation, and caps it with the actual coordinates and resort name found.",
+        "transfer": "Transfers — the mechanism is how a tiny geometric fingerprint can filter the entire Earth's coastline down to one match, and the reader sees how search can be done by shape rather than by image. No cap.",
+        "claim": "A claim, and a contestable one — delete the writer and you lose the entire pipeline of heuristics and the reasoning behind each filter, not just a list of steps.",
+        "appeal": "+8 — it has a hook (a random island found by math), a person doing something specific, and it is readable cold, though the CUDA details are dense."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "不用图像搜索，只用几何筛选和 GPU 并行计算，也能从一张照片里定位出岛屿和度假村。",
+          "paragraphs": [
+            "有人贴出一张海岛度假村的照片，问三件事：度假村叫什么，岛在哪，镜头朝哪个方向。作者决定不用 Google 识图，全程用数学和代码来解。",
+            "照片没有 EXIF 和 GPS。作者从图里点出三块陆地的像素位置，算出一个三角形，当作这张图的「指纹」：三条边的比例和两个夹角，各留 20% 的容差。",
+            "然后拿这个指纹去匹配地球上所有陆地。数据是 OpenStreetMap 的全球海岸线矢量，先把不可能是热带岛屿的候选扔了，再用密度、聚类把范围缩到 23500 个候选簇。",
+            "从每个簇里取三点组合，一共生成 8070 万个三角形。每个三角形分配给一个 CUDA 线程，在 GPU 上同时比对指纹，最后筛出 948 个候选。",
+            "候选还要过五关：周围有没有碎沙洲、形状像不像椭圆、NDVI 植被指数够不够高、海拔平不平、对面有没有山。一路筛下来只剩 26 个，人工一看，第八个就是密克罗尼西亚的奥安岛。",
+            "答案：度假村叫 Oan，坐标是北纬 7.3634°、东经 151.7558°，相机朝向西北。整个搜索没有用任何现成的人脸或地标识别，全部是几何和并行计算。"
+          ]
+        },
+        "en": {
+          "thesis": "Without image search, geometric filtering and GPU parallelism alone can locate an island and resort from one photo.",
+          "paragraphs": [
+            "Someone posted a photo of a resort on an island and asked three things: the resort's name, the island's coordinates, and which direction the camera was facing. The author decided to skip Google Lens and solve it with math and code.",
+            "The photo had no EXIF or GPS. The author clicked the pixel positions of three landmasses, computed a triangle from them, and used that as the image's fingerprint: the ratios of its side lengths and its angles, each with a 20% tolerance band.",
+            "Then he matched that fingerprint against every landmass on Earth. The data was OpenStreetMap's global coastline vectors. He first discarded anything unlikely to be tropical, then narrowed the candidates with density and clustering filters, ending up with 23,500 candidate clusters.",
+            "Every combination of three points in each cluster became a candidate triangle, 80.7 million in total. Each triangle was assigned to a CUDA thread and compared in parallel on the GPU, finally yielding 948 candidates.",
+            "The survivors faced five more filters: whether they had scattered sandbars nearby, whether the islet's shape was oval, whether the NDVI vegetation index was high enough, whether the elevation was low and flat, and whether there was a mountain in the facing direction. Only 26 remained, and eyeballing the list, the eighth was Oan Island in Micronesia.",
+            "The answers: the resort is called Oan, the island is at 7.3634°N, 151.7558°E, and the camera faced northwest. No existing face or landmark recognition was used — it was all geometry and parallel computing."
+          ]
+        }
+      }
+    },
+    {
+      "id": "cd1063b70ffd779bf6be0a31d2a208eeab088760",
+      "sourceId": "psyche",
+      "category": "culture",
+      "title": "Arabic has four words for sadness. Philosophy explains why",
+      "titleZh": "阿拉伯语有四个表示悲伤的词，哲学解释了为什么",
+      "url": "https://psyche.co/ideas/arabic-has-four-words-for-sadness-philosophy-explains-why",
+      "author": "Chereen Shurafa",
+      "publishedAt": "2026-08-19T10:00:00.000Z",
+      "image": "https://images.aeonmedia.co/images/ce4c734b-c715-4472-bfc2-5f14b0cd88f4/sz-mg199752.jpg?top=264&left=0&cropWidth=2576&cropHeight=1449&width=1200&quality=75&format=auto",
+      "readingMinutes": 1,
+      "score": 82,
+      "rank": 7,
+      "review": {
+        "argument": "Argument: it claims Arabic's four sadness words encode distinct philosophical stances on grief, and that the language itself carries a theory of emotion. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a vocabulary shapes what a culture thinks is possible to feel, and the reader can test it against their own language. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that lexical distinctions are philosophical positions, not just a list of words.",
+        "appeal": "+10 — it is about something universal (sadness), it contradicts the assumption that all languages name the same inner states, and it is readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "阿拉伯语用四个不同的词区分悲伤的层次，这反映了语言不是情绪的容器，而是理解情绪的方式。",
+          "paragraphs": [
+            "阿拉伯语里，「huzn」是持久的悲伤，「asa」是短暂的哀痛，「kabad」是深藏心底的忧闷，而「wajd」是一种带着渴望的哀伤。四个词各有各的份量，无法互换。",
+            "哲学上有个说法：语言不只是给已有的情绪贴标签。它本身就在塑造人怎么感受。能说出四种悲伤，就等于能活出四种悲伤。",
+            "所以这不只是词汇量的问题。阿拉伯文化把悲伤当作需要被细致对待的东西，而不是一个笼统的包袱。词的区分越细，人对自己的内心就看得越清。"
+          ]
+        },
+        "en": {
+          "thesis": "Arabic's four words for sadness show that language does not just label emotions but shapes how they are felt.",
+          "paragraphs": [
+            "In Arabic, 'huzn' is lingering sorrow, 'asa' is a brief pang, 'kabad' is a grief buried deep, and 'wajd' is a longing ache. Each carries its own weight, and none can stand in for another.",
+            "Philosophy has a claim that language does not just attach labels to feelings. It itself shapes how one feels. Being able to name four kinds of sadness means living out four kinds.",
+            "So this is not a matter of vocabulary. Arabic culture treats sorrow as something to be handled with care, not as one vague burden. The finer the distinctions, the clearer one sees into oneself."
+          ]
+        }
+      }
+    },
+    {
+      "id": "a8676fa54e90ee2a3f52559d8419b809165a9ed9",
+      "sourceId": "klement",
+      "category": "investing",
+      "title": "If this is true, the hyperscalers are toast",
+      "titleZh": "如果这项研究属实，超大规模云厂商就危险了",
+      "url": "https://klementoninvesting.substack.com/p/if-this-is-true-the-hyperscalers",
+      "author": "Joachim Klement",
+      "publishedAt": "2026-08-19T06:00:54.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/e4827262-1cea-49a3-ae80-6d2267663426_640x792.jpeg",
+      "readingMinutes": 5,
+      "score": 82,
+      "rank": 8,
+      "review": {
+        "argument": "Argument: it claims SLMs on local devices already match or beat cloud LLMs in 81.2% of mixed tasks, making hyperscaler data-centre capex a waste, and cites a Stanford study with win/tie ratios and cost figures. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a cheaper, local alternative can undercut a centralized infrastructure bet, and the reader can apply it to other tech shifts. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that data centres are the wrong investment, not just the study's numbers.",
+        "appeal": "+10 — it is about money and a technology the reader uses, has a startling number (98.6% win/tie, $10tn market), and is readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "如果斯坦福的研究属实，本地小模型将取代数据中心的大模型，超大规模云厂商的巨额投资将打水漂。",
+          "paragraphs": [
+            "斯坦福大学的研究对比了本地运行的小语言模型（SLM）与云端大语言模型（LLM）的表现。如果结果准确，未来可能几乎不需要数据中心，超大规模云厂商的巨额投资将白费。",
+            "他们让 QWEN 3、GEMMA 3 等小模型在搭载 Nvidia 或苹果 M4 芯片的桌面电脑上运行，与 ChatGPT 5、Claude Sonnet 4.5 等云端大模型较量。在聊天任务中，小模型在 98.6% 的情况下能打平或更好。",
+            "推理任务上，小模型稍逊，但也在迅速追赶：62.5% 的情况下不输大模型，且能耗和成本低 50% 到 85%。到 2025 年 10 月，小模型在难度较低的推理任务中成功率已达 85% 以上，只有最难的任务中仍落后。",
+            "这意味着约五分之四的用例可以不用数据中心。研究估计美国小模型市场已达 10 万亿美元，相当于美国 GDP 的三分之一。但代理式 AI 等少数领域，小模型仍远逊于大模型。",
+            "对投资者而言，这意味着数据中心可能是 AI 领域最糟糕的投资。真正赢家或许是戴尔、苹果这类普通电脑制造商。整个竞赛很精彩，但押错技术的人可能会损失惨重。"
+          ]
+        },
+        "en": {
+          "thesis": "If Stanford's research holds, local small models will replace datacenter LLMs, leaving hyperscalers' billions in capex wasted.",
+          "paragraphs": [
+            "Stanford researchers compared small language models (SLMs) running locally against large language models (LLMs) in the cloud. If their results are right, we will barely need datacenters, and the hyperscalers are throwing away hundreds of billions of dollars.",
+            "They ran QWEN 3, GEMMA 3 and others on desktop PCs with Nvidia or Apple M4 chips, against cloud models like ChatGPT 5 and Claude Sonnet 4.5. In chat tasks, the SLMs tied or beat the LLMs in 98.6% of cases.",
+            "On reasoning, the SLMs lag but are catching up fast: they match or beat LLMs 62.5% of the time, with 50% to 85% lower energy and compute costs. By October 2025, they hit 85%+ success on easier reasoning tasks, only struggling on the hardest ones.",
+            "That means four out of five use cases could leave datacenters behind. The report values the US SLM market at about $10 trillion, a third of GDP. But agentic AI and smartphone models still favor LLMs.",
+            "For investors, this could make datacenters the worst AI bet. The winners might be boring PC makers like Dell and Apple. Watch the race, but be careful not to back the wrong technology."
+          ]
+        }
+      }
+    },
+    {
+      "id": "3755894f311e5ed3befe091f7eeae3d24c3d98e1",
+      "sourceId": "acx",
+      "category": "culture",
+      "title": "Why I'm Staying Out Of The Substack Religion Debate",
+      "titleZh": "为什么我不想加入 Substack 上的宗教大辩论",
+      "url": "https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack",
+      "author": "Scott Alexander",
+      "publishedAt": "2026-08-19T05:24:22.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/c61a631a-1a1c-46b0-9474-7db4e4747c95_834x531.jpeg",
+      "readingMinutes": 15,
+      "score": 82,
+      "rank": 9,
+      "review": {
+        "argument": "Argument: it claims that theism's 'divine simplicity' defense is a sleight of hand that subtracts limits rather than complexity, and that theism must face the same preemptive penalty as alien-conspiracy explanations. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a 'powerful hidden entity' explanation can be optimized to evade all standard debunking, and the reader can apply this to conspiracy theories and other overfit explanations. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the citations.",
+        "appeal": "+8 — it has a vivid hook (aliens causing Napoleon), a concrete opponent (Adelstein's argument), and a memorable analogy (aircraft-without-limits), though the theology weeds may lose some generalists."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "我对宗教辩论的热情消退，是因为我觉得无神论的正确性在辩论之前就已确定，而不在于推理本身。",
+          "paragraphs": [
+            "这个月 Substack 上又热闹起来：好几个人在争论上帝是否存在，从“边沁的斗牛犬”到各类博主。乍一看像回到 2000 年代初的网络无神论时代，但我对这场重启的辩论提不起劲。",
+            "不是没干过这活。只是对我来说，无神论的感觉先于这些论证。好比一个社会争论“外星人是否帮助了拿破仑上台”，尽管反对理由薄弱，但没人会认真考虑，因为常识就把它排除了。",
+            "关键在“过拟合”惩罚：任何事都能用“有强大隐藏实体想让这事发生”解释，而且比正常解释更完美。比如大金字塔为什么编码了光速？因为有隐藏实体。这种解释能穿越一切反对意见，所以必须先给它一个预置惩罚，免得它抢占先机。",
+            "我的无神论就扎根于这种东西，而不是精细的贝叶斯推理。这有点危险，容易变成“你的宗教就像外星人造成拿破仑”的嘲弄，或者陷入荒谬启发法。但我觉得，宗教解释在结构上就是过度拟合的典型。",
+            "当然，有神论者会说：上帝是最简单的存在，所以不该受惩罚。但那是偷换概念：他们把“无限”说成简单，可那其实是加了无限能力。这招要是成立，造星舰就该比造双翼机容易了——只要给“无限存在”加几条限制就行，而事实正相反。",
+            "还有一种说法：心灵是奇异的基质，所以“无限心灵”是合理的。但即便意识需要异质基质，计算也完全能用普通大脑解释，有大量神经科学证据。如果计算不需要异质基质，那“去掉限制”的招就失效了，有神论就得正面承受过拟合惩罚的压力。",
+            "所以我对这种辩论的兴趣淡了——不是因为证据无法量化，而是因为它在被考虑之前就该被排除。我也不算完全退出，毕竟写了这篇关于“不参与”的文章。"
+          ]
+        },
+        "en": {
+          "thesis": "My enthusiasm for religious debate has faded because I feel atheism is settled before the arguments begin, not by them.",
+          "paragraphs": [
+            "Substack is having a moment: several writers are debating God's existence this month, from Bentham's Bulldog to various bloggers. It feels like the early 2000s online atheism again, but this round leaves me cold.",
+            "It's not that I haven't done my time. It's that for me, atheism feels prior to all these arguments. Consider a society where people seriously debate whether aliens helped Napoleon rise: the reasons for are plentiful, the against are flimsy, yet no one entertains it because common sense rules it out.",
+            "The key is an overfitting penalty: any anomaly can be 'explained' by a powerful hidden entity wanting that exact outcome, and that explanation is strictly better than any real one. It explains away every objection. So we must penalize it preemptively, or it beats out all useful models.",
+            "My atheism rests on whatever precludes such explanations, not on delicate Bayesian reasoning. This is risky—it can slip into 'your religion is as stupid as aliens-caused-Napoleon' mockery, or the absurdity heuristic. But I think religious explanations are structurally overfit.",
+            "Theists counter that God is simple, hence penalty-free. That's a sleight of hand: they subtract 'limits' and call it simpler, but they're adding capabilities. If that trick worked, building a starship would be easier than a biplane—just start with an aircraft-without-limits and add a few constraints.",
+            "Another move: mind is an exotic substrate, so an unlimited mind is plausible. But even if consciousness needs exotic substrate, computation is fully explained by ordinary brain activity—damage, drugs, genes, and sleep all show computation tracks the physical brain. If computational dualism fails, the 'simplicity by removing limits' trick fails too, and theism faces the full overfitting penalty.",
+            "So I've lost enthusiasm for these debates—not because the evidence is unquantifiable, but because the theory should have been ruled out before we even started. And by 'not participating,' I mean I'm participating by writing this post about not participating. Sorry!"
           ]
         }
       }
@@ -709,39 +734,39 @@
       "sourceId": "nautilus",
       "category": "science",
       "title": "Why You Move Factors in to Whether It Protects You From Dementia",
-      "titleZh": "为什么你运动的方式决定它能否预防痴呆",
+      "titleZh": "为什么你的运动方式决定它能否预防痴呆",
       "url": "https://nautil.us/why-you-move-factors-in-to-whether-it-protects-you-from-dementia-1283940/",
       "author": "Jake Currie",
       "publishedAt": "2026-08-18T22:30:00.000Z",
       "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Currie_HERO_cbe7be.png?w=564",
       "readingMinutes": 3,
       "score": 82,
-      "rank": 9,
+      "rank": 10,
       "review": {
-        "argument": "Argument: it claims the protective effect of physical activity on dementia depends on context, with leisure activity reducing risk and occupational activity increasing it, and it offers mechanisms for the paradox. Not an announcement.",
-        "transfer": "Transfers — the mechanism is that the same behavior can have opposite health effects depending on context, which applies to how the reader thinks about exercise, work, and other lifestyle factors. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that context matters, not just the study's findings.",
-        "appeal": "+10 — it is about a health risk people live with, it contradicts the simple 'exercise is good' assumption, and it is readable cold with a clear hook."
+        "argument": "Argument: it claims the protective effect of physical activity on dementia depends on context, with leisure activity reducing risk and occupational activity increasing it, and cites the Lancet Public Health meta-review as evidence.",
+        "transfer": "Transfers — the mechanism is that the same behavior can have opposite health effects depending on context, which applies to how the reader thinks about work versus leisure in their own life. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that context matters, not just the study summary.",
+        "appeal": "+10 — it is about a health risk people live with, it contradicts the common assumption that all movement is good, and it is readable cold with a clear hook."
       },
       "summary": {
         "zh": {
-          "thesis": "运动能否预防痴呆，取决于运动的场景而非运动本身。",
+          "thesis": "运动的类型和情境比运动本身更重要，休闲运动降低痴呆风险，而体力劳动反而增加风险。",
           "paragraphs": [
-            "运动能降低痴呆风险，这个结论早已有之。但今天发表在《柳叶刀公共卫生》上的新综述发现，关键在运动的场景。",
-            "研究人员汇总了 420 多万成年人的数据，发现休闲运动（跑步、骑车、打球）能把痴呆风险降低 24%，而体力劳动强度大的工作反而让风险升高 20%。",
-            "学者称之为「体力活动悖论」。原因还不完全清楚，但他们有些推测：休闲运动能减压、常常伴随社交，这两者本身就护脑；而体力工作往往重复、恢复时间不足，还暴露在噪声和空气污染里。",
-            "另外，干了一天体力活，下班后也没精力再去锻炼了。当然这只是观察性研究，不能下定论。",
-            "所以结论是：护脑的不是运动量，而是运动会发生的情境。想护脑，得确保自己有空闲时间去做真正放松的运动。"
+            "我们知道规律运动能降低痴呆风险，但《柳叶刀·公共卫生》的最新综述发现，这个关联有个关键前提：运动的性质。",
+            "研究覆盖 420 多万成年人，发现休闲运动（跑步、骑车、打球）使痴呆风险降低 24%，而体力要求高的工作使风险升高 20%。这就是「体力活动悖论」，此前已知与心血管病有关，现在扩展到痴呆。",
+            "可能的原因：休闲运动减压，减压本身降低痴呆风险；而且常伴随社交，社交也有保护作用。体力工作则相反，多重复、缺恢复，还暴露于噪音和污染，这些都可能伤脑。",
+            "作者提醒，这只是观察性研究，不能确定因果，但「情境可能和运动本身一样重要」。",
+            "所以，与其只盯着运动量，不如想想运动是怎么发生的：在公园里散步、和朋友打球，可能比单纯在健身房流汗更有益；同时，改善工作环境和增加闲暇时间，与促进运动同等重要。"
           ]
         },
         "en": {
-          "thesis": "Whether exercise protects you from dementia depends on the context of the activity, not the movement itself.",
+          "thesis": "The type and context of physical activity matter more than the movement itself: leisure exercise cuts dementia risk, while physically demanding jobs raise it.",
           "paragraphs": [
-            "Exercise has long been linked to a lower risk of dementia. But a new meta-review in The Lancet Public Health finds the key is the context of the activity.",
-            "Looking at data from over 4.2 million adults, the researchers found that leisure-time exercise (running, cycling, sports) cut dementia risk by 24 percent, while physically demanding jobs raised it by 20 percent.",
-            "They call it the 'physical activity paradox.' The reasons are unclear, but they have guesses: leisure exercise relieves stress and often comes with socializing, both of which protect the brain; demanding jobs are repetitive, offer little recovery, and expose workers to noise and pollution.",
-            "And after a hard day of physical work, you may have little time or energy left for recreational exercise. Of course, this is observational, so it can't prove cause.",
-            "So the lesson is: it is not how much you move but the context that matters. To protect your brain, make sure you have free time for genuinely restorative activity."
+            "Regular exercise has long been linked to lower dementia risk, but a new meta-review in The Lancet Public Health finds a key caveat: the type of activity matters.",
+            "Looking at over 4.2 million adults, leisure activities like running, cycling, and sports cut dementia risk by 24%, while physically demanding jobs raised it by 20%. This 'physical activity paradox' was already known for heart disease, and now extends to the brain.",
+            "Why the difference? Leisure activity is relaxing, and reducing stress itself lowers dementia risk; it also often involves socializing, which is protective. Demanding jobs, by contrast, are repetitive, allow little recovery, and expose workers to noise and pollution, all of which may harm the brain.",
+            "The authors caution that this is observational, so causality isn't certain, but 'context may matter as much as movement itself.'",
+            "So rather than just tracking how much you move, consider how you move: a walk in the park with a friend may help more than grinding on a treadmill. And improving workplace conditions and leisure time may be as important as promoting exercise itself."
           ]
         }
       }
@@ -751,41 +776,79 @@
       "sourceId": "404media",
       "category": "tech",
       "title": "Anthropic’s Text Watermarking Proves AI Companies Do Not Care at All About Writing",
-      "titleZh": "Anthropic 的文本水印证明 AI 公司根本不在乎写作",
+      "titleZh": "Anthropic 的文本水印证明 AI 公司根本不关心写作",
       "url": "https://www.404media.co/anthropics-text-watermarking-proves-ai-companies-do-not-care-at-all-about-writing/",
       "author": "Jason Koebler",
       "publishedAt": "2026-08-18T15:54:15.000Z",
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/CleanShot-2026-08-18-at-08.38.52@2x.png",
       "readingMinutes": 8,
       "score": 82,
-      "rank": 10,
+      "rank": 11,
       "review": {
-        "argument": "Argument: it claims Anthropic's watermarking scheme reveals the company treats words as fungible and writing as a probabilistic game, and it grounds that claim in Anthropic's own blog post and the SynthID study's flawed quality metrics. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a tech company's engineering mindset flattens the craft of writing into interchangeable tokens, and the reader comes away with a sharper lens on AI-generated text and the values behind it. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that synonym choice is not always low-stakes and that thumbs-up rates are a poor proxy for writing quality, not just the relayed details.",
-        "appeal": "+10 — it is about something people live with (AI writing, the devaluation of human expression), it has a concrete hook (the 'cold and grey' vs 'cold and overcast' example), and it is readable cold, though it leans on the reader already caring about writing."
+        "argument": "Argument: it claims Anthropic's watermarking scheme reveals the company treats word choice as fungible and writing as a probabilistic game, and it grounds that claim in Anthropic's own blog post and the SynthID study's quality metrics. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a tech company's engineering mindset flattens a human craft into interchangeable tokens, and the reader sees the same logic in other AI products. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that the watermarking debate is really about the devaluation of writing, not just the technical method.",
+        "appeal": "+10 — it is about something people live with (AI writing, the value of human expression), it has a concrete example (cold and grey vs. overcast), and it is readable cold."
       },
       "summary": {
         "zh": {
-          "thesis": "Anthropic 的水印技术把词语选择视为可替换的随机事件，暴露出 AI 公司对写作这门技艺的漠视。",
+          "thesis": "Anthropic 的水印方案把词的选择当成随机数，暴露了它不认为写作是一门手艺。",
           "paragraphs": [
-            "Anthropic 宣布未来 Claude 生成的文本会带上水印，可读者看不出任何差别。原理不是往文本里塞隐藏字符，而是悄悄改变模型选词的方式。",
-            "在「The weather today was cold and…」后面，野生作者会斟酌用 grey 还是 overcast。Anthropic 说这种选择大多是「低风险」的，交给随机数就行。水印就是利用这些所谓低风险的选择。",
-            "但它忽略了一件事：grey 和 overcast 并不总能互换。作者选哪个词，可能带着情绪、暗自的引用、个人癖好，甚至昨天读到的一篇文章的影响。换掉它，意思就变了。",
-            "Google 用来验证 SynthID 质量的方式，是让 Gemini 用户给回答点拇指或倒拇指。20 亿份回答里，水印版本和普通版本的点赞率只差 0.01%。可这能证明什么呢？点拇指的人根本不关心措辞。",
-            "Anthropic 说水印不影响「质量」，但判断质量的要么是数据科学家，要么是让 AI 代笔的人，不是真正在意阅读和写作的人。它把写作当成概率游戏，这和对代码要求「精确输出」的态度形成鲜明对比。",
-            "所以，AI 公司可以堂而皇之地宣布，词语是可替换的，随机性是可靠的，语言是随机的。可写作恰恰是人类经验的沉淀，换一个词就是换一种心境。把选词交给随机数，就等于说写作本身不重要。"
+            "Anthropic 宣布今后 Claude 生成的文本会带上水印，能让人检测出是 AI 写的。做法不是嵌入隐形字符，而是暗中调整选词：在它看来，「阴天」和「多云」基本等价，就用一个只有它知道的随机数来源来决定用哪个，留下可检测的规律。",
+            "公司声明这不会影响输出质量，说读者分辨不出差别，内部测试也没看出对内容、创造力和可读性有什么影响。但批评者指出，「阴天」和「多云」并不总是可互换的，作者选哪个往往有写作上的理由。",
+            "更让人不满的是质量的测评方式。Anthropic 引用的 Google SynthID 研究，是用用户点赞数来评估的——让用户给聊天回应点拇指，这能衡量「写作质量」吗？附录里的对比文本，两版意思一样，措辞却不同，谁也说不清为什么。",
+            "Anthropic 把文字的选择描述成概率游戏，只有遇到「需要精确输出」的代码时才会认真。可写作恰恰不是这样：人用哪个词，背后是一生的经历、风格和当时的情绪，不是随机的。这正是 AI 文本总显得空洞的原因。"
           ]
         },
         "en": {
-          "thesis": "Anthropic's watermarking treats word choice as a fungible random event, revealing how little AI companies care about the craft of writing.",
+          "thesis": "Anthropic's watermarking scheme treats word choice as a random outcome, revealing that it does not see writing as a craft.",
           "paragraphs": [
-            "Anthropic announced that future Claude outputs will carry watermarks that are invisible to readers. The trick is not hidden characters but quietly shifting how the model picks words.",
-            "After 'The weather today was cold and…' a human author might weigh grey against overcast. Anthropic calls most such choices 'low-stakes' and leaves them to a random number. Watermarking exploits those low-stakes picks.",
-            "What it misses is that grey and overcast are not always interchangeable. A choice between them can carry mood, a private allusion, a personal tic, even something read the day before. Swap one and the meaning shifts.",
-            "Google validated SynthID by letting Gemini users thumb responses up or down. Across 20 million responses the watermarked and unwatermarked versions differed by 0.01% in likes. But what does that show? The voters were not judging wording.",
-            "The people judging Anthropic's 'quality' are data scientists or those outsourcing their writing, not readers or writers. To the company, writing is a probabilistic game, while code still calls for 'an exact output.'",
-            "So the firm has openly declared words fungible, randomness reliable, language random. Yet writing is a sediment of human experience, and choosing one word over another is choosing a mood. Handing that to a random number is saying writing itself does not matter."
+            "Anthropic announced that future Claude outputs will carry a watermark so people can tell text was AI-generated. Nothing is hidden in the text: instead the company will subtly steer word choice, treating words like 'grey' and 'overcast' as equivalent and picking between them with a keyed random number generator, leaving a detectable pattern.",
+            "It claims the watermark does not hurt output quality, that readers cannot tell the difference, and that internal tests showed no effect on content, creativity or readability. Critics point out that 'grey' and 'overcast' are not always interchangeable, and an author often has a reason for choosing one over the other.",
+            "The bigger problem is how quality is measured. The Google SynthID study Anthropic cites relied on thumbs-up rates from Gemini users — hardly a measure of writing quality. The side-by-side examples in the appendix differ in wording for no discernible reason.",
+            "Anthropic describes word choice as a probabilistic game, only treating 'exact output' seriously when it comes to code. But writing is not like that: why a person picks one word over another comes from a lifetime of experience, style and mood, not randomness. That is why AI text so often feels hollow."
+          ]
+        }
+      }
+    },
+    {
+      "id": "f70df54cf03f0bdfe123bcf075940a111de81a47",
+      "sourceId": "wheresyoured",
+      "category": "business",
+      "title": "What Happens If OpenAI Dies?",
+      "titleZh": "如果 OpenAI 死了会发生什么？",
+      "url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
+      "author": "Ed Zitron",
+      "publishedAt": "2026-08-18T15:23:40.000Z",
+      "image": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/08/data-src-image-f44da972-de07-4f16-903f-d899c85e3dc4.png",
+      "readingMinutes": 39,
+      "score": 82,
+      "rank": 12,
+      "review": {
+        "argument": "Argument: it claims OpenAI's economics are unsustainable and that its collapse is a real possibility, tracing the financial commitments and revenue deceleration. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a company can make promises it cannot keep and how the entire industry is built on circular revenue, which applies to any bubble. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the numbers.",
+        "appeal": "+10 — it is about money and jobs, it contradicts the hype, and it is readable cold despite the jargon."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "OpenAI 的财务状况不可持续，很可能在某个时点资金耗尽，其崩溃将对整个 AI 行业产生灾难性影响。",
+          "paragraphs": [
+            "OpenAI 正面临严峻的生存危机。同一周内，它完成了 70 亿美元的股票回购，但 COO 和 CRO 却相继离职，后者上任仅八个月。",
+            "收入增长在需要加速时反而放缓。2025 年营收 130.7 亿美元，亏损却高达 209 亿。它用「年化收入」宣传，但那只是把最近四周的收入乘 12，可以人为抬高。",
+            "OpenAI 的支出巨大，到 2027 年底有超过 800 亿美元的算力义务，而它每年需要融资 1000 到 2000 亿美元。但主要投资方如软银、英伟达都已不堪重负，风投也难以为继。",
+            "估值也是问题。最新的 1220 亿美元融资估值 8520 亿，但 IPO 可能无法达到 1 万亿美元，投资人很难获得回报。竞争对手 Anthropic 也在抢跑 IPO，但同样亏损严重。",
+            "所以 OpenAI 的死亡可能以几种方式发生：被微软吸收、被允许倒闭、或与 Anthropic 合并。无论哪种，都将给整个行业带来巨大冲击，而最终的指责对象很可能是 Altman。"
+          ]
+        },
+        "en": {
+          "thesis": "OpenAI's finances are unsustainable and it will likely run out of money at some point, with catastrophic consequences for the entire AI industry.",
+          "paragraphs": [
+            "OpenAI is facing a serious existential crisis. In the same week it completed a $7 billion share buyback, its COO and CRO both left, the latter after only eight months on the job.",
+            "Revenue growth is decelerating exactly when it needs to accelerate. In 2025 it brought in $13.07 billion in revenue but lost $20.9 billion. It markets itself with 'annualized revenue', which just multiplies the latest four weeks by twelve and can be inflated.",
+            "OpenAI's costs are enormous. It has over $800 billion in compute obligations due by 2027, and needs to raise $100-200 billion every year. But major backers like SoftBank and NVIDIA are stretched thin, and venture capital can't fill the gap.",
+            "Valuation is another problem. Its latest $122 billion round valued it at $852 billion, but an IPO may not achieve the $1 trillion mark, making it hard for investors to see returns. Competitor Anthropic is rushing to IPO but is equally unprofitable.",
+            "So OpenAI's death could come in several forms: absorbed by Microsoft, allowed to die, or merged with Anthropic. Whichever way, it would shake the whole industry, and the blame would likely fall on Altman."
           ]
         }
       }
@@ -793,43 +856,45 @@
     {
       "id": "82c14c754e1df85c6ea453d315505e2ebbb776d0",
       "sourceId": "conversable",
-      "category": "economy",
+      "category": "science",
       "title": "The Generalizability Problem, the Natural Field Experiments Answer",
-      "titleZh": "一般化问题，自然实地实验给出的答案",
+      "titleZh": "可推广性问题，自然实地实验的答案",
       "url": "https://conversableeconomist.com/2026/08/18/the-generalizability-problem-the-natural-field-experiments-answer/",
       "author": "conversableeconomist",
       "publishedAt": "2026-08-18T16:21:40.000Z",
       "image": "https://i0.wp.com/conversableeconomist.com/wp-content/uploads/2021/08/cropped-Screen-Shot-2021-08-23-at-2.04.56-PM.png?fit=889%2C66&#038;ssl=1",
       "readingMinutes": 3,
       "score": 78,
-      "rank": 11,
+      "rank": 13,
       "review": {
         "argument": "Argument: it claims the generalizability problem in social science is best answered by natural field experiments, and uses Scared Straight's failure to show why lab or pilot results mislead. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a result from one context can fail when scaled, and the reader learns to ask 'who was studied and how' about any policy claim. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that systematic variation in real settings is the best path to reliable knowledge, not just a summary of List's work.",
-        "appeal": "+8 — it is about how policies that affect people's lives are tested, has a vivid hook in Scared Straight, and is readable cold, though it stays at the level of method rather than a concrete scene."
+        "transfer": "Transfers — the mechanism is how a result from one context can fail when scaled, and the reader sees why 'what worked there' is a weak guide anywhere. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument for systematic real-world testing, not just a summary of List's work.",
+        "appeal": "+8 — it is about how policies and programs fail in the real world, has a vivid example (Scared Straight), and is readable cold, though it stays at the level of ideas rather than scenes."
       },
       "summary": {
         "zh": {
-          "thesis": "小规模研究的结果往往无法推广到更大范围，自然实地实验是更可靠的方法。",
+          "thesis": "社会科学的小规模研究结果难以推广，而自然实地实验通过让参与者不知情来获得更可靠的结论。",
           "paragraphs": [
-            "社会科学有个老问题：小规模研究的结果，到了更大范围还成立吗？某个学区的好项目，换到别的学区、全州、全国，甚至别的国家，还有效吗？答案并不简单。",
-            "经济学家 John List 在《自然》上提出一个角度。他举了「恐吓改造」的例子：这个项目让问题少年去见重刑犯，试点时 80-90% 的参与者没再犯事，但推广后在一些地方犯罪率反而上升了。",
-            "问题在于，人不一样，社会、经济、文化都不同。而且，当人们知道自己被研究、被关注时，行为可能和平时不一样。",
-            "List 提倡「自然实地实验」：参与者不知道自己身在研究中。比如「审计研究」——训练一群资历相同但种族不同的助手，去租房、贷款、买车、求职，观察雇主是否歧视。",
-            "这类实验要先经伦理委员会批准，而且不能让参与者做超出日常范围的事。List 在沃尔玛也这么干，他和 6000 多家供应商做实验，测试怎样能最有效地激励他们减排。",
-            "政策制定者和企业完全可以系统性地选择不同的做法，而不是任由变化随意发生，然后从中学到经验。从这个角度看，世界上的自然实地实验还太少。"
+            "社会科学有个经典难题：某个学区的小规模项目有效，换个地方还能有效吗？推广到全国呢？到别的国家呢？这个问题没有简单答案。",
+            "John List 在《自然》杂志上提出一个角度，还举了个触目惊心的例子：美国 30 多个州推行「恐吓改造」项目，让问题少年去见重型犯，试点时 80%–90% 的少年不再惹事，可推广后却失效，有的地方犯罪率反而上升了。",
+            "一个原因是人不同，社会环境、经济文化都不一样。更关键的是，人们知道自己被研究、被关注时，行为会和平时不一样。",
+            "List 主张「自然实地实验」：设计研究让参与者完全不知道自己在实验里。比如「审计研究」中，派训练过的助手去租房、应聘，他们背景相同但种族不同，房东和雇主并不知道这是实验。",
+            "这样的实验要先过伦理审查，而且不能给不知情者施加压力，只能让他们做日常会做的事。List 做过大量此类研究，比如测试哪种募捐方案响应更高，或在校园里丢钱包看归还率。",
+            "他现在是沃尔玛首席经济学家，团队正和 6000 多家供应商做实验，看什么因素最能激励他们减排。政府也能试验不同措辞的提醒信，电商能试验不同的标签和展示方式。",
+            "自然实地实验不是所有题目都适用，但它体现了一种世界观：既然方法可以用不同方式呈现，与其任其自然发生，不如系统地设计并从中学习。从这个角度看，世界上的自然实地实验太少了。"
           ]
         },
         "en": {
-          "thesis": "Small-scale results often do not generalize to larger contexts; natural field experiments are a more reliable approach.",
+          "thesis": "Small-scale social science findings rarely generalize, and natural field experiments answer by studying people who don't know they're being studied.",
           "paragraphs": [
-            "Social science has an old problem: do the results of a small study hold at a larger scale? A good program in one school district — would it work in another, statewide, nationwide, in other countries? The answer is not simple.",
-            "Economist John List offers a perspective in Nature. He cites the 'Scared Straight' program, where at-risk teens met hardened criminals. A pilot saw 80-90% stay out of trouble, but when scaled up, crime in some places rose.",
-            "The trouble is that people differ, and so do societies, economies, cultures. And when people know they are being studied and get attention, they may behave differently than they otherwise would.",
-            "List advocates 'natural field experiments,' where participants do not know they are in a study. A classic form is 'audit studies,' where trained assistants with identical credentials but different races apply for apartments, loans, car purchases, jobs, to detect discrimination.",
-            "Such studies require ethics board approval and must not push participants beyond their normal activities. At Walmart, where List is chief economist, his team runs natural field experiments with over 6,000 suppliers to find what most effectively incentivizes them to reduce carbon emissions.",
-            "Policymakers and firms can systematically vary their approaches rather than letting variation happen by chance, and learn from it. From that perspective, the world has far too few natural field experiments."
+            "Social science has a classic problem: if a program works in one school district, will it work elsewhere? Statewide? Nationwide? In other countries? There's no simple answer.",
+            "John List offers a angle, with a stark example: the Scared Straight program, run in 30 US states, brought at-risk teens face-to-face with maximum-security inmates. A pilot showed 80–90% stayed out of trouble, but scaled up it failed — in some places crime even rose.",
+            "One reason is that people differ, in society, economy, culture. More critically, when people know they're in a study, they behave differently than in real life.",
+            "List argues for natural field experiments, where participants don't know they're being studied. In audit studies, researchers train assistants with identical credentials but different races, sending them to rent apartments or apply for jobs — landlords and employers never realize it's a test.",
+            "Such studies need ethics approval and must not stress unwitting participants; they just carry out normal choices. List has run many: testing which fundraising pitches work, or dropping wallets on campus to see return rates.",
+            "Now chief economist at Walmart, his team runs experiments with over 6,000 suppliers to find what best incentivizes carbon reduction. Governments can test different reminder letters; retailers can test product labels; online firms can test information formats.",
+            "Natural field experiments don't fit every topic, but they embody a worldview: since programs vary in timing, substance, presentation, why not choose that variation systematically and learn? From that view, the world has far too few of them."
           ]
         }
       }
@@ -839,39 +904,39 @@
       "sourceId": "vittles",
       "category": "culture",
       "title": "‘There are 1.5 sex scenes, and the food looks just fine’",
-      "titleZh": "「只有 1.5 场性爱戏，食物看起来还行」",
+      "titleZh": "《托尼》：关于安东尼·伯顿的起源故事，但失去了他的欲望",
       "url": "https://www.vittlesmagazine.com/p/there-are-15-sex-scenes-and-the-food",
       "author": "Vittles",
       "publishedAt": "2026-08-19T07:37:39.000Z",
       "image": "https://substackcdn.com/image/fetch/$s_!5r0F!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4faaca9-5624-4659-8c86-1e1ea73b4087_5712x4284.jpeg",
       "readingMinutes": 2,
       "score": 72,
-      "rank": 12,
+      "rank": 14,
       "review": {
         "argument": "Argument: it claims the film Tony fails to capture Bourdain's appetite and complexity, reducing his origin story to an anodyne coming-of-age tale, and contrasts it with the lusty, sensualist memoir.",
-        "transfer": "Transfers — the mechanism is how a biopic flattens a larger-than-life figure into a generic template, and the reader recognizes this pattern in other adaptations. No cap.",
+        "transfer": "Transfers — the mechanism is how a biopic flattens a larger-than-life persona into a generic template, and the reader recognizes this pattern in other adaptations. No cap.",
         "claim": "A claim, and a contestable one; delete the writer and you lose the critical judgment, not just a plot summary.",
-        "appeal": "+5 — it has a hook (the witty opening line about sex scenes and food), but it is about a film review, which is less universally compelling than a topic like health or money."
+        "appeal": "+5 — it has a hook (the 1.5 sex scenes, the food comparison) and is readable cold, but it is about a film and a chef, not something the reader lives with daily."
       },
       "summary": {
         "zh": {
-          "thesis": "新片《Tony》把布尔丹的感官世界拍成了平淡无奇的青春成长故事，完全没有把握住他的精神。",
+          "thesis": "这部关于安东尼·伯顿的起源电影，刻意排除了定义他的好奇心与性感，结果成了一个普通少年的暑假故事。",
           "paragraphs": [
-            "《厨房机密》是本黑幽默又充满欲望的书。布尔丹写第一次吃牡蛎，说它是「闪亮的、隐约带着性意味的东西，还在滴水，几乎活着」。他自称享乐主义者，对体验如饥似渴。",
-            "但导演 Matt Johnson 的《Tony》不是关于布尔丹的胃口。它讲的是一个讨厌的中产少年，1975 年夏天在普罗温斯敦追女孩，被迫去海鲜店洗锅，跟着主厨学规矩，爱上那帮海盗般的同事。",
-            "电影里只有 1.5 场性爱戏，食物看起来「还行」——两个问题。布尔丹那标志性的好奇心、性感和待人接物的本事，全被刻意淡化了。",
-            "名人起源故事本来就难拍：得在成名前种下日后人格的种子。但这部片把焦点收得太窄，回避了布尔丹一生的广度和复杂度，只剩一个谁都可能经历过的夏天。",
-            "所以真正的问题不是电影好不好看，而是它把布尔丹拍成了普通人。这恰恰丢掉了让他成为布尔丹的东西。"
+            "《厨房机密》是本欲望之书，写美食带来的愉悦冲击，和像“湿润的、略带性意味的物体”的生蚝。",
+            "但《托尼》只挑了伯顿45岁前那一个夏天，拍他当洗碗工、学规矩、追求女孩，完全没碰他的好奇心和性。",
+            "影评人 Emily Wilson 曾说《奥德赛》电影“没有性爱场面，食物看起来糟糕”，《托尼》里有一场半的性爱戏，食物还行，但问题更在别处。",
+            "起源故事最难的是在成名前埋下性格的种子，而这部片子把该有的种子几乎都拔掉了。",
+            "所以当它把焦点收窄到“谁的暑假都可能这样过”时，伯顿本人反而成了背景板。一部关于伯顿的电影，不该让人几乎想不起他是谁。"
           ]
         },
         "en": {
-          "thesis": "The new film 'Tony' turns Bourdain's sensual world into a bland coming-of-age story, missing his spirit entirely.",
+          "thesis": "This origin story about Anthony Bourdain deliberately leaves out the curiosity and sexuality that defined him, and becomes an ordinary teenager's summer.",
           "paragraphs": [
-            "'Kitchen Confidential' is a darkly funny, lusty book. Bourdain writes of his first oyster as a 'glistening, vaguely sexual-looking object, still dripping and nearly alive'. He calls himself a sensualist, hungry for experience.",
-            "But Matt Johnson's 'Tony' is not about Bourdain's appetite. It follows an obnoxious middle-class teen, summer 1975 in Provincetown, chasing a girl, forced to wash pots at a seafood shack, learning discipline from the head chef, and falling for the pirate crew he works with.",
-            "There are only 1.5 sex scenes and the food looks 'just fine' — two of its problems. Bourdain's signature curiosity, sexuality, and way with people are deliberately underplayed.",
-            "Origin stories are tricky: they must plant seeds of a persona before it forms. But this film narrows its focus so much that it sidesteps the breadth, drama, and complexity of Bourdain's life, leaving a summer that could belong to anyone.",
-            "So the real problem isn't whether the film is good, but that it makes Bourdain ordinary — which is exactly what loses what made him Bourdain."
+            "Kitchen Confidential is a book of appetite, written with a sensualist's glee about the shock of a cold vichyssoise and an oyster like a 'glistening, vaguely sexual-looking object'.",
+            "Tony, however, only takes one summer in Bourdain's life, when he was a pot washer learning the rigours of service and chasing a girl. His curiosity and sex drive barely appear.",
+            "Emily Wilson famously wrote of The Odyssey that it had 'no sex scenes and all the food looks horrible'. Tony has one and a half sex scenes, and the food is fine, but the problem lies elsewhere.",
+            "Origin stories need to plant the seeds of a persona before it fully forms. This one pulls up almost every seed it should have kept.",
+            "So while it narrows its focus to a summer anyone might have had, Bourdain himself becomes the backdrop. A film about him should not leave you barely remembering who he was."
           ]
         }
       }
@@ -888,32 +953,30 @@
       "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Currie_HERO_15da91.png?w=564",
       "readingMinutes": 3,
       "score": 72,
-      "rank": 13,
+      "rank": 15,
       "review": {
         "argument": "Argument: it claims the male human pelvis has a unique forward-oriented hip socket configuration that improves walking efficiency, and contrasts it with the female pelvis constrained by childbirth. Not an announcement.",
         "transfer": "Transfers — the mechanism is how evolutionary trade-offs shape bodies differently, and the reader can apply it to thinking about sex differences and adaptation. No cap.",
         "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the study summary.",
-        "appeal": "+8 — it is about the reader's own body, has a hook (male pelvis overlooked), and is readable cold, though it lacks scenes or people."
+        "appeal": "+8 — it is about the reader's own body, has a hook (male pelvis overlooked), and is readable cold, though it stays at the level of a study report."
       },
       "summary": {
         "zh": {
-          "thesis": "男性骨盆独特的结构是一种为了高效行走的进化适应，而女性骨盆因分娩需求无法发展出这种结构。",
+          "thesis": "男性骨盆的独特结构是人类高效长途行走的进化适应。",
           "paragraphs": [
-            "关于女性骨盆的研究很多，因为「产科困境」——人类分娩比其他哺乳动物更困难——涉及许多进化权衡问题。男性骨盆相对被忽视了，直到现在。",
-            "一项发表在《Scientific Reports》上的新研究分析了 91 个现代人类骨盆和两个男性尼安德特人骨盆，发现现代男性骨盆的髋臼更朝前，这种独有结构有益于行走。",
-            "行走被描述为一系列「受控的跌落」：身体重心失衡，再迈腿接住自己。这个过程中身体下降，既给关节压力，也要耗能恢复。",
-            "男性骨盆的结构让股四头肌既能吸收冲击，又能把身体弹回，步态更省力，这可能让男性在长距离行走上有优势。女性骨盆因分娩需求无法发展出这些改造。",
-            "这些发现的应用不止于进化研究。研究者说，理解行走机制的演化，有助于当代生物力学、肌肉骨骼医学、康复和损伤预防的研究，尼安德特人的视角帮我们更懂现代人体。"
+            "关于女性骨盆的研究很多，因为分娩难题涉及直立行走、头颅大小和进化权衡。而男性骨盆一直被忽视，直到一项新研究出现。",
+            "特拉维夫大学领导的团队分析了 91 个现代人类骨盆和两个尼安德特人骨盆，发现男性现代人类骨盆的髋臼更靠前，这有利于行走。",
+            "行走像一系列受控的跌倒，身体下落会冲击关节并消耗能量。男性骨盆让腿部稍前，股四头肌能吸收冲击并弹回身体，步态更节能，适合长距离跋涉。",
+            "研究作者认为，这有助于理解现代人体，并可用于生物力学、康复和伤病预防。原来，看看祖先能帮我们更好地了解自己。"
           ]
         },
         "en": {
-          "thesis": "The unique architecture of the male human pelvis is an adaptation for efficient walking, one women's pelvises couldn't develop because of childbirth demands.",
+          "thesis": "The unique structure of the male human pelvis is an evolutionary adaptation for efficient long-distance walking.",
           "paragraphs": [
-            "There is plenty of research on the female pelvis, for good reason. The so-called 'obstetrical dilemma' — why human childbirth is so hard compared to other mammals — involves many evolutionary trade-offs. The male pelvis has been relatively overlooked, until now.",
-            "A new study in Scientific Reports analyzed 91 modern human pelvises and two male Neanderthal pelvises. It found the modern male pelvis is unique, with hip sockets oriented more toward the front, an adaptation that benefits locomotion.",
-            "Walking has been described as a series of controlled falls: you destabilize your center of gravity, then swing a leg forward to catch yourself. Each fall drops your body down, stressing joints and costing energy to recover.",
-            "The male pelvis's architecture lets the quads both absorb the shock of stepping and spring the body back up, making the gait more energy efficient. This may give men an advantage over long distances. Women's pelvises couldn't develop these modifications, being constrained by childbirth.",
-            "The findings reach beyond evolution. Understanding our walking mechanism, the researchers say, can inform biomechanics, musculoskeletal medicine, rehabilitation and injury prevention research, and the Neanderthal perspective helps us better understand the modern human body."
+            "There is a lot of research on the female pelvis, because the obstetrical dilemma involves trade-offs between childbirth, upright gait, and skull size. The male pelvis has been overlooked, until a new study came along.",
+            "A team led by Tel Aviv University analyzed 91 modern human pelvises and two Neanderthal ones, and found that the modern male pelvis has hip sockets oriented more toward the front, which helps with walking.",
+            "Walking is a series of controlled falls, and each drop strains joints and costs energy. The male pelvis positions the legs slightly forward, so the quads absorb the shock and spring the body back up, making the gait more efficient and good for long distances.",
+            "The authors say this helps understand the modern body and can inform biomechanics, rehab, and injury prevention. Sometimes looking back at where we came from shows how far we've come."
           ]
         }
       }
@@ -929,7 +992,7 @@
       "image": "https://www.wenxuecity.com/images/twdelogo.jpg",
       "readingMinutes": 7,
       "score": 55,
-      "rank": 14,
+      "rank": 16,
       "review": {
         "argument": "Argument: it claims that missing investment gains is due to delayed cognition, and caps it with the aphorism that one cannot earn or keep money beyond one's awareness. Not an announcement.",
         "transfer": "Transfers — the mechanism is how personal regret over missed opportunities is framed as a cognitive limitation, and the reader can apply this to any field where timing matters. No cap.",
@@ -938,23 +1001,21 @@
       },
       "summary": {
         "zh": {
-          "thesis": "认知晚了几年，就错过了半导体基金几百个点的涨幅。",
+          "thesis": "人挣不到认知以外的钱，认知晚了几年，就错过了半导体基金大涨的富贵。",
           "paragraphs": [
-            "硅谷居士是个计算机博士，在硅谷做软件。他今天在博客上感慨，自己到2025年秋天，才意识到AI时代真的来了，而黄仁勋三年前就看到了。",
-            "他从2022年开始重仓半导体基金SMH，过去五年这只基金涨了363%。认知晚了这几年，泼天的富贵就错过了。",
-            "有同事问他，英伟达帮客户融资买自己的GPU，左脚踩右脚，是不是到了新高度。他说，黄仁勋和华尔街大佬肯定比我们聪明，他们不担心，我们也不用杞人忧天。",
-            "他觉得人挣不到认知以外的钱，也守不住认知以外的财富。留言区里有人感慨，早知三日事，多买一顷田；还有人后悔被投资行职员劝住，错过了标普500从498涨到768那波。",
-            "但也有读者说，自己的命运是被这位博主改写的——以前只敢碰A股，后来跟着他定投美股指数，现在账户涨了30%到90%。所以这篇既是感慨，也是劝大家别羡慕，认知到位了，机会还在。"
+            "一个同事问居士，怎么看英伟达帮客户融资买自己的 GPU，感觉像左脚踩右脚。居士说，黄仁勋和华尔街的大佬们比我们聪明，他们不担心，我们就不必杞人忧天。",
+            "但居士承认，自己直到 2025 年秋天才意识到 AI 时代真的来了，而黄仁勋三年前就看到了。要是从 2022 年就开始重仓半导体基金 SMH，那该多好。",
+            "他说，人挣不到认知以外的钱，也守不住认知以外的财富。他的认知晚了几年，就错过了那些泼天的富贵。过去五年，SMH 累计上涨了 363%。",
+            "所以这篇不是投资建议，而是一个关于「认知时差」的感慨。问题不是没买，而是没早看见 —— 对普通人来说，承认这一点本身，就是开始补课。"
           ]
         },
         "en": {
-          "thesis": "A cognitive lag of a few years cost the author the massive gains of the semiconductor fund.",
+          "thesis": "People cannot earn money beyond their cognition, and being a few years late means missing the semiconductor bonanza.",
           "paragraphs": [
-            "The author, a computer science PhD working on software in Silicon Valley, writes on his blog that he only realized in the fall of 2025 that the AI era had truly arrived, while Jensen Huang had seen it three years earlier.",
-            "He started heavily investing in the semiconductor fund SMH in 2022, which rose 363% over the past five years. That few years of cognitive lag cost him the windfall.",
-            "A colleague asked him about Nvidia helping customers finance their GPU purchases, calling it 'left foot stepping on right foot.' He replied that Jensen and Wall Street bigwigs are surely smarter, and if they aren't worried, we shouldn't borrow trouble.",
-            "He believes you can't earn money beyond your cognition, nor hold wealth beyond it. In the comments, some lamented 'knowing three days ahead, you'd buy an acre more of land'; another regretted being talked out of buying by a brokerage clerk and missing the S&P 500's run from 498 to 768.",
-            "But a reader said his destiny was rewritten by this blogger: having only dared to trade A-shares, he now follows the blogger's dollar-cost averaging into US index funds, and his account is up 30% to 90%. So the piece is both lament and encouragement: don't envy, get your cognition right, and opportunities remain."
+            "A colleague asked the author what he thought of Nvidia helping clients finance purchases of its own GPUs, calling it a case of left foot stepping on right. The author said Huang and the Wall Street bigwigs are smarter than us; if they are not worried, we should not borrow trouble.",
+            "But he admitted he only realized the AI era had truly arrived in the fall of 2025, while Huang saw it three years ago. If only he had gone heavy into the semiconductor fund SMH starting in 2022.",
+            "He said people cannot earn money beyond their cognition, nor hold on to wealth beyond it. His cognition was a few years late, so he missed that bonanza. Over the past five years, SMH is up 363%.",
+            "So this is not investment advice but a reflection on 'cognitive lag.' The problem was not not buying but not seeing early enough. For ordinary people, admitting that is itself the start of catching up."
           ]
         }
       }
@@ -969,9 +1030,21 @@
       "score": 28,
       "review": {
         "argument": "Announcement: it reports the finalists of the Ocean Photographer of the Year 2026 awards and describes a selection of the images, with no contestable claim or argument beyond the contest's own promotional framing.",
-        "transfer": "A non-specialist comes away with a glimpse of beautiful ocean photography and a few facts about marine life, but the piece is essentially a curated gallery; the transfer is minimal—it does not change how one thinks about the ocean or photography.",
-        "claim": "A list: the writer selects and describes photos, but delete the writer and you lose only the curation and captions; there is no independent judgment or analysis that would be missed.",
-        "appeal": "+5 — the images are inherently appealing and some facts (like the pygmy seahorse's size) are surprising, but the piece is passive viewing, not something a reader would urgently share."
+        "transfer": "A non-specialist comes away with a glimpse of beautiful and sometimes striking ocean photographs, but the takeaway is mostly 'these photos exist' — it does not transfer to a broader way of thinking about oceans or photography.",
+        "claim": "A list: the piece is essentially a curated gallery with captions; delete the writer and you lose only the selection and brief descriptions, not any independent judgment or analysis.",
+        "appeal": "+5 — the images themselves are the hook, and a few (like the illegal longline catch or the fish market rays) offer a small surprise, but the text adds little beyond the visuals."
+      }
+    },
+    {
+      "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+      "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
+      "sourceId": "lennys",
+      "score": 20,
+      "review": {
+        "argument": "Announcement: it reports that the author tested Grok Bot, Cursor Origin, and Grok 4.6, and lists what she found, but the body is a podcast episode summary with timestamps, not a reasoned argument.",
+        "transfer": "A non-specialist comes away with little beyond 'these products exist and were tested'; the only transferable idea is that multi-account connectors are a novel feature, but it is not developed. Cap applies.",
+        "claim": "A list: the piece is a table of contents for a podcast, with no judgment argued; delete the writer and you lose only the selection of topics, not a claim.",
+        "appeal": "+0 — it is about products for people already in the AI/developer space, with no hook for a generalist and no scene or story."
       }
     },
     {
@@ -980,22 +1053,10 @@
       "sourceId": "lennys",
       "score": 20,
       "review": {
-        "argument": "Announcement: it launches a job board with a list of features, and caps with a claim that it is the best place for four tech roles.",
-        "transfer": "Non-specialist comes away with nothing transferable — it is a product launch for a niche audience, and the mechanism (vetting, AI tools) stays inside the job-search field.",
-        "claim": "A list: the writer supplies selection and features, not a contestable claim; delete the writer and you lose the announcement, not an argument.",
-        "appeal": "+0 — it is a product launch with no hook for an ordinary person, and the only people it interests are already in tech job hunting."
-      }
-    },
-    {
-      "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
-      "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
-      "sourceId": "lennys",
-      "score": 18,
-      "review": {
-        "argument": "Announcement: it reports that the author tested Grok Bot, Cursor Origin, and Grok 4.6, and lists what she learned, but the body is a table of contents and timestamps, not an argument.",
-        "transfer": "Nothing transfers — the takeaways are product-specific impressions ('multi-account connectors are the killer feature') that only matter to someone choosing among these tools; a generalist gains no portable mechanism.",
-        "claim": "A list: the piece is a podcast episode summary with timestamps and links; delete the writer and you lose only the selection of topics, not a contestable claim.",
-        "appeal": "+0 — no hook for an outsider, no scene, no contradiction of an assumption; it is a roundup for people already following the AI tool space."
+        "argument": "Announcement: it launches a job board with a list of features, and caps with a claim that it is the best place for four tech roles. Not an argument.",
+        "transfer": "Non-specialists learn that a popular newsletter is now a job board, but the mechanisms (vetting, AI tools, community roles) are specific to tech job seekers; little transfers to a general reader.",
+        "claim": "A list: the piece is a feature enumeration and a call to action; delete the writer and you lose the announcement, not a contestable claim.",
+        "appeal": "+0 — it is a product launch for a niche audience, with no hook for an ordinary person and no scene or story."
       }
     }
   ]
