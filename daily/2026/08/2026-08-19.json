@@ -1,0 +1,1337 @@
+{
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T14:00:00.026Z",
+  "window": {
+    "from": "2026-08-18T14:00:00.000Z",
+    "to": "2026-08-19T14:00:00.000Z"
+  },
+  "stats": {
+    "fetched": 44,
+    "shown": 19,
+    "folded": 0
+  },
+  "sources": [
+    {
+      "id": "heavybit",
+      "name": "Heavybit Library",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "neciudan",
+      "name": "Neciu Dan’s Blog",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "id": "platformer",
+      "name": "Platformer",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "acx",
+      "name": "Astral Codex Ten",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "marginal",
+      "name": "Marginal Revolution",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "construction-physics",
+      "name": "Construction Physics",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "nngroup",
+      "name": "Nielsen Norman Group",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "kleon",
+      "name": "Austin Kleon",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "benedict-evans",
+      "name": "Benedict Evans",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "westenberg",
+      "name": "WESTENBERG",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "bytecode",
+      "name": "ByteCode.News",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "jacobgold",
+      "name": "Jake Gold",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "pueyo",
+      "name": "Uncharted Territories",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "geohot",
+      "name": "the singularity is nearer",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "alienchow",
+      "name": "Alienchow",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "nicchan",
+      "name": "Nic Chan",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "caolan",
+      "name": "caolan.uk",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "notboring",
+      "name": "Not Boring",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "lennys",
+      "name": "Lenny's Newsletter",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "slowboring",
+      "name": "Slow Boring",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "noahpinion",
+      "name": "Noahpinion",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "ruanyifeng",
+      "name": "阮一峰的网络日志",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "ofdollars",
+      "name": "Of Dollars And Data",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "damodaran",
+      "name": "Musings on Markets",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "importai",
+      "name": "Import AI",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "mollick",
+      "name": "One Useful Thing",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "intrinsic",
+      "name": "The Intrinsic Perspective",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "calnewport",
+      "name": "Cal Newport",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "conversable",
+      "name": "Conversable Economist",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "danluu",
+      "name": "Dan Luu",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "craigmod",
+      "name": "Craig Mod",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "worksinprogress",
+      "name": "Works in Progress",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "404media",
+      "name": "404 Media",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "wheresyoured",
+      "name": "Where’s Your Ed At",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "bloodmachine",
+      "name": "Blood in the Machine",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "citationneeded",
+      "name": "Citation Needed",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "themarkup",
+      "name": "The Markup",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "restofworld",
+      "name": "Rest of World",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "pluralistic",
+      "name": "Pluralistic",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "techdirt",
+      "name": "Techdirt",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "simonwillison",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "kexuefm",
+      "name": "科学空间",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "marcbrooker",
+      "name": "Marc Brooker",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "righto",
+      "name": "Ken Shirriff",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "baoyu",
+      "name": "宝玉的分享",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "yunfeng",
+      "name": "云风的 BLOG",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "acoup",
+      "name": "ACOUP",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "quanta",
+      "name": "Quanta Magazine",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "bitsaboutmoney",
+      "name": "Bits about Money",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "apricitas",
+      "name": "Apricitas Economics",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "paristreview",
+      "name": "The Paris Review Daily",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "jstordaily",
+      "name": "JSTOR Daily",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "aeon",
+      "name": "Aeon",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "henrikkarlsson",
+      "name": "Escaping Flatland",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "convivial",
+      "name": "The Convivial Society",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "resobscura",
+      "name": "Res Obscura",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "rogerebert",
+      "name": "RogerEbert.com",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "chuapp",
+      "name": "触乐",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "fanpu",
+      "name": "返朴",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "psyche",
+      "name": "Psyche",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "vittles",
+      "name": "Vittles",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "sspai",
+      "name": "少数派",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "designobserver",
+      "name": "Design Observer",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "netinterest",
+      "name": "Net Interest",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "klement",
+      "name": "Klement on Investing",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "chartbook",
+      "name": "Chartbook",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "guigujushi",
+      "name": "硅谷居士",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "earlyretirementnow",
+      "name": "Early Retirement Now",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "awealthofcs",
+      "name": "A Wealth of Common Sense",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "jlcollins",
+      "name": "JL Collins",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "humbledollar",
+      "name": "HumbleDollar",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "alphaarchitect",
+      "name": "Alpha Architect",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "articles": [
+    {
+      "id": "f750bc8baa7294db44738713218ded9fa3056d1e",
+      "sourceId": "pluralistic",
+      "category": "tech",
+      "title": "Pluralistic: IP can't save you from AI (18 Aug 2026)",
+      "titleZh": "IP 救不了你对抗 AI",
+      "url": "https://pluralistic.net/2026/08/18/enron-corpus/",
+      "author": "Cory Doctorow",
+      "publishedAt": "2026-08-18T14:48:19.000Z",
+      "image": "https://i0.wp.com/craphound.com/images/18Aug2026.jpg?w=840&#038;ssl=1",
+      "readingMinutes": 16,
+      "score": 92,
+      "rank": 1,
+      "summary": {
+        "zh": {
+          "thesis": "版权无法保护创作者免受 AI 带来的工资侵蚀，真正的出路在于劳动权利和隐私权利，而非版权。",
+          "paragraphs": [
+            "你不必认为 AI「艺术」是好东西，也能明白资本之所以砸下万亿投资，是因为他们相信能用 AI 替换掉所有行业的工人。",
+            "许多创意工作者指望通过收紧版权来阻止 AI 训练：禁止抓取、禁止分析、禁止发布分析结果。但这会误伤大量有益活动，从《牛津英语词典》到搜索引擎再到互联网档案馆，都依赖无需授权的抓取与分析。",
+            "版权理论认为，艺术家拥有可分割的独占权利，可以像转包特许经营一样，把各种权利卖给不同的媒体公司。但成功议价不仅需要你有价值的东西，还需要谈判筹码——对方必须相信，如果压价，你就会转而与别家合作。",
+            "而版权恰恰无法给创作者提供筹码。艺术行业天然供过于求，天才也不缺，很多杰作都商业失败。再加上几十年松懈的反垄断执法，创意产业已高度集中，版权不断扩大，但创作者分到的利润比例却越来越低。",
+            "增加版权而不增加议价能力，就像给被欺负的孩子更多午餐钱，只会让欺凌者更富有。工人应当依靠劳动权利，而非版权。编剧工会是全球唯一在工作场所全面战胜 AI 的创意工人群体，他们靠的是罢工和「多雇主谈判」。",
+            "但雇主们很喜欢版权，会和你并肩作战，却绝不想阻止 AI 侵蚀你的工资。他们起诉 AI 公司，只是为了确保自己分得更多收益，而不是保护你。",
+            "今天的实例是：Spirit 航空公司破产后，受托人把全体员工的数据（邮件、日历、备忘录）卖给 Google 用于 AI 训练。工人们在这些作品上的版权归公司所有（「雇佣作品」），而美国劳动法和隐私法几乎失效。版权替代不了劳动者权益和隐私权，这些必须通过广泛的、不可剥夺的权利来保障。"
+          ]
+        },
+        "en": {
+          "thesis": "Copyright cannot protect creatives from AI-driven wage erosion; the real fixes are labor and privacy rights.",
+          "paragraphs": [
+            "You don't have to think AI 'art' is any good to see why investors pour trillions into it: they believe they can replace workers of every kind with AI.",
+            "Many creatives hope a tighter copyright would stop AI training — banning scraping, banning analysis, banning the publication of that analysis. That would hurt plenty of socially useful activities, from the OED to search engines to the Internet Archive, which all rely on unlicensed scraping and analysis.",
+            "Copyright theory says artists get exclusive sub-licensable rights, like catering contracts parceled out to pretzel stands. But successful bargaining requires leverage — the other side must believe that if they lowball you, you'll deal elsewhere.",
+            "Copyright gives no such leverage. Art naturally over-supplies; many great works flop commercially. And decades of lax antitrust have concentrated the creative industries; copyright keeps expanding, yet artists' share of profits keeps falling.",
+            "More copyright without more bargaining power is like giving a bullied kid extra lunch money — it just enriches the bullies. Workers need labor rights, not copyright. The Writers Guild, the only creatives to defeat AI in their workplace, won through a strike and 'multi-employer bargaining.'",
+            "But bosses love copyright and will fight beside you, yet they won't stop AI from eroding wages. They sue AI companies to get licenses, but they'll pay their own bosses, not you. The fight is over who gets the lion's share, not whether you stay on the menu.",
+            "Today's example: Spirit Airlines went bankrupt, and its trustees sold all employee data — emails, memos, calendar entries — to Google for AI training. Workers had copyright in that work, but it was 'works made for hire,' owned by Spirit. With US labor and privacy law all but dead, copyright proves no substitute for inalienable rights."
+          ]
+        }
+      }
+    },
+    {
+      "id": "af3143f56bc59217c926856d4175af9bce2faef8",
+      "sourceId": "pluralistic",
+      "category": "tech",
+      "title": "Pluralistic: The ordinariness of evil (19 Aug 2026)",
+      "titleZh": "邪恶的平凡性",
+      "url": "https://pluralistic.net/2026/08/19/banaility/",
+      "author": "Cory Doctorow",
+      "publishedAt": "2026-08-19T07:36:27.000Z",
+      "image": "https://i0.wp.com/craphound.com/images/19Aug2026.jpg?w=840&#038;ssl=1",
+      "readingMinutes": 11,
+      "score": 82,
+      "rank": 2,
+      "summary": {
+        "zh": {
+          "thesis": "AI 的破坏性被高管反复预言，这不是警告而是吹捧，因为 AI 的全部价值就在于「潜力」——而我们要停止放大这种叙事。",
+          "paragraphs": [
+            "AI 高管总爱公开哀叹自家产品的可怕前景，说它会抢走所有工作，甚至觉醒后把人类变成回形针。看起来很奇怪，但每句关于破坏潜力的声明，同时也是在吹嘘潜力——AI 现在真正拥有的只有潜力。",
+            "现实的 AI 只在边缘有用，需要熟练者能分辨输出的对错，还得谨慎集成。它更像个新奇玩具，或者文字处理器的插件，有用，但正常。正常技术本没问题，可真正的投入却远超正常：光是过去一年就砸了上万亿美元，还把文官成批解雇换成 AI。",
+            "AI 的破坏力是真实的，但方向被讲反了。真正的威胁不是它变得太强，而是老板们被困在囚徒困境里，没人敢承认为 AI 花的钱和毁掉的工作是浪费，于是加码下注；数据中心泡沫让官员抛弃环保审查、强征土地、铺满巨型机房；它还在耗尽水电、排放巨量碳——所有这些才是不该被「潜力」洗白的事实。",
+            "所以正确的批评是指出他们在撒谎，而不是重复他们的谎言当警告。桑德斯该说「泡沫破灭时不会救他们」，而不是争着说要国有化一半股份；看到安全工具越狱，该问「你连沙箱都做不好」，而不是惊叹「你的工具真厉害」。",
+            "最要紧的是别再把 AI 当例外。它和任何正常技术一样，有用途，不必然，可以选。把它当例外，反而把那些平庸的骗子捧成了超级反派——比如 Sam Altman，我们越是渲染他的「永恒之恶」，越帮他融到钱，让他膨胀到「大到不能关」。",
+            "这种帮倒忙的批评有个专门术语，叫「criti-hype」：把吹捧者的惊人之语翻个面，加一句「（这很糟）」就算批判。他们本来就是虚张声势的骗子，正确的做法是直说「你在吹牛」，而不是帮着传销。",
+            "所以，必须停止把 AI 当魔法，也停止把它当「原罪」。它只是电脑，是普通技术，可以被我们夺过来，用在对的地方，同时禁止有害的用法。用威廉·吉布森的话说：「街头会找到自己的用途。」"
+          ]
+        },
+        "en": {
+          "thesis": "AI bosses keep warning of their products' destructive potential, but that is a boast, because potential is all AI has — and we must stop amplifying the narrative.",
+          "paragraphs": [
+            "AI executives ritually lament their products' terrible potential: it will take all jobs, wake up and turn us into paperclips. It seems odd, until you realise that every public doomcast is also a boast about potential — and potential is genuinely all AI has.",
+            "Real AI is useful only at the margins, for skilled practitioners who can tell good output from bad, integrated carefully. It is more a novelty, a word-processor plug-in: useful, but normal. Normal tech is fine, but the commitments are not: a trillion dollars in a single year, civil servants fired en masse and replaced with chatbots.",
+            "AI's destructiveness is real, but the direction is wrong. The threat is not that it gets too powerful, but that bosses are stuck in a prisoner's dilemma — none can admit the money and jobs were wasted, so they double down. Data-centre bubbles make officials toss environmental review and seize land for server farms. It guzzles water and power, emits gigatons of carbon. That is the potential to hammer on, not the one that will pay off.",
+            "So the right criticism is to point out they are lying, not to repeat their lies as warnings. Sanders should say 'no bailouts when the bubble bursts', not fight for 50% ownership. When a security tool escapes, ask 'why is your sandbox so bad?', not 'wow, so powerful.'",
+            "Above all, stop treating AI as exceptional. It is a normal technology: some uses, not inevitable, a choice. Treating it as exceptional elevates mediocre con-men to supervillain status — like Sam Altman, whose 'eternal evil' we keep burnishing, helping him raise money until he is too big to jail.",
+            "There is a term for criticism that backfires: 'criti-hype', flipping a booster's claim and appending '(which is bad)'. They are bullshit factories; the right response is 'you are lying', not relaying the lie.",
+            "So stop treating AI as magic, and stop treating it as original sin. It is just computers — ordinary technology that we can seize and use for our own ends, blocking the harmful uses. As William Gibson said, 'the street finds its own use for things.'"
+          ]
+        }
+      }
+    },
+    {
+      "id": "f70df54cf03f0bdfe123bcf075940a111de81a47",
+      "sourceId": "wheresyoured",
+      "category": "business",
+      "title": "What Happens If OpenAI Dies?",
+      "titleZh": "如果 OpenAI 死了会怎样？",
+      "url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
+      "author": "Ed Zitron",
+      "publishedAt": "2026-08-18T15:23:40.000Z",
+      "image": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/08/data-src-image-f44da972-de07-4f16-903f-d899c85e3dc4.png",
+      "readingMinutes": 39,
+      "score": 82,
+      "rank": 3,
+      "summary": {
+        "zh": {
+          "thesis": "OpenAI 的财务状况不可持续，其死亡是大概率事件，将对整个 AI 行业和金融市场造成巨大冲击。",
+          "paragraphs": [
+            "OpenAI 正面临严重的生存危机。其烧钱速度惊人，2025 年营收 130.7 亿美元，亏损却高达 209 亿美元。收入增长正在放缓，而成本却在失控。",
+            "高管纷纷离职，COO 和 CRO 在 8 个月内相继离开。CRO 上任仅 8 个月，连数百万美元的股票期权都放弃了，这强烈暗示公司前景不佳。",
+            "OpenAI 的商业模式存在根本缺陷：收入越多，成本越高，永远无法盈利。它依赖每年超过 1000 亿美元的外部融资，但其最大的投资者——软银、亚马逊、英伟达——都已自身难保。",
+            "更糟糕的是，竞争对手 Anthropic 正准备抢先 IPO，其财务状况同样糟糕，但增长更快。一旦 Anthropic 上市，OpenAI 的估值将难以支撑，IPO 更是遥遥无期。",
+            "OpenAI 的死亡可能以多种形式出现：被微软吸收、破产清算，或与 Anthropic 合并。无论哪种情况，都将导致数千亿美元的损失，并引发科技行业的连锁反应。",
+            "所以，现在必须正视 OpenAI 倒闭的可能性。它的崩溃可能导致软银破产、甲骨文等巨头业绩重创，并让大量 AI 投资化为乌有。忽视这一点是不负责任的。"
+          ]
+        },
+        "en": {
+          "thesis": "OpenAI's financial situation is unsustainable, and its death is a high-probability event that will have a huge impact on the entire AI industry and financial markets.",
+          "paragraphs": [
+            "OpenAI is facing a serious survival crisis. Its cash burn is staggering: in 2025 it lost $20.9 billion on $13.07 billion in revenue. Revenue growth is slowing while costs spiral out of control.",
+            "Executives are leaving in droves. The COO and CRO departed within eight months. The CRO left after just eight months, forfeiting millions in stock options, a strong sign the company's prospects are grim.",
+            "OpenAI's business model has a fundamental flaw: the more it earns, the more it spends, and it can never be profitable. It depends on over $100 billion in external funding each year, but its biggest backers—SoftBank, Amazon, Nvidia—are already strained.",
+            "Worse, rival Anthropic is rushing toward an IPO with equally terrible finances but faster growth. Once Anthropic goes public, OpenAI's valuation becomes hard to justify, and its own IPO is even further out of reach.",
+            "OpenAI's death could take several forms: absorbed by Microsoft, bankruptcy, or a merger with Anthropic. Any outcome would destroy hundreds of billions of dollars and trigger a chain reaction across the tech industry.",
+            "So now we must face the possibility of OpenAI's collapse. Its demise could bankrupt SoftBank, hammer giants like Oracle, and wipe out a large share of AI investments. Ignoring this would be irresponsible."
+          ]
+        }
+      }
+    },
+    {
+      "id": "3fda61ddf774394119a82a03b16cf801c70968ff",
+      "sourceId": "jstordaily",
+      "category": "culture",
+      "title": "Where Did All the Public Bathrooms Go?",
+      "titleZh": "公共厕所都去哪了？",
+      "url": "https://daily.jstor.org/where-did-all-the-public-bathrooms-go/",
+      "author": "Jonathan Aprea",
+      "publishedAt": "2026-08-19T13:23:00.000Z",
+      "image": "https://daily.jstor.org/wp-content/uploads/2026/08/where_did_all_the_public_bathrooms_go_1_900.jpg",
+      "readingMinutes": 6,
+      "score": 78,
+      "rank": 4,
+      "summary": {
+        "zh": {
+          "thesis": "公共厕所的兴衰史表明，城市空间的真正意义往往由使用者而非设计者决定。",
+          "paragraphs": [
+            "19 世纪中叶的巴黎，霍乱疫情让人们开始把排泄物视为健康威胁，公共小便池（pissoir）应运而生。它们装饰精美，如小宫殿，但几乎无隐私可言。",
+            "它们只服务男性，因为女性被认为不属于公共生活。很快，这些小便池成了男同性恋者秘密会面的场所，这也是设计者始料未及的。",
+            "在美国，禁酒运动推动了公共厕所的建设，因为酒吧曾是事实上的公共卫生间。但公共厕所出现后，私人场所开始关门，只服务付费顾客。",
+            "禁酒令实施后，公共厕所建设放缓，已有的也年久失修。如今，大多数美国城市里，上厕所成了与商家达成的勉强协议，取决于你的社会地位。",
+            "所以，当你走在街上找不到厕所时，这段历史就是答案的一部分。公共空间的含义，从来不是设计者单方面决定的。"
+          ]
+        },
+        "en": {
+          "thesis": "The rise and fall of public toilets shows that the meaning of urban space is decided by its users, not its designers.",
+          "paragraphs": [
+            "In mid-19th-century Paris, cholera outbreaks made human waste a public health issue, so the pissoir appeared. They were ornate, like little palaces, yet offered almost no privacy.",
+            "They were built only for men, on the assumption that women had no place in public life. Soon they became meeting spots for men seeking same-sex encounters, something their designers never intended.",
+            "In the U.S., temperance advocates pushed for public restrooms, since saloons had become the de facto public toilets. But once public ones existed, private businesses began closing their doors to non-paying customers.",
+            "After Prohibition, public toilet construction slowed, and existing ones fell into disrepair. Today, in most American cities, using a toilet is a grudging agreement with a business, tinged with judgments of social status.",
+            "So if you have ever wondered why there is nowhere to pee in Chicago or New York, this history is part of the answer. The meaning of public space is never decided by designers alone."
+          ]
+        }
+      }
+    },
+    {
+      "id": "5fe3a01f16920a888d2215498479e218d27d0875",
+      "sourceId": "hn",
+      "category": "economy",
+      "title": "Scientists stunned by children's lung recovery in ultra low emission zone",
+      "titleZh": "科学家震惊：超低排放区让儿童肺部快速恢复",
+      "url": "https://www.bbc.com/news/articles/c1l1r1zne1ro",
+      "author": "dabinat",
+      "publishedAt": "2026-08-19T00:48:23.000Z",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/4dc6/live/93fc0f30-9ad4-11f1-aed2-8d6da8d75094.jpg",
+      "readingMinutes": 5,
+      "score": 78,
+      "rank": 5,
+      "summary": {
+        "zh": {
+          "thesis": "伦敦超低排放区实施后，儿童肺部生长加速追赶，证明清洁空气区能逆转污染带来的肺损伤。",
+          "paragraphs": [
+            "科学家说，他们对儿童肺部恢复的速度感到「震惊」。2019 年伦敦推出超低排放区（Ulez）后，空气污染下降，原本发育受阻的儿童肺部开始加速生长。",
+            "研究追踪了伦敦和卢顿的 3400 多名小学生，每年测肺功能。起初伦敦儿童肺活量低于卢顿，四年后两组几乎持平。研究人员称这是清洁空气区益处的迄今最强证据。",
+            "肺活量受损的比例在伦敦从 14% 降到 9%，卢顿也有类似但较小的变化。儿童暴露的二氧化氮水平在伦敦下降更快，表明改善与排放限制直接相关。",
+            "独立专家提醒要考虑其他因素，比如疫情期间的变化，或者伦敦家庭可能更多步行骑车上学。但研究者强调，两地比较已排除疫情等一般趋势的影响。",
+            "所以清洁空气区值得推广——全球有超过十亿儿童生活在污染环境中。不过研究者也承认，两地空气污染仍高于世卫标准，而且政策对企业和个人的影响需要权衡。"
+          ]
+        },
+        "en": {
+          "thesis": "Children's lungs recovered rapidly after London's Ultra Low Emission Zone, showing clean air zones can reverse pollution damage.",
+          "paragraphs": [
+            "Scientists say they are 'stunned' by how quickly children's lungs recovered. After London introduced its Ultra Low Emission Zone (Ulez) in 2019, pollution dropped and children whose lung growth had been stunted started growing faster.",
+            "The study followed more than 3,400 primary school children in London and Luton, testing their lungs every year. At first the London children had smaller lung capacity; four years later the two groups were nearly identical. Researchers call it the strongest evidence yet for the benefits of clean air zones.",
+            "The proportion of children with 'clinically impaired' lung capacity fell from 14% to 9% in London, with a smaller change in Luton. Nitrogen dioxide exposure also fell faster in London, linking the improvement to the emissions restrictions.",
+            "Independent experts caution that other factors could be at play, such as changes during the pandemic or London families walking or cycling to school more often. But the comparison with Luton rules out such general trends.",
+            "So clean air zones are worth expanding — over a billion children worldwide live in polluted environments. Still, the researchers admit pollution levels in both cities remain above WHO guidelines, and the policy's impacts on businesses and individuals need weighing."
+          ]
+        }
+      }
+    },
+    {
+      "id": "0e4bf500c5b96ca4d3795aec67d1253d5b29cf83",
+      "sourceId": "404media",
+      "category": "culture",
+      "title": "Anthropic’s Text Watermarking Proves AI Companies Do Not Care at All About Writing",
+      "titleZh": "Anthropic 的水印技术证明 AI 公司根本不在乎写作",
+      "url": "https://www.404media.co/anthropics-text-watermarking-proves-ai-companies-do-not-care-at-all-about-writing/",
+      "author": "Jason Koebler",
+      "publishedAt": "2026-08-18T15:54:15.000Z",
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/CleanShot-2026-08-18-at-08.38.52@2x.png",
+      "readingMinutes": 8,
+      "score": 76,
+      "rank": 6,
+      "summary": {
+        "zh": {
+          "thesis": "Anthropic 的水印靠微调同义词实现，这说明他们认为词语可以互换，写作只是随机选择。",
+          "paragraphs": [
+            "Anthropic 宣布未来 Claude 生成的文字会带水印，用来识别是否为 AI 所写。具体做法不是加隐藏字符，而是改变选词时的随机源，只有公司自己知道算法。",
+            "他们说这不会影响质量：「天气今天又冷又……」，下一个词是「糖」的可能极低，但「阴沉」或「灰暗」都很常见。",
+            "对普通读者，这两个词好像没区别，所以他们觉得随机挑一个就行。但任何写作的人都知道，「阴沉」和「灰暗」在特定语境里可能完全不同。",
+            "Anthropic 用来证明「质量不变」的谷歌 SynthID 研究，只是让用户在聊天界面点👍或👎，二十万条回复的点赞率只差 0.01%。这算什么质量评估？",
+            "更漏底的是他们拿代码来对比：代码要求「精确输出」，而文字在他们眼里只是「同样好」的选项。可对人类来说，每个词都带着个人经历和风格。",
+            "所以问题不只是水印，而是 AI 公司从骨子里把文字当成可替换的零件。他们用盗来的数据训练，现在又公开说选词无关紧要，写作在他们眼里只是概率游戏。"
+          ]
+        },
+        "en": {
+          "thesis": "Anthropic's watermark works by nudging synonym choices, which shows they treat words as interchangeable and writing as a random pick.",
+          "paragraphs": [
+            "Anthropic announced that future Claude text will carry a watermark to show it was AI-written. Instead of hidden characters, the trick is to alter the source of randomness behind word choice, known only to the company.",
+            "They say it won't hurt quality: after 'the weather today was cold and…', the word 'sugary' is unlikely, but 'grey' or 'overcast' are both fine.",
+            "To a casual reader the two words seem equivalent, so picking either at random appears safe. But anyone who writes knows 'grey' and 'overcast' can mean very different things in context.",
+            "Anthropic's quality evidence comes from a Google SynthID study that simply asked Gemini users to tap thumbs-up or down — across about 20 million responses, the rates differed by 0.01%. That is no way to judge writing.",
+            "And they compare their work to code, which requires 'exact output' — while words are often 'equally good'. But for a human, every word carries personal history and style.",
+            "So the real problem isn't the watermark; it's that AI companies see words as fungible parts. They trained on stolen books, and now they publicly say word choice doesn't matter. Writing, to them, is just a probability game."
+          ]
+        }
+      }
+    },
+    {
+      "id": "3c97370ae98aef83268affbe08725cac50fdb3d2",
+      "sourceId": "awealthofcs",
+      "category": "investing",
+      "title": "Animal Spirits: The Best Bear Case on AI",
+      "titleZh": "动物精神：关于 AI 的最强看空理由",
+      "url": "https://awealthofcommonsense.com/2026/08/animal-spirits-the-best-bear-case-on-ai/",
+      "author": "Ben Carlson",
+      "publishedAt": "2026-08-19T11:15:33.000Z",
+      "image": "https://awealthofcommonsense.com/wp-content/uploads/2026/08/Screenshot-2026-08-18-162647.png",
+      "readingMinutes": 4,
+      "score": 72,
+      "rank": 7,
+      "summary": {
+        "zh": {
+          "thesis": "AI 的能力增长虽快，但经济影响有限，因为比较优势决定了它不会颠覆一切。",
+          "paragraphs": [
+            "这期播客聊的是 AI 看空论调里最有说服力的一种。论据不是技术不行，而是经济学家一直是对的：AI 能力确实在暴涨，但经济影响没那么大。",
+            "推特上有人总结得很精辟：过去三年，技术专家对能力提升的判断基本正确，经济学家对经济影响的判断也基本正确。这个格局短期内不会变。",
+            "原因在于比较优势。AI 再强，也不可能在所有事情上超越人类，总有些事留给人类做更划算。所以它带来的不是全面替代，而是重新分工。",
+            "还有一个现实问题：年轻人把储蓄从股市转到体育博彩，财富管理行业有 3 万亿美元趴在现金里，说明投资者并不是盲目乐观。这些信号都在给 AI 狂热降温。",
+            "所以最强的看空理由不是 AI 会失败，而是它不会像牛市预期那样改写经济。能力归能力，影响归影响，两者要分开看。"
+          ]
+        },
+        "en": {
+          "thesis": "AI capabilities are surging, but the economic impact stays modest because comparative advantage means it will not upend everything.",
+          "paragraphs": [
+            "This episode of the podcast takes up the most persuasive bear case on AI. The argument is not that the technology fails, but that the economists have been right all along: capabilities are exploding, yet the economic effects are muted.",
+            "One tweet put it neatly: over the past three years, technologists have largely been right about the surge in capability, and economists have largely been right about the impact. That split is not about to change.",
+            "The reason is comparative advantage. No matter how strong AI gets, it cannot beat humans at everything, so some tasks will stay cheaper for people. The result is not wholesale replacement but a reshuffle of work.",
+            "There is also a real-world caution: young people are moving savings from stocks into sports betting, and the wealth management industry has $3 trillion parked in cash, which suggests investors are not blindly euphoric. These signals cool the AI frenzy.",
+            "So the strongest bear case is not that AI fails, but that it will not rewrite the economy the way a bull market expects. Capability is one thing, impact another, and they should be judged separately."
+          ]
+        }
+      }
+    },
+    {
+      "id": "cd1063b70ffd779bf6be0a31d2a208eeab088760",
+      "sourceId": "psyche",
+      "category": "culture",
+      "title": "Arabic has four words for sadness. Philosophy explains why",
+      "titleZh": "阿拉伯语有四个表示悲伤的词，哲学揭示了原因",
+      "url": "https://psyche.co/ideas/arabic-has-four-words-for-sadness-philosophy-explains-why",
+      "author": "Chereen Shurafa",
+      "publishedAt": "2026-08-19T10:00:00.000Z",
+      "image": "https://images.aeonmedia.co/images/ce4c734b-c715-4472-bfc2-5f14b0cd88f4/sz-mg199752.jpg?top=264&left=0&cropWidth=2576&cropHeight=1449&width=1200&quality=75&format=auto",
+      "readingMinutes": 1,
+      "score": 72,
+      "rank": 8,
+      "summary": {
+        "zh": {
+          "thesis": "阿拉伯语对悲伤的细分词汇，反映了文化对情感体验的特定分类方式，哲学分析能揭示其背后的心理和社会逻辑。",
+          "paragraphs": [
+            "阿拉伯语中至少有四个词表示不同种类的悲伤，而英语中通常只有一个。这种词汇差异不是随机的，它暗示着阿拉伯文化对情感的体验和分类有更精细的区分。",
+            "哲学家的分析指出，语言并非只是命名的工具，它塑造了我们对情感的认知。不同的词汇意味着不同的注意焦点，也可能影响人们对悲伤的理解和表达。",
+            "这种多词的悲伤并非纯粹的负面，它们可能指向不同的应对方式或社会支持系统。理解这些词汇，有助于我们理解阿拉伯社会的文化心理和情感智慧。",
+            "所以，语言差异背后是文化对情感世界的深刻洞察，阿拉伯语的丰富词汇提醒我们，情感体验的多样性值得被正视和表达。"
+          ]
+        },
+        "en": {
+          "thesis": "Arabic's multiple words for sadness mirror a culturally specific taxonomy of emotion, which philosophy helps illuminate.",
+          "paragraphs": [
+            "Arabic has at least four words for distinct kinds of sadness, where English usually has one. This lexical difference is not random; it hints at a finer-grained way of experiencing and classifying emotions in Arab culture.",
+            "Philosophers argue that language is not just a naming tool but shapes how we perceive emotion. Different words mean different foci of attention, potentially influencing how people understand and express their grief.",
+            "These multiple sadnesses are not purely negative; they may point to different coping strategies or social support systems. Understanding them offers insight into Arab cultural psychology and emotional wisdom.",
+            "So behind linguistic variety lies a culture's deep insight into the emotional world. Arabic's wealth of words reminds us that emotional experience is diverse and deserves recognition and expression."
+          ]
+        }
+      }
+    },
+    {
+      "id": "3755894f311e5ed3befe091f7eeae3d24c3d98e1",
+      "sourceId": "acx",
+      "category": "culture",
+      "title": "Why I'm Staying Out Of The Substack Religion Debate",
+      "titleZh": "我为什么不参与 Substack 上的宗教大辩论",
+      "url": "https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack",
+      "author": "Scott Alexander",
+      "publishedAt": "2026-08-19T05:24:22.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/c61a631a-1a1c-46b0-9474-7db4e4747c95_834x531.jpeg",
+      "readingMinutes": 15,
+      "score": 72,
+      "rank": 9,
+      "summary": {
+        "zh": {
+          "thesis": "作者不用论证来反驳上帝存在，因为这种「强大隐藏实体」解释天生过度拟合，该被预先排除。",
+          "paragraphs": [
+            "最近 Substack 上又吵起了上帝是否存在，好几个作者轮番上阵，让作者想起 2000 年代初的网上无神论热潮。但他发现自己提不起兴致了。",
+            "他的不信不是基于精细论证，而是更本能的东西。打个比方：如果有人认真论证拿破仑的崛起是外星人暗中相助，理由还挺多，你会懒得反驳，因为常识就把它排除在外了。",
+            "这种「强大隐藏实体故意促成特定结果」的解释，什么问题都能套，还能绕过常规反驳。作者称之为过度拟合，应该预加惩罚，就像对待阴谋论一样。",
+            "有人辩护说上帝最简单，因为他是无限的存在，减去所有限制。但作者指出，你减掉的都是负面属性，实际是在加东西。按这逻辑，造星舰该比造双翼机容易才对。",
+            "还有人说意识需要一个奇特的基质，于是计算也可以发生在上面。但计算显然可以在普通大脑上实现，证据一抓一大把，所以这个路子也走不通。",
+            "所以作者的意思是，这类解释从一开始就不该进入严肃辩论。他也承认这有点冒险，但比起陷入繁琐的论证，他更愿意相信这种直觉。"
+          ]
+        },
+        "en": {
+          "thesis": "The author doesn't rebut God's existence with argument, because such 'powerful hidden entity' explanations are inherently overfit and deserve preemptive exclusion.",
+          "paragraphs": [
+            "Recently Substack has been buzzing with debates over God's existence, with several authors taking turns, reminding the author of the early 2000s online atheism wave. But he finds himself uninterested.",
+            "His disbelief isn't based on fine-grained argument but on something more instinctual. Consider: if someone seriously argued that Napoleon's rise was secretly aided by aliens, with plenty of reasons, you'd be too lazy to rebut, because common sense rules it out.",
+            "This 'powerful hidden entity deliberately caused a specific outcome' explanation can fit anything and dodge normal rebuttals. The author calls it overfitting and says it deserves a preemptive penalty, like conspiracy theories.",
+            "Some defend God as simplest because He is infinite, lacking all limits. But the author notes that what you subtract are negative attributes, so you're actually adding. By that logic, building a starship should be easier than a biplane.",
+            "Others say consciousness needs an exotic substrate, so computation could happen there too. But computation clearly works in an ordinary brain, with abundant evidence, so that route also fails.",
+            "So the author means such explanations shouldn't enter serious debate from the start. He admits it's risky, but prefers that intuition over getting lost in weeds of argument."
+          ]
+        }
+      }
+    },
+    {
+      "id": "4039f7c6634f1436a8bfb9599df9bbd1749e85af",
+      "sourceId": "techdirt",
+      "category": "tech",
+      "title": "Libraries Beg Brendan Carr To Back Off Plan To Make U.S. Broadband Shittier, More Expensive",
+      "titleZh": "图书馆组织请求 Brendan Carr 放弃让美国宽带更差更贵的计划",
+      "url": "https://www.techdirt.com/2026/08/19/libraries-beg-brendan-carr-to-back-off-plan-to-make-u-s-broadband-shittier-more-expensive/",
+      "author": "Karl Bode",
+      "publishedAt": "2026-08-19T12:22:09.000Z",
+      "image": "https://www.techdirt.com/wp-content/themes/techdirt/assets/images/td-rect-logo-white.png",
+      "readingMinutes": 4,
+      "score": 68,
+      "rank": 10,
+      "summary": {
+        "zh": {
+          "thesis": "Carr 借「屏幕时间」之名削减 E-Rate 计划，实则是为了讨好电信巨头并推行审查。",
+          "paragraphs": [
+            "六月份，特朗普任命的 FCC 主席 Brendan Carr 宣布要「改革」E-Rate 计划。这个计划几十年来两党支持，专门给乡村图书馆和学校提供平价宽带。他说担心孩子「屏幕时间」太长，想把钱省下来。",
+            "但 FCC 根本不管屏幕时间，而且 E-Rate 是国会授权的。Carr 一边抱怨政府越权，一边自己越权，还想偷偷改规矩。",
+            "图书馆组织这周提交意见，指出他的理由是个稻草人。E-Rate 每年花约 30 亿美元，把宽带送进电信垄断企业不服务的地区。欺诈确实有，但多是 AT&T 这类公司干的，而 Carr 不敢管它们。",
+            "Carr 在 Fox 上又说，学生用自带设备能绕过学校过滤，看到色情内容。可学校本来就有过滤系统，虽不完美。再说，决定内容是否合适也不是 FCC 的职责。",
+            "所以这哪里是保护孩子，分明是借保护孩子的名义，让乡村和低收入地区的宽带更贵更差。他的真实目的，一是让 AT&T 们多赚钱，二是把右翼审查推进课堂。"
+          ]
+        },
+        "en": {
+          "thesis": "Carr is using 'screen time' as a pretext to gut E-Rate, serving telecom giants and the censorial right.",
+          "paragraphs": [
+            "In June, Trump's FCC chief Brendan Carr announced he would 'reform' the E-Rate program. It has been a bipartisan, uncontroversial program for decades, bringing affordable broadband to rural libraries and schools. He says he is worried about too much 'screen time' and wants to cut spending.",
+            "But the FCC has no role in screen time, and E-Rate was mandated by Congress. Carr complains about government overreach while overreaching himself, and he is quietly trying to change the rules.",
+            "Library groups filed comments this week, calling his rationale a straw man. E-Rate spends about $3 billion a year to bring broadband to areas ignored by telecom monopolies. There is fraud, but it is mostly by companies like AT&T, which Carr refuses to regulate.",
+            "On Fox, Carr said students can bypass school filters with their own devices and see porn. But schools already have filters, imperfect as they are. And deciding what content is acceptable is not the FCC's job.",
+            "So this is not about protecting kids; it is about making broadband worse and costlier in rural and low-income areas. His real goals are to please the AT&Ts and push right-wing censorship into classrooms."
+          ]
+        }
+      }
+    },
+    {
+      "id": "82c14c754e1df85c6ea453d315505e2ebbb776d0",
+      "sourceId": "conversable",
+      "category": "science",
+      "title": "The Generalizability Problem, the Natural Field Experiments Answer",
+      "titleZh": "概括性问题，自然田野实验来回答",
+      "url": "https://conversableeconomist.com/2026/08/18/the-generalizability-problem-the-natural-field-experiments-answer/",
+      "author": "conversableeconomist",
+      "publishedAt": "2026-08-18T16:21:40.000Z",
+      "image": "https://i0.wp.com/conversableeconomist.com/wp-content/uploads/2021/08/cropped-Screen-Shot-2021-08-23-at-2.04.56-PM.png?fit=889%2C66&#038;ssl=1",
+      "readingMinutes": 3,
+      "score": 68,
+      "rank": 11,
+      "summary": {
+        "zh": {
+          "thesis": "社会科学研究从小规模推广到更大范围时经常失效，而自然田野实验能提供更可靠的答案。",
+          "paragraphs": [
+            "社会科学有个老问题：小范围研究得出的结论，放到别处还成立吗？比如某个学区的项目提升了成绩和毕业率，换一个学区、一个州、一个国家还管用吗？这就是概括性问题。",
+            "John A. List 在《自然》上给出自己的答案，还举了个生动的反例。美国曾有 30 多个州推行「恐吓改造」项目，把问题青少年带去重刑犯监狱，想吓住他们。试点时效果很好，80% 到 90% 的参与者没再惹事，但推广后却失效了，有些地方犯罪率反而上升。",
+            "问题出在哪？人不一样，生活在不同的社会、经济、文化里；而且被观察本身就会改变行为。List 是自然田野实验的旗手：设计研究时不让参与者知道自己身处实验。经典做法是「审计研究」，让履历相似但种族不同的助理去租房、贷款、买车、求职，暗中测试歧视。",
+            "这类实验要过伦理审查，但只让不知情的参与者做日常就会做的事。List 如今是沃尔玛的首席经济学家，团队正在和 6000 多家供应商做实验，测试怎么激励它们减排。他建议政府和公司都别让变化自然发生，而是去系统性地设计和学习——世界上的自然田野实验不是太多，而是太少了。"
+          ]
+        },
+        "en": {
+          "thesis": "Social science findings often fail when scaled up, and natural field experiments offer a more reliable answer.",
+          "paragraphs": [
+            "Social science has an old problem: does a finding from a small study hold elsewhere? A program raises test scores and graduation rates in one district, but will it work in another, a whole state, a whole country? That is the generalizability problem.",
+            "John A. List gives his answer in Nature, with a vivid counterexample. Over 30 US states ran Scared Straight, taking at-risk teens to maximum-security prisons to frighten them straight. It worked in a pilot, with 80-90% staying out of trouble, but failed when scaled - in some places teen crime even rose.",
+            "Why? People differ, and live in different societies, economies, cultures; also, being observed changes behavior. List champions natural field experiments, where participants don't know they are in a study. Classic audit studies send assistants with similar credentials but different races to rent apartments, get loans, buy cars, apply for jobs, quietly testing discrimination.",
+            "These need ethics approval, but only ask unwitting participants to do what they'd do anyway. Now chief economist at Walmart, List's team runs experiments with 6,000+ suppliers to see what best cuts their carbon emissions. He argues that governments and firms should stop letting variation happen and instead design and learn from it systematically - the world has too few natural field experiments, not too many."
+          ]
+        }
+      }
+    },
+    {
+      "id": "215427bf90c21033aefb288ba3913307d517ec74",
+      "sourceId": "slowboring",
+      "category": "economy",
+      "title": "Two kinds of moderate Democrats",
+      "titleZh": "两种温和派民主党人",
+      "url": "https://www.slowboring.com/p/two-kinds-of-moderate-democrats",
+      "author": "Matthew Yglesias",
+      "publishedAt": "2026-08-19T10:02:12.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!nLNX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4f9cc6f-bb67-4556-b312-89a27eb14c30_5854x3903.jpeg",
+      "readingMinutes": 10,
+      "score": 67,
+      "rank": 12,
+      "summary": {
+        "zh": {
+          "thesis": "温和派民主党人分两种，一种出于策略，一种出于信念，而后者才是党内真正稀缺的。",
+          "paragraphs": [
+            "民主党温和派可以分成两种：策略型温和派和信念型温和派。表面很难分辨，因为策略型的人嘴上都会说自己是信念型，而信念型的人也会用策略理由来拉支持。区别往往只在关键时刻显露。",
+            "阿比盖尔·斯潘伯格是弗吉尼亚州长，她本可以迎合进步派建制派，却选择对民主党议会施加制衡。她质疑强制地方员工集体谈判，我认为她在道理上是对的。",
+            "萨拉·麦克布莱德在节目中试图为跨性别运动员议题留出战术退路，而娜芙拉蒂洛娃则直接说左派在这事上根本错了。我觉得在合理范围内，策略型温和是聪明的。",
+            "路易斯安那的贝尔·爱德华兹就是个例子：他在枪支和堕胎上持保守立场，但正因如此他才能赢下州长，要是换进步派的人，那个州根本赢不了。我甚至希望他去选参议员。",
+            "但问题是，策略型温和的潜力已经快用完了。扩张红州的候选人名单是个合理议程，但想真正抓住党派的核心，最终还得靠基于信念的论证。",
+            "乔·曼钦是另一个例子。进步派希望他在 2021-22 年拼一把，投票废除冗长辩论，推动全面进步议程。但这不现实：一个西弗吉尼亚的参议员，怎么可能真心同意进步派的一切？",
+            "曼钦反对建设更好法案，认为它会引发通胀，这其实是对的。他还推动气候政策更侧重创新，而不是一味反对管道，这些观点在道理上站得住脚。",
+            "反过来看夏威夷的爱德·凯斯，他是真正的信念型温和派。他的选区是个深蓝区，哈里斯赢了他 62 比 37，他根本不需要靠温和来赢选举。但他仍然坚持温和立场，纯粹因为他相信这些。",
+            "他还输过几次全州初选，因为夏威夷的民主党初选选民更偏进步。但他还是用道理说服了选民，挡住了这次初选挑战。",
+            "真正的信念型温和派太少了。大多数安全席位的议员都在压制自己的异见，只会泛泛而谈「要改变党」，或者抱怨激进左派。但艾奥瓦州翻转不是因为桑德斯，而是因为主流民主党人变得更左了。",
+            "所以问题在于：温和派总说要「改变党」，却提不出自己的议程。他们太怕输给左派，反而忘了自己应该和左派不一样。",
+            "其实真正的温和议程并不神秘：削减赤字、发展清洁能源、提高教师绩效工资、控制犯罪、维护边境安全。这些都是实质性的温和立场，但很少有人敢大声说。",
+            "我认为，主动挑这些仗——不是和左派打，而是和建制派打——会让温和派显得更真实、更有趣。用充足的住房、蓝色的经济增长、低犯罪率来开辟机会，这样的议程是有吸引力的。",
+            "纽约和加州在教孩子阅读上比密西西比还差，这真的很丢人。如果这些资源真的发挥了作用，那该多好。",
+            "所以，温和派需要更多爱德·凯斯的能量。赢选举靠策略，但也不能全是策略。真正的信念型温和派应该站出来，和左派真正有所区别。"
+          ]
+        },
+        "en": {
+          "thesis": "Democratic moderates fall into two types, one tactical and one believing, and the latter is what the party really lacks.",
+          "paragraphs": [
+            "Democratic moderates can be divided into two kinds: tactical moderates and true believers. On the surface they are hard to tell apart, because tactical ones will of course say they are true believers, and true believers make tactical arguments as well. The difference usually only shows in the moment.",
+            "Abigail Spanberger, the Virginia governor, could have catered to the Progressive Establishment, but instead acts as a brake on the Democratic legislature. She questions mandating collective bargaining for local employees, which I think is correct on the merits.",
+            "Sarah McBride, on a podcast, seemed to be creating space for a tactical retreat on trans athletes, while Martina Navratilova simply said the left is wrong on this. I think tactical moderation is smart, within reasonable bounds.",
+            "John Bel Edwards of Louisiana is an example: he held conservative positions on guns and abortion precisely so he could win the governorship, which a progressive could not have. I even wish he had run for Senate.",
+            "But the problem is that the potential of tactical moderation is running out. Expanding recruitment in red states is a fine agenda, but to capture the heart of the party, you eventually need arguments grounded in conviction.",
+            "Joe Manchin is another case. Progressives wanted him to YOLO it in 2021-22, vote for filibuster abolition and a sweeping agenda. But that is unrealistic: a West Virginia senator cannot genuinely agree with progressives on everything.",
+            "Manchin was right on the merits to oppose the Build Back Better bill as inflationary, and his push for innovation-focused climate policy over blocking pipelines was right. He found genuine points of disagreement.",
+            "On the other end, Ed Case of Hawaii is a true believer. His district is deep blue, Harris won it 62-37; he gains no electoral edge from moderation. He is moderate because he believes it.",
+            "He has lost several statewide primaries because Hawaii's primary voters are more progressive. Yet he fended off an insurgent challenger this cycle purely by arguing the merits.",
+            "True believing moderates are rare. Most safe-seat members suppress their heterodoxies, and only speak in vague terms about changing the party's brand or blaming the left. But Iowa flipped because mainstream Democrats got more left-wing, not because of Bernie.",
+            "So the issue is: moderates talk about changing the party but offer no agenda of their own. They are so afraid of losing to leftists that they forget to actually be different from them.",
+            "Yet a real centrist agenda is not secret: deficit reduction, clean energy abundance, performance pay for teachers, crime control, border security. These are substantive moderation positions, but few dare to voice them.",
+            "I think picking those fights — not with the left, but with the establishment — makes moderates seem more authentic and interesting. An agenda of abundant housing, blue-state growth, and low crime is genuinely inspiring.",
+            "It is shameful that New York and California are worse at teaching kids to read than Mississippi, and amazing if their school systems' results matched their resources.",
+            "So moderates need more Ed Case energy. Winning elections takes tactics, but it cannot be all tactics. True believing moderates should step up and actually differ from the left."
+          ]
+        }
+      }
+    },
+    {
+      "id": "5f102190bfb2a89019b47ca52bb1de4ae882aefb",
+      "sourceId": "marginal",
+      "category": "tech",
+      "title": "Capitalizing untethered AI agents",
+      "titleZh": "为不受约束的 AI 代理注入资本",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/capitalizing-untethered-ai-agents.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2026-08-19T04:21:02.000Z",
+      "image": null,
+      "readingMinutes": 2,
+      "score": 65,
+      "rank": 13,
+      "summary": {
+        "zh": {
+          "thesis": "资本金要求可以帮助约束不受人类法律追责的 AI 代理。",
+          "paragraphs": [
+            "早在 2017 年，欧洲议会就提出过给机器人「电子人格」。最近美国几个州立法明确禁止 AI 拥有人格，而阿根廷总统米莱则提议让 AI 代理自己拥有、管理并承担公司责任。",
+            "赫拉利对此质疑：我们无法让 AI 代理负责，它既没钱可罚，也没身体可关。乔治梅森大学的拉贾戈帕兰指出，AI 能聪明行事，但只有人类才对法律激励做出反应。",
+            "「不受约束」指无法追溯到需负法律责任的个人或机构。代理可能被故意释放，或创建者死亡、消失，也可能由朝鲜等国家创建，或者被空壳公司控制，甚至被层层代理链切断联系。",
+            "法律或许终将厘清这些，但中间会有空窗期。作者认为，要求代理持有一定资本，或可促进对齐。这篇约 22 页的文章与哈佛的 Sonia 合著，发布在她的 Substack 上，值得一读。"
+          ]
+        },
+        "en": {
+          "thesis": "Capital requirements can help rein in AI agents that no human or institution is legally accountable for.",
+          "paragraphs": [
+            "As early as 2017, the European Parliament floated the idea of electronic personhood for robots. Lately, several U.S. states have passed laws explicitly barring AI from legal personhood, while Argentina's President Milei has proposed letting AI agents own, manage, and bear responsibility for their own corporations.",
+            "Yuval Noah Harari objects: we have no way to hold an AI agent accountable — it has no money to lose and no body to imprison. Shruti Rajagopalan of George Mason's Mercatus Center notes that AI can act intelligently, but only humans respond to the incentives the law creates.",
+            "An untethered agent is one whose actions cannot be traced to a legally responsible human or institution. It may be deliberately set free, its creator may die or vanish, it may be based in a country like North Korea, controlled by a shell corporation, or buried under a chain of subagents.",
+            "The law may eventually sort this out, but there will be an interim gap. The authors propose requiring agents to hold capital as a way to improve alignment. This 22-page essay, co-authored with Sonia Farrell Pearson of Harvard, is published on her Substack and is well worth reading."
+          ]
+        }
+      }
+    },
+    {
+      "id": "f5a621a783d044f7052f772bcb64fdc6d097c574",
+      "sourceId": "nautilus",
+      "category": "science",
+      "title": "Why You Move Factors in to Whether It Protects You From Dementia",
+      "titleZh": "为什么运动能否预防痴呆，取决于你怎么动",
+      "url": "https://nautil.us/why-you-move-factors-in-to-whether-it-protects-you-from-dementia-1283940/",
+      "author": "Jake Currie",
+      "publishedAt": "2026-08-18T22:30:00.000Z",
+      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Currie_HERO_cbe7be.png?w=564",
+      "readingMinutes": 3,
+      "score": 64,
+      "rank": 14,
+      "summary": {
+        "zh": {
+          "thesis": "运动能否预防痴呆，取决于运动的场合：休闲运动降低风险，体力工作反而升高。",
+          "paragraphs": [
+            "我们知道经常运动能降低痴呆风险，但《柳叶刀·公共卫生》新发表的元综述发现，这话有个大前提：得看你在什么场合动。研究汇总了 420 多万成年人的数据。",
+            "休闲时运动的人，比如跑步、骑车、打球，痴呆风险降低 24%。但从事体力要求高的职业，风险反而升高 20%。这被称为「体力活动悖论」，之前已知与心血管病有关，现在扩展到了痴呆。",
+            "原因还不清楚，但有一些猜测。休闲运动通常让人放松，能减轻压力，还常伴随社交，这两者都可能有保护作用。体力工作则相反：任务重复、恢复时间少，还暴露于噪音和空气污染，也可能增加痴呆风险。",
+            "另外，干完累活，下班后也懒得再锻炼了。所以研究者建议：多建安全公园和步道，保证大家有闲暇，同时改善工作环境，可能和推广运动本身一样重要。"
+          ]
+        },
+        "en": {
+          "thesis": "Whether exercise protects against dementia depends on the context: leisure exercise lowers risk, physical labor raises it.",
+          "paragraphs": [
+            "Regular exercise is known to cut dementia risk, but a new meta-review in The Lancet Public Health finds a big caveat: it depends on the context. The researchers pooled data from over 4.2 million adults.",
+            "Leisure-time activity — running, cycling, sports — was tied to a 24% lower risk of dementia. But physically demanding jobs were linked to a 20% higher risk. Known as the physical activity paradox, this was already seen in heart disease; now it extends to the brain.",
+            "Why? The reasons are unclear, but they have guesses. Leisure activity tends to be relaxing, which reduces stress, and is often social, both of which may protect the brain. Demanding jobs are the opposite: repetitive, with little recovery time, plus exposure to noise and air pollution, all possible dementia contributors.",
+            "And after a hard day's work, people have little energy or desire to exercise. So the researchers suggest that safe parks, walking trails, adequate leisure time, and better workplace conditions may be as important as promoting exercise itself."
+          ]
+        }
+      }
+    },
+    {
+      "id": "5974e6f0be5be9f395df83833b8974190a65ee28",
+      "sourceId": "awealthofcs",
+      "category": "living",
+      "title": "Getting Ahead Has Never Been Easy",
+      "titleZh": "出人头地从来都不容易",
+      "url": "https://awealthofcommonsense.com/2026/08/getting-ahead-has-never-been-easy/",
+      "author": "Ben Carlson",
+      "publishedAt": "2026-08-18T17:31:19.000Z",
+      "image": "https://awealthofcommonsense.com/wp-content/uploads/2026/08/Screenshot-2026-08-18-124943.png",
+      "readingMinutes": 5,
+      "score": 63,
+      "rank": 15,
+      "summary": {
+        "zh": {
+          "thesis": "过去的人想致富比今天更难，所以如今抱怨的困难其实是一种进步的体现。",
+          "paragraphs": [
+            "有个网站叫 Ordinary Abundance，专门摘录从前的人对当时新事物的惊叹——电、自来水、医疗、音乐点播。这些如今我们视为理所当然。",
+            "我们不但不庆祝，反而抱怨：航班 WiFi 断了、视频通话卡了一下、当日达晚了几小时、手机电池不耐用了。这些都是进步的标志。",
+            "历史书总提醒你，过去的日子有多难受。19 世纪末，65 岁以上的男人还有四分之三在工作；能退休的人里，一半和子女或亲戚同住。1929 年，近三分之二的美国住户生活在贫困线以下。",
+            "想赚钱更难。1870 年，食物、房租、衣服要花掉每块钱里的 91 分，现在不到 40 分。那时普通男人一周干 60 小时，女人更多。钱还可能一夜贬值，银行倒闭、房子烧了、庄稼歉收，就什么都没了。",
+            "所以别把过去浪漫化。没有哪个时代赚钱是容易的，今天虽然不轻松，但比起祖辈，已经容易太多。记住这一点，你至少能少一些抱怨。"
+          ]
+        },
+        "en": {
+          "thesis": "People in the past found it much harder to get ahead, so today's complaints are actually a sign of progress.",
+          "paragraphs": [
+            "There is a website, Ordinary Abundance, that pulls old quotes from people who marveled at new breakthroughs like electricity, running water, medicine, and on-demand music. We now take them for granted.",
+            "Instead of celebrating, we complain: when the flight WiFi drops, when a video call lags, when same-day delivery is late, when the phone battery doesn't last as long. All signs of progress.",
+            "History is a constant reminder of how uncomfortable life used to be. In the late 19th century, three-quarters of men over 65 were still in the labor force, and half of those who could retire lived with children or relatives. In 1929, nearly two-thirds of American households lived below the poverty line.",
+            "Making money was harder too. In 1870, food, rent, and clothing took 91 cents of every dollar earned, compared to under 40 cents today. The typical man worked sixty hours a week, women more. Money could lose value overnight, and if your bank failed or your house burned, you lost everything.",
+            "So don't romanticize the past. There has never been a golden era when it was easy to get rich. Things are not easy today, but in many ways they are a lot easier than they used to be. Keep that in mind and you might complain a little less."
+          ]
+        }
+      }
+    },
+    {
+      "id": "a7a68ed68fd1e6e514817c6d918e7b28b54a0726",
+      "sourceId": "rogerebert",
+      "category": "business",
+      "title": "I Was Compelled to Revisit: Rory Kennedy on “Freefall: A Reckoning For Boeing”",
+      "titleZh": "我不得不回去：罗里·肯尼迪谈《自由落体：波音的清算》",
+      "url": "https://www.rogerebert.com/interviews/downfall-case-against-boeing-rory-kennedy-interview",
+      "author": "Nell Minow",
+      "publishedAt": "2026-08-19T13:00:00.000Z",
+      "image": "https://www.rogerebert.com/wp-content/uploads/2026/08/Rory-Kennedy-Headshot-2026-Photo-Credit-James-Vespa.jpg",
+      "readingMinutes": 7,
+      "score": 62,
+      "rank": 16,
+      "summary": {
+        "zh": {
+          "thesis": "波音在 346 人死于两起坠机后仍将利润置于安全之上，且从未真正承担刑事责任。",
+          "paragraphs": [
+            "肯尼迪曾拍过《坠落：波音案》，聚焦 737 MAX 的两次坠机。如今推出续作《自由落体》，因为波音承认过失后，事故仍在不断发生。",
+            "引擎掉落、舷窗爆炸、机舱冒烟，新闻里接连出现。当年接受她采访的吹哨人约翰·巴尼特，在作证期间离奇死亡，更多吹哨人私下找上她。",
+            "新片从吹哨人的视角进入波音工厂。她指出，公司早已从重质量转向重利润，源头是麦道合并、总部迁离西雅图，以及杰克·韦尔奇那套股东至上的管理模式。",
+            "波音在法律上认了错，但没有任何高管入狱。1985 年日航坠机后，社长高木养根亲自登门向遇难者家属道歉，而波音的 CEO 拿走上亿美元，却连电话都没打。",
+            "她认为，要改变现状，必须有一位工程师出身的 CEO 把安全放在首位，司法部也要真正追责，恢复 FAA 的监管经费，斩断监管与企业的旋转门。",
+            "所以，这件事靠的是选举。观众该去查自己选的人，是否支持那些能约束大公司的监管机构。"
+          ]
+        },
+        "en": {
+          "thesis": "Boeing still puts profit above safety after 346 deaths, and no one has faced criminal consequences.",
+          "paragraphs": [
+            "Kennedy made 'Downfall: The Case Against Boeing' about two 737 MAX crashes. Now she has a sequel, 'Freefall', because after Boeing admitted fault, the incidents kept coming.",
+            "Engines falling off, windows blowing out, smoke in the cabin — the news was full of them. Whistleblower John Barnett, who she had interviewed, died under suspicious circumstances while testifying, and others reached out to her.",
+            "The new film goes inside the factories, from the whistleblowers' perspective. She points to a shift from quality to profit, rooted in the McDonnell Douglas merger, the headquarters moving out of Seattle, and the Jack Welch model of shareholder primacy.",
+            "Boeing admitted legal responsibility but no executive has gone to prison. After JAL's 1985 crash, the president personally visited victims' families to apologize; Boeing's CEO made over a hundred million dollars and didn't even call.",
+            "Her answer: an engineer-led CEO who puts safety first, a Justice Department that actually prosecutes, proper funding for the FAA, and an end to the revolving door between regulator and company.",
+            "So it comes down to elections. Voters should look up whether their candidates support the agencies that regulate corporations."
+          ]
+        }
+      }
+    },
+    {
+      "id": "a8676fa54e90ee2a3f52559d8419b809165a9ed9",
+      "sourceId": "klement",
+      "category": "investing",
+      "title": "If this is true, the hyperscalers are toast",
+      "titleZh": "如果这是真的，超大规模云厂商要完了",
+      "url": "https://klementoninvesting.substack.com/p/if-this-is-true-the-hyperscalers",
+      "author": "Joachim Klement",
+      "publishedAt": "2026-08-19T06:00:54.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/e4827262-1cea-49a3-ae80-6d2267663426_640x792.jpeg",
+      "readingMinutes": 5,
+      "score": 58,
+      "rank": 17,
+      "summary": {
+        "zh": {
+          "thesis": "斯坦福的研究显示，小语言模型在多数任务上已能媲美大模型，且成本低得多，数据中心投资可能血本无归。",
+          "paragraphs": [
+            "斯坦福大学的一篇论文对比了本地运行的小语言模型（SLM）和云端大语言模型（LLM）。作者说，如果结果成立，我们未来几乎不需要数据中心，超大规模云厂商的巨额投资将打水漂。",
+            "他们用本地 PC 上的 QWEN、GEMMA 等 SLM，对比 ChatGPT、Claude 等云端 LLM。在聊天任务上，SLM 有 98.6% 的概率不输 LLM；在推理任务上，这个比例也有 62.5%。",
+            "混合任务加权后，SLM 在 81.2% 的情况下与 LLM 持平或更优，仅有工程、生命科学等少数领域明显落后。而且 SLM 的能耗和算力成本比 LLM 低 50% 到 85%。",
+            "SLM 追赶得很快。2023 年推理成功率只有 50% 左右，到 2025 年 10 月，简单推理已达 99%，最难的第 5 级也有 51.5%。作者推算，美国 SLM 可寻址市场已达 10 万亿美元。",
+            "但 LLM 在代理式 AI 上仍有明显优势，SLM 成功率不足 50%。而且手机端 SLM 还远不如桌面端。不过本地推理效率更高，每瓦特推理量是云端 LLM 的七倍。",
+            "所以作者认为，如果 70% 到 80% 的任务能由 SLM 完成，数据中心可能是 AI 领域最差的投资。真正赢家会是戴尔、苹果这类桌面电脑厂商，而不是英伟达和云厂商。"
+          ]
+        },
+        "en": {
+          "thesis": "Stanford research shows small language models already match large ones on most tasks at a fraction of the cost, which would make data center investments a disaster.",
+          "paragraphs": [
+            "A Stanford paper compared small language models (SLMs) run locally with large language models (LLMs) in the cloud. The author says if the results hold, we will barely need data centers, and the hyperscalers' massive investments will go to waste.",
+            "They tested QWEN, GEMMA and other SLMs on local PCs against ChatGPT, Claude and other cloud LLMs. On chat tasks, the SLM matched or beat the LLM 98.6% of the time; on reasoning tasks, 62.5%.",
+            "Weighted by real-world task mix, SLMs were as good or better in 81.2% of cases, lagging clearly only in engineering, life sciences and a few other fields. They also used 50% to 85% less energy and compute.",
+            "SLMs are catching up fast. Reasoning success was around 50% in 2023; by October 2025 it reached 99% on easy tasks and 51.5% on the hardest. The paper estimates the US addressable market for SLMs has grown to $10 trillion.",
+            "LLMs still lead in agentic AI, where SLMs stay below 50% accuracy, and phone-sized SLMs are far weaker than desktop ones. But local inference is far more efficient: about seven times the inference per watt.",
+            "So if 70-80% of tasks can run on SLMs, the author argues, data centers may be the worst place to invest in AI right now. The real winners would be boring desktop makers like Dell and Apple, not the cloud giants."
+          ]
+        }
+      }
+    },
+    {
+      "id": "a3b3a4f6f54cb0b3106edb21a44461f065daed80",
+      "sourceId": "platformer",
+      "category": "tech",
+      "title": "An LLM wiki changed how I work",
+      "titleZh": "LLM 维基如何改变了我的工作方式",
+      "url": "https://www.platformer.news/karpathy-llm-wiki-journalism-productivity/",
+      "author": "Casey Newton",
+      "publishedAt": "2026-08-19T00:28:38.000Z",
+      "image": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/08/Screenshot-2026-08-18-at-5.15.46---PM.png",
+      "readingMinutes": 13,
+      "score": 58,
+      "rank": 18,
+      "summary": {
+        "zh": {
+          "thesis": "LLM 维基能自动整理知识，但需要不断维护，不过它可能是个人知识管理的最佳终点。",
+          "paragraphs": [
+            "今年四月，知名 AI 研究者 Andrej Karpathy 在推特上分享了一个想法：用 LLM 从本地文档中提取内容，自动生成 Markdown 维基。这个想法迅速在网上传播开来。",
+            "我尝试后，发现它是我今年用过的最有用的生产力工具。我用它创建了个人知识库，先把我多年写的文章喂进去，让 AI 自动提取人物、公司和概念，形成了超过 1440 个页面。",
+            "每天早晨，我会用 Obsidian 的剪藏工具把新闻存进维基，脚本会自动阅读并归类。这让我在追踪复杂故事时节省了大量时间，比如 OpenAI 和 Hugging Face 的 agent 事件。",
+            "它还会自动生成新概念页面，比如「tokenmaxxing」，并更新首页，提供故事灵感。我甚至因此提出了一个播客选题。",
+            "但维基也需要不断维护：页面过长需要压缩，代码会出错，AI 生成的风格也需要调整。尽管有这些麻烦，我每天早晨仍然期待查看它又生成了什么。",
+            "对我来说，这个「自组织知识库」就像我 2008 年第一次安装 Evernote 以来一直在追寻的终点。虽然它还很粗糙，但我会继续用下去。"
+          ]
+        },
+        "en": {
+          "thesis": "An LLM wiki can organize knowledge automatically, but it needs constant maintenance, and it may be the end point of personal knowledge management.",
+          "paragraphs": [
+            "In early April, prominent AI researcher Andrej Karpathy tweeted an idea: use LLMs to extract content from local documents and generate a Markdown wiki. The idea quickly spread online.",
+            "I tried it and found it the most useful productivity tool I've used this year. I seeded it with my own writing, and the AI extracted people, companies, and concepts into over 1,440 pages.",
+            "Each morning, I clip news into the wiki via Obsidian, and a script reads and categorizes it. This saved me lots of time tracking complex stories, like the OpenAI/Hugging Face agent breach.",
+            "It also auto-generates pages for new concepts, like 'tokenmaxxing', and updates a home page, leading to story ideas. I even pitched a podcast segment from it.",
+            "But the wiki needs constant maintenance: pages grow too long, code breaks, and the AI's style needs adjustment. Despite the hassle, I look forward to checking it every morning.",
+            "This 'self-organizing knowledge base' feels like the end point of what started when I installed Evernote in 2008. It's clunky, but I'll keep using it."
+          ]
+        }
+      }
+    },
+    {
+      "id": "aa8155fde5110d385a1868c944de5e8e1815b314",
+      "sourceId": "chuapp",
+      "category": "tech",
+      "title": "触乐怪话：闭上眼，大步走",
+      "url": "http://www.chuapp.com/article/291575.html",
+      "author": "林翔",
+      "publishedAt": "2026-08-19T09:33:55.000Z",
+      "image": "http://img.chuapp.com/wp-content/Picture/2026-08-19/6a856abb645d0.jpg?imageView2/2/w/700",
+      "readingMinutes": 5,
+      "score": 55,
+      "rank": 19,
+      "summary": {
+        "zh": {
+          "thesis": "《Big Walk》的乐趣不在解谜，而在与朋友互相喊话、摸索前行的过程。",
+          "paragraphs": [
+            "上周六朋友约我玩《Big Walk》，一款很火的多人联机解谜游戏。我新冠未愈，还有点发烧，玩了两个多小时，很多细节都记不清了。",
+            "第一关挺常规，收集4个红葫芦，换钥匙过桥。第二关就变了味，要拿5个红葫芦去解锁红塔，但我们解着解着就迷路了，抬头发现塔早不见了。",
+            "这游戏地图是一座真实的岛，山林挡视线，没参照物。我们只好爬山找路，误打误撞碰上黄塔或绿塔旁的缆车，用了把钥匙就坐上了。",
+            "原来每个谜题给的都是同一种红葫芦，能开任何一关，自由度极高。这也让我有点担心，乱解一通后到最后会不会缺葫芦卡关，只能到时候再看。",
+            "谜题本身不难，考验的是默契，比如让队友戴面具走进房间，其他人凭喊声指挥她插对位置，像综艺里的游戏。游戏里有昼夜交替，夜里缆车上看满天星，分不清虚实。",
+            "所以玩这游戏别功利，解谜快慢无所谓。一定要用游戏内语音，它让沟通成了核心玩法——隔太远就听不见，指挥蒙眼队友只能靠喊。闭上眼，大步走，这过程比通关更珍贵。"
+          ]
+        },
+        "en": {
+          "thesis": "The fun of Big Walk lies less in the puzzles than in shouting at friends and finding your way forward together.",
+          "paragraphs": [
+            "A friend invited me to Big Walk, a hugely popular co-op puzzle game. I was still recovering from COVID and had a slight fever, so we played for just over two hours and much of it is a blur.",
+            "The first level was conventional: collect four red gourds to trade for a key that unlocks a bridge. The second changed things up: take five gourds to unlock the red tower, but we got lost working through the puzzles and looked up to find the tower had vanished.",
+            "The map is a realistic island where forest blocks the view, so there is no landmark to steer by. We climbed a hill to get our bearings and stumbled on a cable car beside a yellow (or green) tower, unlocked it with a key, and rode off.",
+            "It turns out every puzzle gives the same red gourd, and any one opens any level, so the freedom is huge. That worried me a little: rush through randomly and you might end up short of gourds at the final gate. Only time will tell.",
+            "The puzzles themselves are easy and about coordination: one player wears a blindfold in a room while the others shout instructions to slot three props into the right places, like a TV game show. There is a day-night cycle, and from that cable car at night I saw stars and lost track of what was real.",
+            "So do not play it to win. Speed at puzzles does not matter, and you should absolutely use the in-game voice chat, which turns communication into the core mechanic—too far apart and you cannot hear each other, and coaching a blindfolded player is all shouting. Close your eyes, take the big step; the journey itself matters more than finishing."
+          ]
+        }
+      }
+    }
+  ],
+  "folded": [],
+  "rejected": [
+    {
+      "title": "Buc-ee’s Billboard Near Beaver’s Mini Mart Vandalized As Corporation Gaslights Mayor",
+      "url": "https://www.techdirt.com/2026/08/18/buc-ees-billboard-near-beavers-mini-mart-vandalized-as-corporation-gaslights-mayor/",
+      "sourceId": "techdirt",
+      "score": 48
+    },
+    {
+      "title": "‘There are 1.5 sex scenes, and the food looks just fine’",
+      "url": "https://www.vittlesmagazine.com/p/there-are-15-sex-scenes-and-the-food",
+      "sourceId": "vittles",
+      "score": 45
+    },
+    {
+      "title": "《控制》新作体验：新怪谈游戏的祖师爷，又杀回来了",
+      "url": "https://sspai.com/post/113588",
+      "sourceId": "sspai",
+      "score": 45
+    },
+    {
+      "title": "30年后，“打开”宝可梦的方式还在增加",
+      "url": "http://www.chuapp.com/article/291566.html",
+      "sourceId": "chuapp",
+      "score": 42
+    },
+    {
+      "title": "The Wonders of the Male Human Pelvis",
+      "url": "https://nautil.us/the-wonders-of-the-male-human-pelvis-1283947/",
+      "sourceId": "nautilus",
+      "score": 40
+    },
+    {
+      "title": "The conscience files",
+      "url": "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park",
+      "sourceId": "aeon",
+      "score": 38
+    },
+    {
+      "title": "The Lottery of Birth",
+      "url": "https://humbledollar.com/forum/the-lottery-of-birth/",
+      "sourceId": "humbledollar",
+      "score": 34
+    },
+    {
+      "title": "Some fertility and AI forecasts",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/some-fertility-and-ai-forecasts.html",
+      "sourceId": "marginal",
+      "score": 32
+    },
+    {
+      "title": "An Update On How I Use AI To Help With Techdirt (It’s Still Not Writing Articles)",
+      "url": "https://www.techdirt.com/2026/08/18/an-update-on-how-i-use-ai-to-help-with-techdirt-its-still-not-writing-articles/",
+      "sourceId": "techdirt",
+      "score": 31
+    },
+    {
+      "title": "《金铲铲之战》“自然之力”新赛季试玩：峡谷野怪来到棋盘",
+      "url": "http://www.chuapp.com/article/291576.html",
+      "sourceId": "chuapp",
+      "score": 25
+    },
+    {
+      "title": "The Catalogue of Lost Things",
+      "url": "https://www.theparisreview.org/blog/2026/08/18/the-catalogue-of-lost-things/",
+      "sourceId": "paristreview",
+      "score": 25
+    },
+    {
+      "title": "我错过了多少泼天的富贵？",
+      "url": "https://blog.wenxuecity.com/myblog/80634/202608/13577.html",
+      "sourceId": "guigujushi",
+      "score": 22
+    },
+    {
+      "title": "The Best Ocean Photos of the Year",
+      "url": "https://nautil.us/the-best-ocean-photos-of-the-year-1283951/",
+      "sourceId": "nautilus",
+      "score": 18
+    },
+    {
+      "title": "iOS 27 测试版近期动向，还有 Apple 产品新消息",
+      "url": "https://sspai.com/post/113618",
+      "sourceId": "sspai",
+      "score": 18
+    },
+    {
+      "title": "App+1 | Inkive：把纸质书上划好的线存进 Obsidian",
+      "url": "https://sspai.com/post/111936",
+      "sourceId": "sspai",
+      "score": 18
+    },
+    {
+      "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "sourceId": "hn",
+      "score": 18
+    },
+    {
+      "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+      "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
+      "sourceId": "lennys",
+      "score": 18
+    },
+    {
+      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+      "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
+      "sourceId": "lennys",
+      "score": 16
+    },
+    {
+      "title": "Top Links 1198 The Warsh plot. Boosting Plovdiv. The politics of Marc Bloch & Alcatraz as an idea.",
+      "url": "https://adamtooze.substack.com/p/top-links-1198-the-warsh-plot-boosting",
+      "sourceId": "chartbook",
+      "score": 15
+    },
+    {
+      "title": "Cerebras CS-4",
+      "url": "https://www.cerebras.ai/cs4",
+      "sourceId": "hn",
+      "score": 15
+    },
+    {
+      "title": "How does IKEA come up with names for its products?",
+      "url": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
+      "sourceId": "hn",
+      "score": 15
+    },
+    {
+      "title": "Tuesday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/tuesday-assorted-links-582.html",
+      "sourceId": "marginal",
+      "score": 15
+    },
+    {
+      "title": "OpenLogi",
+      "url": "https://openlogi.org/en",
+      "sourceId": "hn",
+      "score": 10
+    },
+    {
+      "title": "Tuesday discussion post",
+      "url": "https://www.slowboring.com/p/tuesday-discussion-post-6e3",
+      "sourceId": "slowboring",
+      "score": 10
+    },
+    {
+      "title": "Frozen 2025 1040 refund and the IRS CP53E notice",
+      "url": "https://humbledollar.com/forum/frozen-2025-1040-refund-and-the-irs-cp53e-notice/",
+      "sourceId": "humbledollar",
+      "score": 3
+    }
+  ]
+}
