@@ -1,0 +1,1197 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T14:00:00.019Z",
+  "window": {
+    "from": "2026-08-19T14:00:00.000Z",
+    "to": "2026-08-20T14:00:00.000Z"
+  },
+  "stats": {
+    "fetched": 30,
+    "shown": 17,
+    "folded": 0
+  },
+  "sources": [
+    {
+      "id": "heavybit",
+      "name": "Heavybit Library",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "id": "platformer",
+      "name": "Platformer",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "acx",
+      "name": "Astral Codex Ten",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "construction-physics",
+      "name": "Construction Physics",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "nngroup",
+      "name": "Nielsen Norman Group",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "kleon",
+      "name": "Austin Kleon",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "id": "benedict-evans",
+      "name": "Benedict Evans",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "westenberg",
+      "name": "WESTENBERG",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "bytecode",
+      "name": "ByteCode.News",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "jacobgold",
+      "name": "Jake Gold",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "pueyo",
+      "name": "Uncharted Territories",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "geohot",
+      "name": "the singularity is nearer",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "notboring",
+      "name": "Not Boring",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "lennys",
+      "name": "Lenny's Newsletter",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "noahpinion",
+      "name": "Noahpinion",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "ruanyifeng",
+      "name": "阮一峰的网络日志",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "ofdollars",
+      "name": "Of Dollars And Data",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "damodaran",
+      "name": "Musings on Markets",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "importai",
+      "name": "Import AI",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "mollick",
+      "name": "One Useful Thing",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "intrinsic",
+      "name": "The Intrinsic Perspective",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "calnewport",
+      "name": "Cal Newport",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "conversable",
+      "name": "Conversable Economist",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "danluu",
+      "name": "Dan Luu",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "craigmod",
+      "name": "Craig Mod",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "worksinprogress",
+      "name": "Works in Progress",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "404media",
+      "name": "404 Media",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "wheresyoured",
+      "name": "Where’s Your Ed At",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "bloodmachine",
+      "name": "Blood in the Machine",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "citationneeded",
+      "name": "Citation Needed",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "themarkup",
+      "name": "The Markup",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "restofworld",
+      "name": "Rest of World",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "pluralistic",
+      "name": "Pluralistic",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "simonwillison",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "marcbrooker",
+      "name": "Marc Brooker",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "baoyu",
+      "name": "宝玉的分享",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "yunfeng",
+      "name": "云风的 BLOG",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "acoup",
+      "name": "ACOUP",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "quanta",
+      "name": "Quanta Magazine",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "bitsaboutmoney",
+      "name": "Bits about Money",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "apricitas",
+      "name": "Apricitas Economics",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "henrikkarlsson",
+      "name": "Escaping Flatland",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "convivial",
+      "name": "The Convivial Society",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "resobscura",
+      "name": "Res Obscura",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "rogerebert",
+      "name": "RogerEbert.com",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "id": "psyche",
+      "name": "Psyche",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "id": "designobserver",
+      "name": "Design Observer",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "netinterest",
+      "name": "Net Interest",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "klement",
+      "name": "Klement on Investing",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "id": "guigujushi",
+      "name": "硅谷居士",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "earlyretirementnow",
+      "name": "Early Retirement Now",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "jlcollins",
+      "name": "JL Collins",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "articles": [
+    {
+      "id": "777c426bd0b394be0148aaca76c125570a94e502",
+      "sourceId": "pueyo",
+      "category": "economy",
+      "title": "How Households Drive History",
+      "titleZh": "家庭如何推动历史",
+      "url": "https://unchartedterritories.tomaspueyo.com/p/how-households-drive-history",
+      "author": "Tomas Pueyo",
+      "publishedAt": "2026-08-20T13:23:53.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!qknM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4adc32bd-b508-44b0-bdd7-4dac9b004717_1200x960.png",
+      "readingMinutes": 9,
+      "score": 85,
+      "rank": 1,
+      "review": {
+        "argument": "Argument: it claims that household economics, not rulers or battles, drive history, and uses Mesopotamian households to show how the need for food, irrigation, and scarce resources shaped states and trade. Not an announcement.",
+        "transfer": "Transfers — the mechanism is that the mundane needs of ordinary people (food, water, shelter) determine the rise and fall of civilizations, and the reader can apply this lens to any era, including today. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that household needs are the primary engine of history, supported by specific examples like the role of canals and copper trade.",
+        "appeal": "+10 — it is about how people actually lived, it contradicts the usual history-book focus on kings and battles, and it is readable cold with vivid scenes of daily life."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "历史由家庭的经济需求驱动，而非帝王将相的行动。",
+          "paragraphs": [
+            "历史书总是讲国王、战争和宫廷，但真正推动历史的是经济学，而经济学又由家庭的需求驱动。让我们回到公元前 2000 年的美索不达米亚，看看一个普通家庭的生活。",
+            "在乌尔第三王朝，农业围绕大麦展开。得益于底格里斯河和幼发拉底河的灌溉，这里土地肥沃，人口众多，而人口意味着金钱和军队，所以最早的强权都诞生于此。",
+            "但种出粮食只是开始。家庭需要加工粮食（浸泡、去壳、研磨、烹煮），还要做衣服、盖房子、运输、交易、服劳役、照顾孩子。超过 50% 的时间花在食物上，这是极其艰苦的日常。",
+            "然而，有些东西家庭无法独自完成，比如修建和维护灌溉系统。这需要协调和强制，于是国家应运而生。此外，像牛和犁这样的昂贵资产，也需要共享和协调。",
+            "家庭还需要从市场购买自己无法生产的东西：其他食物、陶器、木材和铜。这些稀缺资源的获取和贸易，塑造了城市、国家乃至文明的兴衰。所以，历史真正的驱动力，是无数家庭的日常需求。"
+          ]
+        },
+        "en": {
+          "thesis": "History is driven by household economic needs, not by the actions of kings and generals.",
+          "paragraphs": [
+            "History books tell you about kings, wars, and courts, but what really drives history is economics, and economics is driven by the needs of households. Let's go back to Mesopotamia in 2000 BC and look at an ordinary household.",
+            "In the Third Dynasty of Ur, agriculture revolved around barley. Thanks to the irrigation from the Tigris and Euphrates, the land was fertile and populous, and population meant money and soldiers, so the earliest powers emerged here.",
+            "But growing grain was just the beginning. Households had to process it (soaking, dehusking, grinding, cooking), make clothes, build and maintain houses, transport goods, trade, work for the state, and raise children. Over 50% of their time went to food. It was brutal daily labor.",
+            "Yet some things could not be done alone, like building and maintaining irrigation systems. This required coordination and coercion, and so the state emerged. Expensive assets like oxen and plows also needed sharing and coordination.",
+            "Households also needed to buy things they could not make: other food, pottery, timber, and copper. The acquisition and trade of these scarce resources shaped cities, states, and even the rise and fall of civilizations. So the real driver of history is the daily needs of countless households."
+          ]
+        }
+      }
+    },
+    {
+      "id": "472c0a0d8afaf6be2c379e2741a91dea276271eb",
+      "sourceId": "worksinprogress",
+      "category": "culture",
+      "title": "How Thailand resisted colonization",
+      "titleZh": "泰国如何抵抗了殖民",
+      "url": "https://worksinprogress.co/issue/how-thailand-resisted-colonization/",
+      "author": null,
+      "publishedAt": "2026-08-20T09:11:43.000Z",
+      "image": "https://worksinprogress.co/wip-image/uploads/2026/08/The_Art_Of_Not_Being_Conquered_Sharecard-1.jpg",
+      "readingMinutes": 17,
+      "score": 85,
+      "rank": 2,
+      "review": {
+        "argument": "Argument: it claims Siam survived colonialism by performing European markers of civilization — from the Ramkhamhaeng Stele to siwilai — and that this was a deliberate strategy, not luck. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a weaker state can survive by adopting the stronger's criteria of legitimacy, which applies to companies, institutions, and individuals facing dominant powers. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that cultural performance, not just diplomacy or military strength, was decisive — plus the vivid scenes of Mongkut and Chulalongkorn.",
+        "appeal": "+10 — it is about a real country's survival, full of people and scenes (a monk prince finding a stele, a king hosting an eclipse), and it contradicts the assumption that only Japan escaped. Readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "泰国（旧称暹罗）通过外交、改革和精心塑造文明形象，成为少数未被殖民的东南亚国家。",
+          "paragraphs": [
+            "19 世纪，欧洲列强几乎瓜分了整个地球，但暹罗是少数例外之一。它靠的不是军事抵抗，而是一套精心策划的策略：让西方相信它已经是一个文明国家，不需要被「开化」。",
+            "1833 年，一位名叫蒙固的僧侣在旧都素可泰发现了一块石碑，上面刻着 1292 年的古泰文，讲述了一个由贤君统治的古老王国。这块石碑后来被称为兰甘亨石碑，成为暹罗文明悠久的有力证据。",
+            "蒙固并非普通僧侣，他是国王之子，后来继位为拉玛四世。他通晓英语和拉丁语，与西方传教士和外交官交往频繁。1855 年，他接待英国使节鲍林时，以雪茄和美酒相待，用英语交谈，完全出乎对方的预料。",
+            "鲍林签署的条约虽然不平等，但暹罗保持了主权。此后，拉玛五世朱拉隆功继续推进现代化：建立统一的国民教育、改革法律、废除奴隶制、划定现代边界。他甚至创造了「泰性」这一统一的国家认同。",
+            "这些努力并非没有代价。1893 年，法国炮舰直逼曼谷，暹罗被迫割让了约 40% 的领土。但核心地区保住了。最终，暹罗以主动变革避免了被征服的命运，而周边国家如缅甸、越南却未能幸免。"
+          ]
+        },
+        "en": {
+          "thesis": "Thailand (formerly Siam) escaped colonization through a combination of diplomacy, reform, and a carefully crafted image of civilization.",
+          "paragraphs": [
+            "In the nineteenth century, European powers carved up nearly the whole globe, but Siam was one of the few exceptions. It was not military resistance that saved it, but a deliberate strategy: convincing the West that it was already civilized and needed no 'civilizing'.",
+            "In 1833, a monk named Mongkut discovered a stone stele at the old capital Sukhothai, inscribed with ancient Thai script dating to 1292, telling of a wise king and a sophisticated kingdom. This Ramkhamhaeng Stele became powerful evidence of Siam's ancient civilization.",
+            "Mongkut was no ordinary monk — he was a prince, later King Rama IV. He studied Western languages and science, and welcomed British envoy Sir John Bowring in 1855 with cigars, wine, and fluent English, impressing him with Siam's cultural sophistication.",
+            "The treaty Bowring signed was unequal, but Siam remained sovereign. Under Rama V (Chulalongkorn), modernization continued: a unified education system, legal reform, abolition of slavery, and modern borders. He even created a unified national identity, 'Thai-ness'.",
+            "It was not without cost. In 1893, French gunboats threatened Bangkok, and Siam ceded about 40% of its territory. But the core survived. Ultimately, Siam transformed itself from within, avoiding the conquest that befell neighbors like Burma and Vietnam."
+          ]
+        }
+      }
+    },
+    {
+      "id": "bf4815d679e025a94ccf9114be55967945acf254",
+      "sourceId": "westenberg",
+      "category": "living",
+      "title": "Neo-Etiquette Basics: The New Rules of Being Human",
+      "titleZh": "数字时代的为人处世新规",
+      "url": "https://www.joanwestenberg.com/p/neo-etiquette-basics-the-new-rules",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-20T01:15:08.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!VzOb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb73a7c5d-5907-45eb-a952-8fa30d39f19e_1248x702.png",
+      "readingMinutes": 10,
+      "score": 85,
+      "rank": 3,
+      "review": {
+        "argument": "Argument: it claims that modern technology has made selfishness easy and inconsequential, and proposes a set of etiquette rules to counter that, grounded in the moral fact that other people are real. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how small technological conveniences erode basic respect, and the reader can apply these rules immediately in daily life. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just a list of tips.",
+        "appeal": "+12 — it is about everyday interactions everyone has, contradicts the assumption that tech is neutral, and is readable cold with vivid examples."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "在数字时代，礼貌的本质仍然是承认他人是真实的人，而非我们便利的工具。",
+          "paragraphs": [
+            "礼貌不是拘泥于无聊的仪式，而是对每天遇到的人表示基本的尊重。不管网上有些人怎么抱怨「体面政治」，大家都得认同一个底线：别人是真实的人，有你看不见的内心世界，不能把他们当成用完就扔的东西。",
+            "科技没有制造自私，但让自私变得太容易了。把朋友当观众，把陌生人当素材，把私密时刻当证据，把别人的不幸当娱乐——这些事现在动动手指就能做到，代价几乎为零。",
+            "所以作者给了一批具体规则：给爱人写信要用自己的话，别让 AI 代笔；跟人说话时摘下耳机；别用七分钟的语音消息换自己方便，却花掉对方七分钟；公共场所听音乐、刷视频要戴耳机；拉人进群聊之前先问一声。",
+            "还有隐私和公共生活的规矩：别用别人看不见的摄像头偷拍；别把别人的孩子发到网上；别截图群聊；别拍陌生人的窘态；走路别看手机挡道；别因为算法煽动就加入网暴。",
+            "所有规则都归结为一句话：别人不是你的素材、背景板、障碍或工具，他们为自己而存在。发之前先问自己：如果这个人就站在我面前，我还会这么做吗？"
+          ]
+        },
+        "en": {
+          "thesis": "In the digital age, good manners still come down to acknowledging that other people are real, not instruments.",
+          "paragraphs": [
+            "Good manners are not about empty ritual; they are a basic mark of respect for the people you meet every day. However much some corners of the internet complain about respectability politics, there is a baseline we have to agree on: other people are real, with inner lives you never see, and you do not get to treat them as disposable.",
+            "Technology did not create selfishness, but it made selfishness easy. Turning a friend into an audience, a stranger into content, a private moment into evidence, or someone's misfortune into entertainment now takes a couple of taps, with almost no cost.",
+            "So the author offers a set of concrete rules: write to your loved ones in your own voice, not ChatGPT's; take out your headphones when you order a coffee; do not send a seven-minute voice note that costs you nothing but the recipient seven minutes; wear headphones for your music and TikToks in public; ask before adding someone to a group chat.",
+            "Then privacy and public life: no hidden cameras; do not post other people's children; do not screenshot the group chat; do not film strangers at their worst; do not block the footpath staring at your phone; do not join an online mob just because the algorithm invited you.",
+            "Every rule comes back to one fact: other people do not exist for your use. Before you record, post, forward, or reply, ask yourself: would I do this if they were standing right in front of me?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "91812788e8a35a11b4ac3a2524f886e61b598092",
+      "sourceId": "noahpinion",
+      "category": "economy",
+      "title": "Economists should be worried about birth rates",
+      "titleZh": "经济学家应该担心出生率吗",
+      "url": "https://www.noahpinion.blog/p/economists-should-be-worried-about",
+      "author": "Noah Smith",
+      "publishedAt": "2026-08-19T23:27:31.000Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!Sjeu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad89fb2c-b6cd-48b0-a5fd-2876400f101b_992x702.jpeg",
+      "readingMinutes": 16,
+      "score": 85,
+      "rank": 4,
+      "review": {
+        "argument": "Argument: it claims that Acemoglu's new paper on low birth rates and automation contradicts his own prior work on AI and robots, and that the paper's evidence is too weak to support its bold conclusions. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a top economist's authority can make shaky empirical results seem definitive, and the reader learns to be skeptical of headline-grabbing research. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the citations.",
+        "appeal": "+10 — it is about a Nobel-winning economist's claims on a topic that affects everyone's future, it has a hook (the contradiction), and it is readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "人口稀少会刺激自动化的说法，无法解释美国的现实，也不该让大家对低生育率放下戒心。",
+          "paragraphs": [
+            "《经济学人》最近抨击了诺奖得主阿西莫格鲁，这让我挺高兴。经济学界太讲究论资排辈了，年轻人不敢质疑权威，圈外批评又被轻易打发。",
+            "不过我要批评的可不止一个观点。阿西莫格鲁的新论文说，出生率低的地区劳动人口少，反而倒逼企业采用自动化，所以低生育率不一定是坏事，甚至可能让人们更富裕。",
+            "可这个结论跟他说过的其他话互相矛盾。他之前的研究强调，自动化会压低工资、妨碍生产力；既然这样，它又怎么能抵消人口老龄化带来的负担呢？",
+            "论文里最关键的跨国分析，控制了教育、城市化等变量后就变得不显着了。而且越加控制，效应越弱，这往往是数据有问题的信号。文中一次都没提制度——那可是他解释国家兴衰的老本行。",
+            "美国通勤区的结果也没说服我。波士顿、旧金山这些城市出生率低、工资涨得快，可美国各地人口流动很频繁，人才会往机会多的地方集中，这跟当年生多少孩子根本没有关系。",
+            "世界上顶级的经济学家写一篇论文，提出大胆的假设，人们就容易信服权威，忽略了世界正面临前所未有的变化。我依然很担心人类规模的收缩，我觉得你也应该担心。"
+          ]
+        },
+        "en": {
+          "thesis": "The claim that scarce labor spurs automation doesn't hold up for the US, and low birth rates should still worry us.",
+          "paragraphs": [
+            "The Economist recently went after the Nobel laureate Daron Acemoglu, and I was glad. Economics is far too hierarchical; young researchers defer to the famous, and outsiders are brushed off.",
+            "But there's another argument I'd take on. Acemoglu's new paper says that regions with low birth rates have fewer workers, so firms are forced to automate, making low fertility a blessing in disguise.",
+            "Yet that contradicts his own earlier work, where he argued that automation pushes wages down and fails to raise productivity. If that's true, how can it offset the burden of an aging population?",
+            "The paper's key cross-country result loses significance once education, urbanization, and other variables are controlled for. And the more controls you add, the weaker the effect gets — a classic red flag. The word 'institutions' never even appears, despite being his usual explanation for why nations succeed or fail.",
+            "I'm also not convinced by the US commuting-zone results. Places like Boston and San Francisco did have low birth rates in 1940 and fast wage growth since, but Americans move around a lot; talent clusters where the jobs are, which has nothing to do with how many kids people had back then.",
+            "When the world's top economist makes bold claims, we risk deferring to his authority instead of admitting how uncertain we really are about unprecedented demographic changes. I remain worried about humanity shrinking, and I think you should be too."
+          ]
+        }
+      }
+    },
+    {
+      "id": "15542bd927428ee2676aba093295f253e84d05c1",
+      "sourceId": "404media",
+      "category": "tech",
+      "title": "Subtlefakes: Slightly Altered Nonconsensual AI Images Are Taking Over X",
+      "titleZh": "Subtlefakes：轻微篡改的非自愿 AI 图片正在占领 X",
+      "url": "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/",
+      "author": "Emanuel Maiberg",
+      "publishedAt": "2026-08-20T13:34:23.000Z",
+      "image": "https://images.unsplash.com/photo-1737619285967-f3e96858b7af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHh8ZW58MHx8fHwxNzg3MTU0MTU2fDA&ixlib=rb-4.1.0&q=80&w=2000",
+      "readingMinutes": 6,
+      "score": 82,
+      "rank": 5,
+      "review": {
+        "argument": "Argument: it claims a new class of nonconsensual AI images — 'subtlefakes' — is more convincing and harder to moderate than deepfakes, and that X's engagement-farming incentives are fueling them. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how platform incentives (paying for engagement) reward increasingly sophisticated abuse, and the reader can apply that to any social platform. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that subtlefakes are a distinct and growing threat, not just a list of examples.",
+        "appeal": "+10 — it is about a phenomenon people encounter on X, includes a concrete example (Xochitl Gomez), and has a hook: images you can't tell are fake. Readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "与明显的深度伪造不同，subtlefakes 几乎是真实的照片被轻微修改，很难被发现，正在 X 上大量传播。",
+          "paragraphs": [
+            "2017 年我第一次看到深度伪造，是一个把脸换成盖尔·加朵的色情动图。当时那技术已经很惊人，但没人会相信那是真的。",
+            "最近几个月，我在 X 上看到一种新的 AI 生成图片，我叫它 subtlefakes。它们不是换脸色情片，而是把明星的真实照片稍作修改，比如让裙子更暴露、臀部更大，或者生成假的健身后自拍。",
+            "演员 Xochitl Gomez 就发过对比图：有人在停车场照片里把她改成弯腰的姿势，或在红毯照里让她转身吐舌头。这些图几乎没有破绽，我自认很会认 AI 图，但在滑动 X 时也认不出来。",
+            "这些图片大多来自 X 上的认证引流账号，靠浏览量赚钱。X 似乎不管，甚至有些还带着 Grok 的水印。而且制作门槛极低：多数主流 AI 工具只是禁裸体，不禁生成真人形象。",
+            "所以这意味着，AI 滥用正在从「明显是假」走向「难以察觉」。平台再不监管，这类内容的数量只会更多，也更难被清除。"
+          ]
+        },
+        "en": {
+          "thesis": "Unlike obvious deepfakes, subtlefakes are real photos with slight alterations that are hard to detect, and they are spreading across X.",
+          "paragraphs": [
+            "The first deepfake I saw was a 2017 porn GIF with Gal Gadot's face swapped in. Even then it was startlingly realistic, but nobody believed it was really her.",
+            "Over the last few months I have been seeing a new kind of AI-made image on X, which I call subtlefakes. They are not face-swapped porn. They are celebrities in real photos, lightly edited to be more revealing—a lower neckline, a bigger butt—or entirely fake post-workout gym selfies.",
+            "Actor Xochitl Gomez posted side-by-side comparisons: someone had taken a parking-lot photo and made her bend over, or a red-carpet shot and had her sticking out her tongue. These images have none of the usual tells, and I would not be able to tell them from real photos just by scrolling.",
+            "They are posted overwhelmingly by verified engagement-farming accounts that get paid for views. X does nothing about it, and some images even carry Grok's watermark. They are also easy to make: most mainstream AI tools block nudity but do not bother blocking real people's likenesses.",
+            "The implication is that AI abuse is moving from obviously fake to quietly convincing. Unless platforms start moderating, more of it is coming and it will be harder to stop."
+          ]
+        }
+      }
+    },
+    {
+      "id": "8aca504099ad1eea508fb70ef87d3ac1851e3ea1",
+      "sourceId": "404media",
+      "category": "economy",
+      "title": "Township Fights Nuclear Weapons Data Center By Passing a Moratorium on Electrical Infrastructure",
+      "titleZh": "密歇根小镇通过暂停电力基建来对抗核武数据中心",
+      "url": "https://www.404media.co/township-fights-nuclear-weapons-data-center-by-passing-a-moratorium-on-electrical-infrastructure/",
+      "author": "Matthew Gault",
+      "publishedAt": "2026-08-20T13:12:03.000Z",
+      "image": "https://images.unsplash.com/photo-1658870901055-665c9621d7a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHRyYW5zZm9ybWVyfGVufDB8fHx8MTc4NzIzMTUwN3ww&ixlib=rb-4.1.0&q=80&w=2000",
+      "readingMinutes": 2,
+      "score": 82,
+      "rank": 6,
+      "review": {
+        "argument": "Argument: it claims the moratorium is a deliberate delaying tactic in a community fight against a data center backed by the University of Michigan and Los Alamos, and it frames the university's communication as disrespectful. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a local government uses zoning and infrastructure moratoriums to resist a powerful institutional project, and the reader sees a template for civic resistance. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the framing of the fight as a David-versus-Goliath struggle, not just the facts of the vote.",
+        "appeal": "+10 — it is about a community's fight over a data center, which is a live issue for many readers, and it has a hook: a township blocking nuclear weapons research infrastructure with a stock photo of a substation."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "小镇通过暂停电力基建的决议，拖延了一座由大学和军方支持的核武数据中心。",
+          "paragraphs": [
+            "密歇根州的伊普西兰蒂镇周二晚通过了一项决议，暂停新建大型电力基础设施，时限六个月。这是当地对抗一座 12 亿美元数据中心的最新一招，背后是密歇根大学和洛斯阿拉莫斯国家实验室（LANL）的合作。",
+            "数据中心耗电巨大，当地电力部门得新建变电站来供电。暂停令让电力部门利用这半年研究噪音污染和对现有用户的影响。决议针对所有高耗电用途，包括数据中心、AI 计算设施等。",
+            "月初大学刚定了具体地块，144 英亩在 Textile Road 上。大学说这数据中心会“改变世界”，保证不是战争高价值目标，也不存核材料。但 LANL 早前已确认这里用于核武研究，社区担忧环境问题。",
+            "镇长说选这块地是“对正义的嘲弄”，因为无视居民的关切。镇委员会对此项目团结一致反对，今年四月还曾暂停向数据中心供水，大学威胁要告他们。",
+            "所以这不是单纯的环保之争，而是民众和地方政府联手，对抗大学和军方的项目。镇长的原话是：“我们会战斗到最后一口气。”"
+          ]
+        },
+        "en": {
+          "thesis": "A Michigan township passed a moratorium on electrical infrastructure to delay a nuclear-weapons data center.",
+          "paragraphs": [
+            "On Tuesday night, Ypsilanti Township in Michigan passed a six-month moratorium on new major electric utility infrastructure. It is the latest delaying tactic against a $1.2 billion data center backed by the University of Michigan and Los Alamos National Laboratories (LANL).",
+            "Data centers guzzle power, and the local utility would have to build new substations to feed this one. The moratorium gives the utility six months to study noise and the strain on existing customers. It covers all high-energy uses: data centers, AI computing facilities, and other intensive users.",
+            "Earlier this month the University settled on a specific site, a 144-acre plot on Textile Road. It called the center a 'world-changing' facility, insisting it is not a war target and stores no hazardous nuclear material. But LANL has confirmed it will be used for nuclear weapons research, and residents worry about the environmental impact.",
+            "The Township supervisor called the site choice a 'travesty of justice', ignoring residents' concerns. The Board is united against the project; in April it even suspended water service to data centers, prompting a legal threat from the University.",
+            "This is not just an environmental dispute; it is a community and local government pushing back against a university-military project. As the supervisor put it, 'We will fight to our very last breath.'"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3864b1785ea926f92a632b4cd06aead8754dd4be",
+      "sourceId": "yunfeng",
+      "category": "living",
+      "title": "银河竞逐的乐趣和策略",
+      "url": "https://blog.codingnow.com/2026/08/rftg_strategy.html",
+      "author": null,
+      "publishedAt": "2026-08-20T12:01:10.000Z",
+      "image": null,
+      "readingMinutes": 7,
+      "score": 82,
+      "rank": 7,
+      "review": {
+        "argument": "Argument: it claims that Race for the Galaxy's depth lies not in maximizing VP efficiency but in outmaneuvering the opponent's timing and predictions, and it supports this with the author's win rates and gameplay analysis. Not an announcement.",
+        "transfer": "Transfers — the mechanism of multi-level strategic thinking (predicting the opponent's predictions) applies to any competitive or negotiation setting, and the reader can grasp it without knowing the game. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument about what makes the game strategic, not just a description of it.",
+        "appeal": "+8 — it has a hook (a fast, deep game with a 40% win rate online), scenes of playing and teaching, and it is readable cold even if you never play the game."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "银河竞逐的深度在于读对手和控节奏，而不是单纯堆分。",
+          "paragraphs": [
+            "银河竞逐是我最喜欢的桌游之一。最近我在电脑上玩了 200 多盘，主要是双人规则。线下我水平可以，但线上胜率刚过 40%，说明策略天花板很高。",
+            "这游戏节奏极快，BGA 上每人 3 分钟，一局 5-6 分钟。但思考时间总不够，最后两回合必须精算各种可能性。胜负分差很小，运气能靠计算挽回，小失误却会拉开差距。",
+            "核心目标是在结束那一刻比对手多拿 VP，不是单纯追求高效。所以必须盯住对手：判断他行动来帮自己，控制游戏节奏，让结束发生在自己领先时。这就带来多层博弈，像打扑克。",
+            "随机性很大，牌库大、手牌难料，所以前期多手准备、中期随时转型，没有人死守开局计划。最后一轮往往决胜，要估算哪个选择胜率最高。",
+            "所以这游戏让我着迷的地方，就是它既有深度又有速度，对抗性藏在节奏里。和 AI 玩也能练，但和人玩更有趣，因为读人才是真正的乐趣。"
+          ]
+        },
+        "en": {
+          "thesis": "Race for the Galaxy is deep because of reading opponents and controlling tempo, not just scoring points.",
+          "paragraphs": [
+            "Race for the Galaxy has always been my favorite board game. Lately I have played over 200 games online, mostly two-player. Offline I am strong, but online my win rate is only just above 40%, which tells me the strategic ceiling is high.",
+            "The pace is blistering, with three minutes each on Board Game Arena and a game done in five or six. Even so, there is never enough thinking time, and the last two rounds demand careful calculation. Scores end close, luck can be overcome, and one small misstep sinks you.",
+            "The core aim is to have more VP than your opponent when the game ends, not merely to amass points. So you must watch what they do, read their moves to feed your own, and bend the game's end point to your advantage. This becomes multi-layered, even poker-like.",
+            "Luck looms large, with a big deck and unpredictable draws, so you prepare several lines early and pivot mid-game. Few stick to an initial plan. The last round often decides it all, and you pick the move with the highest win probability.",
+            "This is why the game captivates me: depth and speed in one, with rivalry embedded in tempo. The AI is a useful sparring partner, but playing humans is far more fun, because reading people is where the real pleasure lies."
+          ]
+        }
+      }
+    },
+    {
+      "id": "e4aa60929bc818f009e4c05aa9d3e702ea10faea",
+      "sourceId": "nautilus",
+      "category": "culture",
+      "title": "The Return of a Discredited Pseudoscience",
+      "titleZh": "被唾弃的伪科学卷土重来",
+      "url": "https://nautil.us/the-return-of-a-discredited-pseudoscience-1283873/",
+      "author": "Dan Falk",
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Falk_HERO.png?w=564",
+      "readingMinutes": 13,
+      "score": 82,
+      "rank": 8,
+      "review": {
+        "argument": "Argument: it claims eugenics is reviving in politics and reproductive tech, and traces the historical throughline from Galton to Trump, RFK Jr., and embryo screening. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a discredited idea survives by rebranding and attaching to new technologies, and the reader sees it in current headlines. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that today's 'choice' rhetoric echoes eugenics, not just the examples.",
+        "appeal": "+10 — it connects to politics, health, and reproduction, has concrete scenes like the subway ads and Buck v. Bell, and is readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "优生学并未消亡，它正以新的形式在政治和生殖技术中复兴。",
+          "paragraphs": [
+            "优生学，这个一个世纪前风行的伪科学，如今又回到公众视野。它基于一个错误观念：存在所谓“正确”的基因组合，通过选择育种可以改良人类。",
+            "它的根源可追溯到达尔文表弟高尔顿，他主张像农民育种一样指导人类繁衍。纳粹将其推向极端，以科学之名行种族屠杀之实。",
+            "纳粹倒台后它并未消失，只是改了名头。美国曾有强制绝育，近年又有公司像 Nucleus Genomics 提供胚胎多基因筛查，宣称能选择宝宝的眼色、智商。",
+            "如今，特朗普将移民描述为“毒化血液”，肯尼迪质疑麻疹对健康人的危害，马斯克使用贬损词汇。这些言论在政治和科技精英中回响，助长“大替换”阴谋论。",
+            "学者警告，优生学的本质从未离去。即便科学早已证明种族是社会建构而非生物现实，但利用遗传学决定谁该出生，依然危险且诱人。"
+          ]
+        },
+        "en": {
+          "thesis": "Eugenics never died; it is resurging in politics and reproductive technology.",
+          "paragraphs": [
+            "Eugenics, the pseudoscience that flourished a century ago, is back in the public eye. It rests on a false idea: that some 'right' combination of genes exists, and that selective breeding can improve the human race.",
+            "Its roots trace to Darwin's cousin Galton, who urged guiding human reproduction like farmers breed animals. The Nazis took it to its genocidal extreme, justifying mass murder in the name of science.",
+            "After the Nazis it never vanished, just changed its name. America had forced sterilizations, and now companies like Nucleus Genomics offer polygenic embryo screening, promising parents they can pick eye color, even IQ.",
+            "Today, Trump calls immigrants 'poisoning the blood', Kennedy questions measles' harm to healthy people, and Musk uses slurs. These voices echo in political and tech elites, fueling the 'great replacement' conspiracy.",
+            "Scholars warn the essence of eugenics remains. Even though science long ago showed race is a social construct, not biology, using genetics to decide who is born remains dangerous and alluring."
+          ]
+        }
+      }
+    },
+    {
+      "id": "685984f7c5de6864c1bd0003e9152e3962cfc97d",
+      "sourceId": "psyche",
+      "category": "living",
+      "title": "Everything is going to be fine",
+      "titleZh": "一切都会好起来的",
+      "url": "https://psyche.co/videos/youre-sure-that-society-is-spiralling-and-were-all-doomed-now-what",
+      "author": "Psyche Video",
+      "publishedAt": "2026-08-20T10:01:00.000Z",
+      "image": "https://images.aeonmedia.co/images/737e3143-0725-4594-aaa6-7c4dd5d5d209/everything-is-going-to-be-fine-landscape-1.jpg?top=21&left=0&cropWidth=2000&cropHeight=1125&width=1200&quality=75&format=auto",
+      "readingMinutes": 1,
+      "score": 82,
+      "rank": 9,
+      "review": {
+        "argument": "Argument: it claims that existential threats trigger consumerist coping that worsens the threats, and that we must escape this psychological trap. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how anxiety about large-scale problems gets redirected into small-scale consumption, which the reader can recognize in their own behavior. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the examples.",
+        "appeal": "+10 — it is about a behavior people live with (shopping), it has a hook (shopping through Armageddon), and it is readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "对生存威胁的严重警告反而会引发更具破坏性的行为，我们必须跳出这个心理陷阱。",
+          "paragraphs": [
+            "面对末日级威胁，我们本该更谨慎，但现实恰恰相反。警告越吓人，人们反而越倾向于疯狂消费——好像世界要完了，那就抓紧享受吧。",
+            "这种心理机制叫「末日消费」：灾难消息触发了及时行乐的冲动，结果环境负担更重，加速了原本想避免的危机。",
+            "作者认为，要破局就得改变叙事方式。与其一味强调威胁有多严重，不如让人看到具体、可行的行动，把恐惧转化为建设性的力量。"
+          ]
+        },
+        "en": {
+          "thesis": "Grave warnings about existential threats trigger ever more destructive behavior, and we must escape this psychological trap.",
+          "paragraphs": [
+            "Facing existential threats, we should be more cautious, but the opposite is happening. The more frightening the warning, the more people tend to splurge — as if the world is ending, so why not enjoy it now.",
+            "This psychological mechanism is 'doom spending': disaster news triggers an impulse for immediate gratification, which in turn burdens the environment more and accelerates the crisis we were trying to avoid.",
+            "The author argues that the way out is to change the narrative. Instead of emphasizing how severe the threat is, we should offer concrete, feasible actions, turning fear into constructive power."
+          ]
+        }
+      }
+    },
+    {
+      "id": "878fb49bd11672229c0a34f31ac9d82246c374a4",
+      "sourceId": "restofworld",
+      "category": "tech",
+      "title": "“It’s laughable”: Global AI experts challenge Zuckerberg’s “AI for everyone”",
+      "titleZh": "“太可笑了”：全球 AI 专家质疑扎克伯格的“AI 惠及所有人”",
+      "url": "https://restofworld.org/2026/mark-zuckerberg-meta-ai-for-everyone-manifesto-global-critique/",
+      "author": "Ananya Bhattacharya",
+      "publishedAt": "2026-08-20T10:00:00.000Z",
+      "image": "https://restofworld.org/wp-content/uploads/2026/08/Zuckerberg-AI-Everyone-10-768x432.jpg",
+      "readingMinutes": 6,
+      "score": 82,
+      "rank": 10,
+      "review": {
+        "argument": "Argument: it challenges Zuckerberg's 'AI for everyone' manifesto by assembling six expert critiques that collectively argue access without infrastructure, language support, and accountability is hollow, and it caps with Birhane's 'laughable' dismissal.",
+        "transfer": "Transfers — the mechanism is how corporate rhetoric about democratizing technology can mask extractive practices and uneven power, which applies to any tech promise, not just AI. No cap.",
+        "claim": "A claim, and a contestable one: the piece argues that Meta's vision is self-serving and ignores last-mile realities, backed by specific examples like Kenya's paused data center and Facebook's history in Africa. Delete the writer and you lose the argument, not just the quotes.",
+        "appeal": "+10 — it is about a widely discussed topic (AI's impact on ordinary people), includes concrete scenes like Kenya's grid constraints and rural women, and has a hook in the 'laughable' quote. Readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "扎克伯格“AI 惠及所有人”的愿景在现实基础设施、边缘群体、信任和权力结构面前难以成立。",
+          "paragraphs": [
+            "扎克伯格发文称超级智能将惠及所有人，但多位全球 AI 观察者表示怀疑。赞比亚的肯尼亚专家指出，非洲的数据中心建设已遇电网瓶颈，且运营后对本地就业贡献甚微，还有环境和健康风险。",
+            "还有专家强调，“所有人”并不包括讲少数语言者、共享设备用户和网络不稳定人群。投资需扩展至开放语言基础设施，而信任取决于问责机制，而非数据收集量。",
+            "有专家认为 Meta 的“透明”说辞实为向美国监管示好，服从美国优先议程，利用全球用户数据训练中央机器，漠视边缘地区利益。",
+            "最尖锐的批评来自阿贝巴·比尔哈内，她称扎克伯格早年承诺惠及非洲农村女性，如今却垄断数据、压榨劳动力、传播有害信息，如今再谈“造福所有人”实属可笑。",
+            "所以，这篇宣言更多是公关辞令，而非可行的蓝图。若真要让 AI 惠及所有人，必须解决基础设施、语言包容性、信任和权力分配的根本问题。"
+          ]
+        },
+        "en": {
+          "thesis": "Zuckerberg's 'AI for everyone' vision fails against real-world infrastructure, marginalized groups, trust, and power structures.",
+          "paragraphs": [
+            "Zuckerberg published a letter claiming superintelligence will benefit everyone, but global AI observers are skeptical. An expert from Kenya notes that data center construction in Africa faces grid bottlenecks, and once operational, they contribute little to local employment, with environmental and health risks.",
+            "Others point out that 'everyone' excludes speakers of low-resource languages, shared-device households, and those with intermittent connectivity. Investment must extend to open language infrastructure, and trust depends on accountability mechanisms, not data collection.",
+            "Some see Meta's 'transparency' rhetoric as pandering to U.S. regulators, serving an 'America First' agenda, using global user data to train a central machine while neglecting marginalized regions.",
+            "The harshest criticism comes from Abeba Birhane, who recalls Zuckerberg's early promises to help rural African women, yet today Meta monopolizes data, exploits labor, and spreads harmful content, making the claim to 'benefit everyone' laughable.",
+            "So the manifesto reads more as PR than a viable blueprint. Realizing the vision requires addressing fundamental issues of infrastructure, linguistic inclusion, trust, and power distribution."
+          ]
+        }
+      }
+    },
+    {
+      "id": "3ca1d6eea3dca9c8e179d86a61db746d32bee83f",
+      "sourceId": "hn",
+      "category": "living",
+      "title": "Don't Paste the AI, please",
+      "titleZh": "请勿直接粘贴 AI 的回复",
+      "url": "https://dontpastetheai.com/",
+      "author": "pjerem",
+      "publishedAt": "2026-08-20T08:20:44.000Z",
+      "image": "https://dontpastetheai.com/assets/og-image.png",
+      "readingMinutes": 2,
+      "score": 82,
+      "rank": 11,
+      "review": {
+        "argument": "Argument: it claims that pasting raw AI output as a reply is a failure of judgment, and that the sender's own take is the only thing of value; it offers a behavioral alternative rather than reporting an event.",
+        "transfer": "Transfers — the mechanism is how delegation to a tool erases the human context the recipient actually wanted, and the reader can apply it to any conversation, not just AI use. No cap.",
+        "claim": "A claim, and a contestable one — delete the writer and you lose the argument that a short human reply beats a long model one, not just a list of tips.",
+        "appeal": "+10 — it is about a habit people live with daily, has a concrete scene (the DM, the Slack thread), and the hook is the counterintuitive idea that the generic answer is worthless because the asker could have gotten it themselves."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "直接转发 AI 输出是对提问者的失礼，你应该附上自己的理解和判断。",
+          "paragraphs": [
+            "有人问你一个问题，你把它丢给聊天机器人，复制答案发回去。你觉得快，觉得帮上了忙，但通常没有。对方手里也有同样的工具，想要通用答案的话，他自己早就弄到了。",
+            "他问你是想要你的见解、你的品味、你的判断。用 AI 完全可以，但请把它当草稿：读一遍，摘出真正回答问题的部分，剩下的删掉。用自己的话说，三句就够。没有可补充的，就直说「没有特别意见」也是有用的。把 AI 当传声筒，等于省掉了自己的思考。"
+          ]
+        },
+        "en": {
+          "thesis": "Forwarding raw AI output is rude; your own take is what was asked for.",
+          "paragraphs": [
+            "Someone asks you a question. You drop it into a chatbot, copy the answer, and send it back. Feels fast, feels helpful, usually isn't. The other person has the same tools you do; if they wanted the generic answer they'd have got it themselves in four seconds.",
+            "They asked you for your context, your taste, your judgement. Use AI by all means, but as a drafting partner: read it, pick out the bit that actually answers, drop the rest, and say it in your own words. Three sentences are plenty. If you've got nothing to add, saying 'no strong opinion' is a real reply. Being a proxy for the model is just skipping your own thinking."
+          ]
+        }
+      }
+    },
+    {
+      "id": "c01a0a863f3864993ba8493f3bf4844028f05959",
+      "sourceId": "jacobgold",
+      "category": "tech",
+      "title": "There's no such thing as a small software team anymore",
+      "titleZh": "软件团队已经没有「小」这回事了",
+      "url": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
+      "author": null,
+      "publishedAt": "2026-08-20T01:42:38.000Z",
+      "image": "https://jacob.gold/images/theres-no-such-thing-as-a-small-software-team.webp",
+      "readingMinutes": 1,
+      "score": 78,
+      "rank": 12,
+      "review": {
+        "argument": "Argument: it claims that coding agents make the old small-team model obsolete, and that codebase modularity is now the binding constraint on parallel work. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a tool that multiplies individual output changes the shape of an organization, and the reader can apply it to any field where automation scales individual effort. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that modularity is now a design priority, not just a maintenance nicety.",
+        "appeal": "+8 — it is about work people do, it has a concrete before/after (50 commits vs 500), and it is readable cold, though it stays inside the software world."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "AI 代理把一个人的产出放大成上百人，所以连小团队也必须像 Uber 那样拆分代码库。",
+          "paragraphs": [
+            "Uber 因为跑着几千个微服务而出名，那是几百个工程师为了各自独立部署、不挤在一个合并队列里等出来的结果。以前一个 5 到 10 人的小团队根本不需要这套，忙起来一天也就 50 次提交、20 次推送、10 个 PR。",
+            "现在同样的团队能同时跑 20 到 100 多个代理，一天变成 500 次提交、200 次推送、100 个 PR。Uber 那套极端做法，可能成为新常态。",
+            "代码库的模块化程度是并行工作的上限。代理要是老在互相踩脚、解决合并冲突、修坏掉的构建，生产力甚至可能变成负的。以前拆分服务很贵，每个服务都要写一堆样板和部署配置，现在代理把这些都写了，开销小多了。",
+            "所以没有小团队了，只有模块化得好不好的团队。代码拆得够细、每个模块能塞进上下文窗口，代理就跑得又快又顺，这值得从第一天就设计。"
+          ]
+        },
+        "en": {
+          "thesis": "AI agents multiply one developer's output by a hundred, so even small teams must modularize their codebase like Uber does.",
+          "paragraphs": [
+            "Uber is famous for running thousands of microservices, which happened because hundreds of engineers wanted to deploy on their own schedule instead of waiting in one giant merge queue. A small team of 5 or 10 people used to need none of that; a busy day meant maybe 50 commits, 20 pushes, 10 PRs.",
+            "The same team can now run 20 to 100+ agents in parallel, turning that day into 500 commits, 200 pushes, 100 PRs. Uber's extreme approach could become the new normal.",
+            "How modular your codebase is sets the ceiling on parallel work. If agents keep trampling each other, resolving merge conflicts and fixing broken builds, you can even get negative productivity. Splitting things used to be expensive because every service meant boilerplate and CI config, but agents now write all that, so the overhead matters much less.",
+            "So there is no small team anymore, only teams with well-modularized code. Break it down so each module fits in a context window, and agents run fast and clean — worth designing for from day one."
+          ]
+        }
+      }
+    },
+    {
+      "id": "e53691799f9e1e2a911baae26a490b12f01fe2da",
+      "sourceId": "simonwillison",
+      "category": "tech",
+      "title": "Conceptual integrity and counting lines of code",
+      "titleZh": "概念完整性与数代码行数",
+      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "author": null,
+      "publishedAt": "2026-08-19T22:46:07.000Z",
+      "image": null,
+      "readingMinutes": 3,
+      "score": 78,
+      "rank": 13,
+      "review": {
+        "argument": "Argues that lines of code can be a meaningful productivity metric for coding agents, and that the real bottleneck shifts to cognitive capacity, while also warning that agents erode conceptual integrity in software.",
+        "transfer": "Transfers — the core insight is that when a tool makes a task cheap, the discipline that once enforced quality disappears, and the reader sees this pattern in any domain, not just coding.",
+        "claim": "A claim with a mechanism — delete the writer and you lose the argument that cheap production leads to structural decay, not just a summary of a podcast.",
+        "appeal": "+8 — it has a vivid hook (the Winchester Mystery House analogy) and speaks to anyone who has watched quality erode when effort drops, though it is still somewhat inside the software world."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "代码行数在 AI 代理时代重新成为有意义的衡量标准，但真正的瓶颈变成了认知能力。",
+          "paragraphs": [
+            "很多人说用代码行数衡量生产力没有意义，但 Simon Willison 不这么看。在 AI 代理出现之前，一个工程师一天能写 200 行生产级代码就是极好的一天，通常只有 50、60 行。如果代理能让这个数字变成一千，且质量不变，那就是实实在在的提升，只是这需要很深的功底。",
+            "效率提升百倍，那公司是不是只需要一个工程师了？除了「bus factor」（一个人被车撞了就全完了）这种风险，新的瓶颈是认知能力：代码产出快了百倍，但没有谁能理解百倍的代码，所以团队仍然必要，只是现在的职责变成了分摊这种认知负担。",
+            "代理还带来一个更严重的问题：概念完整性。这个概念出自《人月神话》，指的是好软件各部分协调一致，没有意外。以前要加一个功能得花一周，你会想想是否值得；现在五分钟就能生成，软件就像温彻斯特神秘屋——那位夫人为了驱鬼，四十年来不停加盖房间，最后房子有 140 个房间，却毫无整体设计。软件也是这样，很容易长出突兀的「小房间」，然后你就更难做决策了。",
+            "所以终究还是回到纪律：过去是时间成本逼你自律，现在效率高了，这种自律只能靠自觉。"
+          ]
+        },
+        "en": {
+          "thesis": "Lines of code become meaningful again with coding agents, but the real bottleneck is cognitive capacity.",
+          "paragraphs": [
+            "People say lines of code are a meaningless productivity metric. Simon Willison disagrees. Before agents, a good day meant 200 lines of production-level code, usually more like 50 or 60. If an agent lets you write a thousand lines of debugged, maintainable code, that is a real improvement — but it takes real skill to keep the quality up.",
+            "A hundred times the output, so why hire more than one engineer? Aside from the bus factor, the new limit is cognitive capacity: you cannot keep a hundred times more code in your head. You still need a team, only now the job is to spread that cognitive load around.",
+            "Agents also threaten conceptual integrity, an idea from The Mythical Man-Month. Good software fits together with no surprises. A feature used to cost a week, so you thought twice. Now it takes five minutes, and your codebase grows weird lumps in odd directions — like the Winchester Mystery House, built by a woman who kept adding rooms for 40 years to appease ghosts. Easy to add rooms, hard to keep the design coherent, and then every decision gets harder.",
+            "So it comes back to discipline: the time cost used to enforce it for you, and now you have to supply it yourself."
+          ]
+        }
+      }
+    },
+    {
+      "id": "7c11f5c909ac9968c113bf16b805b0b64a50d189",
+      "sourceId": "nautilus",
+      "category": "science",
+      "title": "How Listening to Ocean Waves Can Predict Volcanic Eruptions",
+      "titleZh": "听海浪声如何预测火山喷发",
+      "url": "https://nautil.us/how-listening-to-ocean-waves-can-predict-volcanic-eruptions-1284014/",
+      "author": "Jake Currie",
+      "publishedAt": "2026-08-19T20:00:00.000Z",
+      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Currie_HERO_13849b.png?w=564",
+      "readingMinutes": 3,
+      "score": 78,
+      "rank": 14,
+      "review": {
+        "argument": "Argument: it claims that listening to ocean wave sounds through volcanic rock can predict eruptions, and explains the mechanism of how magma movement changes sound speed. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how subtle environmental signals can reveal hidden underground changes, and the reader gains a new way to think about prediction. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the reporting.",
+        "appeal": "+8 — it is about a natural disaster that affects travel and safety, has a concrete example with Kīlauea, and is readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "通过测量海浪声在火山岩中的传播速度，可以预测喷发是否临近。",
+          "paragraphs": [
+            "2010 年冰岛火山喷发，火山灰冲上 6 万英尺高空，欧洲航空停摆一周。美国总统奥巴马却有点得意——他前一年刚主张拨款 1500 万美元升级火山监测，还因此被批乱花钱。",
+            "如今美国地质调查局公开了一项新技术：听海浪声。太平洋的浪打在夏威夷海岸，声波穿过岩石，岛上的地震仪能捕捉到。通过测量声波在不同区域的传播速度，就能判断喷发有多近。",
+            "原理是：喷发前岩浆在地下积聚，挤裂岩石，裂缝会减慢声波；而岩浆进入火山口后，熔岩填满裂缝，又让声波加速。所以对比火山底部和边缘的声速，就能得到线索。",
+            "研究人员用这招分析基拉韦厄火山的历史数据，发现喷发前两个月声波就开始变慢，而火山口边缘的声速在 2025 年一次喷发前四天达到最快。",
+            "所以海浪声不只是让人放松的背景音，还可能成为火山预警的新工具。目前该技术仍在测试中，但科学家看好它能提前预报喷发。"
+          ]
+        },
+        "en": {
+          "thesis": "By measuring how fast ocean wave sounds travel through volcanic rock, an eruption's approach can be forecast.",
+          "paragraphs": [
+            "In 2010 an Icelandic volcano erupted, sending ash 60,000 feet high and grounding European air travel for a week. President Obama, however, had reason to feel vindicated—a year earlier he had proposed spending $15 million to modernize volcano monitoring, and was criticized for wasting money.",
+            "Now the USGS has revealed one of its new techniques: listening to the ocean. Pacific waves crash on Hawaii's shores, the sound travels through rock, and seismometers on the island pick it up. By measuring how fast the sound moves through different parts of the island, geologists can gauge how close an eruption is.",
+            "Here's how it works: before an eruption, magma accumulates underground, cracking the rock, and cracks slow the sound. But when magma moves into the caldera, molten rock fills fissures and speeds the sound up again. So comparing sound speeds at the volcano's base and rim offers clues.",
+            "Researchers applied the technique to data from past Kīlauea eruptions. Ocean noise slowed two months before the 2020 eruption, hitting its lowest just before; a rim seismometer recorded the fastest sound four days before a 2025 fountaining event.",
+            "So ocean noise is more than soothing—it could be a new tool for eruption forecasting. The technique is still being tested, but scientists at the Hawaiian Volcano Observatory see promising results."
+          ]
+        }
+      }
+    },
+    {
+      "id": "5752747de9ae732568544027b3de979e090f49ff",
+      "sourceId": "conversable",
+      "category": "living",
+      "title": "“Syntax often breaks down just at the point where a new or significant meaning is beginning to break out”",
+      "titleZh": "句法常常在意义将要破壳而出时崩坏",
+      "url": "https://conversableeconomist.com/2026/08/19/syntax-often-breaks-down-just-at-the-point-where-a-new-or-significant-meaning-is-beginning-to-break-out/",
+      "author": "conversableeconomist",
+      "publishedAt": "2026-08-19T16:00:00.000Z",
+      "image": "https://i0.wp.com/conversableeconomist.com/wp-content/uploads/2021/08/cropped-Screen-Shot-2021-08-23-at-2.04.56-PM.png?fit=889%2C66&#038;ssl=1",
+      "readingMinutes": 2,
+      "score": 78,
+      "rank": 15,
+      "review": {
+        "argument": "Argument: it claims that in an AI age, teaching editing matters more than teaching writing, and that the smoothness of AI drafts hides the awkwardness where new meaning emerges. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how the difficulty of writing signals the birth of an idea, and the reader can apply it to their own drafting and editing. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that rewriting is writing, not just a quote from Murray.",
+        "appeal": "+8 — it is about a practice people live with (writing), has a relatable scene (students making minimal edits), and offers a hook (syntax breaks down at the point of new meaning)."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "写作卡壳可能是意义即将出现的信号，而在 AI 时代，编辑比写作本身更重要。",
+          "paragraphs": [
+            "写作卡住时，也许正因为你在一个新意思的边上。这个想法有点安慰人。Donald Murray 在 1984 年的一篇文章里说过：句法常常在意义将要破壳而出时崩坏。那个意思笨手笨脚，但如果作者耐心倾听和培养，它可能长成重要的东西，也可能不成，得先被理解才能被抛弃。",
+            "AI 时代的问题在于，生成一个表面流畅的初稿已经便宜得不能再便宜。真人协作者的任务就变成了编辑，可 AI 不会犯句法错误，你怎么知道该改哪里？很多学生只会改老师点出的词句，其余不动，因为他们还没体会到「笨手笨脚」需要整体重构。",
+            "所以与其教写作，不如教编辑。老师可以拿一份现成的稿子（AI 或前人写的）来讨论怎么改，教学生像编辑那样提问，把文本看作流动的。过去说「写作即重写」，现在更该反过来说「重写即写作」。"
+          ]
+        },
+        "en": {
+          "thesis": "Writer's block can signal that meaning is about to emerge, and in the age of AI, editing matters more than writing.",
+          "paragraphs": [
+            "When writing feels hard, you may be on the edge of a new meaning. That thought is oddly comforting. Donald Murray wrote in an essay from 1984 that syntax often breaks down just where a meaning is beginning to break out of its shell. That meaning is awkward and clumsy at first, but if the writer listens and nurtures it, it may grow significant — or not. Either way, it has to be understood before it can be rejected.",
+            "In the age of AI, producing a smooth first draft is nearly free. The human collaborator's job becomes editing, but if the AI never breaks syntax, how do you know what to fix? Many students only fix the words the teacher points out, leaving the rest untouched, because they haven't felt that 'awkward and clumsy' meaning needs reshaping, not patching.",
+            "So perhaps teach editing instead of writing: take a pre-existing draft (by AI or someone else), raise concerns, and show how to address them, training students to ask editor's questions and see text as fluid. If 'writing is rewriting' used to be the slogan, now it's the reverse: 'rewriting is writing.'"
+          ]
+        }
+      }
+    },
+    {
+      "id": "46c9443d478bb91f398d494f2ed5d38bbdeaca5a",
+      "sourceId": "psyche",
+      "category": "living",
+      "title": "How to rediscover your purpose later in life",
+      "titleZh": "如何在人生后半程重新找到目标",
+      "url": "https://psyche.co/guides/how-to-rediscover-your-purpose-later-in-life",
+      "author": "Denise Taylor",
+      "publishedAt": "2026-08-20T10:00:00.000Z",
+      "image": "https://images.aeonmedia.co/images/fc9ce543-4c3f-4448-9741-f519eb7135fc/nyc8443.jpg?top=55&left=0&cropWidth=1056&cropHeight=594&width=1200&quality=75&format=auto",
+      "readingMinutes": 1,
+      "score": 72,
+      "rank": 16,
+      "review": {
+        "argument": "Argument: it claims that purpose can be rediscovered later in life through a specific process, not merely announced as a possibility.",
+        "transfer": "Transfers — the mechanism of reframing purpose as an evolving practice rather than a fixed destination applies to anyone facing life transitions, not just specialists.",
+        "claim": "A claim with a method behind it; delete the writer and you lose the actionable framework, not just a list of tips.",
+        "appeal": "+8 — it addresses a universal human concern (aging, meaning), offers a counterintuitive hook, and is accessible without background."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "在人生后半段，重新找到目标不是靠一次顿悟，而是靠有意识地调整视角和行动。",
+          "paragraphs": [
+            "许多人到了中年或晚年，会觉得目标感消失了。文章指出，这往往是因为我们把目标和成就绑得太紧，一旦职业或家庭的大目标完成，就失去了方向。",
+            "重新寻找目标，不是要找到一份新的事业或惊天动地的使命。而是从小处着手：重新审视自己的价值，尝试新的人际连接，并在日常中找到意义。",
+            "关键一步是放下「必须做出大事」的执念，允许自己从简单的事情中获得满足感。研究表明，助人和分享经验能显著提升幸福感，而这恰恰是后半生最容易做到的。",
+            "所以，人生下半场的目标不是被发现，而是被构建的。它需要你主动去试验、去连接、去反思，而不是等待一个灵光乍现的时刻。"
+          ]
+        },
+        "en": {
+          "thesis": "Rediscovering purpose later in life comes not from a single revelation but from deliberately shifting perspective and action.",
+          "paragraphs": [
+            "Many people find a loss of purpose in midlife or old age. The article points out that this often happens because we tie purpose tightly to achievement; once a career or family goal is complete, the direction is gone.",
+            "Rediscovering purpose is not about finding a new career or a grand mission. It is about starting small: re-examining your values, trying new connections, and finding meaning in daily life.",
+            "A key step is letting go of the obsession with doing something big, and allowing yourself to get satisfaction from simple things. Research shows that helping others and sharing experience significantly boost well-being, which is easiest to do in the second half of life.",
+            "So purpose in the later years is not discovered but built. It requires you to actively experiment, connect, and reflect, rather than wait for a flash of insight."
+          ]
+        }
+      }
+    },
+    {
+      "id": "a8501983ee6a55dd9516da15cef35d5c21e111f7",
+      "sourceId": "klement",
+      "category": "business",
+      "title": "Here is one reason why better managed firms succeed",
+      "titleZh": "管理更好的公司为什么更成功",
+      "url": "https://klementoninvesting.substack.com/p/here-is-one-reason-why-better-managed",
+      "author": "Joachim Klement",
+      "publishedAt": "2026-08-20T06:00:55.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/5694fb4a-4735-4d4a-bf1d-e9c3039eb392_640x444.jpeg",
+      "readingMinutes": 1,
+      "score": 62,
+      "rank": 17,
+      "review": {
+        "argument": "Argues that better-managed firms are better at forecasting staff turnover and GDP, citing an LSE study, and implies this explains their success — a contestable claim, not just an announcement.",
+        "transfer": "Transfers — the mechanism is that management quality shows up in forecasting accuracy, which is a general insight about why some organizations outperform, applicable beyond the UK business context.",
+        "claim": "A claim with evidence — the LSE study's figures and the McKinsey report are relayed, but the writer's judgment is that this validates part of McKinsey's argument, which is a takeaway you can disagree with.",
+        "appeal": "+5 — it has a hook (the McKinsey critique and the surprising link between management and forecasting), but it is abstract and lacks scenes or people, so it is not a must-share."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "管理更好的公司预测员工流失率和GDP增长更准，因此更有信心也更主动地配置资源。",
+          "paragraphs": [
+            "麦肯锡最近批评英国企业管理质量不如美国和德国，认为这是生产力低下的结构性原因。作者一向怀疑这类咨询公司的价值，但LSE的新研究让他改观。",
+            "研究发现，管理更好的公司在预测员工流失率和GDP增长时误差更小。生产力高的公司同样预测得更准。",
+            "这些公司似乎也清楚自己的预测优势，因此比同行更有信心，也更主动地配置资源。这或许就是它们更成功的原因。"
+          ]
+        },
+        "en": {
+          "thesis": "Better-managed firms forecast employee turnover and GDP growth more accurately, which gives them the confidence to allocate resources more proactively.",
+          "paragraphs": [
+            "McKinsey recently criticized UK firms for weaker management than the US and Germany, calling it a structural cause of low productivity. The author is usually skeptical of such consulting firms, but new LSE research changed his mind.",
+            "The study found that better-managed firms make smaller errors in forecasting both employee turnover and GDP growth. More productive firms also forecast better.",
+            "These firms appear to know their forecasts are better, so they are more confident and more proactive in allocating resources. That may be why they succeed."
+          ]
+        }
+      }
+    }
+  ],
+  "folded": [],
+  "rejected": [
+    {
+      "title": "Do Zoo Otters Love People Watching?",
+      "url": "https://nautil.us/do-zoo-otters-love-people-watching-1284025/",
+      "sourceId": "nautilus",
+      "score": 55,
+      "review": {
+        "argument": "It reports a study finding that zoo otters are more active and visible when visitors are present, challenging the assumption that crowds stress them, but it stops short of claiming enrichment, noting the correlation could be reversed.",
+        "transfer": "The takeaway is that a common assumption about animal welfare may be wrong for one species, but the mechanism is not generalizable; it is a single observational study, so the reader gains a curiosity but not a transferable principle.",
+        "claim": "It is a relay of a study's findings, with the writer adding context and caution, but the core is 'a study found X' — delete the writer and you lose the framing and the caveat, but not a contestable argument.",
+        "appeal": "+5 — it has a hook (otters may like people watching) and is readable cold, but it is about zoo animal behavior, not something the reader lives with."
+      }
+    },
+    {
+      "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
+      "url": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/",
+      "sourceId": "quanta",
+      "score": 28,
+      "review": {
+        "argument": "Announcement: it reports that quantum computing hardware is being built in several ways, with no contestable claim argued — the piece is a tour of photographs and technologies, not a thesis.",
+        "transfer": "A non-specialist comes away with a vague sense that quantum computers are hard to build and there are competing approaches, but the mechanisms (trapped ions vs. superconducting circuits) are described so thinly that nothing transfers to how they think about other things.",
+        "claim": "A list: the writer selects images and describes them, but supplies no judgment — delete the writer and you lose only the captions and the ordering, not an argument.",
+        "appeal": "+3 — the photographs are striking and the Eiffel Tower atom arrangement is a hook, but the piece is otherwise inert and aimed at readers already curious about quantum computing."
+      }
+    },
+    {
+      "title": "Fogust groove (a mixtape)",
+      "url": "https://austinkleon.com/2026/08/19/fogust-groove-a-mixtape/",
+      "sourceId": "kleon",
+      "score": 20,
+      "review": {
+        "argument": "Announcement: it reports that a mixtape was made and where to listen, with no contestable claim or reasoning. Caps at 30s.",
+        "transfer": "Does not transfer — the content is personal nostalgia and a playlist, with no mechanism that applies to how the reader thinks about anything else. Caps at 20s.",
+        "claim": "A list: the piece is essentially a link roundup with a personal anecdote; delete the writer and you lose only the links and the story of their origin. Caps at 20s-30s.",
+        "appeal": "+0 — it is about one person's listening habits, not something people live with, and there is no hook that would make a generalist want to read it."
+      }
+    },
+    {
+      "title": "Go 1.27",
+      "url": "https://go.dev/blog/go1.27",
+      "sourceId": "hn",
+      "score": 20,
+      "review": {
+        "argument": "Announcement: it reports the release of Go 1.27 and lists its features, with no contestable claim or reasoning beyond the fact of the release.",
+        "transfer": "Does not transfer — the mechanisms described (generic methods, struct literal keys, memory allocation) are internal to Go programming, and a non-specialist gains nothing portable.",
+        "claim": "A list — the writer relays the release notes without adding judgment; delete the writer and you lose only the summary, not an argument.",
+        "appeal": "+0 — it is about a programming language release, of interest only to Go developers, and offers no hook for a general reader."
+      }
+    },
+    {
+      "title": "OpenRouter is joining Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "sourceId": "hn",
+      "score": 20,
+      "review": {
+        "argument": "Announcement: it reports that OpenRouter is joining Stripe, and the rest is reassurance that nothing changes for users, capped by a mission statement.",
+        "transfer": "A non-specialist learns that a major AI model marketplace is being acquired by a payments company, but the piece offers no mechanism that transfers beyond the news itself.",
+        "claim": "A list: it relays the acquisition and repeats the company's mission, but delete the writer and you lose only the announcement and the reassurance, not an argument.",
+        "appeal": "+0 — the news is significant to developers, but the piece is written for them, not for a general reader, and it offers no hook that would make an outsider care."
+      }
+    },
+    {
+      "title": "Podcast: Amazon is Destroying Rare Books to Train AI",
+      "url": "https://www.404media.co/podcast-amazon-is-destroying-rare-books-to-train-ai/",
+      "sourceId": "404media",
+      "score": 15,
+      "review": {
+        "argument": "Announcement: it lists podcast topics, including Amazon destroying rare books for AI training, with no argument or analysis of any of them.",
+        "transfer": "Nothing transfers — a non-specialist learns only that these stories exist, not why they matter or how they connect.",
+        "claim": "A list: delete the writer and you lose only the links and episode logistics, not a single claim or judgment.",
+        "appeal": "+0 — no hook, no scene, no takeaway; it is a table of contents for subscribers."
+      }
+    },
+    {
+      "title": "Unsloth Dynamic 3.0 GGUFs",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "sourceId": "hn",
+      "score": 15,
+      "review": {
+        "argument": "Announcement: it announces Unsloth Dynamic 3.0 GGUFs with benchmark claims of >10% better accuracy, but the reasoning is mostly technical details and benchmark tables, not a contestable argument.",
+        "transfer": "Does not transfer — the mechanism of quantization layer selection and KL divergence is specific to LLM inference, and a generalist gains little beyond 'there's a new quant method'.",
+        "claim": "A list: it relays benchmark numbers and feature lists; delete the writer and you lose the selection of data, not a judgment you can disagree with.",
+        "appeal": "+0 — no hook for a generalist; it is about model quantization, not something people live with, and requires background to find interesting."
+      }
+    },
+    {
+      "title": "Typewriter interview with Julia Rothman",
+      "url": "https://austinkleon.com/2026/08/19/typewriter-interview-with-julia-rothman/",
+      "sourceId": "kleon",
+      "score": 15,
+      "review": {
+        "argument": "Announcement: it reports that a typewriter interview with Julia Rothman happened, with no contestable claim or reasoning beyond relaying her Instagram description.",
+        "transfer": "Does not transfer — the piece is about one illustrator's creative influences, and a non-specialist gains little beyond a glimpse of a niche ritual; no mechanism generalizes.",
+        "claim": "A list: it relays the interview's existence and quotes Rothman's own summary, but the writer's judgment is limited to admiration; delete the writer and you lose only the framing.",
+        "appeal": "+0 — it is a fan note for people already following either the interviewer or the interviewee; no hook for an ordinary reader."
+      }
+    },
+    {
+      "title": "Google has stopped pushing Git tags for some Android source code",
+      "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+      "sourceId": "hn",
+      "score": 15,
+      "review": {
+        "argument": "Announcement: reports that Google stopped pushing Git tags for some Android source code, citing GrapheneOS's Mastodon post, with no argument about why or what it means.",
+        "transfer": "Little transfers — a non-specialist learns a fact about Android development but gains no mechanism or broader insight; it is inside the field.",
+        "claim": "A list: it relays a status change without judgment or analysis; delete the writer and you lose only the relay.",
+        "appeal": "+0 — no hook for a generalist, no scene, no personal relevance; it is inert for anyone outside Android development."
+      }
+    },
+    {
+      "title": "Typewriter interview with Erik Winkowski",
+      "url": "https://austinkleon.com/2026/08/19/typewriter-interview-with-erik-winkowski/",
+      "sourceId": "kleon",
+      "score": 15,
+      "review": {
+        "argument": "Announcement: it announces that Erik Winkowski's Zinemail issues are interesting uses of Substack and that he agreed to a typewriter interview, with no argument or contestable claim beyond that.",
+        "transfer": "Does not transfer — the piece is a pointer to an interview and a link, with no mechanism or insight a non-specialist can carry away; it is a recommendation, not an analysis.",
+        "claim": "A list: it relays that the interview exists and is 'wonderful,' but delete the writer and you lose only the link and the praise, not any judgment or reasoning.",
+        "appeal": "+0 — there is no hook, no scene, no contradiction; it is a brief note for people already following Winkowski or Kleon."
+      }
+    },
+    {
+      "title": "Typewriter interview with George Saunders",
+      "url": "https://austinkleon.com/2026/08/19/typewriter-interview-with-george-saunders/",
+      "sourceId": "kleon",
+      "score": 10,
+      "review": {
+        "argument": "Announcement: it reports that a typewriter interview with George Saunders was transcribed and is available to read, with no argument or contestable claim beyond the transcription being 'near-Herculean.'",
+        "transfer": "Nothing transfers — the reader learns only that an interview exists and where to find it; no mechanism, no insight, no portability.",
+        "claim": "A list: the post is a link with a tag and a filed-under note; delete the writer and you lose only the link and the boast about transcription effort.",
+        "appeal": "+0 — no hook, no scene, no contradiction; it is inert for anyone not already following Saunders or typewriter interviews."
+      }
+    },
+    {
+      "title": "Inside the man…",
+      "url": "https://austinkleon.com/2026/08/19/inside-the-man/",
+      "sourceId": "kleon",
+      "score": 10,
+      "review": {
+        "argument": "Announcement: the title alone signals a profile or story about a man, but without a body there is no argument or contestable claim to evaluate.",
+        "transfer": "Nothing transfers — with no content, a non-specialist gains nothing, and there is no mechanism to carry out of the field.",
+        "claim": "A list at best — the title is a label, not a claim; delete the writer and nothing is lost because nothing was supplied.",
+        "appeal": "+0 — there is no hook, no scene, no contradiction; the title is too vague to interest anyone cold."
+      }
+    },
+    {
+      "title": "At the pool",
+      "url": "https://austinkleon.com/2026/08/19/at-the-pool/",
+      "sourceId": "kleon",
+      "score": 10,
+      "review": {
+        "argument": "Announcement: it announces a blackout poem titled 'At the pool' and notes it was placed at the top of a letter, with no argument or contestable claim.",
+        "transfer": "Nothing transfers — a non-specialist gains only that the author made a poem and put it in a letter; no mechanism or insight carries out of the field.",
+        "claim": "A list: the piece relays that the poem exists and where it was placed, with no judgment or analysis; delete the writer and nothing of substance is lost.",
+        "appeal": "+0 — it is not about anything people live with, has no scene or hook, and requires no background only because there is nothing to understand."
+      }
+    }
+  ]
+}
