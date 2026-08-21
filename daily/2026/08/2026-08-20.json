@@ -1,12 +1,12 @@
 {
   "date": "2026-08-20",
-  "generatedAt": "2026-08-21T00:47:48.840Z",
+  "generatedAt": "2026-08-21T01:02:58.359Z",
   "window": {
     "from": "2026-08-19T14:00:00.000Z",
     "to": "2026-08-20T14:00:00.000Z"
   },
   "stats": {
-    "fetched": 27,
+    "fetched": 30,
     "shown": 19,
     "folded": 0
   },
@@ -182,16 +182,14 @@
     {
       "id": "404media",
       "name": "404 Media",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 3
     },
     {
       "id": "wheresyoured",
       "name": "Where’s Your Ed At",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     },
     {
       "id": "bloodmachine",
@@ -350,7 +348,7 @@
       "sourceId": "pueyo",
       "category": "culture",
       "title": "How Households Drive History",
-      "titleZh": "家庭如何驱动历史",
+      "titleZh": "家庭如何推动历史",
       "url": "https://unchartedterritories.tomaspueyo.com/p/how-households-drive-history",
       "author": "Tomas Pueyo",
       "publishedAt": "2026-08-20T13:23:53.000Z",
@@ -359,41 +357,15 @@
       "score": 85,
       "rank": 1,
       "review": {
-        "argument": "Argument: it claims that household economics, not rulers or battles, drive history, and uses Mesopotamian households to show how the need for food, irrigation, and scarce resources shaped states and trade. Not an announcement.",
-        "transfer": "Transfers — the mechanism is that the mundane needs of ordinary people (food, water, shelter) determine the rise and fall of civilizations, and the reader can apply this lens to any era or current events. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that household needs are the primary engine of history, supported by specific examples like the role of canals and copper trade.",
-        "appeal": "+10 — it is about how ordinary people lived and worked, it contradicts the 'great men' view of history, and it is readable cold with vivid scenes of daily life."
+        "argument": "Argument: it claims that history is driven by household economics, not rulers and battles, and traces how the needs of Mesopotamian households shaped states, trade, and power. Not an announcement.",
+        "transfer": "Transfers — the mechanism is that the mundane needs of ordinary people, not the ambitions of elites, are the real engine of historical change, and the reader can apply this lens to any era. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that household needs determine political power, not just the historical details.",
+        "appeal": "+10 — it is about how ordinary people lived, it contradicts the standard history-book narrative, and it is readable cold with vivid scenes of daily life."
       },
       "summary": {
         "zh": {
-          "thesis": "历史不是由国王和战争驱动的，而是由普通家庭的经济需求驱动的。",
-          "text": "你学历史的方式可能是反的。历史书告诉你不同国家和国王的侵略、宫廷事件、大战役，偶尔在博物馆里看到一些日常器物，顺带提一句「他们的主要收入来自谷物和布料贸易」。但真正的故事恰恰是这最后一小句话。\n\n为什么一国攻打另一国？为了荣耀和权力？那这权力和财富又从何而来？谁胜谁负由什么决定？答案是经济，而经济又由家庭的需求驱动。\n\n## 公元前 2000 年的美索不达米亚家庭\n\n底格里斯河和幼发拉底河之间，是世界上最肥沃的土地之一，食物变成人口，人口变成金钱和士兵。在苏美尔，世界围绕着大麦农业转。\n\n但种出谷物只是开始。要浸泡、脱壳、簸选、筛、磨、烤、煮……还得做陶器、取水、找燃料、做衣服、盖房子、运东西、去市场卖货、为政府干活、照看孩子。一个家庭 50% 以上的时间都花在食物上。\n\n他们比我们工作得多得多，也辛苦得多，因为大部分东西都得自己做。但也有一些东西无法自给自足，这就是历史的关键。\n\n## 为什么需要协作\n\n灌溉系统不是单家独户能建的。运河很长，需要协调每个人出力，也需要强制劳动，这正是国家出现的原因之一。土地也由国家分配，价值取决于与大运河的位置关系。\n\n在美索不达米亚，洪水在收割时来临，而播种时缺水，水需要精细管理。这要求对当地条件有深入了解，远方的国王难以控制，因此统治者多是本地人，这解释了为什么这片地区长期是城邦林立，而没有强大的帝国。\n\n牛和犁也很贵，大家共享更合理，这也是国家有时协调的事。\n\n## 稀缺资源的角色\n\n除了粮食，家庭还要买鱼、肉、奶、盐等，产自专门的渔民、牧民、盐工。陶器需要黏土、窑和技艺，往往有国家协调，但掌控它并无太多政治权力。\n\n木材在美索不达米亚稀缺，需要进口，但来源多，可从上游漂运，所以控制木材贸易也生不出太大权力——腓尼基人倒是在海边靠木材发了迹，建了船，日后在海上四处殖民。\n\n金属铜则不然，它的稀有和管控能真正解释一些强权的起源，比如巴林和阿曼的前身。\n\n一句话总结：历史的主角不是国王，而是每个普通家庭为吃穿住行所作的经济选择。"
-        }
-      }
-    },
-    {
-      "id": "e4aa60929bc818f009e4c05aa9d3e702ea10faea",
-      "sourceId": "nautilus",
-      "category": "culture",
-      "title": "The Return of a Discredited Pseudoscience",
-      "titleZh": "一门被揭穿伪科学的回归",
-      "url": "https://nautil.us/the-return-of-a-discredited-pseudoscience-1283873/",
-      "author": "Dan Falk",
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Falk_HERO.png?w=564",
-      "readingMinutes": 13,
-      "score": 85,
-      "rank": 2,
-      "review": {
-        "argument": "Argument: it claims eugenics is reviving in politics and reproductive tech, and traces the historical throughline from Galton to Trump, RFK Jr., and Nucleus Genomics. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a discredited idea persists by rebranding and attaching to new technologies, and the reader sees it in current headlines. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that today's rhetoric and embryo screening are eugenics in new clothes, not just a history recap.",
-        "appeal": "+10 — it is about politics, health, and reproduction, has concrete people and scenes (Carrie Buck, the subway ads), and a hook that contradicts the assumption eugenics died with the Nazis."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "优生学虽被科学界抛弃，但在当代政治与科技圈重新抬头，其核心谬误——用基因划分人的优劣——依然危险。",
-          "text": "## 优生学是什么鬼？\n\n一百多年前，有人觉得，既然农民能靠挑选良种改良牲畜，那人类也能用类似方法“优化”后代。这就是优生学：相信有些基因天生“更好”，通过选择性生育，能让人类整体“进步”。\n\n听起来很科学？其实全是伪科学。\n\n## 它怎么变成灾难的\n\n达尔文的表弟高尔顿最先提出这套想法，还写了本书，按“种族优劣”给人类排座次，白人最上等。后来纳粹把它变成种族灭绝的借口，害死无数犹太人、罗姆人、残障人士。二战结束后，优生学声名扫地，但没死透，换个马甲继续混。\n\n## 老调重弹：现在又回来了\n\n如今，美国最有权势的人又开始念叨“基因决定论”。特朗普谈袭击者说“他们基因有问题”，夸耀自己“基因好”，还喊过移民“污染我们血统”。卫生部长小肯尼迪暗示体质差的人活该得麻疹，马斯克张口闭口骂智障者。这些言论都飘着优生学的馊味。\n\n## 换汤不换药的现代版\n\n纽约地铁出现广告，号称能筛选胚胎，选智商、选眼睛颜色。用“多基因筛查”挑“最优”宝宝，只有有钱人才玩得起，穷富差距又要拉大。还有人选择流掉可能患唐氏综合征的胎儿。\n\n## 科学早打脸了\n\n先说智商，科学家说了，智商测验只测了“聪明”的一小部分，而且智商是上千个基因加上环境共同作用的结果，真不是一两个“好基因”说了算。再说“种族”，现代遗传学证实，人类基因差异主要在个体之间，种族之间差异很小，“种族”是社会建构，不是生物学事实。\n\n一句话总结：优生学就是“基因决定论”的坏亲戚，以为几颗基因就能定人终身，却忘了人不是牲口，生活不是配种场。"
+          "thesis": "真正塑造历史的不是帝王将相，而是无数普通家庭为了填饱肚子产生的需求。",
+          "text": "教科书里总是让皇帝、将军和战争站在 C 位，但如果把镜头拉近，你会发现——真正撑起整个剧组、推动剧情发展的，其实是无数个普通家庭的日常。\n\n我们把时间拨回 4000 年前的古中东，看看当时的一个普通家庭是怎么“撬动历史”的：\n\n## 1. 吃饱饭，才是最硬核的“KPI”\n\n在古美索不达米亚，家庭最重要的任务就是种大麦。这里有两条大河灌溉，土地肥沃，粮食多就能养活更多人口。\n\n在古代，人口＝劳动力＝军队＝国力。哪个地方的家庭生得多、吃得饱，哪个地方就能变成超级大国。\n\n## 2. 每天都是“生存闯关游戏”\n\n光把粮食种出来还不够，家庭成员每天睁开眼，都要面对一连串繁重的任务：\n\n把大麦去壳、磨粉、做饭、酿酒。\n\n缝衣服、盖房子、搬东西、照顾小孩，还得给官府干苦力。\n\n每个人一天有一半以上的时间都在为“吃”奔波。这就是古代家庭最真实的日常——没有高大上的浪漫，只有为了活着而拼尽全力。\n\n## 3. 一家人搞不定？“国家”诞生了！\n\n有些大事，光靠单打独斗或一个家庭根本做不成：\n\n修水利：想要灌溉农田、防范洪水，必须千家万户一起挖渠。这就需要有人来组织、指挥甚至强制大家干活——于是，最早的国家和政府就被“逼”出来了。\n\n拼团买大件：像牛和铁犁这种“重型装备”太贵了，普通家庭买不起，只能大家凑钱合买、轮流使用。\n\n## 4. 买买买，买出了“文明”\n\n没有哪个家庭能生产所有东西。除了自给自足，他们还需要去市场上买自己做不出的东西——陶罐、木头、铜器，甚至其他蔬菜。\n\n当千千万万个家庭都有了“买买买”的需求，交易就出现了，城市变热闹了，贸易路线铺开了。为了抢夺这些稀缺资源，国家之间开始打仗，文明也随之兴衰交替。\n\n一句话总结：并不是帝王将相“创造”了历史，而是无数普通家庭为了填饱肚子、过好日子所产生的需求，一步步把人类社会推向了现代。"
         }
       }
     },
@@ -402,24 +374,24 @@
       "sourceId": "hn",
       "category": "tech",
       "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
-      "titleZh": "AliExpress 网页在偷偷用 WebAudio 指纹追踪，还搞坏了我的蓝牙耳机",
+      "titleZh": "AliExpress 网页用无声WebAudio指纹识别干扰了蓝牙多设备连接",
       "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
       "author": "emctech",
       "publishedAt": "2026-08-20T10:08:52.000Z",
       "image": null,
       "readingMinutes": 8,
       "score": 85,
-      "rank": 3,
+      "rank": 2,
       "review": {
         "argument": "Argument: it claims AliExpress's homepage silently runs WebAudio fingerprinting that interferes with Bluetooth multipoint, and traces the mechanism from hidden AudioContexts to the hardware side effect. Not an announcement.",
         "transfer": "Transfers — the mechanism is how a site's hidden anti-fraud code can hijack a system resource in a way the user's own controls can't stop, and the reader can act on it with the provided uBlock rules. No cap.",
         "claim": "A claim, and a contestable one; delete the writer and you lose the investigation, the evidence, and the practical fix, not just a report.",
-        "appeal": "+10 — it is about a site people use daily, it contradicts the assumption that muting a tab stops all audio, and it offers a concrete fix the reader can apply."
+        "appeal": "+10 — it is about a site millions use, it contradicts the assumption that muting a tab stops all audio, and it offers a concrete fix the reader can apply."
       },
       "summary": {
         "zh": {
-          "thesis": "AliExpress 首页会静默运行两个隐藏的 WebAudio 音频处理图，用于设备指纹识别，甚至干扰了蓝牙多设备切换。",
-          "text": "你有没有遇到过这种情况：正用手机听着歌，突然没声了，检查半天发现是电脑上某个网页在捣乱？我就碰上了，罪魁祸首居然是 AliExpress 的首页。\n\n## 奇怪的蓝牙故障\n\n我的耳机支持多设备连接，同时连着电脑和手机。平时电脑优先，手机在电脑没声音时能顶上。但只要我在 Firefox 或 Chrome 里打开 AliExpress 首页，手机音频立马断。关掉标签页就恢复。浏览器静音、系统静音都没用，页面上也找不到什么视频或音乐在播。\n\n## 没有媒体播放，却有音频上下文\n\n我怀疑是隐藏的自动播放视频，但查了个遍，没有 video/audio 元素，没有播放调用，一切正常。直到我改写了 AudioContext 构造函数，才发现页面加载几秒后，悄悄创建了两个 AudioContext 对象，都处于运行状态，且都连接到了音频输出。\n\n两个脚本都来自阿里系的 AWSC 目录，是反欺诈工具。它们用锯齿波振荡器生成信号，经过分析器和处理器，最后接一个音量归零的节点输出到系统音频。所以你听不到任何声音，但浏览器真的在干活。\n\n## 指纹追踪，不只是音频\n\n除了音频，这脚本还收集 Canvas、WebGL、屏幕分辨率、CPU 核心数、内存、插件、网络行为等一堆信息，加密后发给阿里服务器。这显然是为了识别你是不是机器人，防止薅羊毛、刷单之类的。\n\n但问题是，它让浏览器持续占用音频通道，我的耳机就没法切回手机了。浏览器静音按钮对它无效，因为它不是普通媒体元素。\n\n## 怎么破？\n\n我试了用 uBlock Origin 屏蔽这两个脚本，世界清净了。在「我的过滤器」里加两行规则，刷新页面，问题解决。不过要注意，这可能影响登录或结算时的验证码，遇到就暂时禁用。\n\n一句话总结：想不被静默追踪，又不想放弃购物，就用广告拦截插件把这些跟踪脚本挡在门外。"
+          "thesis": "AliExpress 首页在用户不知情的情况下，通过隐藏的 WebAudio 音频处理进行设备指纹识别，导致我的多设备蓝牙耳机无法正常切换回手机。",
+          "text": "打开阿里速卖通（AliExpress）首页，我的蓝牙耳机突然就\"失灵\"了。确切地说，耳机连在电脑和手机上，平时电脑有声音就优先电脑，没有就切回手机放歌。但只要电脑上开着 AliExpress 页面，手机的歌就停了，关了页面才恢复。\n\n一开始我以为是有隐藏的视频或广告在播放，但检查了个遍，页面上没有任何视频、音频元素或媒体会话。直到我包装了 AudioContext 构造函数，才发现页面悄悄创建了两个隐藏的音频上下文。\n\n## 这是怎么运作的？\n\n两个脚本（collina.js 和 fireyejs.js）来自阿里旗下的安全风控工具，它们构建了这样的\"音响设备\"：\n\n锯齿波振荡器 → 分析器 → 脚本处理器 → 音量调为零的增益器 → 音频输出\n\n振荡器生成特定波形，分析器读取通过浏览器音频处理后的结果，音量被设为0，所以用户听不到任何声音。但关键是，它连接到了系统音频输出。这就让浏览器认为有音频在处理，即使音量是0。对耳机来说，电脑的音频路径被\"霸占\"了，多设备切换功能就失效了。\n\n## 为什么要这么做？\n\n这不是单纯的音频处理，而是设备指纹识别的一部分。脚本还测量了 Canvas 渲染、WebGL 信息、屏幕尺寸、硬件并发数、浏览器插件等等，几乎收集了所有能识别设备的特征。目的是区分真实用户和机器人，防止欺诈、刷单、滥用优惠等。但这种方式从用户的角度看，就是不透明且影响体验的。\n\n## 怎么解决？\n\n我用 uBlock Origin 屏蔽了这两个脚本，问题就解决了。在我的过滤规则中添加：\n\n! AliExpress AWSC fingerprinting scripts\n||assets.aliexpress-media.com/g/AWSC/uab/*/collina.js$script,domain=aliexpress.com\n||assets.aliexpress-media.com/g/AWSC/fireyejs/*/fireyejs.js$script,domain=aliexpress.com\n\n之后页面正常浏览，耳机也恢复正常了。\n\n其实商家要防诈骗我能理解，但搞这种隐私窥探就不厚道了。更何况它还会影响我的硬件设备，让我听不了歌，那就别怪我用技术手段\"封印\"它了。\n\n一句话总结：网页也能\"偷听\"你的设备，无声的指纹识别连你的蓝牙耳机都感受到了。"
         }
       }
     },
@@ -428,24 +400,24 @@
       "sourceId": "worksinprogress",
       "category": "culture",
       "title": "How Thailand resisted colonization",
-      "titleZh": "泰国是如何抵抗殖民的",
+      "titleZh": "泰国如何抵抗殖民化",
       "url": "https://worksinprogress.co/issue/how-thailand-resisted-colonization/",
       "author": null,
       "publishedAt": "2026-08-20T09:11:43.000Z",
       "image": "https://worksinprogress.co/wip-image/uploads/2026/08/The_Art_Of_Not_Being_Conquered_Sharecard-1.jpg",
       "readingMinutes": 17,
       "score": 85,
-      "rank": 4,
+      "rank": 3,
       "review": {
-        "argument": "Argument: it claims Siam survived colonialism not by accident but by a deliberate strategy of performing European markers of civilization, and traces that strategy from the Ramkhamhaeng Stele through Mongkut's diplomacy to Chulalongkorn's nation-building. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a weaker state can survive a stronger one by adopting the stronger's own standards of legitimacy, and the reader sees parallels in modern geopolitics and corporate competition. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that Siam's survival was a strategic performance, not just a list of historical events.",
-        "appeal": "+10 — it is about a real country's survival, it contradicts the assumption that colonialism was inevitable, and it is readable cold with vivid scenes like the eclipse party and the Eton visit."
+        "argument": "Argument: it claims Siam survived colonialism not by military resistance but by strategically performing European markers of civilization, using the Ramkhamhaeng Stele as a brand asset, and traces how this strategy unfolded from Mongkut to Chulalongkorn.",
+        "transfer": "Transfers — the mechanism is how a nation can weaponize its own image to negotiate survival, and the reader sees parallels in modern statecraft and personal branding. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that Siam's agency mattered more than European power, not just a historical recap.",
+        "appeal": "+10 — it is about a real country's survival, full of vivid scenes (cigars with Bowring, the eclipse, Eton), and it contradicts the assumption that only Japan resisted. Readable cold."
       },
       "summary": {
         "zh": {
-          "thesis": "泰国通过外交、改革和形象管理成功抵抗了殖民统治。",
-          "text": "1833年，一位名叫蒙固的僧人前往素可泰，他发现了一块刻有古老文字的石头，这块石头后来被称为兰甘亨石碑，成为泰国文明悠久历史的证据。当时，泰国正面临西方列强的威胁，但它的统治者们利用这块石碑以及其他策略，成功保持了国家的独立。\n\n## 巧妙的外交\n\n泰国国王蒙固（ Rama IV ）与英国使者会面时，展示了对西方文化的精通，会谈气氛友好。他通过谈判达成条约，虽有不平等条款，但维护了主权。相比之下，缅甸因战争而失去领土，中国因鸦片战争而割让香港。\n\n## 主动西化\n\n蒙固的儿子朱拉隆功（ Rama V ）推行全面现代化改革，建立现代学校体系，统一语言，废除奴隶制，改革法律和军事。他们还积极展示科学成就，如邀请外国官员观测日食。这些举措让欧洲列强认为泰国是文明国家，从而减少侵略借口。\n\n## 以退为进\n\n在法军武力威胁下，泰国被迫割让部分领土，但保住了核心地区。这种战略让步避免了全面殖民统治。泰国还创造了统一的民族认同，强化国家凝聚力。\n\n## 石碑的意义\n\n虽然后来有学者质疑石碑的真实性，但它凸显了泰国主动塑造自身形象的智慧。通过展示文明特质，泰国避免了像邻国那样的命运，成功实现了现代化转型。\n\n一句话总结：泰国用外交而非武力，证明了自己的文明，从而在殖民浪潮中幸存。"
+          "thesis": "暹罗（今泰国）通过主动拥抱西方标记的“文明”，包括改革、外交和形象管理，成为少数未被殖民的亚洲国家。",
+          "text": "19世纪，欧洲列强像开了挂一样横扫全球，几乎把地球都瓜分完了。但有个国家硬是活了下来——就是暹罗，今天的泰国。它靠的可不是硬刚，而是一套聪明的“装文明”操作。\n\n## 1. 捡到一块石头，成了“品牌背书”\n\n1833年，一个叫蒙固的和尚去旧都素可泰出差，结果在废墟里发现了一块刻着奇怪文字的石碑。这块碑后来被称为“兰甘亨石碑”，据说刻于1292年，是现存最早的泰文记录。\n\n蒙固可不是普通和尚——他是国王的儿子，后来还当上了国王。他把石碑带回曼谷，召集学者破译，发现碑文讲了一个古代泰王国，有文学、法律、独立和贤明的君主。这个发现简直是“雪中送炭”——欧洲人总爱说亚洲国家“野蛮”，现在有了证据，暹罗可不是没有文明。\n\n## 2. 国王亲自“营业”，用雪茄和英语征服英国使节\n\n1855年，英国特使鲍林来到曼谷。当时英国可是世界霸主，但暹罗新国王蒙固（就是那个和尚）却让他大跌眼镜。蒙固说一口流利英语，还懂拉丁语，在私人房间里请鲍林抽雪茄、喝红酒，聊西方文学。鲍林后来写了本书，还把石碑写进去，承认暹罗有悠久文化。\n\n蒙固这波操作就是“精准表演”——他知道西方人看重什么：科学、贸易、国际法。他主动展示这些，而不是拒绝。反观中国乾隆皇帝，见了英国使团却说“天朝物产丰盈”，结果后来就被打脸了。\n\n## 3. 不仅“装”，还真改革\n\n蒙固的儿子朱拉隆功继位后，更是把“文明”玩到极致。他搞了一整套“国家品牌塑造”：\n\n统一语言：把曼谷方言定为“标准泰语”，建学校推广。\n\n画边界：废掉模糊的曼陀罗体系，用现代测绘划清国界。\n\n废奴隶：1905年废除奴隶制，比美国还早。\n\n改法律：请比利时顾问编新法典，让欧洲人觉得“文明”。\n\n他还去欧洲巡游，穿着西装，见英国女王、法国总统，强调“我是你们平等的伙伴”。\n\n## 4. 挨打也不怕，丢地保命\n\n1893年，法国炮舰开到曼谷，逼暹罗割地。朱拉隆功没硬拼，而是象征性打了一下，然后乖乖割地——割了大约40%的领土给英法。但这些都是偏远地区，核心的湄南河平原保住了。这就像丢了棋子，保住帅。\n\n## 5. 石碑的真假，反而无所谓\n\n后来有学者怀疑石碑是假的，是暹罗人自己造的“民族神话”。但那又怎样？关键是——暹罗用这块石头和一系列改革，证明了“我是文明国家”。西方人想占领，也得找个“正当理由”，比如“解放被压迫民族”。但暹罗说：“我们都一样，你看我们有文字、有法律、有国王。”\n\n结果，暹罗成了少数没被殖民的亚洲国家，而周边缅甸、越南、柬埔寨都成了殖民地。二战后这些国家独立了，但殖民留下的烂摊子让他们苦不堪言。暹罗（后来的泰国）却因为自己掌握改革节奏，避免了很多苦难。\n\n一句话总结：与其硬刚，不如“装文明”——把自己变成西方人眼中的“同类”，他们就不好意思下手了。"
         }
       }
     },
@@ -461,43 +433,95 @@
       "image": "https://substackcdn.com/image/fetch/$s_!VzOb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb73a7c5d-5907-45eb-a952-8fa30d39f19e_1248x702.png",
       "readingMinutes": 10,
       "score": 85,
-      "rank": 5,
+      "rank": 4,
       "review": {
-        "argument": "Argument: it claims that modern technology has made selfishness easy and inconsequential, and proposes a set of etiquette rules to counter that, grounded in the moral fact that other people are real. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how small technological conveniences erode basic respect, and the reader can apply these rules immediately in daily life. No cap.",
+        "argument": "Argument: it claims that technology has made selfishness easy and inconsequential, and proposes a set of etiquette rules to counter that, grounded in the moral fact that other people are real. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how everyday tech habits erode respect for others, and the reader can apply these rules immediately. No cap.",
         "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just a list of tips.",
-        "appeal": "+12 — it is about everyday interactions everyone has, contradicts the assumption that tech is neutral, and is readable cold with vivid examples."
+        "appeal": "+12 — it is about daily life, has concrete scenes (AirPods at the coffee counter, group chat screenshots), and offers a hook: the idea that read receipts aren't subpoenas."
       },
       "summary": {
         "zh": {
-          "thesis": "在数字时代，基本的体面要求我们尊重他人的现实存在，而不是把他们当作内容或工具。",
-          "text": "## 为什么还需要礼仪\n\n礼仪不是繁文缛节，而是承认一件事：别人也是真实的人，有自己的内心世界。科技没有制造自私，但它让自私变得太容易了。发一条推文，截图一个群聊，拍一个陌生人出丑——这些事现在毫无代价。但我们得有个底线。\n\n## 注意力：人比手机重要\n\n1. 别用 AI 给爱人写信。笨拙的真话胜过完美的废话。\n2. 点咖啡时摘下耳机。别让播客替你跟人打招呼。\n3. 七分钟语音是给别人布置作业。想聊就见面聊。\n4. 地铁上听歌戴耳机。公共空间不是你的私人影院。\n5. 拉人进群前先问一声。\n6. 已读不回不是犯罪。你没资格要求秒回。\n7. 对面坐着人，就把手机扣过来。天塌不下来。\n\n## 隐私：别把别人当素材\n\n8. 别人看不见的摄像头，别用。\n9. 别人家的孩子不是你的流量。\n10. 群聊截图是背叛。除非对方在策划炸沃尔玛。\n11. 别拍陌生人的崩溃。帮一把，或者走开。\n12. 用 AI 就承认。藏着掖着说明你自己心虚。\n13. 监控装自己家，别对着邻居。\n\n## 公共生活：别挡路，别站队\n\n14. 看手机别堵路。你也不会把车停高速上。\n15. 别跟着网络暴民起哄。你根本不知道完整故事。\n16. 转载注明出处。找不到原创者就说明你根本没找。\n17. 推车归位，擦桌子，给人让路。文明就是这些小事。\n\n## 生而为人：尊重人的变化\n\n18. 别人的死讯、婚讯、病讯，轮不到你发布。\n19. 别人向你袒露真心，你也得用真心回应，别拿 AI 糊弄。\n20. 允许别人改过自新。别把旧账翻个没完。\n21. 记住，屏幕那头是活生生的人。你发出的每个字，都可能让人发抖。\n\n一句话总结：别人不是你的素材、背景板或工具。他们为自己而活，不是为你。"
+          "thesis": "技术让自私变得容易，但礼貌的本质是承认他人是真实的人，而非可用的资源。",
+          "text": "在数字时代，技术没有制造自私，却让自私变得轻而易举——把朋友当观众、把陌生人当内容、把私人时刻当证据。所以，我们需要一套新礼仪，核心只有一条：别人不是你的素材，他们有自己的生活。\n\n## 注意力：真诚比完美重要\n\n1. 给爱的人写信，用你自己的话，别外包给AI。笨拙的真心话，胜过完美的机器文案。\n2. 与人交谈时，摘下耳机。点咖啡时，别让店员跟你的播客竞争存在感。\n3. 别拿别人的时间换自己的方便。七分钟语音留言省了你的事，却花掉对方七分钟。写清楚，或者当面聊。\n4. 私人的音乐、短视频，请戴耳机。公共空间不属于你一个人的品味。\n5. 拉人进群前先问一声。群聊是小型数字社会，别未经同意就拉人入伙。\n6. 已读不回不是罪。对方可能在想怎么回，也可能只是累了。你无权随时索要别人的注意力。\n7. 跟人在一起时，把手机收起来。那45分钟，世界末日也得排队等你。\n\n## 隐私：看不见的镜头，别用\n\n8. 智能眼镜、隐藏摄像头，这些让拍摄变得隐蔽的设备，属于纯混蛋。要么不用，要么明确告知。\n9. 别人的孩子，不是你的内容。别晒别人的孩子，也别晒自己的孩子——孩子还不懂什么是“公开”。\n10. 别截屏群聊。把别人的信任换成社交点赞，你大概率是个混蛋。例外只有一个：群聊里有人要炸超市。\n11. 别拍陌生人的窘态。别人崩溃、生病、出丑，不是你的素材。帮忙，或者走开。\n12. 用AI就大方承认。遮遮掩掩，说明你对自己的工作流没底气。\n13. 监控你自己的地盘。门铃、行车记录仪，是为了保护你的财产，不是监视邻居。\n\n## 公共生活：别挡住别人的路\n\n14. 走路别看手机。你会在高速上停车看短信吗？那也别挡在人行道上。\n15. 别跟风网暴。算法给你看一个陌生人，让你当法官。你根本不知道全貌，群体也不知道何时该停。\n16. 转发前先注明来源。花几分钟查一下，谁做了这个表情包、写了这段话。\n17. 做点文明小事：还购物车、收桌子、把包从空座上拿开、先下后上。\n\n## 人的事：把人当人\n\n18. 别替别人宣布人生大事。你知道了别人的死讯、怀孕、分手，不代表你有权发布。\n19. 用人心换人心。收到悲伤、勇气、爱，别用AI回复来逃避找词。亲手写道歉、悼词、祝酒词。\n20. 允许别人改变。互联网保存旧物，但人靠改变而活。别翻旧账，给人改过的机会。\n21. 记住：每个账号背后都是一个身体。发帖前问问自己：如果这人就站在我面前，我还会这么做吗？\n\n一句话总结：别人不是你的工具，他们为自己而活。"
         }
       }
     },
     {
       "id": "91812788e8a35a11b4ac3a2524f886e61b598092",
       "sourceId": "noahpinion",
-      "category": "economy",
+      "category": "culture",
       "title": "Economists should be worried about birth rates",
-      "titleZh": "经济学家应该为出生率担忧",
+      "titleZh": "经济学家们应该为出生率而担忧",
       "url": "https://www.noahpinion.blog/p/economists-should-be-worried-about",
       "author": "Noah Smith",
       "publishedAt": "2026-08-19T23:27:31.000Z",
       "image": "https://substackcdn.com/image/fetch/$s_!Sjeu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad89fb2c-b6cd-48b0-a5fd-2876400f101b_992x702.jpeg",
       "readingMinutes": 16,
       "score": 85,
-      "rank": 6,
+      "rank": 5,
       "review": {
-        "argument": "Argument: it critiques Acemoglu et al.'s new paper claiming low birth rates boost growth via automation, and argues the paper's evidence is weak and contradicts Acemoglu's own prior work on automation's harms. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a top economist's authority can shape policy despite shaky evidence, and the reader learns to question bold claims even from Nobel laureates. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the detailed statistical critique and the pointed contradiction between Acemoglu's papers, not just a summary.",
-        "appeal": "+10 — it is about a global demographic trend that affects everyone's future, it has a clear narrative of a blogger taking on a Nobel laureate, and it is readable without economics training."
+        "argument": "Argument: it critiques Acemoglu et al.'s new paper claiming low birth rates boost growth via automation, and argues the result is fragile and contradicts Acemoglu's own prior work on automation's harms. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a top economist's authority can make shaky results seem definitive, and the reader learns to question bold claims even from Nobel winners. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the citations.",
+        "appeal": "+10 — it is about a global demographic shift that affects everyone's future, it has a concrete hook (the contradiction in Acemoglu's papers), and it is readable cold."
       },
       "summary": {
         "zh": {
-          "thesis": "人口减少或许会倒逼自动化，但这一机制的证据并不扎实，且与老龄化风险相比，我们仍应担忧人口萎缩。",
-          "text": "《经济学人》最近又去怼诺奖得主阿西莫格鲁，还顺带引用了我吐槽他的话。我确实常年批评他的研究，但这不是因为他人不行，而是因为经济学界太讲等级、太封闭，年轻学者不敢挑战大佬，结果研究越来越偏向权威的直觉。所以，哪怕是大佬，该怼也得怼。\n\n这次要怼的是他的新论文：低生育率反而让人均GDP增长更快。理由是人口少了，企业只好搞自动化，用机器替代人，生产率反而上去了。听起来挺有道理，但我仔细一看，毛病不少。\n\n## 结果不稳健\n\n他们用跨国数据回归，但只要多控制几个变量，比如教育水平、城市化程度，那个“低生育率促进增长”的效应就变得不显著了。而且控制变量加得越多，效应越弱，这在实证里是典型的危险信号。\n\n更奇怪的是，他自己一辈子都在强调“制度”是发展的根本，但这篇论文里连“制度”这个词都没提过。难道发避孕套比制度改革还管用？\n\n## 美国数据也有问题\n\n用美国通勤区数据看，结论是1940年出生率低的地方，比如纽约、旧金山，后来工资涨得快。作者说这是因为劳动稀缺逼着企业自动化。但美国各地的人员和资本流动那么方便，波士顿的机器人完全可以在加里市用，凭什么说加里市不自动化是因为出生率高？我怀疑这是人才和产业聚集的结果，跟出生率没多大关系。\n\n## 与自己的其他研究打架\n\n阿西莫格鲁一边说不用担心低生育率，因为自动化会带来高工资高生产率；一边又说自动化会压低工资、损害生产率。这不自相矛盾吗？如果自动化真像他说的那么坏，拿什么来弥补老龄化呢？\n\n## 过去的经验未必适用于未来\n\n就算以前低生育率真有好处，可现在很多国家的生育率已经低到历史上前所未有的水平。每代人口砍掉一半多，这种断崖式下跌跟论文里分析的温和下降完全是两码事。线性外推不可靠，我们很可能正驶入人口学上的未知水域。\n\n一句话总结：人口收缩也许能倒逼自动化，但证据不足，还自相矛盾，该担心的还是得担心。"
+          "thesis": "即使顶级经济学家如阿西莫格鲁认为低生育率能刺激自动化并提升生活水平，但其论文存在缺陷，且与他的其他研究矛盾，我们仍需警惕人口萎缩的未知风险。",
+          "text": "最近《经济学人》发文批评诺奖得主阿西莫格鲁，还提到我这个博客作者也常年质疑他。其实经济学界有个毛病：太崇拜大牛，不敢质疑。所以我觉得，即使批评不中听，也应该有人出来挑刺。\n\n这次，咱们来聊聊他2026年的一篇新论文。\n\n## 核心观点：孩子少，反而更富裕？\n\n阿西莫格鲁这篇论文声称，低出生率不一定拖累经济，反而可能因为劳动力变少，倒逼企业搞自动化，从而提升生产率和工资。\n\n听起来好像有道理？但问题来了。\n\n## 前后打脸：从“AI害人”到“AI救人”\n\n阿西莫格鲁之前一直警告大家：AI和机器人会拉低工资、加剧不平等。就在2021年，他还写了篇论文，说自动化和AI“无法提高工人生产率”。\n\n可这篇新论文，却把“自动化提高工资”当作救星，说它能弥补人口老化带来的损失。\n\n这不就是自己打自己脸吗？如果你相信旧论文，那人口老化就没救；如果相信新论文，那AI没那么可怕。\n\n问题在于：他同时让你既担心人口老化，又担心AI，但对策却互相矛盾。\n\n## 数据的猫腻\n\n更关键的是，这篇论文的数据分析并不扎实。\n\n1. 一旦加入教育和城市化等控制变量，核心结论就不再显著。\n2. 那篇论文强调“不是由教育等因素解释”，但结果恰恰相反。\n\n跨国对比很容易出问题，因为各国差异太大，谁知道是不是遗漏了什么更重要变量，比如制度？——要知道，阿西莫格鲁自己一辈子都在强调制度的重要性，可这篇论文里“制度”一词压根没出现。\n\n## 美国例子：波士顿 vs 加里\n\n论文里用美国城市做例子：1940年出生率低的海岸城市（像波士顿），后来工资涨得快。\n\n但这可能只是“人才聚集效应”：聪明能干的年轻人，本来就爱往波士顿跑，跟生孩子多少没关系。加里那种中西部城市，人才外流，自然工资涨得慢。\n\n两位经济学家用了一堆复杂方法，但很难排除这种“人往高处走”的影响。\n\n## 别忘了，这是史无前例的\n\n就算这篇论文对过去70年是对的，也不代表对未来有效。\n\n现在全球生育率暴跌，已经低到人类历史从未有过的水平。比如，生育率1.56意味着人口100年后还剩40%；如果降到0.75，100年后只剩3.5%。这完全是两种不同的世界。\n\n而这篇论文的数据，大多来自生育率还不太低的年代，没法告诉我们真正“超低生育率”会带来什么后果。\n\n## 我依然担忧\n\n所以，别急着因为这篇论文就高枕无忧。\n\n人口萎缩将如何重塑社会？AI会不会真的救场？这些都是未知数。\n\n一句话总结：别被“省事”的经济学故事骗了，面对史无前例的人口危机，我们更需要的是谦卑与谨慎。"
+        }
+      }
+    },
+    {
+      "id": "15542bd927428ee2676aba093295f253e84d05c1",
+      "sourceId": "404media",
+      "category": "culture",
+      "title": "Subtlefakes: Slightly Altered Nonconsensual AI Images Are Taking Over X",
+      "titleZh": "“微妙假”：AI 篡改的隐蔽图像正在占领 X",
+      "url": "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/",
+      "author": "Emanuel Maiberg",
+      "publishedAt": "2026-08-20T13:34:23.000Z",
+      "image": "https://images.unsplash.com/photo-1737619285967-f3e96858b7af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHh8ZW58MHx8fHwxNzg3MTU0MTU2fDA&ixlib=rb-4.1.0&q=80&w=2000",
+      "readingMinutes": 6,
+      "score": 82,
+      "rank": 6,
+      "review": {
+        "argument": "Argument: it claims a new class of nonconsensual AI images — 'subtlefakes' — is more convincing and harder to moderate than deepfakes, and that X's engagement-farming incentives are fueling them. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how platform incentives (paying for engagement) reward increasingly sophisticated abuse, and the reader sees the same dynamic in other online spaces. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that subtlety is the new frontier of abuse, not just the examples.",
+        "appeal": "+10 — it is about a platform people use, it contradicts the assumption that deepfakes are always obvious, and it is readable cold with concrete examples."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "AI 生成的“微妙假”图像比传统 deepfake 更逼真、更难识别，且 X 平台对这类内容的放任，使其成为新型骚扰和牟利工具。",
+          "text": "还记得 2017 年我第一次看到 deepfake 时的震惊：一个把脸换成盖尔·加朵的色情短片，逼真得吓人。但那时我们至少知道它假——因为“神奇女侠”不可能拍那种片。可最近几个月，我在 X 上发现了一种更狡猾的假图，我管它叫“微妙假”。\n\n## 1. 什么是“微妙假”？\n\n它不直接生成裸照，而是把真实照片细节改动：比如把红毯女星的衣服“调”得更暴露，把臀部“放大”一点，或者生成一张她健身房自拍，但姿势更“撩人”。看起来跟真的一模一样，没有传统 deepfake 那种明显的违和感。演员 Xochitl Gomez 就被这样整过：有人拿她停车场的真实照片，AI 改成了她弯腰、手放屁股上的样子——要不是她本人晒出来，谁也看不出来。\n\n## 2. 为什么更难发现？\n\n因为大牌明星突然发黄片显然不真实，但“裙子稍低一点”这种改动，太符合日常了。而且主流 AI 工具虽然禁止生成裸体，却往往不管你是否模仿真人——也就是说，用 Grok 这类工具就能轻松做出来，甚至有些图自带 Grok 水印。难怪连我这个专业鉴假的人都可能被骗。\n\n## 3. 谁在发？为什么？\n\n发这些图的，大多是 X 上的“互动收割号”，它们靠浏览量分成赚钱——内容越离谱，分成越多。X 对此睁一只眼闭一只眼，甚至有的号还拿这些假图当广告，引流到其他平台卖真裸照牟利。反正是轻松钱，一个号不够就开五个，每天发几十条。\n\n## 4. 这告诉我们什么？\n\n10 年前，deepfake 还笨拙可笑；现在，AI 滥用者已经进化成“精致作恶”——不打擦边球，却更难识别、更难追责。这不只是技术问题，更是平台治理的失效。当 X 用钱奖励低质垃圾内容时，这类假图只会越来越多。\n\n一句话总结：AI 的技术在进化，作恶的手段也在进化，而我们的防骗能力还没跟上。"
+        }
+      }
+    },
+    {
+      "id": "e4aa60929bc818f009e4c05aa9d3e702ea10faea",
+      "sourceId": "nautilus",
+      "category": "culture",
+      "title": "The Return of a Discredited Pseudoscience",
+      "titleZh": "被揭穿的伪科学卷土重来",
+      "url": "https://nautil.us/the-return-of-a-discredited-pseudoscience-1283873/",
+      "author": "Dan Falk",
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Falk_HERO.png?w=564",
+      "readingMinutes": 13,
+      "score": 82,
+      "rank": 7,
+      "review": {
+        "argument": "Argument: it claims eugenics is reviving in politics and reproductive tech, and traces the historical throughline from Galton to Trump, RFK Jr., and embryo screening. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a discredited idea survives by rebranding and attaching to new technology, and the reader sees it in current headlines. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that today's 'choice' rhetoric echoes past coercion, not just the examples.",
+        "appeal": "+10 — it is about politics, health, and reproduction, has concrete scenes like the subway ads and Buck v. Bell, and is readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "优生学这种伪科学，在沉寂多年后，正借着政治和科技的新外衣重新抬头。",
+          "text": "这年头，一股熟悉又危险的风气又回来了——优生学。它听起来很学术，其实核心就一句话：人也能像动物一样“配种”，把“好基因”留下来，把“坏基因”剔除掉。\n\n一百多年前，达尔文的表弟高尔顿突发奇想：农民能挑好牲口配种，人为什么不能？于是提出了“优生学”。这观念很快就火了，尤其是在美国。当时的人们搞“优生宝宝”比赛，把“智力低下”的人强行绝育，还拿它当借口限制移民。最臭名昭著的是，纳粹把它用到了极致，搞出种族灭绝。\n\n二战之后，优生学名声臭了，但它没死，只是悄悄改了名字，躲进学术期刊和机构里继续活着。\n\n如今，它换了个马甲又回来了。\n\n## 1. 政治大佬的“基因论”\n\n特朗普和卫生部长小肯尼迪，张口闭口就是“基因”。特朗普说移民“基因不好”，小肯尼迪说营养不良的人生病活该。马斯克呢，整天在社交媒体嘲笑有精神残疾的人。这些大佬的话，听着是不是很耳熟？跟一百年前的优生学家一个调调。\n\n## 2. 科学的打脸\n\n现代科学早就证明，优生学全是胡扯。IQ 不是只由基因决定，还受后天环境和运气影响；所谓的“种族优劣”，更是没有科学依据——种族根本不是生物学概念，而是社会建构。\n\n## 3. 科技公司推波助澜\n\n更魔幻的是，现在还有公司搞“定制婴儿”。纽约地铁挂出广告：“选择你的最佳宝宝”“IQ 百分之五十是基因”。只要给钱，就能用胚胎技术筛选宝宝的智商、眼睛颜色。好家伙，这不就是新型优生学吗？\n\n科学家们忧心忡忡：优生学的本质——用基因来评判和筛选人——依然阴魂不散。只不过换了新包装，从强制变成了自愿，但危险一点没少。\n\n一句话总结：优生学没死，它只是换了件衣服，继续祸害人间。"
         }
       }
     },
@@ -513,17 +537,17 @@
       "image": "https://images.aeonmedia.co/images/737e3143-0725-4594-aaa6-7c4dd5d5d209/everything-is-going-to-be-fine-landscape-1.jpg?top=21&left=0&cropWidth=2000&cropHeight=1125&width=1200&quality=75&format=auto",
       "readingMinutes": 1,
       "score": 82,
-      "rank": 7,
+      "rank": 8,
       "review": {
-        "argument": "Argument: it claims that existential threats trigger consumerist coping rather than constructive action, and that this shopping response is itself a destructive trap. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how anxiety about large-scale threats gets redirected into small-scale consumption, and the reader can recognize it in their own behavior. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the examples.",
-        "appeal": "+10 — it is about a behavior people live with, it has a hook (shopping as a response to Armageddon), and it is readable cold."
+        "argument": "Argument: it claims that existential threats trigger consumerist coping rather than constructive action, and that this shopping response is itself a psychological trap that worsens the crisis. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how anxiety about large-scale threats gets redirected into small, controllable purchases, and the reader can recognize this pattern in their own behavior. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument about the psychology of doom-shopping, not just a summary of news.",
+        "appeal": "+10 — it is about a behavior many people live with (shopping under stress), it has a hook (the paradox of shopping through Armageddon), and it is readable without background."
       },
       "summary": {
         "zh": {
-          "thesis": "对生存威胁的警告反而会引发更具破坏性的行为，我们必须逃离这个心理陷阱。",
-          "text": "## 警告为什么没用\n\n当我们听到「世界末日」级别的警告时，第一反应不是冷静，而是更想花钱、更想消费。就像考试前压力越大，越想吃零食刷手机，而不是去复习。\n\n## 购物式末日\n\n小行星撞地球也好，气候崩溃也好，这些大词一出来，我们的脑子就自动切到「反正要完了，不如先爽一下」的模式。于是越危险，我们越挥霍，结果让情况更糟。\n\n## 逃出陷阱\n\n关键不是再喊一遍「狼来了」，而是换个角度：把大问题拆成小步骤，像打游戏一样一关一关过。别盯着最终 Boss，先清掉眼前的小怪。\n\n一句话总结：警告不是让我们恐慌的，而是让我们行动的 —— 但行动要从最小的一步开始。"
+          "thesis": "在人类面临生存威胁时，我们反而可能因为心理陷阱而采取更具破坏性的行为。",
+          "text": "## 末日购物车\n\n想象一下：世界末日要来了，科学家发出警告，但你发现自己的第一反应不是准备应急物资，而是打开购物App，买了一堆没用的东西。这不是段子，而是人类面对「存在性威胁」时的真实反应。\n\n## 心理陷阱\n\n心理学家称这种现象为「末日消费」——当威胁太大、太抽象，我们的大脑会自动启动「逃避模式」。与其面对恐惧，不如买点东西安慰自己。就像有人压力大就爱吃甜食，整个社会面对末日威胁时，选择集体「吃甜食」——疯狂消费。\n\n## 致命循环\n\n但问题是，这种消费行为往往让事情更糟。比如，气候变暖，我们却因为焦虑而买更多的快时尚、更多的红肉、更多的塑料包装。于是，威胁更严重，焦虑更多，消费更疯狂——一个恶性循环。\n\n## 破局之道\n\n我们必须跳出这个陷阱。不是用消费麻痹自己，而是用行动应对。也许，真正的救赎不是「买买买」，而是承认恐惧，然后选择更可持续的生活方式。\n\n一句话总结：面对世界末日，别用购物车安慰自己，那只会让末日更早到来。"
         }
       }
     },
@@ -532,57 +556,31 @@
       "sourceId": "restofworld",
       "category": "tech",
       "title": "“It’s laughable”: Global AI experts challenge Zuckerberg’s “AI for everyone”",
-      "titleZh": "“可笑”：全球 AI 专家质疑扎克伯格的“AI 为每个人”",
+      "titleZh": "“可笑至极”：全球AI专家质疑扎克伯格的‘AI为每个人’",
       "url": "https://restofworld.org/2026/mark-zuckerberg-meta-ai-for-everyone-manifesto-global-critique/",
       "author": "Ananya Bhattacharya",
       "publishedAt": "2026-08-20T10:00:00.000Z",
       "image": "https://restofworld.org/wp-content/uploads/2026/08/Zuckerberg-AI-Everyone-10-768x432.jpg",
       "readingMinutes": 6,
       "score": 82,
-      "rank": 8,
-      "review": {
-        "argument": "Argument: it challenges Zuckerberg's 'AI for everyone' manifesto by assembling six global experts who argue that access without infrastructure, language support, and accountability is hollow, and that Meta's history contradicts its stated aims. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a tech giant's rhetoric of inclusion can mask extractive practices and uneven power, which applies to any reader's understanding of corporate promises and global inequality. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the curated argument that the manifesto's vision is undermined by real-world evidence and past behavior, not just a list of quotes.",
-        "appeal": "+10 — it is about a familiar public figure and a promise that affects global readers, it includes concrete examples (Kenya's data center pause, labor exploitation), and it is readable without background."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "扎克伯格声称 AI 能造福所有人，但全球专家指出，基础设施缺失、语言壁垒、数据垄断等问题，使“AI 为每个人”更像空谈。",
-          "text": "扎克伯格发了封公开信，说超级智能能改善生活、扩大人类能力，还呼吁各国各公司都来用 AI，让好处普惠大众。听起来很美，但全球六位 AI 观察者直接开怼：这话经不起推敲。\n\n## 数据中心：真能带来好处吗？\n\n非洲的数据中心投资至今没看到实际回报。肯尼亚因电网问题暂停了项目，南非、尼日利亚也可能被 AI 工厂拖垮电网。扎克伯格夸大了数据中心的“经济红利”——它们只在建设期招人，运营后只需少量员工，房价可能微涨，但工资不涨，反而可能带来环境和健康问题，在非洲更缺监管，风险更大。\n\n## “每个人”是谁？\n\n扎克伯格说的“每个人”，并不包括不会英语的人、共用设备的家庭、没稳定网络的人。要让 AI 教育数十亿人，光搞大模型不够，还得建开放的语言基础设施，让当地人参与数据建设，获得算力。否则，AI 只会让数字鸿沟更深。\n\n## AI 也是美国的“权力工具”？\n\nMeta 太大，一边跟全球监管讲公平，一边却要配合美国维持霸权。专家指出，Meta 的盈利模式是“让全球用户免费干活”，训练它的中央智能，而这套系统还会服务美国政府“美国优先”议程。\n\n## “可笑”\n\n来自非洲的专家看不下去：当年 Facebook 说“连接非洲农村女性”，结果呢？垄断了数据，榨取廉价劳动力，还传播假消息，现在却来说“为你好”？而且 Meta 打压批评者、隐瞒对未成年人的伤害、还推问题产品——这种公司说“造福所有人”，简直是笑话。\n\n## 信任呢？\n\n专家提醒，技术要讲“参与、自主、选择、信任”，但扎克伯格的信只提了“参与”。真正要让 AI 服务所有人，得和用户一起设计，透明公开，给用户申诉渠道——而这些，信里一个字都没提。\n\n一句话总结：AI 确实有潜力，但别指望靠一封漂亮的信，就能让“为每个人”成真。"
-        }
-      }
-    },
-    {
-      "id": "d0dc8507a711cd76ecd1d0f6e96793d6e27e7a00",
-      "sourceId": "hn",
-      "category": "culture",
-      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-      "titleZh": "我用 1.25 亿参数模型，在手机上给钢琴自动续写",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "author": "simedw",
-      "publishedAt": "2026-08-20T12:04:38.000Z",
-      "image": "https://simedw.com/2026/08/20/midi-autocomplete/images/rolltab_phone.jpg",
-      "readingMinutes": 11,
-      "score": 78,
       "rank": 9,
       "review": {
-        "argument": "Argument: it claims that a compact, on-device model can autocomplete piano in real time, and that the key wins came from a custom MIDI tokenization, aggressive data cleaning, and DPO post-training — not from scaling data or model size.",
-        "transfer": "Transfers — the mechanism is how representation design and data quality beat raw scale, a lesson that applies to any AI product, and the reader sees a concrete example of a hobbyist shipping a real-time model on a phone.",
-        "claim": "A claim, and a contestable one — delete the writer and you lose the argument that cleaning and tokenization matter more than dataset size, plus the honest list of what failed.",
-        "appeal": "+8 — it has a hook (AI autocomplete for piano, free app), a person tinkering for a year, and it is readable cold even if you never touch MIDI."
+        "argument": "Argument: it challenges Zuckerberg's 'AI for everyone' manifesto by assembling six global experts who argue the vision ignores infrastructure gaps, excludes marginalized groups, and serves U.S. power interests, capped by Birhane's outright dismissal.",
+        "transfer": "Transfers — the mechanism is how corporate rhetoric about inclusion can mask extractive practices and uneven benefits, which applies to any technology promise, not just AI. No cap.",
+        "claim": "A claim, and a contestable one: the piece argues that Meta's 'AI for everyone' is a self-serving narrative, and delete the writer and you lose the synthesis of expert critiques, not just a list of quotes.",
+        "appeal": "+10 — it is about a tech giant's global impact, includes concrete examples like Kenya's data center pause and labor exploitation, and offers a hook in Birhane's 'laughable' quote that readers would repeat."
       },
       "summary": {
         "zh": {
-          "thesis": "用巧妙的音乐编码和 DPO 后训练，让一个小模型能在手机上实时续写钢琴曲。",
-          "text": "想象一下：你坐在钢琴前弹几个音，AI 立刻接着你的旋律往下续写，就像钢琴版的 GitHub Copilot。我训练了一个 1.25 亿参数的模型，在 iPhone 上每秒能生成 108 个音符，远超真人演奏速度。\n\n## 音乐不是 MP3，是乐谱\n\nMIDI 文件不存声音，只存事件：哪个键按下、力度多大、什么时候松开。我把它看成一种「乐谱语言」，让模型学习预测下一个音符。\n\n## 关键突破：把音符打包成「单词」\n\n最初我把每个 MIDI 事件拆成多个 token，模型经常「失忆」，忘了松开音符，导致声音糊成一团。后来我改用「完整音符」作为基本单元：每个音符包含音高、开始时间、持续时间和力度，像一个打包好的词。这样模型每次只推进一步，速度快了，也不会丢三落四。\n\n## 数据清洗比数据量更重要\n\n我搜刮了几十万个公开 MIDI 文件，但质量参差不齐。花了大量功夫写脚本清洗：过滤渣渣，去重，按作曲分组。把数据量扩大 5 倍反而效果更差，精挑细选才是王道。\n\n## DPO：让模型「懂品味」\n\n预训练后，模型能弹出合理的音符，但续写得怎么样？我用 Gemini 当评委，让它比较两个续写哪个更好，收集大量偏好数据，再用 DPO 微调。这一步提升最大，偏好胜率从 24% 飙到 69%。\n\n一句话总结：给钢琴装个 AI 搭档，关键不是堆参数，而是懂得「品味」。"
+          "thesis": "扎克伯格宣称AI能成为普惠大众的平等器，但全球专家指出，其声明忽视了数字鸿沟、边缘群体和权力结构，实际利益难以触达多数人。",
+          "text": "8月10日，马克·扎克伯格发表公开信《每个人的未来》，描绘超级智能如何改善生活、扩展人类能力并广泛分配AI收益的愿景。他主张AI应更广泛地分布到各国和各公司，认为这是“积极的AI未来之路”。\n\n然而，Rest of World采访的六位全球AI观察者对此提出尖锐质疑——AI真能成为扎克伯格想象的那种“伟大的平等器”吗？\n\n## 1. “经济利益被严重夸大”\n\n非洲的AI基础设施投资尚未产生显著实际收益。肯尼亚因电网限制暂停了微软和G42支持的 geothermal 数据中心；而Cassava AI的英伟达AI工厂可能加剧南非和尼日利亚的电网负担。数据中心的工作岗位主要集中在建设期，运营后仅能雇佣少量永久员工，对当地工资影响甚微，却会带来环境和健康问题。\n\n## 2. “‘每个人’把边缘人排除在外”\n\n扎克伯格所谓的“每个人”，忽视了低资源语言使用者、共享设备家庭、网络不稳的社区。若真想用AI教育数十亿人，投资不能止于更大的模型，还需构建开放语言基础设施、社区主导的语言数字化，并让本地研究者获得算力。\n\n## 3. “忽略了基本现实”\n\n在肯尼亚，AI有望成为个人导师，但“AI为每个人”忽视了并非人人上网、不都懂英文，且缺乏可靠电力、高速互联网和负担得起的设备。若不投资非洲语言和本地知识体系，AI反而可能扩大数字鸿沟。\n\n## 4. “美国力量的载体”\n\nMeta体量巨大，触犯多方利益。信的前半部分向全球监管者示好，后半部分却迎合美国权力机构，将自己定位为美国力量的载体。Meta本质上仍是跨国信息公司，它重新分配用户任务，训练中心机器理解关系，这套系统也可服务于美国政府。\n\n## 5. “可笑至极”\n\n扎克伯格的“AI为每个人”并不新鲜。多年前Facebook席卷非洲时，他声称“连接农村女性”，如今却掌控数字基础设施、垄断数据，对农村女性并无实际好处。Meta剥削数据劳工、传播错误信息，压制批评、掩盖危害，却宣称“为每个人好”，这实在可笑。\n\n## 6. “信里遗漏了信任的关键维度”\n\n科技应基于参与、自主、选择和信任。但信只谈参与，而真正的参与需要信任，这要求企业透明、与用户共同设计AI，并在AI出错时提供救济途径。信任的多维度必须贯穿AI开发和部署的全过程。\n\n一句话总结：扎克伯格的“AI为每个人”愿景，在现实面前漏洞百出——若不解决基础设施、语言、权力和信任问题，AI只会成为加剧不平等的工具，而非普惠大众的救世主。"
         }
       }
     },
     {
       "id": "46c9443d478bb91f398d494f2ed5d38bbdeaca5a",
       "sourceId": "psyche",
-      "category": "culture",
+      "category": "living",
       "title": "How to rediscover your purpose later in life",
       "titleZh": "如何在人生后半程重新找到目标",
       "url": "https://psyche.co/guides/how-to-rediscover-your-purpose-later-in-life",
@@ -590,70 +588,122 @@
       "publishedAt": "2026-08-20T10:00:00.000Z",
       "image": "https://images.aeonmedia.co/images/fc9ce543-4c3f-4448-9741-f519eb7135fc/nyc8443.jpg?top=55&left=0&cropWidth=1056&cropHeight=594&width=1200&quality=75&format=auto",
       "readingMinutes": 1,
-      "score": 78,
+      "score": 82,
       "rank": 10,
       "review": {
-        "argument": "Argument: it argues that purpose is not a fixed destination but a practice of re-engagement, and that rediscovery later in life requires letting go of the idea that purpose must be singular or lifelong. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how identity and meaning are rebuilt through small, repeated actions rather than a single epiphany, and the reader can apply it to their own sense of direction at any age. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that purpose is a skill to be maintained, not a treasure to be found.",
-        "appeal": "+8 — it speaks to a universal life stage, offers a counterintuitive reframe (purpose as practice, not discovery), and is readable without any background in psychology or philosophy."
+        "argument": "Argument: it argues that purpose is not fixed but can be rediscovered through deliberate reflection and action, and that later life offers unique conditions for this. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a sense of purpose can be rebuilt from accumulated experience rather than found anew, and the reader can apply it to their own life. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the advice.",
+        "appeal": "+10 — it is about a universal human concern, it contradicts the assumption that purpose is a young person's quest, and it is readable cold."
       },
       "summary": {
         "zh": {
-          "thesis": "人生后半程重新找到目标，需要放下对单一目标的执着，转而从日常小事中挖掘意义。",
-          "text": "很多人以为目标是个大灯塔，得照亮后半辈子。其实后半程的目标更像拼图，零散却同样完整。\n\n## 别找大目标，找小意义\n\n工作、家庭、爱好，每块都可以是一小块意义。拼起来，就是你的新坐标。\n\n## 把经验当资源\n\n你走过的弯路，恰好是年轻人最缺的导航。分享出去，目标自然浮现。\n\n## 允许自己换赛道\n\n前半程的事业可以是 A，后半程完全可以变成 B。转变不是放弃，是升级。\n\n一句话总结：目标不是找到的，是在小事里长出来的。"
-        }
-      }
-    },
-    {
-      "id": "c01a0a863f3864993ba8493f3bf4844028f05959",
-      "sourceId": "jacobgold",
-      "category": "tech",
-      "title": "There's no such thing as a small software team anymore",
-      "titleZh": "小软件团队已经不存在了",
-      "url": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
-      "author": null,
-      "publishedAt": "2026-08-20T01:42:38.000Z",
-      "image": "https://jacob.gold/images/theres-no-such-thing-as-a-small-software-team.webp",
-      "readingMinutes": 2,
-      "score": 78,
-      "rank": 11,
-      "review": {
-        "argument": "Argument: it claims that the rise of AI coding agents makes Uber-style microservice modularity the new normal for small teams, and reasons from commit counts and context limits to that conclusion. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a tool that removes coordination costs changes what architecture is worth, and the reader can apply that to any field where automation changes trade-offs. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that modularity is now cheap because agents write the boilerplate, not just a report on Uber's practices.",
-        "appeal": "+8 — it is about a shift in how software work happens, which many readers live with, and the concrete numbers (50 vs 500 commits) give a hook, though it stays inside the industry."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "随着编码代理的普及，代码库的模块化程度决定了并行代理的效率，因此按照微服务架构设计代码变得必要。",
-          "text": "以前，一队五到十人的程序员，一天也就提交五十次代码。现在，二十到一百个编码代理同时干活，能产生五百次提交。人多手杂，大仓库容易踩脚，微服务就像给每个人分了独立房间。\n\n## 把代码拆碎，让代理撒欢\n\nUber 的微服务架构，当年被看成极端。如今，一个代理对应一个服务，让它自己优化，互不干扰，效率反而高。代码越碎，代理越能并行。\n\n## 拆分的成本变低了\n\n过去，拆分服务意味着写一堆样板代码和配置，划不来。现在，代理能自动生成这些，代价就小了。而且，模块越小，越能塞进代理的智能范围，干活更准。\n\n一句话总结：代码库的模块化，决定了你能否让一百个代理同时高效工作。"
+          "thesis": "即使中年以后，人们也能通过回顾过往、尝试新事物和调整生活重心，重新找到人生的目标。",
+          "text": "很多人以为，人生的「目标感」是年轻时一次性领取的礼物，过了某个岁数就再也找不回来了。但心理学家发现，后半程的目标感更像是一种「养成系」能力——完全可以通过练习重新激活。\n\n## 1. 别急着「重新发明自己」\n\n中年的迷路，往往不是因为缺乏潜力，而是因为生活被家庭、工作、例行公事填满，让你忘了自己还想要什么。与其逼自己立刻找到「毕生使命」，不如先做「轻量探索」：试一门课、参加一次志愿活动、重新捡起搁置多年的爱好。目的不是马上找到答案，而是让「我想要什么」这个信号重新被听见。\n\n## 2. 把「目标」从「成就」里拆出来\n\n年轻时的目标常和「KPI」挂钩——升职、买房、拿奖。但后半程的目标更像「运营」：不是要完成一个惊天动地的大项目，而是每天做一点点你觉得有意义的事，比如教会孙子一首歌、帮邻居修好水管。微小但真诚的贡献，往往比宏大叙事更能支撑人。\n\n## 3. 用「回忆」当路标，别用「憧憬」当方向盘\n\n迷路时，与其盯着未来想象「我该成为谁」，不如回头看看自己最享受、最投入的时刻——那些让你忘记时间的事，大概率藏着你的价值密码。把那些时刻里的特质（比如耐心、创造力、共情力）转化成今天能做的事，比空想一个全新身份更靠谱。\n\n## 4. 允许目标「低配版」\n\n如果你现在无法辞职环游世界，那就每周给自己一个下午，去公园观察鸟、写写日记。目标感不是一场「全有或全无」的赌博，它更像定期给手机充电——不用一次充到满格，但必须保持连接。\n\n一句话总结：人生的下半场，目标不是找回来的，而是「做」出来的——用一点小事，喂饱那个还想成长的自己。"
         }
       }
     },
     {
       "id": "7c11f5c909ac9968c113bf16b805b0b64a50d189",
       "sourceId": "nautilus",
-      "category": "culture",
+      "category": "science",
       "title": "How Listening to Ocean Waves Can Predict Volcanic Eruptions",
-      "titleZh": "听海浪声如何预测火山爆发",
+      "titleZh": "如何通过聆听海浪来预测火山喷发",
       "url": "https://nautil.us/how-listening-to-ocean-waves-can-predict-volcanic-eruptions-1284014/",
       "author": "Jake Currie",
       "publishedAt": "2026-08-19T20:00:00.000Z",
       "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Currie_HERO_13849b.png?w=564",
       "readingMinutes": 3,
-      "score": 78,
-      "rank": 12,
+      "score": 82,
+      "rank": 11,
       "review": {
-        "argument": "Argument: it claims that ocean wave sounds traveling through volcanic rock can predict eruptions, and explains the mechanism of crack formation and magma filling that changes sound speed. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a familiar, soothing sound becomes a diagnostic tool, and the reader gains a new way to think about how subtle signals can reveal hidden changes. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the explanation of how the technique works and why it matters, not just the report of its use.",
-        "appeal": "+8 — it has a hook (ocean waves predicting eruptions), a concrete scene (seismometers on Hawaii), and is readable cold, though it is not about something the reader personally acts on."
+        "argument": "Argument: it claims that listening to ocean wave sounds through volcanic rock can predict eruptions, and explains the mechanism of crack formation and magma movement. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how subtle environmental signals can reveal hidden underground changes, and the reader gains a new way to think about prediction. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument, not just the reporting.",
+        "appeal": "+8 — it is about a natural disaster that affects travel and safety, has a concrete scene (the 2010 eruption), and is readable cold."
       },
       "summary": {
         "zh": {
-          "thesis": "通过测量海浪声穿过火山岩的速度变化，可以提前预测火山爆发。",
-          "text": "2010年，冰岛埃亚菲亚德拉火山爆发，火山灰冲上6万英尺高空，欧洲航空瘫痪了一周。当时美国总统奥巴马刚拨款1500万美元升级火山监测设备，被政敌批为浪费，但这场爆发正好证明了这笔钱花得值。\n\n如今，美国地质调查局（USGS）展示了一项新绝活：听海浪声预报火山。在夏威夷岛上，太平洋的海浪拍岸，声音会穿过岩石传开。岛上布设的地震仪不仅能听火山动静，也能捕捉这些轻柔的海浪声。通过测量声音穿过不同区域的速度，地质学家就能判断火山喷发还有多远。\n\n原理是这样的：喷发前，岩浆在地下聚集，把岩石往外推，形成裂缝，这些裂缝会让海浪声变慢；而当岩浆涌进火山口（碗状的部分），熔岩填满裂缝，声音又会变快。所以对比火山底部和边缘地震仪测到的海浪声速，就能读出喷发信号。\n\nUSGS的研究者把这招（叫\"环境噪声干涉法\"）用在基拉韦厄火山的旧数据上：2020年喷发前两个月，靠近裂缝的地震仪测到海浪声开始变慢，喷发前夕降到最低；而2025年一次喷发前四天，火山口边缘的地震仪测到最快声速。官方说这技术还在试，但\"看海浪噪声\"有望成为预报基拉韦厄火山的新工具。\n\n一句话总结：海浪声不再只是白噪音，它可能是火山的\"体检报告\"。"
+          "thesis": "火山喷发前，岩浆活动会改变岩石裂缝，导致海浪声传播速度发生变化，因此监测这些声音能提前预警。",
+          "text": "2010年，冰岛火山喷发，火山灰冲到6万英尺高空，欧洲航班停飞一周，这是二战以来最严重的航空中断。美国前总统奥巴马可能暗自得意，因为前一年他刚拨款1500万美元升级火山监测系统，当时还被政敌批评是浪费钱。\n\n如今，美国地质调查局（USGS）公布了一项新技术——听海浪声来预测火山喷发。\n\n## 原理：海浪声当“体检报告”\n\n夏威夷岛上的地震仪，本用来监听火山活动，也能捕捉到太平洋海浪拍岸传来的声音。这些声音穿过岩石，速度会因地下结构而变化。\n\n岩浆在喷发前会在地下聚集，把岩石往外挤，形成裂缝。这些裂缝会让海浪声变慢；而当岩浆进入火山口，熔岩填满裂缝，声音又会变快。\n\n所以，比较火山底部和边缘地震仪测到的海浪声速度，就能判断喷发是否临近。\n\n## 实测：提前两个月“报警”\n\nUSGS用这种方法分析基拉韦厄火山的数据：2020年喷发前两个月，靠近裂缝的地震仪就测到海浪声变慢，到喷发前降到最低；2025年一次喷发前四天，边缘的地震仪测到最快声音。\n\n虽然这项技术还在测试中，但科学家认为“听海浪声”是预测喷发的新利器。看来“令人放松的海浪声”并不总是那么温柔。"
+        }
+      }
+    },
+    {
+      "id": "8aca504099ad1eea508fb70ef87d3ac1851e3ea1",
+      "sourceId": "404media",
+      "category": "living",
+      "title": "Township Fights Nuclear Weapons Data Center By Passing a Moratorium on Electrical Infrastructure",
+      "titleZh": "小镇用暂停令对抗核武器数据中心",
+      "url": "https://www.404media.co/township-fights-nuclear-weapons-data-center-by-passing-a-moratorium-on-electrical-infrastructure/",
+      "author": "Matthew Gault",
+      "publishedAt": "2026-08-20T13:12:03.000Z",
+      "image": "https://images.unsplash.com/photo-1658870901055-665c9621d7a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHRyYW5zZm9ybWVyfGVufDB8fHx8MTc4NzIzMTUwN3ww&ixlib=rb-4.1.0&q=80&w=2000",
+      "readingMinutes": 2,
+      "score": 78,
+      "rank": 12,
+      "review": {
+        "argument": "Reports a local government's delaying tactic against a data center, but frames it as a fight over respect and communication, not just infrastructure.",
+        "transfer": "Transfers — the mechanism is how a community uses zoning and moratoriums to resist powerful institutions, and the reader sees a template for local action. No cap.",
+        "claim": "A claim — that the university's communication was inadequate and the board's opposition is justified — supported by quotes and actions, not just a list of events.",
+        "appeal": "+10 — it is about a community's fight against a big institution, has people and scenes (the stock photo, the quotes), and is readable cold."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "当地居民以暂停令等拖延战术，抵抗大学和军方支持的巨型数据中心，以保护自己的环境与生活。",
+          "text": "美国密歇根州伊普西兰提镇通过了一项为期六个月的暂停令，禁止新建“大型电力基础设施”，以此拖延一个耗资12亿美元的数据中心项目。这个项目由密歇根大学和五角大楼的核武器科学家实验室（洛斯阿拉莫斯国家实验室）支持，计划建一个22万平方英尺的超大规模数据中心。\n\n## 1. 数据中心是“电老虎”\n\n数据中心需要大量电力，密歇根的电力部门必须新建变电站才能供电。暂停令要求电力部门用这六个月研究噪音污染和对现有用户的影响。\n\n## 2. 居民：大学不尊重我们\n\n镇上官员和居民一致反对。他们说密歇根大学一直声称“沟通充分”，实际上却很少听取民意。镇上书记员在会议上放了一张变电站的大照片，提醒大家基础设施的庞大，以及大学缺乏沟通。\n\n## 3. 这只是长期抗争的最新一步\n\n今年4月，镇议会已经通过了一项365天暂停向数据中心供水的禁令，大学威胁要起诉并称其“歧视”。镇主管表示“会抗争到最后一口气”。\n\n一句话总结：一个城镇用暂停令挡住了大学和军方的科技项目，但这场小镇与巨头之间的战争远未结束。"
+        }
+      }
+    },
+    {
+      "id": "d0dc8507a711cd76ecd1d0f6e96793d6e27e7a00",
+      "sourceId": "hn",
+      "category": "tech",
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "titleZh": "训练125M模型，让钢琴自动续写",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "author": "simedw",
+      "publishedAt": "2026-08-20T12:04:38.000Z",
+      "image": "https://simedw.com/2026/08/20/midi-autocomplete/images/rolltab_phone.jpg",
+      "readingMinutes": 11,
+      "score": 78,
+      "rank": 13,
+      "review": {
+        "argument": "Argument: it claims that a compact transformer can autocomplete piano in real time on a phone, and that the key wins came from a custom MIDI tokenization, aggressive data cleaning, and DPO post-training — not from scaling up.",
+        "transfer": "Transfers — the mechanism is how representation design and data quality beat raw model size, a lesson that applies to any prediction task, and the reader can try the app without any ML background. No cap.",
+        "claim": "A claim, and a contestable one — delete the writer and you lose the argument that cleaning beats scaling, the specific tokenization insight, and the honest list of what failed.",
+        "appeal": "+8 — it has a hook (AI that finishes your piano song), a concrete scene (playing a few notes and hearing the model continue), and it is readable cold, though the audience is partly hobbyist musicians."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "通过精心设计MIDI表示、数据清洗和DPO后训练，我训练了一个125M参数的Transformer模型，能在iPhone上实时续写钢琴演奏。",
+          "text": "TL;DR：我训练了一个1.25亿参数的Transformer模型，能在iPhone 15上实时自动续写钢琴演奏（约每秒108个音符）。最大的提升来自找到正确的MIDI表示、激进地清洗训练数据，以及加入DPO后训练。\n\n差不多一年前，我冒出一个想法：把MIDI钢琴连上手机，弹几个音，让AI来续写整首歌。就像钢琴版的GitHub Copilot。结果这成了一个很深的兔子洞，做了14轮实验，终于到了我满意、愿意写下来的程度。应用叫RollTab，免费，支持MIDI键盘和iPhone/iPad。\n\n## 1. 怎么把音乐变成模型能读的“语言”\n\nMIDI文件存的是事件序列，比如“按下某个音高、某个力度的键”“松开键”“踩踏板”，而不是录音。训练Transformer，第一步是把这些事件变成离散的token。\n\n最常见的做法是每个事件一个token，比如“按下音高60力度80”。但如果把音高和力度直接拼进去，词表会爆炸：128个音高×128个力度，轻轻松松一万多token。更好的做法是拆开，用语法约束：先出NOTE_ON，再出PITCH，再出VELOCITY。这样词表小，还能保证生成合法。\n\n我试过note-on/off风格，但模型容易“漂移”：忘了发note-off，留下悬空的音。换成“NOTE+音高+时长+力度”的表示后，虽然每个音符要几步生成，但稳多了。\n\n## 2. 最终表示：一个音符一个token\n\n最后我用了“NOTE(pitch, delta_onset, duration, velocity)”，每个音符是一个token。没有单独的TIME_SHIFT，静默用下一个音符的delta_onset表示（距上一个音符开始的时间）。和弦就是多个音符delta=0，按音高排序。\n\n内部每个音符有五个字段：事件类型、音高、delta、时长、力度，各自有词表。每个字段有自己的嵌入，加起来就是音符token。模型有分开的输出头，字段之间有个小解码器，但昂贵的Transformer主干每个音符只跑一次。\n\n这样做快很多：大模型在iPhone上能到每秒108个音符，远超人类实时演奏所需。\n\n## 3. 数据：清洗比数量重要\n\n我搜罗了公开的MIDI数据，主要是公有领域的古典音乐。质量参差不齐，所以我写了很多清洗脚本。最终数据集几十万首MIDI，约3亿个音符。\n\n我把数据集扩到5倍，但模型反而变差了。清洗和挑选数据，比单纯加数据更重要。\n\n## 4. 训练：交叉熵+数据增强\n\n训练目标就是五个输出头的交叉熵之和。但交叉熵有个问题：音乐续写没有唯一正确答案。所以我又加了增强：全局移调、统一变速、时长/力度抖动、随机丢提示音。\n\n模型是标准decoder-only Transformer：RMSNorm、旋转位置编码、因果自注意力、SwiGLU/MLP。主要练了三个尺寸：3300万、6400万、1.25亿参数。\n\n## 5. 评估：从听感到偏好\n\n一开始我全靠自己听，但四个音符的提示最难，生成出来常常像噪音。后来我写了一些自动指标（音高重复、音高熵、音区密度等），但不够好。\n\n最后我用Gemini 3.5 Flash做两两对比：给定A和B，哪个续写更好？这样一致性高。还分了两条标准：续写连贯性和音乐质量。主要用续写分数做DPO。\n\n## 6. DPO：最大的提升\n\nDPO（直接偏好优化）是预训练后最大的进步。对每个提示生成多个续写，两两对比选好和坏，训练模型让好的更可能。β值是控制偏离基座模型的惩罚强度，β=0.01和0.03好，0.10太猛。用“共识”数据集（只保留评估者一致同意的对）效果最好。\n\nDPO后，69%的续写比基座模型更受偏好。\n\n## 7. 没用的尝试\n\nNote-on/off漂移；语法掩码慢；数据多但乱；Mirostat会不连贯；绝对评分不如两两比较；验证损失不能反映实际效果。\n\n## 8. 打包上架\n\n我把PyTorch模型转Core ML，量化到INT8。首次启动慢。支持长会话：上下文超512个音符时，保留最近384个，重建KV缓存。用了RoPE，但Core ML不好操作Q/K/V。\n\n## 结论\n\n这个项目很有趣。我故意没先读太多论文，想自己摸索。现在模型还不完美，偶尔循环，短提示难。但终于到了我享受坐在钢琴前，弹几个音符，看看我们能一起创作出什么的地步。\n\n一句话总结：正确表示+干净数据+DPO，让小模型在手机上也能实时“钢琴续写”。"
+        }
+      }
+    },
+    {
+      "id": "e53691799f9e1e2a911baae26a490b12f01fe2da",
+      "sourceId": "simonwillison",
+      "category": "tech",
+      "title": "Conceptual integrity and counting lines of code",
+      "titleZh": "概念完整性与代码行数",
+      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "author": null,
+      "publishedAt": "2026-08-19T22:46:07.000Z",
+      "image": null,
+      "readingMinutes": 3,
+      "score": 78,
+      "rank": 14,
+      "review": {
+        "argument": "Argues that lines of code can be a meaningful productivity metric for coding agents, and that the real bottleneck shifts to cognitive capacity, while also warning that agents erode conceptual integrity in software.",
+        "transfer": "Transfers — the core insight is that when a tool makes adding features cheap, the discipline that once enforced coherence disappears, a lesson applicable to any creative or organizational context.",
+        "claim": "A claim with a mechanism — the Winchester Mystery House analogy and the cognitive-capacity argument are the writer's own; delete him and you lose the reasoning, not just a recap.",
+        "appeal": "+8 — it has a vivid hook (the Winchester Mystery House), a counterintuitive point about productivity, and is accessible to anyone who has used AI tools, though it stays within the software world."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "AI 编程助手让写代码更快，但代码速度的提升会破坏软件的概念完整性，这需要纪律来平衡。",
+          "text": "过去，一个程序员一天能写几百行生产级代码就算超常发挥，通常也就 50-60 行。现在有了 AI 助手，一天能写出上千行调试好的代码。单看数量，这绝对是巨大的进步。\n\n但别急着欢呼。这里有个隐藏的雷区：当写代码从“一周一个功能”变成“五分钟一个功能”，软件就会像温彻斯特神秘屋一样——女主人听信预言，为了驱鬼不停加盖房间，最后整栋房子有 140 个房间，结构混乱到令人抓狂。\n\n## 概念完整性是什么？\n\n优质软件有个特征：没有意外，各模块严丝合缝，像一个整体。这就是《人月神话》里说的“概念完整性”。\n\n可 AI 帮你快速堆功能，就有点像不停加盖“新房间”——每个房间单独看都还行，但组合在一起，走廊通向莫名其妙的墙，楼梯通向天花板。软件变得“臃肿怪异”，完整性崩塌，维护和决策都变得困难。\n\n## 为什么还需要团队？\n\n如果一个人能靠 AI 抵得上过去一百个人，是不是公司只需要一个程序员？答案是否定的。\n\n原因有二：第一，万一这人被公交车撞了呢（“bus factor”）？团队还是得有备份。第二，更关键的是——代码产出提速一百倍，但你的大脑思考速度没变。你根本没办法同时处理一百倍量的代码的复杂逻辑。所以需要团队来“负载均衡”每个人的认知负荷。\n\n## 最后的纪律\n\n以前，耗时本身就是一种纪律。想加个疯狂功能？想想得写一周，算了。现在，一小时就能搞掂，太容易说服自己“就加一个吧”。\n\n所以，用 AI 编程，最考验人的不是能力，而是你能不能管住自己不去乱加功能，保持软件的整洁和统一。\n\n一句话总结：AI 让写代码变得飞快，但别让你的软件变成一座神秘屋。"
         }
       }
     },
@@ -662,31 +712,31 @@
       "sourceId": "conversable",
       "category": "culture",
       "title": "“Syntax often breaks down just at the point where a new or significant meaning is beginning to break out”",
-      "titleZh": "当新意或深意破土而出时，句法往往恰好崩溃",
+      "titleZh": "语法常在最关键处崩掉",
       "url": "https://conversableeconomist.com/2026/08/19/syntax-often-breaks-down-just-at-the-point-where-a-new-or-significant-meaning-is-beginning-to-break-out/",
       "author": "conversableeconomist",
       "publishedAt": "2026-08-19T16:00:00.000Z",
       "image": "https://i0.wp.com/conversableeconomist.com/wp-content/uploads/2021/08/cropped-Screen-Shot-2021-08-23-at-2.04.56-PM.png?fit=889%2C66&#038;ssl=1",
       "readingMinutes": 2,
       "score": 78,
-      "rank": 13,
+      "rank": 15,
       "review": {
         "argument": "Argument: it claims that in an AI age, teaching editing matters more than teaching writing, and that the smoothness of AI drafts hides the awkwardness where new meaning emerges. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how the ease of producing a polished draft changes what skill is needed, and the reader who writes or edits anything can apply it. No cap.",
+        "transfer": "Transfers — the mechanism is how the ease of producing a polished draft changes what skill is needed, and the reader can apply it to their own writing or teaching. No cap.",
         "claim": "A claim, and a contestable one; delete the writer and you lose the argument that rewriting is writing, not just a quote from Murray.",
-        "appeal": "+8 — it is about a practice people live with (writing, teaching, working with AI), has a concrete scene (students making minimal edits), and is readable cold."
+        "appeal": "+8 — it is about a practice people live with (writing), has a concrete scene (students making minimal edits), and offers a hook (the Murray quote) that is repeatable."
       },
       "summary": {
         "zh": {
-          "thesis": "写作中的语法混乱可能正是新思想萌芽的信号，AI时代则让编辑比写作更为关键。",
-          "text": "写作卡壳了？别急着懊恼。也许，这正是你要说出重要东西的前兆。这个想法有点怪，但确实让人安心。\n\n1984年，写作教师唐纳德·默里在《让意义清晰：修改的逻辑》一文中就点破了这一点：句法崩溃，往往正发生在意义挣扎着破壳而出的时候。新想法总是笨手笨脚、磕磕绊绊，但只要写作者耐心倾听、细心呵护，它或许能长大成金；也可能不行，得先明白它为什么不对，才好舍弃它。\n\n## AI改变了一切\n\nAI时代，写出一篇语法通顺的初稿变得几乎零成本。于是，人类的活儿变成了跟AI初稿合作：把它改好。可问题是，AI从不出语法纰漏，那人类还能改什么？\n\n我教书时发现，很多学生对我的批注应付了事：我指哪个词，他就改哪个词，别的纹丝不动。他们没体会到默里说的那种“笨拙”是成长的阵痛，不是换几个词就能糊弄过去的。好文章，远不止语法正确。\n\n## 那怎么办？\n\n默里当年主张老师当堂写作，让学生看真实修改的踉跄步态。今天，我觉得更有用的是：拿一篇AI生成的稿子，师生一起琢磨“还能提什么问题、往哪改”，教会学生像编辑那样发问，让文字从僵硬的石头变成流动的水。\n\n过去我们喊“写作就是重写”，但语法没毛病的初稿往往就能拿B+。现在AI把这一步代劳了，编辑反而成了核心能力。也许该换个说法：“重写，才是真正的写作。”\n\n一句话总结：别怕写得不顺，那可能是思想的青春期，而AI时代，编辑比写作更要紧。"
+          "thesis": "写作卡壳可能预示着你正要说点新鲜的；在AI时代，编辑比写作更重要。",
+          "text": "写作卡壳时，别急着骂自己。1984年，写作老师唐纳德·默里说过一句安慰人的话：语法常常在意义破壳而出的当口崩掉。新想法本来就笨手笨脚，你要耐心听，好好养，它才可能长成真正重要的东西；也可能养不起来，那就先搞清楚再扔掉。\n\n现在AI写初稿又顺又溜，语法几乎不出错。问题来了：人该怎么编辑AI的稿子？很多学生拿到批注，只改我指出的那几个词，其他一概不动。他们还没体会到，想法本来就是“笨拙”的，不是换两个词就能捋顺。\n\n默里建议老师当堂写作，让学生看看修改有多折腾。但在AI时代，更该做的是拿一篇现成的稿子，一起问“编辑会问什么问题”，把文字看成可以流动的东西。过去说“写作就是重写”，如今AI把语法都给你调好了，也许该改成——“重写就是写作”。\n\n一句话总结：AI时代，会改稿比会起稿更值钱。"
         }
       }
     },
     {
       "id": "3864b1785ea926f92a632b4cd06aead8754dd4be",
       "sourceId": "yunfeng",
-      "category": "living",
+      "category": "culture",
       "title": "银河竞逐的乐趣和策略",
       "url": "https://blog.codingnow.com/2026/08/rftg_strategy.html",
       "author": null,
@@ -694,121 +744,43 @@
       "image": null,
       "readingMinutes": 7,
       "score": 72,
-      "rank": 14,
-      "review": {
-        "argument": "Argument: it claims that Race for the Galaxy's depth lies not in maximizing VP efficiency but in manipulating the game's end condition and outguessing the opponent, and it supports this with the author's win rates and gameplay analysis. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a game's rules create a meta-game of prediction and timing that mirrors real-world competition, and the reader can apply this lens to other strategic situations. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument about what makes the game strategic, not just a description of it.",
-        "appeal": "+5 — it is about a niche hobby, but the hook of a 40% win rate against average players and the poker-like layers of thinking make it intriguing even to non-players."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "《银河竞逐》的胜利关键不只是高效获取分数，而是通过预测对手和把控游戏节奏，在结束那一刻比对手分数更高。",
-          "text": "《银河竞逐》是我最喜欢的桌游之一。最近我教会了小孩玩，自己也在电脑上打了 200 多盘，主要在 BGA 上和人对抗，以及挑战官方电子版的最高难度 AI。线下我水平不错，但线上胜率只有 40% 多，说明这游戏的策略天花板很高。\n\n## 这游戏有多快？\n\n它策略极深，但节奏超快。BGA 上每人只有 3 分钟总时间，一局通常 5-6 分钟结束，真有「竞速」的感觉。思考时间总是不够，纯靠感觉打牌容易输。最后两回合需要精算各种可能性，比分差距常很小，运气虽有，但计算能挽回。一个判断失误就可能被甩开一大截。\n\n## 核心目标：不是高分，是压过对手\n\n游戏目标是：游戏结束时比对手拿更多 VP。新手容易理解成「高效刷分」，但真正对抗时，必须盯着对手在干什么。你要利用对手的行动来优化自己，还要控制游戏结束的时机，保证在冲线那一刻超过他。所以高手们会仔细算：游戏还有几轮结束？对手想什么时候结束？我要拖一轮还是抢一轮？轮次是双方共同决定的，这就有了很多博弈空间。\n\n## 三个流派，无数种打法\n\n主流流派有：开发设施流、军事占领流、生产消费流。不管你抽到什么手牌，总有办法构筑有效组合。不同流派决定行动倾向，也影响节奏。知道对手流派，就能预测他的行动，预测对了就有收益。这就像打扑克：第一层想怎么构筑最强引擎；第二层猜对手想干嘛，利用他；第三层防他猜到我；第四层分析他前几层的思考。\n\n## 随机应变，决胜一轮\n\n双人局通常 6-8 轮结束，牌库很大，抽卡基本靠运气。高手前期会做多手准备，中期随时转型。赢不在于完美执行计划，而在于最后一轮比对手快。最后的选择往往是决胜手：怎么让自己和对手的潜在利益差最大。胜券在握时，防止黑天鹅；形势不利时，博翻盘；机会均等时，精算到手牌数量差异。\n\n## AI 也挺能打，但还有提升空间\n\n这个游戏早有开源 AI，纯靠神经网络训练，策略是涌现的。我看了看代码，发现它只考虑当前盘面，没考虑过往局面推导牌堆。后来作者 Keldon Jones 做了官方版，加了牌堆、手牌、弃牌堆作为输入，但我觉得它还没做到根据对手风格调整策略。这游戏信息不公开，猜对手很重要。当然这 AI 已经能当很好的陪练，但和真人玩还是更有趣。\n\n一句话总结：银河竞逐的乐趣，就藏在你跟对手互相算计、争抢先手的那几手棋里。"
-        }
-      }
-    },
-    {
-      "id": "e53691799f9e1e2a911baae26a490b12f01fe2da",
-      "sourceId": "simonwillison",
-      "category": "culture",
-      "title": "Conceptual integrity and counting lines of code",
-      "titleZh": "概念完整性与代码行数",
-      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
-      "author": null,
-      "publishedAt": "2026-08-19T22:46:07.000Z",
-      "image": null,
-      "readingMinutes": 3,
-      "score": 72,
-      "rank": 15,
-      "review": {
-        "argument": "Argues that lines of code can be a meaningful productivity metric for coding agents, and that the real bottleneck shifts to cognitive capacity, while also warning that agents erode conceptual integrity in software.",
-        "transfer": "Transfers — the core insight is that when a tool makes adding things cheap, the discipline that once enforced coherence disappears, a lesson that applies to any creative or organizational work, not just coding.",
-        "claim": "A claim with a mechanism — the Winchester Mystery House analogy and the cognitive capacity argument are the writer's own; delete him and you lose the reasoning, not just a recap.",
-        "appeal": "+8 — it has a vivid, repeatable analogy and a counterintuitive point about productivity, though it is somewhat inside-baseball for a generalist."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "虽然代码行数不是完美的度量，但在AI编程代理时代，它能反映真实的生产力提升，同时我们需要警惕失去概念完整性的风险。",
-          "text": "## 代码行数：被冤枉的度量标准\n\n很多人说代码行数不该作为生产力指标，但Simon Willison不同意。过去，工程师一天能写50-60行可用的生产代码就算不错，200行是神级表现。现在用AI代理，一天能写1000行调试好的代码——这难道不是巨大进步？前提是质量不变：可维护、有测试。别急着嘲笑行数指标，它反映的是真实能力飞跃。\n\n## 但瓶颈变了\n\n单个工程师现在能干的活比以前多得多，那公司还要那么多人干嘛？答案：认知容量。代码产出快100倍，但人脑处理速度没变。你一天能写一万行代码，但能跟上这一万行的逻辑吗？团队的价值在于分担认知负担，不只是写代码。\n\n## 概念完整性：软件的灵魂\n\n《人月神话》里有个概念叫“概念完整性”：好软件就像一件艺术品，每个部分都和谐统一，没有意外。但AI代理让你五分钟就能加个新功能，就像往豪宅里不停加房间——你永远觉得“再加一间也无妨”，最后变成“温彻斯特神秘屋”：140个房间，没有整体规划，因为每加一间成本太低。\n\n## 靠什么约束？\n\n以前成本就是纪律：你想加个奇葩功能，要花一周，你会劝退自己。现在只要一小时，你很容易说服自己“试一下嘛”。结果软件长满奇怪的“瘤子”，决策越来越难。最终还是要靠人的自律，保持对整体设计的把控。\n\n一句话总结：AI让你写代码飞快，但别让你的软件变成温彻斯特神秘屋——保持概念完整性，才是真正的挑战。"
-        }
-      }
-    },
-    {
-      "id": "37abee4bbe88f2dba6a426e0e866bc5e0bcb2cd0",
-      "sourceId": "quanta",
-      "category": "tech",
-      "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
-      "titleZh": "一次一个脆弱的量子比特，建造量子计算机",
-      "url": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/",
-      "author": "Ben Brubaker",
-      "publishedAt": "2026-08-19T14:16:03.000Z",
-      "image": "https://www.quantamagazine.org/wp-content/uploads/2056/08/IBMs-quantum-computer-cr-Graham-Carlow-Default.webp",
-      "readingMinutes": 8,
-      "score": 72,
       "rank": 16,
       "review": {
-        "argument": "Argument: it claims that no qubit technology has yet won and that scaling up is the central challenge, and it illustrates this with specific examples of trapped-ion, neutral-atom, and superconducting approaches. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how a technology's fragility forces a trade-off between isolation and control, which applies to any engineered system balancing robustness and accessibility. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that scaling is the bottleneck, not just the descriptions of the machines.",
-        "appeal": "+5 — it is about a frontier technology with striking images and a clear explanation, but it is not something the reader lives with daily."
+        "argument": "Argument: it claims that Race for the Galaxy's depth lies not in maximizing VP efficiency but in outmaneuvering the opponent's timing and predictions, and it caps with the observation that human play remains more interesting than AI.",
+        "transfer": "Transfers — the mechanism is how a game's strategic depth emerges from hidden information and opponent modeling, which applies to any competitive or adversarial thinking; the reader gains a framework for understanding such games. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument about what makes the game strategic, not just a description of it.",
+        "appeal": "+5 — it is about a hobby many enjoy, it has a personal scene (teaching his child, playing online), and it offers a hook about a 40% win rate against humans but >50% against AI, but it is niche and requires some gaming background."
       },
       "summary": {
         "zh": {
-          "thesis": "建造量子计算机的关键挑战在于找到既隔离又可控的量子比特技术，目前离子阱、中性原子和超导等路线各有优劣，但规模扩大仍是难题。",
-          "text": "## 量子比特：既想独处，又想被操控\n\n普通电脑用硅芯片上的晶体管存“0”和“1”，量子计算机却想玩点更花的——用叠加和纠缠这些量子现象，处理经典电脑搞不定的难题。但量子比特特别娇气，一跟环境接触就“退相干”。所以每种技术都得平衡两件事：把量子比特隔离好，但又得方便你去操控它。\n\n## 三条主流路线\n\n1. **离子阱**：把原子踢掉一个电子变成离子，用电场抓住。牛津大学的实验室里，一个锶离子悬在针尖之间，靠激光发光才能看见。想扩大规模？那就得用更紧凑的“表面阱”，把离子悬浮在芯片上方。\n\n2. **中性原子**：用激光“光镊”夹住原子。哈佛的实验室里，光学台上全是镜子、透镜、光纤。QuEra的真空玻璃池里，线绕成圈控制磁场。这项技术最炫的是能随意排列原子，2018年巴黎-萨克雷大学还排了个埃菲尔铁塔。2025年加州理工抓了6100个铯原子破纪录，但还没用来计算。\n\n3. **超导**：用铝和铌做电路，冷却到极低温。这招最像造普通芯片，得在无尘车间里做。IBM的“Nighthawk”芯片上就有120个量子比特。最拉风的是一层层像吊灯一样的稀释制冷机，耶鲁的“Badger”2009年用它演示过简单算法，谷歌的版本则要接一大堆S形弯线，因为冷却时材料会收缩。\n\n## 挑战：从几个到几百万\n\n现在做几个好量子比特不难，难的是扩大到几万甚至几百万个，还要配套无数控制线路。虽然竞争激烈，但还没人知道谁能笑到最后。\n\n一句话总结：量子计算机的“晶体管时刻”还没到，但通往未来的路已经点亮了好几盏灯。"
+          "thesis": "在桌游《银河竞逐》中，胜利的关键不是追求最高分，而是比对手更早触发结束条件，在终点线前超越对手。",
+          "text": "## 银河竞逐：不是刷分，而是竞速\n\n《银河竞逐》是我最喜欢的桌游之一。最近我教会了小孩玩，自己也打了200多盘。线上双人赛我的胜率只有40%多，说明策略天花板还很高。\n\n这游戏节奏超快，5~6分钟一局，像它的名字一样，就是“竞速”。但新手容易犯一个错：以为目标就是高效刷VP（胜利点）。其实，游戏目标是“在结束那一刻，比对手拿更多VP”——听上去一样，但差别巨大。\n\n如果你只顾自己闷头刷分，就变成了单机游戏。真正的高手会时刻盯着对手：\n\n- 通过对手的行动来判断他的路线，让自己更高效；\n- 根据对手的节奏，主动拖慢或加速游戏结束，确保自己在冲线时领先。\n\n## 博弈的三层思维\n\n这游戏很像德州扑克，高手会分层思考：\n\n1. 怎么构筑最强引擎，让自己利益最大化；\n2. 猜测对手想干嘛，利用他的行动占便宜；\n3. 想对手在猜我什么，避免被反套路……\n\n最后一轮往往是决胜手。胜券在握时，要减少对手“黑天鹅”翻盘的可能；形势不利时，要搏一把；机会对等时，连手牌数量都要精算。\n\n## AI 也玩这个？\n\n这游戏早有人工智能，甚至有两个版本。第一版AI只看着当前桌面，不看抽牌堆，我觉得不够——老玩家都会推测牌堆里还有什么。第二版AI加入了这些信息，还把“判断局面”和“猜测对手”分开做，再用搜索法整合。\n\n但我觉得AI还是没学会“针对对手调整策略”，因为信息不公开，猜测对手不容易。不过它已经是很好的陪练了，能帮新手学习。\n\n不过嘛，和人玩还是更有趣——毕竟，人比AI更难猜。\n\n一句话总结：赢不是刷分最高，而是让对手在终点前被你反超。"
         }
       }
     },
     {
-      "id": "a8501983ee6a55dd9516da15cef35d5c21e111f7",
-      "sourceId": "klement",
-      "category": "business",
-      "title": "Here is one reason why better managed firms succeed",
-      "titleZh": "为什么管理更好的公司更成功",
-      "url": "https://klementoninvesting.substack.com/p/here-is-one-reason-why-better-managed",
-      "author": "Joachim Klement",
-      "publishedAt": "2026-08-20T06:00:55.000Z",
-      "image": "https://substack-post-media.s3.amazonaws.com/public/images/5694fb4a-4735-4d4a-bf1d-e9c3039eb392_640x444.jpeg",
-      "readingMinutes": 1,
-      "score": 62,
+      "id": "c01a0a863f3864993ba8493f3bf4844028f05959",
+      "sourceId": "jacobgold",
+      "category": "culture",
+      "title": "There's no such thing as a small software team anymore",
+      "titleZh": "小软件团队已经不存在了",
+      "url": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
+      "author": null,
+      "publishedAt": "2026-08-20T01:42:38.000Z",
+      "image": "https://jacob.gold/images/theres-no-such-thing-as-a-small-software-team.webp",
+      "readingMinutes": 2,
+      "score": 72,
       "rank": 17,
       "review": {
-        "argument": "Argues that better-managed firms are better at forecasting staff turnover and GDP growth, citing an LSE study, and suggests this explains their success — a contestable claim, not an announcement.",
-        "transfer": "Transfers — the mechanism is that management quality shows up in forecasting accuracy, which is a general insight about how organizations work, though the reader must accept the study's framing.",
-        "claim": "A claim with evidence — the LSE study's figures and the McKinsey report are relayed, but the writer's judgment is that this validates McKinsey's point, which is contestable; delete the writer and you lose the argument.",
-        "appeal": "+3 — it has a hook (the McKinsey critique and the forecasting link) but is abstract and aimed at investors, not a general reader's daily life."
+        "argument": "Argument: it claims that the rise of AI coding agents makes Uber-style microservice modularity the new normal for small teams, and reasons from commit counts and context limits to that conclusion. Not an announcement.",
+        "transfer": "Transfers — the mechanism is how a tool that multiplies output changes the optimal structure of work, and the reader can apply it to any parallelized effort, not just software. No cap.",
+        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that modularity is now cheap because agents write the boilerplate, not just a report on Uber's architecture.",
+        "appeal": "+5 — it is about a shift in how software is built, which many readers live with indirectly, and the commit-count contrast is a hook, but it stays inside the field."
       },
       "summary": {
         "zh": {
-          "thesis": "管理更好的公司预测能力更强，因此更成功。",
-          "text": "麦肯锡最近批评英国企业管理质量差，拖累了生产率。但学术研究显示，他们可能说对了一点。\n\n伦敦政经学院的新研究发现，管理好的公司更擅长预测员工流动率和GDP增长，生产率高的公司也如此。\n\n为什么呢？因为预测准，他们就更自信，更主动地分配资源。就像打游戏，地图看得清，就敢大胆开团。\n\n一句话总结：管理好，预测准，行动快，这就是赢家公式。"
-        }
-      }
-    },
-    {
-      "id": "193a7e12eb7872881f3e027997d1ca3e080b887c",
-      "sourceId": "nautilus",
-      "category": "science",
-      "title": "Do Zoo Otters Love People Watching?",
-      "titleZh": "动物园的水獭喜欢被人围观吗？",
-      "url": "https://nautil.us/do-zoo-otters-love-people-watching-1284025/",
-      "author": "Devin Reese",
-      "publishedAt": "2026-08-19T22:00:00.000Z",
-      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Reese_HERO_626c08.png?w=564",
-      "readingMinutes": 3,
-      "score": 62,
-      "rank": 18,
-      "review": {
-        "argument": "Reports a study finding that zoo otters are more active and visible when visitors are present, challenging the assumption that human contact stresses them, but hedges that the effect could be reversed or the sounds could be stress.",
-        "transfer": "Transfers — the mechanism is how an assumption about animal welfare can be overturned by direct observation, and the reader can apply the same skepticism to other received wisdom about animals. No cap.",
-        "claim": "A claim, though a cautious one; delete the writer and you lose the interpretation of the study's limits, not just the finding.",
-        "appeal": "+5 — it has a hook (otters may like people watching) and is readable cold, but it is a single study with no scene or stakes for the reader."
-      },
-      "summary": {
-        "zh": {
-          "thesis": "亚洲小爪水獭在有游客时反而更活跃，这可能对它们有正面影响。",
-          "text": "动物园为了让动物少点压力，又是挡板又是隐蔽角落，总觉得人一多，动物就慌。但最近一篇论文说，至少对亚洲小爪水獭来说，这想法可能想岔了。\n\n## 看得见，但躲得开\n\n澳大利亚阿德莱德大学的研究者，跟拍了动物园里六只水獭半年。它们住的地方有水池有原木，游客看得见，但它们随时能退回私密区。学生每 60 秒记一次它们的行为，一共记了 15 种：理毛、觅食、休息、社交……再对比有游客和没游客的时候。\n\n## 有人反而更嗨\n\n结果出乎意料：有人在时，水獭反而更活跃，也更爱露面。研究者说：「游客可能对它们有正面影响，甚至算一种丰富福利。」但因为是观察研究，分不清是水獭一嗨吸引了人，还是人来了水獭才嗨。水獭在人多时叫声也多了点，但这声音可能是兴奋，也可能是紧张，下回再查。\n\n## 别太自作多情\n\n所以啊，别以为水獭是喜欢你，可能只是你刚好是它们「活动的风景」而已。\n\n一句话总结：水獭可能爱看人，但别急着自作多情。"
+          "thesis": "随着AI编码代理的普及，软件团队规模不再重要，代码的模块化程度成为决定并行效率的关键。",
+          "text": "过去，5到10人的小团队写代码，一天顶多50次提交、20次推送、10个PR，根本不需要考虑拆分成微服务。但现在，一个小团队用上20到100个编码代理并行干活，一天能产生500次提交、200次推送、100个PR——这已经赶上Uber几千个微服务的规模了。\n\n## 1. 模块化越细，代理跑得越欢\n\n如果你的代码是巨石型的单体应用，任何改动都得小心翼翼，两个代理同时干重要活，很容易互相踩脚，然后陷入合并冲突和重构的泥潭。但如果你有Uber那样的几千个微服务，每个代理只管一个服务，让它们各自“优化性能”，就能轻松并行推进，效率暴涨。\n\n## 2. 并行代理得能独立干活\n\n100多个代理同时跑，它们必须能独立工作，否则整天解决合并冲突、修复构建错误、制造部署噩梦，反而会拉低总产出。\n\n## 3. 模块化的成本变低了\n\n以前拆分模块很贵，每个服务都要写一堆样板代码、管道和CI配置。但现在这些都能让代理代劳，成本就不值一提了。而且代理的上下文窗口有限，模块越小越能装进去，代理表现也越好。\n\n所以，你的代码库模块化程度，决定了你能高效并行跑多少代理。现在，从一开始就该为模块化而设计。\n\n一句话总结：代码拆得越细，AI代理跑得越欢，团队大小已经无所谓了。"
         }
       }
     },
@@ -817,24 +789,50 @@
       "sourceId": "hn",
       "category": "tech",
       "title": "HTML Can Do That",
-      "titleZh": "HTML 还能干这个？",
+      "titleZh": "HTML 也能干这个？",
       "url": "https://chrisburnell.com/html-can-do-that/",
       "author": "encyclopedism",
       "publishedAt": "2026-08-19T15:11:36.000Z",
       "image": "https://chrisburnell.com/images/favicon-256.png",
       "readingMinutes": 4,
-      "score": 62,
-      "rank": 19,
+      "score": 72,
+      "rank": 18,
       "review": {
-        "argument": "Argument: it claims that HTML now covers much of what used to require JavaScript, and it lists specific features with caveats about browser support and accessibility. Not an announcement.",
-        "transfer": "Transfers — the mechanism is how native browser features can replace custom code, and the reader gains a sense of what the web platform can do without scripting. No cap.",
-        "claim": "A claim, and a contestable one; delete the writer and you lose the argument that HTML is eating JavaScript's territory, not just a list of features.",
-        "appeal": "+5 — it has a hook (HTML can do that?) and is readable cold, but it is aimed at web developers, not the general public."
+        "argument": "Argument: it claims HTML now covers much of what used to require JavaScript, but it also warns that browser implementations are uneven and accessibility is often poor, so the page is a celebration with caveats, not just a list.",
+        "transfer": "Transfers — the mechanism is how platform features evolve and how 'native' doesn't mean 'better' or 'accessible'; a generalist learns to question the hype around new web capabilities, and the caveats are portable to other tech claims.",
+        "claim": "A claim, and a contestable one — the writer argues that HTML's new features are usable but not yet trustworthy, and backs it with specific examples (popover, dialog, command) and warnings; delete the writer and you lose the judgment, not just the demos.",
+        "appeal": "+8 — it has a hook (HTML doing what JavaScript used to), it's readable cold with no background, and the warnings about accessibility give it a practical edge, though it's still mostly for web-interested readers."
       },
       "summary": {
         "zh": {
-          "thesis": "HTML 正在接管许多原本需要 JavaScript 的动态功能，但浏览器支持与无障碍仍不完善。",
-          "text": "还记得那些年，网页上有点交互就得靠 JavaScript 写一堆脚本吗？现在，HTML 自己就能搞定不少事。\n\n## 弹窗与对话框，原生支持\n\n以前要弹个提示框，麻烦得要命。现在，只要给元素加上 popover 属性，就能实现点击弹出、按 Esc 关闭，连层叠顺序都不用操心。更有专门的 dialog 元素，配合 form method=\"dialog\"，纯 HTML 就能开关对话框。\n\n## 手风琴菜单，自动互斥\n\n想让多个折叠面板互斥——打开一个，另一个自动关闭？以前得写 JS 来协调，现在只需给它们设置相同的 name 属性，魔法就发生了。\n\n## 按钮指挥，免脚本\n\n通过 command 和 commandfor 属性，一个按钮就能控制另一个元素的开关，完全不需要 JavaScript。\n\n## 懒加载与隐藏搜索\n\n图片加上 loading=\"lazy\"，就会自动延迟加载，不再需要 IntersectionObserver。还有 hidden=\"until-found\"，可以让用户通过搜索直接跳到隐藏内容。\n\n## 原生的颜色、日期选择器\n\n输入框自带颜色选择器、日期选择器、滑块，甚至还有自动补全建议。\n\n不过，这些功能目前浏览器支持参差不齐，无障碍体验也差。想用的话，小心测试，别忘了考虑所有用户。\n\n一句话总结：HTML 越来越能干，但离完美还差得远。"
+          "thesis": "许多过去必须用 JavaScript 才能实现的动态交互，如今纯 HTML 就能做到，但浏览器支持和无障碍体验仍需谨慎对待。",
+          "text": "你有没有想过，那些曾经必须靠 JavaScript 才能实现的弹窗、手风琴菜单、日期选择器，现在用纯 HTML 就能搞定？没错，HTML 正在疯狂抢 JavaScript 的饭碗。\n\n## 1. 弹窗？一个属性搞定\n\n以前做弹窗，你得写一堆 JS 管理显隐、层级、点击外部关闭。现在只需要在按钮上加 `popovertarget`，在弹窗元素上加 `popover` 属性，浏览器自动帮你处理：点外面关闭、按 Esc 退出，连 z-index 都不用管，直接置顶。\n\n还有专门做模态框的 `<dialog>` 元素，配合 `showModal()` 和 `close()` 就能用，甚至能在表单里用 `method=\"dialog\"` 直接关闭。\n\n## 2. 手风琴效果？原生 `<details>` 就行\n\n想让多个区域只能展开一个？给它们设置相同的 `name` 属性，一个打开，另一个自动关闭。就像拼团，你开一个团，另一个团自动解散，纯天然无 JS。\n\n## 3. 图片懒加载？一个属性搞定\n\n以前要做懒加载，得上 IntersectionObserver。现在 `<img loading=\"lazy\">` 就完了，浏览器自己判断图片离视口多近才开始加载。再也不怕页面首屏加载一堆大图。\n\n## 4. 内置颜色、日期、范围选择器\n\n表单元素越来越强大：`<input type=\"color\">` 自带取色器，`type=\"range\"` 有滑块，`type=\"datetime-local\"` 直接弹出日期时间选择器。省去引入各种 UI 库的麻烦。\n\n## 但注意！\n\n虽然这些特性很酷，但浏览器支持参差不齐，部分元素的可访问性还很糟糕。比如某些功能的屏幕阅读器体验很差，默认样式在浏览器间差异巨大。作者都警告了：别拿这页面当决策依据，也别以为所有用户都和你用一样的浏览器。\n\n一句话总结：HTML 正在变得越来越强，但要用得小心，别忘了为所有用户服务。"
+        }
+      }
+    },
+    {
+      "id": "a8501983ee6a55dd9516da15cef35d5c21e111f7",
+      "sourceId": "klement",
+      "category": "culture",
+      "title": "Here is one reason why better managed firms succeed",
+      "titleZh": "为什么管理更好的公司更成功？一个原因",
+      "url": "https://klementoninvesting.substack.com/p/here-is-one-reason-why-better-managed",
+      "author": "Joachim Klement",
+      "publishedAt": "2026-08-20T06:00:55.000Z",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/5694fb4a-4735-4d4a-bf1d-e9c3039eb392_640x444.jpeg",
+      "readingMinutes": 1,
+      "score": 62,
+      "rank": 19,
+      "review": {
+        "argument": "Argues that better-managed firms are better at forecasting staff turnover and GDP growth, citing an LSE study, and implies this explains their success — a contestable claim, not just an announcement.",
+        "transfer": "Transfers — the mechanism is that management quality shows up in forecasting accuracy, which is a general insight about how firms allocate resources, though the reader must accept the study's framing.",
+        "claim": "A claim with evidence — the LSE study's figures and the McKinsey report are relayed, but the writer adds his own skeptical framing and interpretation, so deleting him loses the argument.",
+        "appeal": "+3 — it touches on productivity and management, which are live topics, but it is abstract and lacks scenes or a hook; a generalist might skim it."
+      },
+      "summary": {
+        "zh": {
+          "thesis": "管理更好的公司更擅长预测员工流动率和GDP增长，因此能更有效地分配资源。",
+          "text": "麦肯锡最近批评英国企业的管理水平不如美国和德国，认为这拖累了生产率。伦敦政经学院的新研究支持了这一点：管理更好的公司，预测员工流动率和GDP增长的能力更强。\n\n## 1. 预测准，就能赢\n\n预测员工流动率，才能合理安排招聘和培训；预测GDP，才能决定投多少钱、投到哪。管理好的公司，这两项预测都更准。\n\n## 2. 自信的“预言家”\n\n更妙的是，他们知道自己预测得准，所以比同行更有信心，也更敢提前动手配置资源。普通公司还在观望，他们早已行动。\n\n一句话总结：管理好的公司，先看准，再敢动。"
         }
       }
     }
@@ -842,39 +840,63 @@
   "folded": [],
   "rejected": [
     {
+      "title": "Do Zoo Otters Love People Watching?",
+      "url": "https://nautil.us/do-zoo-otters-love-people-watching-1284025/",
+      "sourceId": "nautilus",
+      "score": 55,
+      "review": {
+        "argument": "Reports a study finding that zoo otters are more active and visible when visitors are present, challenging the assumption that crowds stress captive animals, but it stops short of a strong claim, noting the observational limits.",
+        "transfer": "Transfers — the mechanism is that animals may habituate to or even enjoy human presence, which changes how a generalist thinks about zoo welfare debates, but the piece is thin on detail and the transfer is modest.",
+        "claim": "A claim — that visitors may enrich otter welfare — but it is hedged and the writer adds little beyond relaying the study's findings; delete the writer and you lose the summary, not a distinct argument.",
+        "appeal": "+5 — it has a hook (otters like people watching) and is readable cold, but it is a short news brief with no scenes or depth."
+      }
+    },
+    {
       "title": "Malicious Rust crate Arrayref runs a build-time payload",
       "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
       "sourceId": "hn",
       "score": 45,
       "review": {
         "argument": "Announcement: it reports that a compromised release of the Rust crate arrayref added a typosquatted dependency whose build script downloads and runs a remote binary, and details the technical mechanism. Not an argument.",
-        "transfer": "Transfers — the mechanism is how a trusted dependency can silently execute code at build time, and the reader learns to question the supply chain of any software they use. No cap.",
-        "claim": "A list: it relays the incident with technical specifics, but the writer's judgment is limited to describing what happened; delete the writer and you lose the details, not a contestable claim.",
-        "appeal": "+5 — it has a hook (a popular crate compromised, build-time execution) and is readable cold, but it is mostly of interest to developers."
+        "transfer": "Transfers — the mechanism is how a trusted dependency can be weaponized at build time, and the reader learns that compiling code can execute hidden payloads, a concept that applies to any software supply chain. No cap.",
+        "claim": "A list: it catalogs the malicious crates, indicators of compromise, and code snippets, but the writer's judgment is limited to describing what happened; delete the writer and you lose the report, not a contestable claim.",
+        "appeal": "+5 — it has a hook (a widely used crate silently running a payload at compile time) and is readable cold, but it is mostly technical detail for developers, not something an ordinary person would send to a friend."
+      }
+    },
+    {
+      "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
+      "url": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/",
+      "sourceId": "quanta",
+      "score": 35,
+      "review": {
+        "argument": "Announcement: it reports that quantum computing hardware comes in several competing forms, and illustrates each with photographs, but makes no contestable claim about which will win or why.",
+        "transfer": "Transfers weakly — the reader learns that qubits must be isolated yet controllable, a tension that generalizes to any engineered system, but the piece is mostly a tour of lab equipment.",
+        "claim": "A list: it catalogs trapped-ion, neutral-atom, and superconducting approaches with images, but delete the writer and you lose only the curation, not an argument.",
+        "appeal": "+5 — the photographs of chandelier refrigerators and the Eiffel Tower atom array are striking, and the isolation-versus-control tension is a hook, but the piece stays inside the field."
       }
     },
     {
       "title": "CIA funding helped keep NeXT afloat in the 80s",
       "url": "https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink",
       "sourceId": "hn",
-      "score": 28,
+      "score": 32,
       "review": {
         "argument": "Announcement: it reports that CIA funding helped keep NeXT afloat in the 80s, with no argument or contestable claim beyond the fact itself.",
-        "transfer": "Limited transfer — a non-specialist learns a historical curiosity about a famous tech company, but the mechanism (covert government funding of a private firm) is not developed into a broader insight about tech or intelligence. The takeaway is a fact, not a way of thinking.",
-        "claim": "A list-like relay: the title alone offers a single fact, and deleting the writer loses only the report of that fact, not an argument or judgment.",
-        "appeal": "+5 — it has a hook (a surprising fact about a well-known company) and is readable cold, but it is inert and offers no scene or broader relevance."
+        "transfer": "Limited transfer — the fact is a curiosity about a historical tech company, but it does not illuminate a mechanism that applies to how the reader thinks about other things.",
+        "claim": "A list-like relay: the title conveys a single fact, and deleting the writer loses only the fact itself, not an argument or judgment.",
+        "appeal": "+5 — it has a hook (a surprising historical detail) and requires no background, but it is inert and not about something the reader lives with."
       }
     },
     {
-      "title": "Typewriter interview with George Saunders",
-      "url": "https://austinkleon.com/2026/08/19/typewriter-interview-with-george-saunders/",
-      "sourceId": "kleon",
+      "title": "Podcast: Amazon is Destroying Rare Books to Train AI",
+      "url": "https://www.404media.co/podcast-amazon-is-destroying-rare-books-to-train-ai/",
+      "sourceId": "404media",
       "score": 15,
       "review": {
-        "argument": "Announcement: it reports that a typewriter interview with George Saunders was transcribed and is available to read, with no argument or contestable claim beyond the transcription being 'near-Herculean'.",
-        "transfer": "A non-specialist learns only that such an interview exists and where to find it; nothing transfers beyond the field of Saunders fans or typewriter enthusiasts.",
-        "claim": "A list: the writer's only judgment is that the transcription was difficult; delete the writer and you lose a link and a tag, not an argument.",
-        "appeal": "+0 — the piece is a link roundup with no hook, no scene, and no reason for an ordinary person to read it beyond already caring about Saunders or typewriters."
+        "argument": "Announcement: it lists podcast topics, including Amazon destroying rare books for AI training, with no argument or analysis of any of them.",
+        "transfer": "Nothing transfers — a non-specialist learns only that these stories exist, not why they matter or how they connect.",
+        "claim": "A list: delete the writer and you lose only the links and episode logistics, not a single claim or judgment.",
+        "appeal": "+0 — no hook, no scene, no reason for an ordinary person to read it beyond the headline itself."
       }
     },
     {
@@ -883,10 +905,10 @@
       "sourceId": "kleon",
       "score": 15,
       "review": {
-        "argument": "Announcement: it reports that a mixtape was made and where to listen, with no contestable claim or reasoning beyond a nostalgic note.",
-        "transfer": "Does not transfer — the takeaway is that the author made a playlist of yacht rock; nothing about the mechanism or idea carries to a generalist's thinking.",
-        "claim": "A list — the piece is essentially a link roundup with a personal anecdote; delete the writer and you lose only the links and the memory, not an argument.",
-        "appeal": "+0 — it is a personal update with no hook for an outsider; only fans of the author or the genre would care."
+        "argument": "Announcement: it announces a new mixtape and where to listen, with no argument or contestable claim beyond the nostalgia framing.",
+        "transfer": "Does not transfer — the content is a personal playlist of yacht rock, and a non-specialist gains nothing beyond knowing the mixtape exists.",
+        "claim": "A list: it is a link roundup with a brief personal note; delete the writer and you lose only the links and the anecdote, not an argument.",
+        "appeal": "+0 — it is a personal update with no hook for a generalist; only fans of the author or the genre would care."
       }
     },
     {
@@ -895,10 +917,10 @@
       "sourceId": "kleon",
       "score": 15,
       "review": {
-        "argument": "Announcement: it reports that a typewriter interview with Julia Rothman happened, with no contestable claim or reasoning beyond relaying her answers and the process.",
-        "transfer": "Does not transfer — the takeaway is that a specific artist answered questions on paper, which is only meaningful to fans of the artist or the interviewer; no mechanism or general insight.",
-        "claim": "A list: it relays the interview's existence and quotes Rothman's Instagram, but the writer's judgment is limited to admiration; delete the writer and you lose only the framing, not an argument.",
-        "appeal": "+0 — it is a niche fan update, not about something people live with, and offers no hook for a generalist."
+        "argument": "Announcement: it relays that Julia Rothman participated in the Typewriter Interview series and quotes her Instagram description of the process. Not an argument.",
+        "transfer": "Does not transfer — the piece is about one artist's creative influences and the mechanics of a mail-based interview, with no mechanism that applies to how a generalist thinks about something else.",
+        "claim": "A list: it is a brief relay of an interview's existence and a quote, with no judgment or contestable claim; delete the writer and you lose only the link and the quote.",
+        "appeal": "+0 — it is a niche fan update, interesting only to people already following the series or the artist, with no hook for a general reader."
       }
     },
     {
@@ -908,9 +930,21 @@
       "score": 15,
       "review": {
         "argument": "Announcement: it announces that Erik Winkowski's Zinemail issues are interesting uses of Substack and that he agreed to a typewriter interview, with no argument or contestable claim beyond that.",
-        "transfer": "Does not transfer — the piece is a pointer to an interview and a link, with no mechanism or insight a non-specialist can carry away; it is a recommendation, not an analysis.",
-        "claim": "A list: it relays that the interview exists and is 'wonderful,' but delete the writer and you lose only the recommendation, not any argument or judgment that could be disagreed with.",
-        "appeal": "+0 — it is a brief link post with no hook, no scene, and nothing that would make an ordinary person want to read it beyond curiosity about the linked content."
+        "transfer": "Does not transfer — the piece is a pointer to an interview and a link to the artist's work; a non-specialist gains only that these exist, with no mechanism or insight that carries elsewhere.",
+        "claim": "A list: it relays that the interview is 'wonderful' and links to it, but delete the writer and you lose only the recommendation, not any argument or analysis.",
+        "appeal": "+0 — the piece is a brief link roundup with no hook, no scene, and nothing that would make an ordinary person want to read it beyond curiosity about the artist."
+      }
+    },
+    {
+      "title": "Typewriter interview with George Saunders",
+      "url": "https://austinkleon.com/2026/08/19/typewriter-interview-with-george-saunders/",
+      "sourceId": "kleon",
+      "score": 10,
+      "review": {
+        "argument": "Announcement: it reports that a typewriter interview with George Saunders was transcribed and posted, with no argument or contestable claim beyond the transcription being 'near-Herculean'.",
+        "transfer": "Nothing transfers — the reader learns only that an interview exists and where to find it; no mechanism or insight about Saunders or typewriters is relayed.",
+        "claim": "A list: delete the writer and you lose only the pointer to the interview; no judgment or synthesis is supplied.",
+        "appeal": "+0 — no hook, no scene, no contradiction; it is inert for a generalist."
       }
     },
     {
@@ -919,10 +953,10 @@
       "sourceId": "kleon",
       "score": 10,
       "review": {
-        "argument": "Announcement: the title alone signals a profile or story about a man, but without the body there is no argument or contestable claim to evaluate.",
-        "transfer": "Nothing transfers — with no body, a non-specialist gains only the title's vague promise, and there is no mechanism or takeaway to carry out of the field.",
-        "claim": "A list at best: the title is a label, not a claim; delete the writer and nothing is lost because nothing was supplied.",
-        "appeal": "+0 — the title offers no hook, no scene, no contradiction; it is inert without content."
+        "argument": "Announcement: the title alone signals a profile or anecdote about a man, but without the body there is no argument or contestable claim to evaluate.",
+        "transfer": "Nothing transfers — with no body, a non-specialist gains only the title's vague promise, and no mechanism or portable insight is available.",
+        "claim": "A list at best: the title offers a subject but no judgment; delete the writer and nothing of substance is lost because nothing substantive is present.",
+        "appeal": "+0 — there is no hook, no scene, no contradiction, and no reason an ordinary person would read it based on the title alone."
       }
     },
     {
@@ -933,8 +967,8 @@
       "review": {
         "argument": "Announcement: it announces a blackout poem titled 'At the pool' and notes it was placed at the top of a letter, with no argument or contestable claim.",
         "transfer": "Nothing transfers — a non-specialist learns only that the author made a poem and put it in a letter; no mechanism or insight carries out of the field.",
-        "claim": "A list: the piece is a brief note about a poem's placement, and deleting the writer loses only the fact that the poem exists and where it was put.",
-        "appeal": "+0 — it is not about something people live with, has no scene or hook, and offers no reason for a generalist to read it."
+        "claim": "A list: the piece relays that the poem exists and where it was placed, with no judgment or analysis; delete the writer and nothing of substance is lost.",
+        "appeal": "+0 — no hook, no scene, no contradiction; it is inert and of interest only to the author's followers."
       }
     }
   ]
