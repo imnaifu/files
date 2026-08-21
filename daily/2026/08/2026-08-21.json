@@ -1,13 +1,13 @@
 {
   "date": "2026-08-21",
-  "generatedAt": "2026-08-21T18:52:06.029Z",
+  "generatedAt": "2026-08-21T21:19:34.756Z",
   "window": {
     "from": "2026-08-20T14:00:00.000Z",
     "to": "2026-08-21T14:00:00.000Z"
   },
   "stats": {
-    "fetched": 19,
-    "shown": 13,
+    "fetched": 21,
+    "shown": 14,
     "folded": 0
   },
   "sources": [
@@ -21,7 +21,7 @@
       "id": "hn",
       "name": "Hacker News",
       "ok": true,
-      "count": 2
+      "count": 4
     },
     {
       "id": "platformer",
@@ -182,8 +182,9 @@
     {
       "id": "wheresyoured",
       "name": "Where’s Your Ed At",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "id": "bloodmachine",
@@ -332,44 +333,44 @@
   ],
   "articles": [
     {
-      "id": "431a718111848492a7741daafed50d050bf1bb42",
-      "sourceId": "platformer",
-      "category": "business",
-      "title": "The website that created an AI clone of its editor in chief",
-      "titleZh": "AI 克隆了主编的品味，编辑还能保住工作吗？",
-      "url": "https://www.platformer.news/every-dan-shipper-interview-ai-writing/",
-      "author": "Casey Newton",
-      "publishedAt": "2026-08-21T00:00:50.000Z",
-      "image": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png",
-      "readingMinutes": 16,
-      "score": 38,
+      "id": "37d18ed8505bfcb98b2da7f4fdae974a1a02905e",
+      "sourceId": "hn",
+      "category": "culture",
+      "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+      "titleZh": "5欧元买下三个国家的电话系统，还偷听了美军基地的20万通电话",
+      "url": "https://lina.sh/blog/hijacking-e164-arpa",
+      "author": "gavide",
+      "publishedAt": "2026-08-21T13:11:28.000Z",
+      "image": "https://lina.sh/assets/blog/e164/cover.png",
+      "readingMinutes": 7,
+      "score": 36,
       "rank": 1,
       "review": {
         "substance": {
-          "score": 8,
-          "note": "The piece argues that AI automation paradoxically increases demand for human experts, and supports this with a concrete mechanism — AI trained on the residue of human expertise produces slop that requires experts to fix — and a specific example of cloning an editor's taste via 30,000 edits. The mechanism generalizes to any knowledge-work domain, not just media."
+          "score": 7,
+          "note": "The author's synthesis is the article: he takes over a dead DNS system, discovers it is still carrying live military traffic, and argues that a state actor could have silently intercepted it. The mechanism — an expired domain controlling delegated infrastructure — generalizes to any neglected delegation, but the piece does not carry it to a different domain."
         },
         "surprise": {
           "score": 8,
-          "note": "Overturns the belief that automating everything reduces headcount, with the counterintuitive claim that 'almost every writer is using it' AI but not saying so — a sentence readers would repeat. Also the specific detail of back-testing an editor's 30,000 edits to create a copy-editing agent is a striking, quotable fact."
+          "note": "Overturns the belief that abandoned internet infrastructure is harmless: a 5€ expired domain gave control over phone routing for three territories, and the logs revealed hundreds of thousands of calls to military bases. The specific number worth repeating is '~400,000 requests in total'."
         },
         "accessible": {
           "score": 7,
-          "note": "The interview format and plain language make it followable for a general audience; terms like 'vibe check' and 'back-testing' are explained in context, and the oven/soufflé analogy makes the core idea vivid without jargon."
+          "note": "The core idea — that controlling a nameserver means controlling DNS answers — is explained in plain language with a quick explainer, and the phone-number reversal is intuitive. A few DNS terms like NAPTR and NXDOMAIN appear but are either explained or not essential."
         },
         "relevance": {
-          "score": 8,
-          "note": "The reader who writes, edits, or works in any knowledge industry will reconsider how they use AI and whether their job is threatened — the piece directly addresses the reader's own work and tools, not just a distant industry."
+          "score": 7,
+          "note": "The reader does not act differently, but the piece exposes a system they live inside: the phone network and the security of military communications. The reader feels the stakes even if they cannot change anything."
         },
         "quality": {
           "score": 7,
-          "note": "The interview is well-structured with a clear arc from vibe checks to the AI paradox, and every claim is supported by specific examples (30,000 edits, doubling headcount, the oven analogy). However, the middle section on the AI paradox repeats the same point about experts being needed in slightly different forms, and the closing podcast plug is tangential."
+          "note": "The narrative is tight and every claim is supported with specific numbers and dates, but the middle section on setting up logging and waiting a day could be trimmed without losing the point."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "一家媒体公司用 AI 复制主编的编辑品味，让 AI 处理大部分工作，但反而需要更多人类专家来修正和提升。",
-          "text": "作者采访了 Every 公司的 CEO Dan Shipper。这家公司既做科技媒体，又用 AI 开发产品，员工仅 30 人，却运营着 6 个软件产品和每日 newsletter。\n\nShipper 说，AI 现在几乎写了公司所有的代码，但文章仍由人类主笔。不过，AI 正在改变写作流程：他们用主编 Kate Lee 的 3 万条历史编辑记录训练出一个 AI 编辑代理，能自动在 Google Docs 里给出修改建议，再经 Kate 校对后自动学习改进。\n\n## 1. 为什么 AI 没有取代人，反而让人更忙？\n\nAI 只会解决已解决的问题，但它面对的具体问题总有偏差，于是产生大量“slop”（垃圾内容）。这时就需要专家介入，把 AI 的输出调整到正确。因此，尽管 Every 拼命自动化，员工还是从 15 人翻倍到 30 人。\n\n## 2. AI 写作之争：文字算谁的？\n\nShipper 认为，只要文字代表你的想法，哪怕不是亲手敲的，也算你的。就像用编辑器接受修改建议一样。他预测，未来作者会越来越多地使用 AI，但真正好的作家会用 AI 打磨自己的品味，而不是被 AI 带着走。\n\n## 3. 媒体公司的护城河：当公正的裁判\n\nEvery 经常评测 AI 模型，有时会给出批评性意见，这会影响与模型公司的关系。但 Shipper 认为，他们的价值正在于提供客观评价，因为模型公司不可能自卖自夸。他比喻说，模型公司是烤箱制造商，而 Every 是糕点师——拿烤箱做出好蛋糕。\n\n总结：AI 不会让专家失业，反而会让专家更有价值；写作的终极标准是“想法是你的”，而不是“字是你打的”。"
+          "thesis": "一个废弃的互联网基础设施域名，让作者仅花5欧元就控制了三个英国海外领地的电话号码查询系统，并意外记录了数十万通打给军事基地的电话。",
+          "text": "DNS劫持听起来很酷，但这次作者干的更离谱：花了5欧元，就接管了三个国家的电话网络基础设施，还意外录下了几十万通打给军事基地的电话。\n\n## 1. e164.arpa：一个死掉的电话路由系统\n\n早期有个叫ENUM的系统，想把电话号码变成网址：把号码倒过来加.e164.arpa，比如+49 30 123456变成6.5.4.3.2.1.0.3.9.4.e164.arpa。运营商查一下就能知道这号码走网络电话，省钱又省事。但后来基本没人用，系统慢慢荒废。作者试着注册，发现德国居然还允许，就顺手买了个自己的域名。\n\n## 2. 捡漏：5欧元买下三国的DNS\n\n作者闲着没事扫描e164.arpa，发现三个国家代码区（圣赫勒拿、迪戈加西亚、阿森松岛）指向同一个失效域名ns.enum.org.uk。这个域名过期了，作者花5欧元买下来，立刻控制了这三个地区的所有电话路由查询。想一下：任何人打给这些岛上的号码，运营商都得问作者的服务器怎么走，完全可以中途插一脚，监听通话甚至改道。\n\n## 3. 意外收获：20万通军事基地电话\n\n作者本来只想随便看看，结果启用了日志，突然发现几十万条查询记录——全是打给迪戈加西亚和阿森松岛美军基地的电话号码。这些可都是士兵打给家人的日常通话，万一泄露机密怎么办？作者赶紧关服务器删日志，上报英国NCSC，最后把域名转交给他们，才算完事。整个过程只花了10欧元，可惜没有赏金，但故事够酷。\n\n一句话总结：一个死掉的老系统，因为没人管，差点变成间谍天堂。好在作者是个好人，不然后果不堪设想。"
         }
       }
     },
@@ -378,292 +379,166 @@
       "sourceId": "nautilus",
       "category": "science",
       "title": "Why Human Giants Defy the Laws of Physics",
-      "titleZh": "巨人为什么不存在？伽利略用一根木梁说清了物理法则",
+      "titleZh": "巨人为什么活不成？伽利略用一根木头算出答案",
       "url": "https://nautil.us/why-human-giants-defy-the-laws-of-physics-1284028/",
       "author": "Joel David Hamkins",
       "publishedAt": "2026-08-21T12:00:00.000Z",
       "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/foot-hero.png?w=564",
       "readingMinutes": 9,
-      "score": 36,
+      "score": 35,
       "rank": 2,
       "review": {
         "substance": {
           "score": 7,
-          "note": "The article argues that scaled-up humanoid giants are physically impossible because strength scales with the square of the linear factor while weight scales with the cube, and it extends this mechanism to explain the stocky build of elephants and the slender build of insects, showing the principle generalizes across biology."
+          "note": "The article argues that scaled-up humanoid giants are physically impossible because strength scales with the square while mass scales with the cube, and it extends this mechanism to explain the stocky build of elephants and the slender build of insects, showing the principle generalizes across biology."
         },
         "surprise": {
           "score": 8,
-          "note": "It overturns the common belief that a giant is just a bigger human, and the sentence 'if his height be increased inordinately he will fall and be crushed under his own weight' is one a reader would repeat."
+          "note": "It overturns the common belief that a giant is just a bigger human, and the sentence 'if his height be increased inordinately he will fall and be crushed under his own weight' is one readers would repeat."
         },
         "accessible": {
           "score": 8,
-          "note": "The only technical terms are 'cross-sectional area' and 'volume,' both explained in plain language with the oak beam example, so a non-specialist can follow the argument without prior physics knowledge."
+          "note": "The only technical terms are 'cross-sectional area' and 'volume,' both explained in plain language with the oak beam example, so a non-specialist can follow without prior physics knowledge."
         },
         "relevance": {
           "score": 6,
-          "note": "The reader will not change any personal action, but the article connects to a system they live inside—the physical world and the size of animals they see—making them feel the scale effects in everyday life."
+          "note": "The reader will not change any personal action, but the article connects to a system they live inside—the size of animals and their own bodies—making them feel the physical constraints of scale in everyday life."
         },
         "quality": {
-          "score": 7,
-          "note": "The structure is clean, with the oak beam example, the giant application, and the animal examples each serving a distinct purpose, and the Galileo quote is well-integrated, though the final paragraph on evolution is a bit of a tangent."
+          "score": 6,
+          "note": "The structure is clean, with Galileo's argument clearly laid out and supported by the beam example, but the middle section on insects and Lilliputians repeats the same scaling principle without adding new evidence, so about a quarter could be cut."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "传说里的巨人不可能存在，因为按比例放大后，骨骼的承重能力只按平方增长，而体重按立方增长，巨人会被自己的重量压垮。",
-          "text": "传说中，巨人跟人类长一个样，只是大了好几倍。但伽利略在1638年就说：这种巨人，物理上根本不可能存在。\n\n他让读者想象一根粗木梁，能撑住一大摞砖头。再把木梁按比例放大10倍——长、宽、高都变成10倍。\n\n## 1. 强度涨得慢，体重涨得快\n\n木梁的承重能力取决于横截面积，面积按线性尺寸的平方增长。10倍大的木梁，横截面积是原来的100倍，所以强度是原来的100倍。\n\n但砖头的重量取决于体积，体积按立方增长。10倍大的砖头，重量是原来的1000倍。\n\n100倍强度对上1000倍重量——木梁只能撑起原来十分之一的负荷。再放大下去，木梁连自己的重量都撑不住。\n\n## 2. 巨人的骨头，撑不起巨人的体重\n\n人的骨头就像木梁，强度跟横截面积有关，但体重跟体积有关。如果巨人只是普通人的等比例放大版，他的骨头强度只增加了平方倍，而体重增加了立方倍。\n\n结果就是：巨人走两步，腿骨就会断，然后被自己的重量压垮。伽利略说，巨人要么得换更硬的骨头材料，要么就承认自己比普通人弱得多。\n\n放大版的梯子、刀剑、铠甲、房子、椅子统统同理——全都撑不住自己。\n\n## 3. 反过来看：为什么大象腿粗，蚂蚁能上墙\n\n这套逻辑也解释了动物的体型差异。大象比猫狗腿粗得多，因为体重按立方涨，骨头必须按比例加粗才能撑住。\n\n而小动物则相反：缩小10倍，强度变成1/100，体重变成1/1000，所以相对力量反而大。跳蚤能跳老高，蚂蚁能扛重物，都是这个道理。\n\n水黾能站在水面上，是因为表面张力对它们来说够强；要是放大到人那么大，早就沉下去了。\n\n反过来，小人国的人也一样不真实：他们应该能轻松背起好几个自己，但会被静电粘在墙上，水对他们来说黏得像胶水。\n\n所以，巨人只能是传说。我们人类这个尺寸，本身就是物理法则筛选出来的最优解。"
+          "thesis": "传说中的人形巨人在物理上不可能存在，因为骨骼强度按平方增长，体重却按立方增长，放大到一定程度，巨人会压垮自己。",
+          "text": "传说里总有巨人，独眼巨人、杰克与豆茎里的大家伙，看着像人，只是大一号。可伽利略在 1638 年就指出：这种巨人根本活不成，纯属物理上的不可能。\n\n## 1. 木头与数学\n\n想象一根结实的橡木梁。放大 10 倍（长宽高都乘 10），它的强度只跟横截面积有关，所以变强 100 倍。但它的重量跟体积有关，体积是立方级增长，所以变重 1000 倍。\n\n100 倍强度对 1000 倍重量——这买卖亏大了。同一根梁，撑不起自己放大后的体重。\n\n## 2. 巨人的骨头是梁\n\n人的骨头就像梁，支撑着肉和肌肉。若巨人骨头材质和常人一样，他的力量按平方长，体重却按立方长。\n\n伽利略说，巨人要么换更硬的骨头，要么就承认自己比常人弱。身高长得太离谱，巨人会被自己的体重压垮、摔死。\n\n这也能解释大象：它们腿粗得像柱子，因为骨骼强度按平方、体重按立方，大动物必须把腿加粗才能站住。\n\n## 3. 缩小也一样不行\n\n反过来，缩小 10 倍的人——像小人国里的居民，骨骼弱 100 倍，但体重轻 1000 倍，所以他们能跳得很高，还能背起两三个自己。\n\n但小尺寸也有麻烦：静电会让他们粘在墙上，水会变得黏糊糊，走路都费劲。总之，小人也跟巨人一样，没法按人类方式生活。\n\n伽利略的洞察很简单：不同维度，物理规律不按比例走。所以巨人只存在于故事里，而人类的大小，正好适合地球。"
         }
       }
     },
     {
-      "id": "58c249b5e7cba81ae80aebf1efa4476abcf55a88",
-      "sourceId": "pluralistic",
-      "category": "culture",
-      "title": "Pluralistic: The actual epistemic crisis (20 Aug 2026)",
-      "titleZh": "AI 骗不了你，除非你早就被骗惯了",
-      "url": "https://pluralistic.net/2026/08/20/epistemic-void/",
-      "author": "Cory Doctorow",
-      "publishedAt": "2026-08-20T23:41:21.000Z",
-      "image": "https://i0.wp.com/craphound.com/images/20Aug2026.jpg?w=840&#038;ssl=1",
-      "readingMinutes": 10,
-      "score": 36,
+      "id": "431a718111848492a7741daafed50d050bf1bb42",
+      "sourceId": "platformer",
+      "category": "business",
+      "title": "The website that created an AI clone of its editor in chief",
+      "titleZh": "AI 写代码、人写文章？这家媒体把主编的品味做成了 AI",
+      "url": "https://www.platformer.news/every-dan-shipper-interview-ai-writing/",
+      "author": "Casey Newton",
+      "publishedAt": "2026-08-21T00:00:50.000Z",
+      "image": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png",
+      "readingMinutes": 16,
+      "score": 35,
       "rank": 3,
       "review": {
         "substance": {
           "score": 7,
-          "note": "The author argues that AI's epistemic threat is an opportunistic infection exploiting a pre-existing decline in truth-assessment systems caused by regulatory capture, and supports this with specific examples like the FDA and OxyContin, banks' phishing-like behavior, and celebrity crypto endorsements. The mechanism—that a compromised epistemic immune system makes new lies more effective—generalizes beyond AI to any new deception technology, but the argument is built from a single line of reasoning and examples rather than multiple angles."
+          "note": "The piece argues that AI automation paradoxically increases demand for human experts, and that a company can clone an editor's taste via a 30,000-edit dataset — a mechanism that generalizes to any knowledge-work role where taste can be encoded and back-tested, not just copy editing."
         },
         "surprise": {
           "score": 8,
-          "note": "The piece reframes the AI deepfake crisis as not a new battle but the latest barrage in a long war of regulatory capture, which is a counterintuitive angle. The key sentence is: 'It's not so much that AI is a powerful way of lying – rather, we have been made progressively more vulnerable to lies for decades, leaving us at an epistemic death's door, and AI has arrived to deliver the coup de grace.' This is a specific, quotable line that overturns the common belief that AI is the root cause."
+          "note": "It overturns the belief that automating everything means fewer humans, with the counterintuitive claim that 'almost every writer is using it' AI but not saying so — a sentence readers would repeat."
         },
         "accessible": {
-          "score": 8,
-          "note": "The article explains the concept of regulatory capture and epistemic crisis in plain language, using relatable examples like bank calls and celebrity endorsements. The only technical term, 'epistemic,' is used in a way that is clear from context, and the Surkov anecdote is explained simply. A 15-year-old could follow the argument without prior knowledge of AI or regulation."
+          "score": 7,
+          "note": "The interview format keeps jargon minimal; terms like 'vibe check' and 'back-testing' are explained in context, and the oven/soufflé analogy makes the core idea clear to a general reader."
         },
         "relevance": {
           "score": 7,
-          "note": "The reader is likely to reconsider how they evaluate truth in a world of deepfakes and corporate lies, and may become more skeptical of expert agencies and media. The action is not a direct personal decision like taking a pill, but it changes how the reader approaches information consumption and trust in institutions, which is a system they live inside."
+          "note": "The reader who writes, edits, or works in knowledge industries will reconsider how they use AI and whether to admit it — a direct stake in the 'dirty secret' claim."
         },
         "quality": {
           "score": 6,
-          "note": "The piece is well-structured with a clear thesis, and each claim is supported with specific examples and links. However, the middle section on regulatory capture repeats the same point about compromised agencies multiple times, and the 'Hey look at this' and 'Object permanence' sections are pure link lists that could be cut without losing the core argument. Roughly a third could be trimmed."
+          "note": "The interview is well-structured with a clear arc, but the middle section on the AI paradox repeats the same point about experts several times, and the closing podcast plug is disposable."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "AI 制造的认知危机是一场“机会性感染”，它之所以致命，是因为我们的真相判断系统早已被大公司和监管俘获掏空。",
-          "text": "AI 能造假视频、假语音，让名人说没说过的话，这的确吓人。但作者认为，AI 不是新敌人，它只是给一场老战争补了一刀。\n\n## 1. 认知危机早就开始了\n\n你没法亲自验证食品安不安全、房子牢不牢、刹车灵不灵，所以你信任专家机构。但这些机构早被大公司渗透了：药企高管进 FDA，FDA 的人出来当说客。作者说，疫苗该打，但别因为信任药厂才打。\n\n## 2. 生活里全是“钓鱼”陷阱\n\n银行打电话要你交个人信息，这不是诈骗，是银行教的；家人被捕要你打钱，因为监狱和医院真这么干；明星代言垃圾币，因为明星真这么干。这些事现在看都觉得正常，正是认知防线失守的证据。\n\n## 3. 真相死了，AI 来收尸\n\n普京的策略不是让你信假话，而是让你怀疑一切。AI 的深度伪造也一样，它让每个影像都可能是假的，于是真假不再重要。作者说，AI 是机会性感染，专挑免疫力低下的人下手。人类被大公司搞了几十年，认知免疫系统早垮了，AI 只是最后一击。\n\n一句话：AI 骗不到你，除非你早就习惯被骗。"
+          "thesis": "AI 可以复制人类专家的品味并放大其影响力，但它的上限是人类的既有经验，因此自动化反而创造了更多的人类工作。",
+          "text": "丹·希普尔是科技媒体 Every 的 CEO。这家公司只有 30 人，却同时运营着 6 个软件产品和一份每日通讯。能撑起这么多业务，全靠 AI——公司几乎所有代码都是 AI 写的，人类只负责写文章。\n\n## 1. 复制主编的品味\n\nEvery 尝试把主编凯特·李的编辑品味做成 AI。他们收集了凯特 3 万次历史编辑记录，训练出一个“复刻版”编辑代理，并在她过去审过的文档上反复测试优化。\n\n现在，员工只要在文档里 @ 一下这个 AI，说“按凯特的方式帮我改改”，就能得到接近她水平的编辑建议。凯特本人再在 AI 的基础上做进一步修改，AI 又会从她的修改里继续学习，形成正向循环。\n\n这样，凯特不再需要花大量时间校对所有文章，而可以把时间花在更有价值的工作上。\n\n## 2. 为什么自动化后反而更缺人\n\nEvery 过去一年人员从 15 人翻倍到 30 人，同时还在拼命自动化一切。为什么？丹的解释是：AI 是“建立在人类专业知识的残留物之上的”，它能解决已经解决过的问题，但每一个新问题都有微小不同。\n\n结果就是，AI 能生成一堆“看起来不错但实际没用”的东西，这时候就需要专家去甄别、修正，把 AI 的输出变成真正合理的方案。所以，AI 既降低了入门门槛，也提高了专业工作的天花板，反而让人类专家的工作量更大了。\n\n## 3. 写作的“脏秘密”\n\n丹说，现在几乎所有作家都在用 AI，只是大部分人不说出来。他觉得，AI 写作的关键不是“谁打的字”，而是“想法是不是你的”。就像你用编辑器自动修改，只要最终文�档反映了你的观点，它就还是你的作品。"
         }
       }
     },
     {
       "id": "2f2b5fe8094b8ca50e9206ed9aa4d496ce96007f",
       "sourceId": "quanta",
-      "category": "science",
+      "category": "tech",
       "title": "Are We Thinking Correctly About AI Intelligence?",
-      "titleZh": "AI 的“聪明”可能只是错觉：像研究婴儿一样研究它",
+      "titleZh": "AI 的“聪明”可能是演戏，别被骗了",
       "url": "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/",
       "author": "Steven Strogatz and Janna Levin",
       "publishedAt": "2026-08-20T14:04:40.000Z",
       "image": "https://www.quantamagazine.org/wp-content/uploads/2026/08/JOW-S5-E6-cr-Chanelle-Nibbelink-Default.webp",
       "readingMinutes": 41,
-      "score": 34,
+      "score": 35,
       "rank": 4,
       "review": {
         "substance": {
           "score": 7,
-          "note": "Mitchell argues that AI is an 'alien intelligence' and that we lack adequate methods for measuring machine cognition, proposing six principles for better assessment. The argument is built from multiple angles — developmental psychology, comparative psychology, the Clever Hans parable, and the competence/performance distinction — and the mechanism (spurious associations in benchmarks) generalizes to any field that evaluates AI by tasks, such as law or medicine."
+          "note": "Mitchell argues that AI is an 'alien intelligence' and that we lack adequate methods for measuring machine cognition, proposing six principles for better assessment. The argument is built from multiple angles — developmental psychology, comparative psychology, the Clever Hans parable, and the competence/performance distinction — and the mechanism (spurious associations in benchmarks) generalizes to any field that evaluates AI, such as medicine or law. However, the piece is a podcast transcript, so the synthesis is conversational rather than tightly argued, and the six principles are listed rather than deeply defended."
         },
         "surprise": {
           "score": 7,
-          "note": "The Clever Hans story is retold with a twist: the horse was a genius at reading social cues, not at math, and the parallel to AI benchmarks is striking. The claim that AI can answer diagram questions without seeing the diagrams is a specific, counterintuitive example worth mentioning."
+          "note": "The Clever Hans story is retold with a twist: the horse was actually a genius at reading social cues, not at math — a specific paradox worth mentioning. Also, the claim that AI can answer questions about diagrams without seeing them (due to spurious associations) is a concrete, counterintuitive example. However, the overall theme that AI doesn't think like humans is familiar to informed readers, and there is no single sentence that would be repeated verbatim."
         },
         "accessible": {
           "score": 8,
-          "note": "The conversation is in plain language, with technical terms like 'mechanistic interpretability' explained on the spot. The Clever Hans story and the radiologist example make the ideas vivid for a non-specialist."
+          "note": "The conversation is in plain language, with technical terms like 'mechanistic interpretability' explained on the spot ('the neuroscience analog'). The Clever Hans story and the radiologist example are vivid and require no domain knowledge. A 15-year-old could follow the main thread, though some parts (like the discussion of benchmarks) assume a bit of context about AI."
         },
         "relevance": {
-          "score": 6,
-          "note": "The reader will think differently about AI benchmarks and the hype around AI capabilities, but the article is more about a field than about the reader's own life. It might influence how they interpret AI news, but it doesn't prescribe a direct action."
+          "score": 7,
+          "note": "The reader will think differently about AI benchmarks and claims of AI capability — they will be more skeptical of 'AI can do X' headlines and may look for control experiments. This is a system they live inside (AI is everywhere), and the piece gives them a concrete lens to evaluate AI claims. However, it does not prescribe a specific personal action like changing a health habit."
         },
         "quality": {
           "score": 6,
-          "note": "The podcast format is conversational and engaging, but the transcript includes lengthy host banter and repeated introductions that could be trimmed. The core ideas are clear, but the middle section on math and jobs meanders."
+          "note": "The transcript is well-structured with a clear arc, and the Clever Hans story is a strong narrative device. However, the conversation meanders — the hosts' philosophical musings at the end (about the meaning of life, tennis, and shoe stores) could be cut without losing the core argument. The six principles are listed but not each given equal depth, and some points (like the 'tyranny of tasks') are repeated in different words."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "人工智能的“智能”与人类不同，现有的评测方法不可靠，需要用研究婴儿和动物的方法来科学地评估 AI。",
-          "text": "当 AI 聊天机器人流利回答问题时，人们容易觉得它像人一样思考。但作者指出，AI 的运作方式与人类截然不同，更像一种“外星智能”。\n\n如何评估这种陌生的智能？作者提出借鉴发展心理学和比较心理学的方法，就像研究婴儿和动物那样。以下是评估 AI 认知能力的六个原则：\n\n## 1. 警惕“拟人化”偏见\n\n人们看到 AI 说人话，就忍不住觉得它有情感、有意识。要意识到这种倾向，别被流畅的语言迷惑。\n\n## 2. 科学地怀疑：做对照实验\n\n就像“聪明的汉斯”那匹马，它能算数，但其实是阅读提问者的面部微表情。当 AI 答对问题时，需要排除侥幸和虚假关联，设计对照实验验证。\n\n## 3. 换着花样测试泛化能力\n\n用不同变体的问题测试 AI，看它是真正掌握原理，还是只会死记硬背。就像学生背下例题，换道题就不会做，那就是“表演”而非“能力”。\n\n## 4. 别把 AI 当黑箱\n\nAI 的内部结构可以被探测，类似神经科学的“机制可解释性”。研究它的激活和权重，有助于理解它真正在做什么。\n\n## 5. 区分“表现”与“能力”\n\n表现是特定任务上的输出，能力是潜在的理解。AI 可能靠捷径“作弊”答对，不等于具备相应能力。\n\n## 6. 分析失败，拥抱负面结果\n\n错误和失败往往比成功更能揭示本质。不要只报喜不报忧，负面结果同样是科学进步的养料。\n\n最后，作者认为，AI 的发展不应只追求“完成任务”，而应追求真正的理解。就像数学难题被 AI 攻克，并不代表它拥有人类那样的创造力。科学地测评 AI，是让技术可靠、可控的关键一步。"
-        }
-      }
-    },
-    {
-      "id": "4ac1f4c245687969aa4c4362324e5a85c2082feb",
-      "sourceId": "ruanyifeng",
-      "category": "culture",
-      "title": "科技爱好者周刊（第 409 期）：程序员的职业未来",
-      "titleZh": "程序员会被AI取代吗？未来可能只剩一种程序员",
-      "url": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-409.html",
-      "author": null,
-      "publishedAt": "2026-08-20T23:53:54.000Z",
-      "image": "https://cdn.beekka.com/blogimg/asset/202608/bg2026082001.webp",
-      "readingMinutes": 12,
-      "score": 33,
-      "rank": 5,
-      "review": {
-        "substance": {
-          "score": 7,
-          "note": "The lead essay argues that software development is an industrial process and that AI coding agents will permanently reshape the profession, with specific predictions like the decline of niche languages and the rise of automated code quality standards. This is a contestable position argued from multiple angles, and the mechanism of industrialization generalizes to other knowledge work, but it does not reach a completely different domain."
-        },
-        "surprise": {
-          "score": 7,
-          "note": "The claim that AI will not eliminate programmers but will force them to work more intensively, and that manual coding will be restricted to hobbyists, contradicts the common belief that AI will either replace programmers or free them from drudgery. The specific prediction that niche languages like Zig and Haskell will be rewritten by AI into mainstream ones is a memorable, counterintuitive point."
-        },
-        "accessible": {
-          "score": 6,
-          "note": "The article is written for a general tech-interested audience, but it assumes familiarity with programming languages, coding agents, and software development workflows. Terms like 'coding agent' and 'LLM' are used without explanation, though the core argument about industrialization is clear to a non-programmer."
-        },
-        "relevance": {
-          "score": 7,
-          "note": "For a programmer, this article directly affects their career decisions — whether to learn niche languages, how to position themselves in the job market, and what skills to develop. For a non-programmer, it offers insight into the future of software and the economy, but the direct action is limited to those in the field."
-        },
-        "quality": {
-          "score": 6,
-          "note": "The article is well-structured with a clear lead essay followed by curated links, but the lead essay repeats its main point several times — that AI will increase programmer workload and reduce manual coding — and the 'LLM optimization' section feels like a tangent. The tech news items are concise, but some could be cut without loss."
-        }
-      },
-      "summary": {
-        "zh": {
-          "thesis": "软件开发的工业化趋势将使手工编码逐渐被淘汰，程序员的主要工作将转变为帮助和审查AI。",
-          "text": "程序员这行以后会怎样？有人说AI会取代程序员，有人说不会。最近有个老外的预测，比较靠谱。\n\n核心观点：大多数商业软件开发是工业流程，不是手工活。工业化要求提高效率、降低成本、保证质量。AI恰好符合这个要求，所以会被大规模采用。\n\n## 1. AI编码代理将无处不在\n\nAI大模型越来越强，编码代理也越来越强。公司会给程序员施压，让他们多用编码代理，想降低门槛、增加强度。最好销售也能开发软件。\n\n## 2. 手工编码将被严格限制\n\n代码质量将被量化，自动检测工具越来越多。大多数软件不该再手工写，那样经济上划不来。还想手工编码的，可能只能业余时间在家搞。\n\n## 3. 程序员的活变成\"帮AI\"\n\n程序员的主要工作，将变成帮AI变好：审查AI生成的代码、测试AI的更改、减少错误。行业标准越来越要求程序员多干活。\n\n一句话总结：程序员不会消失，但手工编码会消失，剩下的程序员要转型为AI的\"教练\"和\"质检员\"。"
-        }
-      }
-    },
-    {
-      "id": "56ba98928aa01e37a6f536e33bdbd59e2ec91771",
-      "sourceId": "restofworld",
-      "category": "business",
-      "title": "A dumpling shop becomes a poster child of AI adoption in China",
-      "titleZh": "北京这家饺子馆，凭啥成了中国AI的“宣传委员”？",
-      "url": "https://restofworld.org/2026/china-ai-adoption-jinguyuan/",
-      "author": "Viola Zhou",
-      "publishedAt": "2026-08-21T13:00:00.000Z",
-      "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_dumpling_shop_final-768x432.jpg",
-      "readingMinutes": 3,
-      "score": 32,
-      "rank": 6,
-      "review": {
-        "substance": {
-          "score": 5,
-          "note": "The piece argues that China's AI enthusiasm is a cultural and economic stance, using the dumpling shop owner as a concrete case, but the insight is mostly a contrast between Chinese and Western attitudes without a deeper mechanism that generalizes beyond the anecdote."
-        },
-        "surprise": {
-          "score": 7,
-          "note": "It highlights the counterintuitive fact that a small dumpling shop owner in China is eagerly adopting AI while Western small businesses hide their AI use, which is a specific and notable contrast."
-        },
-        "accessible": {
-          "score": 8,
-          "note": "The story is told through a human scene and plain language; the only technical term, 'AI agent', is explained in a few words, making it easy for a general reader to follow."
-        },
-        "relevance": {
-          "score": 6,
-          "note": "The reader is unlikely to change their own behavior, but the piece touches on a system they live inside—the global AI economy and cultural attitudes toward technology—making it feel relevant to their understanding of the world."
-        },
-        "quality": {
-          "score": 6,
-          "note": "The article is well-structured with a clear narrative arc, but the middle section repeats the contrast between Chinese and Western attitudes that was already established in the opening, and some details (like the token coupon) are mentioned without follow-up."
-        }
-      },
-      "summary": {
-        "zh": {
-          "thesis": "在中国，AI被视为必然趋势，连饺子馆老板都主动拥抱，与西方对AI的警惕形成鲜明对比。",
-          "text": "北京一家叫「金谷园」的饺子馆，最近成了中国AI应用的「宣传委员」。老板李波搞了个「技能」，让顾客能用AI助手点餐、排队，还代码生成网站，甚至送Token券。\n\n李波41岁，北邮电信工程硕士毕业，2010年没当工程师，反而开过青旅、卖过甜点，最后和饺子师傅合伙开了这家店。AI让他重新燃起对科技的热情。\n\n「你们老觉得AI抢饭碗，我们却抢着用。」这是中国和西方的鲜明对比。作者发现，纽约小商家不敢承认用AI，怕像作弊；中国却人人抢学AI课，怕落后。\n\n## 1. 老板的算盘：AI是先进生产力\n\n李波引用邓小平名言：「科学技术是第一生产力。」他相信，未来人人都会让AI安排吃喝，饺子馆得先上车。「总要拥抱最先进的生产力。」\n\n## 2. AI带来的热度＞实际使用\n\n李波承认，这个AI技能带来的媒体关注比实际使用多。但他很骄傲，说：「总得有人先开始用，哪怕它还不够好。蒸汽机刚出来时，人们笑它不如马，但最后汽车赢了。」\n\n一句话总结：在西方担忧AI时，中国小老板把AI当「军备竞赛」，抢着当吃螃蟹的人，这态度本身就耐人寻味。"
+          "thesis": "AI 的智能表现常常是“表演式”的，并非真正的理解，需要更严格的评估方法。",
+          "text": "当 AI 回答问题时，它真的在推理，还是只是生成看起来像推理的文字？这个区别不是纯哲学问题，它决定了我们能否信任 AI、该多严密地监督它，以及它最终会带来什么影响。\n\n认知科学家梅兰妮·米切尔认为，我们目前缺乏足够的方法来测量机器认知，AI 其实是一种“外星智能”，运作方式与人类完全不同。\n\n## 1. 别被“人话”骗了\n\nAI 能说流利的人类语言，人们很容易就以为它有类人思维。但米切尔提醒，要警惕这种“拟人化偏见”。\n\n就像马戏团里会算数的马“聪明的汉斯”，看似会做算术，其实只是读取训练员无意识的面部表情。AI 也可能在“作弊”，通过数据集里的虚假关联给出正确答案，而不是真正理解。\n\n## 2. 会做题 ≠ 会做事\n\n学生背下整本习题集，但换个题目就不会做，这叫“有表现，没能力”。 AI 也常这样。\n\n比如，AI 能通过律师资格考试，但真实律师工作远比考试复杂；Geoffrey Hinton 曾在 2016 年预言 AI 将取代放射科医生，结果现在反而短缺。\n\n“会做一堆任务”不等于“能胜任一份工作”，因为工作不是任务清单。\n\n## 3. 科学评估 AI，记住六条原则\n\n米切尔提出评估 AI 认知能力的六点：\n\n1. 觉察自己的拟人化偏见；\n2. 怀疑假设，做控制实验；\n3. 变化刺激，测鲁棒性；\n4. 别当黑箱，主动探究；\n5. 区分“做得到”和“真会做”；\n6. 拥抱失败，分析错误类型。\n\n这些方法借鉴自心理学研究婴儿和动物等“外星智能”的技巧。\n\n一句话总结：AI 看似聪明，但它的“智能”可能是错觉。要真正信任它，得用更科学的方法去测试，而不是被流利的语言和漂亮的结果迷惑。"
         }
       }
     },
     {
       "id": "85bba1a4aab06fc9f1f0fd52b421b17dbd46987d",
       "sourceId": "damodaran",
-      "category": "investing",
+      "category": "tech",
       "title": "AI's Bar Mitzvah Moment: From Hype & Hope to Business Questions!",
-      "titleZh": "AI的成人礼：谈钱不伤感情",
+      "titleZh": "AI的成人礼：从科幻神话到算账时刻",
       "url": "https://aswathdamodaran.blogspot.com/2026/08/ais-bar-mitzvah-moment-from-hype-hope.html",
       "author": null,
       "publishedAt": "2026-08-20T21:18:56.328Z",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieF9ccr4palemNCYpPgnsfGVx5ac51S7c6CtbK3EvIgvQleNoLbELJ9sSoo5qWy8DG_DGj9hPOyJp2FV9emjGilWsDYxS4oxHVroIFMWZy1-ka1sbMW2jARxYOS5Phj5ADzYHZ0DjBTIlze-drCXEEe40iYQc1da-xUwtCJ3jUGkEKwEwRTBQ2mTOLYgw/w335-h400/BigMarketDelusion.jpg",
       "readingMinutes": 39,
-      "score": 32,
-      "rank": 7,
+      "score": 33,
+      "rank": 5,
       "review": {
         "substance": {
           "score": 7,
-          "note": "The author builds a four-phase cycle of revolutionary change and applies it to AI, arguing that AI is in the 'business building' phase and must be judged by business fundamentals, not potential. He provides a framework with market size, industry economics, and moats, and uses reverse engineering to show that a $2 trillion Anthropic valuation requires $1.2 trillion in revenues. The framework is specific and contestable, but it does not generalize to a completely different domain."
+          "note": "The author builds a four-phase cycle of revolutionary change and applies it to AI, arguing that AI is in the 'business building' phase and must be judged by business fundamentals, not potential. He provides a framework with market size, industry economics, and moats, and uses reverse engineering to show that a $2 trillion Anthropic valuation requires $1.2 trillion in revenues. The mechanism of the 'big market delusion' generalizes to other tech bubbles, but the piece is more a synthesis of existing ideas than a novel thesis."
         },
         "surprise": {
           "score": 7,
-          "note": "The piece challenges the common belief that AI's huge market potential guarantees business success, pointing out that 'big markets don't always become big businesses.' It also reveals that the cost of producing AI tokens has dropped while the cost of accessing frontier models has risen, a counterintuitive paradox. However, there is no single sentence that a reader would repeat verbatim."
+          "note": "The counterintuitive claim is that AI's massive investments ($1.7 trillion) have not yet produced commensurate revenues (capped at $250 billion), and that the 'big market' may be a delusion. The specific number worth repeating: 'the current revenue number caps out at about $250 billion' — a stark contrast to the trillions invested."
         },
         "accessible": {
           "score": 6,
-          "note": "The article explains technical terms like TAM, ARR, and unit economics in plain language, and uses analogies like the 'bar mitzvah moment' and 'most expensive factory in history.' However, it assumes familiarity with financial concepts like market cap and operating margins, which may require some explanation for a general reader."
+          "note": "The piece is written for a general business audience, but it uses terms like TAM, ARR, unit economics, and moats without always explaining them on the spot. A reader unfamiliar with finance can follow the gist but may need to look up some terms."
         },
         "relevance": {
-          "score": 6,
-          "note": "The reader is likely an investor or business person who will use the framework to evaluate AI companies and capital expenditures. The article provides a concrete tool (breakeven calculator) that could influence investment decisions, but for a general reader, the relevance is more intellectual than actionable."
+          "score": 7,
+          "note": "The reader is likely an investor or business person who will think differently about AI valuations and capital expenditures. The action: they might use the breakeven calculator to assess AI investments, or at least question the hype. However, for a general reader, the relevance is indirect."
         },
         "quality": {
           "score": 6,
-          "note": "The article is well-structured with clear sections and data sources, but it is long and repetitive in places, especially in the discussion of market size and constraints. Some sections could be condensed without losing substance."
+          "note": "The piece is well-structured with clear sections, but it is long and repetitive. The same points about market size and business models are made multiple times, and the conclusion restates the framework. Roughly a third could be cut without losing substance."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "AI虽潜力巨大，但当前估值远超实际收入，需按商业逻辑检验，而非只讲故事。",
-          "text": "2022年ChatGPT横空出世，AI热潮烧了四年。英伟达市值飙升，七大科技巨头贡献美股45%涨幅，数据中心投资拉动美国GDP约1%。\n\n但热闹背后，真正的问题不是AI多厉害，而是它能不能变成一门好生意。作者称之为AI的「成人礼」：投资者不再为梦想买单，要看到实打实的收入和利润。\n\n## 1. 市场多大？先别做梦\n\nAI企业最爱吹总市场规模（TAM）。某银行给xAI估了22万亿美元，作者觉得这是幻觉。目前AI年收入撑死2500亿美元，相比数万亿美元投资，杯水车薪。\n\nAI的真实上限是员工薪酬。美国2025年全部员工薪酬约13万亿美元，AI不可能全吃掉——工具替代不了人，只有替换员工才有大市场。还得看定价、行业和地域。\n\n## 2. 赚钱难在哪？\n\n技术公司通常边际成本趋零，但AI不是。生成token要烧电、烧芯片，成本虽降，用量却涨。高端AI服务越来越贵，利润薄如刀片。\n\n商业模式也在试错：订阅不划算，转向按用量付费；开放还是封闭模型，各有取舍。想赢，要么拼规模成本，要么拼技术壁垒，但没人保证赢。\n\n## 3. 不光算账，还要看社会账\n\n数据中心占地耗电，引发居民抗议；数据隐私惹人忧；高薪岗位被AI顶替，民众恐慌；贫富差距或进一步拉大。\n\n这些约束会转成真金白银的成本：盖数据中心更贵，监管更严，甚至可能被课重税。投资者若视而不见，迟早被反噬。\n\n别被故事迷惑。AI能不能值钱，要看十年后要赚多少才能回本——按目前估值，整个行业得赚5万亿到8万亿美元，难度极大。与其随波逐流，不如用这套框架，自己算笔账。"
-        }
-      }
-    },
-    {
-      "id": "8c07d5d67896b92efaacbd50dc694ce7031084e4",
-      "sourceId": "rogerebert",
-      "category": "culture",
-      "title": "Liminal Spaces, Transitional States: Alexander Ullom on “It Ends”",
-      "titleZh": "无尽公路、尖叫人群：毕业后的‘人间地狱’",
-      "url": "https://www.rogerebert.com/interviews/alexander-ullom-it-ends-interview",
-      "author": "Zachary Lee",
-      "publishedAt": "2026-08-21T13:00:00.000Z",
-      "image": "https://www.rogerebert.com/wp-content/uploads/2026/08/IT-ENDS_BTS_Alex-Ullom_Credit-Chris-Violette_037.jpg",
-      "readingMinutes": 11,
-      "score": 31,
-      "rank": 8,
-      "review": {
-        "substance": {
-          "score": 6,
-          "note": "The interview argues that liminality and ritual are the generation's response to dissolved moral structures, and that silly questions are a new unifying truth — a position argued through the film's design and the director's personal testimony, though it never generalizes beyond the film's own themes."
-        },
-        "surprise": {
-          "score": 7,
-          "note": "Points out that the film's aspect ratio changes to reflect a tonal war between horror and hangout, and that arguing over a stupid hypothetical is 'the most important thing in the entire world' — a specific, quotable paradox worth mentioning."
-        },
-        "accessible": {
-          "score": 7,
-          "note": "The film's premise is explained in plain terms, and the few technical terms like 'aspect ratio' are self-explanatory in context; the interview's conversational tone makes it followable without having seen the film."
-        },
-        "relevance": {
-          "score": 5,
-          "note": "The reader who has felt the weight of modern meaninglessness or the pull of online desensitization will recognize their own experience in the director's words, but the piece offers no action to take — it is a reflection, not a call to change."
-        },
-        "quality": {
-          "score": 6,
-          "note": "The interview is well-edited and flows naturally, but several themes — liminality, desensitization, the dissolution of structures — recur across multiple answers, and a few exchanges could be trimmed without losing the core."
-        }
-      },
-      "summary": {
-        "zh": {
-          "thesis": "《It Ends》用一部恐怖公路片，映射了Z世代在失去传统人生目标后，陷入永恒过渡期的迷茫与挣扎。",
-          "text": "导演亚历山大·乌洛姆的新片《It Ends》讲了个怪事：四个大学刚毕业的朋友，半夜开车上路，结果开进了一条永远没有尽头的公路。\n\n他们每次停车休息，只能喘口气90秒，接着就会有一大群尖叫的人冲过来攻击他们。\n\n## 1. 这不只是恐怖片，是‘成长’的比喻\n\n乌洛姆说，这电影是‘宗教创伤’的隐喻——但别误会，他并不反对宗教。他只是觉得，现在年轻人失去了老一辈那些‘人生支柱’：成家、买房、信教，全都没了。\n\n于是，所有人都卡在一种‘过渡状态’里，就像那条无尽公路。\n\n## 2. 用‘仪式感’来对抗绝望\n\n片子里，角色们发明了各种‘仪式’来熬过困境：尖叫，是把恐惧喊出来；刷梗图，是让大脑放空；跳舞，是反抗资本主义对情绪的压榨。\n\n导演本人也有自己的‘仪式’——他现在会爬消防梯上天台晒太阳，或者重新开始读书，他说：‘其实大家都懂该做什么，难的是真的去做。’\n\n## 3. ‘无聊的傻问题’反而是解药\n\n电影里，角色们会为了‘100个人打得过一只大猩猩吗’这种问题吵上半天。乌洛姆觉得，这种没答案的蠢问题，其实就是现代人的‘精神寄托’。\n\n既然世界上没有绝对真理了，那么和朋友争论一个假想题，反而成了最真实的连接。他说：‘这可能是我们这一代人，在没有宗教后，唯一能共同相信的东西。’\n\n一句话总结：当一切意义都崩塌时，和你在乎的人瞎聊、瞎闹，可能就是唯一真实的救赎。"
+          "thesis": "AI正经历从概念炒作到商业落地的关键转折，其商业前景取决于市场、成本和竞争壁垒，而非宏大想象。",
+          "text": "ChatGPT在2022年底横空出世，四年过去，AI已经成了街谈巷议的热词。股市里，英伟达市值飙升，七大科技巨头贡献了美股45%的涨幅，AI基建更是撑起了美国GDP增长的1%。但热闹背后，作者发现一个尴尬的事实：AI的“成人礼”到了，它得开始讲商业逻辑了。\n\n## 1. 革命都有四部曲\n\n任何颠覆性技术，都得走过四个阶段：先是希望与炒作，画个大饼；然后是大规模投资，烧钱建厂；接着是商业落地，把产品变成钱；最后是重新洗牌，整个社会被重塑。AI现在正卡在第三阶段——钱烧了无数，产品有了，但还没赚到钱。\n\n## 2. 市场有多大？别太乐观\n\nAI的总市场规模（TAM）被炒到几十万亿美元，但作者算了一笔账：AI最想取代的是人力成本，美国的员工薪酬总额也就约13万亿美元。而且这钱还得看AI是当工具还是当替身，能进入的市场顶多一半。就算AI把全球高薪工作都干了，上限也就是26万亿，但现实是，现在AI的年收入只有2500亿，离回本还差得远。\n\n## 3. 赚钱难，护城河也难挖\n\nAI产品和传统软件不一样，边际成本不低，用得多就花得多，所以会员费模式不灵，得按用量收费。至于护城河，大众市场拼规模和成本，高端市场拼技术和数据。现在还看不到谁有绝对优势，连Google的首席科学家离职都能让市值蒸发千亿，说明大家都还嫩。\n\n说白了，AI还在烧钱阶段，估值靠的是故事。没人知道它将来能赚多少，但可以肯定，靠卖会员和广告的那种互联网逻辑，在AI这儿行不通。"
         }
       }
     },
@@ -672,82 +547,82 @@
       "sourceId": "klement",
       "category": "culture",
       "title": "It’s not the fault of right-wing news",
-      "titleZh": "不是媒体的错：拉开你与家人距离的，是朋友圈",
+      "titleZh": "不是右翼媒体的错？极化根源在朋友圈",
       "url": "https://klementoninvesting.substack.com/p/its-not-the-fault-of-right-wing-news",
       "author": "Joachim Klement",
       "publishedAt": "2026-08-21T06:01:27.000Z",
       "image": "https://substack-post-media.s3.amazonaws.com/public/images/e4db544a-4072-4fec-830d-3a14c353fcea_500x500.png",
       "readingMinutes": 2,
-      "score": 31,
-      "rank": 9,
+      "score": 32,
+      "rank": 6,
       "review": {
         "substance": {
           "score": 5,
-          "note": "The piece argues that social circles, not media diet, drive polarisation, citing a specific Tinbergen Institute study and a chart, but the argument is a summary of that study's findings rather than a synthesis that generalises beyond the study's context."
+          "note": "The piece argues that social circles, not news media, drive political polarisation, citing a specific Tinbergen Institute study and a chart, but the argument is essentially a summary of that study's findings with little independent synthesis or generalisation beyond the study's own domain."
         },
         "surprise": {
           "score": 7,
-          "note": "It challenges the common belief that cable news is the main driver of polarisation, offering the counterintuitive claim that your social circle matters more, but there is no single sentence that would be repeated verbatim."
+          "note": "It challenges the common belief that cable news is the main driver of polarisation, offering the counterintuitive claim that your social circle matters more, but the point is made in a single chart and not developed into a memorable, quotable sentence."
         },
         "accessible": {
-          "score": 7,
-          "note": "The topic is political polarisation, which is familiar to most readers, and the only technical term is 'Tinbergen Institute', which is not explained but does not hinder understanding."
+          "score": 8,
+          "note": "The article is written in plain language, with no technical jargon; the only potentially unfamiliar term, 'Tinbergen Institute', is a proper noun that doesn't require explanation for the argument to land."
         },
         "relevance": {
           "score": 6,
-          "note": "The reader lives inside the polarised society described and may reconsider how their own social circle shapes their views, but the piece does not prescribe a specific action."
+          "note": "The reader lives inside the polarised society described and may reconsider how their own social circle shapes their views, but the article doesn't suggest a concrete action they could take beyond a vague awareness."
         },
         "quality": {
           "score": 6,
-          "note": "The piece is concise and the study is named, but the opening restates the common view at length before getting to the study, and the final paragraph repeats the point about social bubbles."
+          "note": "The piece is concise and well-structured, but it repeats the same point about social circles versus media several times in different words, and the chart is described rather than deeply analysed, so a third of the text could be cut without loss."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "研究发现，导致政治极化的主要因素不是媒体，而是社交圈的同质化。",
-          "text": "美国社会越来越撕裂，很多人第一反应是怪媒体，尤其是福克斯新闻、MSNBC 这些频道，觉得它们天天带节奏。\n\n但荷兰丁伯根研究所的新研究说：冤枉媒体了。真正的“元凶”是社交圈。\n\n## 1. 换新闻，不如换邻居\n\n研究显示，换新闻来源，对人们的气候变化看法几乎没影响。可如果社交圈稍微变一下，看法就差远了。\n\n甚至可以说：你对气候的态度，更多取决于你住在哪个县，而不是你看哪个台。\n\n## 2. 圈子越杂，人越开明\n\n社交环境越多元——不同种族、教育、年龄、党派的人混在一起——就越容易碰到不同观点，这样政治极化会减轻，对气候变化的担忧反而增加。\n\n要是天天只跟自己相似的人待着，观点就会越来越偏，思维也越来越封闭。\n\n## 3. 左右都一样\n\n这个规律不分左右，无论哪个阵营，圈子越封闭，想法就越极端。\n\n一句话：让观点走极端的，不是屏幕里的主播，而是身边缺乏不同声音的朋友圈。"
+          "thesis": "政治极化并非主要源于媒体，而是人们的社会圈子和居住地的影响更大。",
+          "text": "美国社会越来越两极化，很多人把锅甩给福克斯新闻这类媒体，甚至包括作者。但一项新研究说：媒体可能没这么多错。\n\n## 1. 媒体的错？冤枉它了\n\n研究来自丁伯根研究所，让受访者换新闻源，结果他们对气候变化的看法几乎没变。换新闻，不如换圈子。\n\n## 2. 社交圈子才是关键\n\n真正让观点差距拉大的，是社会圈子。住在不同县的人，气候观点差很多。如果身边人全是同种族、同教育、同党派，想法会越来越极端。\n\n## 3. 混搭圈子治极化\n\n圈子越多元，接触不同观点越多，极化越低，对气候的担忧反而升高。作者总结：封闭的社交环境，带来封闭的头脑，左右都一样。\n\n一句话：想治极化，别只盯着媒体，先看看你的朋友圈。"
         }
       }
     },
     {
-      "id": "35bb015b2368d29e7a967018fe4d2803f46df985",
-      "sourceId": "acx",
+      "id": "58c249b5e7cba81ae80aebf1efa4476abcf55a88",
+      "sourceId": "pluralistic",
       "category": "culture",
-      "title": "College EA Meetups Everywhere: Call For Organizers",
-      "titleZh": "大学EA聚会招募：当个组织者，一起改变世界",
-      "url": "https://www.astralcodexten.com/p/college-ea-meetups-everywhere-call",
-      "author": "Scott Alexander",
-      "publishedAt": "2026-08-20T19:55:39.000Z",
-      "image": "https://substack-post-media.s3.amazonaws.com/public/images/27645a54-8b36-4494-9413-62d22a675cd7_1999x1268.png",
-      "readingMinutes": 8,
-      "score": 31,
-      "rank": 10,
+      "title": "Pluralistic: The actual epistemic crisis (20 Aug 2026)",
+      "titleZh": "AI 不是骗局的开端，它只是趁虚而入的“机会主义感染”",
+      "url": "https://pluralistic.net/2026/08/20/epistemic-void/",
+      "author": "Cory Doctorow",
+      "publishedAt": "2026-08-20T23:41:21.000Z",
+      "image": "https://i0.wp.com/craphound.com/images/20Aug2026.jpg?w=840&#038;ssl=1",
+      "readingMinutes": 10,
+      "score": 32,
+      "rank": 7,
       "review": {
         "substance": {
-          "score": 5,
-          "note": "The piece is a call to action with practical guidance, but the core argument — that college EA groups need organizers and that anyone can do it — is a position argued from a single line of reasoning (the bottleneck is people, not money) and the rest is logistics. The mechanism of 'minimum viable effort' generalizes to other volunteer recruitment, but it's not deeply explored."
+          "score": 7,
+          "note": "The author argues that AI's epistemic threat is an opportunistic infection exploiting a pre-existing decline in truth-assessment systems caused by regulatory capture, and supports this with specific examples like the FDA and OxyContin, bank phishing behavior, and celebrity crypto endorsements. The mechanism—that vulnerability to lies is built by prior institutional failures—generalizes beyond AI to any new deception technology, but the argument is largely a synthesis of the author's prior work rather than a novel mechanism."
         },
         "surprise": {
-          "score": 7,
-          "note": "The surprising claim is that you don't need any qualifications to organize a meetup — 'If you can put a name/time/date in a box on Google Forms and show up there, you have the minimum skill necessary' — which contradicts the common belief that organizing requires experience or charisma. That sentence is worth repeating."
+          "score": 6,
+          "note": "The piece reframes AI's epistemic threat as not new but an opportunistic infection on a pre-existing vulnerability, which is a fresh angle. The specific claim that 'we have been made progressively more vulnerable to lies for decades' is memorable, but it doesn't contradict a belief most readers hold—most already distrust institutions—and there is no single sentence that would be repeated verbatim."
         },
         "accessible": {
-          "score": 8,
-          "note": "The piece is written in plain language with no jargon; terms like 'EA' and 'ACX' are used but explained implicitly through context, and the advice is concrete and easy to follow for anyone, including a 15-year-old."
+          "score": 7,
+          "note": "The piece explains the concept of regulatory capture and epistemic crisis in plain language, using relatable examples like bank calls and celebrity endorsements. The term 'epistemic' is used but explained through context, and the Surkov anecdote is clear. A general reader can follow without prior knowledge of AI or regulation."
         },
         "relevance": {
-          "score": 5,
-          "note": "For a reader who is a college student or near a campus, this could prompt them to start a meetup — that's a concrete action. But for most readers, it's about a niche movement they don't belong to, so it's interesting but detached."
+          "score": 6,
+          "note": "The reader is likely to think differently about why they fall for scams or distrust institutions, but the piece doesn't prescribe a specific action. It connects to systems the reader lives in—banks, health care, media—but the connection is more about understanding than immediate change."
         },
         "quality": {
           "score": 6,
-          "note": "The piece is well-organized with clear FAQ sections, but the middle repeats the same points (how to sign up, what to do, who can organize) multiple times in different forms. Roughly a third could be cut without losing anything."
+          "note": "The piece is well-structured with a clear thesis and supporting examples, but the middle section on regulatory capture repeats points made earlier, and the 'Hey look at this' and 'Object permanence' sections are link roundups that could be cut without losing the core argument. Roughly a third could be trimmed."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "在大学办一场EA聚会，是让聪明人投身AI安全等事业的最简单起点。",
-          "text": "每年春秋，作者都会帮各地的ACX聚会做宣传。今年夏天，重点转向大学的「有效利他」（EA）社团。很多大学已有这类团体，但更多学校还没有。作者想招募志愿者，在自家学校办一场EA见面会。\n\n为什么这么急？因为AGI的时钟在滴答作响，AI新贵们捐了大笔钱，现在缺的不是资金，而是能把钱变成好结果的聪明人。这些人可能正忙着别的事，所以作者来招募读者。\n\n## 1. 当组织者到底要干啥\n\n最低要求：填个表格，写上时间地点，到时候举着牌子出现就行。不需要是学生，研究生、老师、附近居民都可以。\n\n聚会内容很简单：大家来了就聊天。可以准备些话题卡，比如「你最近对什么兴奋？」在名牌上写兴趣，热情打招呼。别搞强制活动，也别拼命拉人入坑。\n\n## 2. 怎么让聚会不翻车\n\n时间选在九月中旬到十月底之间，最好避开期中考试和开学周。校园里工作日晚比周末效果好，因为学生周末常回家或有事。\n\n地点要方便找、不太吵、能有座位和厕所。教室、学生活动室、图书馆讨论间都行。别选酒吧，很多本科生不到合法喝酒年龄。\n\n## 3. 会有多少人？会一直当下去吗？\n\n人数从零到五十都有可能。就算只来三个人，也是个完美的开始。如果担心没人来，带本书或朋友去。\n\n作者澄清：办一次就够，不想续就忘掉。但很多人会因此成为常任组织者。想转正的话，可以收集大家的邮箱，用不是学校邮箱的地址，因为毕业后学校邮箱会失效。\n\n赞助方Nest会报销名牌、披萨等费用，还提供建议。作者和另一位组织者也会帮忙。填表后就能获得支持。\n\n总之，如果你的大学还没有EA团体，不妨考虑当个组织者。这是让聪明人聚在一起、可能改变世界的最简单方式。"
+          "thesis": "AI 之所以能扭曲我们对真相的认知，是因为在此之前，我们的信任体系早被大公司和被俘获的监管者蛀空了。",
+          "text": "AI 让人恐慌，不只是因为它烧钱、费电、抢饭碗，更因为它让“真假”变得模糊。政客、明星、战场、美食，全都像真的，又可能是假的。\n\n但作者指出：AI 的欺骗能力，是“机会主义感染”——它专门攻击那些本来就虚弱的系统。\n\n## 1. 你早就活在“什么都不可信”的世界里\n\n想想看：你没法亲自检验食品添加剂、大楼钢梁、刹车软件的安全。你只能依靠监管机构。\n\n可这些机构早被大公司渗透了。比如 FDA 里挤满了药企前高管，药企说“这药安全”，你信谁？\n\n疫苗争议就是个例子。作者支持打疫苗，但理由不是“信药厂”，而是信证据。可一个被收买的监管系统，让一切信任都变得可疑。\n\n## 2. 骗局能成功，是因为现实早就很像骗局\n\n为什么你会信“你爸被逮捕了，快打钱”这种电话？因为真实的司法、医疗系统，就常逼人交钱赎人。\n\n为什么你会信明星代言垃圾币？因为明星本来就在代言垃圾币，媒体也在帮腔。\n\n生活早就教会你：这些事可能发生。于是当 AI 造出更逼真的假象时，你根本分辨不出。\n\n## 3. 真正的病根，是几十年来的“信任破产”\n\n作者说，AI 的骗局不是新战争，而是旧战争的最新一轮炮击。\n\n几十年里，垄断企业撕碎了真相评估系统。银行像钓鱼一样诓你，监管者视而不见。\n\n如果政府机构可信、银行不作恶、医疗不勒索，deepfake 根本骗不了人。可惜，AI 来的时候，我们已经在认知的死亡门口排队了。\n\n一句话：AI 不是骗子之神，它是压垮信任体系的最后一根稻草。"
         }
       }
     },
@@ -756,124 +631,292 @@
       "sourceId": "nautilus",
       "category": "culture",
       "title": "You’re Not a Universal Mosquito Magnet",
-      "titleZh": "蚊子不挑人？新研究：你只是对特定种类有吸引力",
+      "titleZh": "你不是天生的“蚊子吸铁石”，但可能骗走某些蚊子的心",
       "url": "https://nautil.us/youre-not-a-universal-mosquito-magnet-1284049/",
       "author": "Jake Currie",
       "publishedAt": "2026-08-20T20:00:00.000Z",
       "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Currie_HERO_708cf6.png?w=564",
+      "readingMinutes": 3,
+      "score": 32,
+      "rank": 8,
+      "review": {
+        "substance": {
+          "score": 5,
+          "note": "The article reports a study's findings that different mosquito species prefer different people based on skin microbiome, but it mostly relays the study's results without adding a deeper synthesis or a mechanism that generalizes beyond the subject."
+        },
+        "surprise": {
+          "score": 7,
+          "note": "It overturns the common belief that some people are universally attractive to mosquitoes, revealing that attractiveness is species-specific, but the finding is presented as a study result rather than a striking paradox."
+        },
+        "accessible": {
+          "score": 8,
+          "note": "The article explains technical terms like 'microbiome' and 'volatile organic compounds' in plain language, and the experiment is described in a way that requires no prior knowledge."
+        },
+        "relevance": {
+          "score": 6,
+          "note": "The reader might reconsider their mosquito repellent choices or understand their personal risk, but the article does not prompt a specific action beyond general awareness."
+        },
+        "quality": {
+          "score": 6,
+          "note": "The article is concise and well-structured, but it repeats the main point about species-specific attraction several times and includes promotional content that could be cut."
+        }
+      },
+      "summary": {
+        "zh": {
+          "thesis": "没有一个人对所有蚊子都特别有吸引力，但每个人的皮肤微生物组都会吸引特定种类的蚊子。",
+          "text": "夏天一到，蚊子嗡嗡绕着你飞，好像全世界就咬你一个。别急着自认“吸蚊体质”，真相是：全球 3500 多种蚊子里，只有少数几种叮人，而它们还有各自的“口味”。\n\n科学家找了 119 位勇士，把手伸进装满蚊子的管子里（蚊子隔着网叮不到手），看看哪种蚊子最爱谁。结果发现，没有一个人被所有蚊子“独宠”，但也没有人完全受冷落——每个人都至少对一种蚊子有吸引力。\n\n## 皮肤上的“气味签名”\n\n原来，蚊子不是靠“看”找人的，而是靠皮肤上细菌代谢产生的挥发性化合物来辨认目标。每个人的皮肤微生物组都不一样，所以每个人都像带着独一无二的“气味签名”。\n\n研究还发现，不同蚊子的偏好也不同：白纹伊蚊特爱酮类物质，所以高蛋白饮食、间歇性断食的人可能更招它；埃及伊蚊更喜欢男性，因为他们皮肤上有更多产脂肪酸的细菌。\n\n## 万幸：不是“万能吸铁石”\n\n虽然你可能不是所有蚊子的菜，但也别以为能彻底“隐身”。研究人员说，每种蚊子都进化出了自己独特的“解码方式”，来识别人类的气味。\n\n好消息是，搞清楚这些化学线索，或许能帮我们造出更有效的驱蚊剂。作者只盼着科学家跑快点，蚊子实在太烦人了。"
+        }
+      }
+    },
+    {
+      "id": "8c07d5d67896b92efaacbd50dc694ce7031084e4",
+      "sourceId": "rogerebert",
+      "category": "culture",
+      "title": "Liminal Spaces, Transitional States: Alexander Ullom on “It Ends”",
+      "titleZh": "永无止境的路：一部关于成长的恐怖片",
+      "url": "https://www.rogerebert.com/interviews/alexander-ullom-it-ends-interview",
+      "author": "Zachary Lee",
+      "publishedAt": "2026-08-21T13:00:00.000Z",
+      "image": "https://www.rogerebert.com/wp-content/uploads/2026/08/IT-ENDS_BTS_Alex-Ullom_Credit-Chris-Violette_037.jpg",
+      "readingMinutes": 11,
+      "score": 31,
+      "rank": 9,
+      "review": {
+        "substance": {
+          "score": 6,
+          "note": "The interview argues that liminality and ritual are the generation's response to dissolved moral structures, and that silly questions are a new unifying truth — a position argued through the film's design and the director's biography, though it never generalizes beyond the film's own themes."
+        },
+        "surprise": {
+          "score": 7,
+          "note": "Points at the unnoticed idea that online desensitization grinds down an emotional reservoir, and that silly debates like 'gorilla vs. bear' are a spiritual substitute for religion — a specific paradox worth mentioning."
+        },
+        "accessible": {
+          "score": 7,
+          "note": "The film's premise is explained in plain terms, and the few references (Backrooms, Russian Brick Video) are either glossed or familiar to a general audience; the interview format keeps it conversational."
+        },
+        "relevance": {
+          "score": 5,
+          "note": "The reader who has felt the meaninglessness of modern life or the pull of online numbness will see their own experience reflected, but there is no action they will take differently — it is a meditation, not a call to change."
+        },
+        "quality": {
+          "score": 6,
+          "note": "The interview is well-edited and flows naturally, but several themes (liminality, desensitization, the value of connection) recur across answers, and a few tangents (Clif Bars, the next film) could be trimmed without loss."
+        }
+      },
+      "summary": {
+        "zh": {
+          "thesis": "《It Ends》用一条无限延伸的公路和循环的恐怖，隐喻了当代年轻人的生存困境：在失去传统支柱后，唯有依靠人际关系和简单的快乐才能找到意义。",
+          "text": "导演亚历山大·尤洛姆的《It Ends》把恐怖片和闲聊片混在一起，讲四个大学毕业生深夜开车，却驶入一条永无止境的路，每次停下都只有90秒喘息，然后被尖叫的人群围攻。这像极了当代年轻人的困境：前方没有目的地，身后没有退路。\n\n## 1. 没有地图的成长\n\n尤洛姆说，他们这代人失去了传统的生活支柱——成家、买房、信仰都没了，只剩下一个漫长的过渡期。就像“后室”里的无限空间，没有“到达”的概念。成长不再是翻过一座山，而是在一片迷雾中摸索。\n\n## 2. 仪式是心理的创可贴\n\n片中角色用尖叫排解恐惧，用表情包让大脑放松，用跳舞对抗资本主义对情绪的剥削。尤洛姆自己也开始爬消防梯到屋顶晒太阳，重新读书。这些看似无用的仪式，其实是把无法承受的永恒焦虑，缩小成可以应付的小动作。\n\n## 3. 傻问题才是解药\n\n尤洛姆认为，既然客观真理不存在，那和好友争论“熊和猩猩谁厉害”就成了最有价值的辩论——那是一种精神战斗，是连接彼此的纽带。在恐怖无意义的生活里，唯一能做的，就是倾听他人，一起度过这段过渡期。\n\n《It Ends》不是告诉你如何逃离无限公路，而是教你如何在其中与人相拥。"
+        }
+      }
+    },
+    {
+      "id": "4ac1f4c245687969aa4c4362324e5a85c2082feb",
+      "sourceId": "ruanyifeng",
+      "category": "tech",
+      "title": "科技爱好者周刊（第 409 期）：程序员的职业未来",
+      "titleZh": "程序员要失业？AI 只是让码农变成『监工』",
+      "url": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-409.html",
+      "author": null,
+      "publishedAt": "2026-08-20T23:53:54.000Z",
+      "image": "https://cdn.beekka.com/blogimg/asset/202608/bg2026082001.webp",
+      "readingMinutes": 12,
+      "score": 31,
+      "rank": 10,
+      "review": {
+        "substance": {
+          "score": 6,
+          "note": "The lead essay argues that AI coding agents will permanently reshape software development as an industrial process, with specific predictions like the decline of niche languages and the rise of automated code quality standards. The mechanism—industrialization driving AI adoption—generalizes to other knowledge work, but the argument is mostly one-sided and doesn't engage deeply with counterarguments."
+        },
+        "surprise": {
+          "score": 6,
+          "note": "The claim that AI will not eliminate programmers but will force them to work more intensively, and that niche languages will be rewritten by AI, is a fresh angle on the familiar AI-takes-jobs debate. The specific prediction about Zig/Clojure/Elixir being replaced is memorable, but it's not a single quotable sentence that overturns a core belief."
+        },
+        "accessible": {
+          "score": 7,
+          "note": "The essay uses terms like 'coding agent' and 'LLM' but explains them in context. The rest of the digest covers varied topics with plain language, though some items assume tech familiarity (e.g., SSH, PostgreSQL). Overall, a general reader can follow without deep domain knowledge."
+        },
+        "relevance": {
+          "score": 6,
+          "note": "For a programmer, the predictions directly affect their career choices—whether to learn niche languages or focus on AI review skills. For a general reader, the broader theme of AI's impact on work is relevant, but the specific predictions are industry-specific. The digest also touches on consumer topics like tipping and electric planes, but the core is tech-industry focused."
+        },
+        "quality": {
+          "score": 6,
+          "note": "The digest is well-structured with clear sections, but the lead essay repeats its main point several times (e.g., the pressure on programmers is mentioned in multiple predictions). Some items are brief and could be cut without loss, but overall the writing is clean and each section serves a purpose."
+        }
+      },
+      "summary": {
+        "zh": {
+          "thesis": "AI 不会让程序员消失，但会重塑职业：手工编码将受限，程序员主要变成 AI 的审查者和优化者。",
+          "text": "程序员这个职业将来会怎样？很多人担心 AI 会让程序员失业，但一位老外的预测更靠谱：AI 不会消灭程序员，而是把程序员变成『监工』。\n\n## 1. 软件生产是工业流程，不是手工作坊\n\n商业软件开发的本质是工业化：提高效率、降低成本、保证质量。AI 正好符合这个要求，所以它会永久融入开发流程，就像流水线取代手工制造，但工人没消失，只是换了个岗位。\n\n## 2. 手工编码将受严格限制\n\n未来，公司会逼着程序员多用编码代理（coding agent），降低技能门槛，增加工作强度。冷门语言项目可能被 AI 重写成主流语言，手工编码只适合业余爱好。\n\n## 3. 程序员变成 AI 的『监工』\n\n程序员的主要工作不再是亲手写代码，而是帮助 AI 变好、审查 AI 生成的代码、测试改动、减少错误。就像工厂质检员，不用自己造零件，但要保证零件合格。\n\n一句话总结：AI 不会让程序员失业，但会让他们从『手工匠人』变成『AI 监工』，适应变化的人才有未来。"
+        }
+      }
+    },
+    {
+      "id": "56ba98928aa01e37a6f536e33bdbd59e2ec91771",
+      "sourceId": "restofworld",
+      "category": "business",
+      "title": "A dumpling shop becomes a poster child of AI adoption in China",
+      "titleZh": "一家饺子馆成了中国AI应用的代言人",
+      "url": "https://restofworld.org/2026/china-ai-adoption-jinguyuan/",
+      "author": "Viola Zhou",
+      "publishedAt": "2026-08-21T13:00:00.000Z",
+      "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_dumpling_shop_final-768x432.jpg",
       "readingMinutes": 3,
       "score": 30,
       "rank": 11,
       "review": {
         "substance": {
           "score": 5,
-          "note": "The article reports a study's findings that different mosquito species prefer different people based on skin microbiome, but it mostly relays the study's results without adding a deeper synthesis or generalizable mechanism beyond the specific findings."
+          "note": "The piece argues that China's AI enthusiasm is a cultural and economic stance, using the dumpling shop owner as a case study, but the argument is mostly carried by the reporter's observations and the owner's quotes rather than a novel mechanism that generalizes elsewhere."
         },
         "surprise": {
-          "score": 7,
-          "note": "It overturns the common belief that some people are universally attractive to mosquitoes, revealing that attractiveness is species-specific, but the key insight is stated plainly without a memorable quotable sentence."
+          "score": 6,
+          "note": "It highlights the contrast between Western AI anxiety and Chinese eagerness, which is a known but underappreciated point, and the owner's quote about steam engines is memorable, though not a single sentence that overturns a deeply held belief."
         },
         "accessible": {
           "score": 7,
-          "note": "The article explains technical terms like 'volatile organic compounds' and 'microbiome' in plain language, and the experiment is described in a way that requires no prior knowledge of entomology."
+          "note": "The piece explains AI agents and skills in plain terms, and the dumpling shop setting makes it relatable, though some familiarity with AI discourse helps."
         },
         "relevance": {
           "score": 5,
-          "note": "The reader might reconsider their mosquito repellent strategy or understand why they get bitten more in certain areas, but the article does not prompt a specific action beyond general awareness."
+          "note": "It offers a glimpse into a different cultural attitude toward AI, which is interesting but does not directly change the reader's actions or touch a system they live inside."
         },
         "quality": {
-          "score": 6,
-          "note": "The article is concise and well-structured, but it repeats the main finding about species-specific attraction multiple times, and some sections like the related stories list could be trimmed without loss."
+          "score": 7,
+          "note": "The piece is well-structured and concise, with no obvious padding, but it relies heavily on a single anecdote and could have benefited from more depth on the broader survey data."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "没有谁是所有蚊子的最爱，但每个人至少会吸引某一种蚊子，这跟皮肤上的细菌有关。",
-          "text": "夏天被蚊子咬得满腿包，总觉得自己是“蚊子磁铁”？新研究说，你可能不是所有蚊子的菜，但至少是某一种的“心头好”。\n\n研究者让119个人把手臂伸进装满蚊子的管子（有网隔着，不会被咬），记录每种蚊子扑向谁。结果发现：没有一个人对三种蚊子都有吸引力，但所有人都至少让一种蚊子疯狂。\n\n## 1. 皮肤细菌决定你的“蚊子缘”\n\n蚊子闻的不是你的血，而是你皮肤上细菌产生的气味。每个人的皮肤细菌组合不同，所以气味也不同。\n\n研究者发现，某种细菌让库蚊避之不及，而另一些细菌则让白纹伊蚊兴奋不已，比如酮类（爱生酮饮食的人注意了）和植物味化合物。\n\n## 2. 不同蚊子，不同口味\n\n埃及伊蚊偏爱男性，因为男性皮肤细菌产生的脂肪酸气味更多。而三种蚊子都对一种果香味物质情有独钟，这物质还常用在香水里。\n\n每种蚊子都有自己的“美食清单”，这说明它们在演化上走了不同的路，各自解码人类的“气味签名”。\n\n研究者说，搞清楚这些化学线索，就能研发更有效的驱蚊剂。快一点吧，夏天等不起！"
+          "thesis": "在中国，AI被视为进步的必然，连小商户都争相采用，这与西方对AI的负面联想形成鲜明对比。",
+          "text": "北京一家饺子馆「金谷园」火了，因为它给AI智能体做了个「技能」：顾客能用AI查菜单、求推荐、排队取号。店主李波说，他想让饺子馆融入AI规划生活的未来，还引用邓小平的话：「科学技术是第一生产力」。\n\n在西方，AI常和失业、创意威胁、数据中心入侵乡村挂钩，小商户不敢宣传用AI。但在中国，大家抢着学AI，怕在竞争激烈的职场掉队。2025年民调显示，中国民众对AI的兴奋度全球最高。\n\n李波本是北邮电信硕士，毕业后没当工程师，反而开过青旅、卖甜品，最后合伙开了饺子馆。AI让他重燃对科技的热情，除了做技能，还用AI编码工具做了排队网站，甚至发代金券鼓励顾客用AI订阅。\n\n他承认技能带来的媒体关注多于实际使用，但甘当先锋：「总得有人先用起来，哪怕不好用。蒸汽机刚出来时，人们笑它不如马，但最后汽车赢了。」"
         }
       }
     },
     {
-      "id": "00069cc5dfc8276e80b905180e11dd801ef4b015",
-      "sourceId": "conversable",
-      "category": "culture",
-      "title": "Data Center Spending in US",
-      "titleZh": "美国数据中心建设狂潮：是福是祸？",
-      "url": "https://conversableeconomist.com/2026/08/20/__trashed-8/",
-      "author": "conversableeconomist",
-      "publishedAt": "2026-08-20T16:36:29.000Z",
-      "image": "https://i0.wp.com/conversableeconomist.com/wp-content/uploads/2026/08/image-7.png?resize=712%2C490&#038;ssl=1",
+      "id": "26acc3f4345b352e95be3be8f8f755daa69886ea",
+      "sourceId": "nautilus",
+      "category": "science",
+      "title": "Even Mussels Get Scared",
+      "titleZh": "连贻贝都会害怕，而且后果很严重",
+      "url": "https://nautil.us/even-mussels-get-scared-1284061/",
+      "author": "Jake Currie",
+      "publishedAt": "2026-08-20T22:00:00.000Z",
+      "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/Currie_HERO_2811d3.png?w=564",
       "readingMinutes": 3,
       "score": 30,
       "rank": 12,
       "review": {
         "substance": {
           "score": 5,
-          "note": "The piece argues that opposition to data centers is largely misguided and that AI's negative framing is overblown, but the argument is mostly a series of assertions and examples rather than a deep synthesis; the mechanism of data center spending driving blue-collar work and the comparison to other IT industries is interesting but not fully developed."
+          "note": "The article reports on a study showing mussels reduce filtration in response to chemical cues from a snail host, suggesting a fear response with ecological implications, but it does not argue a contestable position or generalize the mechanism beyond its subject."
         },
         "surprise": {
-          "score": 6,
-          "note": "The claim that data center construction spending is on track to hit $40 billion in 2026 is a specific number worth mentioning, and the point that AI has the worst PR campaign ever is a fresh angle, but the overall argument that data centers are not inherently bad is not particularly counterintuitive."
+          "score": 7,
+          "note": "It reveals the counterintuitive finding that harmless snails can scare mussels into filtering less, a specific and unexpected mechanism worth mentioning, though it does not overturn a widely held belief."
         },
         "accessible": {
-          "score": 8,
-          "note": "The article is written in plain language with minimal jargon; terms like 'on-site construction spending' are self-explanatory, and the reference to 'AI slop' is colloquial, making it easy for a general reader to follow."
+          "score": 7,
+          "note": "The subject is marine biology, but the article explains terms like 'inhalant siphon' and 'micropredator' in plain language, making it followable for a general reader."
         },
         "relevance": {
-          "score": 6,
-          "note": "The reader is unlikely to take a specific action, but the topic touches on the economy, technology, and local politics, which are systems the reader lives inside; the mention of potential health benefits from AI adds a personal stake, though it is not directly actionable."
+          "score": 5,
+          "note": "The reader has no direct stake in mussel behavior, but the ecological consequences—algae overgrowth, murky waters—affect coastal ecosystems they may care about, though no personal action is prompted."
         },
         "quality": {
-          "score": 5,
-          "note": "The piece is a blog post that meanders from data to political commentary to AI PR to health research, with several tangents that could be cut; the repeated 'maybe, just maybe' phrasing and the shift to the Works in Progress essay feel like padding, so roughly a third could be removed without losing the core point."
+          "score": 6,
+          "note": "The article is concise and well-structured, with specific numbers and quotes, but the opening and closing repeat the same point about ecological implications, and some sections could be trimmed."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "美国数据中心建设支出飙升，反对者应理性看待其经济价值和AI潜力。",
-          "text": "美国数据中心建设支出正在飙升，仅现场施工费用就可能在2026年达到400亿美元。这一趋势从2023年初开始加速，至今未见放缓迹象。\n\n## 1. 数据中心建设为何火爆？\n\n数据中心支撑着从流媒体到云存储的无数在线服务，AI的崛起更是推波助澜。建设浪潮带来大量蓝领工作，对当地经济是实实在在的利好。\n\n## 2. 反对声音站得住脚吗？\n\n反对者担忧能源、水、噪音和交通问题，但这些是任何工业项目都会面临的。若因反对AI而阻碍数据中心建设，不如直接限制芯片或智能手机生产——这显然不现实。\n\n## 3. AI的潜在好处被低估\n\nAI的负面宣传铺天盖地，但AI辅助医疗研究可能加速治愈疾病，延长人类寿命。与其盲目抵制，不如权衡利弊，拥抱技术进步。\n\n总之，数据中心建设是数字化时代的必然趋势，反对者应理性看待其价值与挑战。"
+          "thesis": "即使是小小的贻贝，也会因捕食者的存在而改变行为，进而可能引发整个生态系统的连锁反应。",
+          "text": "捕食者的影响不只是吃掉猎物。光是它们的存在，就能让食物链下游的动物改变行为，引发一连串生态变化。这种现象叫「恐惧生态学」。\n\n一项新研究发现，连贻贝也会怕小小的寄生虫。\n\n## 1. 贻贝被吓到，滤水都变慢了\n\n丹麦奥胡斯大学的海洋生物学家，把蓝贻贝（就是那种配白葡萄酒、大蒜和意大利面一起煮的）放进水族箱，再放入它的常见微捕食者——寄生扁虫「长尾虫」。\n\n这种小蠕虫会从贻贝的入水虹管钻进体内。结果，只要蠕虫在场，贻贝就会收缩虹管，滤食活动减少超过三分之一。\n\n后来又加入另一种寄生扁虫，滤食活动直接减半。\n\n## 2. 蜗牛只是个「告密者」？\n\n研究人员又做了个实验：把贻贝放进装了普通滨螺化学信号的水里。滨螺无害，但它可是长尾虫的重要宿主。\n\n惊人一幕出现了——贻贝照样害怕，滤食活动减少了42%。\n\n「蜗牛本身不害贻贝，但它的存在可能说明附近有寄生虫，」研究作者说，「这就像水里的警告标志：要当心。」\n\n不过，研究人员还没弄清贻贝到底在感知哪种化学信号——感染的、没感染的滨螺都一样。看来，只要闻到「蜗牛味」，贻贝就会闭紧嘴巴。\n\n## 3. 一只贻贝的恐惧，可能搅浑整片海\n\n一只蓝贻贝每天能过滤超过25加仑的水，而一个贻贝群可以有数百万只。如果它们集体害怕、停止滤食，后果不小：\n\n藻类可能疯长，营养循环变差，海水变浑浊，其他生物住不下去。\n\n另外，寄生虫怕冷，水温升高对它们更有利。所以随着海洋变暖，这种「恐惧效应」可能越发明显。\n\n「这就是这个反应有趣的地方，」另一位研究者说，「一只贻贝的行为变化看似小事，但蓝贻贝是海岸生态的重要角色，哪怕小改变也可能影响深远。」\n\n这一切，都源于一条小小的蠕虫。"
+        }
+      }
+    },
+    {
+      "id": "891c1cf7fd65f304b6034dcd1cc1d8a5cbf260a0",
+      "sourceId": "westenberg",
+      "category": "culture",
+      "title": "The Intellectual Circle Jerk and Why We Can't Stop",
+      "titleZh": "知识分子抱团互吹，谁还愿意思考？",
+      "url": "https://www.joanwestenberg.com/p/the-intellectual-circle-jerk-and",
+      "author": "JA Westenberg",
+      "publishedAt": "2026-08-20T20:13:33.000Z",
+      "image": "https://images.unsplash.com/photo-1679833645645-e262e042f532?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw5fHxkZWJhdGV8ZW58MHx8fHwxNzg2NjU5NDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "readingMinutes": 5,
+      "score": 30,
+      "rank": 13,
+      "review": {
+        "substance": {
+          "score": 5,
+          "note": "Argues that intellectual culture rewards agreement over challenge and that this produces a monoculture, but the mechanism (network effects, citation shell games) is never carried outside the media/publishing world into a different domain, and the piece mostly restates a familiar critique."
+        },
+        "surprise": {
+          "score": 6,
+          "note": "Points at the unnoticed cost of confirmation-seeking — that fluency in a community's dialect feels like understanding — but this is a fresh angle on a familiar topic rather than a contradiction of a belief the reader holds, and no single sentence stands out as quotable."
+        },
+        "accessible": {
+          "score": 8,
+          "note": "Uses plain language throughout; the only technical term is 'p-hacked', which is explained in context, and the world of publishing and podcasts needs no explanation for a general reader."
+        },
+        "relevance": {
+          "score": 6,
+          "note": "The reader lives inside the media ecosystem described and will recognize the dynamics in their own feeds, but the piece offers no concrete action to take beyond the vague 'read people you disagree with'."
+        },
+        "quality": {
+          "score": 5,
+          "note": "The piece is well-written and the argument is clear, but the middle third restates the opening — the same point about confirmation and the same twelve thinkers appears three times in different words, and roughly a third could be cut without loss."
+        }
+      },
+      "summary": {
+        "zh": {
+          "thesis": "当前思想文化圈陷入自我循环的互吹模式，真正意义上的创新与挑战稀缺，造成了智力上的自满与停滞。",
+          "text": "作者发现当下知识圈出了大问题：大家不是在追求新知，而是在互相附和、反复咀嚼早已公认的观点。\n\n## 1. 为啥互吹这么香\n\n认同使人舒服，挑战使人痛苦。读一本跟想法一致的书，就像泡热水澡喝气泡酒，轻松又愉快。可要是读完书还得改变自己，那就太累了。于是，人们专挑顺耳的话听，专买顺心的书看。\n\n## 2. 谁在背后推波助澜\n\n出版商和播客主早就摸透了这套。他们知道，想让读者掏钱，就得让他们觉得自己已经是天才，而不是给他们添堵。于是，同一批学者在各大平台来回转，相互引用，相互吹捧，共同维护一套看似高深实则封闭的话语体系。\n\n## 3. 这么下去会怎样\n\n大家越来越会“说”，却越来越不会“想”。嘴上引经据典，心里却早已停止质疑。不接触反对意见，不面对真正有挑战的思想，等发现路子走偏时，可能已经蒙在鼓里很久了。\n\n破局之道很简单：去读那些你讨厌的人写的书，而且是他们写得最好的那本。别急着反驳，先想想万一人家是对的呢？可惜，在互吹圈里，这么做的人往往不受待见。"
         }
       }
     },
     {
       "id": "54a7365ff9cd091b84955e0101f1379c0c58833a",
       "sourceId": "guigujushi",
-      "category": "investing",
+      "category": "living",
       "title": "我的博客如何改变了一个人的命运？",
-      "titleZh": "一条博客留言，改变了一个人的投资人生",
+      "titleZh": "一篇博客，让一位旅日网友从亏钱到盈利90%",
       "url": "https://blog.wenxuecity.com/myblog/80634/202608/15291.html",
       "author": null,
       "publishedAt": "2026-08-20T14:15:29.000Z",
       "image": "https://www.wenxuecity.com/images/twdelogo.jpg",
       "readingMinutes": 7,
-      "score": 21,
-      "rank": 13,
+      "score": 16,
+      "rank": 14,
       "review": {
         "substance": {
           "score": 3,
-          "note": "The article is essentially a testimonial from a reader, quoted at length, praising the author's blog for changing his investment approach. The author adds little beyond framing and thanks; the core content is the reader's own story, not an original argument or mechanism."
+          "note": "The article is essentially a testimonial reposted from a comment, with the author adding only brief acknowledgments and a claim that his book reached a million readers. There is no independent argument or mechanism explained beyond the reader's own narrative of switching from A-shares to US index funds."
         },
         "surprise": {
           "score": 3,
-          "note": "The only mildly surprising element is that a blog could change someone's financial trajectory, but this is a familiar anecdote in the personal finance blogging world, and the article confirms rather than overturns expectations."
+          "note": "The only mildly surprising element is the reader's claim that a blog changed his financial trajectory, but this is a single anecdote with no broader insight or counterintuitive mechanism; it confirms the familiar idea that long-term index investing works."
         },
         "accessible": {
-          "score": 7,
-          "note": "The article is written in plain language, with terms like '定投' (dollar-cost averaging) and '标普和纳指100' (S&P and Nasdaq 100) used without explanation, but the overall narrative is easy to follow for a general reader."
+          "score": 5,
+          "note": "The piece is written in plain language, but it assumes familiarity with terms like 'A股', '标普', '纳指100', and '定投' without explanation, which a non-investor would not follow."
         },
         "relevance": {
-          "score": 4,
-          "note": "For readers interested in personal finance or investing, the article might reinforce the value of long-term index investing, but it offers no new actionable insight; it is essentially a success story that is interesting but detached from the reader's own decisions."
+          "score": 3,
+          "note": "For a reader interested in personal finance, the anecdote might reinforce existing beliefs, but it offers no actionable advice or new information; it is a testimonial that does not change what the reader does."
         },
         "quality": {
-          "score": 4,
-          "note": "The article is mostly a long quote from a comment, with the author's own text limited to a brief introduction and thanks. The structure is simple, but the content is repetitive—the reader's praise is echoed in the comments, and the article could be cut by half without losing anything."
+          "score": 2,
+          "note": "The article is mostly a long quoted comment followed by a string of thank-you replies; the author's own contribution is minimal, and the structure is repetitive, with the same gratitude expressed multiple times."
         }
       },
       "summary": {
         "zh": {
-          "thesis": "一个普通网友因读到一篇博客文章，从害怕股市到重仓美股，最终获得丰厚回报，人生轨迹因此改变。",
-          "text": "有位叫「阿迪2000」的网友，旅居日本。他原本在国内炒A股，2015年及时退出，赚了几十万，从此对股市心有余悸，觉得炒股不可能赚钱。\n\n到了海外，他也不敢开户。直到2023年底，他在文学城读到一篇关于高中生冒雪返乡的博文，被作者的文笔打动，一口气读完了他的全部文章。\n\n## 一顿阅读，打通了投资任督二脉\n\n原来，这位博主是清华毕业的计算机博士，一直在教大家定投美股指数。阿迪这才明白：难赚钱的是A股，其他市场也可以投资。\n\n从2018到2023年底，他几乎没有投资收入，而投资美股的朋友资产翻倍。于是2024年，他开了账户，几乎把所有钱投入市场；2025年，又用卖房的钱买了A股里的标普和纳指100指数。\n\n## 账户涨了30%到90%\n\n如今，他的账户根据产品和时间不同，有了30%到90%的利润。更重要的是，他认同了博主的长期投资理念。\n\n这位博主就是「硅谷居士」。阿迪感叹：虽然错过了19到23年的五年，但有幸认识居士，可以说改变了我的人生走向。\n\n## 免费分享，改变人生\n\n硅谷居士写博客纯粹是免费分享，他的书还有免费版，估计上百万人看过。他不仅教投资，还常帮网友解答疑惑，把投资理念用几句话讲清楚。\n\n网友留言说，居士的分享改变了很多人，有人因此提早实现退休。可见，好的分享真的能改变命运。"
+          "thesis": "作者的一篇关于定投美股指数的博客，改变了网友阿迪2000的投资理念，使其从害怕股市到重仓投资，获得可观收益。",
+          "text": "网友「阿迪2000」旅居日本，以前在国内炒A股，亏怕了，2015年清仓买房，之后一直不敢碰股市。直到2023年底，读到作者一篇回忆高中返乡的文章，被深深打动，一口气读完了作者全部文章。\n\n那篇文章让阿迪明白：原来挣钱难的只是A股，其他市场可以投资。2024年初，阿迪开户，几乎把全部积蓄投入美股指数，2025年又把卖房钱买了A股里的标普和纳指100指数。\n\n他告诉作者：如今账户有30%到90%的利润，更重要的是理念和作者高度一致，觉得作者改变了自己的人生走向。\n\n作者感慨：博客不只是记录，还可能改变陌生人的命运。"
         }
       }
     }
@@ -881,58 +924,58 @@
   "folded": [],
   "rejected": [
     {
-      "title": "Even Mussels Get Scared",
-      "url": "https://nautil.us/even-mussels-get-scared-1284061/",
-      "sourceId": "nautilus",
-      "score": 29,
+      "title": "College EA Meetups Everywhere: Call For Organizers",
+      "url": "https://www.astralcodexten.com/p/college-ea-meetups-everywhere-call",
+      "sourceId": "acx",
+      "score": 27,
       "review": {
         "substance": {
-          "score": 4,
-          "note": "The article reports on a study showing mussels reduce filtration in response to predator cues, but it mostly relays the findings without a deeper synthesis or a mechanism that generalizes beyond this case."
+          "score": 5,
+          "note": "The piece is a call to action with practical guidance, but the core argument — that college EA groups need organizers and that anyone can do it — is a position argued from a single line of reasoning (the bottleneck is people, not money) and does not generalize beyond its own subject."
         },
         "surprise": {
-          "score": 7,
-          "note": "It reveals the unexpected fact that mussels respond to harmless snails as a warning sign, which is a specific and counterintuitive detail worth mentioning."
+          "score": 5,
+          "note": "The piece offers a fresh angle on the familiar topic of community organizing by lowering the barrier to entry ('minimum viable effort is to fill out the organizer form... then show up holding a sign'), but it confirms what an informed reader might suspect about EA's growth strategy rather than overturning a belief."
         },
         "accessible": {
-          "score": 8,
-          "note": "The subject is explained in plain language with minimal jargon; terms like 'inhalant siphon' are described in context, making it easy for a general reader to follow."
+          "score": 6,
+          "note": "The subject is community organizing, which the reader does not need special knowledge to follow; terms like 'EA' and 'ACX' are used without explanation, but the overall instructions are plain and concrete."
         },
         "relevance": {
-          "score": 4,
-          "note": "The article is interesting but detached from the reader's daily life; it concerns marine ecology and has no direct action the reader would take."
+          "score": 5,
+          "note": "The reader who is a college student or near a campus could act by signing up to host a meetup, but for most readers this is genuinely interesting yet detached — it is about a specific movement's internal capacity building."
         },
         "quality": {
           "score": 6,
-          "note": "The article is concise and well-structured, but it repeats the key finding about filtration reduction multiple times and includes promotional content that could be cut."
+          "note": "The piece is well-structured with clear FAQs, but roughly a third could be cut: the opening pitch repeats the call to action, and several FAQ answers restate the same advice about low-commitment and fun."
         }
       }
     },
     {
-      "title": "The Intellectual Circle Jerk and Why We Can't Stop",
-      "url": "https://www.joanwestenberg.com/p/the-intellectual-circle-jerk-and",
-      "sourceId": "westenberg",
-      "score": 28,
+      "title": "Data Center Spending in US",
+      "url": "https://conversableeconomist.com/2026/08/20/__trashed-8/",
+      "sourceId": "conversable",
+      "score": 27,
       "review": {
         "substance": {
-          "score": 5,
-          "note": "Argues that intellectual culture rewards agreement over challenge and that this produces a monoculture, but the mechanism (network effects) is described rather than demonstrated with evidence, and the argument never generalizes beyond the author's own field of media and publishing."
+          "score": 4,
+          "note": "The author argues that opposition to data centers is largely misguided and that AI's negative framing is overblown, but the argument is mostly a series of assertions and rhetorical questions rather than a deep mechanism or synthesis that would survive removal."
         },
         "surprise": {
-          "score": 5,
-          "note": "Points at the unnoticed cost of confirmation-seeking in intellectual life, but the claim that we read to feel smart is familiar to most informed readers, and there is no single sentence worth repeating verbatim."
+          "score": 6,
+          "note": "The piece points out that data center construction spending is surging and that opposition is not slowing it, which is a specific and somewhat counterintuitive observation, but it does not overturn a widely held belief or offer a single quotable sentence."
         },
         "accessible": {
           "score": 7,
-          "note": "Uses plain language throughout, with only a few terms like 'p-hacked' and 'monoculture' that are explained in context or are common enough for a general reader."
+          "note": "The article is written in plain language with minimal jargon; the only technical term is 'data centers,' which is explained implicitly through examples like streaming and cloud storage."
         },
         "relevance": {
           "score": 5,
-          "note": "The reader is invited to change their reading habits and to seek out stronger opposing views, but the action is vague and the piece does not connect to a system the reader lives inside beyond their own media consumption."
+          "note": "The reader is unlikely to change their own behavior, but the piece touches on systems they live inside—energy, construction, AI's societal impact—though the connection is diffuse and not actionable."
         },
         "quality": {
-          "score": 6,
-          "note": "The piece is well-written and has a clear structure, but the middle section repeats the opening argument in different words, and the final paragraph explicitly acknowledges the irony that the piece itself will be shared among those who agree, which undercuts its own point."
+          "score": 5,
+          "note": "The piece is a short blog post with a clear structure, but it repeats the same point about opposition being misguided in several forms, and the digression into AI's PR problems and health research feels tangential."
         }
       }
     },
@@ -943,24 +986,52 @@
       "score": 24,
       "review": {
         "substance": {
-          "score": 4,
+          "score": 3,
           "note": "The piece is a personal travelogue with observations about Manhattan's contrasts, but it offers no contestable position or transferable mechanism; the insights are anecdotal and stay within the walk itself."
         },
         "surprise": {
-          "score": 5,
-          "note": "It points at unnoticed details like the world's worst Starbucks and the survival of historic blocks, but these are fleeting and not likely to be repeated verbatim."
+          "score": 4,
+          "note": "It points at unnoticed details like the world's worst Starbucks and the survival of historic blocks, but these are fleeting and not surprising enough to retell; nothing overturns a held belief."
         },
         "accessible": {
-          "score": 7,
-          "note": "No technical jargon; the narrative is plain and easy to follow, though some local references (POPS, Fraunces Tavern) are unexplained."
+          "score": 8,
+          "note": "Plain language throughout, with only a few place names and cultural references that are self-explanatory; a 15-year-old could follow the narrative."
         },
         "relevance": {
           "score": 3,
-          "note": "The reader has no stake in this walk; it is a detached travelogue with no action or system they live inside."
+          "note": "The reader has no stake in the walk; it is a detached travelogue with no action or system they live inside, though it may inspire a vague desire to visit NYC."
         },
         "quality": {
+          "score": 6,
+          "note": "The narrative is well-paced and vivid, but several sections (the Starbucks aside, the list of skipped detours) could be trimmed without loss; roughly a third is padding."
+        }
+      }
+    },
+    {
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "sourceId": "hn",
+      "score": 23,
+      "review": {
+        "substance": {
+          "score": 3,
+          "note": "The title asserts a causal claim — AI companies destroy physical books — and proposes a concrete remedy, but with no body available the argument cannot be assessed beyond the headline."
+        },
+        "surprise": {
+          "score": 6,
+          "note": "The claim that AI companies are destroying rare books is counterintuitive and likely contradicts the reader's assumption that digitization preserves books, but no specific evidence or quotable sentence is present."
+        },
+        "accessible": {
+          "score": 7,
+          "note": "The title is plain language about books and AI, requiring no domain knowledge, though the absence of body means no explanation of the mechanism."
+        },
+        "relevance": {
           "score": 5,
-          "note": "The piece is well-written but padded with many asides and name-drops that could be cut without loss; roughly a third is extraneous."
+          "note": "The reader may feel a stake in cultural preservation and the actions of AI companies, but no direct personal action is specified beyond a general call to scan books."
+        },
+        "quality": {
+          "score": 2,
+          "note": "With only a title, there is no structure or evidence to judge; the piece cannot be evaluated for craft."
         }
       }
     },
@@ -968,27 +1039,27 @@
       "title": "'Darth Vader' Wants Flock in San Diego",
       "url": "https://www.404media.co/darth-vader-spoke-in-support-of-flock-at-san-diego-city-council-meeting/",
       "sourceId": "404media",
-      "score": 19,
+      "score": 21,
       "review": {
         "substance": {
           "score": 2,
-          "note": "The piece is a brief news item relaying that someone dressed as Darth Vader spoke at a San Diego council meeting in support of Flock surveillance cameras; it offers no independent analysis, argument, or mechanism beyond the anecdote itself."
+          "note": "The piece is a brief news item relaying that someone dressed as Darth Vader spoke at a San Diego council meeting in support of Flock surveillance cameras; it offers no independent analysis, context, or argument beyond the anecdote itself."
         },
         "surprise": {
           "score": 4,
-          "note": "The only surprising element is the image of Darth Vader at a city council meeting, but the piece does not develop it into a larger insight or a quotable line; it is a curiosity that fades quickly."
+          "note": "The image of Darth Vader at a city council meeting is mildly amusing and unexpected, but the piece does not develop any surprising insight or reveal a hidden mechanism; the novelty is the costume alone."
         },
         "accessible": {
-          "score": 7,
-          "note": "The article is entirely plain language and requires no background knowledge; anyone can follow the anecdote, though the reference to Flock cameras is not explained."
+          "score": 8,
+          "note": "The article is written in plain language and requires no domain knowledge; the only reference is to Darth Vader, which is widely known."
         },
         "relevance": {
           "score": 2,
-          "note": "The reader has no stake in a San Diego council meeting or in Flock's local rollout; it is a detached oddity with no action or system the reader touches."
+          "note": "The reader has no stake in this specific San Diego committee meeting or in Flock's local approval; it is a curiosity item with no connection to the reader's own life or systems they live inside."
         },
         "quality": {
-          "score": 4,
-          "note": "The piece is short and to the point, but it is padded with subscription prompts and a call for tips that could be cut; the core anecdote is thin and the article ends abruptly."
+          "score": 5,
+          "note": "The piece is extremely short and contains no padding, but it is also incomplete: it ends with subscription prompts and a call for tips, leaving the story unresolved; the craft is minimal but not sloppy."
         }
       }
     },
@@ -996,27 +1067,27 @@
       "title": "Kagi added a setting for removing paywalled links from search results",
       "url": "https://kagi.com/changelog",
       "sourceId": "hn",
-      "score": 15,
+      "score": 16,
       "review": {
         "substance": {
           "score": 2,
-          "note": "The article is a changelog of Kagi updates, with no argument or synthesis; the only substantive item is the new paywall-link setting, but it is merely listed without any analysis or mechanism."
+          "note": "The article is a changelog of Kagi updates, with no argument or synthesis; the only substantive item is the new paywall-removal setting, but it is presented as a bullet point with no analysis."
         },
         "surprise": {
           "score": 3,
-          "note": "The paywall setting is a small novelty for Kagi users, but it is not counter-intuitive and nothing here would be worth repeating at a dinner table."
+          "note": "The paywall-removal setting is mildly unexpected for a search engine, but it is not developed and there is no sentence worth repeating."
         },
         "accessible": {
           "score": 5,
-          "note": "The text is plain and jargon-light, but it assumes familiarity with Kagi's product ecosystem and its feature names; a non-user would struggle to care."
+          "note": "Mostly plain language, but terms like 'lenses', 'bang', and 'LaTex' are used without explanation, assuming familiarity with Kagi's ecosystem."
         },
         "relevance": {
-          "score": 3,
-          "note": "Only relevant to Kagi users who might change their search settings; for everyone else it is a product update with no stake."
+          "score": 4,
+          "note": "The paywall-removal setting could affect how the reader finds news, but it is buried in a list and not actionable without using Kagi."
         },
         "quality": {
           "score": 2,
-          "note": "The piece is a list of fixes and features with no narrative; many entries are redundant or trivial, and the whole could be cut to a single line about the paywall setting."
+          "note": "The piece is a list of fixes and features with no narrative; many items are trivial bug reports, and the structure is just a catalog, so most could be deleted without loss."
         }
       }
     },
@@ -1028,23 +1099,23 @@
       "review": {
         "substance": {
           "score": 2,
-          "note": "This is a technical reference document that relays API usage details without any original synthesis or argument; the author's contribution is purely organizational, and the mechanism described (image tokenization) is not generalized to any other domain."
+          "note": "This is a technical reference document that relays API usage details without any original argument or synthesis; the reader takes away a list of methods and limits, not an insight."
         },
         "surprise": {
           "score": 2,
-          "note": "There is no counter-intuitive claim or hidden mechanism; it is a straightforward how-to guide that confirms what an informed reader would expect from an API reference."
+          "note": "No counter-intuitive claim or hidden mechanism; it is a straightforward how-to guide that confirms what an informed reader would expect from an API reference."
         },
         "accessible": {
           "score": 2,
-          "note": "The piece is dense with API jargon (base64, file_id, content blocks, endpoints) and assumes familiarity with OpenAI-compatible APIs; a non-practitioner could not follow or retell it."
+          "note": "Assumes familiarity with APIs, base64 encoding, and OpenAI-compatible formats; a non-practitioner would struggle to follow the code examples and jargon."
         },
         "relevance": {
           "score": 2,
-          "note": "This is relevant only to developers actively using this specific API; the reader has no stake unless they are building with this model, which is a niche hobbyist or professional interest."
+          "note": "Only relevant to developers actively using this specific API; the general reader has no stake in the details of image upload methods."
         },
         "quality": {
           "score": 5,
-          "note": "The structure is clear and the limits are tabulated, but the piece repeats the same three methods across OpenAI, Anthropic, and Responses APIs, and much could be cut without losing information."
+          "note": "Well-organized with clear sections and tables, but it is inherently a reference list; much could be cut without losing the core information, and it repeats the same three methods across multiple API endpoints."
         }
       }
     }
